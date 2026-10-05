@@ -1,0 +1,551 @@
+{
+  "id": "day15-scope",
+  "bookId": "n2",
+  "titleJa": "無関係・限定",
+  "groupJa": "文法",
+  "articles": [
+    {
+      "id": "n2.day15-scope.grammar.0",
+      "titleJa": "～にかかわらず",
+      "paragraphIds": [
+        "n2.day15-scope.grammar.0.anchor",
+        "n2.day15-scope.grammar.0.logic",
+        "n2.day15-scope.grammar.0.connection",
+        "n2.day15-scope.grammar.0.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "年齢にかかわらず、誰でも応募できます。",
+          "translationId": "n2.day15-scope.grammar.0.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day15-scope.grammar.1",
+      "titleJa": "～を問わず",
+      "paragraphIds": [
+        "n2.day15-scope.grammar.1.anchor",
+        "n2.day15-scope.grammar.1.logic",
+        "n2.day15-scope.grammar.1.connection",
+        "n2.day15-scope.grammar.1.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "経験の有無を問わず、応募できます。",
+          "translationId": "n2.day15-scope.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day15-scope.grammar.2",
+      "titleJa": "～はともかく",
+      "paragraphIds": [
+        "n2.day15-scope.grammar.2.anchor",
+        "n2.day15-scope.grammar.2.logic",
+        "n2.day15-scope.grammar.2.connection",
+        "n2.day15-scope.grammar.2.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "値段はともかく、品質はとてもいい。",
+          "translationId": "n2.day15-scope.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day15-scope.grammar.3",
+      "titleJa": "～はさておき",
+      "paragraphIds": [
+        "n2.day15-scope.grammar.3.anchor",
+        "n2.day15-scope.grammar.3.logic",
+        "n2.day15-scope.grammar.3.connection",
+        "n2.day15-scope.grammar.3.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "冗談はさておき、本題に入りましょう。",
+          "translationId": "n2.day15-scope.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day15-scope.grammar.4",
+      "titleJa": "～にすぎない",
+      "paragraphIds": [
+        "n2.day15-scope.grammar.4.anchor",
+        "n2.day15-scope.grammar.4.logic",
+        "n2.day15-scope.grammar.4.connection",
+        "n2.day15-scope.grammar.4.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "これは私個人の意見にすぎない。",
+          "translationId": "n2.day15-scope.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day15-scope.grammar.5",
+      "titleJa": "～にほかならない",
+      "paragraphIds": [
+        "n2.day15-scope.grammar.5.anchor",
+        "n2.day15-scope.grammar.5.logic",
+        "n2.day15-scope.grammar.5.connection",
+        "n2.day15-scope.grammar.5.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "成功の理由は、毎日の努力にほかならない。",
+          "translationId": "n2.day15-scope.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "n2.day15-scope.question.0",
+      "prompt": [
+        {
+          "textId": "n2.day15-scope.question.0.review-instruction"
+        },
+        {
+          "ja": "経験があるかどうか（　）、参加者は同じ基礎クラスから始めます。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "にかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "にもかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "にすぎず"
+          }
+        ],
+        [
+          {
+            "ja": "はともかく"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day15-scope.question.0.explanation",
+      "instructionId": "n2.day15-scope.question.0.anchor"
+    },
+    {
+      "id": "n2.day15-scope.question.1",
+      "prompt": [
+        {
+          "textId": "n2.day15-scope.question.1.review-instruction"
+        },
+        {
+          "ja": "雨が降るか降らないか（　）、明日の試合は行われます。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "はさておき"
+          }
+        ],
+        [
+          {
+            "ja": "にすぎず"
+          }
+        ],
+        [
+          {
+            "ja": "にかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "にほかならず"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day15-scope.question.1.explanation",
+      "instructionId": "n2.day15-scope.question.1.anchor"
+    },
+    {
+      "id": "n2.day15-scope.question.2",
+      "prompt": [
+        {
+          "textId": "n2.day15-scope.question.2.review-instruction"
+        },
+        {
+          "ja": "この大会は、国籍（　）誰でも参加できる。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "にすぎず"
+          }
+        ],
+        [
+          {
+            "ja": "を問わず"
+          }
+        ],
+        [
+          {
+            "ja": "はともかく"
+          }
+        ],
+        [
+          {
+            "ja": "にほかならない"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day15-scope.question.2.explanation",
+      "instructionId": "n2.day15-scope.question.2.anchor"
+    },
+    {
+      "id": "n2.day15-scope.question.3",
+      "prompt": [
+        {
+          "textId": "n2.day15-scope.question.3.review-instruction"
+        },
+        {
+          "ja": "年齢や性別（　）、幅広い人材を募集しています。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "にすぎず"
+          }
+        ],
+        [
+          {
+            "ja": "はさておき"
+          }
+        ],
+        [
+          {
+            "ja": "を問わず"
+          }
+        ],
+        [
+          {
+            "ja": "にもかかわらず"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day15-scope.question.3.explanation",
+      "instructionId": "n2.day15-scope.question.3.anchor"
+    },
+    {
+      "id": "n2.day15-scope.question.4",
+      "prompt": [
+        {
+          "ja": "デザインは（　）、このパソコンは性能がいい。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "にすぎない"
+          }
+        ],
+        [
+          {
+            "ja": "ともかく"
+          }
+        ],
+        [
+          {
+            "ja": "にかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "を問わず"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day15-scope.question.4.explanation",
+      "instructionId": "n2.day15-scope.question.4.anchor"
+    },
+    {
+      "id": "n2.day15-scope.question.5",
+      "prompt": [
+        {
+          "ja": "彼の方法が正しいかどうかは（　）、結果は出ている。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ともかく"
+          }
+        ],
+        [
+          {
+            "ja": "にすぎない"
+          }
+        ],
+        [
+          {
+            "ja": "にかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "にほかならない"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day15-scope.question.5.explanation",
+      "instructionId": "n2.day15-scope.question.5.anchor"
+    },
+    {
+      "id": "n2.day15-scope.question.6",
+      "prompt": [
+        {
+          "ja": "費用の話は（　）、まず実現できるか検討しましょう。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "にかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "さておき"
+          }
+        ],
+        [
+          {
+            "ja": "にすぎない"
+          }
+        ],
+        [
+          {
+            "ja": "を問わず"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day15-scope.question.6.explanation",
+      "instructionId": "n2.day15-scope.question.6.anchor"
+    },
+    {
+      "id": "n2.day15-scope.question.7",
+      "prompt": [
+        {
+          "ja": "前置きは（　）、すぐに結論から話してください。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "にかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "にほかならず"
+          }
+        ],
+        [
+          {
+            "ja": "さておき"
+          }
+        ],
+        [
+          {
+            "ja": "にすぎず"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day15-scope.question.7.explanation",
+      "instructionId": "n2.day15-scope.question.7.anchor"
+    },
+    {
+      "id": "n2.day15-scope.question.8",
+      "prompt": [
+        {
+          "ja": "私はただ、聞いたことを伝えた（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "を問わず"
+          }
+        ],
+        [
+          {
+            "ja": "を問わない"
+          }
+        ],
+        [
+          {
+            "ja": "にすぎない"
+          }
+        ],
+        [
+          {
+            "ja": "はさておかない"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day15-scope.question.8.explanation",
+      "instructionId": "n2.day15-scope.question.8.anchor"
+    },
+    {
+      "id": "n2.day15-scope.question.9",
+      "prompt": [
+        {
+          "textId": "n2.day15-scope.question.9.review-instruction"
+        },
+        {
+          "ja": "彼の発言は、個人的な意見（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "を問わず"
+          }
+        ],
+        [
+          {
+            "ja": "にすぎない"
+          }
+        ],
+        [
+          {
+            "ja": "にかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "にほかならない"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day15-scope.question.9.explanation",
+      "instructionId": "n2.day15-scope.question.9.anchor"
+    },
+    {
+      "id": "n2.day15-scope.question.10",
+      "prompt": [
+        {
+          "ja": "このプロジェクトが成功したのは、チーム全員が協力したから（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "に限らず"
+          }
+        ],
+        [
+          {
+            "ja": "にほかならない"
+          }
+        ],
+        [
+          {
+            "ja": "はともかく"
+          }
+        ],
+        [
+          {
+            "ja": "を問わず"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day15-scope.question.10.explanation",
+      "instructionId": "n2.day15-scope.question.10.anchor"
+    },
+    {
+      "id": "n2.day15-scope.question.11",
+      "prompt": [
+        {
+          "textId": "n2.day15-scope.question.11.review-instruction"
+        },
+        {
+          "ja": "今回の失敗は、準備不足が招いた結果（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "にほかならない"
+          }
+        ],
+        [
+          {
+            "ja": "にすぎない"
+          }
+        ],
+        [
+          {
+            "ja": "はさておき"
+          }
+        ],
+        [
+          {
+            "ja": "にかかわらず"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day15-scope.question.11.explanation",
+      "instructionId": "n2.day15-scope.question.11.anchor"
+    }
+  ],
+  "wordRefs": []
+}

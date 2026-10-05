@@ -1,0 +1,245 @@
+.vocabulary-toolbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.vocabulary-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.word-row {
+  align-items: flex-start;
+}
+.row-number {
+  padding-top: 5px;
+}
+.word-content {
+  flex: 1;
+  min-width: 0;
+}
+.word-reading {
+  color: var(--muted);
+  margin: 0 0 5px;
+  letter-spacing: 0.06em;
+}
+.word-headword {
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0 0 8px;
+}
+.word-meaning {
+  margin: 0;
+}
+.word-actions {
+  align-items: center;
+}
+.word-note {
+  margin-top: 12px;
+}
+.word-note summary {
+  color: var(--accent);
+}
+.word-note p {
+  margin-top: 8px;
+}
+.grammar-layout {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+}
+.contents {
+  position: sticky;
+  top: 24px;
+  align-self: start;
+  max-height: 85vh;
+  overflow: auto;
+}
+.contents > span {
+  display: block;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+.contents a {
+  display: flex;
+  gap: 12px;
+  padding: 10px 0;
+  border-top: 1px solid var(--line);
+}
+.contents small {
+  color: var(--muted);
+}
+.grammar-article {
+  scroll-margin-top: 25px;
+}
+.grammar-article h2 {
+  margin-bottom: 22px;
+}
+.grammar-article > p {
+  line-height: 1.95;
+}
+.grammar-rule {
+  margin-top: 25px;
+}
+.grammar-rule h3 {
+  font-size: 17px;
+  margin-bottom: 12px;
+}
+.assessment-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18px;
+  font-size: 14px;
+}
+.assessment-heading > span {
+  font-size: 12px;
+  white-space: nowrap;
+  color: var(--muted);
+}
+progress {
+  appearance: none;
+  width: 100%;
+  border: 0;
+  display: block;
+  background: var(--line);
+  margin-bottom: 28px;
+}
+progress::-webkit-progress-bar {
+  background: var(--line);
+}
+progress::-webkit-progress-value {
+  background: var(--accent);
+}
+.question {
+  margin: 0 0 20px;
+}
+.question legend {
+  line-height: 1.8;
+  width: 100%;
+  padding: 0;
+}
+.question-number {
+  font: italic 20px var(--font-serif);
+  color: var(--accent);
+  display: inline-block;
+  margin-right: 16px;
+}
+.question > .muted {
+  font-size: 14px;
+  margin-top: 14px;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 18px;
+}
+.options label {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 15px 18px;
+  background: var(--surface);
+  cursor: pointer;
+}
+.options input {
+  accent-color: var(--accent);
+  margin: 0;
+  flex-shrink: 0;
+}
+.option-letter {
+  font-size: 12px;
+  color: var(--muted);
+}
+.options .selected {
+  background: var(--soft);
+  border-color: var(--accent);
+}
+.options .answer-key {
+  border-color: var(--green);
+  background: var(--green-soft);
+}
+.answer-input {
+  margin-top: 15px;
+  width: 100%;
+  max-width: 500px;
+}
+.feedback {
+  margin-top: 20px;
+  padding: 18px 22px;
+  border-radius: 8px;
+  background: var(--soft);
+  font-size: 14px;
+}
+.correct .feedback {
+  background: var(--green-soft);
+}
+.feedback p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.feedback strong {
+  color: var(--accent);
+}
+.correct .feedback strong {
+  color: var(--green);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 22px 0;
+  color: var(--muted);
+}
+.submit-area {
+  text-align: center;
+  margin-top: 35px;
+}
+.submit-area p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.result-panel {
+  padding: 25px;
+  background: var(--green-soft);
+  border-radius: var(--radius);
+  margin-bottom: 30px;
+}
+.result-panel h2 {
+  font-size: 21px;
+}
+.result-panel > strong {
+  display: block;
+  font-size: 25px;
+  margin: 12px 0 20px;
+}
+@media (max-width: 780px) {
+  .grammar-layout {
+    grid-template-columns: 1fr;
+  }
+  .contents {
+    position: static;
+    max-height: 180px;
+  }
+  .word-row {
+    position: relative;
+  }
+  .example-japanese .icon-button span {
+    display: none;
+  }
+  .options label {
+    padding: 13px;
+  }
+  .assessment-heading {
+    display: block;
+    margin-bottom: 16px;
+  }
+  .assessment-heading > p {
+    margin-bottom: 4px;
+  }
+  .result-panel > strong {
+    font-size: 21px;
+  }
+}

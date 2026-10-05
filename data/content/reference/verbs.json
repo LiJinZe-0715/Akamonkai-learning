@@ -1,0 +1,2147 @@
+{
+  "id": "verbs",
+  "bookId": "minna",
+  "titleJa": "動詞の活用",
+  "groupJa": "活用",
+  "articles": [
+    {
+      "id": "groups",
+      "titleJa": "動詞のグループ",
+      "paragraphIds": [
+        "conjugation.groups.one",
+        "conjugation.groups.two",
+        "conjugation.groups.three",
+        "conjugation.groups.warning"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "verb-dictionary",
+      "titleJa": "辞書形",
+      "paragraphIds": [
+        "conjugation.dictionary.lead",
+        "conjugation.dictionary.note"
+      ],
+      "examples": [
+        {
+          "ja": "寝る前に、歯を磨きます。",
+          "translationId": "conjugation.dictionary.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "dictionary-one",
+          "titleJa": "Ⅰグループ",
+          "paragraphIds": [
+            "conjugation.dictionary.rule.one.text"
+          ],
+          "examples": [
+            {
+              "ja": "書きます → 書き → 書く"
+            },
+            {
+              "ja": "読みます → 読み → 読む"
+            },
+            {
+              "ja": "買います → 買い → 買う"
+            },
+            {
+              "ja": "帰ります → 帰り → 帰る"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "dictionary-two",
+          "titleJa": "Ⅱグループ",
+          "paragraphIds": [
+            "conjugation.dictionary.rule.two.text"
+          ],
+          "examples": [
+            {
+              "ja": "食べます → 食べ → 食べる"
+            },
+            {
+              "ja": "起きます → 起き → 起きる"
+            },
+            {
+              "ja": "借ります → 借り → 借りる"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "dictionary-three",
+          "titleJa": "Ⅲグループ",
+          "paragraphIds": [
+            "conjugation.dictionary.rule.three.text"
+          ],
+          "examples": [
+            {
+              "ja": "します → する"
+            },
+            {
+              "ja": "勉強します → 勉強する"
+            },
+            {
+              "ja": "来ます（きます）→ 来る（くる）"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-masu",
+      "titleJa": "ます形・丁寧形",
+      "paragraphIds": [
+        "conjugation.masu.lead",
+        "conjugation.masu.note"
+      ],
+      "examples": [
+        {
+          "ja": "昨日は勉強しませんでした。今日は勉強します。",
+          "translationId": "conjugation.masu.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "masu-one",
+          "titleJa": "Ⅰグループ",
+          "paragraphIds": [
+            "conjugation.masu.rule.one.text"
+          ],
+          "examples": [
+            {
+              "ja": "書く → 書き → 書きます"
+            },
+            {
+              "ja": "泳ぐ → 泳ぎます"
+            },
+            {
+              "ja": "話す → 話します"
+            },
+            {
+              "ja": "待つ → 待ちます"
+            },
+            {
+              "ja": "死ぬ → 死にます"
+            },
+            {
+              "ja": "遊ぶ → 遊びます"
+            },
+            {
+              "ja": "読む → 読みます"
+            },
+            {
+              "ja": "帰る → 帰ります"
+            },
+            {
+              "ja": "買う → 買います"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "masu-two",
+          "titleJa": "Ⅱグループ",
+          "paragraphIds": [
+            "conjugation.masu.rule.two.text"
+          ],
+          "examples": [
+            {
+              "ja": "食べる → 食べ → 食べます"
+            },
+            {
+              "ja": "見る → 見 → 見ます"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "masu-three",
+          "titleJa": "Ⅲグループ",
+          "paragraphIds": [
+            "conjugation.masu.rule.three.text"
+          ],
+          "examples": [
+            {
+              "ja": "する → します"
+            },
+            {
+              "ja": "来る（くる）→ 来ます（きます）"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "masu-endings",
+          "titleJa": "丁寧形の四つの形",
+          "paragraphIds": [
+            "conjugation.masu.rule.endings.text"
+          ],
+          "examples": [
+            {
+              "ja": "書きます ／ 書きません ／ 書きました ／ 書きませんでした"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-stem",
+      "titleJa": "ます形の語幹",
+      "paragraphIds": [
+        "conjugation.stem.lead",
+        "conjugation.stem.note"
+      ],
+      "examples": [
+        {
+          "ja": "音楽を聞きながら、料理します。",
+          "translationId": "conjugation.stem.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "stem-one",
+          "titleJa": "Ⅰグループ",
+          "paragraphIds": [
+            "conjugation.stem.rule.one.text"
+          ],
+          "examples": [
+            {
+              "ja": "読む → 読みます → 読み → 読みながら"
+            },
+            {
+              "ja": "書く → 書きます → 書き → 書きやすい"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "stem-two",
+          "titleJa": "Ⅱグループ",
+          "paragraphIds": [
+            "conjugation.stem.rule.two.text"
+          ],
+          "examples": [
+            {
+              "ja": "食べる → 食べ → 食べたい"
+            },
+            {
+              "ja": "見る → 見 → 見に行く"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "stem-three",
+          "titleJa": "Ⅲグループ",
+          "paragraphIds": [
+            "conjugation.stem.rule.three.text"
+          ],
+          "examples": [
+            {
+              "ja": "勉強する → 勉強し → 勉強しながら"
+            },
+            {
+              "ja": "来る → 来ます（きます）→ 来（き）"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-te",
+      "titleJa": "て形",
+      "paragraphIds": [
+        "conjugation.te.lead",
+        "conjugation.te.note"
+      ],
+      "examples": [
+        {
+          "ja": "窓を開けてください。今、本を読んでいます。",
+          "translationId": "conjugation.te.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "te-u-tsu-ru",
+          "titleJa": "Ⅰグループ：う・つ・る",
+          "paragraphIds": [
+            "conjugation.te.rule.u-tsu-ru.text"
+          ],
+          "examples": [
+            {
+              "ja": "買う → 買って"
+            },
+            {
+              "ja": "待つ → 待って"
+            },
+            {
+              "ja": "帰る → 帰って"
+            },
+            {
+              "ja": "買います → 買う → 買って"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "te-mu-bu-nu",
+          "titleJa": "Ⅰグループ：む・ぶ・ぬ",
+          "paragraphIds": [
+            "conjugation.te.rule.mu-bu-nu.text"
+          ],
+          "examples": [
+            {
+              "ja": "読む → 読んで"
+            },
+            {
+              "ja": "遊ぶ → 遊んで"
+            },
+            {
+              "ja": "死ぬ → 死んで"
+            },
+            {
+              "ja": "読みます → 読む → 読んで"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "te-ku",
+          "titleJa": "Ⅰグループ：く",
+          "paragraphIds": [
+            "conjugation.te.rule.ku.text"
+          ],
+          "examples": [
+            {
+              "ja": "書く → 書いて"
+            },
+            {
+              "ja": "歩く → 歩いて"
+            },
+            {
+              "ja": "書きます → 書く → 書いて"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "te-gu",
+          "titleJa": "Ⅰグループ：ぐ",
+          "paragraphIds": [
+            "conjugation.te.rule.gu.text"
+          ],
+          "examples": [
+            {
+              "ja": "泳ぐ → 泳いで"
+            },
+            {
+              "ja": "泳ぎます → 泳ぐ → 泳いで"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "te-su",
+          "titleJa": "Ⅰグループ：す",
+          "paragraphIds": [
+            "conjugation.te.rule.su.text"
+          ],
+          "examples": [
+            {
+              "ja": "話す → 話して"
+            },
+            {
+              "ja": "話します → 話す → 話して"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "te-two",
+          "titleJa": "Ⅱグループ",
+          "paragraphIds": [
+            "conjugation.te.rule.two.text"
+          ],
+          "examples": [
+            {
+              "ja": "食べる → 食べて"
+            },
+            {
+              "ja": "見る → 見て"
+            },
+            {
+              "ja": "起きる → 起きて"
+            },
+            {
+              "ja": "借ります → 借りる → 借りて"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "te-three",
+          "titleJa": "Ⅲグループ",
+          "paragraphIds": [
+            "conjugation.te.rule.three.text"
+          ],
+          "examples": [
+            {
+              "ja": "する → して"
+            },
+            {
+              "ja": "来る（くる）→ 来て（きて）"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "te-iku",
+          "titleJa": "「行く」の特別な活用",
+          "paragraphIds": [
+            "conjugation.te.rule.iku.text"
+          ],
+          "examples": [
+            {
+              "ja": "行きます → 行く → 行って"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-ta",
+      "titleJa": "た形",
+      "paragraphIds": [
+        "conjugation.ta.lead",
+        "conjugation.ta.note"
+      ],
+      "examples": [
+        {
+          "ja": "日本へ行ったことがあります。",
+          "translationId": "conjugation.ta.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "ta-one",
+          "titleJa": "Ⅰグループ",
+          "paragraphIds": [
+            "conjugation.ta.rule.one.text"
+          ],
+          "examples": [
+            {
+              "ja": "買う → 買って → 買った"
+            },
+            {
+              "ja": "読む → 読んで → 読んだ"
+            },
+            {
+              "ja": "書く → 書いて → 書いた"
+            },
+            {
+              "ja": "泳ぐ → 泳いで → 泳いだ"
+            },
+            {
+              "ja": "話す → 話して → 話した"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "ta-two",
+          "titleJa": "Ⅱグループ",
+          "paragraphIds": [
+            "conjugation.ta.rule.two.text"
+          ],
+          "examples": [
+            {
+              "ja": "食べる → 食べた"
+            },
+            {
+              "ja": "見る → 見た"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "ta-three",
+          "titleJa": "Ⅲグループ",
+          "paragraphIds": [
+            "conjugation.ta.rule.three.text"
+          ],
+          "examples": [
+            {
+              "ja": "する → した"
+            },
+            {
+              "ja": "来る（くる）→ 来た（きた）"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "ta-iku",
+          "titleJa": "「行く」の特別な活用",
+          "paragraphIds": [
+            "conjugation.ta.rule.iku.text"
+          ],
+          "examples": [
+            {
+              "ja": "行きます → 行く → 行って → 行った"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-nai",
+      "titleJa": "ない形",
+      "paragraphIds": [
+        "conjugation.nai.lead",
+        "conjugation.nai.note"
+      ],
+      "examples": [
+        {
+          "ja": "明日は学校へ行かないつもりです。",
+          "translationId": "conjugation.nai.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "nai-one",
+          "titleJa": "Ⅰグループ",
+          "paragraphIds": [
+            "conjugation.nai.rule.one.text"
+          ],
+          "examples": [
+            {
+              "ja": "書く → 書か → 書かない"
+            },
+            {
+              "ja": "読む → 読ま → 読まない"
+            },
+            {
+              "ja": "話す → 話さない"
+            },
+            {
+              "ja": "帰る → 帰らない"
+            },
+            {
+              "ja": "買う → 買わ → 買わない"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "nai-two",
+          "titleJa": "Ⅱグループ",
+          "paragraphIds": [
+            "conjugation.nai.rule.two.text"
+          ],
+          "examples": [
+            {
+              "ja": "食べる → 食べない"
+            },
+            {
+              "ja": "見る → 見ない"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "nai-three",
+          "titleJa": "Ⅲグループ",
+          "paragraphIds": [
+            "conjugation.nai.rule.three.text"
+          ],
+          "examples": [
+            {
+              "ja": "する → しない"
+            },
+            {
+              "ja": "来る（くる）→ 来ない（こない）"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-nakatta",
+      "titleJa": "なかった形",
+      "paragraphIds": [
+        "conjugation.nakatta.lead",
+        "conjugation.nakatta.note"
+      ],
+      "examples": [
+        {
+          "ja": "昨日は宿題をしなかった。",
+          "translationId": "conjugation.nakatta.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "nakatta-regular",
+          "titleJa": "全グループ共通の第2段階",
+          "paragraphIds": [
+            "conjugation.nakatta.rule.regular.text"
+          ],
+          "examples": [
+            {
+              "ja": "書く → 書かない → 書かなかった"
+            },
+            {
+              "ja": "買う → 買わない → 買わなかった"
+            },
+            {
+              "ja": "食べる → 食べない → 食べなかった"
+            },
+            {
+              "ja": "する → しない → しなかった"
+            },
+            {
+              "ja": "来る → 来ない（こない）→ 来なかった（こなかった）"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "nakatta-aru",
+          "titleJa": "「ある」の例外",
+          "paragraphIds": [
+            "conjugation.nakatta.rule.aru.text"
+          ],
+          "examples": [
+            {
+              "ja": "ある → ない → なかった"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-plain",
+      "titleJa": "普通形",
+      "paragraphIds": [
+        "conjugation.plain.lead",
+        "conjugation.plain.note"
+      ],
+      "examples": [
+        {
+          "ja": "田中さんは明日来ないと言いました。",
+          "translationId": "conjugation.plain.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "plain-four",
+          "titleJa": "普通形の四つの形",
+          "paragraphIds": [
+            "conjugation.plain.rule.four.text"
+          ],
+          "examples": [
+            {
+              "ja": "書く ／ 書かない ／ 書いた ／ 書かなかった"
+            },
+            {
+              "ja": "食べる ／ 食べない ／ 食べた ／ 食べなかった"
+            },
+            {
+              "ja": "する ／ しない ／ した ／ しなかった"
+            },
+            {
+              "ja": "来る（くる）／ 来ない（こない）／ 来た（きた）／ 来なかった（こなかった）"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "plain-connect",
+          "titleJa": "文型への接続",
+          "paragraphIds": [
+            "conjugation.plain.rule.connect.text"
+          ],
+          "examples": [
+            {
+              "ja": "行きません → 行かない → 行かないと思います"
+            },
+            {
+              "ja": "読みました → 読んだ → 読んだ本"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-potential",
+      "titleJa": "可能形",
+      "paragraphIds": [
+        "conjugation.potential.lead",
+        "conjugation.potential.note"
+      ],
+      "examples": [
+        {
+          "ja": "私は日本語の新聞が読めます。",
+          "translationId": "conjugation.potential.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "potential-one",
+          "titleJa": "Ⅰグループ",
+          "paragraphIds": [
+            "conjugation.potential.rule.one.text"
+          ],
+          "examples": [
+            {
+              "ja": "書く → 書け → 書ける"
+            },
+            {
+              "ja": "読む → 読める"
+            },
+            {
+              "ja": "話す → 話せる"
+            },
+            {
+              "ja": "買う → 買える"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "potential-two",
+          "titleJa": "Ⅱグループ",
+          "paragraphIds": [
+            "conjugation.potential.rule.two.text"
+          ],
+          "examples": [
+            {
+              "ja": "食べる → 食べられる"
+            },
+            {
+              "ja": "見る → 見られる"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "potential-three",
+          "titleJa": "Ⅲグループ",
+          "paragraphIds": [
+            "conjugation.potential.rule.three.text"
+          ],
+          "examples": [
+            {
+              "ja": "する → できる"
+            },
+            {
+              "ja": "勉強する → 勉強できる"
+            },
+            {
+              "ja": "来る → 来られる（こられる）"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "potential-further",
+          "titleJa": "否定形・丁寧形への活用",
+          "paragraphIds": [
+            "conjugation.potential.rule.further.text"
+          ],
+          "examples": [
+            {
+              "ja": "読める → 読めない ／ 読めます"
+            },
+            {
+              "ja": "食べられる → 食べられない ／ 食べられます"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-volitional",
+      "titleJa": "意向形",
+      "paragraphIds": [
+        "conjugation.volitional.lead",
+        "conjugation.volitional.note"
+      ],
+      "examples": [
+        {
+          "ja": "週末は図書館で勉強しようと思っています。",
+          "translationId": "conjugation.volitional.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "volitional-one",
+          "titleJa": "Ⅰグループ",
+          "paragraphIds": [
+            "conjugation.volitional.rule.one.text"
+          ],
+          "examples": [
+            {
+              "ja": "書く → 書こ → 書こう"
+            },
+            {
+              "ja": "読む → 読もう"
+            },
+            {
+              "ja": "買う → 買おう"
+            },
+            {
+              "ja": "帰る → 帰ろう"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "volitional-two",
+          "titleJa": "Ⅱグループ",
+          "paragraphIds": [
+            "conjugation.volitional.rule.two.text"
+          ],
+          "examples": [
+            {
+              "ja": "食べる → 食べよう"
+            },
+            {
+              "ja": "見る → 見よう"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "volitional-three",
+          "titleJa": "Ⅲグループ",
+          "paragraphIds": [
+            "conjugation.volitional.rule.three.text"
+          ],
+          "examples": [
+            {
+              "ja": "する → しよう"
+            },
+            {
+              "ja": "来る → 来よう（こよう）"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-imperative",
+      "titleJa": "命令形・禁止形",
+      "paragraphIds": [
+        "conjugation.imperative.lead",
+        "conjugation.imperative.note"
+      ],
+      "examples": [
+        {
+          "ja": "ここに車を止めるな。",
+          "translationId": "conjugation.imperative.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "imperative-one",
+          "titleJa": "Ⅰグループ命令",
+          "paragraphIds": [
+            "conjugation.imperative.rule.one.text"
+          ],
+          "examples": [
+            {
+              "ja": "書く → 書け"
+            },
+            {
+              "ja": "待つ → 待て"
+            },
+            {
+              "ja": "帰る → 帰れ"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "imperative-two",
+          "titleJa": "Ⅱグループ命令",
+          "paragraphIds": [
+            "conjugation.imperative.rule.two.text"
+          ],
+          "examples": [
+            {
+              "ja": "食べる → 食べろ"
+            },
+            {
+              "ja": "見る → 見ろ"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "imperative-three",
+          "titleJa": "Ⅲグループ命令",
+          "paragraphIds": [
+            "conjugation.imperative.rule.three.text"
+          ],
+          "examples": [
+            {
+              "ja": "する → しろ ／ せよ"
+            },
+            {
+              "ja": "来る → 来い（こい）"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "imperative-negative",
+          "titleJa": "全グループの禁止形",
+          "paragraphIds": [
+            "conjugation.imperative.rule.negative.text"
+          ],
+          "examples": [
+            {
+              "ja": "書く → 書くな"
+            },
+            {
+              "ja": "食べる → 食べるな"
+            },
+            {
+              "ja": "する → するな"
+            },
+            {
+              "ja": "来る → 来るな（くるな）"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-ba",
+      "titleJa": "ば形",
+      "paragraphIds": [
+        "conjugation.ba.lead",
+        "conjugation.ba.note"
+      ],
+      "examples": [
+        {
+          "ja": "毎日練習すれば、上手になります。",
+          "translationId": "conjugation.ba.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "ba-one",
+          "titleJa": "Ⅰグループ肯定",
+          "paragraphIds": [
+            "conjugation.ba.rule.one.text"
+          ],
+          "examples": [
+            {
+              "ja": "書く → 書け → 書けば"
+            },
+            {
+              "ja": "読む → 読めば"
+            },
+            {
+              "ja": "買う → 買えば"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "ba-two",
+          "titleJa": "Ⅱグループ肯定",
+          "paragraphIds": [
+            "conjugation.ba.rule.two.text"
+          ],
+          "examples": [
+            {
+              "ja": "食べる → 食べれば"
+            },
+            {
+              "ja": "見る → 見れば"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "ba-three",
+          "titleJa": "Ⅲグループ肯定",
+          "paragraphIds": [
+            "conjugation.ba.rule.three.text"
+          ],
+          "examples": [
+            {
+              "ja": "する → すれば"
+            },
+            {
+              "ja": "来る → 来れば（くれば）"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "ba-negative",
+          "titleJa": "否定の条件形",
+          "paragraphIds": [
+            "conjugation.ba.rule.negative.text"
+          ],
+          "examples": [
+            {
+              "ja": "行く → 行かない → 行かなければ"
+            },
+            {
+              "ja": "食べる → 食べない → 食べなければ"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-tara",
+      "titleJa": "たら形",
+      "paragraphIds": [
+        "conjugation.tara.lead",
+        "conjugation.tara.note"
+      ],
+      "examples": [
+        {
+          "ja": "家に帰ったら、電話してください。",
+          "translationId": "conjugation.tara.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "tara-affirmative",
+          "titleJa": "肯定の条件形",
+          "paragraphIds": [
+            "conjugation.tara.rule.affirmative.text"
+          ],
+          "examples": [
+            {
+              "ja": "帰る → 帰った → 帰ったら"
+            },
+            {
+              "ja": "読む → 読んだ → 読んだら"
+            },
+            {
+              "ja": "食べる → 食べた → 食べたら"
+            },
+            {
+              "ja": "する → した → したら"
+            },
+            {
+              "ja": "来る → 来た（きた）→ 来たら（きたら）"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "tara-negative",
+          "titleJa": "否定の条件形",
+          "paragraphIds": [
+            "conjugation.tara.rule.negative.text"
+          ],
+          "examples": [
+            {
+              "ja": "行く → 行かない → 行かなかった → 行かなかったら"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-passive",
+      "titleJa": "受身形",
+      "paragraphIds": [
+        "conjugation.passive.lead",
+        "conjugation.passive.note"
+      ],
+      "examples": [
+        {
+          "ja": "私は先生にほめられました。",
+          "translationId": "conjugation.passive.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "passive-one",
+          "titleJa": "Ⅰグループ",
+          "paragraphIds": [
+            "conjugation.passive.rule.one.text"
+          ],
+          "examples": [
+            {
+              "ja": "書く → 書か → 書かれる"
+            },
+            {
+              "ja": "読む → 読まれる"
+            },
+            {
+              "ja": "買う → 買われる"
+            },
+            {
+              "ja": "話す → 話される"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "passive-two",
+          "titleJa": "Ⅱグループ",
+          "paragraphIds": [
+            "conjugation.passive.rule.two.text"
+          ],
+          "examples": [
+            {
+              "ja": "食べる → 食べられる"
+            },
+            {
+              "ja": "見る → 見られる"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "passive-three",
+          "titleJa": "Ⅲグループ",
+          "paragraphIds": [
+            "conjugation.passive.rule.three.text"
+          ],
+          "examples": [
+            {
+              "ja": "する → される"
+            },
+            {
+              "ja": "来る → 来られる（こられる）"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "passive-further",
+          "titleJa": "過去形・丁寧形への活用",
+          "paragraphIds": [
+            "conjugation.passive.rule.further.text"
+          ],
+          "examples": [
+            {
+              "ja": "ほめる → ほめられる → ほめられた ／ ほめられました"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-causative",
+      "titleJa": "使役形",
+      "paragraphIds": [
+        "conjugation.causative.lead",
+        "conjugation.causative.note"
+      ],
+      "examples": [
+        {
+          "ja": "先生は学生に作文を書かせました。",
+          "translationId": "conjugation.causative.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "causative-one",
+          "titleJa": "Ⅰグループ",
+          "paragraphIds": [
+            "conjugation.causative.rule.one.text"
+          ],
+          "examples": [
+            {
+              "ja": "書く → 書か → 書かせる"
+            },
+            {
+              "ja": "読む → 読ませる"
+            },
+            {
+              "ja": "買う → 買わせる"
+            },
+            {
+              "ja": "話す → 話させる"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "causative-two",
+          "titleJa": "Ⅱグループ",
+          "paragraphIds": [
+            "conjugation.causative.rule.two.text"
+          ],
+          "examples": [
+            {
+              "ja": "食べる → 食べさせる"
+            },
+            {
+              "ja": "見る → 見させる"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "causative-three",
+          "titleJa": "Ⅲグループ",
+          "paragraphIds": [
+            "conjugation.causative.rule.three.text"
+          ],
+          "examples": [
+            {
+              "ja": "する → させる"
+            },
+            {
+              "ja": "来る → 来させる（こさせる）"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "causative-te",
+          "titleJa": "使役形からて形へ",
+          "paragraphIds": [
+            "conjugation.causative.rule.te.text"
+          ],
+          "examples": [
+            {
+              "ja": "行く → 行かせる → 行かせて → 行かせてください"
+            },
+            {
+              "ja": "休む → 休ませる → 休ませて → 休ませていただけませんか"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-causative-passive",
+      "titleJa": "使役受身形",
+      "paragraphIds": [
+        "conjugation.causative-passive.lead",
+        "conjugation.causative-passive.note"
+      ],
+      "examples": [
+        {
+          "ja": "私は先生に作文を書かされました。",
+          "translationId": "conjugation.causative-passive.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "causative-passive-one",
+          "titleJa": "Ⅰグループ省略しない形",
+          "paragraphIds": [
+            "conjugation.causative-passive.rule.one.text"
+          ],
+          "examples": [
+            {
+              "ja": "書く → 書かせる → 書かせられる"
+            },
+            {
+              "ja": "読む → 読ませる → 読ませられる"
+            },
+            {
+              "ja": "話す → 話させる → 話させられる"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "causative-passive-short",
+          "titleJa": "Ⅰグループよく使われる縮約形",
+          "paragraphIds": [
+            "conjugation.causative-passive.rule.short.text"
+          ],
+          "examples": [
+            {
+              "ja": "書かせられる → 書かされる"
+            },
+            {
+              "ja": "読ませられる → 読まされる"
+            },
+            {
+              "ja": "買わせられる → 買わされる"
+            },
+            {
+              "ja": "話す → 話させられる"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "causative-passive-two",
+          "titleJa": "Ⅱグループ",
+          "paragraphIds": [
+            "conjugation.causative-passive.rule.two.text"
+          ],
+          "examples": [
+            {
+              "ja": "食べる → 食べさせる → 食べさせられる"
+            },
+            {
+              "ja": "見る → 見させる → 見させられる"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "causative-passive-three",
+          "titleJa": "Ⅲグループ",
+          "paragraphIds": [
+            "conjugation.causative-passive.rule.three.text"
+          ],
+          "examples": [
+            {
+              "ja": "する → させる → させられる"
+            },
+            {
+              "ja": "来る → 来させる → 来させられる（こさせられる）"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-negative-links",
+      "titleJa": "ないで・なくて・ずに",
+      "paragraphIds": [
+        "conjugation.negative-links.lead",
+        "conjugation.negative-links.note"
+      ],
+      "examples": [
+        {
+          "ja": "朝ご飯を食べずに、学校へ行きました。",
+          "translationId": "conjugation.negative-links.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "negative-links-naide",
+          "titleJa": "ないで",
+          "paragraphIds": [
+            "conjugation.negative-links.rule.naide.text"
+          ],
+          "examples": [
+            {
+              "ja": "食べる → 食べない → 食べないで"
+            },
+            {
+              "ja": "行く → 行かない → 行かないでください"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "negative-links-nakute",
+          "titleJa": "なくて",
+          "paragraphIds": [
+            "conjugation.negative-links.rule.nakute.text"
+          ],
+          "examples": [
+            {
+              "ja": "分かる → 分からない → 分からなくて"
+            },
+            {
+              "ja": "できる → できない → できなくて"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "negative-links-zuni",
+          "titleJa": "ずに",
+          "paragraphIds": [
+            "conjugation.negative-links.rule.zuni.text"
+          ],
+          "examples": [
+            {
+              "ja": "飲む → 飲まない → 飲まずに"
+            },
+            {
+              "ja": "食べる → 食べない → 食べずに"
+            },
+            {
+              "ja": "する → せずに"
+            },
+            {
+              "ja": "来る → 来ない（こない）→ 来ずに（こずに）"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-honorific",
+      "titleJa": "尊敬語",
+      "paragraphIds": [
+        "conjugation.honorific.lead",
+        "conjugation.honorific.note"
+      ],
+      "examples": [
+        {
+          "ja": "先生はもうお帰りになりました。",
+          "translationId": "conjugation.honorific.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "honorific-o",
+          "titleJa": "お＋ます形の語幹＋になる",
+          "paragraphIds": [
+            "conjugation.honorific.rule.o.text"
+          ],
+          "examples": [
+            {
+              "ja": "読む → 読みます → 読み → お読みになる → お読みになります"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "honorific-rareru",
+          "titleJa": "（ら）れる形",
+          "paragraphIds": [
+            "conjugation.honorific.rule.rareru.text"
+          ],
+          "examples": [
+            {
+              "ja": "行く → 行かれる"
+            },
+            {
+              "ja": "話す → 話される"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "honorific-special",
+          "titleJa": "特別な動詞",
+          "paragraphIds": [
+            "conjugation.honorific.rule.special.text"
+          ],
+          "examples": [
+            {
+              "ja": "行く・来る・いる → いらっしゃる → いらっしゃいます"
+            },
+            {
+              "ja": "言う → おっしゃる → おっしゃいます"
+            },
+            {
+              "ja": "食べる・飲む → 召し上がる → 召し上がります"
+            },
+            {
+              "ja": "見る → ご覧になる → ご覧になります"
+            },
+            {
+              "ja": "する → なさる → なさいます"
+            },
+            {
+              "ja": "くれる → くださる → くださいます"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-humble",
+      "titleJa": "謙譲語",
+      "paragraphIds": [
+        "conjugation.humble.lead",
+        "conjugation.humble.note"
+      ],
+      "examples": [
+        {
+          "ja": "荷物をお持ちします。",
+          "translationId": "conjugation.humble.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "humble-o",
+          "titleJa": "お＋ます形の語幹＋する",
+          "paragraphIds": [
+            "conjugation.humble.rule.o.text"
+          ],
+          "examples": [
+            {
+              "ja": "持つ → 持ちます → 持ち → お持ちする → お持ちします"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "humble-go",
+          "titleJa": "ご＋漢語＋する",
+          "paragraphIds": [
+            "conjugation.humble.rule.go.text"
+          ],
+          "examples": [
+            {
+              "ja": "案内する → ご案内する → ご案内します"
+            },
+            {
+              "ja": "説明する → ご説明する → ご説明します"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "humble-special",
+          "titleJa": "特別な形",
+          "paragraphIds": [
+            "conjugation.humble.rule.special.text"
+          ],
+          "examples": [
+            {
+              "ja": "行く・来る → 参る → 参ります"
+            },
+            {
+              "ja": "いる → おる → おります"
+            },
+            {
+              "ja": "言う → 申す → 申します"
+            },
+            {
+              "ja": "見る → 拝見する → 拝見します"
+            },
+            {
+              "ja": "もらう → いただく → いただきます"
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "verb-contractions",
+      "titleJa": "話し言葉の縮約形",
+      "paragraphIds": [
+        "conjugation.contractions.lead",
+        "conjugation.contractions.note"
+      ],
+      "examples": [
+        {
+          "ja": "宿題を忘れちゃった。",
+          "translationId": "conjugation.contractions.example"
+        }
+      ],
+      "children": [
+        {
+          "id": "contractions-teiru",
+          "titleJa": "ている→てる",
+          "paragraphIds": [
+            "conjugation.contractions.rule.teiru.text"
+          ],
+          "examples": [
+            {
+              "ja": "食べる → 食べている → 食べてる"
+            },
+            {
+              "ja": "読む → 読んでいる → 読んでる"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "contractions-teshimau",
+          "titleJa": "てしまう→ちゃう",
+          "paragraphIds": [
+            "conjugation.contractions.rule.teshimau.text"
+          ],
+          "examples": [
+            {
+              "ja": "食べてしまう → 食べちゃう → 食べちゃった"
+            },
+            {
+              "ja": "飲んでしまう → 飲んじゃう → 飲んじゃった"
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "contractions-teoku",
+          "titleJa": "ておく→とく",
+          "paragraphIds": [
+            "conjugation.contractions.rule.teoku.text"
+          ],
+          "examples": [
+            {
+              "ja": "買っておく → 買っとく"
+            },
+            {
+              "ja": "読んでおく → 読んどく"
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "questions": [],
+  "words": [],
+  "texts": {
+    "conjugation.groups.one": {
+      "zh": "一类动词（五段）：词尾在う段。以る结尾也可能是一类，例如帰る、入る、走る、切る、知る、要る。不能只看到る就判定二类。",
+      "en": "Group 1 (godan): the final kana has a u-vowel. Some verbs ending in る also belong here: 帰る, 入る, 走る, 切る, 知る and 要る. A final る alone does not identify Group 2."
+    },
+    "conjugation.groups.two": {
+      "zh": "二类动词（一段）：辞书形通常以「い段＋る」或「え段＋る」结尾，变形时去掉る。食べる、見る、起きる、借りる都是二类；记单词时一起记类别。",
+      "en": "Group 2 (ichidan): dictionary forms usually end in an i- or e-vowel plus る. Remove る when conjugating. 食べる, 見る, 起きる and 借りる are Group 2. Learn the group with each verb."
+    },
+    "conjugation.groups.three": {
+      "zh": "三类动词（不规则）：する、来る，以及勉強する等「名词＋する」。来る的读音会变：くる、きます、こない，不能只看汉字。",
+      "en": "Group 3 (irregular): する, 来る and compounds such as 勉強する. The reading of 来る changes: くる, きます, こない. The kanji alone does not show the change."
+    },
+    "conjugation.groups.warning": {
+      "zh": "只知道「～ます」时，先查回辞书形和类别。「切ります」来自一类切る；「借ります」来自二类借りる，两者不能套用同一规则。",
+      "en": "If you only know the ます form, check the dictionary form and group first. 切ります comes from Group 1 切る, but 借ります comes from Group 2 借りる. They follow different rules."
+    },
+    "conjugation.dictionary.lead": {
+      "zh": "辞书形是词典里的形式，也叫原形；不是一律去ます后加る。",
+      "en": "The dictionary form is the form used as a dictionary headword. Do not simply replace every ます with る."
+    },
+    "conjugation.dictionary.note": {
+      "zh": "「見ます→見る」不是一类变化。接こと、前に、ように等时，要确认句型要求的是辞书形还是普通形。",
+      "en": "見ます → 見る is a Group 2 change. Check whether the sentence pattern requires the dictionary form specifically or any plain form."
+    },
+    "conjugation.dictionary.example": {
+      "zh": "睡觉前刷牙。",
+      "en": "I brush my teeth before going to bed."
+    },
+    "conjugation.dictionary.rule.one.text": {
+      "zh": "去ます，把最后一个い段假名改为同一行的う段。",
+      "en": "Remove ます, then change the final i-vowel kana to the u-vowel kana in the same row."
+    },
+    "conjugation.dictionary.rule.two.text": {
+      "zh": "去ます，直接加る；不要再把词干里的假名改成う段。",
+      "en": "Remove ます and add る. Do not alter the last kana of the stem."
+    },
+    "conjugation.dictionary.rule.three.text": {
+      "zh": "不按前两类推算，记住固定对应。",
+      "en": "Memorize the irregular equivalents."
+    },
+    "conjugation.masu.lead": {
+      "zh": "先做出ます词干，再根据肯定、否定及时间选择词尾。",
+      "en": "Build the stem first, then choose the ending for polarity and tense."
+    },
+    "conjugation.masu.note": {
+      "zh": "「ます」既可表示习惯，也可表示将来，时间由语境决定。「ましょう」用ます词干＋ましょう；邀请「ませんか」用ます词干＋ませんか。",
+      "en": "ます can express habits or future events depending on context. For a suggestion, attach ましょう to the stem; for an invitation, attach ませんか."
+    },
+    "conjugation.masu.example": {
+      "zh": "昨天没有学习，今天会学习。",
+      "en": "I did not study yesterday. I will study today."
+    },
+    "conjugation.masu.rule.one.text": {
+      "zh": "辞书形最后的う段假名改为同一行い段，再加ます。",
+      "en": "Change the final u-vowel kana to its i-vowel counterpart and add ます."
+    },
+    "conjugation.masu.rule.two.text": {
+      "zh": "去掉辞书形的る，加ます。",
+      "en": "Remove the final る and add ます."
+    },
+    "conjugation.masu.rule.three.text": {
+      "zh": "记住する与来る的词干。",
+      "en": "Use the irregular stems of する and 来る."
+    },
+    "conjugation.masu.rule.endings.text": {
+      "zh": "非过去肯定用ます，非过去否定用ません，过去肯定用ました，过去否定用ませんでした。",
+      "en": "Use ます for affirmative non-past, ません for negative non-past, ました for affirmative past, and ませんでした for negative past."
+    },
+    "conjugation.stem.lead": {
+      "zh": "「ます形去ます」指词干，不是辞书形，也不是て形。",
+      "en": "The ます stem is the ます form without ます. It is neither the dictionary form nor the て form."
+    },
+    "conjugation.stem.note": {
+      "zh": "たい、ながら、すぎる、やすい、にくい、そうだ（样态）、つつある、かねない等接ます词干，但各自的意思和适用语境不同。不要写「読みますながら」。",
+      "en": "たい, ながら, すぎる, やすい, にくい, appearance そうだ, つつある and かねない attach to the stem, but differ in meaning and usage. Do not write 読みますながら."
+    },
+    "conjugation.stem.example": {
+      "zh": "一边听音乐，一边做饭。",
+      "en": "I cook while listening to music."
+    },
+    "conjugation.stem.rule.one.text": {
+      "zh": "先变ます形，再去ます。",
+      "en": "Make the ます form, then remove ます."
+    },
+    "conjugation.stem.rule.two.text": {
+      "zh": "去る得到词干，再接句型。",
+      "en": "Remove る to get the stem, then attach the pattern."
+    },
+    "conjugation.stem.rule.three.text": {
+      "zh": "する用し；来る用き。",
+      "en": "Use し for する and き for 来る."
+    },
+    "conjugation.te.lead": {
+      "zh": "一类不能统一去ます加て，要从辞书形词尾判断音便；二类和三类另外处理。",
+      "en": "For Group 1, the dictionary ending determines the sound change. Group 2 and Group 3 follow separate rules."
+    },
+    "conjugation.te.note": {
+      "zh": "特例：行く→行って，不是行いて。用ます形记忆时，必须先知道类别：帰ります→帰って；借ります→借りて。て形本身不决定过去或现在。",
+      "en": "Exception: 行く → 行って, not 行いて. If starting from ます, identify the group first: 帰ります → 帰って, but 借ります → 借りて. The て form itself does not mark past versus present."
+    },
+    "conjugation.te.example": {
+      "zh": "请打开窗户。我现在正在看书。",
+      "en": "Please open the window. I am reading a book now."
+    },
+    "conjugation.te.rule.u-tsu-ru.text": {
+      "zh": "词尾变成って。这里只包含一类的る结尾动词。",
+      "en": "Replace the ending with って. The る rule here applies only to Group 1."
+    },
+    "conjugation.te.rule.mu-bu-nu.text": {
+      "zh": "词尾变成んで。",
+      "en": "Replace the ending with んで."
+    },
+    "conjugation.te.rule.ku.text": {
+      "zh": "通常把く变成いて。",
+      "en": "Usually replace く with いて."
+    },
+    "conjugation.te.rule.gu.text": {
+      "zh": "把ぐ变成いで；注意用で，不是て。",
+      "en": "Replace ぐ with いで, using で rather than て."
+    },
+    "conjugation.te.rule.su.text": {
+      "zh": "把す变成して。",
+      "en": "Replace す with して."
+    },
+    "conjugation.te.rule.two.text": {
+      "zh": "去る，加て。",
+      "en": "Remove る and add て."
+    },
+    "conjugation.te.rule.three.text": {
+      "zh": "记住不规则变化。",
+      "en": "Use the irregular forms."
+    },
+    "conjugation.te.rule.iku.text": {
+      "zh": "行く不按「く→いて」变化，要单独记为行って。",
+      "en": "行く does not follow the usual く → いて pattern. Memorize 行って."
+    },
+    "conjugation.ta.lead": {
+      "zh": "先掌握て形，再把末尾的て换成た、で换成だ。",
+      "en": "First build the て form, then replace final て with た or final で with だ."
+    },
+    "conjugation.ta.note": {
+      "zh": "行く→行った。た形可表示过去，也用于「たことがある」「たり」「たほうがいい」等结构；不能把所有た形都简单译成“过去”。",
+      "en": "行く becomes 行った. The た form also appears in たことがある, たり and たほうがいい; it does not always describe a past event."
+    },
+    "conjugation.ta.example": {
+      "zh": "我去过日本。",
+      "en": "I have been to Japan."
+    },
+    "conjugation.ta.rule.one.text": {
+      "zh": "う・つ・る→った；む・ぶ・ぬ→んだ；く→いた；ぐ→いだ；す→した。",
+      "en": "Use った for う・つ・る, んだ for む・ぶ・ぬ, いた for く, いだ for ぐ, and した for す."
+    },
+    "conjugation.ta.rule.two.text": {
+      "zh": "去る，加た。",
+      "en": "Remove る and add た."
+    },
+    "conjugation.ta.rule.three.text": {
+      "zh": "する→した；来る→来た，读きた。",
+      "en": "Use した for する and 来た (きた) for 来る."
+    },
+    "conjugation.ta.rule.iku.text": {
+      "zh": "行く的过去形是行った，不是行いた。",
+      "en": "The past form of 行く is 行った, not 行いた."
+    },
+    "conjugation.nai.lead": {
+      "zh": "一类换あ段，二类去る，三类单独记。",
+      "en": "Group 1 changes to an a-vowel; Group 2 drops る; Group 3 is irregular."
+    },
+    "conjugation.nai.note": {
+      "zh": "ある的否定是ない，不是あらない。接「なければ」「なくても」时，把整个ない换掉：書かない→書かなければ／書かなくても。",
+      "en": "The negative of ある is ない, not あらない. To build なければ or なくても, replace the whole ない: 書かない → 書かなければ／書かなくても."
+    },
+    "conjugation.nai.example": {
+      "zh": "我打算明天不去学校。",
+      "en": "I intend not to go to school tomorrow."
+    },
+    "conjugation.nai.rule.one.text": {
+      "zh": "词尾う段改成同一行あ段，加ない；但词尾う要变わ。",
+      "en": "Change the final u-vowel kana to its a-vowel counterpart and add ない. Final う changes to わ."
+    },
+    "conjugation.nai.rule.two.text": {
+      "zh": "去る，加ない。",
+      "en": "Remove る and add ない."
+    },
+    "conjugation.nai.rule.three.text": {
+      "zh": "する变しない；来る变来ない，读こない。",
+      "en": "Use しない for する and 来ない (こない) for 来る."
+    },
+    "conjugation.nakatta.lead": {
+      "zh": "先完成ない形，再把ない的い变成かった。",
+      "en": "Build the ない form first, then replace its final い with かった."
+    },
+    "conjugation.nakatta.note": {
+      "zh": "礼貌体对应「ませんでした」，普通体对应「なかった」。不要写「書くなかった」。",
+      "en": "The polite counterpart is ませんでした; the plain past negative is なかった. 書くなかった is incorrect."
+    },
+    "conjugation.nakatta.example": {
+      "zh": "昨天没有做作业。",
+      "en": "I did not do my homework yesterday."
+    },
+    "conjugation.nakatta.rule.regular.text": {
+      "zh": "不要从辞书形直接硬接なかった；先根据类别做出ない。",
+      "en": "Do not attach なかった directly to a dictionary form. First form the appropriate negative."
+    },
+    "conjugation.nakatta.rule.aru.text": {
+      "zh": "ある→ない，再按ない→なかった变化。",
+      "en": "Start with the irregular negative ない, then change it to なかった."
+    },
+    "conjugation.plain.lead": {
+      "zh": "动词普通形包括非过去肯定、非过去否定、过去肯定、过去否定四种。",
+      "en": "A verb has four basic plain forms: affirmative non-past, negative non-past, affirmative past and negative past."
+    },
+    "conjugation.plain.note": {
+      "zh": "动词普通形后不加だ：行くと思う，不是行くだと思う。名词和な形容词的普通形规则不同，不要套到动词上。",
+      "en": "Do not add だ after a plain verb: 行くと思う, not 行くだと思う. Nouns and な-adjectives have different plain-form rules."
+    },
+    "conjugation.plain.example": {
+      "zh": "田中说他明天不来。",
+      "en": "Tanaka said they would not come tomorrow."
+    },
+    "conjugation.plain.rule.four.text": {
+      "zh": "依次使用辞书形、ない形、た形、なかった形；先确定要表达的时间和肯定／否定。",
+      "en": "Choose the dictionary, ない, た or なかった form according to tense and polarity."
+    },
+    "conjugation.plain.rule.connect.text": {
+      "zh": "接と思う、と言う、し或修饰名词时，保留所需的普通形，再接后面的词。",
+      "en": "For と思う, と言う, し or noun modification, choose the appropriate plain form before attaching the rest."
+    },
+    "conjugation.potential.lead": {
+      "zh": "表达能力或条件上的可能；不是把所有动词都加られる。",
+      "en": "This form expresses ability or the possibility of an action. Not every verb takes られる."
+    },
+    "conjugation.potential.note": {
+      "zh": "本页使用教材标准形式「食べられる／来られる」。口语的食べれる、来れる属于ら抜き。見える／聞こえる通常表示自然看见／听见，不能当作見る／聞く的机械可能形。",
+      "en": "This guide uses standard textbook 食べられる／来られる. Colloquial 食べれる／来れる omit ら. 見える／聞こえる usually describe something being visible/audible; they are not the mechanically formed potentials of 見る／聞く."
+    },
+    "conjugation.potential.example": {
+      "zh": "我能读日文报纸。",
+      "en": "I can read Japanese newspapers."
+    },
+    "conjugation.potential.rule.one.text": {
+      "zh": "词尾う段变同一行え段，再加る。",
+      "en": "Change the final u-vowel kana to its e-vowel counterpart and add る."
+    },
+    "conjugation.potential.rule.two.text": {
+      "zh": "去る，加られる。",
+      "en": "Remove る and add られる."
+    },
+    "conjugation.potential.rule.three.text": {
+      "zh": "する→できる；来る→来られる，读こられる。",
+      "en": "Use できる for する and 来られる (こられる) for 来る."
+    },
+    "conjugation.potential.rule.further.text": {
+      "zh": "可能形变成二类方式继续活用：去る后接ない／ます。",
+      "en": "Conjugate the resulting potential verb like Group 2: remove る before ない or ます."
+    },
+    "conjugation.volitional.lead": {
+      "zh": "普通体意向形常接と思う、と思っている、とする。",
+      "en": "The plain volitional form often precedes と思う, と思っている or とする."
+    },
+    "conjugation.volitional.note": {
+      "zh": "礼貌的提议用ます词干＋ましょう。書く→書こう，不能从書きます直接拼成書きよう。",
+      "en": "For a polite suggestion, use the ます stem plus ましょう. 書く becomes 書こう, not 書きよう."
+    },
+    "conjugation.volitional.example": {
+      "zh": "我打算周末在图书馆学习。",
+      "en": "I am planning to study at the library this weekend."
+    },
+    "conjugation.volitional.rule.one.text": {
+      "zh": "词尾う段变同一行お段，加う。",
+      "en": "Change the final u-vowel kana to its o-vowel counterpart and add う."
+    },
+    "conjugation.volitional.rule.two.text": {
+      "zh": "去る，加よう。",
+      "en": "Remove る and add よう."
+    },
+    "conjugation.volitional.rule.three.text": {
+      "zh": "する→しよう；来る→来よう，读こよう。",
+      "en": "Use しよう for する and 来よう (こよう) for 来る."
+    },
+    "conjugation.imperative.lead": {
+      "zh": "命令形和禁止形是两套规则。语气强，先学会辨认标语和紧急指示。",
+      "en": "Commands and prohibitions use different rules. Their tone is strong; learn to recognize them in signs and urgent instructions."
+    },
+    "conjugation.imperative.note": {
+      "zh": "帰れ是命令，帰れる是可能；食べるな是禁止，不是食べない。礼貌请求通常用てください／ないでください。",
+      "en": "帰れ is a command; 帰れる is potential. 食べるな is a prohibition, distinct from the negative 食べない. Polite requests normally use てください／ないでください."
+    },
+    "conjugation.imperative.example": {
+      "zh": "不要在这里停车。",
+      "en": "Do not park here."
+    },
+    "conjugation.imperative.rule.one.text": {
+      "zh": "词尾う段改同一行え段，不加る。",
+      "en": "Change the final u-vowel kana to its e-vowel counterpart; do not add る."
+    },
+    "conjugation.imperative.rule.two.text": {
+      "zh": "去る，加ろ。",
+      "en": "Remove る and add ろ."
+    },
+    "conjugation.imperative.rule.three.text": {
+      "zh": "记住しろ／せよ和来い。",
+      "en": "Use the irregular しろ／せよ and 来い."
+    },
+    "conjugation.imperative.rule.negative.text": {
+      "zh": "辞书形原样保留，直接加な。",
+      "en": "Keep the dictionary form unchanged and add な."
+    },
+    "conjugation.ba.lead": {
+      "zh": "肯定动词和否定动词的变化入口不同。",
+      "en": "Affirmative and negative conditions start from different forms."
+    },
+    "conjugation.ba.note": {
+      "zh": "「行けば」不是「行きば」。ば、たら、なら、とは不能随意互换；这里先解决形态，具体条件语感看本课文法。",
+      "en": "Use 行けば, not 行きば. ば, たら, なら and と are not interchangeable; consult the lesson explanation for their differences in meaning."
+    },
+    "conjugation.ba.example": {
+      "zh": "每天练习的话，就会进步。",
+      "en": "If you practice every day, you will improve."
+    },
+    "conjugation.ba.rule.one.text": {
+      "zh": "词尾う段改え段，加ば。",
+      "en": "Change the final u-vowel kana to its e-vowel counterpart and add ば."
+    },
+    "conjugation.ba.rule.two.text": {
+      "zh": "去る，加れば。",
+      "en": "Remove る and add れば."
+    },
+    "conjugation.ba.rule.three.text": {
+      "zh": "する→すれば；来る→来れば，读くれば。",
+      "en": "Use すれば for する and 来れば (くれば) for 来る."
+    },
+    "conjugation.ba.rule.negative.text": {
+      "zh": "先变ない形，再把ない改成なければ。",
+      "en": "Build the ない form, then replace ない with なければ."
+    },
+    "conjugation.tara.lead": {
+      "zh": "不要直接在辞书形后加たら；先完成た形或なかった形。",
+      "en": "Do not attach たら directly to the dictionary form. Build the た or なかった form first."
+    },
+    "conjugation.tara.note": {
+      "zh": "形式里有た，不等于事情已经发生：明日雨が降ったら说的是明天的条件。读んだら保留浊音だ。",
+      "en": "The た in this form does not mean the event has happened: 明日雨が降ったら describes a condition tomorrow. 読んだら keeps voiced だ."
+    },
+    "conjugation.tara.example": {
+      "zh": "回到家以后，请打电话。",
+      "en": "Please call when you get home."
+    },
+    "conjugation.tara.rule.affirmative.text": {
+      "zh": "各类动词先变た形，再加ら。",
+      "en": "For every group, build the た form and add ら."
+    },
+    "conjugation.tara.rule.negative.text": {
+      "zh": "先变ない，再变なかった，最后加ら。",
+      "en": "Build ない, change it to なかった, then add ら."
+    },
+    "conjugation.passive.lead": {
+      "zh": "先变被动动词，再处理句子里谁受到谁的动作。",
+      "en": "First form the passive verb, then identify who is affected by whose action."
+    },
+    "conjugation.passive.note": {
+      "zh": "二类和来る的可能形、被动形同形，要靠主语、助词和语境判断。一类可以直接对比：書ける＝能写，書かれる＝被写。",
+      "en": "Group 2 and 来る have identical potential and passive forms; use subjects, particles and context to distinguish them. For Group 1: 書ける means can write, while 書かれる is passive."
+    },
+    "conjugation.passive.example": {
+      "zh": "我受到了老师的表扬。",
+      "en": "I was praised by my teacher."
+    },
+    "conjugation.passive.rule.one.text": {
+      "zh": "词尾う段改あ段，加れる；う→わ。",
+      "en": "Change the final u-vowel kana to its a-vowel counterpart and add れる; う becomes わ."
+    },
+    "conjugation.passive.rule.two.text": {
+      "zh": "去る，加られる。",
+      "en": "Remove る and add られる."
+    },
+    "conjugation.passive.rule.three.text": {
+      "zh": "する→される；来る→来られる，读こられる。",
+      "en": "Use される for する and 来られる (こられる) for 来る."
+    },
+    "conjugation.passive.rule.further.text": {
+      "zh": "被动形形成后按二类继续变。",
+      "en": "Conjugate the resulting passive like Group 2."
+    },
+    "conjugation.causative.lead": {
+      "zh": "使役可以表达要求、允许或引发某种反应，不能只机械译成“强迫”。",
+      "en": "The causative can express instructions, permission or causing a reaction; it does not always mean forcing someone."
+    },
+    "conjugation.causative.note": {
+      "zh": "注意三种不同形式：食べられる（被动／可能）、食べさせる（使役）、食べさせられる（使役受身）。句中动作对象仍用を时，被使役的人常用に。",
+      "en": "Distinguish 食べられる (passive/potential), 食べさせる (causative) and 食べさせられる (causative-passive). When を marks the action’s object, the person made or allowed to act commonly takes に."
+    },
+    "conjugation.causative.example": {
+      "zh": "老师让学生写了作文。",
+      "en": "The teacher had the students write an essay."
+    },
+    "conjugation.causative.rule.one.text": {
+      "zh": "词尾う段改あ段，加せる；う→わ。",
+      "en": "Change the final u-vowel kana to its a-vowel counterpart and add せる; う becomes わ."
+    },
+    "conjugation.causative.rule.two.text": {
+      "zh": "去る，加させる。",
+      "en": "Remove る and add させる."
+    },
+    "conjugation.causative.rule.three.text": {
+      "zh": "する→させる；来る→来させる，读こさせる。",
+      "en": "Use させる for する and 来させる (こさせる) for 来る."
+    },
+    "conjugation.causative.rule.te.text": {
+      "zh": "使役动词按二类处理：去末尾る，加て，才能接ください／もらう／いただく。",
+      "en": "Treat the causative as Group 2: remove final る and add て before ください, もらう or いただく."
+    },
+    "conjugation.causative-passive.lead": {
+      "zh": "先做使役形，再把使役动词变成被动形。先掌握完整形式，再记常见缩略。",
+      "en": "Build the causative first, then make that verb passive. Learn the full forms before the common contractions."
+    },
+    "conjugation.causative-passive.note": {
+      "zh": "主语是被要求做动作的人。使役＋てもらう是“获得允许／请对方让自己做”，不要与使役受身混为一谈。",
+      "en": "The subject is the person made to act. Causative + てもらう expresses receiving permission or arranging to be allowed to act; it is not the causative-passive."
+    },
+    "conjugation.causative-passive.example": {
+      "zh": "我被老师要求写了作文。",
+      "en": "I was made to write an essay by my teacher."
+    },
+    "conjugation.causative-passive.rule.one.text": {
+      "zh": "あ段词干＋せる，再把せる变せられる。",
+      "en": "Use the a-vowel stem plus せる, then change せる to せられる."
+    },
+    "conjugation.causative-passive.rule.short.text": {
+      "zh": "多数非す结尾的一类动词可把せられる缩成される。す结尾不按此缩。",
+      "en": "Many Group 1 verbs not ending in す shorten せられる to される. Do not apply this contraction to verbs ending in す."
+    },
+    "conjugation.causative-passive.rule.two.text": {
+      "zh": "去る，加させられる。不要缩成さされる。",
+      "en": "Remove る and add させられる. Do not shorten it to さされる."
+    },
+    "conjugation.causative-passive.rule.three.text": {
+      "zh": "する→させられる；来る→来させられる，读こさせられる。",
+      "en": "Use させられる for する and 来させられる (こさせられる) for 来る."
+    },
+    "conjugation.negative-links.lead": {
+      "zh": "先变出ない形，再按表达目的选择后续形式。",
+      "en": "Build the ない form first, then choose the ending that fits the meaning."
+    },
+    "conjugation.negative-links.note": {
+      "zh": "ないで与なくて不是仅有书面口语差别；句子关系不同。ずにはいられない保留ずに，再加はいられない。",
+      "en": "ないで and なくて are not simply informal versus formal alternatives: they express different relationships. For ずにはいられない, keep ずに and add はいられない."
+    },
+    "conjugation.negative-links.example": {
+      "zh": "没吃早饭就去了学校。",
+      "en": "I went to school without eating breakfast."
+    },
+    "conjugation.negative-links.rule.naide.text": {
+      "zh": "保留ない，直接加で，常表示“不做前项而做后项”，也可接ください。",
+      "en": "Keep ない and add で, often for doing something without doing another action, or before ください."
+    },
+    "conjugation.negative-links.rule.nakute.text": {
+      "zh": "把ない的い变くて，常用于否定原因或连接否定内容。",
+      "en": "Replace the final い of ない with くて, often for a negative cause or to connect negative content."
+    },
+    "conjugation.negative-links.rule.zuni.text": {
+      "zh": "去ない，加ずに；但する不是しずに，而是せずに。",
+      "en": "Remove ない and add ずに. For する, use せずに, not しずに."
+    },
+    "conjugation.honorific.lead": {
+      "zh": "尊敬语抬高动作主体。先确认是谁做动作，再选结构。",
+      "en": "Honorific language elevates the person performing the action. Identify that person before choosing a pattern."
+    },
+    "conjugation.honorific.note": {
+      "zh": "不要用尊敬语抬高自己的动作。「お読みください」是お＋ます词干＋ください，不是お読んでください。",
+      "en": "Do not use honorific verbs to elevate your own actions. お読みください uses お + ます stem + ください, not お読んでください."
+    },
+    "conjugation.honorific.example": {
+      "zh": "老师已经回去了。",
+      "en": "The teacher has already gone home."
+    },
+    "conjugation.honorific.rule.o.text": {
+      "zh": "先去ます，再放进お～になる；句末可把なる变成なります。",
+      "en": "Remove ます and insert the stem into お～になる; なる can then become polite なります."
+    },
+    "conjugation.honorific.rule.rareru.text": {
+      "zh": "形态按被动形规则，但此处表示尊敬，要靠语境与被动区分。",
+      "en": "Use the passive conjugation pattern, but interpret it as honorific in the appropriate context."
+    },
+    "conjugation.honorific.rule.special.text": {
+      "zh": "常用动词有专用尊敬语，不是机械加お；部分ます形还有特殊词干。",
+      "en": "Common verbs have special honorific equivalents. Some also have irregular ます stems."
+    },
+    "conjugation.humble.lead": {
+      "zh": "谦逊语用于自己或己方的动作，以尊重动作涉及的对方；不是所有动作都能机械套用。",
+      "en": "Humble language describes your own or your in-group’s action with respect to its recipient or other relevant person. The pattern cannot be applied mechanically to every action."
+    },
+    "conjugation.humble.note": {
+      "zh": "尊敬语描述应尊敬的人的动作；谦逊语描述自己／己方的动作。不要把「先生が拝見します」当作尊敬表达。",
+      "en": "Honorific verbs describe the respected person’s action; humble verbs describe your own or your in-group’s action. 先生が拝見します is not an honorific way to describe the teacher looking."
+    },
+    "conjugation.humble.example": {
+      "zh": "我来帮您拿行李。",
+      "en": "I will carry your luggage."
+    },
+    "conjugation.humble.rule.o.text": {
+      "zh": "去ます，加お和する；再把する变成します。",
+      "en": "Remove ます, add お before the stem and する after it, then make する polite if needed."
+    },
+    "conjugation.humble.rule.go.text": {
+      "zh": "案内、説明等使用ご～する；不是把每个する动词都加ご。",
+      "en": "Words such as 案内 and 説明 take ご～する; not every する compound permits ご."
+    },
+    "conjugation.humble.rule.special.text": {
+      "zh": "专用谦逊、丁重表达需要分别记忆。",
+      "en": "Memorize special humble and courteous equivalents individually."
+    },
+    "conjugation.contractions.lead": {
+      "zh": "缩略是在完整接续已经形成后发生的，不是新的动词类别。",
+      "en": "Contractions happen after the full construction is formed; they do not create a new verb group."
+    },
+    "conjugation.contractions.note": {
+      "zh": "先学会完整形式及意思；正式写作和教材答题按要求使用完整形式，不要把缩略直接当成唯一标准答案。",
+      "en": "Learn the full form and meaning first. Use full forms when formal writing or textbook exercises require them; contractions are not the only correct forms."
+    },
+    "conjugation.contractions.example": {
+      "zh": "把作业忘了。",
+      "en": "I forgot my homework."
+    },
+    "conjugation.contractions.rule.teiru.text": {
+      "zh": "口语中常省去いる的い；でいる同理。",
+      "en": "In casual speech, the い of いる is often omitted, also after で."
+    },
+    "conjugation.contractions.rule.teshimau.text": {
+      "zh": "てしまう常缩为ちゃう，でしまう常缩为じゃう。过去式再把う变った。",
+      "en": "てしまう often contracts to ちゃう, and でしまう to じゃう. For the past, change final う to った."
+    },
+    "conjugation.contractions.rule.teoku.text": {
+      "zh": "ておく常缩为とく，でおく常缩为どく。",
+      "en": "ておく often contracts to とく; でおく to どく."
+    }
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "id": "day14-judgment",
+  "bookId": "n2",
+  "titleJa": "判断・義務",
+  "groupJa": "文法",
+  "articles": [
+    {
+      "id": "n2.day14-judgment.grammar.0",
+      "titleJa": "～はずだ",
+      "paragraphIds": [
+        "n2.day14-judgment.grammar.0.anchor",
+        "n2.day14-judgment.grammar.0.logic",
+        "n2.day14-judgment.grammar.0.connection",
+        "n2.day14-judgment.grammar.0.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "十時に出発したから、彼はもう着いているはずだ。",
+          "translationId": "n2.day14-judgment.grammar.0.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day14-judgment.grammar.1",
+      "titleJa": "～べきだ",
+      "paragraphIds": [
+        "n2.day14-judgment.grammar.1.anchor",
+        "n2.day14-judgment.grammar.1.logic",
+        "n2.day14-judgment.grammar.1.connection",
+        "n2.day14-judgment.grammar.1.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "約束は守るべきだ。",
+          "translationId": "n2.day14-judgment.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day14-judgment.grammar.2",
+      "titleJa": "～ことだ",
+      "paragraphIds": [
+        "n2.day14-judgment.grammar.2.anchor",
+        "n2.day14-judgment.grammar.2.logic",
+        "n2.day14-judgment.grammar.2.connection",
+        "n2.day14-judgment.grammar.2.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "早く元気になりたければ、よく休むことだ。",
+          "translationId": "n2.day14-judgment.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day14-judgment.grammar.3",
+      "titleJa": "～に違いない",
+      "paragraphIds": [
+        "n2.day14-judgment.grammar.3.anchor",
+        "n2.day14-judgment.grammar.3.logic",
+        "n2.day14-judgment.grammar.3.connection",
+        "n2.day14-judgment.grammar.3.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "灯りがついている。誰かが中にいるに違いない。",
+          "translationId": "n2.day14-judgment.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day14-judgment.grammar.4",
+      "titleJa": "～に決まっている",
+      "paragraphIds": [
+        "n2.day14-judgment.grammar.4.anchor",
+        "n2.day14-judgment.grammar.4.logic",
+        "n2.day14-judgment.grammar.4.connection",
+        "n2.day14-judgment.grammar.4.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "そんなうまい話はうそに決まっている。",
+          "translationId": "n2.day14-judgment.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day14-judgment.grammar.5",
+      "titleJa": "～おそれがある",
+      "paragraphIds": [
+        "n2.day14-judgment.grammar.5.anchor",
+        "n2.day14-judgment.grammar.5.logic",
+        "n2.day14-judgment.grammar.5.connection",
+        "n2.day14-judgment.grammar.5.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "今夜は大雪となるおそれがある。",
+          "translationId": "n2.day14-judgment.grammar.5.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day14-judgment.grammar.6",
+      "titleJa": "～かねない",
+      "paragraphIds": [
+        "n2.day14-judgment.grammar.6.anchor",
+        "n2.day14-judgment.grammar.6.logic",
+        "n2.day14-judgment.grammar.6.connection",
+        "n2.day14-judgment.grammar.6.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "このままでは大事故になりかねない。",
+          "translationId": "n2.day14-judgment.grammar.6.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "n2.day14-judgment.question.0",
+      "prompt": [
+        {
+          "ja": "彼は五年も日本で働いていたから、日本語が話せる（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "べきだ"
+          }
+        ],
+        [
+          {
+            "ja": "はずだ"
+          }
+        ],
+        [
+          {
+            "ja": "ことだ"
+          }
+        ],
+        [
+          {
+            "ja": "かねない"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day14-judgment.question.0.explanation",
+      "instructionId": "n2.day14-judgment.question.0.anchor"
+    },
+    {
+      "id": "n2.day14-judgment.question.1",
+      "prompt": [
+        {
+          "textId": "n2.day14-judgment.question.1.review-instruction"
+        },
+        {
+          "ja": "地図では駅から歩いて五分だから、そろそろ着く（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことだ"
+          }
+        ],
+        [
+          {
+            "ja": "はずだ"
+          }
+        ],
+        [
+          {
+            "ja": "べきだ"
+          }
+        ],
+        [
+          {
+            "ja": "に決まっている"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day14-judgment.question.1.explanation",
+      "instructionId": "n2.day14-judgment.question.1.anchor"
+    },
+    {
+      "id": "n2.day14-judgment.question.2",
+      "prompt": [
+        {
+          "textId": "n2.day14-judgment.question.2.review-instruction"
+        },
+        {
+          "ja": "借りた物は、約束の日までに返す（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "はずだ"
+          }
+        ],
+        [
+          {
+            "ja": "べきだ"
+          }
+        ],
+        [
+          {
+            "ja": "ことだ"
+          }
+        ],
+        [
+          {
+            "ja": "に違いない"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day14-judgment.question.2.explanation",
+      "instructionId": "n2.day14-judgment.question.2.anchor"
+    },
+    {
+      "id": "n2.day14-judgment.question.3",
+      "prompt": [
+        {
+          "textId": "n2.day14-judgment.question.3.review-instruction"
+        },
+        {
+          "ja": "他人の意見を聞かずに、一人で決める（　）ではない。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "こと"
+          }
+        ],
+        [
+          {
+            "ja": "はず"
+          }
+        ],
+        [
+          {
+            "ja": "べき"
+          }
+        ],
+        [
+          {
+            "ja": "おそれ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day14-judgment.question.3.explanation",
+      "instructionId": "n2.day14-judgment.question.3.anchor"
+    },
+    {
+      "id": "n2.day14-judgment.question.4",
+      "prompt": [
+        {
+          "textId": "n2.day14-judgment.question.4.review-instruction"
+        },
+        {
+          "ja": "風邪を早く治したければ、今日は早く寝る（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことだ"
+          }
+        ],
+        [
+          {
+            "ja": "はずだ"
+          }
+        ],
+        [
+          {
+            "ja": "べきだ"
+          }
+        ],
+        [
+          {
+            "ja": "に違いない"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day14-judgment.question.4.explanation",
+      "instructionId": "n2.day14-judgment.question.4.anchor"
+    },
+    {
+      "id": "n2.day14-judgment.question.5",
+      "prompt": [
+        {
+          "ja": "彼の靴が玄関にある。きっとまだ家の中にいる（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことだ"
+          }
+        ],
+        [
+          {
+            "ja": "に違いない"
+          }
+        ],
+        [
+          {
+            "ja": "ことはない"
+          }
+        ],
+        [
+          {
+            "ja": "べきだ"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day14-judgment.question.5.explanation",
+      "instructionId": "n2.day14-judgment.question.5.anchor"
+    },
+    {
+      "id": "n2.day14-judgment.question.6",
+      "prompt": [
+        {
+          "textId": "n2.day14-judgment.question.6.review-instruction"
+        },
+        {
+          "ja": "こんなに安いブランド品は、偽物（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "のはずだ"
+          }
+        ],
+        [
+          {
+            "ja": "に決まっている"
+          }
+        ],
+        [
+          {
+            "ja": "のことだ"
+          }
+        ],
+        [
+          {
+            "ja": "のおそれがある"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day14-judgment.question.6.explanation",
+      "instructionId": "n2.day14-judgment.question.6.anchor"
+    },
+    {
+      "id": "n2.day14-judgment.question.7",
+      "prompt": [
+        {
+          "ja": "あんなに練習したんだから、彼のチームが勝つ（　）と彼は言っている。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "に決まっている"
+          }
+        ],
+        [
+          {
+            "ja": "ことだ"
+          }
+        ],
+        [
+          {
+            "ja": "おそれがある"
+          }
+        ],
+        [
+          {
+            "ja": "かねない"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day14-judgment.question.7.explanation",
+      "instructionId": "n2.day14-judgment.question.7.anchor"
+    },
+    {
+      "id": "n2.day14-judgment.question.8",
+      "prompt": [
+        {
+          "textId": "n2.day14-judgment.question.8.review-instruction"
+        },
+        {
+          "ja": "今夜から明日の朝にかけて、道路が凍結する（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことだ"
+          }
+        ],
+        [
+          {
+            "ja": "おそれがある"
+          }
+        ],
+        [
+          {
+            "ja": "に決まっている"
+          }
+        ],
+        [
+          {
+            "ja": "べきだ"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day14-judgment.question.8.explanation",
+      "instructionId": "n2.day14-judgment.question.8.anchor"
+    },
+    {
+      "id": "n2.day14-judgment.question.9",
+      "prompt": [
+        {
+          "ja": "この部品に強い衝撃を与えると、発火の（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "はずがある"
+          }
+        ],
+        [
+          {
+            "ja": "おそれがある"
+          }
+        ],
+        [
+          {
+            "ja": "ことがある"
+          }
+        ],
+        [
+          {
+            "ja": "べきがある"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day14-judgment.question.9.explanation",
+      "instructionId": "n2.day14-judgment.question.9.anchor"
+    },
+    {
+      "id": "n2.day14-judgment.question.10",
+      "prompt": [
+        {
+          "ja": "事実を隠し続けると、会社全体の信用を失い（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことだ"
+          }
+        ],
+        [
+          {
+            "ja": "かねない"
+          }
+        ],
+        [
+          {
+            "ja": "はずがない"
+          }
+        ],
+        [
+          {
+            "ja": "べきではない"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day14-judgment.question.10.explanation",
+      "instructionId": "n2.day14-judgment.question.10.anchor"
+    },
+    {
+      "id": "n2.day14-judgment.question.11",
+      "prompt": [
+        {
+          "ja": "無理な運転をすれば、重大な事故を起こし（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "に違いない"
+          }
+        ],
+        [
+          {
+            "ja": "かねない"
+          }
+        ],
+        [
+          {
+            "ja": "ことだ"
+          }
+        ],
+        [
+          {
+            "ja": "はずだ"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day14-judgment.question.11.explanation",
+      "instructionId": "n2.day14-judgment.question.11.anchor"
+    }
+  ],
+  "wordRefs": []
+}

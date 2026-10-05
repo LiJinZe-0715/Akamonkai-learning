@@ -1,0 +1,535 @@
+{
+  "id": "topic-2-2-2",
+  "bookId": "topic",
+  "titleJa": "2-2 ベトナムに行く前に",
+  "groupJa": "Topic 2",
+  "articles": [
+    {
+      "id": "topic.2.2-2.summary",
+      "titleJa": "読解・内容のまとめ",
+      "paragraphIds": [
+        "topic.2.2-2.summary.0"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.2.2-2.grammar.0",
+      "titleJa": "④ ～たほうがいい：助言",
+      "paragraphIds": [
+        "topic.2.2-2.grammar.0.meaning",
+        "topic.2.2-2.grammar.0.join",
+        "topic.2.2-2.grammar.0.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.2.2-2.grammar.1",
+      "titleJa": "⑤ ～といい：提案",
+      "paragraphIds": [
+        "topic.2.2-2.grammar.1.meaning",
+        "topic.2.2-2.grammar.1.join",
+        "topic.2.2-2.grammar.1.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.2.2-2.grammar.2",
+      "titleJa": "⑥ ～てある：結果の状態",
+      "paragraphIds": [
+        "topic.2.2-2.grammar.2.meaning",
+        "topic.2.2-2.grammar.2.join",
+        "topic.2.2-2.grammar.2.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.2.2-2.grammar.3",
+      "titleJa": "⑦ ～ておく：準備",
+      "paragraphIds": [
+        "topic.2.2-2.grammar.3.meaning",
+        "topic.2.2-2.grammar.3.join",
+        "topic.2.2-2.grammar.3.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.2.2-2.grammar.4",
+      "titleJa": "⑧ もう／まだ：完了・未完了・継続",
+      "paragraphIds": [
+        "topic.2.2-2.grammar.4.meaning",
+        "topic.2.2-2.grammar.4.join",
+        "topic.2.2-2.grammar.4.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.2.2-2.examples",
+      "titleJa": "例文の解説",
+      "paragraphIds": [],
+      "examples": [
+        {
+          "ja": "A：健康のために、たばこをやめたほうがいいよ。\nB：そうだね。でも、なかなかやめられなくて……。",
+          "translationId": "topic.2.2-2.example.0.zh",
+          "analysisId": "topic.2.2-2.example.0.analysis"
+        },
+        {
+          "ja": "A：毎日本を見ているのに、漢字が覚えられないんです。\nB：漢字が覚えられないなら、毎日たくさん書いたほうがいいですよ。",
+          "translationId": "topic.2.2-2.example.1.zh",
+          "analysisId": "topic.2.2-2.example.1.analysis"
+        },
+        {
+          "ja": "A：歌舞伎を見てみたいと思っているんだけど……。\nB：じゃあ、佐藤先生に聞いてみるといいよ。先生はよく歌舞伎を見に行っているから、わかりやすく教えてくれると思うよ。",
+          "translationId": "topic.2.2-2.example.2.zh",
+          "analysisId": "topic.2.2-2.example.2.analysis"
+        },
+        {
+          "ja": "A：飲み物は買ってある？\nB：うん、買ってあるよ。",
+          "translationId": "topic.2.2-2.example.3.zh",
+          "analysisId": "topic.2.2-2.example.3.analysis"
+        },
+        {
+          "ja": "A：明日の会議の資料は準備してある？\nB：すみません。まだです。明日までにコピーしておきます。",
+          "translationId": "topic.2.2-2.example.4.zh",
+          "analysisId": "topic.2.2-2.example.4.analysis"
+        },
+        {
+          "ja": "A：もう宿題は終わった？\nB：うん、もう終わったよ。",
+          "translationId": "topic.2.2-2.example.5.zh",
+          "analysisId": "topic.2.2-2.example.5.analysis"
+        },
+        {
+          "ja": "A：もう漢字テストの勉強は終わった？\nB：ううん、まだ勉強して（い）ない。これからやるところ。",
+          "translationId": "topic.2.2-2.example.6.zh",
+          "analysisId": "topic.2.2-2.example.6.analysis"
+        },
+        {
+          "ja": "A：まだ深夜のアルバイトをしているんですか。\nB：いいえ、ちょっと仕事が大変で、もうしていません。\nA：本当ですか。\nB：はい、もうやめました。",
+          "translationId": "topic.2.2-2.example.7.zh",
+          "analysisId": "topic.2.2-2.example.7.analysis"
+        },
+        {
+          "ja": "A：まだ会議をしていますか。\nB：ええ、まだしています。そろそろ終わると思いますが。",
+          "translationId": "topic.2.2-2.example.8.zh",
+          "analysisId": "topic.2.2-2.example.8.analysis"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "topic.2.2-2.question.0",
+      "prompt": [
+        {
+          "ja": "旅行に行く前に、ホテルを予約して（　）ほうがいいです。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "おくた"
+          }
+        ],
+        [
+          {
+            "ja": "おいた"
+          }
+        ],
+        [
+          {
+            "ja": "おいてるた"
+          }
+        ],
+        [
+          {
+            "ja": "おきた"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.2.2-2.question.0.reason"
+    },
+    {
+      "id": "topic.2.2-2.question.1",
+      "prompt": [
+        {
+          "ja": "健康のために、毎日運動（　）ほうがいいですよ。"
+        },
+        {
+          "textId": "topic.2.2-2.question.1.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "するた"
+          }
+        ],
+        [
+          {
+            "ja": "して"
+          }
+        ],
+        [
+          {
+            "ja": "しだった"
+          }
+        ],
+        [
+          {
+            "ja": "した"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.2.2-2.question.1.reason"
+    },
+    {
+      "id": "topic.2.2-2.question.2",
+      "prompt": [
+        {
+          "ja": "夜遅く一人で（　）ほうがいいですよ。"
+        },
+        {
+          "textId": "topic.2.2-2.question.2.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "出かけない"
+          }
+        ],
+        [
+          {
+            "ja": "出かけなく"
+          }
+        ],
+        [
+          {
+            "ja": "出かけなかった"
+          }
+        ],
+        [
+          {
+            "ja": "出かけないだ"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.2.2-2.question.2.reason"
+    },
+    {
+      "id": "topic.2.2-2.question.3",
+      "prompt": [
+        {
+          "ja": "わからなかったら、先生に聞いて（　）といいですよ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "みた"
+          }
+        ],
+        [
+          {
+            "ja": "みて"
+          }
+        ],
+        [
+          {
+            "ja": "みる"
+          }
+        ],
+        [
+          {
+            "ja": "みるだ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.2.2-2.question.3.reason"
+    },
+    {
+      "id": "topic.2.2-2.question.4",
+      "prompt": [
+        {
+          "ja": "明日の会議の資料はもう（　）ある。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "準備した"
+          }
+        ],
+        [
+          {
+            "ja": "準備して"
+          }
+        ],
+        [
+          {
+            "ja": "準備する"
+          }
+        ],
+        [
+          {
+            "ja": "準備し"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.2.2-2.question.4.reason"
+    },
+    {
+      "id": "topic.2.2-2.question.5",
+      "prompt": [
+        {
+          "ja": "明日の会議のために、今日（　）おきます。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "コピーした"
+          }
+        ],
+        [
+          {
+            "ja": "コピーする"
+          }
+        ],
+        [
+          {
+            "ja": "コピーし"
+          }
+        ],
+        [
+          {
+            "ja": "コピーして"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.2.2-2.question.5.reason"
+    },
+    {
+      "id": "topic.2.2-2.question.6",
+      "prompt": [
+        {
+          "ja": "飲み物はもう（　）あるよ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "買って"
+          }
+        ],
+        [
+          {
+            "ja": "買いて"
+          }
+        ],
+        [
+          {
+            "ja": "買った"
+          }
+        ],
+        [
+          {
+            "ja": "買い"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.2.2-2.question.6.reason"
+    },
+    {
+      "id": "topic.2.2-2.question.7",
+      "prompt": [
+        {
+          "ja": "旅行の前に必要なものを準備して（　）。"
+        },
+        {
+          "textId": "topic.2.2-2.question.7.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "おくます"
+          }
+        ],
+        [
+          {
+            "ja": "おいてますた"
+          }
+        ],
+        [
+          {
+            "ja": "おきます"
+          }
+        ],
+        [
+          {
+            "ja": "おきるます"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.2.2-2.question.7.reason"
+    },
+    {
+      "id": "topic.2.2-2.question.8",
+      "prompt": [
+        {
+          "ja": "宿題はもう（　）。"
+        },
+        {
+          "textId": "topic.2.2-2.question.8.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "終わりた"
+          }
+        ],
+        [
+          {
+            "ja": "終わった"
+          }
+        ],
+        [
+          {
+            "ja": "終わるた"
+          }
+        ],
+        [
+          {
+            "ja": "終わってたた"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.2.2-2.question.8.reason"
+    },
+    {
+      "id": "topic.2.2-2.question.9",
+      "prompt": [
+        {
+          "ja": "宿題はまだ（　）いません。"
+        },
+        {
+          "textId": "topic.2.2-2.question.9.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "終わりて"
+          }
+        ],
+        [
+          {
+            "ja": "終わった"
+          }
+        ],
+        [
+          {
+            "ja": "終わる"
+          }
+        ],
+        [
+          {
+            "ja": "終わって"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.2.2-2.question.9.reason"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "topic.2.2-2.word.0"
+    },
+    {
+      "wordId": "topic.2.2-2.word.1"
+    },
+    {
+      "wordId": "topic.2.2-2.word.2"
+    },
+    {
+      "wordId": "topic.2.2-2.word.3"
+    },
+    {
+      "wordId": "topic.2.2-2.word.4"
+    },
+    {
+      "wordId": "topic.2.2-2.word.5"
+    },
+    {
+      "wordId": "topic.2.2-2.word.6"
+    },
+    {
+      "wordId": "topic.2.2-2.word.7"
+    },
+    {
+      "wordId": "topic.2.2-2.word.8"
+    },
+    {
+      "wordId": "topic.2.2-2.word.9"
+    },
+    {
+      "wordId": "topic.2.2-2.word.10"
+    },
+    {
+      "wordId": "topic.2.2-2.word.11"
+    },
+    {
+      "wordId": "topic.2.2-2.word.12"
+    },
+    {
+      "wordId": "topic.2.2-2.word.13"
+    },
+    {
+      "wordId": "topic.2.2-2.word.14"
+    },
+    {
+      "wordId": "topic.2.2-2.word.15"
+    },
+    {
+      "wordId": "topic.2.2-2.word.16"
+    }
+  ]
+}

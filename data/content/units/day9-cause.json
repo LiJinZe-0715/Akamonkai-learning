@@ -1,0 +1,560 @@
+{
+  "id": "day9-cause",
+  "bookId": "n2",
+  "titleJa": "原因",
+  "groupJa": "文法",
+  "articles": [
+    {
+      "id": "n2.day9-cause.grammar.0",
+      "titleJa": "～ため（に）",
+      "paragraphIds": [
+        "n2.day9-cause.grammar.0.anchor",
+        "n2.day9-cause.grammar.0.logic",
+        "n2.day9-cause.grammar.0.connection",
+        "n2.day9-cause.grammar.0.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "大雪のため、電車が遅れた。",
+          "translationId": "n2.day9-cause.grammar.0.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day9-cause.grammar.1",
+      "titleJa": "～ものだから",
+      "paragraphIds": [
+        "n2.day9-cause.grammar.1.anchor",
+        "n2.day9-cause.grammar.1.logic",
+        "n2.day9-cause.grammar.1.connection",
+        "n2.day9-cause.grammar.1.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "電車が止まっていたものだから、遅れてしまった。",
+          "translationId": "n2.day9-cause.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day9-cause.grammar.2",
+      "titleJa": "～ばかりに",
+      "paragraphIds": [
+        "n2.day9-cause.grammar.2.anchor",
+        "n2.day9-cause.grammar.2.logic",
+        "n2.day9-cause.grammar.2.connection",
+        "n2.day9-cause.grammar.2.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "余計な一言を言ったばかりに、彼を怒らせてしまった。",
+          "translationId": "n2.day9-cause.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day9-cause.grammar.3",
+      "titleJa": "～だけに",
+      "paragraphIds": [
+        "n2.day9-cause.grammar.3.anchor",
+        "n2.day9-cause.grammar.3.logic",
+        "n2.day9-cause.grammar.3.connection",
+        "n2.day9-cause.grammar.3.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "期待していただけに、中止は本当に残念だった。",
+          "translationId": "n2.day9-cause.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day9-cause.grammar.4",
+      "titleJa": "～ことから",
+      "paragraphIds": [
+        "n2.day9-cause.grammar.4.anchor",
+        "n2.day9-cause.grammar.4.logic",
+        "n2.day9-cause.grammar.4.connection",
+        "n2.day9-cause.grammar.4.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "建物の形が船に似ていることから、「船の家」と呼ばれている。",
+          "translationId": "n2.day9-cause.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day9-cause.grammar.5",
+      "titleJa": "～につき",
+      "paragraphIds": [
+        "n2.day9-cause.grammar.5.anchor",
+        "n2.day9-cause.grammar.5.logic",
+        "n2.day9-cause.grammar.5.connection",
+        "n2.day9-cause.grammar.5.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "店内改装中につき、本日は休業いたします。",
+          "translationId": "n2.day9-cause.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "n2.day9-cause.question.0",
+      "prompt": [
+        {
+          "ja": "大雪の（　）、高速道路が通行止めになった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ため"
+          }
+        ],
+        [
+          {
+            "ja": "ものだから"
+          }
+        ],
+        [
+          {
+            "ja": "ばかりに"
+          }
+        ],
+        [
+          {
+            "ja": "につき"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day9-cause.question.0.explanation",
+      "instructionId": "n2.day9-cause.question.0.anchor"
+    },
+    {
+      "id": "n2.day9-cause.question.1",
+      "prompt": [
+        {
+          "textId": "n2.day9-cause.question.1.review-instruction"
+        },
+        {
+          "ja": "台風が近づいている（　）、試合は中止になった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことから"
+          }
+        ],
+        [
+          {
+            "ja": "だけに"
+          }
+        ],
+        [
+          {
+            "ja": "ため"
+          }
+        ],
+        [
+          {
+            "ja": "ものだから"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day9-cause.question.1.explanation",
+      "instructionId": "n2.day9-cause.question.1.anchor"
+    },
+    {
+      "id": "n2.day9-cause.question.2",
+      "prompt": [
+        {
+          "textId": "n2.day9-cause.question.2.review-instruction"
+        },
+        {
+          "ja": "初めてだった（　）、うまく説明できなかったんです。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "につき"
+          }
+        ],
+        [
+          {
+            "ja": "ものだから"
+          }
+        ],
+        [
+          {
+            "ja": "ことから"
+          }
+        ],
+        [
+          {
+            "ja": "ばかりに"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day9-cause.question.2.explanation",
+      "instructionId": "n2.day9-cause.question.2.anchor"
+    },
+    {
+      "id": "n2.day9-cause.question.3",
+      "prompt": [
+        {
+          "textId": "n2.day9-cause.question.3.review-instruction"
+        },
+        {
+          "ja": "道が混んでいた（　）、約束の時間に遅れました。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ために"
+          }
+        ],
+        [
+          {
+            "ja": "ものだから"
+          }
+        ],
+        [
+          {
+            "ja": "だけに"
+          }
+        ],
+        [
+          {
+            "ja": "につき"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day9-cause.question.3.explanation",
+      "instructionId": "n2.day9-cause.question.3.anchor"
+    },
+    {
+      "id": "n2.day9-cause.question.4",
+      "prompt": [
+        {
+          "textId": "n2.day9-cause.question.4.review-instruction"
+        },
+        {
+          "ja": "安いからとすぐに買った（　）、かえって高い修理代がかかった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことから"
+          }
+        ],
+        [
+          {
+            "ja": "ばかりに"
+          }
+        ],
+        [
+          {
+            "ja": "ために"
+          }
+        ],
+        [
+          {
+            "ja": "だけに"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day9-cause.question.4.explanation",
+      "instructionId": "n2.day9-cause.question.4.anchor"
+    },
+    {
+      "id": "n2.day9-cause.question.5",
+      "prompt": [
+        {
+          "textId": "n2.day9-cause.question.5.review-instruction"
+        },
+        {
+          "ja": "余計な秘密を話した（　）、友達と気まずくなった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ものだから"
+          }
+        ],
+        [
+          {
+            "ja": "ばかりに"
+          }
+        ],
+        [
+          {
+            "ja": "につき"
+          }
+        ],
+        [
+          {
+            "ja": "ことから"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day9-cause.question.5.explanation",
+      "instructionId": "n2.day9-cause.question.5.anchor"
+    },
+    {
+      "id": "n2.day9-cause.question.6",
+      "prompt": [
+        {
+          "textId": "n2.day9-cause.question.6.review-instruction"
+        },
+        {
+          "ja": "長い間準備してきた（　）、失敗したときのショックは大きかった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "だけに"
+          }
+        ],
+        [
+          {
+            "ja": "ばかりに"
+          }
+        ],
+        [
+          {
+            "ja": "ことから"
+          }
+        ],
+        [
+          {
+            "ja": "につき"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day9-cause.question.6.explanation",
+      "instructionId": "n2.day9-cause.question.6.anchor"
+    },
+    {
+      "id": "n2.day9-cause.question.7",
+      "prompt": [
+        {
+          "textId": "n2.day9-cause.question.7.review-instruction"
+        },
+        {
+          "ja": "人気の作家の新作（　）、発売前から注目されている。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "につき"
+          }
+        ],
+        [
+          {
+            "ja": "だけに"
+          }
+        ],
+        [
+          {
+            "ja": "ばかりに"
+          }
+        ],
+        [
+          {
+            "ja": "ものだから"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day9-cause.question.7.explanation",
+      "instructionId": "n2.day9-cause.question.7.anchor"
+    },
+    {
+      "id": "n2.day9-cause.question.8",
+      "prompt": [
+        {
+          "textId": "n2.day9-cause.question.8.review-instruction"
+        },
+        {
+          "ja": "この地域は桜の木が多い（　）、桜町と呼ばれるようになった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことから"
+          }
+        ],
+        [
+          {
+            "ja": "ために"
+          }
+        ],
+        [
+          {
+            "ja": "ものだから"
+          }
+        ],
+        [
+          {
+            "ja": "だけに"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day9-cause.question.8.explanation",
+      "instructionId": "n2.day9-cause.question.8.anchor"
+    },
+    {
+      "id": "n2.day9-cause.question.9",
+      "prompt": [
+        {
+          "textId": "n2.day9-cause.question.9.review-instruction"
+        },
+        {
+          "ja": "窓が開いていた（　）、誰かがここから入ったと考えられる。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ばかりに"
+          }
+        ],
+        [
+          {
+            "ja": "ことから"
+          }
+        ],
+        [
+          {
+            "ja": "につき"
+          }
+        ],
+        [
+          {
+            "ja": "ものだから"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day9-cause.question.9.explanation",
+      "instructionId": "n2.day9-cause.question.9.anchor"
+    },
+    {
+      "id": "n2.day9-cause.question.10",
+      "prompt": [
+        {
+          "ja": "工事中（　）、この入り口はご利用いただけません。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "につき"
+          }
+        ],
+        [
+          {
+            "ja": "だけではなく"
+          }
+        ],
+        [
+          {
+            "ja": "ことから"
+          }
+        ],
+        [
+          {
+            "ja": "ものだから"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day9-cause.question.10.explanation",
+      "instructionId": "n2.day9-cause.question.10.anchor"
+    },
+    {
+      "id": "n2.day9-cause.question.11",
+      "prompt": [
+        {
+          "ja": "本日は貸し切り（　）、一般のお客様は入店できません。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ばかりに"
+          }
+        ],
+        [
+          {
+            "ja": "ために"
+          }
+        ],
+        [
+          {
+            "ja": "につき"
+          }
+        ],
+        [
+          {
+            "ja": "ことから"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day9-cause.question.11.explanation",
+      "instructionId": "n2.day9-cause.question.11.anchor"
+    }
+  ],
+  "wordRefs": []
+}

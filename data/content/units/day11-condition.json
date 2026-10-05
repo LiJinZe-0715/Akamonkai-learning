@@ -1,0 +1,539 @@
+{
+  "id": "day11-condition",
+  "bookId": "n2",
+  "titleJa": "条件",
+  "groupJa": "文法",
+  "articles": [
+    {
+      "id": "n2.day11-condition.grammar.0",
+      "titleJa": "～ものなら",
+      "paragraphIds": [
+        "n2.day11-condition.grammar.0.anchor",
+        "n2.day11-condition.grammar.0.logic",
+        "n2.day11-condition.grammar.0.connection",
+        "n2.day11-condition.grammar.0.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "行けるものなら、世界一周旅行をしてみたい。",
+          "translationId": "n2.day11-condition.grammar.0.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day11-condition.grammar.1",
+      "titleJa": "～ようものなら",
+      "paragraphIds": [
+        "n2.day11-condition.grammar.1.anchor",
+        "n2.day11-condition.grammar.1.logic",
+        "n2.day11-condition.grammar.1.connection",
+        "n2.day11-condition.grammar.1.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "そんなことを言おうものなら、みんなに反対される。",
+          "translationId": "n2.day11-condition.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day11-condition.grammar.2",
+      "titleJa": "～ないことには",
+      "paragraphIds": [
+        "n2.day11-condition.grammar.2.anchor",
+        "n2.day11-condition.grammar.2.logic",
+        "n2.day11-condition.grammar.2.connection",
+        "n2.day11-condition.grammar.2.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "実際に使ってみないことには、便利かどうか分からない。",
+          "translationId": "n2.day11-condition.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day11-condition.grammar.3",
+      "titleJa": "～ない限り",
+      "paragraphIds": [
+        "n2.day11-condition.grammar.3.anchor",
+        "n2.day11-condition.grammar.3.logic",
+        "n2.day11-condition.grammar.3.connection",
+        "n2.day11-condition.grammar.3.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "努力しない限り、上達は望めない。",
+          "translationId": "n2.day11-condition.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day11-condition.grammar.4",
+      "titleJa": "～としたら",
+      "paragraphIds": [
+        "n2.day11-condition.grammar.4.anchor",
+        "n2.day11-condition.grammar.4.logic",
+        "n2.day11-condition.grammar.4.connection",
+        "n2.day11-condition.grammar.4.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "一年間海外で働くとしたら、どの国を選びますか。",
+          "translationId": "n2.day11-condition.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day11-condition.grammar.5",
+      "titleJa": "～とすれば",
+      "paragraphIds": [
+        "n2.day11-condition.grammar.5.anchor",
+        "n2.day11-condition.grammar.5.logic",
+        "n2.day11-condition.grammar.5.connection",
+        "n2.day11-condition.grammar.5.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "一日に十ページ進むとすれば、読み終わるまでに二十日かかる。",
+          "translationId": "n2.day11-condition.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "n2.day11-condition.question.0",
+      "prompt": [
+        {
+          "ja": "もう一度人生をやり直せる（　）、別の仕事を選ぶかもしれない。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ものなら"
+          }
+        ],
+        [
+          {
+            "ja": "ようものなら"
+          }
+        ],
+        [
+          {
+            "ja": "ない限り"
+          }
+        ],
+        [
+          {
+            "ja": "にかかわらず"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day11-condition.question.0.explanation",
+      "instructionId": "n2.day11-condition.question.0.anchor"
+    },
+    {
+      "id": "n2.day11-condition.question.1",
+      "prompt": [
+        {
+          "ja": "会える（　）、もう一度先生とゆっくり話したい。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ないことには"
+          }
+        ],
+        [
+          {
+            "ja": "ものなら"
+          }
+        ],
+        [
+          {
+            "ja": "にかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "ようものなら"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day11-condition.question.1.explanation",
+      "instructionId": "n2.day11-condition.question.1.anchor"
+    },
+    {
+      "id": "n2.day11-condition.question.2",
+      "prompt": [
+        {
+          "textId": "n2.day11-condition.question.2.review-instruction"
+        },
+        {
+          "ja": "こんな時間にピアノを（　）、近所から苦情が来るよ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "弾こうものなら"
+          }
+        ],
+        [
+          {
+            "ja": "弾けるものなら"
+          }
+        ],
+        [
+          {
+            "ja": "弾かない限り"
+          }
+        ],
+        [
+          {
+            "ja": "弾くとしたら"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day11-condition.question.2.explanation",
+      "instructionId": "n2.day11-condition.question.2.anchor"
+    },
+    {
+      "id": "n2.day11-condition.question.3",
+      "prompt": [
+        {
+          "textId": "n2.day11-condition.question.3.review-instruction"
+        },
+        {
+          "ja": "この秘密を誰かに（　）、二度と信用しない。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "話すとすれば"
+          }
+        ],
+        [
+          {
+            "ja": "話そうものなら"
+          }
+        ],
+        [
+          {
+            "ja": "話せるものなら"
+          }
+        ],
+        [
+          {
+            "ja": "話さないことには"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day11-condition.question.3.explanation",
+      "instructionId": "n2.day11-condition.question.3.anchor"
+    },
+    {
+      "id": "n2.day11-condition.question.4",
+      "prompt": [
+        {
+          "ja": "実物を見てみ（　）、買うかどうか決められない。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ないことには"
+          }
+        ],
+        [
+          {
+            "ja": "にかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "ものなら"
+          }
+        ],
+        [
+          {
+            "ja": "ともかく"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day11-condition.question.4.explanation",
+      "instructionId": "n2.day11-condition.question.4.anchor"
+    },
+    {
+      "id": "n2.day11-condition.question.5",
+      "prompt": [
+        {
+          "ja": "彼に直接聞いてみ（　）、本当の理由は分からない。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ともかく"
+          }
+        ],
+        [
+          {
+            "ja": "ないことには"
+          }
+        ],
+        [
+          {
+            "ja": "にかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "ものなら"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day11-condition.question.5.explanation",
+      "instructionId": "n2.day11-condition.question.5.anchor"
+    },
+    {
+      "id": "n2.day11-condition.question.6",
+      "prompt": [
+        {
+          "ja": "本人が謝ら（　）、私はこの件を許すつもりはない。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ない限り"
+          }
+        ],
+        [
+          {
+            "ja": "にかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "ようものなら"
+          }
+        ],
+        [
+          {
+            "ja": "ともかく"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day11-condition.question.6.explanation",
+      "instructionId": "n2.day11-condition.question.6.anchor"
+    },
+    {
+      "id": "n2.day11-condition.question.7",
+      "prompt": [
+        {
+          "ja": "法律が変わら（　）、現在の制度は続くだろう。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "にかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "ものなら"
+          }
+        ],
+        [
+          {
+            "ja": "ない限り"
+          }
+        ],
+        [
+          {
+            "ja": "ともかく"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day11-condition.question.7.explanation",
+      "instructionId": "n2.day11-condition.question.7.anchor"
+    },
+    {
+      "id": "n2.day11-condition.question.8",
+      "prompt": [
+        {
+          "ja": "もし一年休みが取れる（　）、何をしたいですか。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "としたら"
+          }
+        ],
+        [
+          {
+            "ja": "にかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "ようものなら"
+          }
+        ],
+        [
+          {
+            "ja": "ない限り"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day11-condition.question.8.explanation",
+      "instructionId": "n2.day11-condition.question.8.anchor"
+    },
+    {
+      "id": "n2.day11-condition.question.9",
+      "prompt": [
+        {
+          "ja": "彼の話が本当だ（　）、あなたはどうしますか。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "にかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "としたら"
+          }
+        ],
+        [
+          {
+            "ja": "ものなら"
+          }
+        ],
+        [
+          {
+            "ja": "ないことには"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day11-condition.question.9.explanation",
+      "instructionId": "n2.day11-condition.question.9.anchor"
+    },
+    {
+      "id": "n2.day11-condition.question.10",
+      "prompt": [
+        {
+          "ja": "参加者が一人五千円払う（　）、百人で五十万円集まる。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "にかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "とすれば"
+          }
+        ],
+        [
+          {
+            "ja": "ない限り"
+          }
+        ],
+        [
+          {
+            "ja": "ことには"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day11-condition.question.10.explanation",
+      "instructionId": "n2.day11-condition.question.10.anchor"
+    },
+    {
+      "id": "n2.day11-condition.question.11",
+      "prompt": [
+        {
+          "ja": "このペースが続く（　）、完成まであと三日必要だ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "とすれば"
+          }
+        ],
+        [
+          {
+            "ja": "にかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "ようものなら"
+          }
+        ],
+        [
+          {
+            "ja": "ないことには"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day11-condition.question.11.explanation",
+      "instructionId": "n2.day11-condition.question.11.anchor"
+    }
+  ],
+  "wordRefs": []
+}

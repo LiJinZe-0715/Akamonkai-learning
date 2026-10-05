@@ -1,0 +1,418 @@
+{
+  "id": "minna-7",
+  "bookId": "minna",
+  "titleJa": "第7課",
+  "groupJa": "初級Ⅰ",
+  "articles": [
+    {
+      "id": "minna.lesson.7.grammar.1",
+      "titleJa": "道具／言語 で V",
+      "paragraphIds": [
+        "minna.lesson.7.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "日本語でメールを書きます。",
+          "translationId": "minna.lesson.7.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.7.grammar.2",
+      "titleJa": "「語句／文」は ～語で何ですか",
+      "paragraphIds": [
+        "minna.lesson.7.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "「ありがとう」は中国語で何ですか。",
+          "translationId": "minna.lesson.7.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.7.grammar.3",
+      "titleJa": "人 に N を あげます",
+      "paragraphIds": [
+        "minna.lesson.7.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "友達に花をあげました。",
+          "translationId": "minna.lesson.7.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.7.grammar.4",
+      "titleJa": "人 に／から N を もらいます",
+      "paragraphIds": [
+        "minna.lesson.7.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "会社から資料をもらいました。",
+          "translationId": "minna.lesson.7.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.7.grammar.5",
+      "titleJa": "もう Vました",
+      "paragraphIds": [
+        "minna.lesson.7.grammar.5.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "もう宿題をしました。",
+          "translationId": "minna.lesson.7.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.7-1",
+      "prompt": [
+        {
+          "ja": "はさみ（　）紙を切ります。"
+        }
+      ],
+      "instructionId": "minna.question.7-1.translation",
+      "options": [
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "へ"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.7-1.explanation"
+    },
+    {
+      "id": "minna.question.7-2",
+      "prompt": [
+        {
+          "ja": "「谢谢」は日本語（　）何ですか。"
+        }
+      ],
+      "instructionId": "minna.question.7-2.translation",
+      "options": [
+        [
+          {
+            "ja": "で"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "が"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.7-2.explanation"
+    },
+    {
+      "id": "minna.question.7-3",
+      "prompt": [
+        {
+          "ja": "私は妹に本を（　）。"
+        }
+      ],
+      "instructionId": "minna.question.7-3.translation",
+      "options": [
+        [
+          {
+            "ja": "もらいました"
+          }
+        ],
+        [
+          {
+            "ja": "あげました"
+          }
+        ],
+        [
+          {
+            "ja": "借りました"
+          }
+        ],
+        [
+          {
+            "ja": "受け取りました"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.7-3.explanation"
+    },
+    {
+      "id": "minna.question.7-4",
+      "prompt": [
+        {
+          "ja": "私は会社（　）資料をもらいました。"
+        }
+      ],
+      "instructionId": "minna.question.7-4.translation",
+      "options": [
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ],
+        [
+          {
+            "ja": "から"
+          }
+        ],
+        [
+          {
+            "ja": "へ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.7-4.explanation"
+    },
+    {
+      "id": "minna.question.7-5",
+      "prompt": [
+        {
+          "ja": "A：もう昼ご飯を食べましたか。 B：いいえ、（　）。"
+        }
+      ],
+      "instructionId": "minna.question.7-5.translation",
+      "options": [
+        [
+          {
+            "ja": "もう食べました"
+          }
+        ],
+        [
+          {
+            "ja": "食べました"
+          }
+        ],
+        [
+          {
+            "ja": "昼ご飯です"
+          }
+        ],
+        [
+          {
+            "ja": "まだです"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.7-5.explanation"
+    },
+    {
+      "id": "minna.question.7-6",
+      "prompt": [
+        {
+          "ja": "私は友達に辞書をもらいました。是谁送出了词典？"
+        }
+      ],
+      "instructionId": "minna.question.7-6.translation",
+      "options": [
+        [
+          {
+            "ja": "友達"
+          }
+        ],
+        [
+          {
+            "ja": "私"
+          }
+        ],
+        [
+          {
+            "ja": "私と友達の両方"
+          }
+        ],
+        [
+          {
+            "ja": "この文では分からない"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.7-6.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.305"
+    },
+    {
+      "wordId": "word.306"
+    },
+    {
+      "wordId": "word.307"
+    },
+    {
+      "wordId": "word.308"
+    },
+    {
+      "wordId": "word.309"
+    },
+    {
+      "wordId": "word.310"
+    },
+    {
+      "wordId": "word.311"
+    },
+    {
+      "wordId": "word.312"
+    },
+    {
+      "wordId": "word.313"
+    },
+    {
+      "wordId": "word.314"
+    },
+    {
+      "wordId": "word.315"
+    },
+    {
+      "wordId": "word.316"
+    },
+    {
+      "wordId": "word.317"
+    },
+    {
+      "wordId": "word.318"
+    },
+    {
+      "wordId": "word.319"
+    },
+    {
+      "wordId": "word.320"
+    },
+    {
+      "wordId": "word.321"
+    },
+    {
+      "wordId": "word.322"
+    },
+    {
+      "wordId": "word.323"
+    },
+    {
+      "wordId": "word.324"
+    },
+    {
+      "wordId": "word.325"
+    },
+    {
+      "wordId": "word.326"
+    },
+    {
+      "wordId": "word.327"
+    },
+    {
+      "wordId": "word.328"
+    },
+    {
+      "wordId": "word.329"
+    },
+    {
+      "wordId": "word.330"
+    },
+    {
+      "wordId": "word.331"
+    },
+    {
+      "wordId": "word.332"
+    },
+    {
+      "wordId": "word.333"
+    },
+    {
+      "wordId": "word.334"
+    },
+    {
+      "wordId": "word.335"
+    },
+    {
+      "wordId": "word.336"
+    },
+    {
+      "wordId": "word.337"
+    },
+    {
+      "wordId": "word.338"
+    },
+    {
+      "wordId": "word.339"
+    },
+    {
+      "wordId": "word.340"
+    },
+    {
+      "wordId": "word.341"
+    },
+    {
+      "wordId": "word.342"
+    },
+    {
+      "wordId": "word.343"
+    },
+    {
+      "wordId": "word.344"
+    },
+    {
+      "wordId": "word.345"
+    },
+    {
+      "wordId": "word.346"
+    }
+  ]
+}

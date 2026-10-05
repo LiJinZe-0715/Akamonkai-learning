@@ -1,0 +1,420 @@
+{
+  "id": "topic-2-2-1",
+  "bookId": "topic",
+  "titleJa": "2-1 ベトナムへ行こう！",
+  "groupJa": "Topic 2",
+  "articles": [
+    {
+      "id": "topic.2.2-1.summary",
+      "titleJa": "読解・内容のまとめ",
+      "paragraphIds": [
+        "topic.2.2-1.summary.0"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.2.2-1.grammar.0",
+      "titleJa": "① ～たら：条件・時間",
+      "paragraphIds": [
+        "topic.2.2-1.grammar.0.meaning",
+        "topic.2.2-1.grammar.0.join",
+        "topic.2.2-1.grammar.0.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.2.2-1.grammar.1",
+      "titleJa": "② ～なら：話題を受けた条件",
+      "paragraphIds": [
+        "topic.2.2-1.grammar.1.meaning",
+        "topic.2.2-1.grammar.1.join",
+        "topic.2.2-1.grammar.1.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.2.2-1.grammar.2",
+      "titleJa": "たら／なら：使い分け",
+      "paragraphIds": [
+        "topic.2.2-1.grammar.2.meaning",
+        "topic.2.2-1.grammar.2.join",
+        "topic.2.2-1.grammar.2.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.2.2-1.grammar.3",
+      "titleJa": "③ ～というのは～のことです：定義",
+      "paragraphIds": [
+        "topic.2.2-1.grammar.3.meaning",
+        "topic.2.2-1.grammar.3.join",
+        "topic.2.2-1.grammar.3.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.2.2-1.examples",
+      "titleJa": "例文の解説",
+      "paragraphIds": [],
+      "examples": [
+        {
+          "ja": "A：駅に着いたら、連絡してください。すぐ迎えに行きますね。\nB：わかりました。よろしくお願いします。",
+          "translationId": "topic.2.2-1.example.0.zh",
+          "analysisId": "topic.2.2-1.example.0.analysis"
+        },
+        {
+          "ja": "A：田中さんはどこですか。\nB：田中さんなら、さっき部長に呼ばれて、会議室へ行きましたよ。",
+          "translationId": "topic.2.2-1.example.1.zh",
+          "analysisId": "topic.2.2-1.example.1.analysis"
+        },
+        {
+          "ja": "A：実は、来月北海道へ旅行に行くんです。\nB：いいですね。でも、北海道へ行くなら、セーターを持って行ったほうがいいですよ。",
+          "translationId": "topic.2.2-1.example.2.zh",
+          "analysisId": "topic.2.2-1.example.2.analysis"
+        },
+        {
+          "ja": "A：先生、高校を卒業したら、アメリカへ留学したいと思っているんですが……。\nB：えっ、アメリカへ留学したいなら、もっと英語を勉強してください。",
+          "translationId": "topic.2.2-1.example.3.zh",
+          "analysisId": "topic.2.2-1.example.3.analysis"
+        },
+        {
+          "ja": "A：このマックというのは何ですか。\nB：ああ、マクドナルドのことですよ。",
+          "translationId": "topic.2.2-1.example.4.zh",
+          "analysisId": "topic.2.2-1.example.4.analysis"
+        },
+        {
+          "ja": "A：ねえ、ミスドへ行かない？\nB：えっ、ミスド？ それ、何？\nA：ミスドっていうのは、ミスタードーナツのことだよ。",
+          "translationId": "topic.2.2-1.example.5.zh",
+          "analysisId": "topic.2.2-1.example.5.analysis"
+        },
+        {
+          "ja": "A：すみません。「立ち入り禁止」というのは、どういう意味ですか。\nB：入ってはいけないということですよ。",
+          "translationId": "topic.2.2-1.example.6.zh",
+          "analysisId": "topic.2.2-1.example.6.analysis"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "topic.2.2-1.question.0",
+      "prompt": [
+        {
+          "ja": "駅に（　）、連絡してください。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "着いたら"
+          }
+        ],
+        [
+          {
+            "ja": "着くら"
+          }
+        ],
+        [
+          {
+            "ja": "着いてら"
+          }
+        ],
+        [
+          {
+            "ja": "着いただら"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.2.2-1.question.0.reason"
+    },
+    {
+      "id": "topic.2.2-1.question.1",
+      "prompt": [
+        {
+          "ja": "北海道へ（　）、厚い服を持って行ったほうがいいですよ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "行くだなら"
+          }
+        ],
+        [
+          {
+            "ja": "行きなら"
+          }
+        ],
+        [
+          {
+            "ja": "行くなら"
+          }
+        ],
+        [
+          {
+            "ja": "行ってなら"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.2.2-1.question.1.reason"
+    },
+    {
+      "id": "topic.2.2-1.question.2",
+      "prompt": [
+        {
+          "ja": "この仕事が（　）、私もやってみたいです。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "簡単だなら"
+          }
+        ],
+        [
+          {
+            "ja": "簡単なら"
+          }
+        ],
+        [
+          {
+            "ja": "簡単ななら"
+          }
+        ],
+        [
+          {
+            "ja": "簡単でなら"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.2.2-1.question.2.reason"
+    },
+    {
+      "id": "topic.2.2-1.question.3",
+      "prompt": [
+        {
+          "ja": "値段が（　）、買います。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "安いら"
+          }
+        ],
+        [
+          {
+            "ja": "安くら"
+          }
+        ],
+        [
+          {
+            "ja": "安いだったら"
+          }
+        ],
+        [
+          {
+            "ja": "安かったら"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.2.2-1.question.3.reason"
+    },
+    {
+      "id": "topic.2.2-1.question.4",
+      "prompt": [
+        {
+          "ja": "学生（　）、この割引が使えます。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "なら"
+          }
+        ],
+        [
+          {
+            "ja": "だなら"
+          }
+        ],
+        [
+          {
+            "ja": "ななら"
+          }
+        ],
+        [
+          {
+            "ja": "でなら"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.2.2-1.question.4.reason"
+    },
+    {
+      "id": "topic.2.2-1.question.5",
+      "prompt": [
+        {
+          "ja": "「ミスド」（　）、ミスタードーナツのことです。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "というは"
+          }
+        ],
+        [
+          {
+            "ja": "といのは"
+          }
+        ],
+        [
+          {
+            "ja": "というのは"
+          }
+        ],
+        [
+          {
+            "ja": "というだは"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.2.2-1.question.5.reason"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "topic.2.2-1.word.0"
+    },
+    {
+      "wordId": "topic.2.2-1.word.1"
+    },
+    {
+      "wordId": "topic.2.2-1.word.2"
+    },
+    {
+      "wordId": "topic.2.2-1.word.3"
+    },
+    {
+      "wordId": "topic.2.2-1.word.4"
+    },
+    {
+      "wordId": "topic.2.2-1.word.5"
+    },
+    {
+      "wordId": "topic.2.2-1.word.6"
+    },
+    {
+      "wordId": "topic.2.2-1.word.7"
+    },
+    {
+      "wordId": "topic.2.2-1.word.8"
+    },
+    {
+      "wordId": "topic.2.2-1.word.9"
+    },
+    {
+      "wordId": "topic.2.2-1.word.10"
+    },
+    {
+      "wordId": "topic.2.2-1.word.11"
+    },
+    {
+      "wordId": "topic.2.2-1.word.12"
+    },
+    {
+      "wordId": "topic.2.2-1.word.13"
+    },
+    {
+      "wordId": "topic.2.2-1.word.14"
+    },
+    {
+      "wordId": "topic.2.2-1.word.15"
+    },
+    {
+      "wordId": "topic.2.2-1.word.16"
+    },
+    {
+      "wordId": "topic.2.2-1.word.17"
+    },
+    {
+      "wordId": "topic.2.2-1.word.18"
+    },
+    {
+      "wordId": "topic.2.2-1.word.19"
+    },
+    {
+      "wordId": "topic.2.2-1.word.20"
+    },
+    {
+      "wordId": "topic.2.2-1.word.21"
+    },
+    {
+      "wordId": "topic.2.2-1.word.22"
+    },
+    {
+      "wordId": "topic.2.2-1.word.23"
+    },
+    {
+      "wordId": "topic.2.2-1.word.24"
+    },
+    {
+      "wordId": "topic.2.2-1.word.25"
+    },
+    {
+      "wordId": "topic.2.2-1.word.26"
+    },
+    {
+      "wordId": "topic.2.2-1.word.27"
+    },
+    {
+      "wordId": "topic.2.2-1.word.28"
+    },
+    {
+      "wordId": "topic.2.2-1.word.29"
+    },
+    {
+      "wordId": "topic.2.2-1.word.30"
+    },
+    {
+      "wordId": "topic.2.2-1.word.31"
+    },
+    {
+      "wordId": "topic.2.2-1.word.32"
+    },
+    {
+      "wordId": "topic.2.2-1.word.33"
+    },
+    {
+      "wordId": "topic.2.2-1.word.34"
+    },
+    {
+      "wordId": "topic.2.2-1.word.35"
+    }
+  ]
+}

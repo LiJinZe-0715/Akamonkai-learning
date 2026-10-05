@@ -1,0 +1,481 @@
+{
+  "id": "minna-11",
+  "bookId": "minna",
+  "titleJa": "第11課",
+  "groupJa": "初級Ⅰ",
+  "articles": [
+    {
+      "id": "minna.lesson.11.grammar.1",
+      "titleJa": "数量詞＋V",
+      "paragraphIds": [
+        "minna.lesson.11.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "りんごを三つ買いました。",
+          "translationId": "minna.lesson.11.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.11.grammar.2",
+      "titleJa": "期間＋V",
+      "paragraphIds": [
+        "minna.lesson.11.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "日本語を二年間勉強しました。",
+          "translationId": "minna.lesson.11.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.11.grammar.3",
+      "titleJa": "期間 に 回数＋V",
+      "paragraphIds": [
+        "minna.lesson.11.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "一週間に二回泳ぎます。",
+          "translationId": "minna.lesson.11.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.11.grammar.4",
+      "titleJa": "～から～まで どのくらいかかりますか",
+      "paragraphIds": [
+        "minna.lesson.11.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "東京から大阪までどのくらいかかりますか。",
+          "translationId": "minna.lesson.11.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.11.grammar.5",
+      "titleJa": "数量＋ぐらい／ごろ",
+      "paragraphIds": [
+        "minna.lesson.11.grammar.5.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "毎日七時間ぐらい寝ます。",
+          "translationId": "minna.lesson.11.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.11-1",
+      "prompt": [
+        {
+          "ja": "りんごを（　）買いました。"
+        }
+      ],
+      "instructionId": "minna.question.11-1.translation",
+      "options": [
+        [
+          {
+            "ja": "四つに"
+          }
+        ],
+        [
+          {
+            "ja": "四つを"
+          }
+        ],
+        [
+          {
+            "ja": "四つの"
+          }
+        ],
+        [
+          {
+            "ja": "四つ"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.11-1.explanation"
+    },
+    {
+      "id": "minna.question.11-2",
+      "prompt": [
+        {
+          "ja": "昨日、（　）勉強しました。"
+        }
+      ],
+      "instructionId": "minna.question.11-2.translation",
+      "options": [
+        [
+          {
+            "ja": "三時間"
+          }
+        ],
+        [
+          {
+            "ja": "三時間に"
+          }
+        ],
+        [
+          {
+            "ja": "三時"
+          }
+        ],
+        [
+          {
+            "ja": "三時に"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.11-2.explanation"
+    },
+    {
+      "id": "minna.question.11-3",
+      "prompt": [
+        {
+          "ja": "一か月（　）二回、映画を見ます。"
+        }
+      ],
+      "instructionId": "minna.question.11-3.translation",
+      "options": [
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ],
+        [
+          {
+            "ja": "へ"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.11-3.explanation"
+    },
+    {
+      "id": "minna.question.11-4",
+      "prompt": [
+        {
+          "ja": "ここから駅まで（　）かかりますか。―十分ぐらいです。"
+        }
+      ],
+      "instructionId": "minna.question.11-4.translation",
+      "options": [
+        [
+          {
+            "ja": "何時"
+          }
+        ],
+        [
+          {
+            "ja": "いつ"
+          }
+        ],
+        [
+          {
+            "ja": "どのくらい"
+          }
+        ],
+        [
+          {
+            "ja": "何日"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.11-4.explanation"
+    },
+    {
+      "id": "minna.question.11-5",
+      "prompt": [
+        {
+          "ja": "七時（　）起きます。"
+        }
+      ],
+      "instructionId": "minna.question.11-5.translation",
+      "options": [
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "まで"
+          }
+        ],
+        [
+          {
+            "ja": "から"
+          }
+        ],
+        [
+          {
+            "ja": "ごろ"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.11-5.explanation"
+    },
+    {
+      "id": "minna.question.11-6",
+      "prompt": [
+        {
+          "ja": "毎晩、七時間（　）寝ます。"
+        }
+      ],
+      "instructionId": "minna.question.11-6.translation",
+      "options": [
+        [
+          {
+            "ja": "ぐらい"
+          }
+        ],
+        [
+          {
+            "ja": "ごろ"
+          }
+        ],
+        [
+          {
+            "ja": "ごろに"
+          }
+        ],
+        [
+          {
+            "ja": "ぐらいを"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.11-6.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.508"
+    },
+    {
+      "wordId": "word.509"
+    },
+    {
+      "wordId": "word.510"
+    },
+    {
+      "wordId": "word.511"
+    },
+    {
+      "wordId": "word.512"
+    },
+    {
+      "wordId": "word.513"
+    },
+    {
+      "wordId": "word.514"
+    },
+    {
+      "wordId": "word.515"
+    },
+    {
+      "wordId": "word.516"
+    },
+    {
+      "wordId": "word.517"
+    },
+    {
+      "wordId": "word.518"
+    },
+    {
+      "wordId": "word.519"
+    },
+    {
+      "wordId": "word.520"
+    },
+    {
+      "wordId": "word.521"
+    },
+    {
+      "wordId": "word.522"
+    },
+    {
+      "wordId": "word.523"
+    },
+    {
+      "wordId": "word.524"
+    },
+    {
+      "wordId": "word.525"
+    },
+    {
+      "wordId": "word.526"
+    },
+    {
+      "wordId": "word.527"
+    },
+    {
+      "wordId": "word.528"
+    },
+    {
+      "wordId": "word.529"
+    },
+    {
+      "wordId": "word.530"
+    },
+    {
+      "wordId": "word.531"
+    },
+    {
+      "wordId": "word.532"
+    },
+    {
+      "wordId": "word.533"
+    },
+    {
+      "wordId": "word.534"
+    },
+    {
+      "wordId": "word.535"
+    },
+    {
+      "wordId": "word.536"
+    },
+    {
+      "wordId": "word.537"
+    },
+    {
+      "wordId": "word.538"
+    },
+    {
+      "wordId": "word.539"
+    },
+    {
+      "wordId": "word.540"
+    },
+    {
+      "wordId": "word.541"
+    },
+    {
+      "wordId": "word.542"
+    },
+    {
+      "wordId": "word.543"
+    },
+    {
+      "wordId": "word.544"
+    },
+    {
+      "wordId": "word.545"
+    },
+    {
+      "wordId": "word.546"
+    },
+    {
+      "wordId": "word.547"
+    },
+    {
+      "wordId": "word.548"
+    },
+    {
+      "wordId": "word.549"
+    },
+    {
+      "wordId": "word.550"
+    },
+    {
+      "wordId": "word.551"
+    },
+    {
+      "wordId": "word.552"
+    },
+    {
+      "wordId": "word.553"
+    },
+    {
+      "wordId": "word.554"
+    },
+    {
+      "wordId": "word.555"
+    },
+    {
+      "wordId": "word.556"
+    },
+    {
+      "wordId": "word.557"
+    },
+    {
+      "wordId": "word.558"
+    },
+    {
+      "wordId": "word.559"
+    },
+    {
+      "wordId": "word.560"
+    },
+    {
+      "wordId": "word.561"
+    },
+    {
+      "wordId": "word.562"
+    },
+    {
+      "wordId": "word.563"
+    },
+    {
+      "wordId": "word.564"
+    },
+    {
+      "wordId": "word.565"
+    },
+    {
+      "wordId": "word.566"
+    },
+    {
+      "wordId": "word.567"
+    },
+    {
+      "wordId": "word.568"
+    },
+    {
+      "wordId": "word.569"
+    },
+    {
+      "wordId": "word.570"
+    }
+  ]
+}

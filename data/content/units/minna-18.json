@@ -1,0 +1,398 @@
+{
+  "id": "minna-18",
+  "bookId": "minna",
+  "titleJa": "第18課",
+  "groupJa": "初級Ⅰ",
+  "articles": [
+    {
+      "id": "minna.lesson.18.grammar.1",
+      "titleJa": "V辞書形＋ことができます",
+      "paragraphIds": [
+        "minna.lesson.18.grammar.1.meaning",
+        "minna.lesson.18.grammar.1.formation"
+      ],
+      "examples": [
+        {
+          "ja": "私は漢字を読むことができます。",
+          "translationId": "minna.lesson.18.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.18.grammar.2",
+      "titleJa": "趣味は V辞書形＋ことです",
+      "paragraphIds": [
+        "minna.lesson.18.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "趣味は写真を撮ることです。",
+          "translationId": "minna.lesson.18.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.18.grammar.3",
+      "titleJa": "V辞書形／Nの＋前に",
+      "paragraphIds": [
+        "minna.lesson.18.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "寝る前に、歯を磨きます。",
+          "translationId": "minna.lesson.18.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.18.grammar.4",
+      "titleJa": "なかなか～ません",
+      "paragraphIds": [
+        "minna.lesson.18.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "日本ではなかなか馬を見ることができません。",
+          "translationId": "minna.lesson.18.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.18-1",
+      "prompt": [
+        {
+          "ja": "私は漢字を（　）ことができます。"
+        }
+      ],
+      "instructionId": "minna.question.18-1.translation",
+      "options": [
+        [
+          {
+            "ja": "読み"
+          }
+        ],
+        [
+          {
+            "ja": "読んで"
+          }
+        ],
+        [
+          {
+            "ja": "読む"
+          }
+        ],
+        [
+          {
+            "ja": "読んだ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.18-1.explanation"
+    },
+    {
+      "id": "minna.question.18-2",
+      "prompt": [
+        {
+          "ja": "趣味は写真を（　）ことです。"
+        }
+      ],
+      "instructionId": "minna.question.18-2.translation",
+      "options": [
+        [
+          {
+            "ja": "撮り"
+          }
+        ],
+        [
+          {
+            "ja": "撮った"
+          }
+        ],
+        [
+          {
+            "ja": "撮って"
+          }
+        ],
+        [
+          {
+            "ja": "撮る"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.18-2.explanation"
+    },
+    {
+      "id": "minna.question.18-3",
+      "prompt": [
+        {
+          "ja": "昨日、（　）前に、薬を飲みました。"
+        }
+      ],
+      "instructionId": "minna.question.18-3.translation",
+      "options": [
+        [
+          {
+            "ja": "寝る"
+          }
+        ],
+        [
+          {
+            "ja": "寝た"
+          }
+        ],
+        [
+          {
+            "ja": "寝て"
+          }
+        ],
+        [
+          {
+            "ja": "寝ます"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.18-3.explanation"
+    },
+    {
+      "id": "minna.question.18-4",
+      "prompt": [
+        {
+          "ja": "何度電話しても、なかなか（　）。"
+        }
+      ],
+      "instructionId": "minna.question.18-4.translation",
+      "options": [
+        [
+          {
+            "ja": "つながりました"
+          }
+        ],
+        [
+          {
+            "ja": "つながりません"
+          }
+        ],
+        [
+          {
+            "ja": "つながります"
+          }
+        ],
+        [
+          {
+            "ja": "つながりましょう"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.18-4.explanation"
+    },
+    {
+      "id": "minna.question.18-5",
+      "prompt": [
+        {
+          "ja": "来ます → "
+        },
+        {
+          "textId": "minna.question.18-5.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.18-5.translation",
+      "options": [
+        [
+          {
+            "ja": "きる"
+          }
+        ],
+        [
+          {
+            "ja": "こる"
+          }
+        ],
+        [
+          {
+            "ja": "くる"
+          }
+        ],
+        [
+          {
+            "ja": "くます"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.18-5.explanation"
+    },
+    {
+      "id": "minna.question.18-6",
+      "prompt": [
+        {
+          "ja": "食事（　）前に、手を洗います。"
+        }
+      ],
+      "instructionId": "minna.question.18-6.translation",
+      "options": [
+        [
+          {
+            "ja": "な"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ],
+        [
+          {
+            "ja": "の"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.18-6.explanation"
+    },
+    {
+      "id": "minna.question.18-7",
+      "prompt": [
+        {
+          "ja": "この図書館では本を借りることができます。"
+        }
+      ],
+      "instructionId": "minna.question.18-7.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.18-7.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.18-7.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.18-7.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.18-7.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.18-7.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.814"
+    },
+    {
+      "wordId": "word.815"
+    },
+    {
+      "wordId": "word.816"
+    },
+    {
+      "wordId": "word.817"
+    },
+    {
+      "wordId": "word.818"
+    },
+    {
+      "wordId": "word.819"
+    },
+    {
+      "wordId": "word.820"
+    },
+    {
+      "wordId": "word.821"
+    },
+    {
+      "wordId": "word.822"
+    },
+    {
+      "wordId": "word.823"
+    },
+    {
+      "wordId": "word.824"
+    },
+    {
+      "wordId": "word.825"
+    },
+    {
+      "wordId": "word.826"
+    },
+    {
+      "wordId": "word.827"
+    },
+    {
+      "wordId": "word.828"
+    },
+    {
+      "wordId": "word.829"
+    },
+    {
+      "wordId": "word.830"
+    },
+    {
+      "wordId": "word.831"
+    },
+    {
+      "wordId": "word.832"
+    },
+    {
+      "wordId": "word.833"
+    },
+    {
+      "wordId": "word.834"
+    },
+    {
+      "wordId": "word.835"
+    },
+    {
+      "wordId": "word.836"
+    },
+    {
+      "wordId": "word.837"
+    },
+    {
+      "wordId": "word.838"
+    },
+    {
+      "wordId": "word.839"
+    },
+    {
+      "wordId": "word.840"
+    }
+  ]
+}

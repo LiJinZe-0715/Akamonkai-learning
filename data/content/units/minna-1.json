@@ -1,0 +1,436 @@
+{
+  "id": "minna-1",
+  "bookId": "minna",
+  "titleJa": "第1課",
+  "groupJa": "初級Ⅰ",
+  "articles": [
+    {
+      "id": "minna.lesson.1.grammar.1",
+      "titleJa": "N1 は N2 です",
+      "paragraphIds": [
+        "minna.lesson.1.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "私は会社員です。",
+          "translationId": "minna.lesson.1.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.1.grammar.2",
+      "titleJa": "N1 は N2 じゃありません",
+      "paragraphIds": [
+        "minna.lesson.1.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "田中さんは学生じゃありません。",
+          "translationId": "minna.lesson.1.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.1.grammar.3",
+      "titleJa": "N1 は N2 ですか",
+      "paragraphIds": [
+        "minna.lesson.1.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "ミラーさんは先生ですか。",
+          "translationId": "minna.lesson.1.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.1.grammar.4",
+      "titleJa": "N1 も N2 です",
+      "paragraphIds": [
+        "minna.lesson.1.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "私もエンジニアです。",
+          "translationId": "minna.lesson.1.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.1.grammar.5",
+      "titleJa": "N1 の N2",
+      "paragraphIds": [
+        "minna.lesson.1.grammar.5.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "私はIMCの社員です。",
+          "translationId": "minna.lesson.1.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.1-1",
+      "prompt": [
+        {
+          "ja": "私は銀行員（　）。"
+        }
+      ],
+      "instructionId": "minna.question.1-1.translation",
+      "options": [
+        [
+          {
+            "ja": "ます"
+          }
+        ],
+        [
+          {
+            "ja": "です"
+          }
+        ],
+        [
+          {
+            "ja": "をです"
+          }
+        ],
+        [
+          {
+            "ja": "のです"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.1-1.explanation"
+    },
+    {
+      "id": "minna.question.1-2",
+      "prompt": [
+        {
+          "ja": "私は学生（　）。会社員です。"
+        }
+      ],
+      "instructionId": "minna.question.1-2.translation",
+      "options": [
+        [
+          {
+            "ja": "くありません"
+          }
+        ],
+        [
+          {
+            "ja": "ではます"
+          }
+        ],
+        [
+          {
+            "ja": "じゃありません"
+          }
+        ],
+        [
+          {
+            "ja": "じゃないでした"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.1-2.explanation"
+    },
+    {
+      "id": "minna.question.1-3",
+      "prompt": [
+        {
+          "textId": "minna.question.1-3.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.1-3.translation",
+      "options": [
+        [
+          {
+            "ja": "医者です。"
+          }
+        ],
+        [
+          {
+            "ja": "医者じゃありません。"
+          }
+        ],
+        [
+          {
+            "ja": "医者でした。"
+          }
+        ],
+        [
+          {
+            "ja": "医者ですか。"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.1-3.explanation"
+    },
+    {
+      "id": "minna.question.1-4",
+      "prompt": [
+        {
+          "ja": "A：私は中国人です。 B：私（　）中国人です。"
+        }
+      ],
+      "instructionId": "minna.question.1-4.translation",
+      "options": [
+        [
+          {
+            "ja": "も"
+          }
+        ],
+        [
+          {
+            "ja": "の"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.1-4.explanation"
+    },
+    {
+      "id": "minna.question.1-5",
+      "prompt": [
+        {
+          "ja": "私はさくら大学（　）学生です。"
+        }
+      ],
+      "instructionId": "minna.question.1-5.translation",
+      "options": [
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "の"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "と"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.1-5.explanation"
+    },
+    {
+      "id": "minna.question.1-6",
+      "prompt": [
+        {
+          "ja": "A：学生ですか。 B：（　）。会社員です。"
+        }
+      ],
+      "instructionId": "minna.question.1-6.translation",
+      "options": [
+        [
+          {
+            "ja": "はい、学生です"
+          }
+        ],
+        [
+          {
+            "ja": "はい、会社員ですか"
+          }
+        ],
+        [
+          {
+            "ja": "いいえ、学生じゃありません"
+          }
+        ],
+        [
+          {
+            "ja": "いいえ、会社員じゃありません"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.1-6.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1"
+    },
+    {
+      "wordId": "word.2"
+    },
+    {
+      "wordId": "word.3"
+    },
+    {
+      "wordId": "word.4"
+    },
+    {
+      "wordId": "word.5"
+    },
+    {
+      "wordId": "word.6"
+    },
+    {
+      "wordId": "word.7"
+    },
+    {
+      "wordId": "word.8"
+    },
+    {
+      "wordId": "word.9"
+    },
+    {
+      "wordId": "word.10"
+    },
+    {
+      "wordId": "word.11"
+    },
+    {
+      "wordId": "word.12"
+    },
+    {
+      "wordId": "word.13"
+    },
+    {
+      "wordId": "word.14"
+    },
+    {
+      "wordId": "word.15"
+    },
+    {
+      "wordId": "word.16"
+    },
+    {
+      "wordId": "word.17"
+    },
+    {
+      "wordId": "word.18"
+    },
+    {
+      "wordId": "word.19"
+    },
+    {
+      "wordId": "word.20"
+    },
+    {
+      "wordId": "word.21"
+    },
+    {
+      "wordId": "word.22"
+    },
+    {
+      "wordId": "word.23"
+    },
+    {
+      "wordId": "word.24"
+    },
+    {
+      "wordId": "word.25"
+    },
+    {
+      "wordId": "word.26"
+    },
+    {
+      "wordId": "word.27"
+    },
+    {
+      "wordId": "word.28"
+    },
+    {
+      "wordId": "word.29"
+    },
+    {
+      "wordId": "word.30"
+    },
+    {
+      "wordId": "word.31"
+    },
+    {
+      "wordId": "word.32"
+    },
+    {
+      "wordId": "word.33"
+    },
+    {
+      "wordId": "word.34"
+    },
+    {
+      "wordId": "word.35"
+    },
+    {
+      "wordId": "word.36"
+    },
+    {
+      "wordId": "word.37"
+    },
+    {
+      "wordId": "word.38"
+    },
+    {
+      "wordId": "word.39"
+    },
+    {
+      "wordId": "word.40"
+    },
+    {
+      "wordId": "word.41"
+    },
+    {
+      "wordId": "word.42"
+    },
+    {
+      "wordId": "word.43"
+    },
+    {
+      "wordId": "word.44"
+    },
+    {
+      "wordId": "word.45"
+    },
+    {
+      "wordId": "word.46"
+    },
+    {
+      "wordId": "word.47"
+    },
+    {
+      "wordId": "word.48"
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "id": "day3-kagiru",
+  "bookId": "n2",
+  "titleJa": "限るの表現",
+  "groupJa": "文法",
+  "articles": [
+    {
+      "id": "n2.day3-kagiru.grammar.0",
+      "titleJa": "～に限る",
+      "paragraphIds": [
+        "n2.day3-kagiru.grammar.0.anchor",
+        "n2.day3-kagiru.grammar.0.logic",
+        "n2.day3-kagiru.grammar.0.connection",
+        "n2.day3-kagiru.grammar.0.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "疲れたときは、早く寝るに限る。",
+          "translationId": "n2.day3-kagiru.grammar.0.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day3-kagiru.grammar.1",
+      "titleJa": "～に限り",
+      "paragraphIds": [
+        "n2.day3-kagiru.grammar.1.anchor",
+        "n2.day3-kagiru.grammar.1.logic",
+        "n2.day3-kagiru.grammar.1.connection",
+        "n2.day3-kagiru.grammar.1.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "本日に限り、全商品が半額です。",
+          "translationId": "n2.day3-kagiru.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day3-kagiru.grammar.2",
+      "titleJa": "～に限って",
+      "paragraphIds": [
+        "n2.day3-kagiru.grammar.2.anchor",
+        "n2.day3-kagiru.grammar.2.logic",
+        "n2.day3-kagiru.grammar.2.connection",
+        "n2.day3-kagiru.grammar.2.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "急いでいる日に限って、電車が遅れる。",
+          "translationId": "n2.day3-kagiru.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day3-kagiru.grammar.3",
+      "titleJa": "～に限らず",
+      "paragraphIds": [
+        "n2.day3-kagiru.grammar.3.anchor",
+        "n2.day3-kagiru.grammar.3.logic",
+        "n2.day3-kagiru.grammar.3.connection",
+        "n2.day3-kagiru.grammar.3.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "この店は若者に限らず、家族連れにも人気がある。",
+          "translationId": "n2.day3-kagiru.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day3-kagiru.grammar.4",
+      "titleJa": "～限り",
+      "paragraphIds": [
+        "n2.day3-kagiru.grammar.4.anchor",
+        "n2.day3-kagiru.grammar.4.logic",
+        "n2.day3-kagiru.grammar.4.connection",
+        "n2.day3-kagiru.grammar.4.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "体が元気な限り、仕事を続けたい。",
+          "translationId": "n2.day3-kagiru.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day3-kagiru.grammar.5",
+      "titleJa": "～限りでは",
+      "paragraphIds": [
+        "n2.day3-kagiru.grammar.5.anchor",
+        "n2.day3-kagiru.grammar.5.logic",
+        "n2.day3-kagiru.grammar.5.connection",
+        "n2.day3-kagiru.grammar.5.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "私が調べた限りでは、大きな問題はない。",
+          "translationId": "n2.day3-kagiru.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "n2.day3-kagiru.question.0",
+      "prompt": [
+        {
+          "ja": "寒い夜は、温かい鍋料理（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "に限って"
+          }
+        ],
+        [
+          {
+            "ja": "に限る"
+          }
+        ],
+        [
+          {
+            "ja": "に限り"
+          }
+        ],
+        [
+          {
+            "ja": "に限らず"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day3-kagiru.question.0.explanation",
+      "instructionId": "n2.day3-kagiru.question.0.anchor"
+    },
+    {
+      "id": "n2.day3-kagiru.question.1",
+      "prompt": [
+        {
+          "ja": "気分が落ち込んだときは、信頼できる友人に話す（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "限りでは"
+          }
+        ],
+        [
+          {
+            "ja": "に限らず"
+          }
+        ],
+        [
+          {
+            "ja": "に限る"
+          }
+        ],
+        [
+          {
+            "ja": "に限り"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day3-kagiru.question.1.explanation",
+      "instructionId": "n2.day3-kagiru.question.1.anchor"
+    },
+    {
+      "id": "n2.day3-kagiru.question.2",
+      "prompt": [
+        {
+          "textId": "n2.day3-kagiru.question.2.review-instruction"
+        },
+        {
+          "ja": "会員の方（　）、このラウンジをご利用いただけます。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "に限り"
+          }
+        ],
+        [
+          {
+            "ja": "に限って"
+          }
+        ],
+        [
+          {
+            "ja": "に限る"
+          }
+        ],
+        [
+          {
+            "ja": "限りでは"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day3-kagiru.question.2.explanation",
+      "instructionId": "n2.day3-kagiru.question.2.anchor"
+    },
+    {
+      "id": "n2.day3-kagiru.question.3",
+      "prompt": [
+        {
+          "textId": "n2.day3-kagiru.question.3.review-instruction"
+        },
+        {
+          "ja": "今月中にお申し込みの方（　）、入会金は無料です。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "に限らず"
+          }
+        ],
+        [
+          {
+            "ja": "に限って"
+          }
+        ],
+        [
+          {
+            "ja": "に限り"
+          }
+        ],
+        [
+          {
+            "ja": "に限る"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day3-kagiru.question.3.explanation",
+      "instructionId": "n2.day3-kagiru.question.3.anchor"
+    },
+    {
+      "id": "n2.day3-kagiru.question.4",
+      "prompt": [
+        {
+          "ja": "大切な会議がある日（　）、目覚まし時計が鳴らなかった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "に限る"
+          }
+        ],
+        [
+          {
+            "ja": "に限って"
+          }
+        ],
+        [
+          {
+            "ja": "に限らず"
+          }
+        ],
+        [
+          {
+            "ja": "に限り"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day3-kagiru.question.4.explanation",
+      "instructionId": "n2.day3-kagiru.question.4.anchor"
+    },
+    {
+      "id": "n2.day3-kagiru.question.5",
+      "prompt": [
+        {
+          "ja": "傘を持っていない日（　）、急に雨が降り出す。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "に限り"
+          }
+        ],
+        [
+          {
+            "ja": "に限る"
+          }
+        ],
+        [
+          {
+            "ja": "に限って"
+          }
+        ],
+        [
+          {
+            "ja": "限りでは"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day3-kagiru.question.5.explanation",
+      "instructionId": "n2.day3-kagiru.question.5.anchor"
+    },
+    {
+      "id": "n2.day3-kagiru.question.6",
+      "prompt": [
+        {
+          "ja": "この問題は日本（　）、多くの国で議論されている。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "に限らず"
+          }
+        ],
+        [
+          {
+            "ja": "に限り"
+          }
+        ],
+        [
+          {
+            "ja": "に限って"
+          }
+        ],
+        [
+          {
+            "ja": "に限る"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day3-kagiru.question.6.explanation",
+      "instructionId": "n2.day3-kagiru.question.6.anchor"
+    },
+    {
+      "id": "n2.day3-kagiru.question.7",
+      "prompt": [
+        {
+          "ja": "このアプリは学生（　）、社会人にも広く使われている。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "に限って"
+          }
+        ],
+        [
+          {
+            "ja": "に限らず"
+          }
+        ],
+        [
+          {
+            "ja": "に限り"
+          }
+        ],
+        [
+          {
+            "ja": "限りでは"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day3-kagiru.question.7.explanation",
+      "instructionId": "n2.day3-kagiru.question.7.anchor"
+    },
+    {
+      "id": "n2.day3-kagiru.question.8",
+      "prompt": [
+        {
+          "ja": "この仕事を引き受けている（　）、最後まで責任を持って取り組みたい。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "に限り"
+          }
+        ],
+        [
+          {
+            "ja": "限り"
+          }
+        ],
+        [
+          {
+            "ja": "に限って"
+          }
+        ],
+        [
+          {
+            "ja": "限りでは"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day3-kagiru.question.8.explanation",
+      "instructionId": "n2.day3-kagiru.question.8.anchor"
+    },
+    {
+      "id": "n2.day3-kagiru.question.9",
+      "prompt": [
+        {
+          "textId": "n2.day3-kagiru.question.9.review-instruction"
+        },
+        {
+          "ja": "この町に住んでいる（　）、車がなくても困らない。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "に限る"
+          }
+        ],
+        [
+          {
+            "ja": "限り"
+          }
+        ],
+        [
+          {
+            "ja": "に限り"
+          }
+        ],
+        [
+          {
+            "ja": "限りでは"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day3-kagiru.question.9.explanation",
+      "instructionId": "n2.day3-kagiru.question.9.anchor"
+    },
+    {
+      "id": "n2.day3-kagiru.question.10",
+      "prompt": [
+        {
+          "textId": "n2.day3-kagiru.question.10.review-instruction"
+        },
+        {
+          "ja": "私が確認した（　）、申込書に記入漏れはありません。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "に限って"
+          }
+        ],
+        [
+          {
+            "ja": "限り"
+          }
+        ],
+        [
+          {
+            "ja": "限りでは"
+          }
+        ],
+        [
+          {
+            "ja": "に限らず"
+          }
+        ]
+      ],
+      "accepted": [
+        2,
+        1
+      ],
+      "explanationId": "n2.day3-kagiru.question.10.explanation",
+      "instructionId": "n2.day3-kagiru.question.10.anchor"
+    },
+    {
+      "id": "n2.day3-kagiru.question.11",
+      "prompt": [
+        {
+          "ja": "ニュースで報道されている（　）、けが人はいないようだ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "限りでは"
+          }
+        ],
+        [
+          {
+            "ja": "に限り"
+          }
+        ],
+        [
+          {
+            "ja": "に限る"
+          }
+        ],
+        [
+          {
+            "ja": "に限って"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day3-kagiru.question.11.explanation",
+      "instructionId": "n2.day3-kagiru.question.11.anchor"
+    }
+  ],
+  "wordRefs": []
+}

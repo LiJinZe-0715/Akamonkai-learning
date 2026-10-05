@@ -1,0 +1,400 @@
+{
+  "id": "minna-45",
+  "bookId": "minna",
+  "titleJa": "第45課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.45.grammar.1",
+      "titleJa": "V・い形普通形／な形語幹＋な／N＋の＋場合は",
+      "paragraphIds": [
+        "minna.lesson.45.grammar.1.meaning",
+        "minna.lesson.45.grammar.1.note"
+      ],
+      "examples": [
+        {
+          "ja": "地震の場合は、エレベーターを使わないでください。",
+          "translationId": "minna.lesson.45.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.45.grammar.2",
+      "titleJa": "普通形＋のに",
+      "paragraphIds": [
+        "minna.lesson.45.grammar.2.meaning",
+        "minna.lesson.45.grammar.2.note"
+      ],
+      "examples": [
+        {
+          "ja": "薬を飲んだのに、まだ熱があります。",
+          "translationId": "minna.lesson.45.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.45.grammar.3",
+      "titleJa": "こんな／そんな／あんな＋N",
+      "paragraphIds": [
+        "minna.lesson.45.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "そんな話は信じられません。",
+          "translationId": "minna.lesson.45.grammar.3.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.45-1",
+      "prompt": [
+        {
+          "ja": "火事（　）場合は、エレベーターを使わないでください。"
+        }
+      ],
+      "instructionId": "minna.question.45-1.translation",
+      "options": [
+        [
+          {
+            "ja": "な"
+          }
+        ],
+        [
+          {
+            "ja": "の"
+          }
+        ],
+        [
+          {
+            "ja": "だ"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.45-1.explanation"
+    },
+    {
+      "id": "minna.question.45-2",
+      "prompt": [
+        {
+          "ja": "十分寝た（　）、まだ眠いです。"
+        }
+      ],
+      "instructionId": "minna.question.45-2.translation",
+      "options": [
+        [
+          {
+            "ja": "ので"
+          }
+        ],
+        [
+          {
+            "ja": "から"
+          }
+        ],
+        [
+          {
+            "ja": "のに"
+          }
+        ],
+        [
+          {
+            "ja": "ために"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.45-2.explanation"
+    },
+    {
+      "id": "minna.question.45-3",
+      "prompt": [
+        {
+          "ja": "（　）話は信じられません。"
+        }
+      ],
+      "instructionId": "minna.question.45-3.translation",
+      "options": [
+        [
+          {
+            "ja": "そう"
+          }
+        ],
+        [
+          {
+            "ja": "それ"
+          }
+        ],
+        [
+          {
+            "ja": "そのよう"
+          }
+        ],
+        [
+          {
+            "ja": "そんな"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.45-3.explanation"
+    },
+    {
+      "id": "minna.question.45-4",
+      "prompt": [
+        {
+          "ja": "予約が（　）場合は、先に電話してください。"
+        }
+      ],
+      "instructionId": "minna.question.45-4.translation",
+      "options": [
+        [
+          {
+            "ja": "必要な"
+          }
+        ],
+        [
+          {
+            "ja": "必要だ"
+          }
+        ],
+        [
+          {
+            "ja": "必要の"
+          }
+        ],
+        [
+          {
+            "ja": "必要に"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.45-4.explanation"
+    },
+    {
+      "id": "minna.question.45-5",
+      "prompt": [
+        {
+          "ja": "今日は休み（　）のに、仕事の電話が何度も来ます。"
+        }
+      ],
+      "instructionId": "minna.question.45-5.translation",
+      "options": [
+        [
+          {
+            "ja": "だ"
+          }
+        ],
+        [
+          {
+            "ja": "な"
+          }
+        ],
+        [
+          {
+            "ja": "の"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.45-5.explanation"
+    },
+    {
+      "id": "minna.question.45-6",
+      "prompt": [
+        {
+          "ja": "パスワードを（　）場合は、再設定してください。"
+        }
+      ],
+      "instructionId": "minna.question.45-6.translation",
+      "options": [
+        [
+          {
+            "ja": "忘れます"
+          }
+        ],
+        [
+          {
+            "ja": "忘れたの"
+          }
+        ],
+        [
+          {
+            "ja": "忘れた"
+          }
+        ],
+        [
+          {
+            "ja": "忘れての"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.45-6.explanation"
+    },
+    {
+      "id": "minna.question.45-7",
+      "prompt": [
+        {
+          "ja": "「この辞書は漢字を調べるのに便利です」ののに能否按“明明却”理解？"
+        }
+      ],
+      "instructionId": "minna.question.45-7.translation",
+      "options": [
+        [
+          {
+            "ja": "能，所有のに都表示逆接"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.45-7.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.45-7.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.45-7.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.45-7.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1937"
+    },
+    {
+      "wordId": "word.1938"
+    },
+    {
+      "wordId": "word.1939"
+    },
+    {
+      "wordId": "word.1940"
+    },
+    {
+      "wordId": "word.1941"
+    },
+    {
+      "wordId": "word.1942"
+    },
+    {
+      "wordId": "word.1943"
+    },
+    {
+      "wordId": "word.1944"
+    },
+    {
+      "wordId": "word.1945"
+    },
+    {
+      "wordId": "word.1946"
+    },
+    {
+      "wordId": "word.1947"
+    },
+    {
+      "wordId": "word.1948"
+    },
+    {
+      "wordId": "word.1949"
+    },
+    {
+      "wordId": "word.1950"
+    },
+    {
+      "wordId": "word.1951"
+    },
+    {
+      "wordId": "word.1952"
+    },
+    {
+      "wordId": "word.1953"
+    },
+    {
+      "wordId": "word.1954"
+    },
+    {
+      "wordId": "word.1955"
+    },
+    {
+      "wordId": "word.1956"
+    },
+    {
+      "wordId": "word.1957"
+    },
+    {
+      "wordId": "word.1958"
+    },
+    {
+      "wordId": "word.1959"
+    },
+    {
+      "wordId": "word.1960"
+    },
+    {
+      "wordId": "word.1961"
+    },
+    {
+      "wordId": "word.1962"
+    },
+    {
+      "wordId": "word.1963"
+    },
+    {
+      "wordId": "word.1964"
+    },
+    {
+      "wordId": "word.1965"
+    },
+    {
+      "wordId": "word.1966"
+    },
+    {
+      "wordId": "word.1967"
+    },
+    {
+      "wordId": "word.1968"
+    },
+    {
+      "wordId": "word.1969"
+    }
+  ]
+}

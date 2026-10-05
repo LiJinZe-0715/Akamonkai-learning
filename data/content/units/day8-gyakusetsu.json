@@ -1,0 +1,568 @@
+{
+  "id": "day8-gyakusetsu",
+  "bookId": "n2",
+  "titleJa": "逆接",
+  "groupJa": "文法",
+  "articles": [
+    {
+      "id": "n2.day8-gyakusetsu.grammar.0",
+      "titleJa": "～ものの",
+      "paragraphIds": [
+        "n2.day8-gyakusetsu.grammar.0.anchor",
+        "n2.day8-gyakusetsu.grammar.0.logic",
+        "n2.day8-gyakusetsu.grammar.0.connection",
+        "n2.day8-gyakusetsu.grammar.0.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "日本に長く住んでいるものの、敬語はまだ苦手だ。",
+          "translationId": "n2.day8-gyakusetsu.grammar.0.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day8-gyakusetsu.grammar.1",
+      "titleJa": "～ながらも",
+      "paragraphIds": [
+        "n2.day8-gyakusetsu.grammar.1.anchor",
+        "n2.day8-gyakusetsu.grammar.1.logic",
+        "n2.day8-gyakusetsu.grammar.1.connection",
+        "n2.day8-gyakusetsu.grammar.1.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "小さい会社ながらも、技術力は高い。",
+          "translationId": "n2.day8-gyakusetsu.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day8-gyakusetsu.grammar.2",
+      "titleJa": "～にもかかわらず",
+      "paragraphIds": [
+        "n2.day8-gyakusetsu.grammar.2.anchor",
+        "n2.day8-gyakusetsu.grammar.2.logic",
+        "n2.day8-gyakusetsu.grammar.2.connection",
+        "n2.day8-gyakusetsu.grammar.2.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "大雨にもかかわらず、多くの人が来た。",
+          "translationId": "n2.day8-gyakusetsu.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day8-gyakusetsu.grammar.3",
+      "titleJa": "～くせに",
+      "paragraphIds": [
+        "n2.day8-gyakusetsu.grammar.3.anchor",
+        "n2.day8-gyakusetsu.grammar.3.logic",
+        "n2.day8-gyakusetsu.grammar.3.connection",
+        "n2.day8-gyakusetsu.grammar.3.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "知らないくせに、知っているふりをする。",
+          "translationId": "n2.day8-gyakusetsu.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day8-gyakusetsu.grammar.4",
+      "titleJa": "～わりに",
+      "paragraphIds": [
+        "n2.day8-gyakusetsu.grammar.4.anchor",
+        "n2.day8-gyakusetsu.grammar.4.logic",
+        "n2.day8-gyakusetsu.grammar.4.connection",
+        "n2.day8-gyakusetsu.grammar.4.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "この店は値段が安いわりに、おいしい。",
+          "translationId": "n2.day8-gyakusetsu.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day8-gyakusetsu.grammar.5",
+      "titleJa": "～にしては",
+      "paragraphIds": [
+        "n2.day8-gyakusetsu.grammar.5.anchor",
+        "n2.day8-gyakusetsu.grammar.5.logic",
+        "n2.day8-gyakusetsu.grammar.5.connection",
+        "n2.day8-gyakusetsu.grammar.5.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "日本に来て半年にしては、日本語が上手だ。",
+          "translationId": "n2.day8-gyakusetsu.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "n2.day8-gyakusetsu.question.0",
+      "prompt": [
+        {
+          "textId": "n2.day8-gyakusetsu.question.0.review-instruction"
+        },
+        {
+          "ja": "日本に長く住んでいる（　）、敬語はまだ苦手だ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ものの"
+          }
+        ],
+        [
+          {
+            "ja": "くせに"
+          }
+        ],
+        [
+          {
+            "ja": "にしては"
+          }
+        ],
+        [
+          {
+            "ja": "ながらも"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day8-gyakusetsu.question.0.explanation",
+      "instructionId": "n2.day8-gyakusetsu.question.0.anchor"
+    },
+    {
+      "id": "n2.day8-gyakusetsu.question.1",
+      "prompt": [
+        {
+          "textId": "n2.day8-gyakusetsu.question.1.review-instruction"
+        },
+        {
+          "ja": "新しい仕事を始めた（　）、まだ何をすればよいか分からない。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "にもかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "ものの"
+          }
+        ],
+        [
+          {
+            "ja": "わりに"
+          }
+        ],
+        [
+          {
+            "ja": "くせに"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day8-gyakusetsu.question.1.explanation",
+      "instructionId": "n2.day8-gyakusetsu.question.1.anchor"
+    },
+    {
+      "id": "n2.day8-gyakusetsu.question.2",
+      "prompt": [
+        {
+          "textId": "n2.day8-gyakusetsu.question.2.review-instruction"
+        },
+        {
+          "ja": "小さい会社（　）、海外でも高く評価されている。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ながらも"
+          }
+        ],
+        [
+          {
+            "ja": "にしては"
+          }
+        ],
+        [
+          {
+            "ja": "くせに"
+          }
+        ],
+        [
+          {
+            "ja": "ものの"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day8-gyakusetsu.question.2.explanation",
+      "instructionId": "n2.day8-gyakusetsu.question.2.anchor"
+    },
+    {
+      "id": "n2.day8-gyakusetsu.question.3",
+      "prompt": [
+        {
+          "textId": "n2.day8-gyakusetsu.question.3.review-instruction"
+        },
+        {
+          "ja": "彼は若い（　）、チームをまとめる力がある。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "わりに"
+          }
+        ],
+        [
+          {
+            "ja": "ものの"
+          }
+        ],
+        [
+          {
+            "ja": "ながらも"
+          }
+        ],
+        [
+          {
+            "ja": "にもかかわらず"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day8-gyakusetsu.question.3.explanation",
+      "instructionId": "n2.day8-gyakusetsu.question.3.anchor"
+    },
+    {
+      "id": "n2.day8-gyakusetsu.question.4",
+      "prompt": [
+        {
+          "textId": "n2.day8-gyakusetsu.question.4.review-instruction"
+        },
+        {
+          "ja": "大雨（　）、多くの人が会場に集まった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "にしては"
+          }
+        ],
+        [
+          {
+            "ja": "にもかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "わりに"
+          }
+        ],
+        [
+          {
+            "ja": "ながらも"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day8-gyakusetsu.question.4.explanation",
+      "instructionId": "n2.day8-gyakusetsu.question.4.anchor"
+    },
+    {
+      "id": "n2.day8-gyakusetsu.question.5",
+      "prompt": [
+        {
+          "textId": "n2.day8-gyakusetsu.question.5.review-instruction"
+        },
+        {
+          "ja": "十分準備した（　）、試験に落ちてしまった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ものの"
+          }
+        ],
+        [
+          {
+            "ja": "くせに"
+          }
+        ],
+        [
+          {
+            "ja": "にもかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "わりに"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day8-gyakusetsu.question.5.explanation",
+      "instructionId": "n2.day8-gyakusetsu.question.5.anchor"
+    },
+    {
+      "id": "n2.day8-gyakusetsu.question.6",
+      "prompt": [
+        {
+          "textId": "n2.day8-gyakusetsu.question.6.review-instruction"
+        },
+        {
+          "ja": "自分も遅刻した（　）、人のことを責めている。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ものの"
+          }
+        ],
+        [
+          {
+            "ja": "にしては"
+          }
+        ],
+        [
+          {
+            "ja": "くせに"
+          }
+        ],
+        [
+          {
+            "ja": "ながらも"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day8-gyakusetsu.question.6.explanation",
+      "instructionId": "n2.day8-gyakusetsu.question.6.anchor"
+    },
+    {
+      "id": "n2.day8-gyakusetsu.question.7",
+      "prompt": [
+        {
+          "textId": "n2.day8-gyakusetsu.question.7.review-instruction"
+        },
+        {
+          "ja": "何も知らない（　）、知っているふりをしている。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "わりに"
+          }
+        ],
+        [
+          {
+            "ja": "くせに"
+          }
+        ],
+        [
+          {
+            "ja": "にもかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "ものの"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day8-gyakusetsu.question.7.explanation",
+      "instructionId": "n2.day8-gyakusetsu.question.7.anchor"
+    },
+    {
+      "id": "n2.day8-gyakusetsu.question.8",
+      "prompt": [
+        {
+          "textId": "n2.day8-gyakusetsu.question.8.review-instruction"
+        },
+        {
+          "ja": "このパソコンは値段が安い（　）、性能がいい。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "にしては"
+          }
+        ],
+        [
+          {
+            "ja": "わりに"
+          }
+        ],
+        [
+          {
+            "ja": "くせに"
+          }
+        ],
+        [
+          {
+            "ja": "ながらも"
+          }
+        ]
+      ],
+      "accepted": [
+        1,
+        0
+      ],
+      "explanationId": "n2.day8-gyakusetsu.question.8.explanation",
+      "instructionId": "n2.day8-gyakusetsu.question.8.anchor"
+    },
+    {
+      "id": "n2.day8-gyakusetsu.question.9",
+      "prompt": [
+        {
+          "textId": "n2.day8-gyakusetsu.question.9.review-instruction"
+        },
+        {
+          "ja": "彼はよく勉強する（　）、成績があまりよくない。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ものの"
+          }
+        ],
+        [
+          {
+            "ja": "わりに"
+          }
+        ],
+        [
+          {
+            "ja": "にしては"
+          }
+        ],
+        [
+          {
+            "ja": "にもかかわらず"
+          }
+        ]
+      ],
+      "accepted": [
+        1,
+        2
+      ],
+      "explanationId": "n2.day8-gyakusetsu.question.9.explanation",
+      "instructionId": "n2.day8-gyakusetsu.question.9.anchor"
+    },
+    {
+      "id": "n2.day8-gyakusetsu.question.10",
+      "prompt": [
+        {
+          "ja": "日本に来て一年（　）、日本語がかなり自然だ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "わりに"
+          }
+        ],
+        [
+          {
+            "ja": "にしては"
+          }
+        ],
+        [
+          {
+            "ja": "につれて"
+          }
+        ],
+        [
+          {
+            "ja": "くせに"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day8-gyakusetsu.question.10.explanation",
+      "instructionId": "n2.day8-gyakusetsu.question.10.anchor"
+    },
+    {
+      "id": "n2.day8-gyakusetsu.question.11",
+      "prompt": [
+        {
+          "textId": "n2.day8-gyakusetsu.question.11.review-instruction"
+        },
+        {
+          "ja": "新人（　）、仕事を覚えるのが早い。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "にもかかわらず"
+          }
+        ],
+        [
+          {
+            "ja": "ものの"
+          }
+        ],
+        [
+          {
+            "ja": "にしては"
+          }
+        ],
+        [
+          {
+            "ja": "わりに"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day8-gyakusetsu.question.11.explanation",
+      "instructionId": "n2.day8-gyakusetsu.question.11.anchor"
+    }
+  ],
+  "wordRefs": []
+}

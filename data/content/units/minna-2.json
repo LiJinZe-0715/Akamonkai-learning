@@ -1,0 +1,433 @@
+{
+  "id": "minna-2",
+  "bookId": "minna",
+  "titleJa": "第2課",
+  "groupJa": "初級Ⅰ",
+  "articles": [
+    {
+      "id": "minna.lesson.2.grammar.1",
+      "titleJa": "これ／それ／あれ は N です",
+      "paragraphIds": [
+        "minna.lesson.2.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "これは日本語の辞書です。",
+          "translationId": "minna.lesson.2.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.2.grammar.2",
+      "titleJa": "この／その／あの＋N",
+      "paragraphIds": [
+        "minna.lesson.2.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "その傘は私のです。",
+          "translationId": "minna.lesson.2.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.2.grammar.3",
+      "titleJa": "これは N1 の N2 です",
+      "paragraphIds": [
+        "minna.lesson.2.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "これはコンピューターの本です。",
+          "translationId": "minna.lesson.2.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.2.grammar.4",
+      "titleJa": "これは だれの N ですか",
+      "paragraphIds": [
+        "minna.lesson.2.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "これはだれのかばんですか。",
+          "translationId": "minna.lesson.2.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.2.grammar.5",
+      "titleJa": "そうです／そうじゃありません",
+      "paragraphIds": [
+        "minna.lesson.2.grammar.5.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "はい、そうです。",
+          "translationId": "minna.lesson.2.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.2-1",
+      "prompt": [
+        {
+          "ja": "（　）は私のかばんです。"
+        }
+      ],
+      "instructionId": "minna.question.2-1.translation",
+      "options": [
+        [
+          {
+            "ja": "それ"
+          }
+        ],
+        [
+          {
+            "ja": "あれ"
+          }
+        ],
+        [
+          {
+            "ja": "これ"
+          }
+        ],
+        [
+          {
+            "ja": "どれ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.2-1.explanation"
+    },
+    {
+      "id": "minna.question.2-2",
+      "prompt": [
+        {
+          "ja": "（　）時計は田中さんのです。"
+        }
+      ],
+      "instructionId": "minna.question.2-2.translation",
+      "options": [
+        [
+          {
+            "ja": "それ"
+          }
+        ],
+        [
+          {
+            "ja": "そこ"
+          }
+        ],
+        [
+          {
+            "ja": "そちらのに"
+          }
+        ],
+        [
+          {
+            "ja": "その"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.2-2.explanation"
+    },
+    {
+      "id": "minna.question.2-3",
+      "prompt": [
+        {
+          "ja": "これは料理（　）本です。"
+        }
+      ],
+      "instructionId": "minna.question.2-3.translation",
+      "options": [
+        [
+          {
+            "ja": "の"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "が"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.2-3.explanation"
+    },
+    {
+      "id": "minna.question.2-4",
+      "prompt": [
+        {
+          "ja": "持ち主が分かりません。これは（　）傘ですか。"
+        }
+      ],
+      "instructionId": "minna.question.2-4.translation",
+      "options": [
+        [
+          {
+            "ja": "だれ"
+          }
+        ],
+        [
+          {
+            "ja": "だれの"
+          }
+        ],
+        [
+          {
+            "ja": "どこのに"
+          }
+        ],
+        [
+          {
+            "ja": "何を"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.2-4.explanation"
+    },
+    {
+      "id": "minna.question.2-5",
+      "prompt": [
+        {
+          "ja": "A：それは辞書ですか。 B：いいえ、（　）。手帳です。"
+        }
+      ],
+      "instructionId": "minna.question.2-5.translation",
+      "options": [
+        [
+          {
+            "ja": "そうです"
+          }
+        ],
+        [
+          {
+            "ja": "辞書です"
+          }
+        ],
+        [
+          {
+            "ja": "そうじゃありません"
+          }
+        ],
+        [
+          {
+            "ja": "手帳じゃありません"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.2-5.explanation"
+    },
+    {
+      "id": "minna.question.2-6",
+      "prompt": [
+        {
+          "ja": "A：これは田中さんの本ですか。 B：はい、（　）。"
+        }
+      ],
+      "instructionId": "minna.question.2-6.translation",
+      "options": [
+        [
+          {
+            "ja": "田中さんです"
+          }
+        ],
+        [
+          {
+            "ja": "田中さんにです"
+          }
+        ],
+        [
+          {
+            "ja": "田中さんをです"
+          }
+        ],
+        [
+          {
+            "ja": "田中さんのです"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.2-6.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.49"
+    },
+    {
+      "wordId": "word.50"
+    },
+    {
+      "wordId": "word.51"
+    },
+    {
+      "wordId": "word.52"
+    },
+    {
+      "wordId": "word.53"
+    },
+    {
+      "wordId": "word.54"
+    },
+    {
+      "wordId": "word.55"
+    },
+    {
+      "wordId": "word.56"
+    },
+    {
+      "wordId": "word.57"
+    },
+    {
+      "wordId": "word.58"
+    },
+    {
+      "wordId": "word.59"
+    },
+    {
+      "wordId": "word.60"
+    },
+    {
+      "wordId": "word.61"
+    },
+    {
+      "wordId": "word.62"
+    },
+    {
+      "wordId": "word.63"
+    },
+    {
+      "wordId": "word.64"
+    },
+    {
+      "wordId": "word.65"
+    },
+    {
+      "wordId": "word.66"
+    },
+    {
+      "wordId": "word.67"
+    },
+    {
+      "wordId": "word.68"
+    },
+    {
+      "wordId": "word.69"
+    },
+    {
+      "wordId": "word.70"
+    },
+    {
+      "wordId": "word.71"
+    },
+    {
+      "wordId": "word.72"
+    },
+    {
+      "wordId": "word.73"
+    },
+    {
+      "wordId": "word.74"
+    },
+    {
+      "wordId": "word.75"
+    },
+    {
+      "wordId": "word.76"
+    },
+    {
+      "wordId": "word.77"
+    },
+    {
+      "wordId": "word.78"
+    },
+    {
+      "wordId": "word.79"
+    },
+    {
+      "wordId": "word.80"
+    },
+    {
+      "wordId": "word.81"
+    },
+    {
+      "wordId": "word.82"
+    },
+    {
+      "wordId": "word.83"
+    },
+    {
+      "wordId": "word.84"
+    },
+    {
+      "wordId": "word.85"
+    },
+    {
+      "wordId": "word.86"
+    },
+    {
+      "wordId": "word.87"
+    },
+    {
+      "wordId": "word.88"
+    },
+    {
+      "wordId": "word.89"
+    },
+    {
+      "wordId": "word.90"
+    },
+    {
+      "wordId": "word.91"
+    },
+    {
+      "wordId": "word.92"
+    },
+    {
+      "wordId": "word.93"
+    },
+    {
+      "wordId": "word.94"
+    },
+    {
+      "wordId": "word.95"
+    }
+  ]
+}

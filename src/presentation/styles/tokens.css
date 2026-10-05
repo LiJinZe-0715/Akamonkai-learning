@@ -1,0 +1,18 @@
+:root {
+  --paper: #f5f7fb;
+  --surface: #ffffff;
+  --ink: #192a49;
+  --muted: #65738c;
+  --line: #e3e9f2;
+  --accent: #3664df;
+  --accent-dark: #244cbb;
+  --soft: #edf2ff;
+  --green: #426757;
+  --green-soft: #eaf1e9;
+  --radius: 20px;
+  --width: 1240px;
+  --font-sans:
+    "Noto Sans JP", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Microsoft YaHei",
+    system-ui, sans-serif;
+  --font-serif: "Yu Mincho", "Hiragino Mincho ProN", "Noto Serif CJK JP", serif;
+}

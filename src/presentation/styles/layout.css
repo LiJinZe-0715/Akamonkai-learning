@@ -1,0 +1,85 @@
+/* Structural layout shared by the workspace and lesson pages. */
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand {
+  display: flex;
+  align-items: center;
+}
+.seal {
+  color: #fff;
+  display: grid;
+  place-items: center;
+}
+.brand strong {
+  display: block;
+}
+.brand small {
+  color: var(--muted);
+}
+.header-actions {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+.language-switch {
+  display: flex;
+  align-items: center;
+}
+.language-switch button {
+  border: 0;
+  background: transparent;
+}
+main {
+  max-width: var(--width);
+  margin: auto;
+}
+.site-footer {
+  color: var(--muted);
+  font-size: 12px;
+}
+.site-footer strong {
+  color: var(--ink);
+}
+.site-footer p {
+  margin-top: 12px;
+  max-width: 450px;
+}
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--muted);
+}
+.lesson-subline {
+  display: flex;
+  color: var(--muted);
+}
+.lesson-tabs a[aria-current] {
+  font-weight: 600;
+}
+.lesson-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+  gap: 20px;
+  font-size: 14px;
+}
+.lesson-navigation a {
+  max-width: 48%;
+}
+@media (max-width: 1200px) {
+  main {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media (max-width: 640px) {
+  main {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

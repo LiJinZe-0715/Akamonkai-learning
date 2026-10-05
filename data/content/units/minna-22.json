@@ -1,0 +1,351 @@
+{
+  "id": "minna-22",
+  "bookId": "minna",
+  "titleJa": "第22課",
+  "groupJa": "初級Ⅰ",
+  "articles": [
+    {
+      "id": "minna.lesson.22.grammar.1",
+      "titleJa": "V普通形＋N",
+      "paragraphIds": [
+        "minna.lesson.22.grammar.1.meaning",
+        "minna.lesson.22.grammar.1.note"
+      ],
+      "examples": [
+        {
+          "ja": "これは昨日買った本です。",
+          "translationId": "minna.lesson.22.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.22.grammar.2",
+      "titleJa": "N が／を V＋N",
+      "paragraphIds": [
+        "minna.lesson.22.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "母が作った料理はおいしいです。",
+          "translationId": "minna.lesson.22.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.22.grammar.3",
+      "titleJa": "V＋N は ～です",
+      "paragraphIds": [
+        "minna.lesson.22.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "駅の前にある店は便利です。",
+          "translationId": "minna.lesson.22.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.22.grammar.4",
+      "titleJa": "V＋N を／に／で ～",
+      "paragraphIds": [
+        "minna.lesson.22.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "会議で使う資料を準備します。",
+          "translationId": "minna.lesson.22.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.22-1",
+      "prompt": [
+        {
+          "ja": "これは昨日（　）時計です。"
+        }
+      ],
+      "instructionId": "minna.question.22-1.translation",
+      "options": [
+        [
+          {
+            "ja": "買いました"
+          }
+        ],
+        [
+          {
+            "ja": "買って"
+          }
+        ],
+        [
+          {
+            "ja": "買った"
+          }
+        ],
+        [
+          {
+            "ja": "買ったの"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.22-1.explanation"
+    },
+    {
+      "id": "minna.question.22-2",
+      "prompt": [
+        {
+          "ja": "これは母（　）作ったケーキです。"
+        }
+      ],
+      "instructionId": "minna.question.22-2.translation",
+      "options": [
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ],
+        [
+          {
+            "ja": "が"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.22-2.explanation"
+    },
+    {
+      "id": "minna.question.22-3",
+      "prompt": [
+        {
+          "ja": "駅の前にある店（　）、パンがおいしいです。"
+        }
+      ],
+      "instructionId": "minna.question.22-3.translation",
+      "options": [
+        [
+          {
+            "ja": "は"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "へ"
+          }
+        ],
+        [
+          {
+            "ja": "と"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.22-3.explanation"
+    },
+    {
+      "id": "minna.question.22-4",
+      "prompt": [
+        {
+          "ja": "友達にもらった本（　）読みました。"
+        }
+      ],
+      "instructionId": "minna.question.22-4.translation",
+      "options": [
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ],
+        [
+          {
+            "ja": "へ"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.22-4.explanation"
+    },
+    {
+      "id": "minna.question.22-5",
+      "prompt": [
+        {
+          "ja": "（　）部屋を探しています。"
+        }
+      ],
+      "instructionId": "minna.question.22-5.translation",
+      "options": [
+        [
+          {
+            "ja": "静かだ"
+          }
+        ],
+        [
+          {
+            "ja": "静かの"
+          }
+        ],
+        [
+          {
+            "ja": "静かな"
+          }
+        ],
+        [
+          {
+            "ja": "静かで"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.22-5.explanation"
+    },
+    {
+      "id": "minna.question.22-6",
+      "prompt": [
+        {
+          "ja": "昨日買ったかばんに、本を入れます。"
+        }
+      ],
+      "instructionId": "minna.question.22-6.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.22-6.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.22-6.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.22-6.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.22-6.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.22-6.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.936"
+    },
+    {
+      "wordId": "word.937"
+    },
+    {
+      "wordId": "word.938"
+    },
+    {
+      "wordId": "word.939"
+    },
+    {
+      "wordId": "word.940"
+    },
+    {
+      "wordId": "word.941"
+    },
+    {
+      "wordId": "word.942"
+    },
+    {
+      "wordId": "word.943"
+    },
+    {
+      "wordId": "word.944"
+    },
+    {
+      "wordId": "word.945"
+    },
+    {
+      "wordId": "word.946"
+    },
+    {
+      "wordId": "word.947"
+    },
+    {
+      "wordId": "word.948"
+    },
+    {
+      "wordId": "word.949"
+    },
+    {
+      "wordId": "word.950"
+    },
+    {
+      "wordId": "word.951"
+    },
+    {
+      "wordId": "word.952"
+    },
+    {
+      "wordId": "word.953"
+    },
+    {
+      "wordId": "word.954"
+    },
+    {
+      "wordId": "word.955"
+    },
+    {
+      "wordId": "word.956"
+    },
+    {
+      "wordId": "word.957"
+    },
+    {
+      "wordId": "word.958"
+    },
+    {
+      "wordId": "word.959"
+    }
+  ]
+}

@@ -1,0 +1,445 @@
+{
+  "id": "minna-39",
+  "bookId": "minna",
+  "titleJa": "第39課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.39.grammar.1",
+      "titleJa": "Vて／Vなくて、～",
+      "paragraphIds": [
+        "minna.lesson.39.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "電車が遅れて、会議に間に合いませんでした。",
+          "translationId": "minna.lesson.39.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.39.grammar.2",
+      "titleJa": "い形容詞くて／な形容詞で、～",
+      "paragraphIds": [
+        "minna.lesson.39.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "道が複雑で、迷いました。",
+          "translationId": "minna.lesson.39.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.39.grammar.3",
+      "titleJa": "N で、～",
+      "paragraphIds": [
+        "minna.lesson.39.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "台風で電車が止まりました。",
+          "translationId": "minna.lesson.39.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.39.grammar.4",
+      "titleJa": "普通形＋ので、～",
+      "paragraphIds": [
+        "minna.lesson.39.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "用事があるので、先に帰ります。",
+          "translationId": "minna.lesson.39.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.39-1",
+      "prompt": [
+        {
+          "ja": "電車が（　）、約束の時間に間に合いませんでした。"
+        }
+      ],
+      "instructionId": "minna.question.39-1.translation",
+      "options": [
+        [
+          {
+            "ja": "遅れないで"
+          }
+        ],
+        [
+          {
+            "ja": "遅れたり"
+          }
+        ],
+        [
+          {
+            "ja": "遅れるように"
+          }
+        ],
+        [
+          {
+            "ja": "遅れて"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.39-1.explanation"
+    },
+    {
+      "id": "minna.question.39-2",
+      "prompt": [
+        {
+          "ja": "説明が（　）、よく分かりませんでした。"
+        }
+      ],
+      "instructionId": "minna.question.39-2.translation",
+      "options": [
+        [
+          {
+            "ja": "難しくて"
+          }
+        ],
+        [
+          {
+            "ja": "難しいで"
+          }
+        ],
+        [
+          {
+            "ja": "難しかったの"
+          }
+        ],
+        [
+          {
+            "ja": "難しいな"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.39-2.explanation"
+    },
+    {
+      "id": "minna.question.39-3",
+      "prompt": [
+        {
+          "ja": "台風（　）、電車が止まりました。"
+        }
+      ],
+      "instructionId": "minna.question.39-3.translation",
+      "options": [
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "へ"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.39-3.explanation"
+    },
+    {
+      "id": "minna.question.39-4",
+      "prompt": [
+        {
+          "ja": "明日は休み（　）ので、少し遠くへ行きます。"
+        }
+      ],
+      "instructionId": "minna.question.39-4.translation",
+      "options": [
+        [
+          {
+            "ja": "だ"
+          }
+        ],
+        [
+          {
+            "ja": "の"
+          }
+        ],
+        [
+          {
+            "ja": "な"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.39-4.explanation"
+    },
+    {
+      "id": "minna.question.39-5",
+      "prompt": [
+        {
+          "ja": "財布が（　）、困りました。"
+        }
+      ],
+      "instructionId": "minna.question.39-5.translation",
+      "options": [
+        [
+          {
+            "ja": "ないで"
+          }
+        ],
+        [
+          {
+            "ja": "なければ"
+          }
+        ],
+        [
+          {
+            "ja": "ないなら"
+          }
+        ],
+        [
+          {
+            "ja": "なくて"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.39-5.explanation"
+    },
+    {
+      "id": "minna.question.39-6",
+      "prompt": [
+        {
+          "ja": "道が（　）、迷いました。"
+        }
+      ],
+      "instructionId": "minna.question.39-6.translation",
+      "options": [
+        [
+          {
+            "ja": "複雑で"
+          }
+        ],
+        [
+          {
+            "ja": "複雑くて"
+          }
+        ],
+        [
+          {
+            "ja": "複雑なて"
+          }
+        ],
+        [
+          {
+            "ja": "複雑に"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.39-6.explanation"
+    },
+    {
+      "id": "minna.question.39-7",
+      "prompt": [
+        {
+          "textId": "minna.question.39-7.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.39-7.translation",
+      "options": [
+        [
+          {
+            "ja": "まだ分からなくて、もう一度説明してください。"
+          }
+        ],
+        [
+          {
+            "ja": "まだ分からないので、もう一度説明してください。"
+          }
+        ],
+        [
+          {
+            "ja": "まだ分からないと、もう一度説明してください。"
+          }
+        ],
+        [
+          {
+            "ja": "まだ分からないのを、もう一度説明してください。"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.39-7.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1654"
+    },
+    {
+      "wordId": "word.1655"
+    },
+    {
+      "wordId": "word.1656"
+    },
+    {
+      "wordId": "word.1657"
+    },
+    {
+      "wordId": "word.1658"
+    },
+    {
+      "wordId": "word.1659"
+    },
+    {
+      "wordId": "word.1660"
+    },
+    {
+      "wordId": "word.1661"
+    },
+    {
+      "wordId": "word.1662"
+    },
+    {
+      "wordId": "word.1663"
+    },
+    {
+      "wordId": "word.1664"
+    },
+    {
+      "wordId": "word.1665"
+    },
+    {
+      "wordId": "word.1666"
+    },
+    {
+      "wordId": "word.1667"
+    },
+    {
+      "wordId": "word.1668"
+    },
+    {
+      "wordId": "word.1669"
+    },
+    {
+      "wordId": "word.1670"
+    },
+    {
+      "wordId": "word.1671"
+    },
+    {
+      "wordId": "word.1672"
+    },
+    {
+      "wordId": "word.1673"
+    },
+    {
+      "wordId": "word.1674"
+    },
+    {
+      "wordId": "word.1675"
+    },
+    {
+      "wordId": "word.1676"
+    },
+    {
+      "wordId": "word.1677"
+    },
+    {
+      "wordId": "word.1678"
+    },
+    {
+      "wordId": "word.1679"
+    },
+    {
+      "wordId": "word.1680"
+    },
+    {
+      "wordId": "word.1681"
+    },
+    {
+      "wordId": "word.1682"
+    },
+    {
+      "wordId": "word.1683"
+    },
+    {
+      "wordId": "word.1684"
+    },
+    {
+      "wordId": "word.1685"
+    },
+    {
+      "wordId": "word.1686"
+    },
+    {
+      "wordId": "word.1687"
+    },
+    {
+      "wordId": "word.1688"
+    },
+    {
+      "wordId": "word.1689"
+    },
+    {
+      "wordId": "word.1690"
+    },
+    {
+      "wordId": "word.1691"
+    },
+    {
+      "wordId": "word.1692"
+    },
+    {
+      "wordId": "word.1693"
+    },
+    {
+      "wordId": "word.1694"
+    },
+    {
+      "wordId": "word.1695"
+    },
+    {
+      "wordId": "word.1696"
+    },
+    {
+      "wordId": "word.1697"
+    }
+  ]
+}

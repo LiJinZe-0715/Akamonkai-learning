@@ -1,0 +1,333 @@
+{
+  "id": "minna-24",
+  "bookId": "minna",
+  "titleJa": "第24課",
+  "groupJa": "初級Ⅰ",
+  "articles": [
+    {
+      "id": "minna.lesson.24.grammar.1",
+      "titleJa": "Vて＋あげます",
+      "paragraphIds": [
+        "minna.lesson.24.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "友達に日本語を教えてあげました。",
+          "translationId": "minna.lesson.24.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.24.grammar.2",
+      "titleJa": "Vて＋もらいます",
+      "paragraphIds": [
+        "minna.lesson.24.grammar.2.meaning",
+        "minna.lesson.24.grammar.2.note"
+      ],
+      "examples": [
+        {
+          "ja": "友達に引っ越しを手伝ってもらいました。",
+          "translationId": "minna.lesson.24.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.24.grammar.3",
+      "titleJa": "Vて＋くれます",
+      "paragraphIds": [
+        "minna.lesson.24.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "先輩が仕事を説明してくれました。",
+          "translationId": "minna.lesson.24.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.24.grammar.4",
+      "titleJa": "だれが／だれに",
+      "paragraphIds": [
+        "minna.lesson.24.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "だれが予約してくれましたか。",
+          "translationId": "minna.lesson.24.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.24-1",
+      "prompt": [
+        {
+          "ja": "私は弟に宿題を手伝って（　）。"
+        }
+      ],
+      "instructionId": "minna.question.24-1.translation",
+      "options": [
+        [
+          {
+            "ja": "あげました"
+          }
+        ],
+        [
+          {
+            "ja": "もらいました"
+          }
+        ],
+        [
+          {
+            "ja": "くれました"
+          }
+        ],
+        [
+          {
+            "ja": "いただきました"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.24-1.explanation"
+    },
+    {
+      "id": "minna.question.24-2",
+      "prompt": [
+        {
+          "ja": "私は友達（　）写真を撮ってもらいました。"
+        }
+      ],
+      "instructionId": "minna.question.24-2.translation",
+      "options": [
+        [
+          {
+            "ja": "が"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "と"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.24-2.explanation"
+    },
+    {
+      "id": "minna.question.24-3",
+      "prompt": [
+        {
+          "ja": "友達が駅まで迎えに来て（　）。"
+        }
+      ],
+      "instructionId": "minna.question.24-3.translation",
+      "options": [
+        [
+          {
+            "ja": "もらいました"
+          }
+        ],
+        [
+          {
+            "ja": "あげました"
+          }
+        ],
+        [
+          {
+            "ja": "くれました"
+          }
+        ],
+        [
+          {
+            "ja": "いただきました"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.24-3.explanation"
+    },
+    {
+      "id": "minna.question.24-4",
+      "prompt": [
+        {
+          "ja": "だれ（　）道を教えてくれましたか。"
+        }
+      ],
+      "instructionId": "minna.question.24-4.translation",
+      "options": [
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "へ"
+          }
+        ],
+        [
+          {
+            "ja": "が"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.24-4.explanation"
+    },
+    {
+      "id": "minna.question.24-5",
+      "prompt": [
+        {
+          "ja": "「私は田中さんに駅まで送ってもらいました」を同じ出来事として言い換えると？"
+        }
+      ],
+      "instructionId": "minna.question.24-5.translation",
+      "options": [
+        [
+          {
+            "ja": "田中さんが私を駅まで送ってくれました。"
+          }
+        ],
+        [
+          {
+            "ja": "私が田中さんを駅まで送ってあげました。"
+          }
+        ],
+        [
+          {
+            "ja": "田中さんが私に駅まで送ってもらいました。"
+          }
+        ],
+        [
+          {
+            "ja": "私は田中さんを駅まで送ってくれました。"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.24-5.explanation"
+    },
+    {
+      "id": "minna.question.24-6",
+      "prompt": [
+        {
+          "ja": "友達に漢字を（　）あげました。"
+        }
+      ],
+      "instructionId": "minna.question.24-6.translation",
+      "options": [
+        [
+          {
+            "ja": "教え"
+          }
+        ],
+        [
+          {
+            "ja": "教えて"
+          }
+        ],
+        [
+          {
+            "ja": "教える"
+          }
+        ],
+        [
+          {
+            "ja": "教えた"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.24-6.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.989"
+    },
+    {
+      "wordId": "word.990"
+    },
+    {
+      "wordId": "word.991"
+    },
+    {
+      "wordId": "word.992"
+    },
+    {
+      "wordId": "word.993"
+    },
+    {
+      "wordId": "word.994"
+    },
+    {
+      "wordId": "word.995"
+    },
+    {
+      "wordId": "word.996"
+    },
+    {
+      "wordId": "word.997"
+    },
+    {
+      "wordId": "word.998"
+    },
+    {
+      "wordId": "word.999"
+    },
+    {
+      "wordId": "word.1000"
+    },
+    {
+      "wordId": "word.1001"
+    },
+    {
+      "wordId": "word.1002"
+    },
+    {
+      "wordId": "word.1003"
+    },
+    {
+      "wordId": "word.1004"
+    },
+    {
+      "wordId": "word.1005"
+    },
+    {
+      "wordId": "word.1006"
+    }
+  ]
+}

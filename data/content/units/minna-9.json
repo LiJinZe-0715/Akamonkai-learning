@@ -1,0 +1,439 @@
+{
+  "id": "minna-9",
+  "bookId": "minna",
+  "titleJa": "第9課",
+  "groupJa": "初級Ⅰ",
+  "articles": [
+    {
+      "id": "minna.lesson.9.grammar.1",
+      "titleJa": "N が 好き／嫌いです",
+      "paragraphIds": [
+        "minna.lesson.9.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "私は音楽が好きです。",
+          "translationId": "minna.lesson.9.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.9.grammar.2",
+      "titleJa": "N が 上手／下手です",
+      "paragraphIds": [
+        "minna.lesson.9.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "妹は料理が上手です。",
+          "translationId": "minna.lesson.9.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.9.grammar.3",
+      "titleJa": "N が 分かります",
+      "paragraphIds": [
+        "minna.lesson.9.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "私は少し日本語が分かります。",
+          "translationId": "minna.lesson.9.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.9.grammar.4",
+      "titleJa": "N が あります",
+      "paragraphIds": [
+        "minna.lesson.9.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "今日は時間があります。",
+          "translationId": "minna.lesson.9.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.9.grammar.5",
+      "titleJa": "～から、～",
+      "paragraphIds": [
+        "minna.lesson.9.grammar.5.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "忙しいですから、行きません。",
+          "translationId": "minna.lesson.9.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.9-1",
+      "prompt": [
+        {
+          "ja": "私は魚（　）好きです。"
+        }
+      ],
+      "instructionId": "minna.question.9-1.translation",
+      "options": [
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "が"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.9-1.explanation"
+    },
+    {
+      "id": "minna.question.9-2",
+      "prompt": [
+        {
+          "ja": "妹は絵（　）上手です。"
+        }
+      ],
+      "instructionId": "minna.question.9-2.translation",
+      "options": [
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "が"
+          }
+        ],
+        [
+          {
+            "ja": "へ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.9-2.explanation"
+    },
+    {
+      "id": "minna.question.9-3",
+      "prompt": [
+        {
+          "ja": "この漢字の意味（　）分かりますか。"
+        }
+      ],
+      "instructionId": "minna.question.9-3.translation",
+      "options": [
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "へ"
+          }
+        ],
+        [
+          {
+            "ja": "と"
+          }
+        ],
+        [
+          {
+            "ja": "が"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.9-3.explanation"
+    },
+    {
+      "id": "minna.question.9-4",
+      "prompt": [
+        {
+          "ja": "今日は約束（　）あります。"
+        }
+      ],
+      "instructionId": "minna.question.9-4.translation",
+      "options": [
+        [
+          {
+            "ja": "が"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ],
+        [
+          {
+            "ja": "へ"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.9-4.explanation"
+    },
+    {
+      "id": "minna.question.9-5",
+      "prompt": [
+        {
+          "ja": "時間がありません（　）、タクシーで行きます。"
+        }
+      ],
+      "instructionId": "minna.question.9-5.translation",
+      "options": [
+        [
+          {
+            "ja": "まで"
+          }
+        ],
+        [
+          {
+            "ja": "から"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "の"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.9-5.explanation"
+    },
+    {
+      "id": "minna.question.9-6",
+      "prompt": [
+        {
+          "ja": "A：どうして来ませんか。 B：（　）から。"
+        }
+      ],
+      "instructionId": "minna.question.9-6.translation",
+      "options": [
+        [
+          {
+            "ja": "今日は仕事がありません"
+          }
+        ],
+        [
+          {
+            "ja": "明日は休みです"
+          }
+        ],
+        [
+          {
+            "ja": "今日は仕事があります"
+          }
+        ],
+        [
+          {
+            "ja": "昨日は暇でした"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.9-6.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.410"
+    },
+    {
+      "wordId": "word.411"
+    },
+    {
+      "wordId": "word.412"
+    },
+    {
+      "wordId": "word.413"
+    },
+    {
+      "wordId": "word.414"
+    },
+    {
+      "wordId": "word.415"
+    },
+    {
+      "wordId": "word.416"
+    },
+    {
+      "wordId": "word.417"
+    },
+    {
+      "wordId": "word.418"
+    },
+    {
+      "wordId": "word.419"
+    },
+    {
+      "wordId": "word.420"
+    },
+    {
+      "wordId": "word.421"
+    },
+    {
+      "wordId": "word.422"
+    },
+    {
+      "wordId": "word.423"
+    },
+    {
+      "wordId": "word.424"
+    },
+    {
+      "wordId": "word.425"
+    },
+    {
+      "wordId": "word.426"
+    },
+    {
+      "wordId": "word.427"
+    },
+    {
+      "wordId": "word.428"
+    },
+    {
+      "wordId": "word.429"
+    },
+    {
+      "wordId": "word.430"
+    },
+    {
+      "wordId": "word.431"
+    },
+    {
+      "wordId": "word.432"
+    },
+    {
+      "wordId": "word.433"
+    },
+    {
+      "wordId": "word.434"
+    },
+    {
+      "wordId": "word.435"
+    },
+    {
+      "wordId": "word.436"
+    },
+    {
+      "wordId": "word.437"
+    },
+    {
+      "wordId": "word.438"
+    },
+    {
+      "wordId": "word.439"
+    },
+    {
+      "wordId": "word.440"
+    },
+    {
+      "wordId": "word.441"
+    },
+    {
+      "wordId": "word.442"
+    },
+    {
+      "wordId": "word.443"
+    },
+    {
+      "wordId": "word.444"
+    },
+    {
+      "wordId": "word.445"
+    },
+    {
+      "wordId": "word.446"
+    },
+    {
+      "wordId": "word.447"
+    },
+    {
+      "wordId": "word.448"
+    },
+    {
+      "wordId": "word.449"
+    },
+    {
+      "wordId": "word.450"
+    },
+    {
+      "wordId": "word.451"
+    },
+    {
+      "wordId": "word.452"
+    },
+    {
+      "wordId": "word.453"
+    },
+    {
+      "wordId": "word.454"
+    },
+    {
+      "wordId": "word.455"
+    },
+    {
+      "wordId": "word.456"
+    },
+    {
+      "wordId": "word.457"
+    },
+    {
+      "wordId": "word.458"
+    }
+  ]
+}

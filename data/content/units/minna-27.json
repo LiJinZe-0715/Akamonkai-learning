@@ -1,0 +1,554 @@
+{
+  "id": "minna-27",
+  "bookId": "minna",
+  "titleJa": "第27課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.27.grammar.1",
+      "titleJa": "可能形",
+      "paragraphIds": [
+        "minna.lesson.27.grammar.1.meaning",
+        "minna.lesson.27.grammar.1.note"
+      ],
+      "examples": [
+        {
+          "ja": "私は車を運転できます。",
+          "translationId": "minna.lesson.27.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.27.grammar.2",
+      "titleJa": "N が 見えます／聞こえます",
+      "paragraphIds": [
+        "minna.lesson.27.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "ここから海が見えます。",
+          "translationId": "minna.lesson.27.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.27.grammar.3",
+      "titleJa": "N が できます",
+      "paragraphIds": [
+        "minna.lesson.27.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "駅の前にホテルができました。",
+          "translationId": "minna.lesson.27.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.27.grammar.4",
+      "titleJa": "～は～、～は～（対比）",
+      "paragraphIds": [
+        "minna.lesson.27.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "ひらがなは書けますが、漢字は書けません。",
+          "translationId": "minna.lesson.27.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.27.grammar.5",
+      "titleJa": "N しか Vません",
+      "paragraphIds": [
+        "minna.lesson.27.grammar.5.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "千円しかありません。",
+          "translationId": "minna.lesson.27.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.27-1",
+      "prompt": [
+        {
+          "ja": "書く → 标准可能形"
+        }
+      ],
+      "instructionId": "minna.question.27-1.translation",
+      "options": [
+        [
+          {
+            "ja": "書かれる"
+          }
+        ],
+        [
+          {
+            "ja": "書かせる"
+          }
+        ],
+        [
+          {
+            "ja": "書こう"
+          }
+        ],
+        [
+          {
+            "ja": "書ける"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.27-1.explanation"
+    },
+    {
+      "id": "minna.question.27-2",
+      "prompt": [
+        {
+          "ja": "隣の部屋から音楽が（　）。"
+        }
+      ],
+      "instructionId": "minna.question.27-2.translation",
+      "options": [
+        [
+          {
+            "ja": "聞こえます"
+          }
+        ],
+        [
+          {
+            "ja": "聞きます"
+          }
+        ],
+        [
+          {
+            "ja": "聞かせます"
+          }
+        ],
+        [
+          {
+            "ja": "聞いてください"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.27-2.explanation"
+    },
+    {
+      "id": "minna.question.27-3",
+      "prompt": [
+        {
+          "ja": "駅の前に新しい病院が（　）。"
+        }
+      ],
+      "instructionId": "minna.question.27-3.translation",
+      "options": [
+        [
+          {
+            "ja": "しました"
+          }
+        ],
+        [
+          {
+            "ja": "できました"
+          }
+        ],
+        [
+          {
+            "ja": "できますでした"
+          }
+        ],
+        [
+          {
+            "ja": "できてください"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.27-3.explanation"
+    },
+    {
+      "id": "minna.question.27-4",
+      "prompt": [
+        {
+          "ja": "ひらがな（　）書けますが、漢字はまだ書けません。"
+        }
+      ],
+      "instructionId": "minna.question.27-4.translation",
+      "options": [
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ],
+        [
+          {
+            "ja": "は"
+          }
+        ],
+        [
+          {
+            "ja": "へ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.27-4.explanation"
+    },
+    {
+      "id": "minna.question.27-5",
+      "prompt": [
+        {
+          "ja": "財布に五百円しか（　）。"
+        }
+      ],
+      "instructionId": "minna.question.27-5.translation",
+      "options": [
+        [
+          {
+            "ja": "あります"
+          }
+        ],
+        [
+          {
+            "ja": "ありました"
+          }
+        ],
+        [
+          {
+            "ja": "ありましょう"
+          }
+        ],
+        [
+          {
+            "ja": "ありません"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.27-5.explanation"
+    },
+    {
+      "id": "minna.question.27-6",
+      "prompt": [
+        {
+          "ja": "食べる → 标准可能形"
+        }
+      ],
+      "instructionId": "minna.question.27-6.translation",
+      "options": [
+        [
+          {
+            "ja": "食べられる"
+          }
+        ],
+        [
+          {
+            "ja": "食べれる"
+          }
+        ],
+        [
+          {
+            "ja": "食べさせる"
+          }
+        ],
+        [
+          {
+            "ja": "食べよう"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.27-6.explanation"
+    },
+    {
+      "id": "minna.question.27-7",
+      "prompt": [
+        {
+          "ja": "する → 可能形"
+        }
+      ],
+      "instructionId": "minna.question.27-7.translation",
+      "options": [
+        [
+          {
+            "ja": "しれる"
+          }
+        ],
+        [
+          {
+            "ja": "できる"
+          }
+        ],
+        [
+          {
+            "ja": "すれる"
+          }
+        ],
+        [
+          {
+            "ja": "される"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.27-7.explanation"
+    },
+    {
+      "id": "minna.question.27-8",
+      "prompt": [
+        {
+          "ja": "来る → "
+        },
+        {
+          "textId": "minna.question.27-8.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.27-8.translation",
+      "options": [
+        [
+          {
+            "ja": "きられる"
+          }
+        ],
+        [
+          {
+            "ja": "くられる"
+          }
+        ],
+        [
+          {
+            "ja": "こられる"
+          }
+        ],
+        [
+          {
+            "ja": "こさせる"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.27-8.explanation"
+    },
+    {
+      "id": "minna.question.27-9",
+      "prompt": [
+        {
+          "ja": "窓を開けると、遠くの山が（　）。"
+        }
+      ],
+      "instructionId": "minna.question.27-9.translation",
+      "options": [
+        [
+          {
+            "ja": "見ます"
+          }
+        ],
+        [
+          {
+            "ja": "見せます"
+          }
+        ],
+        [
+          {
+            "ja": "見てください"
+          }
+        ],
+        [
+          {
+            "ja": "見えます"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.27-9.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1070"
+    },
+    {
+      "wordId": "word.1071"
+    },
+    {
+      "wordId": "word.1072"
+    },
+    {
+      "wordId": "word.1073"
+    },
+    {
+      "wordId": "word.1074"
+    },
+    {
+      "wordId": "word.1075"
+    },
+    {
+      "wordId": "word.1076"
+    },
+    {
+      "wordId": "word.1077"
+    },
+    {
+      "wordId": "word.1078"
+    },
+    {
+      "wordId": "word.1079"
+    },
+    {
+      "wordId": "word.1080"
+    },
+    {
+      "wordId": "word.1081"
+    },
+    {
+      "wordId": "word.1082"
+    },
+    {
+      "wordId": "word.1083"
+    },
+    {
+      "wordId": "word.1084"
+    },
+    {
+      "wordId": "word.1085"
+    },
+    {
+      "wordId": "word.1086"
+    },
+    {
+      "wordId": "word.1087"
+    },
+    {
+      "wordId": "word.1088"
+    },
+    {
+      "wordId": "word.1089"
+    },
+    {
+      "wordId": "word.1090"
+    },
+    {
+      "wordId": "word.1091"
+    },
+    {
+      "wordId": "word.1092"
+    },
+    {
+      "wordId": "word.1093"
+    },
+    {
+      "wordId": "word.1094"
+    },
+    {
+      "wordId": "word.1095"
+    },
+    {
+      "wordId": "word.1096"
+    },
+    {
+      "wordId": "word.1097"
+    },
+    {
+      "wordId": "word.1098"
+    },
+    {
+      "wordId": "word.1099"
+    },
+    {
+      "wordId": "word.1100"
+    },
+    {
+      "wordId": "word.1101"
+    },
+    {
+      "wordId": "word.1102"
+    },
+    {
+      "wordId": "word.1103"
+    },
+    {
+      "wordId": "word.1104"
+    },
+    {
+      "wordId": "word.1105"
+    },
+    {
+      "wordId": "word.1106"
+    },
+    {
+      "wordId": "word.1107"
+    },
+    {
+      "wordId": "word.1108"
+    },
+    {
+      "wordId": "word.1109"
+    },
+    {
+      "wordId": "word.1110"
+    },
+    {
+      "wordId": "word.1111"
+    },
+    {
+      "wordId": "word.1112"
+    },
+    {
+      "wordId": "word.1113"
+    },
+    {
+      "wordId": "word.1114"
+    },
+    {
+      "wordId": "word.1115"
+    },
+    {
+      "wordId": "word.1116"
+    },
+    {
+      "wordId": "word.1117"
+    },
+    {
+      "wordId": "word.1118"
+    },
+    {
+      "wordId": "word.1119"
+    },
+    {
+      "wordId": "word.1120"
+    }
+  ]
+}

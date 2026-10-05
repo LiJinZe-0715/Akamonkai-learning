@@ -1,0 +1,463 @@
+{
+  "id": "minna-28",
+  "bookId": "minna",
+  "titleJa": "第28課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.28.grammar.1",
+      "titleJa": "Vます形（ますを取る）＋ながら、～",
+      "paragraphIds": [
+        "minna.lesson.28.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "音楽を聞きながら、勉強します。",
+          "translationId": "minna.lesson.28.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.28.grammar.2",
+      "titleJa": "Vています（習慣）",
+      "paragraphIds": [
+        "minna.lesson.28.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "毎朝ジョギングをしています。",
+          "translationId": "minna.lesson.28.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.28.grammar.3",
+      "titleJa": "普通形＋し、～し",
+      "paragraphIds": [
+        "minna.lesson.28.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "この店は安いし、おいしいし、よく来ます。",
+          "translationId": "minna.lesson.28.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.28.grammar.4",
+      "titleJa": "～し、それに～／それで～",
+      "paragraphIds": [
+        "minna.lesson.28.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "駅に近いし、それに静かです。",
+          "translationId": "minna.lesson.28.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.28-1",
+      "prompt": [
+        {
+          "ja": "音楽を（　）ながら、料理をします。"
+        }
+      ],
+      "instructionId": "minna.question.28-1.translation",
+      "options": [
+        [
+          {
+            "ja": "聞き"
+          }
+        ],
+        [
+          {
+            "ja": "聞く"
+          }
+        ],
+        [
+          {
+            "ja": "聞いて"
+          }
+        ],
+        [
+          {
+            "ja": "聞いた"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.28-1.explanation"
+    },
+    {
+      "id": "minna.question.28-2",
+      "prompt": [
+        {
+          "ja": "毎朝、近くの公園を走っています。"
+        }
+      ],
+      "instructionId": "minna.question.28-2.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.28-2.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.28-2.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.28-2.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.28-2.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.28-2.explanation"
+    },
+    {
+      "id": "minna.question.28-3",
+      "prompt": [
+        {
+          "ja": "この店は便利（　）し、安いし、よく利用します。"
+        },
+        {
+          "textId": "minna.question.28-3.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.28-3.translation",
+      "options": [
+        [
+          {
+            "ja": "な"
+          }
+        ],
+        [
+          {
+            "ja": "の"
+          }
+        ],
+        [
+          {
+            "ja": "だ"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.28-3.explanation"
+    },
+    {
+      "id": "minna.question.28-4",
+      "prompt": [
+        {
+          "ja": "この部屋は広いです。（　）、駅にも近いです。"
+        }
+      ],
+      "instructionId": "minna.question.28-4.translation",
+      "options": [
+        [
+          {
+            "ja": "それで"
+          }
+        ],
+        [
+          {
+            "ja": "それなら"
+          }
+        ],
+        [
+          {
+            "ja": "それなのに"
+          }
+        ],
+        [
+          {
+            "ja": "それに"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.28-4.explanation"
+    },
+    {
+      "id": "minna.question.28-5",
+      "prompt": [
+        {
+          "ja": "母が料理をしながら、私は勉強します"
+        },
+        {
+          "textId": "minna.question.28-5.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.28-5.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.28-5.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.28-5.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.28-5.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.28-5.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.28-5.explanation"
+    },
+    {
+      "id": "minna.question.28-6",
+      "prompt": [
+        {
+          "ja": "昨夜は遅くまで働きました。（　）、今日は眠いです。"
+        }
+      ],
+      "instructionId": "minna.question.28-6.translation",
+      "options": [
+        [
+          {
+            "ja": "それに"
+          }
+        ],
+        [
+          {
+            "ja": "それで"
+          }
+        ],
+        [
+          {
+            "ja": "それなのに"
+          }
+        ],
+        [
+          {
+            "ja": "それとも"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.28-6.explanation"
+    },
+    {
+      "id": "minna.question.28-7",
+      "prompt": [
+        {
+          "ja": "このパソコンは（　）し、軽いし、便利です。"
+        }
+      ],
+      "instructionId": "minna.question.28-7.translation",
+      "options": [
+        [
+          {
+            "ja": "安いだ"
+          }
+        ],
+        [
+          {
+            "ja": "安いな"
+          }
+        ],
+        [
+          {
+            "ja": "安い"
+          }
+        ],
+        [
+          {
+            "ja": "安くてだ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.28-7.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1121"
+    },
+    {
+      "wordId": "word.1122"
+    },
+    {
+      "wordId": "word.1123"
+    },
+    {
+      "wordId": "word.1124"
+    },
+    {
+      "wordId": "word.1125"
+    },
+    {
+      "wordId": "word.1126"
+    },
+    {
+      "wordId": "word.1127"
+    },
+    {
+      "wordId": "word.1128"
+    },
+    {
+      "wordId": "word.1129"
+    },
+    {
+      "wordId": "word.1130"
+    },
+    {
+      "wordId": "word.1131"
+    },
+    {
+      "wordId": "word.1132"
+    },
+    {
+      "wordId": "word.1133"
+    },
+    {
+      "wordId": "word.1134"
+    },
+    {
+      "wordId": "word.1135"
+    },
+    {
+      "wordId": "word.1136"
+    },
+    {
+      "wordId": "word.1137"
+    },
+    {
+      "wordId": "word.1138"
+    },
+    {
+      "wordId": "word.1139"
+    },
+    {
+      "wordId": "word.1140"
+    },
+    {
+      "wordId": "word.1141"
+    },
+    {
+      "wordId": "word.1142"
+    },
+    {
+      "wordId": "word.1143"
+    },
+    {
+      "wordId": "word.1144"
+    },
+    {
+      "wordId": "word.1145"
+    },
+    {
+      "wordId": "word.1146"
+    },
+    {
+      "wordId": "word.1147"
+    },
+    {
+      "wordId": "word.1148"
+    },
+    {
+      "wordId": "word.1149"
+    },
+    {
+      "wordId": "word.1150"
+    },
+    {
+      "wordId": "word.1151"
+    },
+    {
+      "wordId": "word.1152"
+    },
+    {
+      "wordId": "word.1153"
+    },
+    {
+      "wordId": "word.1154"
+    },
+    {
+      "wordId": "word.1155"
+    },
+    {
+      "wordId": "word.1156"
+    },
+    {
+      "wordId": "word.1157"
+    },
+    {
+      "wordId": "word.1158"
+    },
+    {
+      "wordId": "word.1159"
+    },
+    {
+      "wordId": "word.1160"
+    },
+    {
+      "wordId": "word.1161"
+    },
+    {
+      "wordId": "word.1162"
+    },
+    {
+      "wordId": "word.1163"
+    },
+    {
+      "wordId": "word.1164"
+    },
+    {
+      "wordId": "word.1165"
+    },
+    {
+      "wordId": "word.1166"
+    },
+    {
+      "wordId": "word.1167"
+    },
+    {
+      "wordId": "word.1168"
+    }
+  ]
+}

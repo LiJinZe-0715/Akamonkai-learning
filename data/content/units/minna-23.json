@@ -1,0 +1,401 @@
+{
+  "id": "minna-23",
+  "bookId": "minna",
+  "titleJa": "第23課",
+  "groupJa": "初級Ⅰ",
+  "articles": [
+    {
+      "id": "minna.lesson.23.grammar.1",
+      "titleJa": "V辞書形＋とき",
+      "paragraphIds": [
+        "minna.lesson.23.grammar.1.meaning",
+        "minna.lesson.23.grammar.1.note"
+      ],
+      "examples": [
+        {
+          "ja": "出かけるとき、電気を消します。",
+          "translationId": "minna.lesson.23.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.23.grammar.2",
+      "titleJa": "Vた形＋とき",
+      "paragraphIds": [
+        "minna.lesson.23.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "家に帰ったとき、電話しました。",
+          "translationId": "minna.lesson.23.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.23.grammar.3",
+      "titleJa": "い形／な形な／Nの＋とき",
+      "paragraphIds": [
+        "minna.lesson.23.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "暇なとき、本を読みます。",
+          "translationId": "minna.lesson.23.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.23.grammar.4",
+      "titleJa": "V辞書形＋と、～",
+      "paragraphIds": [
+        "minna.lesson.23.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "このボタンを押すと、ドアが開きます。",
+          "translationId": "minna.lesson.23.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.23-1",
+      "prompt": [
+        {
+          "ja": "日本へ（　）とき、空港でお土産を買いました。"
+        }
+      ],
+      "instructionId": "minna.question.23-1.translation",
+      "options": [
+        [
+          {
+            "ja": "行った"
+          }
+        ],
+        [
+          {
+            "ja": "行って"
+          }
+        ],
+        [
+          {
+            "ja": "行き"
+          }
+        ],
+        [
+          {
+            "ja": "行く"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.23-1.explanation"
+    },
+    {
+      "id": "minna.question.23-2",
+      "prompt": [
+        {
+          "ja": "家に（　）とき、すぐ母に電話しました。"
+        }
+      ],
+      "instructionId": "minna.question.23-2.translation",
+      "options": [
+        [
+          {
+            "ja": "帰った"
+          }
+        ],
+        [
+          {
+            "ja": "帰る"
+          }
+        ],
+        [
+          {
+            "ja": "帰り"
+          }
+        ],
+        [
+          {
+            "ja": "帰って"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.23-2.explanation"
+    },
+    {
+      "id": "minna.question.23-3",
+      "prompt": [
+        {
+          "ja": "子供（　）とき、よく川で泳ぎました。"
+        }
+      ],
+      "instructionId": "minna.question.23-3.translation",
+      "options": [
+        [
+          {
+            "ja": "な"
+          }
+        ],
+        [
+          {
+            "ja": "の"
+          }
+        ],
+        [
+          {
+            "ja": "だ"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.23-3.explanation"
+    },
+    {
+      "id": "minna.question.23-4",
+      "prompt": [
+        {
+          "ja": "このボタンを押すと、（　）。"
+        }
+      ],
+      "instructionId": "minna.question.23-4.translation",
+      "options": [
+        [
+          {
+            "ja": "ドアを開けてください"
+          }
+        ],
+        [
+          {
+            "ja": "ドアを開けましょう"
+          }
+        ],
+        [
+          {
+            "ja": "ドアが開きます"
+          }
+        ],
+        [
+          {
+            "ja": "ドアを開けたいです"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.23-4.explanation"
+    },
+    {
+      "id": "minna.question.23-5",
+      "prompt": [
+        {
+          "ja": "（　）ときは、無理をしません。"
+        }
+      ],
+      "instructionId": "minna.question.23-5.translation",
+      "options": [
+        [
+          {
+            "ja": "忙しいな"
+          }
+        ],
+        [
+          {
+            "ja": "忙しいの"
+          }
+        ],
+        [
+          {
+            "ja": "忙しいだ"
+          }
+        ],
+        [
+          {
+            "ja": "忙しい"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.23-5.explanation"
+    },
+    {
+      "id": "minna.question.23-6",
+      "prompt": [
+        {
+          "ja": "（　）とき、散歩します。"
+        }
+      ],
+      "instructionId": "minna.question.23-6.translation",
+      "options": [
+        [
+          {
+            "ja": "暇な"
+          }
+        ],
+        [
+          {
+            "ja": "暇の"
+          }
+        ],
+        [
+          {
+            "ja": "暇だ"
+          }
+        ],
+        [
+          {
+            "ja": "暇に"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.23-6.explanation"
+    },
+    {
+      "id": "minna.question.23-7",
+      "prompt": [
+        {
+          "textId": "minna.question.23-7.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.23-7.translation",
+      "options": [
+        [
+          {
+            "ja": "駅に着くと、電話してください。"
+          }
+        ],
+        [
+          {
+            "ja": "駅に着いたら、電話してください。"
+          }
+        ],
+        [
+          {
+            "ja": "駅に着く前に、電話してください。"
+          }
+        ],
+        [
+          {
+            "ja": "駅に着いたと、電話してください。"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.23-7.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.960"
+    },
+    {
+      "wordId": "word.961"
+    },
+    {
+      "wordId": "word.962"
+    },
+    {
+      "wordId": "word.963"
+    },
+    {
+      "wordId": "word.964"
+    },
+    {
+      "wordId": "word.965"
+    },
+    {
+      "wordId": "word.966"
+    },
+    {
+      "wordId": "word.967"
+    },
+    {
+      "wordId": "word.968"
+    },
+    {
+      "wordId": "word.969"
+    },
+    {
+      "wordId": "word.970"
+    },
+    {
+      "wordId": "word.971"
+    },
+    {
+      "wordId": "word.972"
+    },
+    {
+      "wordId": "word.973"
+    },
+    {
+      "wordId": "word.974"
+    },
+    {
+      "wordId": "word.975"
+    },
+    {
+      "wordId": "word.976"
+    },
+    {
+      "wordId": "word.977"
+    },
+    {
+      "wordId": "word.978"
+    },
+    {
+      "wordId": "word.979"
+    },
+    {
+      "wordId": "word.980"
+    },
+    {
+      "wordId": "word.981"
+    },
+    {
+      "wordId": "word.982"
+    },
+    {
+      "wordId": "word.983"
+    },
+    {
+      "wordId": "word.984"
+    },
+    {
+      "wordId": "word.985"
+    },
+    {
+      "wordId": "word.986"
+    },
+    {
+      "wordId": "word.987"
+    },
+    {
+      "wordId": "word.988"
+    }
+  ]
+}

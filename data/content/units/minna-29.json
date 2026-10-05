@@ -1,0 +1,467 @@
+{
+  "id": "minna-29",
+  "bookId": "minna",
+  "titleJa": "第29課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.29.grammar.1",
+      "titleJa": "N が 自動詞て います",
+      "paragraphIds": [
+        "minna.lesson.29.grammar.1.meaning",
+        "minna.lesson.29.grammar.1.note"
+      ],
+      "examples": [
+        {
+          "ja": "窓が開いています。",
+          "translationId": "minna.lesson.29.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.29.grammar.2",
+      "titleJa": "N は 自動詞て います",
+      "paragraphIds": [
+        "minna.lesson.29.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "この時計は止まっています。",
+          "translationId": "minna.lesson.29.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.29.grammar.3",
+      "titleJa": "Vて＋しまいます（完成）",
+      "paragraphIds": [
+        "minna.lesson.29.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "レポートを全部書いてしまいました。",
+          "translationId": "minna.lesson.29.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.29.grammar.4",
+      "titleJa": "Vて＋しまいます（後悔）",
+      "paragraphIds": [
+        "minna.lesson.29.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "電車に傘を忘れてしまいました。",
+          "translationId": "minna.lesson.29.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.29-1",
+      "prompt": [
+        {
+          "ja": "窓が（　）います。"
+        }
+      ],
+      "instructionId": "minna.question.29-1.translation",
+      "options": [
+        [
+          {
+            "ja": "開けて"
+          }
+        ],
+        [
+          {
+            "ja": "開いて"
+          }
+        ],
+        [
+          {
+            "ja": "開き"
+          }
+        ],
+        [
+          {
+            "ja": "開いた"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.29-1.explanation"
+    },
+    {
+      "id": "minna.question.29-2",
+      "prompt": [
+        {
+          "ja": "この時計は（　）います。"
+        }
+      ],
+      "instructionId": "minna.question.29-2.translation",
+      "options": [
+        [
+          {
+            "ja": "止めて"
+          }
+        ],
+        [
+          {
+            "ja": "止まり"
+          }
+        ],
+        [
+          {
+            "ja": "止まって"
+          }
+        ],
+        [
+          {
+            "ja": "止まった"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.29-2.explanation"
+    },
+    {
+      "id": "minna.question.29-3",
+      "prompt": [
+        {
+          "ja": "宿題はもう全部やってしまいました。"
+        }
+      ],
+      "instructionId": "minna.question.29-3.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.29-3.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.29-3.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.29-3.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.29-3.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.29-3.explanation"
+    },
+    {
+      "id": "minna.question.29-4",
+      "prompt": [
+        {
+          "ja": "大切な書類を電車に忘れてしまいました。"
+        }
+      ],
+      "instructionId": "minna.question.29-4.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.29-4.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.29-4.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.29-4.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.29-4.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.29-4.explanation"
+    },
+    {
+      "id": "minna.question.29-5",
+      "prompt": [
+        {
+          "ja": "部屋に入ると、電気が（　）いました。"
+        }
+      ],
+      "instructionId": "minna.question.29-5.translation",
+      "options": [
+        [
+          {
+            "ja": "つけて"
+          }
+        ],
+        [
+          {
+            "ja": "ついて"
+          }
+        ],
+        [
+          {
+            "ja": "つき"
+          }
+        ],
+        [
+          {
+            "ja": "ついた"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.29-5.explanation"
+    },
+    {
+      "id": "minna.question.29-6",
+      "prompt": [
+        {
+          "ja": "財布を（　）しまいました。"
+        }
+      ],
+      "instructionId": "minna.question.29-6.translation",
+      "options": [
+        [
+          {
+            "ja": "落とし"
+          }
+        ],
+        [
+          {
+            "ja": "落とす"
+          }
+        ],
+        [
+          {
+            "ja": "落として"
+          }
+        ],
+        [
+          {
+            "ja": "落とした"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.29-6.explanation"
+    },
+    {
+      "id": "minna.question.29-7",
+      "prompt": [
+        {
+          "ja": "「このいすは壊れています」の意味に合うものは？"
+        }
+      ],
+      "instructionId": "minna.question.29-7.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.29-7.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.29-7.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.29-7.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.29-7.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.29-7.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1169"
+    },
+    {
+      "wordId": "word.1170"
+    },
+    {
+      "wordId": "word.1171"
+    },
+    {
+      "wordId": "word.1172"
+    },
+    {
+      "wordId": "word.1173"
+    },
+    {
+      "wordId": "word.1174"
+    },
+    {
+      "wordId": "word.1175"
+    },
+    {
+      "wordId": "word.1176"
+    },
+    {
+      "wordId": "word.1177"
+    },
+    {
+      "wordId": "word.1178"
+    },
+    {
+      "wordId": "word.1179"
+    },
+    {
+      "wordId": "word.1180"
+    },
+    {
+      "wordId": "word.1181"
+    },
+    {
+      "wordId": "word.1182"
+    },
+    {
+      "wordId": "word.1183"
+    },
+    {
+      "wordId": "word.1184"
+    },
+    {
+      "wordId": "word.1185"
+    },
+    {
+      "wordId": "word.1186"
+    },
+    {
+      "wordId": "word.1187"
+    },
+    {
+      "wordId": "word.1188"
+    },
+    {
+      "wordId": "word.1189"
+    },
+    {
+      "wordId": "word.1190"
+    },
+    {
+      "wordId": "word.1191"
+    },
+    {
+      "wordId": "word.1192"
+    },
+    {
+      "wordId": "word.1193"
+    },
+    {
+      "wordId": "word.1194"
+    },
+    {
+      "wordId": "word.1195"
+    },
+    {
+      "wordId": "word.1196"
+    },
+    {
+      "wordId": "word.1197"
+    },
+    {
+      "wordId": "word.1198"
+    },
+    {
+      "wordId": "word.1199"
+    },
+    {
+      "wordId": "word.1200"
+    },
+    {
+      "wordId": "word.1201"
+    },
+    {
+      "wordId": "word.1202"
+    },
+    {
+      "wordId": "word.1203"
+    },
+    {
+      "wordId": "word.1204"
+    },
+    {
+      "wordId": "word.1205"
+    },
+    {
+      "wordId": "word.1206"
+    },
+    {
+      "wordId": "word.1207"
+    },
+    {
+      "wordId": "word.1208"
+    },
+    {
+      "wordId": "word.1209"
+    },
+    {
+      "wordId": "word.1210"
+    },
+    {
+      "wordId": "word.1211"
+    },
+    {
+      "wordId": "word.1212"
+    },
+    {
+      "wordId": "word.1213"
+    },
+    {
+      "wordId": "word.1214"
+    },
+    {
+      "wordId": "word.1215"
+    },
+    {
+      "wordId": "word.1216"
+    },
+    {
+      "wordId": "word.1217"
+    },
+    {
+      "wordId": "word.1218"
+    },
+    {
+      "wordId": "word.1219"
+    }
+  ]
+}

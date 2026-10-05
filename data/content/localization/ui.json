@@ -1,0 +1,298 @@
+{
+  "ui.dashboardTitle": { "zh": "今天，从一课开始。", "en": "One lesson at a time." },
+  "ui.dashboardIntro": { "zh": "接着上次的进度，让日语成为每天的小习惯。", "en": "Pick up where you left off. Make Japanese a daily habit." },
+  "ui.workspace": { "zh": "学习工作台", "en": "Study workspace" },
+  "ui.today": { "zh": "今日", "en": "Today" },
+  "ui.library": { "zh": "教材库", "en": "Library" },
+  "ui.records": { "zh": "记录", "en": "Records" },
+  "ui.settings": { "zh": "设置", "en": "Settings" },
+  "ui.mainNavigation": { "zh": "主导航", "en": "Main navigation" },
+  "ui.skipContent": { "zh": "跳到学习内容", "en": "Skip to study content" },
+  "ui.close": { "zh": "关闭", "en": "Close" },
+  "ui.sidebarNote": { "zh": "每天一点，慢慢积累。", "en": "Small steps, every day." },
+  "ui.continueLearning": { "zh": "继续学习", "en": "Continue learning" },
+  "ui.startLearning": { "zh": "准备好开始了吗", "en": "Ready to begin?" },
+  "ui.continueAction": { "zh": "接着学", "en": "Continue" },
+  "ui.startAction": { "zh": "开始第一课", "en": "Start learning" },
+  "ui.resumeNote": { "zh": "回到上次打开的课次", "en": "Return to your last opened lesson" },
+  "ui.startNote": { "zh": "也可以在下方选择正在学的教材", "en": "Or choose your textbook below" },
+  "ui.learningSnapshot": { "zh": "我的积累", "en": "Your progress" },
+  "ui.onDevice": { "zh": "本机记录", "en": "On this device" },
+  "ui.testRecords": { "zh": "测试记录", "en": "Test records" },
+  "ui.snapshotNote": { "zh": "收藏生词、标记掌握，每一次复习都算数。", "en": "Save words and mark what you know as you study." },
+  "ui.catalogCount": { "zh": "{books} 本教材 · {units} 个单元", "en": "{books} books · {units} units" },
+  "ui.bookFilter": { "zh": "筛选教材", "en": "Filter textbooks" },
+  "ui.allBooks": { "zh": "全部教材", "en": "All textbooks" },
+  "ui.unitCount": { "zh": "{count} 个单元", "en": "{count} units" },
+  "ui.moreUnits": { "zh": "更多课次 · 还有 {count} 个单元", "en": "More lessons · {count} remaining" },
+  "ui.practice": { "zh": "学习与练习", "en": "Study & practice" },
+  "ui.viewWords": { "zh": "词汇", "en": "Words" },
+  "ui.viewWordTest": { "zh": "词汇自测", "en": "Word test" },
+  "ui.viewGrammar": { "zh": "文法", "en": "Grammar" },
+  "ui.viewGrammarTest": { "zh": "文法自测", "en": "Grammar test" },
+  "ui.viewKanji": { "zh": "汉字", "en": "Kanji" },
+  "ui.viewReadingTest": { "zh": "读音自测", "en": "Reading test" },
+  "ui.viewKatakana": { "zh": "片假名自测", "en": "Katakana test" },
+  "ui.recentPractice": { "zh": "最近的练习", "en": "Recent practice" },
+  "ui.noPracticeTitle": { "zh": "从第一次练习开始", "en": "Start with your first practice" },
+  "ui.noPracticeNote": { "zh": "完成自测后，这里会显示你的成绩。", "en": "Your results will appear here after you finish a test." },
+  "ui.chooseLesson": { "zh": "去选一课", "en": "Choose a lesson" },
+  "ui.dataTools": { "zh": "备份与导入学习记录", "en": "Back up & import progress" },
+  "ui.search": {
+    "zh": "查找课次或日语标题",
+    "en": "Find a lesson or Japanese title"
+  },
+  "ui.wordSearch": {
+    "zh": "搜索读音、词形或释义",
+    "en": "Search readings, words or meanings"
+  },
+  "ui.all": {
+    "zh": "全部",
+    "en": "All"
+  },
+  "ui.saved": {
+    "zh": "生词",
+    "en": "Saved"
+  },
+  "ui.mastered": {
+    "zh": "已掌握",
+    "en": "Mastered"
+  },
+  "ui.save": {
+    "zh": "加入生词",
+    "en": "Save word"
+  },
+  "ui.unsave": {
+    "zh": "移出生词",
+    "en": "Unsave word"
+  },
+  "ui.master": {
+    "zh": "标为已掌握",
+    "en": "Mark as mastered"
+  },
+  "ui.unmaster": {
+    "zh": "取消掌握标记",
+    "en": "Mark for review"
+  },
+  "ui.speak": {
+    "zh": "朗读",
+    "en": "Listen"
+  },
+  "ui.stop": {
+    "zh": "停止",
+    "en": "Stop"
+  },
+  "ui.speechUnavailable": {
+    "zh": "此浏览器暂不支持日语朗读。",
+    "en": "Speech playback is unavailable in this browser."
+  },
+  "ui.wordCount": {
+    "zh": "{count} 个词条",
+    "en": "{count} words"
+  },
+  "ui.questionCount": {
+    "zh": "{count} 道题",
+    "en": "{count} questions"
+  },
+  "ui.progress": {
+    "zh": "已答 {done} / {total}",
+    "en": "Answered {done} / {total}"
+  },
+  "ui.submit": {
+    "zh": "提交并查看解析",
+    "en": "Submit and review"
+  },
+  "ui.finishAll": {
+    "zh": "请完成全部题目后提交。",
+    "en": "Answer every question before submitting."
+  },
+  "ui.correct": {
+    "zh": "回答正确",
+    "en": "Correct"
+  },
+  "ui.incorrect": {
+    "zh": "再复习一下",
+    "en": "Review this one"
+  },
+  "ui.answer": {
+    "zh": "可用答案",
+    "en": "Accepted answers"
+  },
+  "ui.retry": {
+    "zh": "重新练习",
+    "en": "Try again"
+  },
+  "ui.retryWrong": {
+    "zh": "只练错题",
+    "en": "Retry mistakes"
+  },
+  "ui.result": {
+    "zh": "答对 {correct} / {total}，正确率 {percent}%",
+    "en": "{correct} / {total} correct · {percent}%"
+  },
+  "ui.inputAnswer": {
+    "zh": "输入答案",
+    "en": "Type your answer"
+  },
+  "ui.previous": {
+    "zh": "上一组",
+    "en": "Previous"
+  },
+  "ui.next": {
+    "zh": "下一组",
+    "en": "Next"
+  },
+  "ui.empty": {
+    "zh": "没有符合条件的内容。",
+    "en": "No matching content."
+  },
+  "ui.pending": {
+    "zh": "这部分资料尚未收录。",
+    "en": "This material has not been added yet."
+  },
+  "ui.loading": {
+    "zh": "正在加载学习内容…",
+    "en": "Loading your lesson…"
+  },
+  "ui.error": {
+    "zh": "内容暂时无法加载，请重试或返回索引。",
+    "en": "This lesson could not be loaded. Retry or return to the index."
+  },
+  "ui.reload": {
+    "zh": "重试",
+    "en": "Retry"
+  },
+  "ui.export": {
+    "zh": "导出学习记录",
+    "en": "Export progress"
+  },
+  "ui.import": {
+    "zh": "导入学习记录",
+    "en": "Import progress"
+  },
+  "ui.imported": {
+    "zh": "已合并导入的学习记录。",
+    "en": "Imported progress has been merged."
+  },
+  "ui.invalidFile": {
+    "zh": "文件格式不正确，请选择本站导出的学习记录。",
+    "en": "Choose a valid progress file exported from this site."
+  },
+  "ui.localOnly": {
+    "zh": "记录保存在当前浏览器。换设备前可以导出；新站不会自动读取旧站的记录。",
+    "en": "Progress stays in this browser. Export it before changing devices. Records from the old site are not read automatically."
+  },
+  "ui.storageError": {
+    "zh": "浏览器暂时无法保存；本次仍可继续学习，请导出记录备份。",
+    "en": "Browser storage is unavailable. You can keep studying; export your progress to keep a backup."
+  },
+  "ui.sourceNote": {
+    "zh": "教材内容参考原复习站整理。释义与解析为学习辅助，请结合原书和课堂内容使用。",
+    "en": "Study material adapted from the original review site. Use the glosses and explanations alongside your textbook and classes."
+  },
+  "ui.readingTest": {
+    "zh": "请用假名写出读音。",
+    "en": "Write the reading in kana."
+  },
+  "ui.katakanaTest": {
+    "zh": "根据句子填写片假名单词。",
+    "en": "Complete each sentence with the katakana word."
+  },
+  "ui.wordTest": {
+    "zh": "选择与日语词语对应的意思。",
+    "en": "Choose the meaning of the Japanese word."
+  },
+  "ui.speechSettings": {
+    "zh": "朗读设置",
+    "en": "Speech settings"
+  },
+  "ui.speechEngine": {
+    "zh": "朗读引擎",
+    "en": "Speech engine"
+  },
+  "ui.speechDevice": {
+    "zh": "设备声音",
+    "en": "Device voices"
+  },
+  "ui.speechVoice": {
+    "zh": "默认声音",
+    "en": "Default voice"
+  },
+  "ui.speechDefault": {
+    "zh": "使用页面默认声音",
+    "en": "Use page default"
+  },
+  "ui.speechLocal": {
+    "zh": "本地",
+    "en": "Local"
+  },
+  "ui.speechOnline": {
+    "zh": "在线（非本地）",
+    "en": "Online (not local)"
+  },
+  "ui.speechLoading": {
+    "zh": "正在等待设备日语声音加载…",
+    "en": "Waiting for Japanese device voices…"
+  },
+  "ui.speechNoVoices": {
+    "zh": "没有可用声音",
+    "en": "No available voices"
+  },
+  "ui.speechNoJapanese": {
+    "zh": "没有可用的日语声音。请检查系统日语语音包或浏览器支持情况；声音稍后加载时会自动更新。",
+    "en": "No Japanese voices available. Check your system Japanese speech pack or browser support. Voices will update if they load later."
+  },
+  "ui.speechUnsupported": {
+    "zh": "此浏览器不支持设备朗读。请使用支持 Web Speech API 的浏览器。",
+    "en": "This browser does not support device speech. Use a browser with Web Speech API support."
+  },
+  "ui.speechFailed": {
+    "zh": "设备朗读失败，请重新点击朗读或选择其他声音。",
+    "en": "Device speech failed. Click again or choose another voice."
+  },
+  "ui.speechStorageError": {
+    "zh": "无法保存声音设置，本次页面仍可使用。",
+    "en": "Voice preferences could not be saved. Speech is still available for this session."
+  },
+  "ui.voicevoxDetect": {
+    "zh": "检测 / 重新检测 VOICEVOX",
+    "en": "Detect / recheck VOICEVOX"
+  },
+  "ui.voicevoxDetecting": {
+    "zh": "正在检测 VOICEVOX…",
+    "en": "Checking VOICEVOX…"
+  },
+  "ui.voicevoxUnavailable": {
+    "zh": "未检测到可用的 VOICEVOX，设备语音仍可正常使用。",
+    "en": "No usable VOICEVOX detected. Device speech remains available."
+  },
+  "ui.voicevoxFallback": {
+    "zh": "本次 VOICEVOX 不可用，已回退到设备声音。",
+    "en": "VOICEVOX is unavailable this time. Using device voices."
+  },
+  "ui.voicevoxPlaybackFailed": {
+    "zh": "VOICEVOX 连接或播放失败，请检查 Engine、浏览器本地网络权限，或切回设备声音后重试。",
+    "en": "VOICEVOX connection or playback failed. Check the Engine and browser local network permissions, or switch to device voices and try again."
+  },
+  "ui.voicevoxLocalHint": {
+    "zh": "VOICEVOX 检测本机 127.0.0.1:50021；手机上的此地址指向手机自身。",
+    "en": "VOICEVOX checks this device at 127.0.0.1:50021. On a phone, this address refers to the phone itself."
+  },
+  "ui.speechRoles": {
+    "zh": "对话角色声音",
+    "en": "Dialogue role voices"
+  },
+  "ui.speechContinuous": {
+    "zh": "连续播放本课例句",
+    "en": "Play lesson examples continuously"
+  },
+  "ui.speechRoleHint": {
+    "zh": "“我”的声音跨课程共享，其他角色按课次保存；未配置或不可用时使用页面默认声音。",
+    "en": "The “我” voice is shared across lessons. Other roles are saved per lesson. Missing voices use the page default."
+  },
+  "ui.storageRecovered": { "zh": "发现损坏的学习记录，已恢复可读取的条目。原始记录会保留为恢复备份，可在设置中导出。", "en": "Some saved progress is damaged. Readable records have been recovered; the original is kept as a recovery backup and can be exported in Settings." },
+  "ui.exportRecovery": { "zh": "导出原始恢复备份", "en": "Export original recovery backup" },
+  "ui.draftStorageError": { "zh": "浏览器无法保存测验草稿，请在离开前完成测验。", "en": "The browser cannot save this draft. Finish the test before leaving the page." },
+  "ui.retryPractice": { "zh": "错题重练（不会覆盖完整测验成绩）", "en": "Retry practice (keeps the full-test score)" },
+  "ui.draftRestored": { "zh": "已恢复上次未完成的测验。", "en": "Your unfinished test has been restored." }
+}

@@ -1,0 +1,500 @@
+{
+  "id": "minna-47",
+  "bookId": "minna",
+  "titleJa": "第47課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.47.grammar.1",
+      "titleJa": "普通形＋そうです",
+      "paragraphIds": [
+        "minna.lesson.47.grammar.1.meaning",
+        "minna.lesson.47.grammar.1.note"
+      ],
+      "examples": [
+        {
+          "ja": "天気予報によると、明日は雨だそうです。",
+          "translationId": "minna.lesson.47.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.47.grammar.2",
+      "titleJa": "N によると",
+      "paragraphIds": [
+        "minna.lesson.47.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "ニュースによると、台風が近づいているそうです。",
+          "translationId": "minna.lesson.47.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.47.grammar.3",
+      "titleJa": "V・い形普通形／な形語幹＋な／N＋の＋ようです",
+      "paragraphIds": [
+        "minna.lesson.47.grammar.3.meaning",
+        "minna.lesson.47.grammar.3.note"
+      ],
+      "examples": [
+        {
+          "ja": "電気が消えています。田中さんは留守のようです。",
+          "translationId": "minna.lesson.47.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.47.grammar.4",
+      "titleJa": "V・い形普通形／な形語幹／N＋みたいです",
+      "paragraphIds": [
+        "minna.lesson.47.grammar.4.meaning",
+        "minna.lesson.47.grammar.4.note"
+      ],
+      "examples": [
+        {
+          "ja": "あの人は日本人みたいです。",
+          "translationId": "minna.lesson.47.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.47-1",
+      "prompt": [
+        {
+          "ja": "天気予報によると、明日は雨が（　）そうです。"
+        }
+      ],
+      "instructionId": "minna.question.47-1.translation",
+      "options": [
+        [
+          {
+            "ja": "降り"
+          }
+        ],
+        [
+          {
+            "ja": "降って"
+          }
+        ],
+        [
+          {
+            "ja": "降りだ"
+          }
+        ],
+        [
+          {
+            "ja": "降る"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.47-1.explanation"
+    },
+    {
+      "id": "minna.question.47-2",
+      "prompt": [
+        {
+          "ja": "ニュース（　）、来月から料金が上がるそうです。"
+        }
+      ],
+      "instructionId": "minna.question.47-2.translation",
+      "options": [
+        [
+          {
+            "ja": "によると"
+          }
+        ],
+        [
+          {
+            "ja": "にとって"
+          }
+        ],
+        [
+          {
+            "ja": "についての"
+          }
+        ],
+        [
+          {
+            "ja": "のように"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.47-2.explanation"
+    },
+    {
+      "id": "minna.question.47-3",
+      "prompt": [
+        {
+          "ja": "電気が消えています。田中さんは留守（　）ようです。"
+        }
+      ],
+      "instructionId": "minna.question.47-3.translation",
+      "options": [
+        [
+          {
+            "ja": "だ"
+          }
+        ],
+        [
+          {
+            "ja": "の"
+          }
+        ],
+        [
+          {
+            "ja": "な"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.47-3.explanation"
+    },
+    {
+      "id": "minna.question.47-4",
+      "prompt": [
+        {
+          "ja": "あの人は学生（　）みたいです。"
+        }
+      ],
+      "instructionId": "minna.question.47-4.translation",
+      "options": [
+        [
+          {
+            "ja": "の"
+          }
+        ],
+        [
+          {
+            "ja": "な"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.47-4.option.2"
+          }
+        ],
+        [
+          {
+            "ja": "だ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.47-4.explanation"
+    },
+    {
+      "id": "minna.question.47-5",
+      "prompt": [
+        {
+          "ja": "友達の話では、この町は静か（　）そうです。"
+        }
+      ],
+      "instructionId": "minna.question.47-5.translation",
+      "options": [
+        [
+          {
+            "ja": "な"
+          }
+        ],
+        [
+          {
+            "ja": "の"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "だ"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.47-5.explanation"
+    },
+    {
+      "id": "minna.question.47-6",
+      "prompt": [
+        {
+          "ja": "先生は昨日（　）そうです。"
+        }
+      ],
+      "instructionId": "minna.question.47-6.translation",
+      "options": [
+        [
+          {
+            "ja": "来なかった"
+          }
+        ],
+        [
+          {
+            "ja": "来なかっただ"
+          }
+        ],
+        [
+          {
+            "ja": "来なく"
+          }
+        ],
+        [
+          {
+            "ja": "来ないでした"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.47-6.explanation"
+    },
+    {
+      "id": "minna.question.47-7",
+      "prompt": [
+        {
+          "ja": "外がとても（　）ようです。"
+        }
+      ],
+      "instructionId": "minna.question.47-7.translation",
+      "options": [
+        [
+          {
+            "ja": "静かだ"
+          }
+        ],
+        [
+          {
+            "ja": "静かな"
+          }
+        ],
+        [
+          {
+            "ja": "静かの"
+          }
+        ],
+        [
+          {
+            "ja": "静か"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.47-7.explanation"
+    },
+    {
+      "id": "minna.question.47-8",
+      "prompt": [
+        {
+          "ja": "「雨が降りそうです」と「雨が降るそうです」の区別は？"
+        }
+      ],
+      "instructionId": "minna.question.47-8.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.47-8.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.47-8.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.47-8.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.47-8.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.47-8.explanation"
+    },
+    {
+      "id": "minna.question.47-9",
+      "prompt": [
+        {
+          "ja": "友人との会話で「彼は疲れているみたい」と言いました。"
+        }
+      ],
+      "instructionId": "minna.question.47-9.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.47-9.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.47-9.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.47-9.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.47-9.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.47-9.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.2002"
+    },
+    {
+      "wordId": "word.2003"
+    },
+    {
+      "wordId": "word.2004"
+    },
+    {
+      "wordId": "word.2005"
+    },
+    {
+      "wordId": "word.2006"
+    },
+    {
+      "wordId": "word.2007"
+    },
+    {
+      "wordId": "word.2008"
+    },
+    {
+      "wordId": "word.2009"
+    },
+    {
+      "wordId": "word.2010"
+    },
+    {
+      "wordId": "word.2011"
+    },
+    {
+      "wordId": "word.2012"
+    },
+    {
+      "wordId": "word.2013"
+    },
+    {
+      "wordId": "word.2014"
+    },
+    {
+      "wordId": "word.2015"
+    },
+    {
+      "wordId": "word.2016"
+    },
+    {
+      "wordId": "word.2017"
+    },
+    {
+      "wordId": "word.2018"
+    },
+    {
+      "wordId": "word.2019"
+    },
+    {
+      "wordId": "word.2020"
+    },
+    {
+      "wordId": "word.2021"
+    },
+    {
+      "wordId": "word.2022"
+    },
+    {
+      "wordId": "word.2023"
+    },
+    {
+      "wordId": "word.2024"
+    },
+    {
+      "wordId": "word.2025"
+    },
+    {
+      "wordId": "word.2026"
+    },
+    {
+      "wordId": "word.2027"
+    },
+    {
+      "wordId": "word.2028"
+    },
+    {
+      "wordId": "word.2029"
+    },
+    {
+      "wordId": "word.2030"
+    },
+    {
+      "wordId": "word.2031"
+    },
+    {
+      "wordId": "word.2032"
+    },
+    {
+      "wordId": "word.2033"
+    },
+    {
+      "wordId": "word.2034"
+    },
+    {
+      "wordId": "word.2035"
+    },
+    {
+      "wordId": "word.2036"
+    },
+    {
+      "wordId": "word.2037"
+    },
+    {
+      "wordId": "word.2038"
+    },
+    {
+      "wordId": "word.2039"
+    }
+  ]
+}

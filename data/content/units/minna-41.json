@@ -1,0 +1,529 @@
+{
+  "id": "minna-41",
+  "bookId": "minna",
+  "titleJa": "第41課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.41.grammar.1",
+      "titleJa": "N に N を いただきます",
+      "paragraphIds": [
+        "minna.lesson.41.grammar.1.meaning",
+        "minna.lesson.41.grammar.1.note"
+      ],
+      "examples": [
+        {
+          "ja": "私は先生に本をいただきました。",
+          "translationId": "minna.lesson.41.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.41.grammar.2",
+      "titleJa": "N が N を くださいます",
+      "paragraphIds": [
+        "minna.lesson.41.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "先生が辞書をくださいました。",
+          "translationId": "minna.lesson.41.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.41.grammar.3",
+      "titleJa": "N に N を やります",
+      "paragraphIds": [
+        "minna.lesson.41.grammar.3.meaning",
+        "minna.lesson.41.grammar.3.note"
+      ],
+      "examples": [
+        {
+          "ja": "犬に餌をやります。",
+          "translationId": "minna.lesson.41.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.41.grammar.4",
+      "titleJa": "～ていただきます",
+      "paragraphIds": [
+        "minna.lesson.41.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "先生に作文を見ていただきました。",
+          "translationId": "minna.lesson.41.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.41.grammar.5",
+      "titleJa": "～てくださいます",
+      "paragraphIds": [
+        "minna.lesson.41.grammar.5.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "部長が説明してくださいました。",
+          "translationId": "minna.lesson.41.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.41-1",
+      "prompt": [
+        {
+          "ja": "私は先生に辞書を（　）。"
+        }
+      ],
+      "instructionId": "minna.question.41-1.translation",
+      "options": [
+        [
+          {
+            "ja": "くださいました"
+          }
+        ],
+        [
+          {
+            "ja": "いただきました"
+          }
+        ],
+        [
+          {
+            "ja": "差し上げました"
+          }
+        ],
+        [
+          {
+            "ja": "やりました"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.41-1.explanation"
+    },
+    {
+      "id": "minna.question.41-2",
+      "prompt": [
+        {
+          "ja": "先生が私に写真を（　）。"
+        }
+      ],
+      "instructionId": "minna.question.41-2.translation",
+      "options": [
+        [
+          {
+            "ja": "いただきました"
+          }
+        ],
+        [
+          {
+            "ja": "差し上げました"
+          }
+        ],
+        [
+          {
+            "ja": "くださいました"
+          }
+        ],
+        [
+          {
+            "ja": "もらいました"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.41-2.explanation"
+    },
+    {
+      "id": "minna.question.41-3",
+      "prompt": [
+        {
+          "textId": "minna.question.41-3.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.41-3.translation",
+      "options": [
+        [
+          {
+            "ja": "花に水をくださいます。"
+          }
+        ],
+        [
+          {
+            "ja": "花に水をいただきます。"
+          }
+        ],
+        [
+          {
+            "ja": "花が水を差し上げます。"
+          }
+        ],
+        [
+          {
+            "ja": "花に水をやります。"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.41-3.explanation"
+    },
+    {
+      "id": "minna.question.41-4",
+      "prompt": [
+        {
+          "ja": "先生に作文を（　）いただきました。"
+        }
+      ],
+      "instructionId": "minna.question.41-4.translation",
+      "options": [
+        [
+          {
+            "ja": "見て"
+          }
+        ],
+        [
+          {
+            "ja": "見"
+          }
+        ],
+        [
+          {
+            "ja": "見る"
+          }
+        ],
+        [
+          {
+            "ja": "見た"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.41-4.explanation"
+    },
+    {
+      "id": "minna.question.41-5",
+      "prompt": [
+        {
+          "ja": "先生が漢字の読み方を教えて（　）。"
+        }
+      ],
+      "instructionId": "minna.question.41-5.translation",
+      "options": [
+        [
+          {
+            "ja": "いただきました"
+          }
+        ],
+        [
+          {
+            "ja": "くださいました"
+          }
+        ],
+        [
+          {
+            "ja": "もらいました"
+          }
+        ],
+        [
+          {
+            "ja": "差し上げました"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.41-5.explanation"
+    },
+    {
+      "id": "minna.question.41-6",
+      "prompt": [
+        {
+          "ja": "私は先生に推薦状を書いていただきました。"
+        }
+      ],
+      "instructionId": "minna.question.41-6.translation",
+      "options": [
+        [
+          {
+            "ja": "私"
+          }
+        ],
+        [
+          {
+            "ja": "先生と私が必ず共同で"
+          }
+        ],
+        [
+          {
+            "ja": "先生"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.41-6.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.41-6.explanation"
+    },
+    {
+      "id": "minna.question.41-7",
+      "prompt": [
+        {
+          "ja": "くださる → "
+        },
+        {
+          "textId": "minna.question.41-7.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.41-7.translation",
+      "options": [
+        [
+          {
+            "ja": "くださります"
+          }
+        ],
+        [
+          {
+            "ja": "くださるます"
+          }
+        ],
+        [
+          {
+            "ja": "くだされます"
+          }
+        ],
+        [
+          {
+            "ja": "くださいます"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.41-7.explanation"
+    },
+    {
+      "id": "minna.question.41-8",
+      "prompt": [
+        {
+          "textId": "minna.question.41-8.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.41-8.translation",
+      "options": [
+        [
+          {
+            "ja": "文章を見ていただけませんか。"
+          }
+        ],
+        [
+          {
+            "ja": "文章を見ていただきます。"
+          }
+        ],
+        [
+          {
+            "ja": "文章を見てあげます。"
+          }
+        ],
+        [
+          {
+            "ja": "文章を見てやります。"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.41-8.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1758"
+    },
+    {
+      "wordId": "word.1759"
+    },
+    {
+      "wordId": "word.1760"
+    },
+    {
+      "wordId": "word.1761"
+    },
+    {
+      "wordId": "word.1762"
+    },
+    {
+      "wordId": "word.1763"
+    },
+    {
+      "wordId": "word.1764"
+    },
+    {
+      "wordId": "word.1765"
+    },
+    {
+      "wordId": "word.1766"
+    },
+    {
+      "wordId": "word.1767"
+    },
+    {
+      "wordId": "word.1768"
+    },
+    {
+      "wordId": "word.1769"
+    },
+    {
+      "wordId": "word.1770"
+    },
+    {
+      "wordId": "word.1771"
+    },
+    {
+      "wordId": "word.1772"
+    },
+    {
+      "wordId": "word.1773"
+    },
+    {
+      "wordId": "word.1774"
+    },
+    {
+      "wordId": "word.1775"
+    },
+    {
+      "wordId": "word.1776"
+    },
+    {
+      "wordId": "word.1777"
+    },
+    {
+      "wordId": "word.1778"
+    },
+    {
+      "wordId": "word.1779"
+    },
+    {
+      "wordId": "word.1780"
+    },
+    {
+      "wordId": "word.1781"
+    },
+    {
+      "wordId": "word.1782"
+    },
+    {
+      "wordId": "word.1783"
+    },
+    {
+      "wordId": "word.1784"
+    },
+    {
+      "wordId": "word.1785"
+    },
+    {
+      "wordId": "word.1786"
+    },
+    {
+      "wordId": "word.1787"
+    },
+    {
+      "wordId": "word.1788"
+    },
+    {
+      "wordId": "word.1789"
+    },
+    {
+      "wordId": "word.1790"
+    },
+    {
+      "wordId": "word.1791"
+    },
+    {
+      "wordId": "word.1792"
+    },
+    {
+      "wordId": "word.1793"
+    },
+    {
+      "wordId": "word.1794"
+    },
+    {
+      "wordId": "word.1795"
+    },
+    {
+      "wordId": "word.1796"
+    },
+    {
+      "wordId": "word.1797"
+    },
+    {
+      "wordId": "word.1798"
+    },
+    {
+      "wordId": "word.1799"
+    },
+    {
+      "wordId": "word.1800"
+    },
+    {
+      "wordId": "word.1801"
+    },
+    {
+      "wordId": "word.1802"
+    },
+    {
+      "wordId": "word.1803"
+    },
+    {
+      "wordId": "word.1804"
+    },
+    {
+      "wordId": "word.1805"
+    },
+    {
+      "wordId": "word.1806"
+    },
+    {
+      "wordId": "word.1807"
+    },
+    {
+      "wordId": "word.1808"
+    },
+    {
+      "wordId": "word.1809"
+    },
+    {
+      "wordId": "word.1810"
+    },
+    {
+      "wordId": "word.1811"
+    }
+  ]
+}

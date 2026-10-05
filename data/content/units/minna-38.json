@@ -1,0 +1,440 @@
+{
+  "id": "minna-38",
+  "bookId": "minna",
+  "titleJa": "第38課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.38.grammar.1",
+      "titleJa": "V辞書形＋のは Aです",
+      "paragraphIds": [
+        "minna.lesson.38.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "日本語を話すのは楽しいです。",
+          "translationId": "minna.lesson.38.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.38.grammar.2",
+      "titleJa": "V辞書形＋のが Aです",
+      "paragraphIds": [
+        "minna.lesson.38.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "私は料理を作るのが好きです。",
+          "translationId": "minna.lesson.38.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.38.grammar.3",
+      "titleJa": "普通形＋のを 知っています／忘れました",
+      "paragraphIds": [
+        "minna.lesson.38.grammar.3.meaning",
+        "minna.lesson.38.grammar.3.note"
+      ],
+      "examples": [
+        {
+          "ja": "会議が中止になったのを知っていますか。",
+          "translationId": "minna.lesson.38.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.38.grammar.4",
+      "titleJa": "普通形＋のは Nです",
+      "paragraphIds": [
+        "minna.lesson.38.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "私が日本へ来たのは去年です。",
+          "translationId": "minna.lesson.38.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.38-1",
+      "prompt": [
+        {
+          "ja": "一人でこの荷物を（　）のは大変です。"
+        }
+      ],
+      "instructionId": "minna.question.38-1.translation",
+      "options": [
+        [
+          {
+            "ja": "運び"
+          }
+        ],
+        [
+          {
+            "ja": "運びます"
+          }
+        ],
+        [
+          {
+            "ja": "運ぶ"
+          }
+        ],
+        [
+          {
+            "ja": "運ぶだ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.38-1.explanation"
+    },
+    {
+      "id": "minna.question.38-2",
+      "prompt": [
+        {
+          "ja": "私は料理を作るの（　）好きです。"
+        }
+      ],
+      "instructionId": "minna.question.38-2.translation",
+      "options": [
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ],
+        [
+          {
+            "ja": "が"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.38-2.explanation"
+    },
+    {
+      "id": "minna.question.38-3",
+      "prompt": [
+        {
+          "ja": "窓を閉めるの（　）忘れました。"
+        }
+      ],
+      "instructionId": "minna.question.38-3.translation",
+      "options": [
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "が"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.38-3.explanation"
+    },
+    {
+      "id": "minna.question.38-4",
+      "prompt": [
+        {
+          "ja": "私が日本へ来たのは（　）。"
+        }
+      ],
+      "instructionId": "minna.question.38-4.translation",
+      "options": [
+        [
+          {
+            "ja": "去年にです"
+          }
+        ],
+        [
+          {
+            "ja": "去年です"
+          }
+        ],
+        [
+          {
+            "ja": "去年がです"
+          }
+        ],
+        [
+          {
+            "ja": "去年のです"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.38-4.explanation"
+    },
+    {
+      "id": "minna.question.38-5",
+      "prompt": [
+        {
+          "ja": "田中さんが学生（　）のを知っていますか。"
+        }
+      ],
+      "instructionId": "minna.question.38-5.translation",
+      "options": [
+        [
+          {
+            "ja": "だ"
+          }
+        ],
+        [
+          {
+            "ja": "の"
+          }
+        ],
+        [
+          {
+            "ja": "な"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.38-5.explanation"
+    },
+    {
+      "id": "minna.question.38-6",
+      "prompt": [
+        {
+          "ja": "私は泳ぐ（　）ができます。"
+        }
+      ],
+      "instructionId": "minna.question.38-6.translation",
+      "options": [
+        [
+          {
+            "ja": "の"
+          }
+        ],
+        [
+          {
+            "ja": "もの"
+          }
+        ],
+        [
+          {
+            "ja": "ところ"
+          }
+        ],
+        [
+          {
+            "ja": "こと"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.38-6.explanation"
+    },
+    {
+      "id": "minna.question.38-7",
+      "prompt": [
+        {
+          "ja": "私が買ったのはこの本です"
+        },
+        {
+          "textId": "minna.question.38-7.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.38-7.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.38-7.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.38-7.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.38-7.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.38-7.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.38-7.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1613"
+    },
+    {
+      "wordId": "word.1614"
+    },
+    {
+      "wordId": "word.1615"
+    },
+    {
+      "wordId": "word.1616"
+    },
+    {
+      "wordId": "word.1617"
+    },
+    {
+      "wordId": "word.1618"
+    },
+    {
+      "wordId": "word.1619"
+    },
+    {
+      "wordId": "word.1620"
+    },
+    {
+      "wordId": "word.1621"
+    },
+    {
+      "wordId": "word.1622"
+    },
+    {
+      "wordId": "word.1623"
+    },
+    {
+      "wordId": "word.1624"
+    },
+    {
+      "wordId": "word.1625"
+    },
+    {
+      "wordId": "word.1626"
+    },
+    {
+      "wordId": "word.1627"
+    },
+    {
+      "wordId": "word.1628"
+    },
+    {
+      "wordId": "word.1629"
+    },
+    {
+      "wordId": "word.1630"
+    },
+    {
+      "wordId": "word.1631"
+    },
+    {
+      "wordId": "word.1632"
+    },
+    {
+      "wordId": "word.1633"
+    },
+    {
+      "wordId": "word.1634"
+    },
+    {
+      "wordId": "word.1635"
+    },
+    {
+      "wordId": "word.1636"
+    },
+    {
+      "wordId": "word.1637"
+    },
+    {
+      "wordId": "word.1638"
+    },
+    {
+      "wordId": "word.1639"
+    },
+    {
+      "wordId": "word.1640"
+    },
+    {
+      "wordId": "word.1641"
+    },
+    {
+      "wordId": "word.1642"
+    },
+    {
+      "wordId": "word.1643"
+    },
+    {
+      "wordId": "word.1644"
+    },
+    {
+      "wordId": "word.1645"
+    },
+    {
+      "wordId": "word.1646"
+    },
+    {
+      "wordId": "word.1647"
+    },
+    {
+      "wordId": "word.1648"
+    },
+    {
+      "wordId": "word.1649"
+    },
+    {
+      "wordId": "word.1650"
+    },
+    {
+      "wordId": "word.1651"
+    },
+    {
+      "wordId": "word.1652"
+    },
+    {
+      "wordId": "word.1653"
+    }
+  ]
+}

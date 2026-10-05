@@ -1,0 +1,426 @@
+{
+  "id": "minna-21",
+  "bookId": "minna",
+  "titleJa": "第21課",
+  "groupJa": "初級Ⅰ",
+  "articles": [
+    {
+      "id": "minna.lesson.21.grammar.1",
+      "titleJa": "普通形＋と思います",
+      "paragraphIds": [
+        "minna.lesson.21.grammar.1.meaning",
+        "minna.lesson.21.grammar.1.note"
+      ],
+      "examples": [
+        {
+          "ja": "明日は雨が降ると思います。",
+          "translationId": "minna.lesson.21.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.21.grammar.2",
+      "titleJa": "普通形＋と言います",
+      "paragraphIds": [
+        "minna.lesson.21.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "田中さんは来ないと言いました。",
+          "translationId": "minna.lesson.21.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.21.grammar.3",
+      "titleJa": "～について どう思いますか",
+      "paragraphIds": [
+        "minna.lesson.21.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "日本の働き方についてどう思いますか。",
+          "translationId": "minna.lesson.21.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.21.grammar.4",
+      "titleJa": "V・い形普通形／な形語幹／N＋でしょう？",
+      "paragraphIds": [
+        "minna.lesson.21.grammar.4.meaning",
+        "minna.lesson.21.grammar.4.note"
+      ],
+      "examples": [
+        {
+          "ja": "北海道は寒かったでしょう？",
+          "translationId": "minna.lesson.21.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.21-1",
+      "prompt": [
+        {
+          "ja": "あの人は学生（　）と思います。"
+        }
+      ],
+      "instructionId": "minna.question.21-1.translation",
+      "options": [
+        [
+          {
+            "ja": "な"
+          }
+        ],
+        [
+          {
+            "ja": "だ"
+          }
+        ],
+        [
+          {
+            "ja": "の"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.21-1.explanation"
+    },
+    {
+      "id": "minna.question.21-2",
+      "prompt": [
+        {
+          "ja": "田中さんは明日（　）と言いました。"
+        }
+      ],
+      "instructionId": "minna.question.21-2.translation",
+      "options": [
+        [
+          {
+            "ja": "来ませんです"
+          }
+        ],
+        [
+          {
+            "ja": "来ないだ"
+          }
+        ],
+        [
+          {
+            "ja": "来ない"
+          }
+        ],
+        [
+          {
+            "ja": "来なく"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.21-2.explanation"
+    },
+    {
+      "id": "minna.question.21-3",
+      "prompt": [
+        {
+          "ja": "この計画（　）どう思いますか。"
+        }
+      ],
+      "instructionId": "minna.question.21-3.translation",
+      "options": [
+        [
+          {
+            "ja": "によって"
+          }
+        ],
+        [
+          {
+            "ja": "をと"
+          }
+        ],
+        [
+          {
+            "ja": "のためで"
+          }
+        ],
+        [
+          {
+            "ja": "について"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.21-3.explanation"
+    },
+    {
+      "id": "minna.question.21-4",
+      "prompt": [
+        {
+          "ja": "この町は静か（　）？"
+        }
+      ],
+      "instructionId": "minna.question.21-4.translation",
+      "options": [
+        [
+          {
+            "ja": "でしょう"
+          }
+        ],
+        [
+          {
+            "ja": "だでしょう"
+          }
+        ],
+        [
+          {
+            "ja": "なでしょう"
+          }
+        ],
+        [
+          {
+            "ja": "のでしょう"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.21-4.explanation"
+    },
+    {
+      "id": "minna.question.21-5",
+      "prompt": [
+        {
+          "ja": "この部屋は（　）と思います。"
+        }
+      ],
+      "instructionId": "minna.question.21-5.translation",
+      "options": [
+        [
+          {
+            "ja": "便利な"
+          }
+        ],
+        [
+          {
+            "ja": "便利だ"
+          }
+        ],
+        [
+          {
+            "ja": "便利の"
+          }
+        ],
+        [
+          {
+            "ja": "便利で"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.21-5.explanation"
+    },
+    {
+      "id": "minna.question.21-6",
+      "prompt": [
+        {
+          "ja": "明日は雨が（　）と思います。"
+        }
+      ],
+      "instructionId": "minna.question.21-6.translation",
+      "options": [
+        [
+          {
+            "ja": "降りない"
+          }
+        ],
+        [
+          {
+            "ja": "降らないだ"
+          }
+        ],
+        [
+          {
+            "ja": "降らない"
+          }
+        ],
+        [
+          {
+            "ja": "降りませんだ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.21-6.explanation"
+    },
+    {
+      "id": "minna.question.21-7",
+      "prompt": [
+        {
+          "ja": "田中さんは「明日来ます」と言いました。"
+        },
+        {
+          "textId": "minna.question.21-7.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.21-7.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.21-7.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.21-7.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.21-7.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.21-7.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.21-7.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.900"
+    },
+    {
+      "wordId": "word.901"
+    },
+    {
+      "wordId": "word.902"
+    },
+    {
+      "wordId": "word.903"
+    },
+    {
+      "wordId": "word.904"
+    },
+    {
+      "wordId": "word.905"
+    },
+    {
+      "wordId": "word.906"
+    },
+    {
+      "wordId": "word.907"
+    },
+    {
+      "wordId": "word.908"
+    },
+    {
+      "wordId": "word.909"
+    },
+    {
+      "wordId": "word.910"
+    },
+    {
+      "wordId": "word.911"
+    },
+    {
+      "wordId": "word.912"
+    },
+    {
+      "wordId": "word.913"
+    },
+    {
+      "wordId": "word.914"
+    },
+    {
+      "wordId": "word.915"
+    },
+    {
+      "wordId": "word.916"
+    },
+    {
+      "wordId": "word.917"
+    },
+    {
+      "wordId": "word.918"
+    },
+    {
+      "wordId": "word.919"
+    },
+    {
+      "wordId": "word.920"
+    },
+    {
+      "wordId": "word.921"
+    },
+    {
+      "wordId": "word.922"
+    },
+    {
+      "wordId": "word.923"
+    },
+    {
+      "wordId": "word.924"
+    },
+    {
+      "wordId": "word.925"
+    },
+    {
+      "wordId": "word.926"
+    },
+    {
+      "wordId": "word.927"
+    },
+    {
+      "wordId": "word.928"
+    },
+    {
+      "wordId": "word.929"
+    },
+    {
+      "wordId": "word.930"
+    },
+    {
+      "wordId": "word.931"
+    },
+    {
+      "wordId": "word.932"
+    },
+    {
+      "wordId": "word.933"
+    },
+    {
+      "wordId": "word.934"
+    },
+    {
+      "wordId": "word.935"
+    }
+  ]
+}

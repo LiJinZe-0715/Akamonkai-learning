@@ -1,0 +1,97 @@
+.button-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.primary-button {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+  padding: 12px 24px;
+}
+.primary-button:hover:not(:disabled) {
+  background: var(--accent-dark);
+  color: white;
+}
+.icon-button {
+  font-size: 15px;
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.icon-button span {
+  color: var(--muted);
+}
+.icon-button[aria-pressed="true"] {
+  background: var(--soft);
+}
+.file-button {
+  display: inline-block;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  padding: 9px 14px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.file-button input {
+  display: block;
+  margin-top: 8px;
+  padding: 3px;
+}
+.notice {
+  margin-top: 20px;
+  padding: 12px 18px;
+  background: var(--soft);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.notice button {
+  padding: 0 6px;
+  background: none;
+  border: none;
+}
+.list-caption {
+  color: var(--muted);
+  margin: 16px 0;
+}
+.filter-buttons {
+  display: flex;
+}
+.example {
+  margin: 20px 0;
+}
+.example-japanese {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: space-between;
+  white-space: pre-wrap;
+}
+.example-japanese > .icon-button {
+  flex-shrink: 0;
+}
+.translation {
+  color: var(--muted);
+  margin-top: 10px;
+}
+.analysis {
+  margin: 12px 0 0;
+}
+.example summary {
+  color: var(--accent);
+}
+.example p:last-child {
+  margin-bottom: 0;
+}
+.speech-controls { margin: 16px 0; padding: 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.speech-controls .button-row { align-items: end; }
+.speech-controls label { display: flex; flex-direction: column; gap: 6px; min-width: 0; max-width: 100%; font-size: 13px; }
+.speech-controls select { max-width: 100%; min-width: 0; width: 100%; padding: 8px; border: 1px solid var(--line); border-radius: 8px; color: var(--ink); background: var(--surface); font-size: 16px; }
+.speech-controls p { font-size: 13px; margin: 10px 0; }
+.speech-controls small { display: block; color: var(--muted); margin-top: 10px; }
+.dialogue-lines { margin-top: 12px; border-top: 1px solid var(--line); }
+.dialogue-lines .example-japanese { font-size: 16px; margin-top: 8px; }
+@media (max-width: 600px) { .speech-controls label { width: 100%; } }

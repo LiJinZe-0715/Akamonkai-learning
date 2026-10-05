@@ -1,0 +1,525 @@
+{
+  "id": "day7-uchi",
+  "bookId": "n2",
+  "titleJa": "うちの表現",
+  "groupJa": "文法",
+  "articles": [
+    {
+      "id": "n2.day7-uchi.grammar.0",
+      "titleJa": "～うちに",
+      "paragraphIds": [
+        "n2.day7-uchi.grammar.0.anchor",
+        "n2.day7-uchi.grammar.0.logic",
+        "n2.day7-uchi.grammar.0.connection",
+        "n2.day7-uchi.grammar.0.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "日本にいるうちに、北海道へ行きたい。",
+          "translationId": "n2.day7-uchi.grammar.0.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day7-uchi.grammar.1",
+      "titleJa": "～ないうちに",
+      "paragraphIds": [
+        "n2.day7-uchi.grammar.1.anchor",
+        "n2.day7-uchi.grammar.1.logic",
+        "n2.day7-uchi.grammar.1.connection",
+        "n2.day7-uchi.grammar.1.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "忘れないうちに、メモしておこう。",
+          "translationId": "n2.day7-uchi.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day7-uchi.grammar.2",
+      "titleJa": "～ているうちに",
+      "paragraphIds": [
+        "n2.day7-uchi.grammar.2.anchor",
+        "n2.day7-uchi.grammar.2.logic",
+        "n2.day7-uchi.grammar.2.connection",
+        "n2.day7-uchi.grammar.2.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "日本語を勉強しているうちに、日本の文化にも興味を持つようになった。",
+          "translationId": "n2.day7-uchi.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day7-uchi.grammar.3",
+      "titleJa": "～うちは",
+      "paragraphIds": [
+        "n2.day7-uchi.grammar.3.anchor",
+        "n2.day7-uchi.grammar.3.logic",
+        "n2.day7-uchi.grammar.3.connection",
+        "n2.day7-uchi.grammar.3.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "日本にいるうちは、日本語を勉強し続けるつもりだ。",
+          "translationId": "n2.day7-uchi.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day7-uchi.grammar.4",
+      "titleJa": "～うちでは",
+      "paragraphIds": [
+        "n2.day7-uchi.grammar.4.anchor",
+        "n2.day7-uchi.grammar.4.logic",
+        "n2.day7-uchi.grammar.4.connection",
+        "n2.day7-uchi.grammar.4.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "三人のうちでは、田中さんがいちばん若い。",
+          "translationId": "n2.day7-uchi.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "n2.day7-uchi.question.0",
+      "prompt": [
+        {
+          "textId": "n2.day7-uchi.question.0.review-instruction"
+        },
+        {
+          "ja": "日本にいる（　）、一度は北海道へ行きたい。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "うちでは"
+          }
+        ],
+        [
+          {
+            "ja": "うちは"
+          }
+        ],
+        [
+          {
+            "ja": "うちに"
+          }
+        ],
+        [
+          {
+            "ja": "ないうちに"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day7-uchi.question.0.explanation",
+      "instructionId": "n2.day7-uchi.question.0.anchor"
+    },
+    {
+      "id": "n2.day7-uchi.question.1",
+      "prompt": [
+        {
+          "textId": "n2.day7-uchi.question.1.review-instruction"
+        },
+        {
+          "ja": "料理が冷めないように、熱い（　）食べてください。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "うちに"
+          }
+        ],
+        [
+          {
+            "ja": "うちは"
+          }
+        ],
+        [
+          {
+            "ja": "うちでは"
+          }
+        ],
+        [
+          {
+            "ja": "ているうちに"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day7-uchi.question.1.explanation",
+      "instructionId": "n2.day7-uchi.question.1.anchor"
+    },
+    {
+      "id": "n2.day7-uchi.question.2",
+      "prompt": [
+        {
+          "ja": "大事な用事だから、忘れ（　）予定表に書いておこう。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ているうちに"
+          }
+        ],
+        [
+          {
+            "ja": "ないうちに"
+          }
+        ],
+        [
+          {
+            "ja": "うちは"
+          }
+        ],
+        [
+          {
+            "ja": "うちでは"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day7-uchi.question.2.explanation",
+      "instructionId": "n2.day7-uchi.question.2.anchor"
+    },
+    {
+      "id": "n2.day7-uchi.question.3",
+      "prompt": [
+        {
+          "ja": "雨が降ら（　）、早く家へ帰りましょう。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ないうちに"
+          }
+        ],
+        [
+          {
+            "ja": "うちは"
+          }
+        ],
+        [
+          {
+            "ja": "ているうちに"
+          }
+        ],
+        [
+          {
+            "ja": "うちでは"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day7-uchi.question.3.explanation",
+      "instructionId": "n2.day7-uchi.question.3.anchor"
+    },
+    {
+      "id": "n2.day7-uchi.question.4",
+      "prompt": [
+        {
+          "ja": "このアプリは、使っている（　）だんだん操作に慣れてきた。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "うちは"
+          }
+        ],
+        [
+          {
+            "ja": "うちでは"
+          }
+        ],
+        [
+          {
+            "ja": "うちに"
+          }
+        ],
+        [
+          {
+            "ja": "ないうちに"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day7-uchi.question.4.explanation",
+      "instructionId": "n2.day7-uchi.question.4.anchor"
+    },
+    {
+      "id": "n2.day7-uchi.question.5",
+      "prompt": [
+        {
+          "ja": "日本語の歌を何度も聞いている（　）、少しずつ歌詞が分かるようになった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "うちでは"
+          }
+        ],
+        [
+          {
+            "ja": "うちに"
+          }
+        ],
+        [
+          {
+            "ja": "うちは"
+          }
+        ],
+        [
+          {
+            "ja": "ないうちに"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day7-uchi.question.5.explanation",
+      "instructionId": "n2.day7-uchi.question.5.anchor"
+    },
+    {
+      "id": "n2.day7-uchi.question.6",
+      "prompt": [
+        {
+          "ja": "若い（　）、失敗してもやり直す機会はたくさんある。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "うちに"
+          }
+        ],
+        [
+          {
+            "ja": "うちは"
+          }
+        ],
+        [
+          {
+            "ja": "うちでは"
+          }
+        ],
+        [
+          {
+            "ja": "ないうちに"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day7-uchi.question.6.explanation",
+      "instructionId": "n2.day7-uchi.question.6.anchor"
+    },
+    {
+      "id": "n2.day7-uchi.question.7",
+      "prompt": [
+        {
+          "ja": "両親が元気な（　）、毎年一緒に旅行したい。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "うちは"
+          }
+        ],
+        [
+          {
+            "ja": "うちでは"
+          }
+        ],
+        [
+          {
+            "ja": "ているうちに"
+          }
+        ],
+        [
+          {
+            "ja": "ないうちに"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day7-uchi.question.7.explanation",
+      "instructionId": "n2.day7-uchi.question.7.anchor"
+    },
+    {
+      "id": "n2.day7-uchi.question.8",
+      "prompt": [
+        {
+          "ja": "三つの案の（　）、この案がいちばん実現しやすい。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "うちに"
+          }
+        ],
+        [
+          {
+            "ja": "うちは"
+          }
+        ],
+        [
+          {
+            "ja": "うちでは"
+          }
+        ],
+        [
+          {
+            "ja": "ないうちに"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day7-uchi.question.8.explanation",
+      "instructionId": "n2.day7-uchi.question.8.anchor"
+    },
+    {
+      "id": "n2.day7-uchi.question.9",
+      "prompt": [
+        {
+          "ja": "クラスの学生の（　）、李さんがいちばん早く来る。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "うちでは"
+          }
+        ],
+        [
+          {
+            "ja": "うちに"
+          }
+        ],
+        [
+          {
+            "ja": "うちは"
+          }
+        ],
+        [
+          {
+            "ja": "ているうちに"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day7-uchi.question.9.explanation",
+      "instructionId": "n2.day7-uchi.question.9.anchor"
+    },
+    {
+      "id": "n2.day7-uchi.question.10",
+      "prompt": [
+        {
+          "ja": "友達と話している（　）、いつの間にか終電の時間になっていた。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "うちは"
+          }
+        ],
+        [
+          {
+            "ja": "うちに"
+          }
+        ],
+        [
+          {
+            "ja": "うちでは"
+          }
+        ],
+        [
+          {
+            "ja": "ないうちに"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day7-uchi.question.10.explanation",
+      "instructionId": "n2.day7-uchi.question.10.anchor"
+    },
+    {
+      "id": "n2.day7-uchi.question.11",
+      "prompt": [
+        {
+          "textId": "n2.day7-uchi.question.11.review-instruction"
+        },
+        {
+          "ja": "体が元気な（　）、行きたい場所へできるだけ行っておきたい。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "うちでは"
+          }
+        ],
+        [
+          {
+            "ja": "うちは"
+          }
+        ],
+        [
+          {
+            "ja": "うちに"
+          }
+        ],
+        [
+          {
+            "ja": "ているうちに"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day7-uchi.question.11.explanation",
+      "instructionId": "n2.day7-uchi.question.11.anchor"
+    }
+  ],
+  "wordRefs": []
+}

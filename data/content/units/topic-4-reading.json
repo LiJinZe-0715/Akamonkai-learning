@@ -1,0 +1,772 @@
+{
+  "id": "topic-4-reading",
+  "bookId": "topic",
+  "titleJa": "読解：睡眠",
+  "groupJa": "Topic 4",
+  "articles": [
+    {
+      "id": "topic.4.reading.word-note",
+      "titleJa": "語彙の使い方",
+      "paragraphIds": [
+        "topic.4.reading.wordNote"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.4.reading.summary",
+      "titleJa": "読解・内容のまとめ",
+      "paragraphIds": [
+        "topic.4.reading.summary.0",
+        "topic.4.reading.summary.1",
+        "topic.4.reading.summary.2"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.4.reading.grammar.0",
+      "titleJa": "～て／～なくて",
+      "paragraphIds": [
+        "topic.4.reading.grammar.0.meaning",
+        "topic.4.reading.grammar.0.join",
+        "topic.4.reading.grammar.0.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.4.reading.grammar.1",
+      "titleJa": "～ないで／～ずに",
+      "paragraphIds": [
+        "topic.4.reading.grammar.1.meaning",
+        "topic.4.reading.grammar.1.join",
+        "topic.4.reading.grammar.1.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.4.reading.grammar.2",
+      "titleJa": "～（よ）うとする（試み）",
+      "paragraphIds": [
+        "topic.4.reading.grammar.2.meaning",
+        "topic.4.reading.grammar.2.join",
+        "topic.4.reading.grammar.2.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.4.reading.grammar.3",
+      "titleJa": "～（よ）うとした時（直前）",
+      "paragraphIds": [
+        "topic.4.reading.grammar.3.meaning",
+        "topic.4.reading.grammar.3.join",
+        "topic.4.reading.grammar.3.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.4.reading.examples",
+      "titleJa": "例文の解説",
+      "paragraphIds": [],
+      "examples": [
+        {
+          "ja": "友達がいなくて、寂しいです。",
+          "translationId": "topic.4.reading.example.0.zh",
+          "analysisId": "topic.4.reading.example.0.analysis"
+        },
+        {
+          "ja": "電話番号が分からなくて、連絡できませんでした。",
+          "translationId": "topic.4.reading.example.1.zh",
+          "analysisId": "topic.4.reading.example.1.analysis"
+        },
+        {
+          "ja": "仕事が忙しくて、旅行に行けません。",
+          "translationId": "topic.4.reading.example.2.zh",
+          "analysisId": "topic.4.reading.example.2.analysis"
+        },
+        {
+          "ja": "辞書を見ないで書いてください。",
+          "translationId": "topic.4.reading.example.3.zh",
+          "analysisId": "topic.4.reading.example.3.analysis"
+        },
+        {
+          "ja": "コーヒーに砂糖を入れないで飲みます。",
+          "translationId": "topic.4.reading.example.4.zh",
+          "analysisId": "topic.4.reading.example.4.analysis"
+        },
+        {
+          "ja": "勉強せずに試験を受けた。",
+          "translationId": "topic.4.reading.example.5.zh",
+          "analysisId": "topic.4.reading.example.5.analysis"
+        },
+        {
+          "ja": "朝ご飯を食べないで学校へ来た。",
+          "translationId": "topic.4.reading.example.6.zh",
+          "analysisId": "topic.4.reading.example.6.analysis"
+        },
+        {
+          "ja": "帽子をかぶらずに学校へ来た。",
+          "translationId": "topic.4.reading.example.7.zh",
+          "analysisId": "topic.4.reading.example.7.analysis"
+        },
+        {
+          "ja": "知っている言葉を使って、一生懸命日本語で話そうとしています。",
+          "translationId": "topic.4.reading.example.8.zh",
+          "analysisId": "topic.4.reading.example.8.analysis"
+        },
+        {
+          "ja": "彼女のことを忘れようとしましたが、忘れられません。",
+          "translationId": "topic.4.reading.example.9.zh",
+          "analysisId": "topic.4.reading.example.9.analysis"
+        },
+        {
+          "ja": "おふろに入ろうとした時、電話のベルが鳴りました。",
+          "translationId": "topic.4.reading.example.10.zh",
+          "analysisId": "topic.4.reading.example.10.analysis"
+        },
+        {
+          "ja": "お金を払おうとしたら、先輩が「私が払うよ」と言いました。",
+          "translationId": "topic.4.reading.example.11.zh",
+          "analysisId": "topic.4.reading.example.11.analysis"
+        },
+        {
+          "ja": "眠らずにいようとして成功した人はいない。",
+          "translationId": "topic.4.reading.example.12.zh",
+          "analysisId": "topic.4.reading.example.12.analysis"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "topic.4.reading.supplement",
+      "titleJa": "補充読解・練習（オリジナル）",
+      "paragraphIds": [
+        "reading.supplement.instruction"
+      ],
+      "examples": [
+        {
+          "ja": "この文章の作者は、眠れないことを心配する人について述べている。「すぐに眠らなければ」と焦ると、かえって眠りにくくなることがあるという。そのため、作者は眠りを急がず、落ち着いて待つことを勧めている。これは文章の内容を学ぶための説明であり、病気の診断や治療の指示ではない。",
+          "translationId": "topic.4.reading.supplement.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "topic.4.reading.question.0",
+      "prompt": [
+        {
+          "ja": "仕事が忙し（　　）、旅行に行けません。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "いで"
+          }
+        ],
+        [
+          {
+            "ja": "なくて"
+          }
+        ],
+        [
+          {
+            "ja": "のでて"
+          }
+        ],
+        [
+          {
+            "ja": "くて"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.4.reading.question.0.reason"
+    },
+    {
+      "id": "topic.4.reading.question.1",
+      "prompt": [
+        {
+          "ja": "電話番号が（　　）、連絡できませんでした。"
+        },
+        {
+          "textId": "topic.4.reading.question.1.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "分からなくて"
+          }
+        ],
+        [
+          {
+            "ja": "分からなで"
+          }
+        ],
+        [
+          {
+            "ja": "分からないくて"
+          }
+        ],
+        [
+          {
+            "ja": "分からなくで"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.4.reading.question.1.reason"
+    },
+    {
+      "id": "topic.4.reading.question.2",
+      "prompt": [
+        {
+          "ja": "辞書を見（　　）書いてください。"
+        },
+        {
+          "textId": "topic.4.reading.question.2.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "なくて"
+          }
+        ],
+        [
+          {
+            "ja": "ないで"
+          }
+        ],
+        [
+          {
+            "ja": "なく"
+          }
+        ],
+        [
+          {
+            "ja": "ないと"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.4.reading.question.2.reason"
+    },
+    {
+      "id": "topic.4.reading.question.3",
+      "prompt": [
+        {
+          "ja": "朝ご飯を（　　）学校へ来ました。"
+        },
+        {
+          "textId": "topic.4.reading.question.3.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "食べるないで"
+          }
+        ],
+        [
+          {
+            "ja": "食べなで"
+          }
+        ],
+        [
+          {
+            "ja": "食べないで"
+          }
+        ],
+        [
+          {
+            "ja": "食べなくで"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.4.reading.question.3.reason"
+    },
+    {
+      "id": "topic.4.reading.question.4",
+      "prompt": [
+        {
+          "ja": "昨日は勉強せ（　　）試験を受けました。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ないで"
+          }
+        ],
+        [
+          {
+            "ja": "なくて"
+          }
+        ],
+        [
+          {
+            "ja": "なく"
+          }
+        ],
+        [
+          {
+            "ja": "ずに"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.4.reading.question.4.reason"
+    },
+    {
+      "id": "topic.4.reading.question.5",
+      "prompt": [
+        {
+          "ja": "彼女のことを忘れ（　　）としました。"
+        },
+        {
+          "textId": "topic.4.reading.question.5.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "よう"
+          }
+        ],
+        [
+          {
+            "ja": "たい"
+          }
+        ],
+        [
+          {
+            "ja": "て"
+          }
+        ],
+        [
+          {
+            "ja": "た"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.4.reading.question.5.reason"
+    },
+    {
+      "id": "topic.4.reading.question.6",
+      "prompt": [
+        {
+          "ja": "日本語で話（　　）としています。"
+        },
+        {
+          "textId": "topic.4.reading.question.6.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "す"
+          }
+        ],
+        [
+          {
+            "ja": "せる"
+          }
+        ],
+        [
+          {
+            "ja": "そう"
+          }
+        ],
+        [
+          {
+            "ja": "した"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.4.reading.question.6.reason"
+    },
+    {
+      "id": "topic.4.reading.question.7",
+      "prompt": [
+        {
+          "ja": "出かけ（　　）とした時、雨が降ってきました。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "たい"
+          }
+        ],
+        [
+          {
+            "ja": "よう"
+          }
+        ],
+        [
+          {
+            "ja": "て"
+          }
+        ],
+        [
+          {
+            "ja": "た"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.4.reading.question.7.reason"
+    },
+    {
+      "id": "topic.4.reading.question.8",
+      "prompt": [
+        {
+          "ja": "帽子を（　　）学校へ来ました。"
+        },
+        {
+          "textId": "topic.4.reading.question.8.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "かぶりずに"
+          }
+        ],
+        [
+          {
+            "ja": "かぶるずに"
+          }
+        ],
+        [
+          {
+            "ja": "かぶれずに"
+          }
+        ],
+        [
+          {
+            "ja": "かぶらずに"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.4.reading.question.8.reason"
+    },
+    {
+      "id": "topic.4.reading.question.9",
+      "prompt": [
+        {
+          "ja": "お金を（　　）としたら、先輩が「私が払うよ」と言いました。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "払おう"
+          }
+        ],
+        [
+          {
+            "ja": "払よう"
+          }
+        ],
+        [
+          {
+            "ja": "払うよう"
+          }
+        ],
+        [
+          {
+            "ja": "払ろう"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.4.reading.question.9.reason"
+    },
+    {
+      "id": "topic.4.reading.supplement.question.0",
+      "prompt": [
+        {
+          "ja": "この文章の作者は、眠れないことを心配する人について述べている。「すぐに眠らなければ」と焦ると、かえって眠りにくくなることがあるという。そのため、作者は眠りを急がず、落ち着いて待つことを勧めている。これは文章の内容を学ぶための説明であり、病気の診断や治療の指示ではない。\n\n【補充読解】作者の考えとして最も合うものはどれですか。"
+        }
+      ],
+      "instructionId": "reading.supplement.instruction",
+      "options": [
+        [
+          {
+            "ja": "必ずすぐに眠らなければならない。"
+          }
+        ],
+        [
+          {
+            "ja": "眠りを急がず、落ち着いて待つとよい。"
+          }
+        ],
+        [
+          {
+            "ja": "眠れない人は必ず病気である。"
+          }
+        ],
+        [
+          {
+            "ja": "この文章で病気を診断できる。"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.4.reading.supplement.question.0.explanation"
+    },
+    {
+      "id": "topic.4.reading.supplement.question.1",
+      "prompt": [
+        {
+          "ja": "この文章の作者は、眠れないことを心配する人について述べている。「すぐに眠らなければ」と焦ると、かえって眠りにくくなることがあるという。そのため、作者は眠りを急がず、落ち着いて待つことを勧めている。これは文章の内容を学ぶための説明であり、病気の診断や治療の指示ではない。\n\n【補充読解】焦ると、どうなることがあると書かれていますか。"
+        }
+      ],
+      "instructionId": "reading.supplement.instruction",
+      "options": [
+        [
+          {
+            "ja": "必ずすぐに眠れる。"
+          }
+        ],
+        [
+          {
+            "ja": "文章が読めなくなる。"
+          }
+        ],
+        [
+          {
+            "ja": "かえって眠りにくくなる。"
+          }
+        ],
+        [
+          {
+            "ja": "朝まで必ず眠れる。"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.4.reading.supplement.question.1.explanation"
+    },
+    {
+      "id": "topic.4.reading.supplement.question.2",
+      "prompt": [
+        {
+          "ja": "この文章の作者は、眠れないことを心配する人について述べている。「すぐに眠らなければ」と焦ると、かえって眠りにくくなることがあるという。そのため、作者は眠りを急がず、落ち着いて待つことを勧めている。これは文章の内容を学ぶための説明であり、病気の診断や治療の指示ではない。\n\n【補充読解】「そのため」は主に何を受けていますか。"
+        }
+      ],
+      "instructionId": "reading.supplement.instruction",
+      "options": [
+        [
+          {
+            "ja": "焦ると眠りにくくなることがある、という説明。"
+          }
+        ],
+        [
+          {
+            "ja": "作者が病気を診断したこと。"
+          }
+        ],
+        [
+          {
+            "ja": "全員がすぐに眠れること。"
+          }
+        ],
+        [
+          {
+            "ja": "文章に作者がいないこと。"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.4.reading.supplement.question.2.explanation"
+    },
+    {
+      "id": "topic.4.reading.supplement.question.3",
+      "prompt": [
+        {
+          "ja": "この文章の作者は、眠れないことを心配する人について述べている。「すぐに眠らなければ」と焦ると、かえって眠りにくくなることがあるという。そのため、作者は眠りを急がず、落ち着いて待つことを勧めている。これは文章の内容を学ぶための説明であり、病気の診断や治療の指示ではない。\n\n【補充読解】最後の文によると、この説明の目的は何ですか。"
+        }
+      ],
+      "instructionId": "reading.supplement.instruction",
+      "options": [
+        [
+          {
+            "ja": "薬の量を決めること。"
+          }
+        ],
+        [
+          {
+            "ja": "病気を診断すること。"
+          }
+        ],
+        [
+          {
+            "ja": "治療方法を指定すること。"
+          }
+        ],
+        [
+          {
+            "ja": "文章の内容を学ぶこと。"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.4.reading.supplement.question.3.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "topic.4.reading.word.0"
+    },
+    {
+      "wordId": "topic.4.reading.word.1"
+    },
+    {
+      "wordId": "topic.4.reading.word.2"
+    },
+    {
+      "wordId": "topic.4.reading.word.3"
+    },
+    {
+      "wordId": "topic.4.reading.word.4"
+    },
+    {
+      "wordId": "topic.4.reading.word.5"
+    },
+    {
+      "wordId": "topic.4.reading.word.6"
+    },
+    {
+      "wordId": "topic.4.reading.word.7"
+    },
+    {
+      "wordId": "topic.4.reading.word.8"
+    },
+    {
+      "wordId": "topic.4.reading.word.9"
+    },
+    {
+      "wordId": "topic.4.reading.word.10"
+    },
+    {
+      "wordId": "topic.4.reading.word.11"
+    },
+    {
+      "wordId": "topic.4.reading.word.12"
+    },
+    {
+      "wordId": "topic.4.reading.word.13"
+    },
+    {
+      "wordId": "topic.4.reading.word.14"
+    },
+    {
+      "wordId": "topic.4.reading.word.15"
+    },
+    {
+      "wordId": "topic.4.reading.word.16"
+    },
+    {
+      "wordId": "topic.4.reading.word.17"
+    },
+    {
+      "wordId": "topic.4.reading.word.18"
+    },
+    {
+      "wordId": "topic.4.reading.word.19"
+    },
+    {
+      "wordId": "topic.4.reading.word.20"
+    },
+    {
+      "wordId": "topic.4.reading.word.21"
+    },
+    {
+      "wordId": "topic.4.reading.word.22"
+    },
+    {
+      "wordId": "topic.4.reading.word.23"
+    },
+    {
+      "wordId": "topic.4.reading.word.24"
+    },
+    {
+      "wordId": "topic.4.reading.word.25"
+    },
+    {
+      "wordId": "topic.4.reading.word.26"
+    },
+    {
+      "wordId": "topic.4.reading.word.27"
+    },
+    {
+      "wordId": "topic.4.reading.word.28"
+    },
+    {
+      "wordId": "topic.4.reading.word.29"
+    },
+    {
+      "wordId": "topic.4.reading.word.30"
+    },
+    {
+      "wordId": "topic.4.reading.word.31"
+    },
+    {
+      "wordId": "topic.4.reading.word.32"
+    },
+    {
+      "wordId": "topic.4.reading.word.33"
+    },
+    {
+      "wordId": "topic.4.reading.word.34"
+    },
+    {
+      "wordId": "topic.4.reading.word.35"
+    },
+    {
+      "wordId": "topic.4.reading.word.36"
+    }
+  ]
+}

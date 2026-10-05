@@ -1,0 +1,371 @@
+{
+  "id": "topic-5-reading",
+  "bookId": "topic",
+  "titleJa": "読解：オランウータン",
+  "groupJa": "Topic 5",
+  "articles": [
+    {
+      "id": "topic.5.reading.word-note",
+      "titleJa": "語彙の使い方",
+      "paragraphIds": [
+        "topic.5.reading.wordNote"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.5.reading.summary",
+      "titleJa": "読解・内容のまとめ",
+      "paragraphIds": [
+        "topic.5.reading.summary.0",
+        "topic.5.reading.summary.1",
+        "topic.5.reading.summary.2",
+        "topic.5.reading.summary.3"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.5.reading.examples",
+      "titleJa": "例文の解説",
+      "paragraphIds": [],
+      "examples": [
+        {
+          "ja": "親のいないオランウータンの子どもたちに、木の登り方や食べ物の取り方などを教えて、森にもどす訓練をしています。",
+          "translationId": "topic.5.reading.example.0.zh",
+          "analysisId": "topic.5.reading.example.0.analysis"
+        },
+        {
+          "ja": "オランウータンは今ではマレーシアやインドネシアにしかいない大型類人猿で、絶滅が心配されている野生動物です。",
+          "translationId": "topic.5.reading.example.1.zh",
+          "analysisId": "topic.5.reading.example.1.analysis"
+        },
+        {
+          "ja": "その子どもは５歳ぐらいまで母親といっしょに暮らし、母親から森で生きていくための知恵を教えてもらうのです。",
+          "translationId": "topic.5.reading.example.2.zh",
+          "analysisId": "topic.5.reading.example.2.analysis"
+        },
+        {
+          "ja": "最近では熱帯雨林が切り開かれて畑になったり、たくさんの木が切りたおされたりして、オランウータンの住む環境は破壊されてきています。",
+          "translationId": "topic.5.reading.example.3.zh",
+          "analysisId": "topic.5.reading.example.3.analysis"
+        },
+        {
+          "ja": "このように森が荒らされると、母親のオランウータンは子どもを育てることをあきらめてしまいます。",
+          "translationId": "topic.5.reading.example.4.zh",
+          "analysisId": "topic.5.reading.example.4.analysis"
+        },
+        {
+          "ja": "子どものオランウータンをねらう密猟者に見つけられると、母親のオランウータンは殺され、子どもは外国へペットとして売られてしまうこともあります。",
+          "translationId": "topic.5.reading.example.5.zh",
+          "analysisId": "topic.5.reading.example.5.analysis"
+        },
+        {
+          "ja": "こうして親に捨てられたり、人間に育てられて野生の生活を忘れてしまったオランウータンを救うために、マレーシアの政府によって、熱帯雨林の中に特別保護区が作られ、リハビリ・センターが建てられたのです。",
+          "translationId": "topic.5.reading.example.6.zh",
+          "analysisId": "topic.5.reading.example.6.analysis"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "topic.5.reading.supplement",
+      "titleJa": "補充読解・練習（オリジナル）",
+      "paragraphIds": [
+        "reading.supplement.instruction"
+      ],
+      "examples": [
+        {
+          "ja": "マレーシアのセピロックには、オランウータンのリハビリテーションセンターがある。ここでは、母親と暮らせなくなった子どもたちが、木に登ることや食べ物を探すことを学ぶ。こうした訓練の目的は、森で生活する力を身につけることである。森林が失われると、オランウータンが暮らせる場所も少なくなるため、動物を助けるだけでなく、その環境を守ることも大切である。",
+          "translationId": "topic.5.reading.supplement.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "topic.5.reading.supplement.question.0",
+      "prompt": [
+        {
+          "ja": "マレーシアのセピロックには、オランウータンのリハビリテーションセンターがある。ここでは、母親と暮らせなくなった子どもたちが、木に登ることや食べ物を探すことを学ぶ。こうした訓練の目的は、森で生活する力を身につけることである。森林が失われると、オランウータンが暮らせる場所も少なくなるため、動物を助けるだけでなく、その環境を守ることも大切である。\n\n【補充読解】この文章の主な内容は何ですか。"
+        }
+      ],
+      "instructionId": "reading.supplement.instruction",
+      "options": [
+        [
+          {
+            "ja": "オランウータンをペットにする方法。"
+          }
+        ],
+        [
+          {
+            "ja": "オランウータンの訓練と環境保護の大切さ。"
+          }
+        ],
+        [
+          {
+            "ja": "外国へ動物を売る方法。"
+          }
+        ],
+        [
+          {
+            "ja": "動物園の入場料。"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.5.reading.supplement.question.0.explanation"
+    },
+    {
+      "id": "topic.5.reading.supplement.question.1",
+      "prompt": [
+        {
+          "ja": "マレーシアのセピロックには、オランウータンのリハビリテーションセンターがある。ここでは、母親と暮らせなくなった子どもたちが、木に登ることや食べ物を探すことを学ぶ。こうした訓練の目的は、森で生活する力を身につけることである。森林が失われると、オランウータンが暮らせる場所も少なくなるため、動物を助けるだけでなく、その環境を守ることも大切である。\n\n【補充読解】センターで子どもたちが学ぶことはどれですか。"
+        }
+      ],
+      "instructionId": "reading.supplement.instruction",
+      "options": [
+        [
+          {
+            "ja": "人間の言葉を話すこと。"
+          }
+        ],
+        [
+          {
+            "ja": "車を運転すること。"
+          }
+        ],
+        [
+          {
+            "ja": "木に登ったり、食べ物を探したりすること。"
+          }
+        ],
+        [
+          {
+            "ja": "外国で買い物をすること。"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.5.reading.supplement.question.1.explanation"
+    },
+    {
+      "id": "topic.5.reading.supplement.question.2",
+      "prompt": [
+        {
+          "ja": "マレーシアのセピロックには、オランウータンのリハビリテーションセンターがある。ここでは、母親と暮らせなくなった子どもたちが、木に登ることや食べ物を探すことを学ぶ。こうした訓練の目的は、森で生活する力を身につけることである。森林が失われると、オランウータンが暮らせる場所も少なくなるため、動物を助けるだけでなく、その環境を守ることも大切である。\n\n【補充読解】「その環境」は何を指していますか。"
+        }
+      ],
+      "instructionId": "reading.supplement.instruction",
+      "options": [
+        [
+          {
+            "ja": "センターの事務室だけ。"
+          }
+        ],
+        [
+          {
+            "ja": "外国のペットショップ。"
+          }
+        ],
+        [
+          {
+            "ja": "人間の学校。"
+          }
+        ],
+        [
+          {
+            "ja": "オランウータンが暮らす森林などの環境。"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.5.reading.supplement.question.2.explanation"
+    },
+    {
+      "id": "topic.5.reading.supplement.question.3",
+      "prompt": [
+        {
+          "ja": "マレーシアのセピロックには、オランウータンのリハビリテーションセンターがある。ここでは、母親と暮らせなくなった子どもたちが、木に登ることや食べ物を探すことを学ぶ。こうした訓練の目的は、森で生活する力を身につけることである。森林が失われると、オランウータンが暮らせる場所も少なくなるため、動物を助けるだけでなく、その環境を守ることも大切である。\n\n【補充読解】環境を守ることも大切なのはなぜですか。"
+        }
+      ],
+      "instructionId": "reading.supplement.instruction",
+      "options": [
+        [
+          {
+            "ja": "森林が失われると、暮らせる場所も少なくなるから。"
+          }
+        ],
+        [
+          {
+            "ja": "すべての動物が木に登るから。"
+          }
+        ],
+        [
+          {
+            "ja": "センターで買い物をするから。"
+          }
+        ],
+        [
+          {
+            "ja": "森林が増えすぎているから。"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.5.reading.supplement.question.3.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "topic.5.reading.word.0"
+    },
+    {
+      "wordId": "topic.5.reading.word.1"
+    },
+    {
+      "wordId": "topic.5.reading.word.2"
+    },
+    {
+      "wordId": "topic.5.reading.word.3"
+    },
+    {
+      "wordId": "topic.5.reading.word.4"
+    },
+    {
+      "wordId": "topic.5.reading.word.5"
+    },
+    {
+      "wordId": "topic.5.reading.word.6"
+    },
+    {
+      "wordId": "topic.5.reading.word.7"
+    },
+    {
+      "wordId": "topic.5.reading.word.8"
+    },
+    {
+      "wordId": "topic.5.reading.word.9"
+    },
+    {
+      "wordId": "topic.5.reading.word.10"
+    },
+    {
+      "wordId": "topic.5.reading.word.11"
+    },
+    {
+      "wordId": "topic.5.reading.word.12"
+    },
+    {
+      "wordId": "topic.5.reading.word.13"
+    },
+    {
+      "wordId": "topic.5.reading.word.14"
+    },
+    {
+      "wordId": "topic.5.reading.word.15"
+    },
+    {
+      "wordId": "topic.5.reading.word.16"
+    },
+    {
+      "wordId": "topic.5.reading.word.17"
+    },
+    {
+      "wordId": "topic.5.reading.word.18"
+    },
+    {
+      "wordId": "topic.5.reading.word.19"
+    },
+    {
+      "wordId": "topic.5.reading.word.20"
+    },
+    {
+      "wordId": "topic.5.reading.word.21"
+    },
+    {
+      "wordId": "topic.5.reading.word.22"
+    },
+    {
+      "wordId": "topic.5.reading.word.23"
+    },
+    {
+      "wordId": "topic.5.reading.word.24"
+    },
+    {
+      "wordId": "topic.5.reading.word.25"
+    },
+    {
+      "wordId": "topic.5.reading.word.26"
+    },
+    {
+      "wordId": "topic.5.reading.word.27"
+    },
+    {
+      "wordId": "topic.5.reading.word.28"
+    },
+    {
+      "wordId": "topic.5.reading.word.29"
+    },
+    {
+      "wordId": "topic.5.reading.word.30"
+    },
+    {
+      "wordId": "topic.5.reading.word.31"
+    },
+    {
+      "wordId": "topic.5.reading.word.32"
+    },
+    {
+      "wordId": "topic.5.reading.word.33"
+    },
+    {
+      "wordId": "topic.5.reading.word.34"
+    },
+    {
+      "wordId": "topic.5.reading.word.35"
+    },
+    {
+      "wordId": "topic.5.reading.word.36"
+    },
+    {
+      "wordId": "topic.5.reading.word.37"
+    },
+    {
+      "wordId": "topic.5.reading.word.38"
+    },
+    {
+      "wordId": "topic.5.reading.word.39"
+    },
+    {
+      "wordId": "topic.5.reading.word.40"
+    },
+    {
+      "wordId": "topic.5.reading.word.41"
+    },
+    {
+      "wordId": "topic.5.reading.word.42"
+    },
+    {
+      "wordId": "topic.5.reading.word.43"
+    },
+    {
+      "wordId": "topic.5.reading.word.44"
+    },
+    {
+      "wordId": "topic.5.reading.word.45"
+    },
+    {
+      "wordId": "topic.5.reading.word.46"
+    }
+  ]
+}
