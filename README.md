@@ -1,71 +1,145 @@
-# 赤門会日本語
+# 赤门会日语学习
 
-新規実装の日本語復習サイト。旧サイトはデータの参照元であり、このアプリは旧サイトのページ・実行コードに依存しません。
+一个用于日语课程复习的学习网站，提供词汇学习、文法与例句阅读、汉字读音练习和在线测验。支持中文、英文辅助说明，日语标题、词形、读音和原始题干保持原文。
 
-## Development
-Use Node.js 24 or 26 and pnpm 12.9.1. `package.json` declares the supported Node versions and pins pnpm; CI reads the same package-manager declaration.
+项目使用 React、TypeScript 和 Vite 构建，以静态网站形式发布。课程内容随项目一起维护和部署，学习进度保存在浏览器本地，无需注册账号。
 
-Type checking uses TypeScript 7. The check scripts use the official `@typescript/typescript6` compatibility package for compiler APIs that TypeScript 7 does not yet provide.
+## 主要功能
 
-- `pnpm install --frozen-lockfile`
-- `pnpm check`
-- `pnpm build`
-- `pnpm dev`
+- **课程复习**：按教材和课次浏览词汇、文法、例句与汉字内容。
+- **词汇学习**：搜索词汇，标记收藏和已掌握状态，并按标记筛选。
+- **在线测验**：提供词汇、文法、汉字读音及片假名练习，支持自动评分、错题重练和测验草稿恢复。
+- **学习记录**：查看最近访问和测验结果，继续此前的学习。
+- **日语朗读**：使用设备提供的日语语音朗读；也可连接本地 VOICEVOX 引擎，为对话角色选择声音。
+- **进度备份**：在设置中导出或导入学习记录，方便备份和手动迁移。
 
-`pnpm dev` generates the content in `public/content` before starting the development server. These generated files are ignored by Git, so a fresh checkout does not contain them. After editing source content in `data/content`, restart `pnpm dev` to regenerate it.
+## 学习内容
 
-## Architecture
-`presentation → module public/application → domain`
-Infrastructure implements application ports. `src/bootstrap` is the composition root; presentation receives explicit interfaces through `StudyServices`. Curriculum selection and learning-progress transitions live in the domain layer. HTTP adapters validate external JSON before exposing it to use cases.
+当前课程目录包含以下教材：
 
-- `src/modules/curriculum`: catalog, lesson lookup and route validation.
-- `src/modules/vocabulary`: word records and vocabulary search.
-- `src/modules/grammar`: article models and contents.
-- `src/modules/assessment`: grading, alternative answers, shuffling and vocabulary questions.
-- `src/modules/learning-progress`: marks, results, validation and import/export.
-- `src/modules/localization`: explicit text-ID lookup and locale preference.
-- `src/modules/speech`: speech port and browser implementation.
-- `src/modules/*/presentation`: business-owned pages, UI controllers and display configuration, exposed through each presentation/index.ts.
-- `src/presentation`: the app shell, React context, reusable UI components and existing global CSS. The screen files are compatibility re-exports.
-- `src/application/study-services.ts`: presentation-facing service contract.
-- `src/application/{dashboard,study-session,vocabulary-study}.ts`: explicit cross-context workflows; these contain no React hooks or browser APIs.
+| 教材 | 课次 / 单元数 |
+| --- | ---: |
+| 大家的日语（みんなの日本語） | 52 |
+| 每天 15 分钟汉字练习（1日15分の漢字練習） | 6 |
+| Topic 系列 | 14 |
+| 学习中级日语（中級を学ぼう） | 8 |
+| 中级汉字 700（中級漢字700） | 7 |
+| 日本语能力考试 N2 | 15 |
 
-Domain code imports no React, browser APIs or content files. Business cross-module access goes through public.ts; UI integration uses presentation/index.ts. Network, storage and file handling are restricted to infrastructure. The check script enforces boundaries and detects cycles including type-only edges. See [docs/architecture.md](docs/architecture.md) for boundaries, data ownership, flow examples and extension rules.
+合计 **102 个单元、4,420 个词汇条目位置、1,807 道固定题目**。词汇数量按各单元中的出现次数统计，并非去重后的词汇总数；词汇选择题另行生成。片假名测验包含 130 道题，已计入固定题目总数。另有独立的动词活用参考资料。
 
-## Content maintenance
-- `data/content/catalog.json`: Japanese textbook titles, ordered units, available views.
-- `data/content/units/*.json`: textbook grammar, Japanese examples, questions, word references.
-- `data/content/vocabulary.json`: canonical vocabulary records keyed by stable word IDs.
-- `data/content/word-aliases.json`: explicit mappings from equivalent historical word IDs to a shared progress ID. Placement IDs and text references remain stable; only learning marks share an identity. Do not generate these mappings from edited translations at runtime.
-- `data/content/localization/learning.json`: editable Chinese/English textbook text catalog. Teach formation rules in the introducing lesson; later lessons retain their own usage explanations without generic conjugation appendices. Do not reintroduce `curriculum.conjugation.*` or `verb-*` reference sections into textbook units.
-- `data/content/reference/verbs.json`: independent, self-contained verb conjugation reference, including all its own articles, examples and Chinese/English texts. It must not be generated from textbook units or resolve translations from the textbook catalog. Edit it separately only when the reference itself needs a change.
-- `data/content/localization/ui.json`: the sole editable Chinese/English UI text catalog.
+各课可用的学习模式由课程目录决定，尚未提供的 N2 词汇会显示为不可用。内容来源记录见 [data/content/provenance.json](data/content/provenance.json)。自动检查用于验证数据引用、评分规则和代码边界，语言内容本身仍需人工校对。
 
-To fix Chinese, edit only the existing ID's zh value. Never regenerate IDs from wording or position. Japanese titles, written forms, readings and original prompt segments are explicit fields; they never pass through translation. Mixed prompts distinguish Japanese source from ID-bound explanatory instructions.
+## 使用与数据保存
 
-The build compiles each unit and only its referenced translations to public/content. UI translations are also emitted as public/content/ui.json and fetched at startup. Code cannot import source JSON or authored business datasets. Small UI configuration belongs to presentation/data and may be imported by UI code. Generated public/content and dist are ignored by Git. The client fetches one unit at a time, rather than bundling the full textbook collection. Do not edit generated files. Source data and application code remain in one repository and are published together; this is not a standalone database.
+进入网站后，从课程目录选择教材和课次，再进入对应的学习或测验页面。词汇标记、学习记录和语言偏好保存在当前浏览器的网站存储中；未完成的测验会保存作答、题目顺序和当前页，刷新后可继续。题目来源变化时，旧测验草稿会失效。错题重练单独显示结果，不覆盖完整测验成绩。
 
-## Progress
-Progress and language preferences live in browser storage on this origin. Progress remains version 1, with optional per-field timestamps for word marks. Existing version 1 files remain readable. Imported results and visits retain the newer timestamp; timestamped word marks merge per field. When an old file has no mark timestamps, conflicts retain the current local mark and missing IDs are imported. Equivalent historical word IDs are migrated through the explicit alias map; untimestamped duplicates preserve either ID's positive marks during this migration.
+学习记录不会自动同步到其他设备或浏览器。清除网站数据、更换浏览器或访问不同域名后，需要通过导出的进度文件恢复；本网站也无法直接读取旧网站域名下的浏览器记录。建议在设置中定期导出备份。
 
-Progress commands acquire a same-origin Web Lock, read the latest stored progress, merge current in-memory changes and apply the command before saving. Other pages receive storage events. This requires a secure context with Web Locks support (HTTPS or localhost in supported browsers). Without Web Locks, changes remain in memory and the storage error notice asks users to export a backup; the app avoids an unprotected write that could discard another page's data.
+导入进度时，带时间戳的记录按较新的内容合并；旧版文件中没有时间戳的词汇标记发生冲突时，保留当前本地标记，并补入缺失记录。现有版本 1 的进度文件仍可读取。
 
-Damaged progress recovers independently valid records and retains the original raw value in a recovery backup before any overwrite. Settings offers an original-recovery export. If storing that backup fails, the original is not replaced. Unfinished tests save the question/option order, answers and page locally and restore them after a reload. A changed question source invalidates its draft; submission clears it. Wrong-only practice shows its own result without replacing the full-test score.
+为避免多个页面同时保存时相互覆盖，进度持久化使用同源 Web Locks，需要在支持该 API 的浏览器中通过 HTTPS 或 localhost 访问。无法使用 Web Locks 时，改动暂存在内存中，页面会提示导出备份。遇到损坏的进度数据时，程序会尽量恢复有效记录，并在覆盖前保留原始数据；设置中提供原始恢复数据的导出入口。
 
-This origin cannot read the old site's browser storage. No user account, cloud progress sync or business database is configured.
+日语朗读依赖设备或浏览器提供日语语音。使用 VOICEVOX 时，需先启动本地引擎，默认连接地址为 `http://127.0.0.1:50021`，再在语音设置中检测并选择声音。连接能否成功取决于引擎配置和浏览器的访问限制。
 
-## Content scope
-102 units, 4,420 vocabulary placements, 1,807 fixed questions. Vocabulary choice questions are generated separately. Kanji reading tests and the 130-question katakana test use the same assessment engine. Missing N2 vocabulary remains explicitly unavailable.
+## 本地运行
 
-See data/content/provenance.json for the source commit. Automated checks validate references, grading and boundaries; they do not certify the linguistic accuracy of every source passage.
+### 环境要求
 
-## Deployment
-GitHub Pages deployment is defined in `.github/workflows/deploy-pages.yml`. In the repository's Settings → Pages → Build and deployment, select **GitHub Actions** as the source once. Every push to `main` then installs dependencies, runs `pnpm build` (including content and architecture checks), uploads `dist`, and deploys it. The workflow can also be started manually from the Actions tab. A failed build does not proceed to deployment.
+- Node.js 24.x 或 26.x。
+- pnpm 12.9.1，版本由 `package.json` 的 `packageManager` 字段固定。
 
-Pull requests run the same install/check/build job and skip Pages artifact upload and deployment. To require a passing build before merging, enable the workflow's `build` status check in the repository's branch protection or ruleset settings; the workflow file alone does not enforce merge protection.
+在项目根目录执行：
 
-Website: https://lijinze0715-hub.github.io/akamonkai-nihongo-benkyou/
+```bash
+pnpm install --frozen-lockfile
+pnpm dev
+```
 
-Production builds use `/akamonkai-nihongo-benkyou/` as Vite's base path; content requests and navigation links are relative to the current site directory. Development still runs at `/`. To preview the production build locally, run `pnpm build` and `pnpm preview`, then open `/akamonkai-nihongo-benkyou/` on the preview server. If the repository name changes or a custom domain is added, update the production base path in `vite.config.ts`.
+默认开发地址为 [http://127.0.0.1:4173/](http://127.0.0.1:4173/)，实际地址以终端输出为准。开发命令会先将课程数据生成到 `public/content/`，再启动 Vite。
 
-Commit source files, the workflow and the lockfile. Generated `dist` and `public/content` stay ignored; GitHub Actions generates and publishes them.
+### 常用命令
+
+| 命令 | 用途 |
+| --- | --- |
+| `pnpm dev` | 生成内容并启动开发服务器 |
+| `pnpm check` | 检查内容、模块依赖边界及业务规则 |
+| `pnpm build` | 执行检查、生成内容、检查 TypeScript 类型并构建发布文件 |
+| `pnpm preview` | 本地预览已有的构建产物 |
+
+预览生产版本：
+
+```bash
+pnpm build
+pnpm preview
+```
+
+在预览服务器地址后加上 `/akamonkai-nihongo-benkyou/` 访问。生产版本使用这一目录作为基础路径，开发版本使用 `/`。
+
+## 项目结构
+
+```text
+ data/content/       课程、词汇、译文及独立参考资料的数据源
+ src/
+   bootstrap/        创建适配器并组装应用服务
+   application/      跨模块的学习流程与界面服务接口
+   modules/          课程、词汇、文法、测验、进度、本地化及语音模块
+   presentation/     应用外壳、共享组件、上下文与样式
+   shared/           共享类型与基础设施
+ scripts/            内容生成与自动检查脚本
+ docs/               架构说明
+ .github/workflows/  自动构建与 GitHub Pages 部署
+```
+
+业务模块按领域、应用、基础设施和表现层组织。领域层不依赖 React、浏览器 API 或课程文件；业务模块之间通过 `public.ts` 访问，界面集成通过 `presentation/index.ts` 暴露的入口完成。网络、存储与文件处理放在基础设施层，依赖边界和循环依赖由检查脚本验证。
+
+详细约定见 [架构说明](docs/architecture.md)。项目使用 TypeScript 7；部分检查脚本通过 `@typescript/typescript6` 兼容包调用编译器 API。
+
+## 内容维护
+
+可编辑的数据源位于 `data/content/`：
+
+| 文件或目录 | 内容 |
+| --- | --- |
+| `catalog.json` | 教材顺序、单元信息、学习模式和数量统计 |
+| `units/*.json` | 每课的文法、例句、题目与词汇引用 |
+| `vocabulary.json` | 按稳定词汇 ID 保存的词条 |
+| `word-aliases.json` | 历史词汇 ID 与共享学习标记 ID 的明确映射 |
+| `localization/learning.json` | 教材内容的中文、英文说明 |
+| `localization/ui.json` | 界面的中文、英文文案 |
+| `reference/verbs.json` | 独立的动词活用参考资料及其译文 |
+| `provenance.json` | 内容来源信息 |
+
+修改内容时保留已有 ID，避免破坏引用和学习记录。修正中文释义时，修改对应 ID 的 `zh` 值；不要根据文字或顺序重新生成 ID。日语原文使用明确字段保存，不经过翻译替换。词汇别名关系应维护在映射文件中，不要在运行时根据译文推断。
+
+教材中的活用规则放在首次引入该规则的课程中，后续课程保留自身的用法说明；不要将通用活用附录重新混入教材单元。独立动词参考资料单独维护，包含自己的文章、例句和译文，不从教材单元或教材译文目录生成。
+
+修改后执行：
+
+```bash
+pnpm check
+pnpm build
+```
+
+开发服务器运行期间，修改源数据后需要重新生成内容并刷新页面：
+
+```bash
+node scripts/build-content.mjs
+```
+
+也可以重启 `pnpm dev`。源数据不会直接热加载。构建会按单元生成内容及其引用的译文，浏览器按需加载各课数据；界面译文生成到 `public/content/ui.json`，在启动时加载。
+
+更多维护说明见 [数据目录说明](data/README.md)。`public/content/` 和 `dist/` 都是生成目录，已被 Git 忽略，请修改源文件。
+
+## 部署
+
+部署流程定义在 [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml)。首次启用时，在仓库的 **Settings → Pages → Build and deployment** 中将来源设置为 **GitHub Actions**。
+
+- 推送到 `main` 后，工作流安装依赖、执行 `pnpm build`，并将 `dist/` 发布到 GitHub Pages。
+- 拉取请求会执行相同的安装与构建检查，但不发布网站。
+- 可在 GitHub Actions 页面手动触发工作流。
+- 构建失败时不会进入部署；若要强制合并前通过检查，需要在分支保护或规则集中要求 `build` 检查通过。
+
+生产基础路径配置在 `vite.config.ts`。更改仓库名称或使用自定义域名时，需要同步调整该配置。
+
+提交和推送源码、源数据、配置、工作流及 `pnpm-lock.yaml` 即可；`dist/` 和 `public/content/` 由构建流程生成，无需提交。
