@@ -74,7 +74,7 @@ pnpm build
 pnpm preview
 ```
 
-在预览服务器地址后加上 `/akamonkai-nihongo-benkyou/` 访问。生产版本使用这一目录作为基础路径，开发版本使用 `/`。
+在预览服务器地址后加上 `/Akamonkai-learning/` 访问。生产版本使用这一目录作为基础路径，开发版本使用 `/`。
 
 ## 项目结构
 
