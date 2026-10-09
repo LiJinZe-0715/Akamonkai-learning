@@ -4,7 +4,7 @@ import { useUi, useStudy } from "../../../../presentation/context";
 import { Icon } from "../../../../presentation/components/Icon";
 import { lessonHref } from "../routes";
 import { viewText } from "../data/views";
-import { libraryDisplay } from "../data/library";
+import { beginnerBookIds, libraryDisplay, libraryLevels } from "../data/library";
 import { useDashboard } from "../hooks/use-dashboard";
 function BookCard({ book, number, expanded, searching }: { book: Book; number: number; expanded: boolean; searching: boolean }) {
   const t = useUi();
@@ -59,7 +59,13 @@ export function IndexScreen({ catalog }: { catalog: Catalog }) {
         <button aria-pressed={bookId === "all"} onClick={() => setBook("all")}>{t("ui.allBooks")}</button>
         {catalog.books.map(book => <button key={book.id} aria-pressed={bookId === book.id} onClick={() => setBook(book.id)} lang="ja" translate="no">{book.titleJa}</button>)}
       </nav>
-      <div className="textbook-list">{visible.map(book => <BookCard key={book.id + ":" + bookId + ":" + search} book={book} number={catalog.books.findIndex(b => b.id === book.id) + 1} expanded={bookId !== "all" || !!search} searching={!!search} />)}</div>
+      {libraryLevels.map(level => {
+        const books = visible.filter(book => beginnerBookIds.includes(book.id) === (level.id === "beginner"));
+        return books.length > 0 && <section key={level.id} className="library-level" aria-labelledby={"level-" + level.id}>
+          <h3 id={"level-" + level.id}>{t(level.titleId)}</h3>
+          <div className="textbook-list">{books.map(book => <BookCard key={book.id + ":" + bookId + ":" + search} book={book} number={catalog.books.findIndex(b => b.id === book.id) + 1} expanded={bookId !== "all" || !!search} searching={!!search} />)}</div>
+        </section>;
+      })}
       {!visible.length && <p className="empty-state" role="status">{t("ui.empty")}</p>}
     </section>
     <section className="record-section" id="study-records" aria-labelledby="records-title">

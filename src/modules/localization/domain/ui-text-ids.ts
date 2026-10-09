@@ -28,6 +28,8 @@ export const requiredUiTextIds = [
   "ui.katakanaTest",
   "ui.learningSnapshot",
   "ui.library",
+  "ui.levelBeginner",
+  "ui.levelIntermediate",
   "ui.loading",
   "ui.localOnly",
   "ui.mainNavigation",

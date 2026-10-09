@@ -318,6 +318,17 @@ function render(component,props,locale){const services=createServices(ui);servic
 const {SpeechControls}=load('src/presentation/components/SpeechControls.tsx');
 assert(render(SpeechControls,{},'zh').includes('设备声音'), 'Speech settings must render without browser globals');
 const zhIndex=render(IndexScreen,{catalog},'zh'),enIndex=render(IndexScreen,{catalog},'en');
+for (const [locale, html] of [['zh', zhIndex], ['en', enIndex]]) {
+  const groups = [...html.matchAll(/<section class="library-level" aria-labelledby="level-([^"]+)">([\s\S]*?)<\/section>/g)];
+  assert.deepEqual(groups.map(match => match[1]), ['beginner', 'intermediate']);
+  assert(groups[0][2].includes(ui['ui.levelBeginner'][locale]));
+  assert(groups[1][2].includes(ui['ui.levelIntermediate'][locale]));
+  for (const book of catalog.books) {
+    const groupIndex = ['minna', 'kanji-daily', 'topic'].includes(book.id) ? 0 : 1;
+    assert(groups[groupIndex][2].includes(book.titleJa), 'Book in wrong level: ' + book.id);
+    assert(!groups[1 - groupIndex][2].includes(book.titleJa), 'Book duplicated across levels: ' + book.id);
+  }
+}
 const links=html=>[...html.matchAll(/href="(\?unit=[^"]+)"/g)].map(m=>m[1].replaceAll('&amp;','&'));
 assert.deepEqual(links(zhIndex),links(enIndex));
 const expected=catalog.books.flatMap(b=>b.units.flatMap(u=>u.views.map(v=>'?unit='+u.id+'&view='+v)));
