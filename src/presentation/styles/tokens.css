@@ -1,4 +1,5 @@
 :root {
+  color-scheme: light;
   --paper: #f5f7fb;
   --surface: #ffffff;
   --ink: #192a49;
@@ -9,10 +10,41 @@
   --soft: #edf2ff;
   --green: #426757;
   --green-soft: #eaf1e9;
+  --solid: #192a49;
+  --button-bg: #3664df;
+  --button-hover: #244cbb;
+  --selection: #dbe6ff;
+  --tabs: #e9eef7;
+  --spine: #edf2fc;
+  --spine-line: #b7c9eb;
+  --spine-ink: #3b5c96;
+  --example-line: #a9bdeb;
   --radius: 20px;
   --width: 1240px;
   --font-sans:
     "Noto Sans JP", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Microsoft YaHei",
     system-ui, sans-serif;
   --font-serif: "Yu Mincho", "Hiragino Mincho ProN", "Noto Serif CJK JP", serif;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #101827;
+  --surface: #192438;
+  --ink: #e5ecf7;
+  --muted: #a6b5cd;
+  --line: #334259;
+  --accent: #9bb9ff;
+  --accent-dark: #b7cdff;
+  --soft: #263a60;
+  --green: #acd9bc;
+  --green-soft: #233d33;
+  --solid: #3456a0;
+  --button-bg: #3456a0;
+  --button-hover: #4167b9;
+  --selection: #36527f;
+  --tabs: #111c2e;
+  --spine: #263a56;
+  --spine-line: #4c6996;
+  --spine-ink: #bfd2f4;
+  --example-line: #5573a5;
 }

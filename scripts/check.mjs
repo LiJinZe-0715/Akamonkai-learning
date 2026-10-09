@@ -318,6 +318,13 @@ function render(component,props,locale){const services=createServices(ui);servic
 const {SpeechControls}=load('src/presentation/components/SpeechControls.tsx');
 assert(render(SpeechControls,{},'zh').includes('设备声音'), 'Speech settings must render without browser globals');
 const zhIndex=render(IndexScreen,{catalog},'zh'),enIndex=render(IndexScreen,{catalog},'en');
+const { Shell } = load('src/presentation/shell/Shell.tsx');
+for (const locale of ['zh', 'en']) {
+  const shell = render(Shell, { children: null }, locale);
+  for (const id of ['ui.switchToDark', 'ui.appearance', 'ui.dayMode', 'ui.nightMode']) {
+    assert(shell.includes(ui[id][locale]), 'Missing appearance control: ' + id);
+  }
+}
 for (const [locale, html] of [['zh', zhIndex], ['en', enIndex]]) {
   const groups = [...html.matchAll(/<section class="library-level" aria-labelledby="level-([^"]+)">([\s\S]*?)<\/section>/g)];
   assert.deepEqual(groups.map(match => match[1]), ['beginner', 'intermediate']);
@@ -333,6 +340,35 @@ const links=html=>[...html.matchAll(/href="(\?unit=[^"]+)"/g)].map(m=>m[1].repla
 assert.deepEqual(links(zhIndex),links(enIndex));
 const expected=catalog.books.flatMap(b=>b.units.flatMap(u=>u.views.map(v=>'?unit='+u.id+'&view='+v)));
 assert.deepEqual([...links(zhIndex)].sort(),expected.sort(),'Missing or duplicate index route');
+const { LessonScreen } = load('src/presentation/screens/LessonScreen.tsx');
+const { bookHref, lessonHref } = load('src/modules/curriculum/presentation/routes.ts');
+for (const book of catalog.books) for (const unit of book.units) for (const view of unit.views) {
+  const html = render(LessonScreen, { book, unit, view }, 'zh');
+  assert(html.includes('href="' + bookHref(book.id, unit.id).replaceAll('&', '&amp;') + '"'), 'Missing contextual return: ' + unit.id);
+  assert(html.includes('href="./#catalog"'), 'Missing direct library return');
+  const picker = html.match(/<select[^>]*>([\s\S]*?)<\/select>/)?.[1];
+  assert(picker);
+  for (const target of book.units) {
+    const targetView = target.views.includes(view) ? view : target.views[0];
+    assert(picker.includes('value="' + lessonHref(target.id, targetView).replaceAll('&', '&amp;') + '"'), 'Invalid lesson picker destination: ' + target.id);
+  }
+  assert(picker.includes(' selected=""'), 'Picker must indicate the current lesson');
+}
+const windowBeforeReturnCheck = Object.getOwnPropertyDescriptor(globalThis, 'window');
+try {
+  // Returning to a later lesson must reveal it, rather than leaving it behind Show more.
+  globalThis.window = { location: { search: '?book=minna&focus=minna-42' } };
+  const returned = render(IndexScreen, { catalog }, 'zh');
+  assert(returned.includes('<details class="textbook" open=""'));
+  const focusedEntry = returned.match(/<article[^>]*id="unit-minna-42"[^>]*>/)?.[0];
+  assert(focusedEntry && !focusedEntry.includes('hidden'), 'Return target must be visible');
+  assert(!returned.includes('id="unit-topic-1-part"'), 'Book return must retain its filter');
+  globalThis.window = { location: { search: '?book=missing&focus=missing' } };
+  assert.equal(links(render(IndexScreen, { catalog }, 'zh')).length, expected.length, 'Invalid return parameters must fall back to all books');
+} finally {
+  if (windowBeforeReturnCheck) Object.defineProperty(globalThis, 'window', windowBeforeReturnCheck);
+  else delete globalThis.window;
+}
 let renderedViews=0;
 for(const unit of compileUnits()){
  const descriptor=catalog.books.flatMap(b=>b.units).find(d=>d.id===unit.id);
@@ -349,6 +385,7 @@ console.log(JSON.stringify({indexRoutes:links(zhIndex).length,renderedViews,both
 const { checkDdd } = await import('./check-ddd.mjs');
 await checkDdd({ load, catalog, units: compileUnits(), ui });
 await import('./check-content-review.mjs');
+await import('./check-theme.mjs');
 const { checkSpeech } = await import('./check-speech.mjs');
 await checkSpeech({ load });
 const { checkStudyWorkflows } = await import('./check-study-workflows.mjs');

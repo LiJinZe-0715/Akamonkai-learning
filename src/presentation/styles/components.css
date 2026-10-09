@@ -4,13 +4,13 @@
   flex-wrap: wrap;
 }
 .primary-button {
-  background: var(--accent);
+  background: var(--button-bg);
   color: white;
-  border-color: var(--accent);
+  border-color: var(--button-bg);
   padding: 12px 24px;
 }
 .primary-button:hover:not(:disabled) {
-  background: var(--accent-dark);
+  background: var(--button-hover);
   color: white;
 }
 .icon-button {

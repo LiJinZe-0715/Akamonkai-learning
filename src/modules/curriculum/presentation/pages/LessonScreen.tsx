@@ -7,7 +7,7 @@ import { useStudy, useUi } from "../../../../presentation/context";
 import { VocabularyScreen } from "../../../vocabulary/presentation/index";
 import { GrammarScreen } from "../../../grammar/presentation/index";
 import { AssessmentScreen } from "../../../assessment/presentation/index";
-import { lessonHref } from "../routes";
+import { bookHref, lessonHref } from "../routes";
 import { viewTitles } from "../data/views";
 import { useLesson } from "../hooks/use-lesson";
 export function LessonScreen({
@@ -22,23 +22,28 @@ export function LessonScreen({
   const t = useUi();
   const { services } = useStudy();
   const { lesson, error, retry } = useLesson(unit, view);
+  const adjacent = services.curriculum.adjacent(book, unit.id, view);
+  const previous = adjacent.find(item => item.direction === "previous");
+  const next = adjacent.find(item => item.direction === "next");
+  const groups = [...new Set(book.units.map(item => item.groupJa))];
   return (
     <>
-      <nav
-        className="breadcrumbs"
-        aria-label="現在の位置"
-        lang="ja"
-        translate="no"
-      >
-        <a href="./">教材索引</a>
-        <span>/</span>
-        <span>{book.titleJa}</span>
-        <span>/</span>
-        <span>{unit.groupJa}</span>
-      </nav>
+      <div className="lesson-controls">
+        <nav className="lesson-return" aria-label={t("ui.lessonNavigation")}>
+          <a className="return-to-book" href={bookHref(book.id, unit.id)}>← {t("ui.backToBook")}</a>
+          <a href="./#catalog">{t("ui.allBooks")}</a>
+        </nav>
+        <nav className="lesson-switcher" aria-label={t("ui.switchLesson")}>
+          {previous ? <a href={lessonHref(previous.unit.id, previous.view)} aria-label={t("ui.previousLesson") + ": " + previous.unit.titleJa}>← {t("ui.previousLesson")}</a> : <span aria-disabled="true">← {t("ui.previousLesson")}</span>}
+          <select aria-label={t("ui.switchLesson")} value={lessonHref(unit.id, view)} lang="ja" translate="no" onChange={event => window.location.assign(event.currentTarget.value)}>
+            {groups.map(group => <optgroup key={group} label={group}>{book.units.filter(item => item.groupJa === group).map(item => <option key={item.id} value={lessonHref(item.id, item.views.includes(view) ? view : item.views[0])}>{item.titleJa}</option>)}</optgroup>)}
+          </select>
+          {next ? <a href={lessonHref(next.unit.id, next.view)} aria-label={t("ui.nextLesson") + ": " + next.unit.titleJa}>{t("ui.nextLesson")} →</a> : <span aria-disabled="true">{t("ui.nextLesson")} →</span>}
+        </nav>
+      </div>
       <header className="lesson-heading">
         <div className="eyebrow" lang="ja" translate="no">
-          {book.titleJa}
+          <a href={bookHref(book.id, unit.id)}>{book.titleJa}</a><span aria-hidden="true"> · </span>{unit.groupJa}
         </div>
         <h1 lang="ja" translate="no">
           {unit.titleJa}
@@ -89,8 +94,8 @@ export function LessonScreen({
       ) : (
         <AssessmentScreen lesson={lesson} view={view} />
       )}
-      <nav className="lesson-navigation" aria-label="課次">
-        {services.curriculum.adjacent(book, unit.id, view).map(({ unit: u, view: nextView, direction }) => (
+      <nav className="lesson-navigation" aria-label={t("ui.lessonNavigation")}>
+        {adjacent.map(({ unit: u, view: nextView, direction }) => (
               <a
                 key={u.id}
                 lang="ja"

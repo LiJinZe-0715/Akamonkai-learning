@@ -14,6 +14,7 @@ import { SpeechService } from "../modules/speech/application/speech-service";
 import { BrowserSpeech } from "../modules/speech/infrastructure/browser-speech";
 import type { StudyServices } from "../application/study-services";
 import { SystemClock } from "../shared/infrastructure/system-clock";
+import { BrowserThemePreference } from "../shared/infrastructure/browser-theme-preference";
 import { DashboardService } from "../application/dashboard";
 import { StudySessionService } from "../application/study-session";
 import { VocabularyStudyService } from "../application/vocabulary-study";
@@ -27,6 +28,7 @@ export function createServices(ui: TranslationCatalog, aliases: Readonly<Record<
   const progress = new ProgressService(new BrowserProgressRepository(), new SystemClock(), aliases);
   const localization = new LocalizationService(new BrowserLanguagePreference(), ui);
   return {
+    appearance: new BrowserThemePreference(),
     curriculum,
     vocabulary,
     grammar: new GrammarService(),

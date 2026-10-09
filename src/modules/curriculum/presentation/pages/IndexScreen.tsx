@@ -6,10 +6,10 @@ import { lessonHref } from "../routes";
 import { viewText } from "../data/views";
 import { beginnerBookIds, libraryDisplay, libraryLevels } from "../data/library";
 import { useDashboard } from "../hooks/use-dashboard";
-function BookCard({ book, number, expanded, searching }: { book: Book; number: number; expanded: boolean; searching: boolean }) {
+function BookCard({ book, number, expanded, searching, focusUnitId }: { book: Book; number: number; expanded: boolean; searching: boolean; focusUnitId: string | null }) {
   const t = useUi();
   const { progress } = useStudy();
-  const [limit, setLimit] = useState<number>(libraryDisplay.initialUnits);
+  const [limit, setLimit] = useState<number>(() => Math.max(libraryDisplay.initialUnits, book.units.findIndex(unit => unit.id === focusUnitId) + 1));
   return <details className="textbook" open={expanded || undefined}>
     <summary className="textbook-cover">
       <span className="book-spine" aria-hidden="true">{String(number).padStart(2, "0")}</span>
@@ -17,7 +17,7 @@ function BookCard({ book, number, expanded, searching }: { book: Book; number: n
       <Icon name="chevron" />
     </summary>
     <div className="unit-list">
-      {book.units.map((unit, i) => <article className="unit-entry" key={unit.id} hidden={!searching && i >= limit}>
+      {book.units.map((unit, i) => <article className="unit-entry" id={"unit-" + unit.id} key={unit.id} hidden={!searching && i >= limit}>
         <div className="unit-title"><div><small lang="ja" translate="no">{unit.groupJa}</small><h3 lang="ja" translate="no">{unit.titleJa}</h3></div><span className="unit-meta">{unit.wordCount > 0 ? t("ui.wordCount", { count: unit.wordCount }) : t("ui.practice")}</span></div>
         <div className="unit-actions">
           {unit.views.map(view => <a key={view} href={lessonHref(unit.id, view)} className={view === "words" ? "unit-primary" : undefined}>
@@ -33,6 +33,7 @@ export function IndexScreen({ catalog }: { catalog: Catalog }) {
   const t = useUi();
   const { active, resuming: previous, summary: { mastered, saved, tests }, total, recent, visible, bookId, setBook, query, setQuery, search } = useDashboard(catalog);
   const activeView = active?.view;
+  const focusUnitId = typeof window === "undefined" ? null : new URLSearchParams(window.location.search).get("focus");
   return <>
     <section className="dashboard-welcome" id="today">
       <div className="eyebrow" lang="ja" translate="no">{libraryDisplay.eyebrow}</div>
@@ -63,7 +64,7 @@ export function IndexScreen({ catalog }: { catalog: Catalog }) {
         const books = visible.filter(book => beginnerBookIds.includes(book.id) === (level.id === "beginner"));
         return books.length > 0 && <section key={level.id} className="library-level" aria-labelledby={"level-" + level.id}>
           <h3 id={"level-" + level.id}>{t(level.titleId)}</h3>
-          <div className="textbook-list">{books.map(book => <BookCard key={book.id + ":" + bookId + ":" + search} book={book} number={catalog.books.findIndex(b => b.id === book.id) + 1} expanded={bookId !== "all" || !!search} searching={!!search} />)}</div>
+          <div className="textbook-list">{books.map(book => <BookCard key={book.id + ":" + bookId + ":" + search} book={book} number={catalog.books.findIndex(b => b.id === book.id) + 1} expanded={bookId !== "all" || !!search} searching={!!search} focusUnitId={focusUnitId} />)}</div>
         </section>;
       })}
       {!visible.length && <p className="empty-state" role="status">{t("ui.empty")}</p>}

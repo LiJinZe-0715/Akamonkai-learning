@@ -101,7 +101,7 @@ fieldset {
   min-width: 0;
 }
 ::selection {
-  background: #dbe6ff;
+  background: var(--selection);
 }
 .muted {
   color: var(--muted);

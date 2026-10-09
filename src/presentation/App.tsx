@@ -33,7 +33,8 @@ export function App() {
   useEffect(() => {
     if (!catalog || new URLSearchParams(window.location.search).has("unit")) return;
     const target = window.location.hash.slice(1);
-    if (!destinations.some(item => item.id === target)) return;
+    const isLessonEntry = catalog.books.some(book => book.units.some(unit => target === "unit-" + unit.id));
+    if (!destinations.some(item => item.id === target) && !isLessonEntry) return;
     // The catalog arrives after navigation, so the browser's initial anchor scroll
     // may run before the target section exists.
     const frame = requestAnimationFrame(() => {

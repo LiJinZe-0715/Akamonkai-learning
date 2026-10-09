@@ -10,7 +10,9 @@ import type { DashboardUseCases } from "./dashboard";
 import type { StudySessionUseCases } from "./study-session";
 import type { VocabularyStudyUseCases } from "./vocabulary-study";
 /** Stable application boundary. Presentation depends on interfaces, not concrete services. */
+export type Theme = "light" | "dark";
 export interface StudyServices {
+  appearance: { current(): Theme; select(theme: Theme): void };
   curriculum: CurriculumQueries & CurriculumDiscovery;
   vocabulary: VocabularyUseCases;
   grammar: GrammarUseCases;
