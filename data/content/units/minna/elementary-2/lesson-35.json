@@ -1,0 +1,569 @@
+{
+  "id": "minna-35",
+  "bookId": "minna",
+  "titleJa": "第35課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.35.grammar.1",
+      "titleJa": "Vば",
+      "paragraphIds": [
+        "minna.lesson.35.grammar.1.meaning",
+        "minna.lesson.35.grammar.1.note"
+      ],
+      "examples": [
+        {
+          "ja": "ボタンを押せば、切符が出ます。",
+          "translationId": "minna.lesson.35.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.35.grammar.2",
+      "titleJa": "い形容詞（いを取る）＋ければ",
+      "paragraphIds": [
+        "minna.lesson.35.grammar.2.meaning",
+        "minna.lesson.35.grammar.2.note"
+      ],
+      "examples": [
+        {
+          "ja": "安ければ、買います。",
+          "translationId": "minna.lesson.35.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.35.grammar.3",
+      "titleJa": "な形容詞／N＋なら",
+      "paragraphIds": [
+        "minna.lesson.35.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "京都なら、秋がいいです。",
+          "translationId": "minna.lesson.35.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.35.grammar.4",
+      "titleJa": "Vなければ／Aくなければ",
+      "paragraphIds": [
+        "minna.lesson.35.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "時間がなければ、行きません。",
+          "translationId": "minna.lesson.35.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.35.grammar.5",
+      "titleJa": "どうすればいいですか",
+      "paragraphIds": [
+        "minna.lesson.35.grammar.5.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "日本語が上手になるには、どうすればいいですか。",
+          "translationId": "minna.lesson.35.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.35-1",
+      "prompt": [
+        {
+          "ja": "押す → ば形"
+        }
+      ],
+      "instructionId": "minna.question.35-1.translation",
+      "options": [
+        [
+          {
+            "ja": "押すれば"
+          }
+        ],
+        [
+          {
+            "ja": "押さば"
+          }
+        ],
+        [
+          {
+            "ja": "押しば"
+          }
+        ],
+        [
+          {
+            "ja": "押せば"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.35-1.explanation"
+    },
+    {
+      "id": "minna.question.35-2",
+      "prompt": [
+        {
+          "ja": "安い → 肯定条件形"
+        }
+      ],
+      "instructionId": "minna.question.35-2.translation",
+      "options": [
+        [
+          {
+            "ja": "安ければ"
+          }
+        ],
+        [
+          {
+            "ja": "安いれば"
+          }
+        ],
+        [
+          {
+            "ja": "安くれば"
+          }
+        ],
+        [
+          {
+            "ja": "安かったれば"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.35-2.explanation"
+    },
+    {
+      "id": "minna.question.35-3",
+      "prompt": [
+        {
+          "ja": "A：京都へ行きたいです。 B：京都（　）、秋がおすすめです。"
+        }
+      ],
+      "instructionId": "minna.question.35-3.translation",
+      "options": [
+        [
+          {
+            "ja": "だった"
+          }
+        ],
+        [
+          {
+            "ja": "なら"
+          }
+        ],
+        [
+          {
+            "ja": "だら"
+          }
+        ],
+        [
+          {
+            "ja": "なれば"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.35-3.explanation"
+    },
+    {
+      "id": "minna.question.35-4",
+      "prompt": [
+        {
+          "ja": "時間が（　）、今回は行きません。"
+        }
+      ],
+      "instructionId": "minna.question.35-4.translation",
+      "options": [
+        [
+          {
+            "ja": "ないれば"
+          }
+        ],
+        [
+          {
+            "ja": "なくれば"
+          }
+        ],
+        [
+          {
+            "ja": "なければ"
+          }
+        ],
+        [
+          {
+            "ja": "なかったれば"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.35-4.explanation"
+    },
+    {
+      "id": "minna.question.35-5",
+      "prompt": [
+        {
+          "ja": "パスワードを忘れました。どう（　）いいですか。"
+        }
+      ],
+      "instructionId": "minna.question.35-5.translation",
+      "options": [
+        [
+          {
+            "ja": "するば"
+          }
+        ],
+        [
+          {
+            "ja": "しれば"
+          }
+        ],
+        [
+          {
+            "ja": "すればの"
+          }
+        ],
+        [
+          {
+            "ja": "すれば"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.35-5.explanation"
+    },
+    {
+      "id": "minna.question.35-6",
+      "prompt": [
+        {
+          "ja": "食べる → ば形"
+        }
+      ],
+      "instructionId": "minna.question.35-6.translation",
+      "options": [
+        [
+          {
+            "ja": "食べれば"
+          }
+        ],
+        [
+          {
+            "ja": "食べば"
+          }
+        ],
+        [
+          {
+            "ja": "食べれれば"
+          }
+        ],
+        [
+          {
+            "ja": "食べらば"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.35-6.explanation"
+    },
+    {
+      "id": "minna.question.35-7",
+      "prompt": [
+        {
+          "ja": "来る → "
+        },
+        {
+          "textId": "minna.question.35-7.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.35-7.translation",
+      "options": [
+        [
+          {
+            "ja": "これば"
+          }
+        ],
+        [
+          {
+            "ja": "くれば"
+          }
+        ],
+        [
+          {
+            "ja": "きれば"
+          }
+        ],
+        [
+          {
+            "ja": "くらば"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.35-7.explanation"
+    },
+    {
+      "id": "minna.question.35-8",
+      "prompt": [
+        {
+          "ja": "いい → ば形"
+        }
+      ],
+      "instructionId": "minna.question.35-8.translation",
+      "options": [
+        [
+          {
+            "ja": "いければ"
+          }
+        ],
+        [
+          {
+            "ja": "よいれば"
+          }
+        ],
+        [
+          {
+            "ja": "よければ"
+          }
+        ],
+        [
+          {
+            "ja": "いいれば"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.35-8.explanation"
+    },
+    {
+      "id": "minna.question.35-9",
+      "prompt": [
+        {
+          "ja": "高くない → ば形"
+        }
+      ],
+      "instructionId": "minna.question.35-9.translation",
+      "options": [
+        [
+          {
+            "ja": "高くないれば"
+          }
+        ],
+        [
+          {
+            "ja": "高なければ"
+          }
+        ],
+        [
+          {
+            "ja": "高くなくれば"
+          }
+        ],
+        [
+          {
+            "ja": "高くなければ"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.35-9.explanation"
+    },
+    {
+      "id": "minna.question.35-10",
+      "prompt": [
+        {
+          "textId": "minna.question.35-10.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.35-10.translation",
+      "options": [
+        [
+          {
+            "ja": "家に帰ったら、電話してください。"
+          }
+        ],
+        [
+          {
+            "ja": "家に帰れば、電話してください。"
+          }
+        ],
+        [
+          {
+            "ja": "家に帰ると、電話してください。"
+          }
+        ],
+        [
+          {
+            "ja": "家に帰るば、電話してください。"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.35-10.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1475"
+    },
+    {
+      "wordId": "word.1476"
+    },
+    {
+      "wordId": "word.1477"
+    },
+    {
+      "wordId": "word.1478"
+    },
+    {
+      "wordId": "word.1479"
+    },
+    {
+      "wordId": "word.1480"
+    },
+    {
+      "wordId": "word.1481"
+    },
+    {
+      "wordId": "word.1482"
+    },
+    {
+      "wordId": "word.1483"
+    },
+    {
+      "wordId": "word.1484"
+    },
+    {
+      "wordId": "word.1485"
+    },
+    {
+      "wordId": "word.1486"
+    },
+    {
+      "wordId": "word.1487"
+    },
+    {
+      "wordId": "word.1488"
+    },
+    {
+      "wordId": "word.1489"
+    },
+    {
+      "wordId": "word.1490"
+    },
+    {
+      "wordId": "word.1491"
+    },
+    {
+      "wordId": "word.1492"
+    },
+    {
+      "wordId": "word.1493"
+    },
+    {
+      "wordId": "word.1494"
+    },
+    {
+      "wordId": "word.1495"
+    },
+    {
+      "wordId": "word.1496"
+    },
+    {
+      "wordId": "word.1497"
+    },
+    {
+      "wordId": "word.1498"
+    },
+    {
+      "wordId": "word.1499"
+    },
+    {
+      "wordId": "word.1500"
+    },
+    {
+      "wordId": "word.1501"
+    },
+    {
+      "wordId": "word.1502"
+    },
+    {
+      "wordId": "word.1503"
+    },
+    {
+      "wordId": "word.1504"
+    },
+    {
+      "wordId": "word.1505"
+    },
+    {
+      "wordId": "word.1506"
+    },
+    {
+      "wordId": "word.1507"
+    },
+    {
+      "wordId": "word.1508"
+    },
+    {
+      "wordId": "word.1509"
+    },
+    {
+      "wordId": "word.1510"
+    },
+    {
+      "wordId": "word.1511"
+    },
+    {
+      "wordId": "word.1512"
+    },
+    {
+      "wordId": "word.1513"
+    },
+    {
+      "wordId": "word.1514"
+    },
+    {
+      "wordId": "word.1515"
+    },
+    {
+      "wordId": "word.1516"
+    },
+    {
+      "wordId": "word.1517"
+    },
+    {
+      "wordId": "word.1518"
+    }
+  ]
+}

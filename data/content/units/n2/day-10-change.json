@@ -1,0 +1,499 @@
+{
+  "id": "day10-change",
+  "bookId": "n2",
+  "titleJa": "変化",
+  "groupJa": "文法",
+  "articles": [
+    {
+      "id": "n2.day10-change.grammar.0",
+      "titleJa": "～につれて",
+      "paragraphIds": [
+        "n2.day10-change.grammar.0.anchor",
+        "n2.day10-change.grammar.0.logic",
+        "n2.day10-change.grammar.0.connection",
+        "n2.day10-change.grammar.0.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "日本語が上達するにつれて、日本人と話すのが楽しくなった。",
+          "translationId": "n2.day10-change.grammar.0.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day10-change.grammar.1",
+      "titleJa": "～にしたがって",
+      "paragraphIds": [
+        "n2.day10-change.grammar.1.anchor",
+        "n2.day10-change.grammar.1.logic",
+        "n2.day10-change.grammar.1.connection",
+        "n2.day10-change.grammar.1.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "年齢を重ねるにしたがって、健康への関心が高まっていく。",
+          "translationId": "n2.day10-change.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day10-change.grammar.2",
+      "titleJa": "～に伴って",
+      "paragraphIds": [
+        "n2.day10-change.grammar.2.anchor",
+        "n2.day10-change.grammar.2.logic",
+        "n2.day10-change.grammar.2.connection",
+        "n2.day10-change.grammar.2.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "人口の増加に伴って、交通問題も深刻になった。",
+          "translationId": "n2.day10-change.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day10-change.grammar.3",
+      "titleJa": "～とともに",
+      "paragraphIds": [
+        "n2.day10-change.grammar.3.anchor",
+        "n2.day10-change.grammar.3.logic",
+        "n2.day10-change.grammar.3.connection",
+        "n2.day10-change.grammar.3.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "時代の変化とともに、人々の働き方も変わってきた。",
+          "translationId": "n2.day10-change.grammar.3.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "n2.day10-change.question.0",
+      "prompt": [
+        {
+          "ja": "日本語に慣れる（　）、会話を楽しめるようになった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "において"
+          }
+        ],
+        [
+          {
+            "ja": "につれて"
+          }
+        ],
+        [
+          {
+            "ja": "を問わず"
+          }
+        ],
+        [
+          {
+            "ja": "に対して"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day10-change.question.0.explanation",
+      "instructionId": "n2.day10-change.question.0.anchor"
+    },
+    {
+      "id": "n2.day10-change.question.1",
+      "prompt": [
+        {
+          "ja": "山を登る（　）、気温が下がっていった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "につれて"
+          }
+        ],
+        [
+          {
+            "ja": "において"
+          }
+        ],
+        [
+          {
+            "ja": "を問わず"
+          }
+        ],
+        [
+          {
+            "ja": "に対して"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day10-change.question.1.explanation",
+      "instructionId": "n2.day10-change.question.1.anchor"
+    },
+    {
+      "id": "n2.day10-change.question.2",
+      "prompt": [
+        {
+          "ja": "子供が成長する（　）、一人でできることが増えていく。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "につれて"
+          }
+        ],
+        [
+          {
+            "ja": "において"
+          }
+        ],
+        [
+          {
+            "ja": "に対して"
+          }
+        ],
+        [
+          {
+            "ja": "を問わず"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day10-change.question.2.explanation",
+      "instructionId": "n2.day10-change.question.2.anchor"
+    },
+    {
+      "id": "n2.day10-change.question.3",
+      "prompt": [
+        {
+          "ja": "時代が進む（　）、この考え方も変わっていくだろう。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "にしたがって"
+          }
+        ],
+        [
+          {
+            "ja": "において"
+          }
+        ],
+        [
+          {
+            "ja": "を問わず"
+          }
+        ],
+        [
+          {
+            "ja": "に対して"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day10-change.question.3.explanation",
+      "instructionId": "n2.day10-change.question.3.anchor"
+    },
+    {
+      "id": "n2.day10-change.question.4",
+      "prompt": [
+        {
+          "ja": "計画が具体的になる（　）、必要な人数も明らかになった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "において"
+          }
+        ],
+        [
+          {
+            "ja": "と比べて"
+          }
+        ],
+        [
+          {
+            "ja": "にしたがって"
+          }
+        ],
+        [
+          {
+            "ja": "を問わず"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day10-change.question.4.explanation",
+      "instructionId": "n2.day10-change.question.4.anchor"
+    },
+    {
+      "id": "n2.day10-change.question.5",
+      "prompt": [
+        {
+          "ja": "北へ進む（　）、風が強くなってきた。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "において"
+          }
+        ],
+        [
+          {
+            "ja": "にしたがって"
+          }
+        ],
+        [
+          {
+            "ja": "を問わず"
+          }
+        ],
+        [
+          {
+            "ja": "に対して"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day10-change.question.5.explanation",
+      "instructionId": "n2.day10-change.question.5.anchor"
+    },
+    {
+      "id": "n2.day10-change.question.6",
+      "prompt": [
+        {
+          "ja": "会社の規模拡大（　）、新しい管理制度が必要になった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "に伴って"
+          }
+        ],
+        [
+          {
+            "ja": "において"
+          }
+        ],
+        [
+          {
+            "ja": "を問わず"
+          }
+        ],
+        [
+          {
+            "ja": "に対して"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day10-change.question.6.explanation",
+      "instructionId": "n2.day10-change.question.6.anchor"
+    },
+    {
+      "id": "n2.day10-change.question.7",
+      "prompt": [
+        {
+          "ja": "新工場の建設（　）、周辺の道路も整備された。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "において"
+          }
+        ],
+        [
+          {
+            "ja": "に伴って"
+          }
+        ],
+        [
+          {
+            "ja": "を問わず"
+          }
+        ],
+        [
+          {
+            "ja": "と比べて"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day10-change.question.7.explanation",
+      "instructionId": "n2.day10-change.question.7.anchor"
+    },
+    {
+      "id": "n2.day10-change.question.8",
+      "prompt": [
+        {
+          "ja": "オンライン授業の普及（　）、新しい学習サービスが生まれた。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "において"
+          }
+        ],
+        [
+          {
+            "ja": "に伴って"
+          }
+        ],
+        [
+          {
+            "ja": "を問わず"
+          }
+        ],
+        [
+          {
+            "ja": "に対して"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day10-change.question.8.explanation",
+      "instructionId": "n2.day10-change.question.8.anchor"
+    },
+    {
+      "id": "n2.day10-change.question.9",
+      "prompt": [
+        {
+          "ja": "彼は家族（　）、新しい町へ引っ越した。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "とともに"
+          }
+        ],
+        [
+          {
+            "ja": "において"
+          }
+        ],
+        [
+          {
+            "ja": "を問わず"
+          }
+        ],
+        [
+          {
+            "ja": "に対して"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day10-change.question.9.explanation",
+      "instructionId": "n2.day10-change.question.9.anchor"
+    },
+    {
+      "id": "n2.day10-change.question.10",
+      "prompt": [
+        {
+          "ja": "彼女は研究者である（　）、三人の子供の母でもある。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "に対して"
+          }
+        ],
+        [
+          {
+            "ja": "とともに"
+          }
+        ],
+        [
+          {
+            "ja": "において"
+          }
+        ],
+        [
+          {
+            "ja": "を問わず"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day10-change.question.10.explanation",
+      "instructionId": "n2.day10-change.question.10.anchor"
+    },
+    {
+      "id": "n2.day10-change.question.11",
+      "prompt": [
+        {
+          "ja": "この薬は熱を下げる（　）、痛みも和らげる。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "において"
+          }
+        ],
+        [
+          {
+            "ja": "とともに"
+          }
+        ],
+        [
+          {
+            "ja": "を問わず"
+          }
+        ],
+        [
+          {
+            "ja": "に対して"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day10-change.question.11.explanation",
+      "instructionId": "n2.day10-change.question.11.anchor"
+    }
+  ],
+  "wordRefs": []
+}

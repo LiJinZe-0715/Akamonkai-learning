@@ -1,0 +1,557 @@
+{
+  "id": "day2-wake",
+  "bookId": "n2",
+  "titleJa": "わけの表現",
+  "groupJa": "文法",
+  "articles": [
+    {
+      "id": "n2.day2-wake.grammar.0",
+      "titleJa": "～わけだ",
+      "paragraphIds": [
+        "n2.day2-wake.grammar.0.anchor",
+        "n2.day2-wake.grammar.0.logic",
+        "n2.day2-wake.grammar.0.connection",
+        "n2.day2-wake.grammar.0.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "毎日練習しているから、上達が早いわけだ。",
+          "translationId": "n2.day2-wake.grammar.0.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day2-wake.grammar.1",
+      "titleJa": "～わけがない",
+      "paragraphIds": [
+        "n2.day2-wake.grammar.1.anchor",
+        "n2.day2-wake.grammar.1.logic",
+        "n2.day2-wake.grammar.1.connection",
+        "n2.day2-wake.grammar.1.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "彼がそんな約束を忘れるわけがない。",
+          "translationId": "n2.day2-wake.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day2-wake.grammar.2",
+      "titleJa": "～わけではない",
+      "paragraphIds": [
+        "n2.day2-wake.grammar.2.anchor",
+        "n2.day2-wake.grammar.2.logic",
+        "n2.day2-wake.grammar.2.connection",
+        "n2.day2-wake.grammar.2.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "甘い物が嫌いなわけではない。",
+          "translationId": "n2.day2-wake.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day2-wake.grammar.3",
+      "titleJa": "～というわけではない",
+      "paragraphIds": [
+        "n2.day2-wake.grammar.3.anchor",
+        "n2.day2-wake.grammar.3.logic",
+        "n2.day2-wake.grammar.3.connection",
+        "n2.day2-wake.grammar.3.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "高ければ必ず質がいいというわけではない。",
+          "translationId": "n2.day2-wake.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day2-wake.grammar.4",
+      "titleJa": "～わけにはいかない",
+      "paragraphIds": [
+        "n2.day2-wake.grammar.4.anchor",
+        "n2.day2-wake.grammar.4.logic",
+        "n2.day2-wake.grammar.4.connection",
+        "n2.day2-wake.grammar.4.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "大事な試験の前に、遊びに行くわけにはいかない。",
+          "translationId": "n2.day2-wake.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day2-wake.grammar.5",
+      "titleJa": "～ないわけにはいかない",
+      "paragraphIds": [
+        "n2.day2-wake.grammar.5.anchor",
+        "n2.day2-wake.grammar.5.logic",
+        "n2.day2-wake.grammar.5.connection",
+        "n2.day2-wake.grammar.5.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "招待された以上、参加しないわけにはいかない。",
+          "translationId": "n2.day2-wake.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "n2.day2-wake.question.0",
+      "prompt": [
+        {
+          "ja": "毎日三時間も練習しているのか。上達が早い（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "わけがない"
+          }
+        ],
+        [
+          {
+            "ja": "わけだ"
+          }
+        ],
+        [
+          {
+            "ja": "わけにはいかない"
+          }
+        ],
+        [
+          {
+            "ja": "わけではない"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day2-wake.question.0.explanation",
+      "instructionId": "n2.day2-wake.question.0.anchor"
+    },
+    {
+      "id": "n2.day2-wake.question.1",
+      "prompt": [
+        {
+          "ja": "今日は祝日だから、銀行が閉まっている（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "わけだ"
+          }
+        ],
+        [
+          {
+            "ja": "わけではない"
+          }
+        ],
+        [
+          {
+            "ja": "わけがない"
+          }
+        ],
+        [
+          {
+            "ja": "ないわけにはいかない"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day2-wake.question.1.explanation",
+      "instructionId": "n2.day2-wake.question.1.anchor"
+    },
+    {
+      "id": "n2.day2-wake.question.2",
+      "prompt": [
+        {
+          "textId": "n2.day2-wake.question.2.review-instruction"
+        },
+        {
+          "ja": "甘い物が嫌いな（　）。健康のために控えているだけだ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "わけにはいかない"
+          }
+        ],
+        [
+          {
+            "ja": "わけがない"
+          }
+        ],
+        [
+          {
+            "ja": "わけではない"
+          }
+        ],
+        [
+          {
+            "ja": "わけだ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day2-wake.question.2.explanation",
+      "instructionId": "n2.day2-wake.question.2.anchor"
+    },
+    {
+      "id": "n2.day2-wake.question.3",
+      "prompt": [
+        {
+          "textId": "n2.day2-wake.question.3.review-instruction"
+        },
+        {
+          "ja": "今週は忙しいが、まったく会えない（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "わけではない"
+          }
+        ],
+        [
+          {
+            "ja": "わけだ"
+          }
+        ],
+        [
+          {
+            "ja": "わけがない"
+          }
+        ],
+        [
+          {
+            "ja": "ないわけにはいかない"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day2-wake.question.3.explanation",
+      "instructionId": "n2.day2-wake.question.3.anchor"
+    },
+    {
+      "id": "n2.day2-wake.question.4",
+      "prompt": [
+        {
+          "textId": "n2.day2-wake.question.4.review-instruction"
+        },
+        {
+          "ja": "責任感の強い彼が、大切な約束を忘れる（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "わけだ"
+          }
+        ],
+        [
+          {
+            "ja": "わけではない"
+          }
+        ],
+        [
+          {
+            "ja": "わけがない"
+          }
+        ],
+        [
+          {
+            "ja": "わけにはいかない"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day2-wake.question.4.explanation",
+      "instructionId": "n2.day2-wake.question.4.anchor"
+    },
+    {
+      "id": "n2.day2-wake.question.5",
+      "prompt": [
+        {
+          "textId": "n2.day2-wake.question.5.review-instruction"
+        },
+        {
+          "ja": "この量の仕事を一時間で全部終えられる（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "わけがない"
+          }
+        ],
+        [
+          {
+            "ja": "わけではない"
+          }
+        ],
+        [
+          {
+            "ja": "わけだ"
+          }
+        ],
+        [
+          {
+            "ja": "ないわけにはいかない"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day2-wake.question.5.explanation",
+      "instructionId": "n2.day2-wake.question.5.anchor"
+    },
+    {
+      "id": "n2.day2-wake.question.6",
+      "prompt": [
+        {
+          "textId": "n2.day2-wake.question.6.review-instruction"
+        },
+        {
+          "ja": "明日は大事な試験があるので、今夜は遊びに行く（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "わけがない"
+          }
+        ],
+        [
+          {
+            "ja": "わけだ"
+          }
+        ],
+        [
+          {
+            "ja": "わけにはいかない"
+          }
+        ],
+        [
+          {
+            "ja": "わけではない"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day2-wake.question.6.explanation",
+      "instructionId": "n2.day2-wake.question.6.anchor"
+    },
+    {
+      "id": "n2.day2-wake.question.7",
+      "prompt": [
+        {
+          "textId": "n2.day2-wake.question.7.review-instruction"
+        },
+        {
+          "ja": "秘密にしてほしいと頼まれた以上、他人に話す（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "わけにはいかない"
+          }
+        ],
+        [
+          {
+            "ja": "わけではない"
+          }
+        ],
+        [
+          {
+            "ja": "わけだ"
+          }
+        ],
+        [
+          {
+            "ja": "わけがない"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day2-wake.question.7.explanation",
+      "instructionId": "n2.day2-wake.question.7.anchor"
+    },
+    {
+      "id": "n2.day2-wake.question.8",
+      "prompt": [
+        {
+          "textId": "n2.day2-wake.question.8.review-instruction"
+        },
+        {
+          "ja": "お世話になった先生に招待されたのだから、参加しない（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "わけだ"
+          }
+        ],
+        [
+          {
+            "ja": "わけではない"
+          }
+        ],
+        [
+          {
+            "ja": "わけにはいかない"
+          }
+        ],
+        [
+          {
+            "ja": "わけがない"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day2-wake.question.8.explanation",
+      "instructionId": "n2.day2-wake.question.8.anchor"
+    },
+    {
+      "id": "n2.day2-wake.question.9",
+      "prompt": [
+        {
+          "textId": "n2.day2-wake.question.9.review-instruction"
+        },
+        {
+          "ja": "自分のミスで迷惑をかけた以上、謝らない（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "わけがない"
+          }
+        ],
+        [
+          {
+            "ja": "わけにはいかない"
+          }
+        ],
+        [
+          {
+            "ja": "わけだ"
+          }
+        ],
+        [
+          {
+            "ja": "わけではない"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day2-wake.question.9.explanation",
+      "instructionId": "n2.day2-wake.question.9.anchor"
+    },
+    {
+      "id": "n2.day2-wake.question.10",
+      "prompt": [
+        {
+          "ja": "日本に長く住んでいるからといって、漢字が全部読める（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "というわけではない"
+          }
+        ],
+        [
+          {
+            "ja": "わけがない"
+          }
+        ],
+        [
+          {
+            "ja": "わけにはいかない"
+          }
+        ],
+        [
+          {
+            "ja": "わけだ"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day2-wake.question.10.explanation",
+      "instructionId": "n2.day2-wake.question.10.anchor"
+    },
+    {
+      "id": "n2.day2-wake.question.11",
+      "prompt": [
+        {
+          "ja": "値段が高ければ、必ず品質もいい（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "わけだ"
+          }
+        ],
+        [
+          {
+            "ja": "わけにはいかない"
+          }
+        ],
+        [
+          {
+            "ja": "というわけではない"
+          }
+        ],
+        [
+          {
+            "ja": "わけがない"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day2-wake.question.11.explanation",
+      "instructionId": "n2.day2-wake.question.11.anchor"
+    }
+  ],
+  "wordRefs": []
+}

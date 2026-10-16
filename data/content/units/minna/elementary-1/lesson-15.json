@@ -1,0 +1,360 @@
+{
+  "id": "minna-15",
+  "bookId": "minna",
+  "titleJa": "第15課",
+  "groupJa": "初級Ⅰ",
+  "articles": [
+    {
+      "id": "minna.lesson.15.grammar.1",
+      "titleJa": "Vてもいいです",
+      "paragraphIds": [
+        "minna.lesson.15.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "ここで写真を撮ってもいいです。",
+          "translationId": "minna.lesson.15.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.15.grammar.2",
+      "titleJa": "Vてはいけません",
+      "paragraphIds": [
+        "minna.lesson.15.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "ここでたばこを吸ってはいけません。",
+          "translationId": "minna.lesson.15.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.15.grammar.3",
+      "titleJa": "Vています（結果の状態）",
+      "paragraphIds": [
+        "minna.lesson.15.grammar.3.meaning",
+        "minna.lesson.15.grammar.3.note"
+      ],
+      "examples": [
+        {
+          "ja": "私は大阪に住んでいます。",
+          "translationId": "minna.lesson.15.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.15.grammar.4",
+      "titleJa": "Vています（習慣／職業）",
+      "paragraphIds": [
+        "minna.lesson.15.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "姉は銀行で働いています。",
+          "translationId": "minna.lesson.15.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.15-1",
+      "prompt": [
+        {
+          "ja": "この席に（　）もいいですか。"
+        }
+      ],
+      "instructionId": "minna.question.15-1.translation",
+      "options": [
+        [
+          {
+            "ja": "座り"
+          }
+        ],
+        [
+          {
+            "ja": "座る"
+          }
+        ],
+        [
+          {
+            "ja": "座った"
+          }
+        ],
+        [
+          {
+            "ja": "座って"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.15-1.explanation"
+    },
+    {
+      "id": "minna.question.15-2",
+      "prompt": [
+        {
+          "ja": "ここで写真を（　）。"
+        }
+      ],
+      "instructionId": "minna.question.15-2.translation",
+      "options": [
+        [
+          {
+            "ja": "撮ってはいけません"
+          }
+        ],
+        [
+          {
+            "ja": "撮ってもいいです"
+          }
+        ],
+        [
+          {
+            "ja": "撮っています"
+          }
+        ],
+        [
+          {
+            "ja": "撮りましょう"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.15-2.explanation"
+    },
+    {
+      "id": "minna.question.15-3",
+      "prompt": [
+        {
+          "ja": "A：田中さんの電話番号を知っていますか。 B：いいえ、（　）。"
+        }
+      ],
+      "instructionId": "minna.question.15-3.translation",
+      "options": [
+        [
+          {
+            "ja": "知っています"
+          }
+        ],
+        [
+          {
+            "ja": "知りません"
+          }
+        ],
+        [
+          {
+            "ja": "知りました"
+          }
+        ],
+        [
+          {
+            "ja": "知ってください"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.15-3.explanation"
+    },
+    {
+      "id": "minna.question.15-4",
+      "prompt": [
+        {
+          "ja": "姉は病院で（　）。"
+        }
+      ],
+      "instructionId": "minna.question.15-4.translation",
+      "options": [
+        [
+          {
+            "ja": "働きませんでした"
+          }
+        ],
+        [
+          {
+            "ja": "働きましょう"
+          }
+        ],
+        [
+          {
+            "ja": "働いています"
+          }
+        ],
+        [
+          {
+            "ja": "働いてください"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.15-4.explanation"
+    },
+    {
+      "id": "minna.question.15-5",
+      "prompt": [
+        {
+          "ja": "「結婚しています」はどんな状態ですか。"
+        }
+      ],
+      "instructionId": "minna.question.15-5.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.15-5.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.15-5.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.15-5.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.15-5.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.15-5.explanation"
+    },
+    {
+      "id": "minna.question.15-6",
+      "prompt": [
+        {
+          "ja": "A：窓を開けてもいいですか。 B：はい、（　）。"
+        }
+      ],
+      "instructionId": "minna.question.15-6.translation",
+      "options": [
+        [
+          {
+            "ja": "開けてもいいですよ"
+          }
+        ],
+        [
+          {
+            "ja": "開けてはいけません"
+          }
+        ],
+        [
+          {
+            "ja": "開けませんでした"
+          }
+        ],
+        [
+          {
+            "ja": "開けないでください"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.15-6.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.697"
+    },
+    {
+      "wordId": "word.698"
+    },
+    {
+      "wordId": "word.699"
+    },
+    {
+      "wordId": "word.700"
+    },
+    {
+      "wordId": "word.701"
+    },
+    {
+      "wordId": "word.702"
+    },
+    {
+      "wordId": "word.703"
+    },
+    {
+      "wordId": "word.704"
+    },
+    {
+      "wordId": "word.705"
+    },
+    {
+      "wordId": "word.706"
+    },
+    {
+      "wordId": "word.707"
+    },
+    {
+      "wordId": "word.708"
+    },
+    {
+      "wordId": "word.709"
+    },
+    {
+      "wordId": "word.710"
+    },
+    {
+      "wordId": "word.711"
+    },
+    {
+      "wordId": "word.712"
+    },
+    {
+      "wordId": "word.713"
+    },
+    {
+      "wordId": "word.714"
+    },
+    {
+      "wordId": "word.715"
+    },
+    {
+      "wordId": "word.716"
+    },
+    {
+      "wordId": "word.717"
+    },
+    {
+      "wordId": "word.718"
+    },
+    {
+      "wordId": "word.719"
+    },
+    {
+      "wordId": "word.720"
+    },
+    {
+      "wordId": "word.721"
+    },
+    {
+      "wordId": "word.722"
+    },
+    {
+      "wordId": "word.723"
+    }
+  ]
+}

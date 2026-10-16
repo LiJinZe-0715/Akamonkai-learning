@@ -1,0 +1,478 @@
+{
+  "id": "minna-31",
+  "bookId": "minna",
+  "titleJa": "第31課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.31.grammar.1",
+      "titleJa": "意向形",
+      "paragraphIds": [
+        "minna.lesson.31.grammar.1.meaning",
+        "minna.lesson.31.grammar.1.note"
+      ],
+      "examples": [
+        {
+          "ja": "少し休もう。",
+          "translationId": "minna.lesson.31.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.31.grammar.2",
+      "titleJa": "意向形＋と思っています",
+      "paragraphIds": [
+        "minna.lesson.31.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "来年、留学しようと思っています。",
+          "translationId": "minna.lesson.31.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.31.grammar.3",
+      "titleJa": "V辞書形／Vない形＋つもりです",
+      "paragraphIds": [
+        "minna.lesson.31.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "週末は家で休むつもりです。",
+          "translationId": "minna.lesson.31.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.31.grammar.4",
+      "titleJa": "V辞書形／Nの＋予定です",
+      "paragraphIds": [
+        "minna.lesson.31.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "会議は三時に始まる予定です。",
+          "translationId": "minna.lesson.31.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.31-1",
+      "prompt": [
+        {
+          "ja": "行く → 意向形"
+        }
+      ],
+      "instructionId": "minna.question.31-1.translation",
+      "options": [
+        [
+          {
+            "ja": "行けよう"
+          }
+        ],
+        [
+          {
+            "ja": "行くよう"
+          }
+        ],
+        [
+          {
+            "ja": "行かよう"
+          }
+        ],
+        [
+          {
+            "ja": "行こう"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.31-1.explanation"
+    },
+    {
+      "id": "minna.question.31-2",
+      "prompt": [
+        {
+          "ja": "来年、日本へ（　）と思っています。"
+        }
+      ],
+      "instructionId": "minna.question.31-2.translation",
+      "options": [
+        [
+          {
+            "ja": "留学しよう"
+          }
+        ],
+        [
+          {
+            "ja": "留学するよう"
+          }
+        ],
+        [
+          {
+            "ja": "留学して"
+          }
+        ],
+        [
+          {
+            "ja": "留学し"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.31-2.explanation"
+    },
+    {
+      "id": "minna.question.31-3",
+      "prompt": [
+        {
+          "ja": "今年は車を（　）つもりです。"
+        }
+      ],
+      "instructionId": "minna.question.31-3.translation",
+      "options": [
+        [
+          {
+            "ja": "買いません"
+          }
+        ],
+        [
+          {
+            "ja": "買わない"
+          }
+        ],
+        [
+          {
+            "ja": "買わなく"
+          }
+        ],
+        [
+          {
+            "ja": "買わなかったの"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.31-3.explanation"
+    },
+    {
+      "id": "minna.question.31-4",
+      "prompt": [
+        {
+          "ja": "来週は出張（　）予定です。"
+        }
+      ],
+      "instructionId": "minna.question.31-4.translation",
+      "options": [
+        [
+          {
+            "ja": "な"
+          }
+        ],
+        [
+          {
+            "ja": "だ"
+          }
+        ],
+        [
+          {
+            "ja": "の"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.31-4.explanation"
+    },
+    {
+      "id": "minna.question.31-5",
+      "prompt": [
+        {
+          "ja": "食べる → 意向形"
+        }
+      ],
+      "instructionId": "minna.question.31-5.translation",
+      "options": [
+        [
+          {
+            "ja": "食べろう"
+          }
+        ],
+        [
+          {
+            "ja": "食べるう"
+          }
+        ],
+        [
+          {
+            "ja": "食べおう"
+          }
+        ],
+        [
+          {
+            "ja": "食べよう"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.31-5.explanation"
+    },
+    {
+      "id": "minna.question.31-6",
+      "prompt": [
+        {
+          "ja": "する／来る → "
+        },
+        {
+          "textId": "minna.question.31-6.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.31-6.translation",
+      "options": [
+        [
+          {
+            "ja": "しよう／こよう"
+          }
+        ],
+        [
+          {
+            "ja": "すよう／きよう"
+          }
+        ],
+        [
+          {
+            "ja": "しろう／くよう"
+          }
+        ],
+        [
+          {
+            "ja": "しょう／ころう"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.31-6.explanation"
+    },
+    {
+      "id": "minna.question.31-7",
+      "prompt": [
+        {
+          "ja": "会議は九時に（　）予定です。"
+        },
+        {
+          "textId": "minna.question.31-7.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.31-7.translation",
+      "options": [
+        [
+          {
+            "ja": "始まろう"
+          }
+        ],
+        [
+          {
+            "ja": "始まる"
+          }
+        ],
+        [
+          {
+            "ja": "始まって"
+          }
+        ],
+        [
+          {
+            "ja": "始まります"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.31-7.explanation"
+    },
+    {
+      "id": "minna.question.31-8",
+      "prompt": [
+        {
+          "ja": "「参加しないつもりです」と言われました。"
+        }
+      ],
+      "instructionId": "minna.question.31-8.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.31-8.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.31-8.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.31-8.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.31-8.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.31-8.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1273"
+    },
+    {
+      "wordId": "word.1274"
+    },
+    {
+      "wordId": "word.1275"
+    },
+    {
+      "wordId": "word.1276"
+    },
+    {
+      "wordId": "word.1277"
+    },
+    {
+      "wordId": "word.1278"
+    },
+    {
+      "wordId": "word.1279"
+    },
+    {
+      "wordId": "word.1280"
+    },
+    {
+      "wordId": "word.1281"
+    },
+    {
+      "wordId": "word.1282"
+    },
+    {
+      "wordId": "word.1283"
+    },
+    {
+      "wordId": "word.1284"
+    },
+    {
+      "wordId": "word.1285"
+    },
+    {
+      "wordId": "word.1286"
+    },
+    {
+      "wordId": "word.1287"
+    },
+    {
+      "wordId": "word.1288"
+    },
+    {
+      "wordId": "word.1289"
+    },
+    {
+      "wordId": "word.1290"
+    },
+    {
+      "wordId": "word.1291"
+    },
+    {
+      "wordId": "word.1292"
+    },
+    {
+      "wordId": "word.1293"
+    },
+    {
+      "wordId": "word.1294"
+    },
+    {
+      "wordId": "word.1295"
+    },
+    {
+      "wordId": "word.1296"
+    },
+    {
+      "wordId": "word.1297"
+    },
+    {
+      "wordId": "word.1298"
+    },
+    {
+      "wordId": "word.1299"
+    },
+    {
+      "wordId": "word.1300"
+    },
+    {
+      "wordId": "word.1301"
+    },
+    {
+      "wordId": "word.1302"
+    },
+    {
+      "wordId": "word.1303"
+    },
+    {
+      "wordId": "word.1304"
+    },
+    {
+      "wordId": "word.1305"
+    },
+    {
+      "wordId": "word.1306"
+    },
+    {
+      "wordId": "word.1307"
+    },
+    {
+      "wordId": "word.1308"
+    },
+    {
+      "wordId": "word.1309"
+    },
+    {
+      "wordId": "word.1310"
+    },
+    {
+      "wordId": "word.1311"
+    },
+    {
+      "wordId": "word.1312"
+    },
+    {
+      "wordId": "word.1313"
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "id": "minna-5",
+  "bookId": "minna",
+  "titleJa": "第5課",
+  "groupJa": "初級Ⅰ",
+  "articles": [
+    {
+      "id": "minna.lesson.5.grammar.1",
+      "titleJa": "場所 へ 行きます／来ます／帰ります",
+      "paragraphIds": [
+        "minna.lesson.5.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "来月、日本へ行きます。",
+          "translationId": "minna.lesson.5.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.5.grammar.2",
+      "titleJa": "乗り物 で 行きます",
+      "paragraphIds": [
+        "minna.lesson.5.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "電車で会社へ行きます。",
+          "translationId": "minna.lesson.5.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.5.grammar.3",
+      "titleJa": "人 と 行きます",
+      "paragraphIds": [
+        "minna.lesson.5.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "家族と京都へ行きます。",
+          "translationId": "minna.lesson.5.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.5.grammar.4",
+      "titleJa": "時刻 に 行きます",
+      "paragraphIds": [
+        "minna.lesson.5.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "日曜日に大阪へ行きます。",
+          "translationId": "minna.lesson.5.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.5.grammar.5",
+      "titleJa": "どこへも 行きません",
+      "paragraphIds": [
+        "minna.lesson.5.grammar.5.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "今日はどこへも行きません。",
+          "translationId": "minna.lesson.5.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.5-1",
+      "prompt": [
+        {
+          "ja": "来週、京都（　）行きます。"
+        }
+      ],
+      "instructionId": "minna.question.5-1.translation",
+      "options": [
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "へ"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ],
+        [
+          {
+            "ja": "と"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.5-1.explanation"
+    },
+    {
+      "id": "minna.question.5-2",
+      "prompt": [
+        {
+          "ja": "バス（　）学校へ行きます。"
+        }
+      ],
+      "instructionId": "minna.question.5-2.translation",
+      "options": [
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ],
+        [
+          {
+            "ja": "へ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.5-2.explanation"
+    },
+    {
+      "id": "minna.question.5-3",
+      "prompt": [
+        {
+          "ja": "友達（　）大阪へ行きました。"
+        }
+      ],
+      "instructionId": "minna.question.5-3.translation",
+      "options": [
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "へ"
+          }
+        ],
+        [
+          {
+            "ja": "と"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.5-3.explanation"
+    },
+    {
+      "id": "minna.question.5-4",
+      "prompt": [
+        {
+          "ja": "八時（　）家へ帰ります。"
+        }
+      ],
+      "instructionId": "minna.question.5-4.translation",
+      "options": [
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "と"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.5-4.explanation"
+    },
+    {
+      "id": "minna.question.5-5",
+      "prompt": [
+        {
+          "ja": "休みの日はどこへも（　）。"
+        }
+      ],
+      "instructionId": "minna.question.5-5.translation",
+      "options": [
+        [
+          {
+            "ja": "行きます"
+          }
+        ],
+        [
+          {
+            "ja": "行きません"
+          }
+        ],
+        [
+          {
+            "ja": "行きましょう"
+          }
+        ],
+        [
+          {
+            "ja": "行きたいです"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.5-5.explanation"
+    },
+    {
+      "id": "minna.question.5-6",
+      "prompt": [
+        {
+          "ja": "駅まで（　）行きます。"
+        }
+      ],
+      "instructionId": "minna.question.5-6.translation",
+      "options": [
+        [
+          {
+            "ja": "歩きで"
+          }
+        ],
+        [
+          {
+            "ja": "歩くに"
+          }
+        ],
+        [
+          {
+            "ja": "歩いて"
+          }
+        ],
+        [
+          {
+            "ja": "歩くで"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.5-6.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.193"
+    },
+    {
+      "wordId": "word.194"
+    },
+    {
+      "wordId": "word.195"
+    },
+    {
+      "wordId": "word.196"
+    },
+    {
+      "wordId": "word.197"
+    },
+    {
+      "wordId": "word.198"
+    },
+    {
+      "wordId": "word.199"
+    },
+    {
+      "wordId": "word.200"
+    },
+    {
+      "wordId": "word.201"
+    },
+    {
+      "wordId": "word.202"
+    },
+    {
+      "wordId": "word.203"
+    },
+    {
+      "wordId": "word.204"
+    },
+    {
+      "wordId": "word.205"
+    },
+    {
+      "wordId": "word.206"
+    },
+    {
+      "wordId": "word.207"
+    },
+    {
+      "wordId": "word.208"
+    },
+    {
+      "wordId": "word.209"
+    },
+    {
+      "wordId": "word.210"
+    },
+    {
+      "wordId": "word.211"
+    },
+    {
+      "wordId": "word.212"
+    },
+    {
+      "wordId": "word.213"
+    },
+    {
+      "wordId": "word.214"
+    },
+    {
+      "wordId": "word.215"
+    },
+    {
+      "wordId": "word.216"
+    },
+    {
+      "wordId": "word.217"
+    },
+    {
+      "wordId": "word.218"
+    },
+    {
+      "wordId": "word.219"
+    },
+    {
+      "wordId": "word.220"
+    },
+    {
+      "wordId": "word.221"
+    },
+    {
+      "wordId": "word.222"
+    },
+    {
+      "wordId": "word.223"
+    },
+    {
+      "wordId": "word.224"
+    },
+    {
+      "wordId": "word.225"
+    },
+    {
+      "wordId": "word.226"
+    },
+    {
+      "wordId": "word.227"
+    },
+    {
+      "wordId": "word.228"
+    },
+    {
+      "wordId": "word.229"
+    },
+    {
+      "wordId": "word.230"
+    },
+    {
+      "wordId": "word.231"
+    },
+    {
+      "wordId": "word.232"
+    },
+    {
+      "wordId": "word.233"
+    },
+    {
+      "wordId": "word.234"
+    },
+    {
+      "wordId": "word.235"
+    },
+    {
+      "wordId": "word.236"
+    },
+    {
+      "wordId": "word.237"
+    },
+    {
+      "wordId": "word.238"
+    },
+    {
+      "wordId": "word.239"
+    },
+    {
+      "wordId": "word.240"
+    },
+    {
+      "wordId": "word.241"
+    },
+    {
+      "wordId": "word.242"
+    },
+    {
+      "wordId": "word.243"
+    },
+    {
+      "wordId": "word.244"
+    },
+    {
+      "wordId": "word.245"
+    },
+    {
+      "wordId": "word.246"
+    }
+  ]
+}

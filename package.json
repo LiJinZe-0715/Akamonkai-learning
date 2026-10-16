@@ -1,0 +1,33 @@
+{
+  "name": "akamonkai-benkyou",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build-content.mjs && vite --host 127.0.0.1",
+    "build": "node scripts/check.mjs && node scripts/build-content.mjs && tsc --noEmit && vite build",
+    "check": "node scripts/check.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "android:build": "node scripts/build-android.mjs",
+    "android:test": "node --test android/tests/*.test.mjs",
+    "android:publish": "node scripts/publish-android.mjs"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@typescript/typescript6": "6.0.2",
+    "@vitejs/plugin-react": "6.1.2",
+    "typescript": "7.0.2",
+    "vite": "8.3.4"
+  },
+  "packageManager": "pnpm@12.11.2",
+  "engines": {
+    "node": "^24.0.0 || ^26.0.0",
+    "pnpm": ">=12.11.2 <13"
+  }
+}

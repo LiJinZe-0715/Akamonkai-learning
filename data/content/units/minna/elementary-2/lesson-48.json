@@ -1,0 +1,520 @@
+{
+  "id": "minna-48",
+  "bookId": "minna",
+  "titleJa": "第48課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.48.grammar.1",
+      "titleJa": "使役形：～（さ）せます",
+      "paragraphIds": [
+        "minna.lesson.48.grammar.1.meaning",
+        "minna.lesson.48.grammar.1.note"
+      ],
+      "examples": [
+        {
+          "ja": "母は子どもを買い物に行かせました。",
+          "translationId": "minna.lesson.48.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.48.grammar.2",
+      "titleJa": "人を＋自動詞使役",
+      "paragraphIds": [
+        "minna.lesson.48.grammar.2.meaning",
+        "minna.lesson.48.grammar.2.note"
+      ],
+      "examples": [
+        {
+          "ja": "先生は学生を立たせました。",
+          "translationId": "minna.lesson.48.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.48.grammar.3",
+      "titleJa": "人に＋他動詞使役",
+      "paragraphIds": [
+        "minna.lesson.48.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "先生は学生に作文を書かせました。",
+          "translationId": "minna.lesson.48.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.48.grammar.4",
+      "titleJa": "～させていただけませんか",
+      "paragraphIds": [
+        "minna.lesson.48.grammar.4.meaning",
+        "minna.lesson.48.grammar.4.note"
+      ],
+      "examples": [
+        {
+          "ja": "明日、休ませていただけませんか。",
+          "translationId": "minna.lesson.48.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.48-1",
+      "prompt": [
+        {
+          "ja": "書く → 使役形"
+        }
+      ],
+      "instructionId": "minna.question.48-1.translation",
+      "options": [
+        [
+          {
+            "ja": "書かせる"
+          }
+        ],
+        [
+          {
+            "ja": "書かれる"
+          }
+        ],
+        [
+          {
+            "ja": "書ける"
+          }
+        ],
+        [
+          {
+            "ja": "書こう"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.48-1.explanation"
+    },
+    {
+      "id": "minna.question.48-2",
+      "prompt": [
+        {
+          "ja": "先生は、立とうとしない学生（　）無理に立たせました。"
+        }
+      ],
+      "instructionId": "minna.question.48-2.translation",
+      "options": [
+        [
+          {
+            "ja": "が"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ],
+        [
+          {
+            "ja": "へ"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.48-2.explanation"
+    },
+    {
+      "id": "minna.question.48-3",
+      "prompt": [
+        {
+          "ja": "先生は学生（　）作文を書かせました。"
+        }
+      ],
+      "instructionId": "minna.question.48-3.translation",
+      "options": [
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "が"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.48-3.explanation"
+    },
+    {
+      "id": "minna.question.48-4",
+      "prompt": [
+        {
+          "ja": "今日は私を早く（　）いただけませんか。"
+        }
+      ],
+      "instructionId": "minna.question.48-4.translation",
+      "options": [
+        [
+          {
+            "ja": "帰って"
+          }
+        ],
+        [
+          {
+            "ja": "帰られて"
+          }
+        ],
+        [
+          {
+            "ja": "帰りさせて"
+          }
+        ],
+        [
+          {
+            "ja": "帰らせて"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.48-4.explanation"
+    },
+    {
+      "id": "minna.question.48-5",
+      "prompt": [
+        {
+          "ja": "食べる → 使役形"
+        }
+      ],
+      "instructionId": "minna.question.48-5.translation",
+      "options": [
+        [
+          {
+            "ja": "食べさせる"
+          }
+        ],
+        [
+          {
+            "ja": "食べられる"
+          }
+        ],
+        [
+          {
+            "ja": "食べせる"
+          }
+        ],
+        [
+          {
+            "ja": "食べれる"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.48-5.explanation"
+    },
+    {
+      "id": "minna.question.48-6",
+      "prompt": [
+        {
+          "ja": "する／来る → "
+        },
+        {
+          "textId": "minna.question.48-6.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.48-6.translation",
+      "options": [
+        [
+          {
+            "ja": "される／こられる"
+          }
+        ],
+        [
+          {
+            "ja": "させる／こさせる"
+          }
+        ],
+        [
+          {
+            "ja": "しさせる／きさせる"
+          }
+        ],
+        [
+          {
+            "ja": "すせる／くさせる"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.48-6.explanation"
+    },
+    {
+      "id": "minna.question.48-7",
+      "prompt": [
+        {
+          "ja": "買う → 使役形"
+        }
+      ],
+      "instructionId": "minna.question.48-7.translation",
+      "options": [
+        [
+          {
+            "ja": "買あせる"
+          }
+        ],
+        [
+          {
+            "ja": "買われる"
+          }
+        ],
+        [
+          {
+            "ja": "買わせる"
+          }
+        ],
+        [
+          {
+            "ja": "買わさせる"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.48-7.explanation"
+    },
+    {
+      "id": "minna.question.48-8",
+      "prompt": [
+        {
+          "textId": "minna.question.48-8.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.48-8.translation",
+      "options": [
+        [
+          {
+            "ja": "この資料を撮影していただけませんか。"
+          }
+        ],
+        [
+          {
+            "ja": "この資料を撮影してあげませんか。"
+          }
+        ],
+        [
+          {
+            "ja": "この資料を撮影されていただけませんか。"
+          }
+        ],
+        [
+          {
+            "ja": "この資料を撮影させていただけませんか。"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.48-8.explanation"
+    },
+    {
+      "id": "minna.question.48-9",
+      "prompt": [
+        {
+          "ja": "子供が「外で遊びたい」と言ったので、母は外で遊ばせました。"
+        }
+      ],
+      "instructionId": "minna.question.48-9.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.48-9.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.48-9.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.48-9.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.48-9.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.48-9.explanation"
+    },
+    {
+      "id": "minna.question.48-10",
+      "prompt": [
+        {
+          "textId": "minna.question.48-10.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.48-10.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.48-10.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.48-10.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.48-10.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.48-10.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.48-10.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.2040"
+    },
+    {
+      "wordId": "word.2041"
+    },
+    {
+      "wordId": "word.2042"
+    },
+    {
+      "wordId": "word.2043"
+    },
+    {
+      "wordId": "word.2044"
+    },
+    {
+      "wordId": "word.2045"
+    },
+    {
+      "wordId": "word.2046"
+    },
+    {
+      "wordId": "word.2047"
+    },
+    {
+      "wordId": "word.2048"
+    },
+    {
+      "wordId": "word.2049"
+    },
+    {
+      "wordId": "word.2050"
+    },
+    {
+      "wordId": "word.2051"
+    },
+    {
+      "wordId": "word.2052"
+    },
+    {
+      "wordId": "word.2053"
+    },
+    {
+      "wordId": "word.2054"
+    },
+    {
+      "wordId": "word.2055"
+    },
+    {
+      "wordId": "word.2056"
+    },
+    {
+      "wordId": "word.2057"
+    },
+    {
+      "wordId": "word.2058"
+    },
+    {
+      "wordId": "word.2059"
+    },
+    {
+      "wordId": "word.2060"
+    },
+    {
+      "wordId": "word.2061"
+    },
+    {
+      "wordId": "word.2062"
+    },
+    {
+      "wordId": "word.2063"
+    },
+    {
+      "wordId": "word.2064"
+    },
+    {
+      "wordId": "word.2065"
+    },
+    {
+      "wordId": "word.2066"
+    },
+    {
+      "wordId": "word.2067"
+    },
+    {
+      "wordId": "word.2068"
+    },
+    {
+      "wordId": "word.2069"
+    },
+    {
+      "wordId": "word.2070"
+    },
+    {
+      "wordId": "word.2071"
+    }
+  ]
+}

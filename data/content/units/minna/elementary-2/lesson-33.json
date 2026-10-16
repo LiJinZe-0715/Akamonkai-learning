@@ -1,0 +1,566 @@
+{
+  "id": "minna-33",
+  "bookId": "minna",
+  "titleJa": "第33課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.33.grammar.1",
+      "titleJa": "命令形／禁止形",
+      "paragraphIds": [
+        "minna.lesson.33.grammar.1.meaning",
+        "minna.lesson.33.grammar.1.note"
+      ],
+      "examples": [
+        {
+          "ja": "危ない。止まれ。",
+          "translationId": "minna.lesson.33.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.33.grammar.2",
+      "titleJa": "～と書いてあります",
+      "paragraphIds": [
+        "minna.lesson.33.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "入口に「立入禁止」と書いてあります。",
+          "translationId": "minna.lesson.33.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.33.grammar.3",
+      "titleJa": "～と読みます",
+      "paragraphIds": [
+        "minna.lesson.33.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "この漢字は「やま」と読みます。",
+          "translationId": "minna.lesson.33.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.33.grammar.4",
+      "titleJa": "～という意味です",
+      "paragraphIds": [
+        "minna.lesson.33.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "「無料」はお金が要らないという意味です。",
+          "translationId": "minna.lesson.33.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.33.grammar.5",
+      "titleJa": "～と言っていました／～と伝えていただけませんか",
+      "paragraphIds": [
+        "minna.lesson.33.grammar.5.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "田中さんは遅れると言っていました。",
+          "translationId": "minna.lesson.33.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.33-1",
+      "prompt": [
+        {
+          "ja": "止まる → 命令形"
+        }
+      ],
+      "instructionId": "minna.question.33-1.translation",
+      "options": [
+        [
+          {
+            "ja": "止まろ"
+          }
+        ],
+        [
+          {
+            "ja": "止まれ"
+          }
+        ],
+        [
+          {
+            "ja": "止まってな"
+          }
+        ],
+        [
+          {
+            "ja": "止まら"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.33-1.explanation"
+    },
+    {
+      "id": "minna.question.33-2",
+      "prompt": [
+        {
+          "ja": "ドアに「使用中」（　）書いてあります。"
+        },
+        {
+          "textId": "minna.question.33-2.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.33-2.translation",
+      "options": [
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "と"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.33-2.explanation"
+    },
+    {
+      "id": "minna.question.33-3",
+      "prompt": [
+        {
+          "ja": "この漢字は「かわ」（　）読みます。"
+        }
+      ],
+      "instructionId": "minna.question.33-3.translation",
+      "options": [
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "が"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ],
+        [
+          {
+            "ja": "と"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.33-3.explanation"
+    },
+    {
+      "id": "minna.question.33-4",
+      "prompt": [
+        {
+          "ja": "「禁煙」は、たばこを吸ってはいけない（　）意味です。"
+        }
+      ],
+      "instructionId": "minna.question.33-4.translation",
+      "options": [
+        [
+          {
+            "ja": "という"
+          }
+        ],
+        [
+          {
+            "ja": "というの"
+          }
+        ],
+        [
+          {
+            "ja": "にいう"
+          }
+        ],
+        [
+          {
+            "ja": "をいう"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.33-4.explanation"
+    },
+    {
+      "id": "minna.question.33-5",
+      "prompt": [
+        {
+          "ja": "田中さんは少し（　）と言っていました。"
+        }
+      ],
+      "instructionId": "minna.question.33-5.translation",
+      "options": [
+        [
+          {
+            "ja": "遅れるだ"
+          }
+        ],
+        [
+          {
+            "ja": "遅れる"
+          }
+        ],
+        [
+          {
+            "ja": "遅れ"
+          }
+        ],
+        [
+          {
+            "ja": "遅れて"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.33-5.explanation"
+    },
+    {
+      "id": "minna.question.33-6",
+      "prompt": [
+        {
+          "ja": "入る → 禁止形"
+        }
+      ],
+      "instructionId": "minna.question.33-6.translation",
+      "options": [
+        [
+          {
+            "ja": "入れな"
+          }
+        ],
+        [
+          {
+            "ja": "入らな"
+          }
+        ],
+        [
+          {
+            "ja": "入るな"
+          }
+        ],
+        [
+          {
+            "ja": "入りな"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.33-6.explanation"
+    },
+    {
+      "id": "minna.question.33-7",
+      "prompt": [
+        {
+          "ja": "見る → 命令形"
+        }
+      ],
+      "instructionId": "minna.question.33-7.translation",
+      "options": [
+        [
+          {
+            "ja": "見れ"
+          }
+        ],
+        [
+          {
+            "ja": "見るろ"
+          }
+        ],
+        [
+          {
+            "ja": "見ろう"
+          }
+        ],
+        [
+          {
+            "ja": "見ろ"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.33-7.explanation"
+    },
+    {
+      "id": "minna.question.33-8",
+      "prompt": [
+        {
+          "ja": "する／来る → "
+        },
+        {
+          "textId": "minna.question.33-8.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.33-8.translation",
+      "options": [
+        [
+          {
+            "ja": "しろ／こい"
+          }
+        ],
+        [
+          {
+            "ja": "すれ／きろ"
+          }
+        ],
+        [
+          {
+            "ja": "しよう／こよう"
+          }
+        ],
+        [
+          {
+            "ja": "せろ／くれ"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.33-8.explanation"
+    },
+    {
+      "id": "minna.question.33-9",
+      "prompt": [
+        {
+          "textId": "minna.question.33-9.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.33-9.translation",
+      "options": [
+        [
+          {
+            "ja": "田中さんに、明日また電話してください。"
+          }
+        ],
+        [
+          {
+            "ja": "田中さんに、明日また電話すると伝えていただけませんか。"
+          }
+        ],
+        [
+          {
+            "ja": "田中さんが、明日また電話すると伝えてください。"
+          }
+        ],
+        [
+          {
+            "ja": "田中さんに、明日電話しないと伝えていただけませんか。"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.33-9.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1371"
+    },
+    {
+      "wordId": "word.1372"
+    },
+    {
+      "wordId": "word.1373"
+    },
+    {
+      "wordId": "word.1374"
+    },
+    {
+      "wordId": "word.1375"
+    },
+    {
+      "wordId": "word.1376"
+    },
+    {
+      "wordId": "word.1377"
+    },
+    {
+      "wordId": "word.1378"
+    },
+    {
+      "wordId": "word.1379"
+    },
+    {
+      "wordId": "word.1380"
+    },
+    {
+      "wordId": "word.1381"
+    },
+    {
+      "wordId": "word.1382"
+    },
+    {
+      "wordId": "word.1383"
+    },
+    {
+      "wordId": "word.1384"
+    },
+    {
+      "wordId": "word.1385"
+    },
+    {
+      "wordId": "word.1386"
+    },
+    {
+      "wordId": "word.1387"
+    },
+    {
+      "wordId": "word.1388"
+    },
+    {
+      "wordId": "word.1389"
+    },
+    {
+      "wordId": "word.1390"
+    },
+    {
+      "wordId": "word.1391"
+    },
+    {
+      "wordId": "word.1392"
+    },
+    {
+      "wordId": "word.1393"
+    },
+    {
+      "wordId": "word.1394"
+    },
+    {
+      "wordId": "word.1395"
+    },
+    {
+      "wordId": "word.1396"
+    },
+    {
+      "wordId": "word.1397"
+    },
+    {
+      "wordId": "word.1398"
+    },
+    {
+      "wordId": "word.1399"
+    },
+    {
+      "wordId": "word.1400"
+    },
+    {
+      "wordId": "word.1401"
+    },
+    {
+      "wordId": "word.1402"
+    },
+    {
+      "wordId": "word.1403"
+    },
+    {
+      "wordId": "word.1404"
+    },
+    {
+      "wordId": "word.1405"
+    },
+    {
+      "wordId": "word.1406"
+    },
+    {
+      "wordId": "word.1407"
+    },
+    {
+      "wordId": "word.1408"
+    },
+    {
+      "wordId": "word.1409"
+    },
+    {
+      "wordId": "word.1410"
+    },
+    {
+      "wordId": "word.1411"
+    },
+    {
+      "wordId": "word.1412"
+    },
+    {
+      "wordId": "word.1413"
+    },
+    {
+      "wordId": "word.1414"
+    },
+    {
+      "wordId": "word.1415"
+    },
+    {
+      "wordId": "word.1416"
+    },
+    {
+      "wordId": "word.1417"
+    },
+    {
+      "wordId": "word.1418"
+    },
+    {
+      "wordId": "word.1419"
+    },
+    {
+      "wordId": "word.1420"
+    },
+    {
+      "wordId": "word.1421"
+    },
+    {
+      "wordId": "word.1422"
+    },
+    {
+      "wordId": "word.1423"
+    },
+    {
+      "wordId": "word.1424"
+    }
+  ]
+}

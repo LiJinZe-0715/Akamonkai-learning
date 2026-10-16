@@ -1,0 +1,503 @@
+{
+  "id": "minna-12",
+  "bookId": "minna",
+  "titleJa": "第12課",
+  "groupJa": "初級Ⅰ",
+  "articles": [
+    {
+      "id": "minna.lesson.12.grammar.1",
+      "titleJa": "N／な形容詞 でした／じゃありませんでした",
+      "paragraphIds": [
+        "minna.lesson.12.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "昨日は雨でした。",
+          "translationId": "minna.lesson.12.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.12.grammar.2",
+      "titleJa": "い形容詞 かったです／くなかったです",
+      "paragraphIds": [
+        "minna.lesson.12.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "旅行は楽しかったです。",
+          "translationId": "minna.lesson.12.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.12.grammar.3",
+      "titleJa": "N1 は N2 より Aです",
+      "paragraphIds": [
+        "minna.lesson.12.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "電車はバスより速いです。",
+          "translationId": "minna.lesson.12.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.12.grammar.4",
+      "titleJa": "N1 と N2 と どちらが Aですか",
+      "paragraphIds": [
+        "minna.lesson.12.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "犬と猫とどちらが好きですか。",
+          "translationId": "minna.lesson.12.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.12.grammar.5",
+      "titleJa": "N の中で 何／どこ／だれ が いちばん Aですか",
+      "paragraphIds": [
+        "minna.lesson.12.grammar.5.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "日本料理の中で何がいちばん好きですか。",
+          "translationId": "minna.lesson.12.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.12-1",
+      "prompt": [
+        {
+          "ja": "昨日は（　）。"
+        }
+      ],
+      "instructionId": "minna.question.12-1.translation",
+      "options": [
+        [
+          {
+            "ja": "暇でした"
+          }
+        ],
+        [
+          {
+            "ja": "暇かったです"
+          }
+        ],
+        [
+          {
+            "ja": "暇だでした"
+          }
+        ],
+        [
+          {
+            "ja": "暇なでした"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.12-1.explanation"
+    },
+    {
+      "id": "minna.question.12-2",
+      "prompt": [
+        {
+          "ja": "旅行は（　）。"
+        }
+      ],
+      "instructionId": "minna.question.12-2.translation",
+      "options": [
+        [
+          {
+            "ja": "楽しいでした"
+          }
+        ],
+        [
+          {
+            "ja": "楽しかったです"
+          }
+        ],
+        [
+          {
+            "ja": "楽しくでした"
+          }
+        ],
+        [
+          {
+            "ja": "楽しかったでした"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.12-2.explanation"
+    },
+    {
+      "id": "minna.question.12-3",
+      "prompt": [
+        {
+          "ja": "新幹線はバス（　）速いです。"
+        }
+      ],
+      "instructionId": "minna.question.12-3.translation",
+      "options": [
+        [
+          {
+            "ja": "ほどの"
+          }
+        ],
+        [
+          {
+            "ja": "まで"
+          }
+        ],
+        [
+          {
+            "ja": "より"
+          }
+        ],
+        [
+          {
+            "ja": "からに"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.12-3.explanation"
+    },
+    {
+      "id": "minna.question.12-4",
+      "prompt": [
+        {
+          "ja": "A：夏と冬とどちらが好きですか。 B：冬（　）好きです。"
+        }
+      ],
+      "instructionId": "minna.question.12-4.translation",
+      "options": [
+        [
+          {
+            "ja": "よりが"
+          }
+        ],
+        [
+          {
+            "ja": "の中でが"
+          }
+        ],
+        [
+          {
+            "ja": "とほうが"
+          }
+        ],
+        [
+          {
+            "ja": "のほうが"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.12-4.explanation"
+    },
+    {
+      "id": "minna.question.12-5",
+      "prompt": [
+        {
+          "ja": "果物（　）、何がいちばん好きですか。"
+        }
+      ],
+      "instructionId": "minna.question.12-5.translation",
+      "options": [
+        [
+          {
+            "ja": "の中で"
+          }
+        ],
+        [
+          {
+            "ja": "より"
+          }
+        ],
+        [
+          {
+            "ja": "のほうが"
+          }
+        ],
+        [
+          {
+            "ja": "とどちら"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.12-5.explanation"
+    },
+    {
+      "id": "minna.question.12-6",
+      "prompt": [
+        {
+          "ja": "昨日の試験はあまり（　）。"
+        }
+      ],
+      "instructionId": "minna.question.12-6.translation",
+      "options": [
+        [
+          {
+            "ja": "難しいじゃなかったです"
+          }
+        ],
+        [
+          {
+            "ja": "難しくなかったです"
+          }
+        ],
+        [
+          {
+            "ja": "難しくないでした"
+          }
+        ],
+        [
+          {
+            "ja": "難しかったです"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.12-6.explanation"
+    },
+    {
+      "id": "minna.question.12-7",
+      "prompt": [
+        {
+          "ja": "先週の月曜日は（　）。"
+        }
+      ],
+      "instructionId": "minna.question.12-7.translation",
+      "options": [
+        [
+          {
+            "ja": "休みくなかったです"
+          }
+        ],
+        [
+          {
+            "ja": "休みじゃないでした"
+          }
+        ],
+        [
+          {
+            "ja": "休みじゃありませんでした"
+          }
+        ],
+        [
+          {
+            "ja": "休みませんでした"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.12-7.explanation"
+    },
+    {
+      "id": "minna.question.12-8",
+      "prompt": [
+        {
+          "ja": "天気は（　）。"
+        }
+      ],
+      "instructionId": "minna.question.12-8.translation",
+      "options": [
+        [
+          {
+            "ja": "いかったです"
+          }
+        ],
+        [
+          {
+            "ja": "いいでした"
+          }
+        ],
+        [
+          {
+            "ja": "よくでした"
+          }
+        ],
+        [
+          {
+            "ja": "よかったです"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.12-8.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.571"
+    },
+    {
+      "wordId": "word.572"
+    },
+    {
+      "wordId": "word.573"
+    },
+    {
+      "wordId": "word.574"
+    },
+    {
+      "wordId": "word.575"
+    },
+    {
+      "wordId": "word.576"
+    },
+    {
+      "wordId": "word.577"
+    },
+    {
+      "wordId": "word.578"
+    },
+    {
+      "wordId": "word.579"
+    },
+    {
+      "wordId": "word.580"
+    },
+    {
+      "wordId": "word.581"
+    },
+    {
+      "wordId": "word.582"
+    },
+    {
+      "wordId": "word.583"
+    },
+    {
+      "wordId": "word.584"
+    },
+    {
+      "wordId": "word.585"
+    },
+    {
+      "wordId": "word.586"
+    },
+    {
+      "wordId": "word.587"
+    },
+    {
+      "wordId": "word.588"
+    },
+    {
+      "wordId": "word.589"
+    },
+    {
+      "wordId": "word.590"
+    },
+    {
+      "wordId": "word.591"
+    },
+    {
+      "wordId": "word.592"
+    },
+    {
+      "wordId": "word.593"
+    },
+    {
+      "wordId": "word.594"
+    },
+    {
+      "wordId": "word.595"
+    },
+    {
+      "wordId": "word.596"
+    },
+    {
+      "wordId": "word.597"
+    },
+    {
+      "wordId": "word.598"
+    },
+    {
+      "wordId": "word.599"
+    },
+    {
+      "wordId": "word.600"
+    },
+    {
+      "wordId": "word.601"
+    },
+    {
+      "wordId": "word.602"
+    },
+    {
+      "wordId": "word.603"
+    },
+    {
+      "wordId": "word.604"
+    },
+    {
+      "wordId": "word.605"
+    },
+    {
+      "wordId": "word.606"
+    },
+    {
+      "wordId": "word.607"
+    },
+    {
+      "wordId": "word.608"
+    },
+    {
+      "wordId": "word.609"
+    },
+    {
+      "wordId": "word.610"
+    },
+    {
+      "wordId": "word.611"
+    },
+    {
+      "wordId": "word.612"
+    },
+    {
+      "wordId": "word.613"
+    },
+    {
+      "wordId": "word.614"
+    },
+    {
+      "wordId": "word.615"
+    },
+    {
+      "wordId": "word.616"
+    },
+    {
+      "wordId": "word.617"
+    }
+  ]
+}

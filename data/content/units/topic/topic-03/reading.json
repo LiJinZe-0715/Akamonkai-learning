@@ -1,0 +1,756 @@
+{
+  "id": "topic-3-reading",
+  "bookId": "topic",
+  "titleJa": "読解：地震",
+  "groupJa": "Topic 3",
+  "articles": [
+    {
+      "id": "topic.3.reading.summary",
+      "titleJa": "読解・内容のまとめ",
+      "paragraphIds": [
+        "topic.3.reading.summary.0",
+        "topic.3.reading.summary.1",
+        "topic.3.reading.summary.2",
+        "topic.3.reading.summary.3"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.3.reading.grammar.0",
+      "titleJa": "～ように言う／頼む／注意する",
+      "paragraphIds": [
+        "topic.3.reading.grammar.0.meaning",
+        "topic.3.reading.grammar.0.join",
+        "topic.3.reading.grammar.0.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.3.reading.grammar.1",
+      "titleJa": "～ため（に）【原因】",
+      "paragraphIds": [
+        "topic.3.reading.grammar.1.meaning",
+        "topic.3.reading.grammar.1.join",
+        "topic.3.reading.grammar.1.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.3.reading.grammar.2",
+      "titleJa": "～を中心に（して）",
+      "paragraphIds": [
+        "topic.3.reading.grammar.2.meaning",
+        "topic.3.reading.grammar.2.join",
+        "topic.3.reading.grammar.2.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.3.reading.grammar.3",
+      "titleJa": "～ことがある",
+      "paragraphIds": [
+        "topic.3.reading.grammar.3.meaning",
+        "topic.3.reading.grammar.3.join",
+        "topic.3.reading.grammar.3.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.3.reading.examples",
+      "titleJa": "例文の解説",
+      "paragraphIds": [],
+      "examples": [
+        {
+          "ja": "中山先生にこのCDを木村先生に渡すように言われたんですが……。",
+          "translationId": "topic.3.reading.example.0.zh",
+          "analysisId": "topic.3.reading.example.0.analysis"
+        },
+        {
+          "ja": "妻にケーキを買ってくるように頼まれました。",
+          "translationId": "topic.3.reading.example.1.zh",
+          "analysisId": "topic.3.reading.example.1.analysis"
+        },
+        {
+          "ja": "子どもの頃、両親にうそをつかないように注意されました。",
+          "translationId": "topic.3.reading.example.2.zh",
+          "analysisId": "topic.3.reading.example.2.analysis"
+        },
+        {
+          "ja": "出席率が悪かったために、彼は学校をやめて、帰国しなければならなかった。",
+          "translationId": "topic.3.reading.example.3.zh",
+          "analysisId": "topic.3.reading.example.3.analysis"
+        },
+        {
+          "ja": "工事中のため、この道は通れません。",
+          "translationId": "topic.3.reading.example.4.zh",
+          "analysisId": "topic.3.reading.example.4.analysis"
+        },
+        {
+          "ja": "明日は東京を中心にして、関東地方で大雨が降るでしょう。",
+          "translationId": "topic.3.reading.example.5.zh",
+          "analysisId": "topic.3.reading.example.5.analysis"
+        },
+        {
+          "ja": "新幹線はあまり止まらないが、雪の日は止まることがある。",
+          "translationId": "topic.3.reading.example.6.zh",
+          "analysisId": "topic.3.reading.example.6.analysis"
+        },
+        {
+          "ja": "晩ご飯はたいてい家で食べるが、帰りが遅い日は食べないこともある。",
+          "translationId": "topic.3.reading.example.7.zh",
+          "analysisId": "topic.3.reading.example.7.analysis"
+        },
+        {
+          "ja": "このような悲劇をくり返さないように",
+          "translationId": "topic.3.reading.example.8.zh",
+          "analysisId": "topic.3.reading.example.8.analysis"
+        },
+        {
+          "ja": "大地震が起こるかもしれない",
+          "translationId": "topic.3.reading.example.9.zh",
+          "analysisId": "topic.3.reading.example.9.analysis"
+        },
+        {
+          "ja": "動物が異常な行動をしたりすることがある",
+          "translationId": "topic.3.reading.example.10.zh",
+          "analysisId": "topic.3.reading.example.10.analysis"
+        },
+        {
+          "ja": "向上していくことは間違いない",
+          "translationId": "topic.3.reading.example.11.zh",
+          "analysisId": "topic.3.reading.example.11.analysis"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "topic.3.reading.supplement",
+      "titleJa": "補充読解・練習（オリジナル）",
+      "paragraphIds": [
+        "reading.supplement.instruction"
+      ],
+      "examples": [
+        {
+          "ja": "地震がいつ起こるかを正確に知るのは難しい。しかし、家具が倒れないようにしたり、避難する場所を確認したりすることはできる。こうした備えは、地震による被害を減らすために大切である。動物の様子がいつもと違っていても、それだけで地震が起こるとは言えない。",
+          "translationId": "topic.3.reading.supplement.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "topic.3.reading.question.0",
+      "prompt": [
+        {
+          "ja": "先生に、レポートを（出す）＿＿ように言われました。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "出す"
+          }
+        ],
+        [
+          {
+            "ja": "出して"
+          }
+        ],
+        [
+          {
+            "ja": "出します"
+          }
+        ],
+        [
+          {
+            "ja": "出したで"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.3.reading.question.0.reason"
+    },
+    {
+      "id": "topic.3.reading.question.1",
+      "prompt": [
+        {
+          "ja": "母に、うそを（つかない）＿＿ように注意されました。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "つかなく"
+          }
+        ],
+        [
+          {
+            "ja": "つかないで"
+          }
+        ],
+        [
+          {
+            "ja": "つかない"
+          }
+        ],
+        [
+          {
+            "ja": "つきません"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.3.reading.question.1.reason"
+    },
+    {
+      "id": "topic.3.reading.question.2",
+      "prompt": [
+        {
+          "ja": "妻にケーキを買って＿＿ように頼まれました。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "きます"
+          }
+        ],
+        [
+          {
+            "ja": "きて"
+          }
+        ],
+        [
+          {
+            "ja": "きたで"
+          }
+        ],
+        [
+          {
+            "ja": "くる"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.3.reading.question.2.reason"
+    },
+    {
+      "id": "topic.3.reading.question.3",
+      "prompt": [
+        {
+          "ja": "工事中＿＿ため、この道は通れません。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "な"
+          }
+        ],
+        [
+          {
+            "ja": "の"
+          }
+        ],
+        [
+          {
+            "ja": "だ"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.3.reading.question.3.reason"
+    },
+    {
+      "id": "topic.3.reading.question.4",
+      "prompt": [
+        {
+          "ja": "交通が（不便だ）＿＿ため、車が必要です。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "不便な"
+          }
+        ],
+        [
+          {
+            "ja": "不便の"
+          }
+        ],
+        [
+          {
+            "ja": "不便だ"
+          }
+        ],
+        [
+          {
+            "ja": "不便に"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.3.reading.question.4.reason"
+    },
+    {
+      "id": "topic.3.reading.question.5",
+      "prompt": [
+        {
+          "ja": "風が（強い）＿＿ため、船が出ません。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "強いな"
+          }
+        ],
+        [
+          {
+            "ja": "強いの"
+          }
+        ],
+        [
+          {
+            "ja": "強い"
+          }
+        ],
+        [
+          {
+            "ja": "強くだ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.3.reading.question.5.reason"
+    },
+    {
+      "id": "topic.3.reading.question.6",
+      "prompt": [
+        {
+          "ja": "新幹線が（止まる）＿＿ために、会議に間に合いませんでした。"
+        },
+        {
+          "textId": "topic.3.reading.question.6.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "止まりました"
+          }
+        ],
+        [
+          {
+            "ja": "止まっての"
+          }
+        ],
+        [
+          {
+            "ja": "止まっただ"
+          }
+        ],
+        [
+          {
+            "ja": "止まった"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.3.reading.question.6.reason"
+    },
+    {
+      "id": "topic.3.reading.question.7",
+      "prompt": [
+        {
+          "ja": "東京＿＿中心にして、関東地方で大雨が降るでしょう。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "が"
+          }
+        ],
+        [
+          {
+            "ja": "の"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.3.reading.question.7.reason"
+    },
+    {
+      "id": "topic.3.reading.question.8",
+      "prompt": [
+        {
+          "ja": "雪の日は、新幹線が＿＿ことがあります。"
+        },
+        {
+          "textId": "topic.3.reading.question.8.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "止まる"
+          }
+        ],
+        [
+          {
+            "ja": "止まった"
+          }
+        ],
+        [
+          {
+            "ja": "止まって"
+          }
+        ],
+        [
+          {
+            "ja": "止まります"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.3.reading.question.8.reason"
+    },
+    {
+      "id": "topic.3.reading.question.9",
+      "prompt": [
+        {
+          "ja": "忙しい日は晩ご飯を＿＿こともあります。"
+        },
+        {
+          "textId": "topic.3.reading.question.9.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "食べなく"
+          }
+        ],
+        [
+          {
+            "ja": "食べないで"
+          }
+        ],
+        [
+          {
+            "ja": "食べない"
+          }
+        ],
+        [
+          {
+            "ja": "食べません"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.3.reading.question.9.reason"
+    },
+    {
+      "id": "topic.3.reading.supplement.question.0",
+      "prompt": [
+        {
+          "ja": "地震がいつ起こるかを正確に知るのは難しい。しかし、家具が倒れないようにしたり、避難する場所を確認したりすることはできる。こうした備えは、地震による被害を減らすために大切である。動物の様子がいつもと違っていても、それだけで地震が起こるとは言えない。\n\n【補充読解】この文章で最も伝えたいことは何ですか。"
+        }
+      ],
+      "instructionId": "reading.supplement.instruction",
+      "options": [
+        [
+          {
+            "ja": "動物を見れば地震の時刻が分かる。"
+          }
+        ],
+        [
+          {
+            "ja": "地震の予測が難しくても、被害を減らす備えはできる。"
+          }
+        ],
+        [
+          {
+            "ja": "家具を減らせば地震は起こらない。"
+          }
+        ],
+        [
+          {
+            "ja": "避難する場所を確認する必要はない。"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.3.reading.supplement.question.0.explanation"
+    },
+    {
+      "id": "topic.3.reading.supplement.question.1",
+      "prompt": [
+        {
+          "ja": "地震がいつ起こるかを正確に知るのは難しい。しかし、家具が倒れないようにしたり、避難する場所を確認したりすることはできる。こうした備えは、地震による被害を減らすために大切である。動物の様子がいつもと違っていても、それだけで地震が起こるとは言えない。\n\n【補充読解】文章に書かれている備えはどれですか。"
+        }
+      ],
+      "instructionId": "reading.supplement.instruction",
+      "options": [
+        [
+          {
+            "ja": "家具が倒れないようにする。"
+          }
+        ],
+        [
+          {
+            "ja": "毎日動物を数える。"
+          }
+        ],
+        [
+          {
+            "ja": "地震の日を決める。"
+          }
+        ],
+        [
+          {
+            "ja": "すべての家具を外に捨てる。"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.3.reading.supplement.question.1.explanation"
+    },
+    {
+      "id": "topic.3.reading.supplement.question.2",
+      "prompt": [
+        {
+          "ja": "地震がいつ起こるかを正確に知るのは難しい。しかし、家具が倒れないようにしたり、避難する場所を確認したりすることはできる。こうした備えは、地震による被害を減らすために大切である。動物の様子がいつもと違っていても、それだけで地震が起こるとは言えない。\n\n【補充読解】「こうした備え」は何を指していますか。"
+        }
+      ],
+      "instructionId": "reading.supplement.instruction",
+      "options": [
+        [
+          {
+            "ja": "動物の様子の変化だけ。"
+          }
+        ],
+        [
+          {
+            "ja": "地震が起こる時刻だけ。"
+          }
+        ],
+        [
+          {
+            "ja": "家具の転倒防止と避難場所の確認。"
+          }
+        ],
+        [
+          {
+            "ja": "家具を買うこと。"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.3.reading.supplement.question.2.explanation"
+    },
+    {
+      "id": "topic.3.reading.supplement.question.3",
+      "prompt": [
+        {
+          "ja": "地震がいつ起こるかを正確に知るのは難しい。しかし、家具が倒れないようにしたり、避難する場所を確認したりすることはできる。こうした備えは、地震による被害を減らすために大切である。動物の様子がいつもと違っていても、それだけで地震が起こるとは言えない。\n\n【補充読解】動物の様子だけで地震を判断できないとする文はどれですか。"
+        }
+      ],
+      "instructionId": "reading.supplement.instruction",
+      "options": [
+        [
+          {
+            "ja": "家具が倒れないようにする。"
+          }
+        ],
+        [
+          {
+            "ja": "避難する場所を確認する。"
+          }
+        ],
+        [
+          {
+            "ja": "被害を減らすために大切である。"
+          }
+        ],
+        [
+          {
+            "ja": "それだけで地震が起こるとは言えない。"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.3.reading.supplement.question.3.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "topic.3.reading.word.0"
+    },
+    {
+      "wordId": "topic.3.reading.word.1"
+    },
+    {
+      "wordId": "topic.3.reading.word.2"
+    },
+    {
+      "wordId": "topic.3.reading.word.3"
+    },
+    {
+      "wordId": "topic.3.reading.word.4"
+    },
+    {
+      "wordId": "topic.3.reading.word.5"
+    },
+    {
+      "wordId": "topic.3.reading.word.6"
+    },
+    {
+      "wordId": "topic.3.reading.word.7"
+    },
+    {
+      "wordId": "topic.3.reading.word.8"
+    },
+    {
+      "wordId": "topic.3.reading.word.9"
+    },
+    {
+      "wordId": "topic.3.reading.word.10"
+    },
+    {
+      "wordId": "topic.3.reading.word.11"
+    },
+    {
+      "wordId": "topic.3.reading.word.12"
+    },
+    {
+      "wordId": "topic.3.reading.word.13"
+    },
+    {
+      "wordId": "topic.3.reading.word.14"
+    },
+    {
+      "wordId": "topic.3.reading.word.15"
+    },
+    {
+      "wordId": "topic.3.reading.word.16"
+    },
+    {
+      "wordId": "topic.3.reading.word.17"
+    },
+    {
+      "wordId": "topic.3.reading.word.18"
+    },
+    {
+      "wordId": "topic.3.reading.word.19"
+    },
+    {
+      "wordId": "topic.3.reading.word.20"
+    },
+    {
+      "wordId": "topic.3.reading.word.21"
+    },
+    {
+      "wordId": "topic.3.reading.word.22"
+    },
+    {
+      "wordId": "topic.3.reading.word.23"
+    },
+    {
+      "wordId": "topic.3.reading.word.24"
+    },
+    {
+      "wordId": "topic.3.reading.word.25"
+    },
+    {
+      "wordId": "topic.3.reading.word.26"
+    },
+    {
+      "wordId": "topic.3.reading.word.27"
+    },
+    {
+      "wordId": "topic.3.reading.word.28"
+    },
+    {
+      "wordId": "topic.3.reading.word.29"
+    },
+    {
+      "wordId": "topic.3.reading.word.30"
+    },
+    {
+      "wordId": "topic.3.reading.word.31"
+    },
+    {
+      "wordId": "topic.3.reading.word.32"
+    },
+    {
+      "wordId": "topic.3.reading.word.33"
+    },
+    {
+      "wordId": "topic.3.reading.word.34"
+    },
+    {
+      "wordId": "topic.3.reading.word.35"
+    },
+    {
+      "wordId": "topic.3.reading.word.36"
+    },
+    {
+      "wordId": "topic.3.reading.word.37"
+    },
+    {
+      "wordId": "topic.3.reading.word.38"
+    }
+  ]
+}

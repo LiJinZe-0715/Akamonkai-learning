@@ -1,0 +1,550 @@
+{
+  "id": "day12-degree",
+  "bookId": "n2",
+  "titleJa": "程度",
+  "groupJa": "文法",
+  "articles": [
+    {
+      "id": "n2.day12-degree.grammar.0",
+      "titleJa": "～どころか",
+      "paragraphIds": [
+        "n2.day12-degree.grammar.0.anchor",
+        "n2.day12-degree.grammar.0.logic",
+        "n2.day12-degree.grammar.0.connection",
+        "n2.day12-degree.grammar.0.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "日本語が上手になるどころか、前より話せなくなった。",
+          "translationId": "n2.day12-degree.grammar.0.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day12-degree.grammar.1",
+      "titleJa": "～どころではない",
+      "paragraphIds": [
+        "n2.day12-degree.grammar.1.anchor",
+        "n2.day12-degree.grammar.1.logic",
+        "n2.day12-degree.grammar.1.connection",
+        "n2.day12-degree.grammar.1.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "忙しくて、旅行どころではない。",
+          "translationId": "n2.day12-degree.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day12-degree.grammar.2",
+      "titleJa": "～くらいなら",
+      "paragraphIds": [
+        "n2.day12-degree.grammar.2.anchor",
+        "n2.day12-degree.grammar.2.logic",
+        "n2.day12-degree.grammar.2.connection",
+        "n2.day12-degree.grammar.2.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "嫌いな仕事を続けるくらいなら、辞めたほうがいい。",
+          "translationId": "n2.day12-degree.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day12-degree.grammar.3",
+      "titleJa": "～ほど",
+      "paragraphIds": [
+        "n2.day12-degree.grammar.3.anchor",
+        "n2.day12-degree.grammar.3.logic",
+        "n2.day12-degree.grammar.3.connection",
+        "n2.day12-degree.grammar.3.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "声が出ないほど緊張した。",
+          "translationId": "n2.day12-degree.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day12-degree.grammar.4",
+      "titleJa": "～ば～ほど",
+      "paragraphIds": [
+        "n2.day12-degree.grammar.4.anchor",
+        "n2.day12-degree.grammar.4.logic",
+        "n2.day12-degree.grammar.4.connection",
+        "n2.day12-degree.grammar.4.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "日本語は勉強すればするほど、面白くなる。",
+          "translationId": "n2.day12-degree.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day12-degree.grammar.5",
+      "titleJa": "～てまで",
+      "paragraphIds": [
+        "n2.day12-degree.grammar.5.anchor",
+        "n2.day12-degree.grammar.5.logic",
+        "n2.day12-degree.grammar.5.connection",
+        "n2.day12-degree.grammar.5.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "借金してまで、その車を買いたくない。",
+          "translationId": "n2.day12-degree.grammar.5.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day12-degree.grammar.6",
+      "titleJa": "～までして",
+      "paragraphIds": [
+        "n2.day12-degree.grammar.6.anchor",
+        "n2.day12-degree.grammar.6.logic",
+        "n2.day12-degree.grammar.6.connection",
+        "n2.day12-degree.grammar.6.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "借金までして、その車を買う必要があるのだろうか。",
+          "translationId": "n2.day12-degree.grammar.6.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "n2.day12-degree.question.0",
+      "prompt": [
+        {
+          "ja": "旅行は楽しかった（　）、雨ばかりで外にも出られなかった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "どころか"
+          }
+        ],
+        [
+          {
+            "ja": "どころではなく"
+          }
+        ],
+        [
+          {
+            "ja": "くらいなら"
+          }
+        ],
+        [
+          {
+            "ja": "ほど"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day12-degree.question.0.explanation",
+      "instructionId": "n2.day12-degree.question.0.anchor"
+    },
+    {
+      "id": "n2.day12-degree.question.1",
+      "prompt": [
+        {
+          "ja": "彼は日本語（　）、英語も中国語も話せる。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "どころか"
+          }
+        ],
+        [
+          {
+            "ja": "どころではない"
+          }
+        ],
+        [
+          {
+            "ja": "てまで"
+          }
+        ],
+        [
+          {
+            "ja": "くらいなら"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day12-degree.question.1.explanation",
+      "instructionId": "n2.day12-degree.question.1.anchor"
+    },
+    {
+      "id": "n2.day12-degree.question.2",
+      "prompt": [
+        {
+          "ja": "明日の試験の準備が終わっていなくて、映画（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "どころではない"
+          }
+        ],
+        [
+          {
+            "ja": "どころか"
+          }
+        ],
+        [
+          {
+            "ja": "ほどではない"
+          }
+        ],
+        [
+          {
+            "ja": "までして"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day12-degree.question.2.explanation",
+      "instructionId": "n2.day12-degree.question.2.anchor"
+    },
+    {
+      "id": "n2.day12-degree.question.3",
+      "prompt": [
+        {
+          "ja": "会社が倒産しそうなのに、ボーナス（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "くらいなら"
+          }
+        ],
+        [
+          {
+            "ja": "どころか"
+          }
+        ],
+        [
+          {
+            "ja": "どころではない"
+          }
+        ],
+        [
+          {
+            "ja": "ほど"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day12-degree.question.3.explanation",
+      "instructionId": "n2.day12-degree.question.3.anchor"
+    },
+    {
+      "id": "n2.day12-degree.question.4",
+      "prompt": [
+        {
+          "ja": "毎日文句を言われながらここで働く（　）、辞めたほうがましだ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ほど"
+          }
+        ],
+        [
+          {
+            "ja": "くらいなら"
+          }
+        ],
+        [
+          {
+            "ja": "どころか"
+          }
+        ],
+        [
+          {
+            "ja": "てまで"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day12-degree.question.4.explanation",
+      "instructionId": "n2.day12-degree.question.4.anchor"
+    },
+    {
+      "id": "n2.day12-degree.question.5",
+      "prompt": [
+        {
+          "ja": "好きでもない人と結婚する（　）、一人でいるほうがいい。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "くらいなら"
+          }
+        ],
+        [
+          {
+            "ja": "どころではない"
+          }
+        ],
+        [
+          {
+            "ja": "までして"
+          }
+        ],
+        [
+          {
+            "ja": "ほど"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day12-degree.question.5.explanation",
+      "instructionId": "n2.day12-degree.question.5.anchor"
+    },
+    {
+      "id": "n2.day12-degree.question.6",
+      "prompt": [
+        {
+          "ja": "立っていられない（　）疲れていた。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "どころか"
+          }
+        ],
+        [
+          {
+            "ja": "ほど"
+          }
+        ],
+        [
+          {
+            "ja": "ば～ほど"
+          }
+        ],
+        [
+          {
+            "ja": "までして"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day12-degree.question.6.explanation",
+      "instructionId": "n2.day12-degree.question.6.anchor"
+    },
+    {
+      "id": "n2.day12-degree.question.7",
+      "prompt": [
+        {
+          "ja": "会場は声が聞こえない（　）にぎやかだった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "くらいなら"
+          }
+        ],
+        [
+          {
+            "ja": "ほど"
+          }
+        ],
+        [
+          {
+            "ja": "どころではない"
+          }
+        ],
+        [
+          {
+            "ja": "てまで"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day12-degree.question.7.explanation",
+      "instructionId": "n2.day12-degree.question.7.anchor"
+    },
+    {
+      "id": "n2.day12-degree.question.8",
+      "prompt": [
+        {
+          "ja": "この問題は考えれ（　）、分からなくなる。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ば考えるほど"
+          }
+        ],
+        [
+          {
+            "ja": "るほど"
+          }
+        ],
+        [
+          {
+            "ja": "てまで"
+          }
+        ],
+        [
+          {
+            "ja": "どころか"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day12-degree.question.8.explanation",
+      "instructionId": "n2.day12-degree.question.8.anchor"
+    },
+    {
+      "id": "n2.day12-degree.question.9",
+      "prompt": [
+        {
+          "ja": "荷物は少なけれ（　）、移動が楽になる。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "どころか"
+          }
+        ],
+        [
+          {
+            "ja": "ば少ないほど"
+          }
+        ],
+        [
+          {
+            "ja": "ほど"
+          }
+        ],
+        [
+          {
+            "ja": "てまで"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day12-degree.question.9.explanation",
+      "instructionId": "n2.day12-degree.question.9.anchor"
+    },
+    {
+      "id": "n2.day12-degree.question.10",
+      "prompt": [
+        {
+          "ja": "健康を壊して（　）、お金を稼ぐ必要はない。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "まで"
+          }
+        ],
+        [
+          {
+            "ja": "ほど"
+          }
+        ],
+        [
+          {
+            "ja": "どころか"
+          }
+        ],
+        [
+          {
+            "ja": "くらいなら"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day12-degree.question.10.explanation",
+      "instructionId": "n2.day12-degree.question.10.anchor"
+    },
+    {
+      "id": "n2.day12-degree.question.11",
+      "prompt": [
+        {
+          "ja": "借金（　）、高級車を買う気持ちは理解できない。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "までして"
+          }
+        ],
+        [
+          {
+            "ja": "どころではなく"
+          }
+        ],
+        [
+          {
+            "ja": "ほど"
+          }
+        ],
+        [
+          {
+            "ja": "ば～ほど"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day12-degree.question.11.explanation",
+      "instructionId": "n2.day12-degree.question.11.anchor"
+    }
+  ],
+  "wordRefs": []
+}

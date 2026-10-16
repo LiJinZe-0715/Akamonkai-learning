@@ -1,0 +1,443 @@
+{
+  "id": "minna-19",
+  "bookId": "minna",
+  "titleJa": "第19課",
+  "groupJa": "初級Ⅰ",
+  "articles": [
+    {
+      "id": "minna.lesson.19.grammar.1",
+      "titleJa": "Vた形＋ことがあります",
+      "paragraphIds": [
+        "minna.lesson.19.grammar.1.meaning",
+        "minna.lesson.19.grammar.1.note",
+        "minna.lesson.19.grammar.1.formation"
+      ],
+      "examples": [
+        {
+          "ja": "富士山に登ったことがあります。",
+          "translationId": "minna.lesson.19.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.19.grammar.2",
+      "titleJa": "Vたり、Vたりします",
+      "paragraphIds": [
+        "minna.lesson.19.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "日曜日は本を読んだり、散歩したりします。",
+          "translationId": "minna.lesson.19.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.19.grammar.3",
+      "titleJa": "い形容詞く なります",
+      "paragraphIds": [
+        "minna.lesson.19.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "だんだん暖かくなりました。",
+          "translationId": "minna.lesson.19.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.19.grammar.4",
+      "titleJa": "な形容詞／N に なります",
+      "paragraphIds": [
+        "minna.lesson.19.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "妹は医者になりました。",
+          "translationId": "minna.lesson.19.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.19-1",
+      "prompt": [
+        {
+          "ja": "北海道へ（　）ことがあります。"
+        }
+      ],
+      "instructionId": "minna.question.19-1.translation",
+      "options": [
+        [
+          {
+            "ja": "行く"
+          }
+        ],
+        [
+          {
+            "ja": "行って"
+          }
+        ],
+        [
+          {
+            "ja": "行き"
+          }
+        ],
+        [
+          {
+            "ja": "行った"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.19-1.explanation"
+    },
+    {
+      "id": "minna.question.19-2",
+      "prompt": [
+        {
+          "ja": "休みの日は、本を（　）、映画を見たりします。"
+        }
+      ],
+      "instructionId": "minna.question.19-2.translation",
+      "options": [
+        [
+          {
+            "ja": "読んだり"
+          }
+        ],
+        [
+          {
+            "ja": "読みたり"
+          }
+        ],
+        [
+          {
+            "ja": "読んでたり"
+          }
+        ],
+        [
+          {
+            "ja": "読むたり"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.19-2.explanation"
+    },
+    {
+      "id": "minna.question.19-3",
+      "prompt": [
+        {
+          "ja": "最近、だんだん（　）なりました。"
+        }
+      ],
+      "instructionId": "minna.question.19-3.translation",
+      "options": [
+        [
+          {
+            "ja": "寒いに"
+          }
+        ],
+        [
+          {
+            "ja": "寒く"
+          }
+        ],
+        [
+          {
+            "ja": "寒い"
+          }
+        ],
+        [
+          {
+            "ja": "寒くて"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.19-3.explanation"
+    },
+    {
+      "id": "minna.question.19-4",
+      "prompt": [
+        {
+          "ja": "兄は医者（　）なりました。"
+        }
+      ],
+      "instructionId": "minna.question.19-4.translation",
+      "options": [
+        [
+          {
+            "ja": "で"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "が"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.19-4.explanation"
+    },
+    {
+      "id": "minna.question.19-5",
+      "prompt": [
+        {
+          "ja": "泳ぐ → た形"
+        }
+      ],
+      "instructionId": "minna.question.19-5.translation",
+      "options": [
+        [
+          {
+            "ja": "泳いた"
+          }
+        ],
+        [
+          {
+            "ja": "泳った"
+          }
+        ],
+        [
+          {
+            "ja": "泳ぎた"
+          }
+        ],
+        [
+          {
+            "ja": "泳いだ"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.19-5.explanation"
+    },
+    {
+      "id": "minna.question.19-6",
+      "prompt": [
+        {
+          "ja": "する／来る → "
+        },
+        {
+          "textId": "minna.question.19-6.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.19-6.translation",
+      "options": [
+        [
+          {
+            "ja": "した／きた"
+          }
+        ],
+        [
+          {
+            "ja": "すた／くた"
+          }
+        ],
+        [
+          {
+            "ja": "しった／こた"
+          }
+        ],
+        [
+          {
+            "ja": "した／くらた"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.19-6.explanation"
+    },
+    {
+      "id": "minna.question.19-7",
+      "prompt": [
+        {
+          "ja": "「掃除したり、買い物したりしました」の説明として合うものは？"
+        }
+      ],
+      "instructionId": "minna.question.19-7.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.19-7.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.19-7.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.19-7.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.19-7.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.19-7.explanation"
+    },
+    {
+      "id": "minna.question.19-8",
+      "prompt": [
+        {
+          "ja": "部屋が（　）なりました。"
+        }
+      ],
+      "instructionId": "minna.question.19-8.translation",
+      "options": [
+        [
+          {
+            "ja": "きれく"
+          }
+        ],
+        [
+          {
+            "ja": "きれいく"
+          }
+        ],
+        [
+          {
+            "ja": "きれいに"
+          }
+        ],
+        [
+          {
+            "ja": "きれいな"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.19-8.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.841"
+    },
+    {
+      "wordId": "word.842"
+    },
+    {
+      "wordId": "word.843"
+    },
+    {
+      "wordId": "word.844"
+    },
+    {
+      "wordId": "word.845"
+    },
+    {
+      "wordId": "word.846"
+    },
+    {
+      "wordId": "word.847"
+    },
+    {
+      "wordId": "word.848"
+    },
+    {
+      "wordId": "word.849"
+    },
+    {
+      "wordId": "word.850"
+    },
+    {
+      "wordId": "word.851"
+    },
+    {
+      "wordId": "word.852"
+    },
+    {
+      "wordId": "word.853"
+    },
+    {
+      "wordId": "word.854"
+    },
+    {
+      "wordId": "word.855"
+    },
+    {
+      "wordId": "word.856"
+    },
+    {
+      "wordId": "word.857"
+    },
+    {
+      "wordId": "word.858"
+    },
+    {
+      "wordId": "word.859"
+    },
+    {
+      "wordId": "word.860"
+    },
+    {
+      "wordId": "word.861"
+    },
+    {
+      "wordId": "word.862"
+    },
+    {
+      "wordId": "word.863"
+    },
+    {
+      "wordId": "word.864"
+    },
+    {
+      "wordId": "word.865"
+    },
+    {
+      "wordId": "word.866"
+    },
+    {
+      "wordId": "word.867"
+    },
+    {
+      "wordId": "word.868"
+    },
+    {
+      "wordId": "word.869"
+    },
+    {
+      "wordId": "word.870"
+    }
+  ]
+}

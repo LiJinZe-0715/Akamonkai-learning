@@ -1,0 +1,517 @@
+{
+  "id": "minna-50",
+  "bookId": "minna",
+  "titleJa": "第50課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.50.grammar.1",
+      "titleJa": "謙譲語特別な動詞",
+      "paragraphIds": [
+        "minna.lesson.50.grammar.1.meaning",
+        "minna.lesson.50.grammar.1.note"
+      ],
+      "examples": [
+        {
+          "ja": "明日、先生の研究室へ伺います。",
+          "translationId": "minna.lesson.50.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.50.grammar.2",
+      "titleJa": "お＋Vます形（ますを取る）＋します",
+      "paragraphIds": [
+        "minna.lesson.50.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "荷物をお持ちします。",
+          "translationId": "minna.lesson.50.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.50.grammar.3",
+      "titleJa": "ご＋漢語＋します",
+      "paragraphIds": [
+        "minna.lesson.50.grammar.3.meaning",
+        "minna.lesson.50.grammar.3.note"
+      ],
+      "examples": [
+        {
+          "ja": "私が会議室をご案内します。",
+          "translationId": "minna.lesson.50.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.50.grammar.4",
+      "titleJa": "丁重語：参ります・おります等",
+      "paragraphIds": [
+        "minna.lesson.50.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "私は東京から参りました。",
+          "translationId": "minna.lesson.50.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.50-1",
+      "prompt": [
+        {
+          "ja": "先生の論文を（　）。"
+        }
+      ],
+      "instructionId": "minna.question.50-1.translation",
+      "options": [
+        [
+          {
+            "ja": "ご覧になりました"
+          }
+        ],
+        [
+          {
+            "ja": "召し上がりました"
+          }
+        ],
+        [
+          {
+            "ja": "拝見しました"
+          }
+        ],
+        [
+          {
+            "ja": "おっしゃいました"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.50-1.explanation"
+    },
+    {
+      "id": "minna.question.50-2",
+      "prompt": [
+        {
+          "ja": "お客様の荷物をお（　）します。"
+        }
+      ],
+      "instructionId": "minna.question.50-2.translation",
+      "options": [
+        [
+          {
+            "ja": "持って"
+          }
+        ],
+        [
+          {
+            "ja": "持つ"
+          }
+        ],
+        [
+          {
+            "ja": "持たれ"
+          }
+        ],
+        [
+          {
+            "ja": "持ち"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.50-2.explanation"
+    },
+    {
+      "id": "minna.question.50-3",
+      "prompt": [
+        {
+          "ja": "私が会議室まで（　）します。"
+        }
+      ],
+      "instructionId": "minna.question.50-3.translation",
+      "options": [
+        [
+          {
+            "ja": "ご案内"
+          }
+        ],
+        [
+          {
+            "ja": "お案内"
+          }
+        ],
+        [
+          {
+            "ja": "ご案内し"
+          }
+        ],
+        [
+          {
+            "ja": "ご案内になり"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.50-3.explanation"
+    },
+    {
+      "id": "minna.question.50-4",
+      "prompt": [
+        {
+          "ja": "私は大阪から（　）。"
+        }
+      ],
+      "instructionId": "minna.question.50-4.translation",
+      "options": [
+        [
+          {
+            "ja": "いらっしゃいました"
+          }
+        ],
+        [
+          {
+            "ja": "参りました"
+          }
+        ],
+        [
+          {
+            "ja": "お越しになりました"
+          }
+        ],
+        [
+          {
+            "ja": "来られなさいました"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.50-4.explanation"
+    },
+    {
+      "id": "minna.question.50-5",
+      "prompt": [
+        {
+          "ja": "明日、先生の研究室へ（　）。"
+        }
+      ],
+      "instructionId": "minna.question.50-5.translation",
+      "options": [
+        [
+          {
+            "ja": "いらっしゃいます"
+          }
+        ],
+        [
+          {
+            "ja": "お越しになります"
+          }
+        ],
+        [
+          {
+            "ja": "伺います"
+          }
+        ],
+        [
+          {
+            "ja": "ご覧になります"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.50-5.explanation"
+    },
+    {
+      "id": "minna.question.50-6",
+      "prompt": [
+        {
+          "textId": "minna.question.50-6.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.50-6.translation",
+      "options": [
+        [
+          {
+            "ja": "後ほどご確認ください。"
+          }
+        ],
+        [
+          {
+            "ja": "後ほどご確認になります。"
+          }
+        ],
+        [
+          {
+            "ja": "後ほどお確認いたします。"
+          }
+        ],
+        [
+          {
+            "ja": "後ほど確認いたします。"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.50-6.explanation"
+    },
+    {
+      "id": "minna.question.50-7",
+      "prompt": [
+        {
+          "ja": "お客様に電話で「では、明日また（　）」と伝えます。"
+        }
+      ],
+      "instructionId": "minna.question.50-7.translation",
+      "options": [
+        [
+          {
+            "ja": "お電話します"
+          }
+        ],
+        [
+          {
+            "ja": "ご電話します"
+          }
+        ],
+        [
+          {
+            "ja": "お電話になります"
+          }
+        ],
+        [
+          {
+            "ja": "お電話ください"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.50-7.explanation"
+    },
+    {
+      "id": "minna.question.50-8",
+      "prompt": [
+        {
+          "textId": "minna.question.50-8.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.50-8.translation",
+      "options": [
+        [
+          {
+            "ja": "部長の田中様は、ただいま席を外していらっしゃいます。"
+          }
+        ],
+        [
+          {
+            "ja": "部長の田中は、ただいま席を外しております。"
+          }
+        ],
+        [
+          {
+            "ja": "部長の田中は、ただいまお席を外しになられます。"
+          }
+        ],
+        [
+          {
+            "ja": "部長の田中は、ただいま席を外してくださいます。"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.50-8.explanation"
+    },
+    {
+      "id": "minna.question.50-9",
+      "prompt": [
+        {
+          "textId": "minna.question.50-9.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.50-9.translation",
+      "options": [
+        [
+          {
+            "ja": "お客様が参りました。"
+          }
+        ],
+        [
+          {
+            "ja": "お客様が伺いました。"
+          }
+        ],
+        [
+          {
+            "ja": "お客様がいらっしゃいました。"
+          }
+        ],
+        [
+          {
+            "ja": "お客様がお目にかかりました。"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.50-9.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.2113"
+    },
+    {
+      "wordId": "word.2114"
+    },
+    {
+      "wordId": "word.2115"
+    },
+    {
+      "wordId": "word.2116"
+    },
+    {
+      "wordId": "word.2117"
+    },
+    {
+      "wordId": "word.2118"
+    },
+    {
+      "wordId": "word.2119"
+    },
+    {
+      "wordId": "word.2120"
+    },
+    {
+      "wordId": "word.2121"
+    },
+    {
+      "wordId": "word.2122"
+    },
+    {
+      "wordId": "word.2123"
+    },
+    {
+      "wordId": "word.2124"
+    },
+    {
+      "wordId": "word.2125"
+    },
+    {
+      "wordId": "word.2126"
+    },
+    {
+      "wordId": "word.2127"
+    },
+    {
+      "wordId": "word.2128"
+    },
+    {
+      "wordId": "word.2129"
+    },
+    {
+      "wordId": "word.2130"
+    },
+    {
+      "wordId": "word.2131"
+    },
+    {
+      "wordId": "word.2132"
+    },
+    {
+      "wordId": "word.2133"
+    },
+    {
+      "wordId": "word.2134"
+    },
+    {
+      "wordId": "word.2135"
+    },
+    {
+      "wordId": "word.2136"
+    },
+    {
+      "wordId": "word.2137"
+    },
+    {
+      "wordId": "word.2138"
+    },
+    {
+      "wordId": "word.2139"
+    },
+    {
+      "wordId": "word.2140"
+    },
+    {
+      "wordId": "word.2141"
+    },
+    {
+      "wordId": "word.2142"
+    },
+    {
+      "wordId": "word.2143"
+    },
+    {
+      "wordId": "word.2144"
+    },
+    {
+      "wordId": "word.2145"
+    },
+    {
+      "wordId": "word.2146"
+    },
+    {
+      "wordId": "word.2147"
+    },
+    {
+      "wordId": "word.2148"
+    },
+    {
+      "wordId": "word.2149"
+    },
+    {
+      "wordId": "word.2150"
+    },
+    {
+      "wordId": "word.2151"
+    },
+    {
+      "wordId": "word.2152"
+    },
+    {
+      "wordId": "word.2153"
+    },
+    {
+      "wordId": "word.2154"
+    },
+    {
+      "wordId": "word.2155"
+    },
+    {
+      "wordId": "word.2156"
+    }
+  ]
+}

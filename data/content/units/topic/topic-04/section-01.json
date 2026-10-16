@@ -1,0 +1,565 @@
+{
+  "id": "topic-4-4-1",
+  "bookId": "topic",
+  "titleJa": "4-1 それぞれの夢",
+  "groupJa": "Topic 4",
+  "articles": [
+    {
+      "id": "topic.4.4-1.word-note",
+      "titleJa": "語彙の使い方",
+      "paragraphIds": [
+        "topic.4.4-1.wordNote"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.4.4-1.grammar.0",
+      "titleJa": "～たい",
+      "paragraphIds": [
+        "topic.4.4-1.grammar.0.meaning",
+        "topic.4.4-1.grammar.0.join",
+        "topic.4.4-1.grammar.0.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.4.4-1.grammar.1",
+      "titleJa": "～てみたい",
+      "paragraphIds": [
+        "topic.4.4-1.grammar.1.meaning",
+        "topic.4.4-1.grammar.1.join",
+        "topic.4.4-1.grammar.1.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.4.4-1.grammar.2",
+      "titleJa": "～たがっている／欲しがっている",
+      "paragraphIds": [
+        "topic.4.4-1.grammar.2.meaning",
+        "topic.4.4-1.grammar.2.join",
+        "topic.4.4-1.grammar.2.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.4.4-1.grammar.3",
+      "titleJa": "～（よ）うと思う",
+      "paragraphIds": [
+        "topic.4.4-1.grammar.3.meaning",
+        "topic.4.4-1.grammar.3.join",
+        "topic.4.4-1.grammar.3.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.4.4-1.grammar.4",
+      "titleJa": "～ことにする",
+      "paragraphIds": [
+        "topic.4.4-1.grammar.4.meaning",
+        "topic.4.4-1.grammar.4.join",
+        "topic.4.4-1.grammar.4.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.4.4-1.grammar.5",
+      "titleJa": "～ことになる",
+      "paragraphIds": [
+        "topic.4.4-1.grammar.5.meaning",
+        "topic.4.4-1.grammar.5.join",
+        "topic.4.4-1.grammar.5.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.4.4-1.examples",
+      "titleJa": "例文の解説",
+      "paragraphIds": [],
+      "examples": [
+        {
+          "ja": "国へ帰ったら、何をしたいですか。— 母が作った料理を食べたいです。",
+          "translationId": "topic.4.4-1.example.0.zh",
+          "analysisId": "topic.4.4-1.example.0.analysis"
+        },
+        {
+          "ja": "いつか沖縄へ行ってみたいなあ。",
+          "translationId": "topic.4.4-1.example.1.zh",
+          "analysisId": "topic.4.4-1.example.1.analysis"
+        },
+        {
+          "ja": "弟はアメリカへ留学したがっています。",
+          "translationId": "topic.4.4-1.example.2.zh",
+          "analysisId": "topic.4.4-1.example.2.analysis"
+        },
+        {
+          "ja": "娘は最近ピアノを習いたがっています。",
+          "translationId": "topic.4.4-1.example.3.zh",
+          "analysisId": "topic.4.4-1.example.3.analysis"
+        },
+        {
+          "ja": "彼女が指輪を欲しがっているから、お金が必要なんだ。",
+          "translationId": "topic.4.4-1.example.4.zh",
+          "analysisId": "topic.4.4-1.example.4.analysis"
+        },
+        {
+          "ja": "夏休みは国へ帰ろうと思っています。",
+          "translationId": "topic.4.4-1.example.5.zh",
+          "analysisId": "topic.4.4-1.example.5.analysis"
+        },
+        {
+          "ja": "見ようと思っていたんだけど、寝ちゃった。",
+          "translationId": "topic.4.4-1.example.6.zh",
+          "analysisId": "topic.4.4-1.example.6.analysis"
+        },
+        {
+          "ja": "アルバイトを始めることにしました。",
+          "translationId": "topic.4.4-1.example.7.zh",
+          "analysisId": "topic.4.4-1.example.7.analysis"
+        },
+        {
+          "ja": "車は買わないことにしたんだ。",
+          "translationId": "topic.4.4-1.example.8.zh",
+          "analysisId": "topic.4.4-1.example.8.analysis"
+        },
+        {
+          "ja": "父の転勤で九州に引っ越すことになりました。",
+          "translationId": "topic.4.4-1.example.9.zh",
+          "analysisId": "topic.4.4-1.example.9.analysis"
+        },
+        {
+          "ja": "来月から社内ではたばこを吸ってはいけないことになった。",
+          "translationId": "topic.4.4-1.example.10.zh",
+          "analysisId": "topic.4.4-1.example.10.analysis"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "topic.4.4-1.question.0",
+      "prompt": [
+        {
+          "ja": "母が作った料理を（　　）です。"
+        },
+        {
+          "textId": "topic.4.4-1.question.0.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "食べるたい"
+          }
+        ],
+        [
+          {
+            "ja": "食べたい"
+          }
+        ],
+        [
+          {
+            "ja": "食べてたい"
+          }
+        ],
+        [
+          {
+            "ja": "食べようたい"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.4.4-1.question.0.reason"
+    },
+    {
+      "id": "topic.4.4-1.question.1",
+      "prompt": [
+        {
+          "ja": "沖縄へ行って（　　）です。"
+        },
+        {
+          "textId": "topic.4.4-1.question.1.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "みたい"
+          }
+        ],
+        [
+          {
+            "ja": "みるたい"
+          }
+        ],
+        [
+          {
+            "ja": "みたがる"
+          }
+        ],
+        [
+          {
+            "ja": "みようたい"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.4.4-1.question.1.reason"
+    },
+    {
+      "id": "topic.4.4-1.question.2",
+      "prompt": [
+        {
+          "ja": "弟はアメリカへ留学し（　　）います。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "たい"
+          }
+        ],
+        [
+          {
+            "ja": "てみたい"
+          }
+        ],
+        [
+          {
+            "ja": "たがって"
+          }
+        ],
+        [
+          {
+            "ja": "ようと"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.4.4-1.question.2.reason"
+    },
+    {
+      "id": "topic.4.4-1.question.3",
+      "prompt": [
+        {
+          "ja": "彼女は新しいバッグを（　　）います。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "欲しい"
+          }
+        ],
+        [
+          {
+            "ja": "欲しがって"
+          }
+        ],
+        [
+          {
+            "ja": "欲しくて"
+          }
+        ],
+        [
+          {
+            "ja": "欲したい"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.4.4-1.question.3.reason"
+    },
+    {
+      "id": "topic.4.4-1.question.4",
+      "prompt": [
+        {
+          "ja": "来年、日本へ留学（　　）と思っています。"
+        },
+        {
+          "textId": "topic.4.4-1.question.4.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "するよう"
+          }
+        ],
+        [
+          {
+            "ja": "しろう"
+          }
+        ],
+        [
+          {
+            "ja": "するう"
+          }
+        ],
+        [
+          {
+            "ja": "しよう"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.4.4-1.question.4.reason"
+    },
+    {
+      "id": "topic.4.4-1.question.5",
+      "prompt": [
+        {
+          "ja": "来月からアルバイトを始める（　　）しました。"
+        },
+        {
+          "textId": "topic.4.4-1.question.5.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ように"
+          }
+        ],
+        [
+          {
+            "ja": "ことに"
+          }
+        ],
+        [
+          {
+            "ja": "ことが"
+          }
+        ],
+        [
+          {
+            "ja": "ために"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.4.4-1.question.5.reason"
+    },
+    {
+      "id": "topic.4.4-1.question.6",
+      "prompt": [
+        {
+          "ja": "車は買わない（　　）しました。"
+        },
+        {
+          "textId": "topic.4.4-1.question.6.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ために"
+          }
+        ],
+        [
+          {
+            "ja": "ように"
+          }
+        ],
+        [
+          {
+            "ja": "ことに"
+          }
+        ],
+        [
+          {
+            "ja": "ことが"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.4.4-1.question.6.reason"
+    },
+    {
+      "id": "topic.4.4-1.question.7",
+      "prompt": [
+        {
+          "ja": "来月、大阪へ転勤する（　　）なりました。"
+        },
+        {
+          "textId": "topic.4.4-1.question.7.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことに"
+          }
+        ],
+        [
+          {
+            "ja": "ように"
+          }
+        ],
+        [
+          {
+            "ja": "ことが"
+          }
+        ],
+        [
+          {
+            "ja": "ために"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.4.4-1.question.7.reason"
+    },
+    {
+      "id": "topic.4.4-1.question.8",
+      "prompt": [
+        {
+          "ja": "来週からここでは写真を撮ってはいけない（　　）なりました。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ために"
+          }
+        ],
+        [
+          {
+            "ja": "ように"
+          }
+        ],
+        [
+          {
+            "ja": "ことを"
+          }
+        ],
+        [
+          {
+            "ja": "ことに"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.4.4-1.question.8.reason"
+    },
+    {
+      "id": "topic.4.4-1.question.9",
+      "prompt": [
+        {
+          "ja": "夏休みは国へ（　　）と思っています。"
+        },
+        {
+          "textId": "topic.4.4-1.question.9.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "帰よう"
+          }
+        ],
+        [
+          {
+            "ja": "帰ろう"
+          }
+        ],
+        [
+          {
+            "ja": "帰るう"
+          }
+        ],
+        [
+          {
+            "ja": "帰れよう"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.4.4-1.question.9.reason"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "topic.4.4-1.word.0"
+    },
+    {
+      "wordId": "topic.4.4-1.word.1"
+    },
+    {
+      "wordId": "topic.4.4-1.word.2"
+    },
+    {
+      "wordId": "topic.4.4-1.word.3"
+    },
+    {
+      "wordId": "topic.4.4-1.word.4"
+    },
+    {
+      "wordId": "topic.4.4-1.word.5"
+    },
+    {
+      "wordId": "topic.4.4-1.word.6"
+    },
+    {
+      "wordId": "topic.4.4-1.word.7"
+    },
+    {
+      "wordId": "topic.4.4-1.word.8"
+    },
+    {
+      "wordId": "topic.4.4-1.word.9"
+    },
+    {
+      "wordId": "topic.4.4-1.word.10"
+    },
+    {
+      "wordId": "topic.4.4-1.word.11"
+    },
+    {
+      "wordId": "topic.4.4-1.word.12"
+    },
+    {
+      "wordId": "topic.4.4-1.word.13"
+    },
+    {
+      "wordId": "topic.4.4-1.word.14"
+    },
+    {
+      "wordId": "topic.4.4-1.word.15"
+    },
+    {
+      "wordId": "topic.4.4-1.word.16"
+    },
+    {
+      "wordId": "topic.4.4-1.word.17"
+    }
+  ]
+}

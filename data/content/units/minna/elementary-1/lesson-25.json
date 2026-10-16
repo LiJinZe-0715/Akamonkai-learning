@@ -1,0 +1,351 @@
+{
+  "id": "minna-25",
+  "bookId": "minna",
+  "titleJa": "第25課",
+  "groupJa": "初級Ⅰ",
+  "articles": [
+    {
+      "id": "minna.lesson.25.grammar.1",
+      "titleJa": "普通形過去＋ら、～",
+      "paragraphIds": [
+        "minna.lesson.25.grammar.1.meaning",
+        "minna.lesson.25.grammar.1.formation"
+      ],
+      "examples": [
+        {
+          "ja": "時間があったら、旅行したいです。",
+          "translationId": "minna.lesson.25.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.25.grammar.2",
+      "titleJa": "Vたら、～（確定した条件に続く動作）",
+      "paragraphIds": [
+        "minna.lesson.25.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "駅に着いたら、電話してください。",
+          "translationId": "minna.lesson.25.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.25.grammar.3",
+      "titleJa": "Vても／Aくても／Nでも、～",
+      "paragraphIds": [
+        "minna.lesson.25.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "雨が降っても、出かけます。",
+          "translationId": "minna.lesson.25.grammar.3.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.25-1",
+      "prompt": [
+        {
+          "ja": "明日（　）、出かけません。"
+        }
+      ],
+      "instructionId": "minna.question.25-1.translation",
+      "options": [
+        [
+          {
+            "ja": "雨たら"
+          }
+        ],
+        [
+          {
+            "ja": "雨だったら"
+          }
+        ],
+        [
+          {
+            "ja": "雨だたら"
+          }
+        ],
+        [
+          {
+            "ja": "雨でたら"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.25-1.explanation"
+    },
+    {
+      "id": "minna.question.25-2",
+      "prompt": [
+        {
+          "ja": "仕事が（　）、メールしてください。"
+        }
+      ],
+      "instructionId": "minna.question.25-2.translation",
+      "options": [
+        [
+          {
+            "ja": "終わると"
+          }
+        ],
+        [
+          {
+            "ja": "終わっても"
+          }
+        ],
+        [
+          {
+            "ja": "終わったら"
+          }
+        ],
+        [
+          {
+            "ja": "終わりながら"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.25-2.explanation"
+    },
+    {
+      "id": "minna.question.25-3",
+      "prompt": [
+        {
+          "ja": "雨が（　）、試合をします。"
+        }
+      ],
+      "instructionId": "minna.question.25-3.translation",
+      "options": [
+        [
+          {
+            "ja": "降ったら"
+          }
+        ],
+        [
+          {
+            "ja": "降ると"
+          }
+        ],
+        [
+          {
+            "ja": "降ったので"
+          }
+        ],
+        [
+          {
+            "ja": "降っても"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.25-3.explanation"
+    },
+    {
+      "id": "minna.question.25-4",
+      "prompt": [
+        {
+          "ja": "このパソコンが（　）、買いたいです。"
+        }
+      ],
+      "instructionId": "minna.question.25-4.translation",
+      "options": [
+        [
+          {
+            "ja": "安かったら"
+          }
+        ],
+        [
+          {
+            "ja": "安いたら"
+          }
+        ],
+        [
+          {
+            "ja": "安くたら"
+          }
+        ],
+        [
+          {
+            "ja": "安いだったら"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.25-4.explanation"
+    },
+    {
+      "id": "minna.question.25-5",
+      "prompt": [
+        {
+          "ja": "値段が（　）、買いません。"
+        }
+      ],
+      "instructionId": "minna.question.25-5.translation",
+      "options": [
+        [
+          {
+            "ja": "安いでも"
+          }
+        ],
+        [
+          {
+            "ja": "安くても"
+          }
+        ],
+        [
+          {
+            "ja": "安かったら"
+          }
+        ],
+        [
+          {
+            "ja": "安くたら"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.25-5.explanation"
+    },
+    {
+      "id": "minna.question.25-6",
+      "prompt": [
+        {
+          "ja": "日曜日（　）、働かなければなりません。"
+        }
+      ],
+      "instructionId": "minna.question.25-6.translation",
+      "options": [
+        [
+          {
+            "ja": "ても"
+          }
+        ],
+        [
+          {
+            "ja": "だても"
+          }
+        ],
+        [
+          {
+            "ja": "でも"
+          }
+        ],
+        [
+          {
+            "ja": "にても"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.25-6.explanation"
+    },
+    {
+      "id": "minna.question.25-7",
+      "prompt": [
+        {
+          "ja": "時間が（　）、今日は行きません。"
+        }
+      ],
+      "instructionId": "minna.question.25-7.translation",
+      "options": [
+        [
+          {
+            "ja": "ないたら"
+          }
+        ],
+        [
+          {
+            "ja": "なくたら"
+          }
+        ],
+        [
+          {
+            "ja": "ないだったら"
+          }
+        ],
+        [
+          {
+            "ja": "なかったら"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.25-7.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1007"
+    },
+    {
+      "wordId": "word.1008"
+    },
+    {
+      "wordId": "word.1009"
+    },
+    {
+      "wordId": "word.1010"
+    },
+    {
+      "wordId": "word.1011"
+    },
+    {
+      "wordId": "word.1012"
+    },
+    {
+      "wordId": "word.1013"
+    },
+    {
+      "wordId": "word.1014"
+    },
+    {
+      "wordId": "word.1015"
+    },
+    {
+      "wordId": "word.1016"
+    },
+    {
+      "wordId": "word.1017"
+    },
+    {
+      "wordId": "word.1018"
+    },
+    {
+      "wordId": "word.1019"
+    },
+    {
+      "wordId": "word.1020"
+    },
+    {
+      "wordId": "word.1021"
+    },
+    {
+      "wordId": "word.1022"
+    },
+    {
+      "wordId": "word.1023"
+    }
+  ]
+}

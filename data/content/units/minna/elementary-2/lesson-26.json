@@ -1,0 +1,451 @@
+{
+  "id": "minna-26",
+  "bookId": "minna",
+  "titleJa": "第26課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.26.grammar.1",
+      "titleJa": "普通形＋んです",
+      "paragraphIds": [
+        "minna.lesson.26.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "頭が痛いんです。",
+          "translationId": "minna.lesson.26.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.26.grammar.2",
+      "titleJa": "～んですが、～",
+      "paragraphIds": [
+        "minna.lesson.26.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "パソコンが動かないんですが、見ていただけませんか。",
+          "translationId": "minna.lesson.26.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.26.grammar.3",
+      "titleJa": "Vて＋いただけませんか",
+      "paragraphIds": [
+        "minna.lesson.26.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "使い方を教えていただけませんか。",
+          "translationId": "minna.lesson.26.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.26.grammar.4",
+      "titleJa": "Vた形＋らいいですか",
+      "paragraphIds": [
+        "minna.lesson.26.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "どこで切符を買ったらいいですか。",
+          "translationId": "minna.lesson.26.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.26-1",
+      "prompt": [
+        {
+          "ja": "今日は休み（　）んです。"
+        }
+      ],
+      "instructionId": "minna.question.26-1.translation",
+      "options": [
+        [
+          {
+            "ja": "だ"
+          }
+        ],
+        [
+          {
+            "ja": "の"
+          }
+        ],
+        [
+          {
+            "ja": "な"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.26-1.explanation"
+    },
+    {
+      "id": "minna.question.26-2",
+      "prompt": [
+        {
+          "ja": "電車が止まっている（　）、別の行き方を教えていただけませんか。"
+        }
+      ],
+      "instructionId": "minna.question.26-2.translation",
+      "options": [
+        [
+          {
+            "ja": "んですか"
+          }
+        ],
+        [
+          {
+            "ja": "んでしたか"
+          }
+        ],
+        [
+          {
+            "ja": "んでしょうか"
+          }
+        ],
+        [
+          {
+            "ja": "んですが"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.26-2.explanation"
+    },
+    {
+      "id": "minna.question.26-3",
+      "prompt": [
+        {
+          "ja": "もう一度（　）いただけませんか。"
+        }
+      ],
+      "instructionId": "minna.question.26-3.translation",
+      "options": [
+        [
+          {
+            "ja": "説明して"
+          }
+        ],
+        [
+          {
+            "ja": "説明し"
+          }
+        ],
+        [
+          {
+            "ja": "説明する"
+          }
+        ],
+        [
+          {
+            "ja": "説明した"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.26-3.explanation"
+    },
+    {
+      "id": "minna.question.26-4",
+      "prompt": [
+        {
+          "ja": "この荷物はどこに（　）いいですか。"
+        }
+      ],
+      "instructionId": "minna.question.26-4.translation",
+      "options": [
+        [
+          {
+            "ja": "置いてもら"
+          }
+        ],
+        [
+          {
+            "ja": "置いたら"
+          }
+        ],
+        [
+          {
+            "ja": "置くと"
+          }
+        ],
+        [
+          {
+            "ja": "置きなら"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.26-4.explanation"
+    },
+    {
+      "id": "minna.question.26-5",
+      "prompt": [
+        {
+          "ja": "この辺りは（　）んです。"
+        }
+      ],
+      "instructionId": "minna.question.26-5.translation",
+      "options": [
+        [
+          {
+            "ja": "静かだ"
+          }
+        ],
+        [
+          {
+            "ja": "静かの"
+          }
+        ],
+        [
+          {
+            "ja": "静かな"
+          }
+        ],
+        [
+          {
+            "ja": "静かで"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.26-5.explanation"
+    },
+    {
+      "id": "minna.question.26-6",
+      "prompt": [
+        {
+          "ja": "昨日はバスが（　）んです。"
+        }
+      ],
+      "instructionId": "minna.question.26-6.translation",
+      "options": [
+        [
+          {
+            "ja": "来ませんでした"
+          }
+        ],
+        [
+          {
+            "ja": "来なかっただ"
+          }
+        ],
+        [
+          {
+            "ja": "来なかったな"
+          }
+        ],
+        [
+          {
+            "ja": "来なかった"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.26-6.explanation"
+    },
+    {
+      "id": "minna.question.26-7",
+      "prompt": [
+        {
+          "textId": "minna.question.26-7.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.26-7.translation",
+      "options": [
+        [
+          {
+            "ja": "乗り換え方が分からないんですが、教えていただけませんか。"
+          }
+        ],
+        [
+          {
+            "ja": "乗り換え方が分からない。教えろ。"
+          }
+        ],
+        [
+          {
+            "ja": "乗り換え方が分からないんですから、教えるな。"
+          }
+        ],
+        [
+          {
+            "ja": "乗り換え方が分からないんですが、教えてあげます。"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.26-7.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1024"
+    },
+    {
+      "wordId": "word.1025"
+    },
+    {
+      "wordId": "word.1026"
+    },
+    {
+      "wordId": "word.1027"
+    },
+    {
+      "wordId": "word.1028"
+    },
+    {
+      "wordId": "word.1029"
+    },
+    {
+      "wordId": "word.1030"
+    },
+    {
+      "wordId": "word.1031"
+    },
+    {
+      "wordId": "word.1032"
+    },
+    {
+      "wordId": "word.1033"
+    },
+    {
+      "wordId": "word.1034"
+    },
+    {
+      "wordId": "word.1035"
+    },
+    {
+      "wordId": "word.1036"
+    },
+    {
+      "wordId": "word.1037"
+    },
+    {
+      "wordId": "word.1038"
+    },
+    {
+      "wordId": "word.1039"
+    },
+    {
+      "wordId": "word.1040"
+    },
+    {
+      "wordId": "word.1041"
+    },
+    {
+      "wordId": "word.1042"
+    },
+    {
+      "wordId": "word.1043"
+    },
+    {
+      "wordId": "word.1044"
+    },
+    {
+      "wordId": "word.1045"
+    },
+    {
+      "wordId": "word.1046"
+    },
+    {
+      "wordId": "word.1047"
+    },
+    {
+      "wordId": "word.1048"
+    },
+    {
+      "wordId": "word.1049"
+    },
+    {
+      "wordId": "word.1050"
+    },
+    {
+      "wordId": "word.1051"
+    },
+    {
+      "wordId": "word.1052"
+    },
+    {
+      "wordId": "word.1053"
+    },
+    {
+      "wordId": "word.1054"
+    },
+    {
+      "wordId": "word.1055"
+    },
+    {
+      "wordId": "word.1056"
+    },
+    {
+      "wordId": "word.1057"
+    },
+    {
+      "wordId": "word.1058"
+    },
+    {
+      "wordId": "word.1059"
+    },
+    {
+      "wordId": "word.1060"
+    },
+    {
+      "wordId": "word.1061"
+    },
+    {
+      "wordId": "word.1062"
+    },
+    {
+      "wordId": "word.1063"
+    },
+    {
+      "wordId": "word.1064"
+    },
+    {
+      "wordId": "word.1065"
+    },
+    {
+      "wordId": "word.1066"
+    },
+    {
+      "wordId": "word.1067"
+    },
+    {
+      "wordId": "word.1068"
+    },
+    {
+      "wordId": "word.1069"
+    }
+  ]
+}

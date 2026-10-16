@@ -1,0 +1,803 @@
+{
+  "id": "topic-5-5-1",
+  "bookId": "topic",
+  "titleJa": "5-1 殺人事件現場",
+  "groupJa": "Topic 5",
+  "articles": [
+    {
+      "id": "topic.5.5-1.word-note",
+      "titleJa": "語彙の使い方",
+      "paragraphIds": [
+        "topic.5.5-1.wordNote"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.5.5-1.grammar.0",
+      "titleJa": "受身（受身形）",
+      "paragraphIds": [
+        "topic.5.5-1.grammar.0.meaning",
+        "topic.5.5-1.grammar.0.join",
+        "topic.5.5-1.grammar.0.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.5.5-1.grammar.1",
+      "titleJa": "～ている",
+      "paragraphIds": [
+        "topic.5.5-1.grammar.1.meaning",
+        "topic.5.5-1.grammar.1.join",
+        "topic.5.5-1.grammar.1.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.5.5-1.grammar.2",
+      "titleJa": "～たら【発見】",
+      "paragraphIds": [
+        "topic.5.5-1.grammar.2.meaning",
+        "topic.5.5-1.grammar.2.join",
+        "topic.5.5-1.grammar.2.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.5.5-1.grammar.3",
+      "titleJa": "～ている／～てある",
+      "paragraphIds": [
+        "topic.5.5-1.grammar.3.meaning",
+        "topic.5.5-1.grammar.3.join",
+        "topic.5.5-1.grammar.3.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.5.5-1.examples",
+      "titleJa": "例文の解説",
+      "paragraphIds": [],
+      "examples": [
+        {
+          "ja": "うん、実は鈴木君にデートに誘われたの。",
+          "translationId": "topic.5.5-1.example.0.zh",
+          "analysisId": "topic.5.5-1.example.0.analysis"
+        },
+        {
+          "ja": "人が足りないから、高橋さんにやめられると困るなあ。",
+          "translationId": "topic.5.5-1.example.1.zh",
+          "analysisId": "topic.5.5-1.example.1.analysis"
+        },
+        {
+          "ja": "先生、これ、学校の前に落ちていたんですが。",
+          "translationId": "topic.5.5-1.example.2.zh",
+          "analysisId": "topic.5.5-1.example.2.analysis"
+        },
+        {
+          "ja": "たばこの火がちゃんと消えていなかったそうですよ。",
+          "translationId": "topic.5.5-1.example.3.zh",
+          "analysisId": "topic.5.5-1.example.3.analysis"
+        },
+        {
+          "ja": "ドアを開けたら、大きい犬がいてびっくりしました。",
+          "translationId": "topic.5.5-1.example.4.zh",
+          "analysisId": "topic.5.5-1.example.4.analysis"
+        },
+        {
+          "ja": "きのう区役所へ住所変更の手続きをしに行ったら、区役所は休みでした。",
+          "translationId": "topic.5.5-1.example.5.zh",
+          "analysisId": "topic.5.5-1.example.5.analysis"
+        },
+        {
+          "ja": "さっき冷蔵庫の中を見たら、何も入っていなかったから、コンビニへ行ってくる。",
+          "translationId": "topic.5.5-1.example.6.zh",
+          "analysisId": "topic.5.5-1.example.6.analysis"
+        },
+        {
+          "ja": "あれ、この部屋は誰もいないのに、エアコンがついていますね。\nあとで会議があるので、つけてあるんですよ。寒いですから。",
+          "translationId": "topic.5.5-1.example.7.zh",
+          "analysisId": "topic.5.5-1.example.7.analysis"
+        },
+        {
+          "ja": "あ、ケーキがひとつ残っている。食べてもいい？\nだめ。それは山本さんのために残してあるの。",
+          "translationId": "topic.5.5-1.example.8.zh",
+          "analysisId": "topic.5.5-1.example.8.analysis"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "topic.5.5-1.question.0",
+      "prompt": [
+        {
+          "ja": "友達に旅行へ（　　）。"
+        },
+        {
+          "textId": "topic.5.5-1.question.0.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "誘いました"
+          }
+        ],
+        [
+          {
+            "ja": "誘われました"
+          }
+        ],
+        [
+          {
+            "ja": "誘られました"
+          }
+        ],
+        [
+          {
+            "ja": "誘うれました"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.5.5-1.question.0.reason"
+    },
+    {
+      "id": "topic.5.5-1.question.1",
+      "prompt": [
+        {
+          "ja": "昨日、先生に（　　）。"
+        },
+        {
+          "textId": "topic.5.5-1.question.1.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ほめました"
+          }
+        ],
+        [
+          {
+            "ja": "ほめれました"
+          }
+        ],
+        [
+          {
+            "ja": "ほめされました"
+          }
+        ],
+        [
+          {
+            "ja": "ほめられました"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.5.5-1.question.1.reason"
+    },
+    {
+      "id": "topic.5.5-1.question.2",
+      "prompt": [
+        {
+          "ja": "被害者はピストルで（　　）。"
+        },
+        {
+          "textId": "topic.5.5-1.question.2.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "撃たれた"
+          }
+        ],
+        [
+          {
+            "ja": "撃つれた"
+          }
+        ],
+        [
+          {
+            "ja": "撃てられた"
+          }
+        ],
+        [
+          {
+            "ja": "撃られた"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.5.5-1.question.2.reason"
+    },
+    {
+      "id": "topic.5.5-1.question.3",
+      "prompt": [
+        {
+          "ja": "この本は多くの国で（　　）います。"
+        },
+        {
+          "textId": "topic.5.5-1.question.3.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "翻訳して"
+          }
+        ],
+        [
+          {
+            "ja": "翻訳しられて"
+          }
+        ],
+        [
+          {
+            "ja": "翻訳されて"
+          }
+        ],
+        [
+          {
+            "ja": "翻訳すれて"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.5.5-1.question.3.reason"
+    },
+    {
+      "id": "topic.5.5-1.question.4",
+      "prompt": [
+        {
+          "ja": "急に客に（　　）と、準備ができなくて困ります。"
+        },
+        {
+          "textId": "topic.5.5-1.question.4.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "来れる（これる）"
+          }
+        ],
+        [
+          {
+            "ja": "来られる（こられる）"
+          }
+        ],
+        [
+          {
+            "ja": "来らせる（こらせる）"
+          }
+        ],
+        [
+          {
+            "ja": "来される（こされる）"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.5.5-1.question.4.reason"
+    },
+    {
+      "id": "topic.5.5-1.question.5",
+      "prompt": [
+        {
+          "ja": "人手が足りないので、高橋さんに（　　）と困ります。"
+        },
+        {
+          "textId": "topic.5.5-1.question.5.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "やまれる"
+          }
+        ],
+        [
+          {
+            "ja": "やめされる"
+          }
+        ],
+        [
+          {
+            "ja": "やめられる"
+          }
+        ],
+        [
+          {
+            "ja": "やめるられる"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.5.5-1.question.5.reason"
+    },
+    {
+      "id": "topic.5.5-1.question.6",
+      "prompt": [
+        {
+          "ja": "ドアを（　　）、知らない人が立っていました。"
+        },
+        {
+          "textId": "topic.5.5-1.question.6.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "開けるたら"
+          }
+        ],
+        [
+          {
+            "ja": "開けてたら"
+          }
+        ],
+        [
+          {
+            "ja": "開けますたら"
+          }
+        ],
+        [
+          {
+            "ja": "開けたら"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.5.5-1.question.6.reason"
+    },
+    {
+      "id": "topic.5.5-1.question.7",
+      "prompt": [
+        {
+          "ja": "区役所へ（　　）、休みでした。"
+        },
+        {
+          "textId": "topic.5.5-1.question.7.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "行ったら"
+          }
+        ],
+        [
+          {
+            "ja": "行いたら"
+          }
+        ],
+        [
+          {
+            "ja": "行きたら"
+          }
+        ],
+        [
+          {
+            "ja": "行くたら"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.5.5-1.question.7.reason"
+    },
+    {
+      "id": "topic.5.5-1.question.8",
+      "prompt": [
+        {
+          "ja": "冷蔵庫の中を（　　）、何も入っていませんでした。"
+        },
+        {
+          "textId": "topic.5.5-1.question.8.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "見るたら"
+          }
+        ],
+        [
+          {
+            "ja": "見てたら"
+          }
+        ],
+        [
+          {
+            "ja": "見たら"
+          }
+        ],
+        [
+          {
+            "ja": "見ますたら"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.5.5-1.question.8.reason"
+    },
+    {
+      "id": "topic.5.5-1.question.9",
+      "prompt": [
+        {
+          "ja": "窓が（　　）います。"
+        },
+        {
+          "textId": "topic.5.5-1.question.9.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "開けて"
+          }
+        ],
+        [
+          {
+            "ja": "開いて"
+          }
+        ],
+        [
+          {
+            "ja": "開くて"
+          }
+        ],
+        [
+          {
+            "ja": "開きて"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.5.5-1.question.9.reason"
+    },
+    {
+      "id": "topic.5.5-1.question.10",
+      "prompt": [
+        {
+          "ja": "会議のために、窓が（　　）あります。"
+        },
+        {
+          "textId": "topic.5.5-1.question.10.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "開けた"
+          }
+        ],
+        [
+          {
+            "ja": "開いて"
+          }
+        ],
+        [
+          {
+            "ja": "開き"
+          }
+        ],
+        [
+          {
+            "ja": "開けて"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.5.5-1.question.10.reason"
+    },
+    {
+      "id": "topic.5.5-1.question.11",
+      "prompt": [
+        {
+          "ja": "机の上に資料が置いて（　　）。"
+        },
+        {
+          "textId": "topic.5.5-1.question.11.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "あります"
+          }
+        ],
+        [
+          {
+            "ja": "います"
+          }
+        ],
+        [
+          {
+            "ja": "なります"
+          }
+        ],
+        [
+          {
+            "ja": "です"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.5.5-1.question.11.reason"
+    },
+    {
+      "id": "topic.5.5-1.question.12",
+      "prompt": [
+        {
+          "ja": "財布が床に落ちて（　　）。"
+        },
+        {
+          "textId": "topic.5.5-1.question.12.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ありました"
+          }
+        ],
+        [
+          {
+            "ja": "おきました"
+          }
+        ],
+        [
+          {
+            "ja": "いました"
+          }
+        ],
+        [
+          {
+            "ja": "しまいました"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.5.5-1.question.12.reason"
+    },
+    {
+      "id": "topic.5.5-1.question.13",
+      "prompt": [
+        {
+          "ja": "たばこの火がちゃんと（　　）そうです。"
+        },
+        {
+          "textId": "topic.5.5-1.question.13.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "消えないでした"
+          }
+        ],
+        [
+          {
+            "ja": "消えていなかった"
+          }
+        ],
+        [
+          {
+            "ja": "消えていないかった"
+          }
+        ],
+        [
+          {
+            "ja": "消えてなかったでした"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.5.5-1.question.13.reason"
+    },
+    {
+      "id": "topic.5.5-1.question.14",
+      "prompt": [
+        {
+          "ja": "エアコンが（　　）います。"
+        },
+        {
+          "textId": "topic.5.5-1.question.14.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "つけて"
+          }
+        ],
+        [
+          {
+            "ja": "つくて"
+          }
+        ],
+        [
+          {
+            "ja": "つきて"
+          }
+        ],
+        [
+          {
+            "ja": "ついて"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.5.5-1.question.14.reason"
+    },
+    {
+      "id": "topic.5.5-1.question.15",
+      "prompt": [
+        {
+          "ja": "山本さんのために、ケーキが（　　）あります。"
+        },
+        {
+          "textId": "topic.5.5-1.question.15.prompt.instruction"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "残して"
+          }
+        ],
+        [
+          {
+            "ja": "残って"
+          }
+        ],
+        [
+          {
+            "ja": "残すて"
+          }
+        ],
+        [
+          {
+            "ja": "残した"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.5.5-1.question.15.reason"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "topic.5.5-1.word.0"
+    },
+    {
+      "wordId": "topic.5.5-1.word.1"
+    },
+    {
+      "wordId": "topic.5.5-1.word.2"
+    },
+    {
+      "wordId": "topic.5.5-1.word.3"
+    },
+    {
+      "wordId": "topic.5.5-1.word.4"
+    },
+    {
+      "wordId": "topic.5.5-1.word.5"
+    },
+    {
+      "wordId": "topic.5.5-1.word.6"
+    },
+    {
+      "wordId": "topic.5.5-1.word.7"
+    },
+    {
+      "wordId": "topic.5.5-1.word.8"
+    },
+    {
+      "wordId": "topic.5.5-1.word.9"
+    },
+    {
+      "wordId": "topic.5.5-1.word.10"
+    },
+    {
+      "wordId": "topic.5.5-1.word.11"
+    },
+    {
+      "wordId": "topic.5.5-1.word.12"
+    },
+    {
+      "wordId": "topic.5.5-1.word.13"
+    },
+    {
+      "wordId": "topic.5.5-1.word.14"
+    },
+    {
+      "wordId": "topic.5.5-1.word.15"
+    },
+    {
+      "wordId": "topic.5.5-1.word.16"
+    },
+    {
+      "wordId": "topic.5.5-1.word.17"
+    },
+    {
+      "wordId": "topic.5.5-1.word.18"
+    },
+    {
+      "wordId": "topic.5.5-1.word.19"
+    },
+    {
+      "wordId": "topic.5.5-1.word.20"
+    },
+    {
+      "wordId": "topic.5.5-1.word.21"
+    },
+    {
+      "wordId": "topic.5.5-1.word.22"
+    },
+    {
+      "wordId": "topic.5.5-1.word.23"
+    },
+    {
+      "wordId": "topic.5.5-1.word.24"
+    },
+    {
+      "wordId": "topic.5.5-1.word.25"
+    },
+    {
+      "wordId": "topic.5.5-1.word.26"
+    },
+    {
+      "wordId": "topic.5.5-1.word.27"
+    },
+    {
+      "wordId": "topic.5.5-1.word.28"
+    },
+    {
+      "wordId": "topic.5.5-1.word.29"
+    },
+    {
+      "wordId": "topic.5.5-1.word.30"
+    }
+  ]
+}

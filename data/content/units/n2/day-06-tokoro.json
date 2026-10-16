@@ -1,0 +1,533 @@
+{
+  "id": "day6-tokoro",
+  "bookId": "n2",
+  "titleJa": "ところの表現",
+  "groupJa": "文法",
+  "articles": [
+    {
+      "id": "n2.day6-tokoro.grammar.0",
+      "titleJa": "Vるところだ",
+      "paragraphIds": [
+        "n2.day6-tokoro.grammar.0.anchor",
+        "n2.day6-tokoro.grammar.0.logic",
+        "n2.day6-tokoro.grammar.0.connection",
+        "n2.day6-tokoro.grammar.0.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "今から出かけるところです。",
+          "translationId": "n2.day6-tokoro.grammar.0.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day6-tokoro.grammar.1",
+      "titleJa": "Vているところだ",
+      "paragraphIds": [
+        "n2.day6-tokoro.grammar.1.anchor",
+        "n2.day6-tokoro.grammar.1.logic",
+        "n2.day6-tokoro.grammar.1.connection",
+        "n2.day6-tokoro.grammar.1.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "今、原因を調べているところです。",
+          "translationId": "n2.day6-tokoro.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day6-tokoro.grammar.2",
+      "titleJa": "Vたところだ",
+      "paragraphIds": [
+        "n2.day6-tokoro.grammar.2.anchor",
+        "n2.day6-tokoro.grammar.2.logic",
+        "n2.day6-tokoro.grammar.2.connection",
+        "n2.day6-tokoro.grammar.2.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "今、会社に着いたところです。",
+          "translationId": "n2.day6-tokoro.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day6-tokoro.grammar.3",
+      "titleJa": "Vたところ、B",
+      "paragraphIds": [
+        "n2.day6-tokoro.grammar.3.anchor",
+        "n2.day6-tokoro.grammar.3.logic",
+        "n2.day6-tokoro.grammar.3.connection",
+        "n2.day6-tokoro.grammar.3.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "病院で調べてもらったところ、問題はなかった。",
+          "translationId": "n2.day6-tokoro.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day6-tokoro.grammar.4",
+      "titleJa": "Vるところだった",
+      "paragraphIds": [
+        "n2.day6-tokoro.grammar.4.anchor",
+        "n2.day6-tokoro.grammar.4.logic",
+        "n2.day6-tokoro.grammar.4.connection",
+        "n2.day6-tokoro.grammar.4.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "危うく財布を忘れるところだった。",
+          "translationId": "n2.day6-tokoro.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day6-tokoro.grammar.5",
+      "titleJa": "～ところに／へ",
+      "paragraphIds": [
+        "n2.day6-tokoro.grammar.5.anchor",
+        "n2.day6-tokoro.grammar.5.logic",
+        "n2.day6-tokoro.grammar.5.connection",
+        "n2.day6-tokoro.grammar.5.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "出かけようとしていたところに、雨が降ってきた。",
+          "translationId": "n2.day6-tokoro.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "n2.day6-tokoro.question.0",
+      "prompt": [
+        {
+          "ja": "今から昼ご飯を食べる（　）です。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ところ"
+          }
+        ],
+        [
+          {
+            "ja": "ところだった"
+          }
+        ],
+        [
+          {
+            "ja": "ところに"
+          }
+        ],
+        [
+          {
+            "ja": "たところ"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day6-tokoro.question.0.explanation",
+      "instructionId": "n2.day6-tokoro.question.0.anchor"
+    },
+    {
+      "id": "n2.day6-tokoro.question.1",
+      "prompt": [
+        {
+          "ja": "これから会議を始める（　）なので、あとで電話します。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "たところ"
+          }
+        ],
+        [
+          {
+            "ja": "ところ"
+          }
+        ],
+        [
+          {
+            "ja": "ところだった"
+          }
+        ],
+        [
+          {
+            "ja": "ところへ"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day6-tokoro.question.1.explanation",
+      "instructionId": "n2.day6-tokoro.question.1.anchor"
+    },
+    {
+      "id": "n2.day6-tokoro.question.2",
+      "prompt": [
+        {
+          "ja": "ただ今、担当者が原因を確認している（　）です。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ところ"
+          }
+        ],
+        [
+          {
+            "ja": "たところ"
+          }
+        ],
+        [
+          {
+            "ja": "ところだった"
+          }
+        ],
+        [
+          {
+            "ja": "ところに"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day6-tokoro.question.2.explanation",
+      "instructionId": "n2.day6-tokoro.question.2.anchor"
+    },
+    {
+      "id": "n2.day6-tokoro.question.3",
+      "prompt": [
+        {
+          "ja": "すみません、今お客様と話している（　）なので、少々お待ちください。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ところだった"
+          }
+        ],
+        [
+          {
+            "ja": "ところ"
+          }
+        ],
+        [
+          {
+            "ja": "たところ"
+          }
+        ],
+        [
+          {
+            "ja": "ところへ"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day6-tokoro.question.3.explanation",
+      "instructionId": "n2.day6-tokoro.question.3.anchor"
+    },
+    {
+      "id": "n2.day6-tokoro.question.4",
+      "prompt": [
+        {
+          "ja": "さっき駅に着いた（　）です。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ところに"
+          }
+        ],
+        [
+          {
+            "ja": "ところだった"
+          }
+        ],
+        [
+          {
+            "ja": "ところ"
+          }
+        ],
+        [
+          {
+            "ja": "たところ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day6-tokoro.question.4.explanation",
+      "instructionId": "n2.day6-tokoro.question.4.anchor"
+    },
+    {
+      "id": "n2.day6-tokoro.question.5",
+      "prompt": [
+        {
+          "ja": "今、資料をメールで送った（　）です。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ところ"
+          }
+        ],
+        [
+          {
+            "ja": "ところに"
+          }
+        ],
+        [
+          {
+            "ja": "ところだった"
+          }
+        ],
+        [
+          {
+            "ja": "たところ"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day6-tokoro.question.5.explanation",
+      "instructionId": "n2.day6-tokoro.question.5.anchor"
+    },
+    {
+      "id": "n2.day6-tokoro.question.6",
+      "prompt": [
+        {
+          "ja": "先生に聞いてみた（　）、すぐに詳しく説明してくれた。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ところだ"
+          }
+        ],
+        [
+          {
+            "ja": "ところだった"
+          }
+        ],
+        [
+          {
+            "ja": "ところ"
+          }
+        ],
+        [
+          {
+            "ja": "ところに"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day6-tokoro.question.6.explanation",
+      "instructionId": "n2.day6-tokoro.question.6.anchor"
+    },
+    {
+      "id": "n2.day6-tokoro.question.7",
+      "prompt": [
+        {
+          "ja": "店へ行ってみた（　）、もう閉まっていた。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ところ"
+          }
+        ],
+        [
+          {
+            "ja": "ところだ"
+          }
+        ],
+        [
+          {
+            "ja": "ところに"
+          }
+        ],
+        [
+          {
+            "ja": "ところだった"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day6-tokoro.question.7.explanation",
+      "instructionId": "n2.day6-tokoro.question.7.anchor"
+    },
+    {
+      "id": "n2.day6-tokoro.question.8",
+      "prompt": [
+        {
+          "ja": "階段で足を滑らせて、もう少しで転ぶ（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ところだ"
+          }
+        ],
+        [
+          {
+            "ja": "ところだった"
+          }
+        ],
+        [
+          {
+            "ja": "ところに"
+          }
+        ],
+        [
+          {
+            "ja": "たところ"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day6-tokoro.question.8.explanation",
+      "instructionId": "n2.day6-tokoro.question.8.anchor"
+    },
+    {
+      "id": "n2.day6-tokoro.question.9",
+      "prompt": [
+        {
+          "ja": "急ブレーキをかけなければ、前の車にぶつかる（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ところだった"
+          }
+        ],
+        [
+          {
+            "ja": "ところだ"
+          }
+        ],
+        [
+          {
+            "ja": "たところ"
+          }
+        ],
+        [
+          {
+            "ja": "ところへ"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day6-tokoro.question.9.explanation",
+      "instructionId": "n2.day6-tokoro.question.9.anchor"
+    },
+    {
+      "id": "n2.day6-tokoro.question.10",
+      "prompt": [
+        {
+          "ja": "家を出ようとしていた（　）、宅配便が来た。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "たところだ"
+          }
+        ],
+        [
+          {
+            "ja": "ところに"
+          }
+        ],
+        [
+          {
+            "ja": "ところだった"
+          }
+        ],
+        [
+          {
+            "ja": "ところだ"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day6-tokoro.question.10.explanation",
+      "instructionId": "n2.day6-tokoro.question.10.anchor"
+    },
+    {
+      "id": "n2.day6-tokoro.question.11",
+      "prompt": [
+        {
+          "ja": "みんなで夕食を食べている（　）、遅れていた友達がやって来た。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ところへ"
+          }
+        ],
+        [
+          {
+            "ja": "たところ"
+          }
+        ],
+        [
+          {
+            "ja": "ところだった"
+          }
+        ],
+        [
+          {
+            "ja": "ところだ"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day6-tokoro.question.11.explanation",
+      "instructionId": "n2.day6-tokoro.question.11.anchor"
+    }
+  ],
+  "wordRefs": []
+}

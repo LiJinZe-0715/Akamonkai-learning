@@ -1,0 +1,570 @@
+{
+  "id": "minna-37",
+  "bookId": "minna",
+  "titleJa": "第37課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.37.grammar.1",
+      "titleJa": "人 は 人 に V受身形",
+      "paragraphIds": [
+        "minna.lesson.37.grammar.1.meaning",
+        "minna.lesson.37.grammar.1.note"
+      ],
+      "examples": [
+        {
+          "ja": "私は先生に褒められました。",
+          "translationId": "minna.lesson.37.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.37.grammar.2",
+      "titleJa": "人 は 人 に N を V受身形",
+      "paragraphIds": [
+        "minna.lesson.37.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "私は電車で足を踏まれました。",
+          "translationId": "minna.lesson.37.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.37.grammar.3",
+      "titleJa": "N は／が V受身形",
+      "paragraphIds": [
+        "minna.lesson.37.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "この寺は八百年前に建てられました。",
+          "translationId": "minna.lesson.37.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.37.grammar.4",
+      "titleJa": "N は 人 によって V受身形",
+      "paragraphIds": [
+        "minna.lesson.37.grammar.4.meaning",
+        "minna.lesson.37.grammar.4.note"
+      ],
+      "examples": [
+        {
+          "ja": "この絵は田中さんによって描かれました。",
+          "translationId": "minna.lesson.37.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.37-1",
+      "prompt": [
+        {
+          "ja": "私は先生（　）褒められました。"
+        }
+      ],
+      "instructionId": "minna.question.37-1.translation",
+      "options": [
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "が"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.37-1.explanation"
+    },
+    {
+      "id": "minna.question.37-2",
+      "prompt": [
+        {
+          "ja": "私は電車で隣の人に足（　）踏まれました。"
+        }
+      ],
+      "instructionId": "minna.question.37-2.translation",
+      "options": [
+        [
+          {
+            "ja": "が"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.37-2.explanation"
+    },
+    {
+      "id": "minna.question.37-3",
+      "prompt": [
+        {
+          "ja": "この寺は八百年前に（　）。"
+        }
+      ],
+      "instructionId": "minna.question.37-3.translation",
+      "options": [
+        [
+          {
+            "ja": "建てました"
+          }
+        ],
+        [
+          {
+            "ja": "建てさせました"
+          }
+        ],
+        [
+          {
+            "ja": "建ててあげました"
+          }
+        ],
+        [
+          {
+            "ja": "建てられました"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.37-3.explanation"
+    },
+    {
+      "id": "minna.question.37-4",
+      "prompt": [
+        {
+          "ja": "この絵は有名な画家（　）描かれました。"
+        }
+      ],
+      "instructionId": "minna.question.37-4.translation",
+      "options": [
+        [
+          {
+            "ja": "によって"
+          }
+        ],
+        [
+          {
+            "ja": "にとって"
+          }
+        ],
+        [
+          {
+            "ja": "のためで"
+          }
+        ],
+        [
+          {
+            "ja": "を通って"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.37-4.explanation"
+    },
+    {
+      "id": "minna.question.37-5",
+      "prompt": [
+        {
+          "ja": "呼ぶ → 被动形"
+        }
+      ],
+      "instructionId": "minna.question.37-5.translation",
+      "options": [
+        [
+          {
+            "ja": "呼べる"
+          }
+        ],
+        [
+          {
+            "ja": "呼ばれる"
+          }
+        ],
+        [
+          {
+            "ja": "呼ばせる"
+          }
+        ],
+        [
+          {
+            "ja": "呼ぼう"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.37-5.explanation"
+    },
+    {
+      "id": "minna.question.37-6",
+      "prompt": [
+        {
+          "ja": "買う → 被动形"
+        }
+      ],
+      "instructionId": "minna.question.37-6.translation",
+      "options": [
+        [
+          {
+            "ja": "買あれる"
+          }
+        ],
+        [
+          {
+            "ja": "買える"
+          }
+        ],
+        [
+          {
+            "ja": "買われる"
+          }
+        ],
+        [
+          {
+            "ja": "買わせる"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.37-6.explanation"
+    },
+    {
+      "id": "minna.question.37-7",
+      "prompt": [
+        {
+          "ja": "褒める → 被动形"
+        }
+      ],
+      "instructionId": "minna.question.37-7.translation",
+      "options": [
+        [
+          {
+            "ja": "褒めれる"
+          }
+        ],
+        [
+          {
+            "ja": "褒めさせる"
+          }
+        ],
+        [
+          {
+            "ja": "褒めろ"
+          }
+        ],
+        [
+          {
+            "ja": "褒められる"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.37-7.explanation"
+    },
+    {
+      "id": "minna.question.37-8",
+      "prompt": [
+        {
+          "ja": "する／来る → "
+        },
+        {
+          "textId": "minna.question.37-8.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.37-8.translation",
+      "options": [
+        [
+          {
+            "ja": "される／こられる"
+          }
+        ],
+        [
+          {
+            "ja": "しられる／きられる"
+          }
+        ],
+        [
+          {
+            "ja": "すれる／くられる"
+          }
+        ],
+        [
+          {
+            "ja": "させる／こさせる"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.37-8.explanation"
+    },
+    {
+      "id": "minna.question.37-9",
+      "prompt": [
+        {
+          "ja": "私は弟にケーキを食べられました。"
+        }
+      ],
+      "instructionId": "minna.question.37-9.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.37-9.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.37-9.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.37-9.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.37-9.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.37-9.explanation"
+    },
+    {
+      "id": "minna.question.37-10",
+      "prompt": [
+        {
+          "ja": "隣の人が私のかばんを壊しました。"
+        },
+        {
+          "textId": "minna.question.37-10.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.37-10.translation",
+      "options": [
+        [
+          {
+            "ja": "私は隣の人をかばんに壊されました。"
+          }
+        ],
+        [
+          {
+            "ja": "私は隣の人にかばんを壊させました。"
+          }
+        ],
+        [
+          {
+            "ja": "私は隣の人にかばんを壊されました。"
+          }
+        ],
+        [
+          {
+            "ja": "私は隣の人にかばんを壊しました。"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.37-10.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1565"
+    },
+    {
+      "wordId": "word.1566"
+    },
+    {
+      "wordId": "word.1567"
+    },
+    {
+      "wordId": "word.1568"
+    },
+    {
+      "wordId": "word.1569"
+    },
+    {
+      "wordId": "word.1570"
+    },
+    {
+      "wordId": "word.1571"
+    },
+    {
+      "wordId": "word.1572"
+    },
+    {
+      "wordId": "word.1573"
+    },
+    {
+      "wordId": "word.1574"
+    },
+    {
+      "wordId": "word.1575"
+    },
+    {
+      "wordId": "word.1576"
+    },
+    {
+      "wordId": "word.1577"
+    },
+    {
+      "wordId": "word.1578"
+    },
+    {
+      "wordId": "word.1579"
+    },
+    {
+      "wordId": "word.1580"
+    },
+    {
+      "wordId": "word.1581"
+    },
+    {
+      "wordId": "word.1582"
+    },
+    {
+      "wordId": "word.1583"
+    },
+    {
+      "wordId": "word.1584"
+    },
+    {
+      "wordId": "word.1585"
+    },
+    {
+      "wordId": "word.1586"
+    },
+    {
+      "wordId": "word.1587"
+    },
+    {
+      "wordId": "word.1588"
+    },
+    {
+      "wordId": "word.1589"
+    },
+    {
+      "wordId": "word.1590"
+    },
+    {
+      "wordId": "word.1591"
+    },
+    {
+      "wordId": "word.1592"
+    },
+    {
+      "wordId": "word.1593"
+    },
+    {
+      "wordId": "word.1594"
+    },
+    {
+      "wordId": "word.1595"
+    },
+    {
+      "wordId": "word.1596"
+    },
+    {
+      "wordId": "word.1597"
+    },
+    {
+      "wordId": "word.1598"
+    },
+    {
+      "wordId": "word.1599"
+    },
+    {
+      "wordId": "word.1600"
+    },
+    {
+      "wordId": "word.1601"
+    },
+    {
+      "wordId": "word.1602"
+    },
+    {
+      "wordId": "word.1603"
+    },
+    {
+      "wordId": "word.1604"
+    },
+    {
+      "wordId": "word.1605"
+    },
+    {
+      "wordId": "word.1606"
+    },
+    {
+      "wordId": "word.1607"
+    },
+    {
+      "wordId": "word.1608"
+    },
+    {
+      "wordId": "word.1609"
+    },
+    {
+      "wordId": "word.1610"
+    },
+    {
+      "wordId": "word.1611"
+    },
+    {
+      "wordId": "word.1612"
+    }
+  ]
+}

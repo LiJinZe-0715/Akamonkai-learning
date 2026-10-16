@@ -1,0 +1,542 @@
+{
+  "id": "day13-tendency",
+  "bookId": "n2",
+  "titleJa": "傾向",
+  "groupJa": "文法",
+  "articles": [
+    {
+      "id": "n2.day13-tendency.grammar.0",
+      "titleJa": "～がち",
+      "paragraphIds": [
+        "n2.day13-tendency.grammar.0.anchor",
+        "n2.day13-tendency.grammar.0.logic",
+        "n2.day13-tendency.grammar.0.connection",
+        "n2.day13-tendency.grammar.0.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "忙しいと、朝ごはんを抜きがちだ。",
+          "translationId": "n2.day13-tendency.grammar.0.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day13-tendency.grammar.1",
+      "titleJa": "～気味",
+      "paragraphIds": [
+        "n2.day13-tendency.grammar.1.anchor",
+        "n2.day13-tendency.grammar.1.logic",
+        "n2.day13-tendency.grammar.1.connection",
+        "n2.day13-tendency.grammar.1.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "最近、少し疲れ気味だ。",
+          "translationId": "n2.day13-tendency.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day13-tendency.grammar.2",
+      "titleJa": "～っぽい",
+      "paragraphIds": [
+        "n2.day13-tendency.grammar.2.anchor",
+        "n2.day13-tendency.grammar.2.logic",
+        "n2.day13-tendency.grammar.2.connection",
+        "n2.day13-tendency.grammar.2.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "彼は忘れっぽいから、何でもメモする。",
+          "translationId": "n2.day13-tendency.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day13-tendency.grammar.3",
+      "titleJa": "～一方だ",
+      "paragraphIds": [
+        "n2.day13-tendency.grammar.3.anchor",
+        "n2.day13-tendency.grammar.3.logic",
+        "n2.day13-tendency.grammar.3.connection",
+        "n2.day13-tendency.grammar.3.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "この町の人口は減る一方だ。",
+          "translationId": "n2.day13-tendency.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day13-tendency.grammar.4",
+      "titleJa": "～ばかりだ",
+      "paragraphIds": [
+        "n2.day13-tendency.grammar.4.anchor",
+        "n2.day13-tendency.grammar.4.logic",
+        "n2.day13-tendency.grammar.4.connection",
+        "n2.day13-tendency.grammar.4.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "物価は上がるばかりで、生活は楽にならない。",
+          "translationId": "n2.day13-tendency.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day13-tendency.grammar.5",
+      "titleJa": "～っぱなし",
+      "paragraphIds": [
+        "n2.day13-tendency.grammar.5.anchor",
+        "n2.day13-tendency.grammar.5.logic",
+        "n2.day13-tendency.grammar.5.connection",
+        "n2.day13-tendency.grammar.5.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "電気をつけっぱなしで寝てしまった。",
+          "translationId": "n2.day13-tendency.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "n2.day13-tendency.question.0",
+      "prompt": [
+        {
+          "textId": "n2.day13-tendency.question.0.review-instruction"
+        },
+        {
+          "ja": "最近は雨の日が多く、外出せずに家にこもり（　）だ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "がち"
+          }
+        ],
+        [
+          {
+            "ja": "気味"
+          }
+        ],
+        [
+          {
+            "ja": "っぽい"
+          }
+        ],
+        [
+          {
+            "ja": "っぱなし"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day13-tendency.question.0.explanation",
+      "instructionId": "n2.day13-tendency.question.0.anchor"
+    },
+    {
+      "id": "n2.day13-tendency.question.1",
+      "prompt": [
+        {
+          "textId": "n2.day13-tendency.question.1.review-instruction"
+        },
+        {
+          "ja": "一人で働いていると、食事が不規則になり（　）だ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "気味"
+          }
+        ],
+        [
+          {
+            "ja": "がち"
+          }
+        ],
+        [
+          {
+            "ja": "一方"
+          }
+        ],
+        [
+          {
+            "ja": "にすぎない"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day13-tendency.question.1.explanation",
+      "instructionId": "n2.day13-tendency.question.1.anchor"
+    },
+    {
+      "id": "n2.day13-tendency.question.2",
+      "prompt": [
+        {
+          "textId": "n2.day13-tendency.question.2.review-instruction"
+        },
+        {
+          "ja": "忙しい日が続いて、最近は少し疲れ（　）だ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "がち"
+          }
+        ],
+        [
+          {
+            "ja": "っぽい"
+          }
+        ],
+        [
+          {
+            "ja": "気味"
+          }
+        ],
+        [
+          {
+            "ja": "ばかり"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day13-tendency.question.2.explanation",
+      "instructionId": "n2.day13-tendency.question.2.anchor"
+    },
+    {
+      "id": "n2.day13-tendency.question.3",
+      "prompt": [
+        {
+          "ja": "少し風邪（　）で、のどが痛い。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "っぱなし"
+          }
+        ],
+        [
+          {
+            "ja": "気味"
+          }
+        ],
+        [
+          {
+            "ja": "っぽい"
+          }
+        ],
+        [
+          {
+            "ja": "一方"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day13-tendency.question.3.explanation",
+      "instructionId": "n2.day13-tendency.question.3.anchor"
+    },
+    {
+      "id": "n2.day13-tendency.question.4",
+      "prompt": [
+        {
+          "ja": "彼は忘れ（　）から、約束はメッセージで確認したほうがいい。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "っぽい"
+          }
+        ],
+        [
+          {
+            "ja": "気味"
+          }
+        ],
+        [
+          {
+            "ja": "がち"
+          }
+        ],
+        [
+          {
+            "ja": "っぱなし"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day13-tendency.question.4.explanation",
+      "instructionId": "n2.day13-tendency.question.4.anchor"
+    },
+    {
+      "id": "n2.day13-tendency.question.5",
+      "prompt": [
+        {
+          "ja": "大人なのに、そんな子供（　）言い方はやめてください。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "がちな"
+          }
+        ],
+        [
+          {
+            "ja": "気味な"
+          }
+        ],
+        [
+          {
+            "ja": "っぽい"
+          }
+        ],
+        [
+          {
+            "ja": "一方の"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day13-tendency.question.5.explanation",
+      "instructionId": "n2.day13-tendency.question.5.anchor"
+    },
+    {
+      "id": "n2.day13-tendency.question.6",
+      "prompt": [
+        {
+          "ja": "この国では、若者の失業率が上がる（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "っぱなしだ"
+          }
+        ],
+        [
+          {
+            "ja": "気味だ"
+          }
+        ],
+        [
+          {
+            "ja": "一方だ"
+          }
+        ],
+        [
+          {
+            "ja": "っぽい"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day13-tendency.question.6.explanation",
+      "instructionId": "n2.day13-tendency.question.6.anchor"
+    },
+    {
+      "id": "n2.day13-tendency.question.7",
+      "prompt": [
+        {
+          "ja": "練習を続けているので、彼の演奏は上達する（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "一方だ"
+          }
+        ],
+        [
+          {
+            "ja": "っぱなしだ"
+          }
+        ],
+        [
+          {
+            "ja": "がちだ"
+          }
+        ],
+        [
+          {
+            "ja": "気味だ"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day13-tendency.question.7.explanation",
+      "instructionId": "n2.day13-tendency.question.7.anchor"
+    },
+    {
+      "id": "n2.day13-tendency.question.8",
+      "prompt": [
+        {
+          "ja": "何も対策をしなければ、状況は悪くなる（　）だ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "気味"
+          }
+        ],
+        [
+          {
+            "ja": "ばかり"
+          }
+        ],
+        [
+          {
+            "ja": "っぱなし"
+          }
+        ],
+        [
+          {
+            "ja": "っぽい"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day13-tendency.question.8.explanation",
+      "instructionId": "n2.day13-tendency.question.8.anchor"
+    },
+    {
+      "id": "n2.day13-tendency.question.9",
+      "prompt": [
+        {
+          "ja": "修理しないままでは、この建物は古くなる（　）だ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "がち"
+          }
+        ],
+        [
+          {
+            "ja": "気味"
+          }
+        ],
+        [
+          {
+            "ja": "っぽい"
+          }
+        ],
+        [
+          {
+            "ja": "ばかり"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "n2.day13-tendency.question.9.explanation",
+      "instructionId": "n2.day13-tendency.question.9.anchor"
+    },
+    {
+      "id": "n2.day13-tendency.question.10",
+      "prompt": [
+        {
+          "ja": "ドアを開け（　）で出かけてしまった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "がち"
+          }
+        ],
+        [
+          {
+            "ja": "気味"
+          }
+        ],
+        [
+          {
+            "ja": "っぱなし"
+          }
+        ],
+        [
+          {
+            "ja": "一方"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day13-tendency.question.10.explanation",
+      "instructionId": "n2.day13-tendency.question.10.anchor"
+    },
+    {
+      "id": "n2.day13-tendency.question.11",
+      "prompt": [
+        {
+          "ja": "申請書類を机の上に置き（　）にしていた。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "っぽい"
+          }
+        ],
+        [
+          {
+            "ja": "ばかり"
+          }
+        ],
+        [
+          {
+            "ja": "っぱなし"
+          }
+        ],
+        [
+          {
+            "ja": "気味"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day13-tendency.question.11.explanation",
+      "instructionId": "n2.day13-tendency.question.11.anchor"
+    }
+  ],
+  "wordRefs": []
+}

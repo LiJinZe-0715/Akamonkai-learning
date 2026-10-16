@@ -1,0 +1,573 @@
+{
+  "id": "day1-mono",
+  "bookId": "n2",
+  "titleJa": "ものの表現",
+  "groupJa": "文法",
+  "articles": [
+    {
+      "id": "n2.day1-mono.grammar.0",
+      "titleJa": "～ものだ",
+      "paragraphIds": [
+        "n2.day1-mono.grammar.0.anchor",
+        "n2.day1-mono.grammar.0.logic",
+        "n2.day1-mono.grammar.0.connection",
+        "n2.day1-mono.grammar.0.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "人は誰でも失敗するものだ。",
+          "translationId": "n2.day1-mono.grammar.0.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day1-mono.grammar.1",
+      "titleJa": "～たものだ",
+      "paragraphIds": [
+        "n2.day1-mono.grammar.1.anchor",
+        "n2.day1-mono.grammar.1.logic",
+        "n2.day1-mono.grammar.1.connection",
+        "n2.day1-mono.grammar.1.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "子供のころ、よくこの川で泳いだものだ。",
+          "translationId": "n2.day1-mono.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day1-mono.grammar.2",
+      "titleJa": "～ものだから",
+      "paragraphIds": [
+        "n2.day1-mono.grammar.2.anchor",
+        "n2.day1-mono.grammar.2.logic",
+        "n2.day1-mono.grammar.2.connection",
+        "n2.day1-mono.grammar.2.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "会議が長引いたものだから、返事が遅れました。",
+          "translationId": "n2.day1-mono.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day1-mono.grammar.3",
+      "titleJa": "～ものの",
+      "paragraphIds": [
+        "n2.day1-mono.grammar.3.anchor",
+        "n2.day1-mono.grammar.3.logic",
+        "n2.day1-mono.grammar.3.connection",
+        "n2.day1-mono.grammar.3.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "試験には合格したものの、会話には自信がない。",
+          "translationId": "n2.day1-mono.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day1-mono.grammar.4",
+      "titleJa": "～ものなら／～ようものなら",
+      "paragraphIds": [
+        "n2.day1-mono.grammar.4.anchor",
+        "n2.day1-mono.grammar.4.logic",
+        "n2.day1-mono.grammar.4.connection",
+        "n2.day1-mono.grammar.4.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "人生をやり直せるものなら、もっと勉強したい。",
+          "translationId": "n2.day1-mono.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day1-mono.grammar.5",
+      "titleJa": "～ものを",
+      "paragraphIds": [
+        "n2.day1-mono.grammar.5.anchor",
+        "n2.day1-mono.grammar.5.logic",
+        "n2.day1-mono.grammar.5.connection",
+        "n2.day1-mono.grammar.5.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "相談してくれれば手伝ったものを、一人で全部やった。",
+          "translationId": "n2.day1-mono.grammar.5.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day1-mono.grammar.6",
+      "titleJa": "～ものではない",
+      "paragraphIds": [
+        "n2.day1-mono.grammar.6.anchor",
+        "n2.day1-mono.grammar.6.logic",
+        "n2.day1-mono.grammar.6.connection",
+        "n2.day1-mono.grammar.6.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "人の失敗を笑うものではない。",
+          "translationId": "n2.day1-mono.grammar.6.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day1-mono.grammar.7",
+      "titleJa": "～というものだ",
+      "paragraphIds": [
+        "n2.day1-mono.grammar.7.anchor",
+        "n2.day1-mono.grammar.7.logic",
+        "n2.day1-mono.grammar.7.connection",
+        "n2.day1-mono.grammar.7.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "困っている友人を助けるのが友情というものだ。",
+          "translationId": "n2.day1-mono.grammar.7.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "n2.day1-mono.question.0",
+      "prompt": [
+        {
+          "ja": "学生のころは、お金がなくても友達と朝までよく語り合った（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ものだ"
+          }
+        ],
+        [
+          {
+            "ja": "ものなら"
+          }
+        ],
+        [
+          {
+            "ja": "ものの"
+          }
+        ],
+        [
+          {
+            "ja": "ものを"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day1-mono.question.0.explanation",
+      "instructionId": "n2.day1-mono.question.0.anchor"
+    },
+    {
+      "id": "n2.day1-mono.question.1",
+      "prompt": [
+        {
+          "ja": "新しい環境に入れば、誰でも最初は不安になる（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ものを"
+          }
+        ],
+        [
+          {
+            "ja": "ものだから"
+          }
+        ],
+        [
+          {
+            "ja": "ものだ"
+          }
+        ],
+        [
+          {
+            "ja": "ものなら"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day1-mono.question.1.explanation",
+      "instructionId": "n2.day1-mono.question.1.anchor"
+    },
+    {
+      "id": "n2.day1-mono.question.2",
+      "prompt": [
+        {
+          "ja": "昨日はすぐに返事ができませんでした。会議が長引いた（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ものの"
+          }
+        ],
+        [
+          {
+            "ja": "ものだから"
+          }
+        ],
+        [
+          {
+            "ja": "ものなら"
+          }
+        ],
+        [
+          {
+            "ja": "というものだ"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day1-mono.question.2.explanation",
+      "instructionId": "n2.day1-mono.question.2.anchor"
+    },
+    {
+      "id": "n2.day1-mono.question.3",
+      "prompt": [
+        {
+          "textId": "n2.day1-mono.question.3.review-instruction"
+        },
+        {
+          "ja": "日本語能力試験には合格した（　）、会話にはまだ自信がない。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ものを"
+          }
+        ],
+        [
+          {
+            "ja": "ものなら"
+          }
+        ],
+        [
+          {
+            "ja": "ものの"
+          }
+        ],
+        [
+          {
+            "ja": "ものだから"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day1-mono.question.3.explanation",
+      "instructionId": "n2.day1-mono.question.3.anchor"
+    },
+    {
+      "id": "n2.day1-mono.question.4",
+      "prompt": [
+        {
+          "ja": "一週間ゆっくり休める（　）、携帯の電源を切って山にこもりたい。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ものなら"
+          }
+        ],
+        [
+          {
+            "ja": "ものだ"
+          }
+        ],
+        [
+          {
+            "ja": "ものを"
+          }
+        ],
+        [
+          {
+            "ja": "ものの"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day1-mono.question.4.explanation",
+      "instructionId": "n2.day1-mono.question.4.anchor"
+    },
+    {
+      "id": "n2.day1-mono.question.5",
+      "prompt": [
+        {
+          "ja": "一言相談してくれれば手伝った（　）、彼は徹夜で一人で仕上げてしまった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ものだから"
+          }
+        ],
+        [
+          {
+            "ja": "ものの"
+          }
+        ],
+        [
+          {
+            "ja": "ものを"
+          }
+        ],
+        [
+          {
+            "ja": "ものなら"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day1-mono.question.5.explanation",
+      "instructionId": "n2.day1-mono.question.5.anchor"
+    },
+    {
+      "id": "n2.day1-mono.question.6",
+      "prompt": [
+        {
+          "ja": "相手の事情も聞かずに、一方的に責める（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ものではない"
+          }
+        ],
+        [
+          {
+            "ja": "ものなら"
+          }
+        ],
+        [
+          {
+            "ja": "ものの"
+          }
+        ],
+        [
+          {
+            "ja": "というものだ"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day1-mono.question.6.explanation",
+      "instructionId": "n2.day1-mono.question.6.anchor"
+    },
+    {
+      "id": "n2.day1-mono.question.7",
+      "prompt": [
+        {
+          "ja": "苦しいときに黙ってそばにいる。それが本当の友情（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ものだから"
+          }
+        ],
+        [
+          {
+            "ja": "ものを"
+          }
+        ],
+        [
+          {
+            "ja": "というものだ"
+          }
+        ],
+        [
+          {
+            "ja": "ものなら"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day1-mono.question.7.explanation",
+      "instructionId": "n2.day1-mono.question.7.anchor"
+    },
+    {
+      "id": "n2.day1-mono.question.8",
+      "prompt": [
+        {
+          "ja": "この町も昔は祭りになると、夜遅くまで大勢の人でにぎわった（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ものの"
+          }
+        ],
+        [
+          {
+            "ja": "ものだ"
+          }
+        ],
+        [
+          {
+            "ja": "ものなら"
+          }
+        ],
+        [
+          {
+            "ja": "ものだから"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day1-mono.question.8.explanation",
+      "instructionId": "n2.day1-mono.question.8.anchor"
+    },
+    {
+      "id": "n2.day1-mono.question.9",
+      "prompt": [
+        {
+          "textId": "n2.day1-mono.question.9.review-instruction"
+        },
+        {
+          "ja": "何度も練習した（　）、本番では緊張して言葉が出てこなかった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ものの"
+          }
+        ],
+        [
+          {
+            "ja": "ものを"
+          }
+        ],
+        [
+          {
+            "ja": "ものだから"
+          }
+        ],
+        [
+          {
+            "ja": "ものではない"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day1-mono.question.9.explanation",
+      "instructionId": "n2.day1-mono.question.9.anchor"
+    },
+    {
+      "id": "n2.day1-mono.question.10",
+      "prompt": [
+        {
+          "ja": "今朝、資料を家に忘れてしまいました。慌てて出てきた（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ものなら"
+          }
+        ],
+        [
+          {
+            "ja": "というものだ"
+          }
+        ],
+        [
+          {
+            "ja": "ものだから"
+          }
+        ],
+        [
+          {
+            "ja": "ものを"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day1-mono.question.10.explanation",
+      "instructionId": "n2.day1-mono.question.10.anchor"
+    },
+    {
+      "id": "n2.day1-mono.question.11",
+      "prompt": [
+        {
+          "ja": "できる（　）、あの日に戻って、言えなかった「ありがとう」を伝えたい。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ものの"
+          }
+        ],
+        [
+          {
+            "ja": "ものを"
+          }
+        ],
+        [
+          {
+            "ja": "ものではない"
+          }
+        ],
+        [
+          {
+            "ja": "ものなら"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "n2.day1-mono.question.11.explanation",
+      "instructionId": "n2.day1-mono.question.11.anchor"
+    }
+  ],
+  "wordRefs": []
+}

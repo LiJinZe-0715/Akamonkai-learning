@@ -1,0 +1,506 @@
+{
+  "id": "minna-4",
+  "bookId": "minna",
+  "titleJa": "第4課",
+  "groupJa": "初級Ⅰ",
+  "articles": [
+    {
+      "id": "minna.lesson.4.grammar.1",
+      "titleJa": "今 ～時～分です",
+      "paragraphIds": [
+        "minna.lesson.4.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "今、七時半です。",
+          "translationId": "minna.lesson.4.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.4.grammar.2",
+      "titleJa": "Vます／Vません",
+      "paragraphIds": [
+        "minna.lesson.4.grammar.2.meaning",
+        "minna.lesson.4.grammar.2.formation"
+      ],
+      "examples": [
+        {
+          "ja": "毎日働きます。",
+          "translationId": "minna.lesson.4.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.4.grammar.3",
+      "titleJa": "Vました／Vませんでした",
+      "paragraphIds": [
+        "minna.lesson.4.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "昨日は勉強しませんでした。",
+          "translationId": "minna.lesson.4.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.4.grammar.4",
+      "titleJa": "時刻 に V",
+      "paragraphIds": [
+        "minna.lesson.4.grammar.4.meaning",
+        "minna.lesson.4.grammar.4.note"
+      ],
+      "examples": [
+        {
+          "ja": "六時に起きます。",
+          "translationId": "minna.lesson.4.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.4.grammar.5",
+      "titleJa": "N1 から N2 まで",
+      "paragraphIds": [
+        "minna.lesson.4.grammar.5.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "仕事は九時から五時までです。",
+          "translationId": "minna.lesson.4.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.4-1",
+      "prompt": [
+        {
+          "ja": "今（　）ですか。―午後三時です。"
+        }
+      ],
+      "instructionId": "minna.question.4-1.translation",
+      "options": [
+        [
+          {
+            "ja": "何時"
+          }
+        ],
+        [
+          {
+            "ja": "何時間"
+          }
+        ],
+        [
+          {
+            "ja": "何日間"
+          }
+        ],
+        [
+          {
+            "ja": "何回"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.4-1.explanation"
+    },
+    {
+      "id": "minna.question.4-2",
+      "prompt": [
+        {
+          "ja": "日曜日は会社で（　）。"
+        }
+      ],
+      "instructionId": "minna.question.4-2.translation",
+      "options": [
+        [
+          {
+            "ja": "働かないます"
+          }
+        ],
+        [
+          {
+            "ja": "働きません"
+          }
+        ],
+        [
+          {
+            "ja": "働きませんでした"
+          }
+        ],
+        [
+          {
+            "ja": "働きました"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.4-2.explanation"
+    },
+    {
+      "id": "minna.question.4-3",
+      "prompt": [
+        {
+          "ja": "昨日は図書館で（　）。"
+        }
+      ],
+      "instructionId": "minna.question.4-3.translation",
+      "options": [
+        [
+          {
+            "ja": "勉強します"
+          }
+        ],
+        [
+          {
+            "ja": "勉強しません"
+          }
+        ],
+        [
+          {
+            "ja": "勉強しました"
+          }
+        ],
+        [
+          {
+            "ja": "勉強したです"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.4-3.explanation"
+    },
+    {
+      "id": "minna.question.4-4",
+      "prompt": [
+        {
+          "ja": "毎朝、七時（　）起きます。"
+        }
+      ],
+      "instructionId": "minna.question.4-4.translation",
+      "options": [
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ],
+        [
+          {
+            "ja": "と"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.4-4.explanation"
+    },
+    {
+      "id": "minna.question.4-5",
+      "prompt": [
+        {
+          "ja": "店は九時（　）六時までです。"
+        }
+      ],
+      "instructionId": "minna.question.4-5.translation",
+      "options": [
+        [
+          {
+            "ja": "から"
+          }
+        ],
+        [
+          {
+            "ja": "まで"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.4-5.explanation"
+    },
+    {
+      "id": "minna.question.4-6",
+      "prompt": [
+        {
+          "ja": "昨日は（　）。"
+        }
+      ],
+      "instructionId": "minna.question.4-6.translation",
+      "options": [
+        [
+          {
+            "ja": "休みません"
+          }
+        ],
+        [
+          {
+            "ja": "休みませんでした"
+          }
+        ],
+        [
+          {
+            "ja": "休まないでした"
+          }
+        ],
+        [
+          {
+            "ja": "休みました"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.4-6.explanation"
+    },
+    {
+      "id": "minna.question.4-7",
+      "prompt": [
+        {
+          "textId": "minna.question.4-7.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.4-7.translation",
+      "options": [
+        [
+          {
+            "ja": "明日に勉強します。"
+          }
+        ],
+        [
+          {
+            "ja": "明日を勉強します。"
+          }
+        ],
+        [
+          {
+            "ja": "明日、勉強します。"
+          }
+        ],
+        [
+          {
+            "ja": "明日で勉強します。"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.4-7.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.134"
+    },
+    {
+      "wordId": "word.135"
+    },
+    {
+      "wordId": "word.136"
+    },
+    {
+      "wordId": "word.137"
+    },
+    {
+      "wordId": "word.138"
+    },
+    {
+      "wordId": "word.139"
+    },
+    {
+      "wordId": "word.140"
+    },
+    {
+      "wordId": "word.141"
+    },
+    {
+      "wordId": "word.142"
+    },
+    {
+      "wordId": "word.143"
+    },
+    {
+      "wordId": "word.144"
+    },
+    {
+      "wordId": "word.145"
+    },
+    {
+      "wordId": "word.146"
+    },
+    {
+      "wordId": "word.147"
+    },
+    {
+      "wordId": "word.148"
+    },
+    {
+      "wordId": "word.149"
+    },
+    {
+      "wordId": "word.150"
+    },
+    {
+      "wordId": "word.151"
+    },
+    {
+      "wordId": "word.152"
+    },
+    {
+      "wordId": "word.153"
+    },
+    {
+      "wordId": "word.154"
+    },
+    {
+      "wordId": "word.155"
+    },
+    {
+      "wordId": "word.156"
+    },
+    {
+      "wordId": "word.157"
+    },
+    {
+      "wordId": "word.158"
+    },
+    {
+      "wordId": "word.159"
+    },
+    {
+      "wordId": "word.160"
+    },
+    {
+      "wordId": "word.161"
+    },
+    {
+      "wordId": "word.162"
+    },
+    {
+      "wordId": "word.163"
+    },
+    {
+      "wordId": "word.164"
+    },
+    {
+      "wordId": "word.165"
+    },
+    {
+      "wordId": "word.166"
+    },
+    {
+      "wordId": "word.167"
+    },
+    {
+      "wordId": "word.168"
+    },
+    {
+      "wordId": "word.169"
+    },
+    {
+      "wordId": "word.170"
+    },
+    {
+      "wordId": "word.171"
+    },
+    {
+      "wordId": "word.172"
+    },
+    {
+      "wordId": "word.173"
+    },
+    {
+      "wordId": "word.174"
+    },
+    {
+      "wordId": "word.175"
+    },
+    {
+      "wordId": "word.176"
+    },
+    {
+      "wordId": "word.177"
+    },
+    {
+      "wordId": "word.178"
+    },
+    {
+      "wordId": "word.179"
+    },
+    {
+      "wordId": "word.180"
+    },
+    {
+      "wordId": "word.181"
+    },
+    {
+      "wordId": "word.182"
+    },
+    {
+      "wordId": "word.183"
+    },
+    {
+      "wordId": "word.184"
+    },
+    {
+      "wordId": "word.185"
+    },
+    {
+      "wordId": "word.186"
+    },
+    {
+      "wordId": "word.187"
+    },
+    {
+      "wordId": "word.188"
+    },
+    {
+      "wordId": "word.189"
+    },
+    {
+      "wordId": "word.190"
+    },
+    {
+      "wordId": "word.191"
+    },
+    {
+      "wordId": "word.192"
+    }
+  ]
+}

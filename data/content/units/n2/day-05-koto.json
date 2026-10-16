@@ -1,0 +1,533 @@
+{
+  "id": "day5-koto",
+  "bookId": "n2",
+  "titleJa": "ことの表現",
+  "groupJa": "文法",
+  "articles": [
+    {
+      "id": "n2.day5-koto.grammar.0",
+      "titleJa": "～ことだ",
+      "paragraphIds": [
+        "n2.day5-koto.grammar.0.anchor",
+        "n2.day5-koto.grammar.0.logic",
+        "n2.day5-koto.grammar.0.connection",
+        "n2.day5-koto.grammar.0.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "日本語が上手になりたいなら、毎日話すことだ。",
+          "translationId": "n2.day5-koto.grammar.0.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day5-koto.grammar.1",
+      "titleJa": "～ことはない",
+      "paragraphIds": [
+        "n2.day5-koto.grammar.1.anchor",
+        "n2.day5-koto.grammar.1.logic",
+        "n2.day5-koto.grammar.1.connection",
+        "n2.day5-koto.grammar.1.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "まだ時間があるから、急ぐことはない。",
+          "translationId": "n2.day5-koto.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day5-koto.grammar.2",
+      "titleJa": "～ことだから",
+      "paragraphIds": [
+        "n2.day5-koto.grammar.2.anchor",
+        "n2.day5-koto.grammar.2.logic",
+        "n2.day5-koto.grammar.2.connection",
+        "n2.day5-koto.grammar.2.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "真面目な田中さんのことだから、もう準備しているだろう。",
+          "translationId": "n2.day5-koto.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day5-koto.grammar.3",
+      "titleJa": "～ことなく",
+      "paragraphIds": [
+        "n2.day5-koto.grammar.3.anchor",
+        "n2.day5-koto.grammar.3.logic",
+        "n2.day5-koto.grammar.3.connection",
+        "n2.day5-koto.grammar.3.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "彼は何も言うことなく、部屋を出ていった。",
+          "translationId": "n2.day5-koto.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day5-koto.grammar.4",
+      "titleJa": "～ことに",
+      "paragraphIds": [
+        "n2.day5-koto.grammar.4.anchor",
+        "n2.day5-koto.grammar.4.logic",
+        "n2.day5-koto.grammar.4.connection",
+        "n2.day5-koto.grammar.4.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "驚いたことに、彼は一人で全部完成させた。",
+          "translationId": "n2.day5-koto.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day5-koto.grammar.5",
+      "titleJa": "～ことか",
+      "paragraphIds": [
+        "n2.day5-koto.grammar.5.anchor",
+        "n2.day5-koto.grammar.5.logic",
+        "n2.day5-koto.grammar.5.connection",
+        "n2.day5-koto.grammar.5.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "合格したとき、どんなに嬉しかったことか。",
+          "translationId": "n2.day5-koto.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "n2.day5-koto.question.0",
+      "prompt": [
+        {
+          "ja": "体調を早く戻したいなら、今夜は十分に休む（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことか"
+          }
+        ],
+        [
+          {
+            "ja": "ことだ"
+          }
+        ],
+        [
+          {
+            "ja": "ことなく"
+          }
+        ],
+        [
+          {
+            "ja": "ことだから"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day5-koto.question.0.explanation",
+      "instructionId": "n2.day5-koto.question.0.anchor"
+    },
+    {
+      "id": "n2.day5-koto.question.1",
+      "prompt": [
+        {
+          "ja": "会話が上手になりたいなら、間違いを恐れず話してみる（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことはない"
+          }
+        ],
+        [
+          {
+            "ja": "ことに"
+          }
+        ],
+        [
+          {
+            "ja": "ことだ"
+          }
+        ],
+        [
+          {
+            "ja": "ことか"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day5-koto.question.1.explanation",
+      "instructionId": "n2.day5-koto.question.1.anchor"
+    },
+    {
+      "id": "n2.day5-koto.question.2",
+      "prompt": [
+        {
+          "ja": "一度失敗したくらいで、そんなに落ち込む（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことはない"
+          }
+        ],
+        [
+          {
+            "ja": "ことだ"
+          }
+        ],
+        [
+          {
+            "ja": "ことなく"
+          }
+        ],
+        [
+          {
+            "ja": "ことだから"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day5-koto.question.2.explanation",
+      "instructionId": "n2.day5-koto.question.2.anchor"
+    },
+    {
+      "id": "n2.day5-koto.question.3",
+      "prompt": [
+        {
+          "ja": "まだ締め切りまで一週間ある。今すぐ徹夜する（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことか"
+          }
+        ],
+        [
+          {
+            "ja": "ことに"
+          }
+        ],
+        [
+          {
+            "ja": "ことはない"
+          }
+        ],
+        [
+          {
+            "ja": "ことだ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day5-koto.question.3.explanation",
+      "instructionId": "n2.day5-koto.question.3.anchor"
+    },
+    {
+      "id": "n2.day5-koto.question.4",
+      "prompt": [
+        {
+          "ja": "責任感の強い彼の（　）、最後までやり切るだろう。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことに"
+          }
+        ],
+        [
+          {
+            "ja": "ことだから"
+          }
+        ],
+        [
+          {
+            "ja": "ことなく"
+          }
+        ],
+        [
+          {
+            "ja": "ことか"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day5-koto.question.4.explanation",
+      "instructionId": "n2.day5-koto.question.4.anchor"
+    },
+    {
+      "id": "n2.day5-koto.question.5",
+      "prompt": [
+        {
+          "ja": "時間に正確な佐藤さんの（　）、もう駅に着いているはずだ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことだ"
+          }
+        ],
+        [
+          {
+            "ja": "ことはない"
+          }
+        ],
+        [
+          {
+            "ja": "ことだから"
+          }
+        ],
+        [
+          {
+            "ja": "ことか"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day5-koto.question.5.explanation",
+      "instructionId": "n2.day5-koto.question.5.anchor"
+    },
+    {
+      "id": "n2.day5-koto.question.6",
+      "prompt": [
+        {
+          "ja": "選手たちは一度も諦める（　）、最後まで走り続けた。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことなく"
+          }
+        ],
+        [
+          {
+            "ja": "ことに"
+          }
+        ],
+        [
+          {
+            "ja": "ことはない"
+          }
+        ],
+        [
+          {
+            "ja": "ことだから"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day5-koto.question.6.explanation",
+      "instructionId": "n2.day5-koto.question.6.anchor"
+    },
+    {
+      "id": "n2.day5-koto.question.7",
+      "prompt": [
+        {
+          "ja": "彼は理由を説明する（　）、会議室を出ていった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことか"
+          }
+        ],
+        [
+          {
+            "ja": "ことだ"
+          }
+        ],
+        [
+          {
+            "ja": "ことなく"
+          }
+        ],
+        [
+          {
+            "ja": "ことに"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day5-koto.question.7.explanation",
+      "instructionId": "n2.day5-koto.question.7.anchor"
+    },
+    {
+      "id": "n2.day5-koto.question.8",
+      "prompt": [
+        {
+          "ja": "（　）、この小さな店には百年の歴史がある。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "驚いたことに"
+          }
+        ],
+        [
+          {
+            "ja": "驚くことはない"
+          }
+        ],
+        [
+          {
+            "ja": "驚くことだから"
+          }
+        ],
+        [
+          {
+            "ja": "驚くことなく"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day5-koto.question.8.explanation",
+      "instructionId": "n2.day5-koto.question.8.anchor"
+    },
+    {
+      "id": "n2.day5-koto.question.9",
+      "prompt": [
+        {
+          "ja": "（　）、けが人は一人もいなかった。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "幸いなことに"
+          }
+        ],
+        [
+          {
+            "ja": "幸いなことか"
+          }
+        ],
+        [
+          {
+            "ja": "幸いのことだから"
+          }
+        ],
+        [
+          {
+            "ja": "幸いことなく"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day5-koto.question.9.explanation",
+      "instructionId": "n2.day5-koto.question.9.anchor"
+    },
+    {
+      "id": "n2.day5-koto.question.10",
+      "prompt": [
+        {
+          "ja": "この日をどれほど待った（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことだ"
+          }
+        ],
+        [
+          {
+            "ja": "ことはない"
+          }
+        ],
+        [
+          {
+            "ja": "ことか"
+          }
+        ],
+        [
+          {
+            "ja": "ことなく"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day5-koto.question.10.explanation",
+      "instructionId": "n2.day5-koto.question.10.anchor"
+    },
+    {
+      "id": "n2.day5-koto.question.11",
+      "prompt": [
+        {
+          "ja": "初めて一人で海外へ行ったとき、どんなに不安だった（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "ことだから"
+          }
+        ],
+        [
+          {
+            "ja": "ことに"
+          }
+        ],
+        [
+          {
+            "ja": "ことか"
+          }
+        ],
+        [
+          {
+            "ja": "ことだ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day5-koto.question.11.explanation",
+      "instructionId": "n2.day5-koto.question.11.anchor"
+    }
+  ],
+  "wordRefs": []
+}

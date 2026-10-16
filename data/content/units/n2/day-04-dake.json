@@ -1,0 +1,577 @@
+{
+  "id": "day4-dake",
+  "bookId": "n2",
+  "titleJa": "だけの表現",
+  "groupJa": "文法",
+  "articles": [
+    {
+      "id": "n2.day4-dake.grammar.0",
+      "titleJa": "～だけ",
+      "paragraphIds": [
+        "n2.day4-dake.grammar.0.anchor",
+        "n2.day4-dake.grammar.0.logic",
+        "n2.day4-dake.grammar.0.connection",
+        "n2.day4-dake.grammar.0.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "食べたいだけ食べてもいい。",
+          "translationId": "n2.day4-dake.grammar.0.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day4-dake.grammar.1",
+      "titleJa": "できるだけ",
+      "paragraphIds": [
+        "n2.day4-dake.grammar.1.anchor",
+        "n2.day4-dake.grammar.1.logic",
+        "n2.day4-dake.grammar.1.connection",
+        "n2.day4-dake.grammar.1.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "できるだけ早く返事してください。",
+          "translationId": "n2.day4-dake.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day4-dake.grammar.2",
+      "titleJa": "～だけに",
+      "paragraphIds": [
+        "n2.day4-dake.grammar.2.anchor",
+        "n2.day4-dake.grammar.2.logic",
+        "n2.day4-dake.grammar.2.connection",
+        "n2.day4-dake.grammar.2.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "期待していただけに、失敗したときは本当に残念だった。",
+          "translationId": "n2.day4-dake.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day4-dake.grammar.3",
+      "titleJa": "～だけあって",
+      "paragraphIds": [
+        "n2.day4-dake.grammar.3.anchor",
+        "n2.day4-dake.grammar.3.logic",
+        "n2.day4-dake.grammar.3.connection",
+        "n2.day4-dake.grammar.3.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "彼は十年間日本語を勉強しているだけあって、発音がとても自然だ。",
+          "translationId": "n2.day4-dake.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day4-dake.grammar.4",
+      "titleJa": "～だけのことはある",
+      "paragraphIds": [
+        "n2.day4-dake.grammar.4.anchor",
+        "n2.day4-dake.grammar.4.logic",
+        "n2.day4-dake.grammar.4.connection",
+        "n2.day4-dake.grammar.4.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "二時間並んだだけのことはあって、このラーメンは本当においしい。",
+          "translationId": "n2.day4-dake.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day4-dake.grammar.5",
+      "titleJa": "～だけで",
+      "paragraphIds": [
+        "n2.day4-dake.grammar.5.anchor",
+        "n2.day4-dake.grammar.5.logic",
+        "n2.day4-dake.grammar.5.connection",
+        "n2.day4-dake.grammar.5.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "この写真を見るだけで、旅行のことを思い出す。",
+          "translationId": "n2.day4-dake.grammar.5.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "n2.day4-dake.grammar.6",
+      "titleJa": "～だけでは",
+      "paragraphIds": [
+        "n2.day4-dake.grammar.6.anchor",
+        "n2.day4-dake.grammar.6.logic",
+        "n2.day4-dake.grammar.6.connection",
+        "n2.day4-dake.grammar.6.contrast"
+      ],
+      "examples": [
+        {
+          "ja": "教科書を読むだけでは、自然な会話は身につかない。",
+          "translationId": "n2.day4-dake.grammar.6.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "n2.day4-dake.question.0",
+      "prompt": [
+        {
+          "ja": "旅行の前に、必要な情報を調べられる（　）調べておこう。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "だけに"
+          }
+        ],
+        [
+          {
+            "ja": "だけ"
+          }
+        ],
+        [
+          {
+            "ja": "だけで"
+          }
+        ],
+        [
+          {
+            "ja": "だけでは"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day4-dake.question.0.explanation",
+      "instructionId": "n2.day4-dake.question.0.anchor"
+    },
+    {
+      "id": "n2.day4-dake.question.1",
+      "prompt": [
+        {
+          "ja": "明日の面接には、（　）早く来てください。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "できるだけ"
+          }
+        ],
+        [
+          {
+            "ja": "だけあって"
+          }
+        ],
+        [
+          {
+            "ja": "だけでは"
+          }
+        ],
+        [
+          {
+            "ja": "だけのことはある"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day4-dake.question.1.explanation",
+      "instructionId": "n2.day4-dake.question.1.anchor"
+    },
+    {
+      "id": "n2.day4-dake.question.2",
+      "prompt": [
+        {
+          "textId": "n2.day4-dake.question.2.review-instruction"
+        },
+        {
+          "ja": "長い間楽しみにしていた（　）、中止になって本当に残念だ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "だけあって"
+          }
+        ],
+        [
+          {
+            "ja": "だけに"
+          }
+        ],
+        [
+          {
+            "ja": "だけで"
+          }
+        ],
+        [
+          {
+            "ja": "だけのことはある"
+          }
+        ]
+      ],
+      "accepted": [
+        1,
+        0
+      ],
+      "explanationId": "n2.day4-dake.question.2.explanation",
+      "instructionId": "n2.day4-dake.question.2.anchor"
+    },
+    {
+      "id": "n2.day4-dake.question.3",
+      "prompt": [
+        {
+          "textId": "n2.day4-dake.question.3.review-instruction"
+        },
+        {
+          "ja": "責任の重い仕事（　）、小さなミスでも強く気にしてしまう。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "だけで"
+          }
+        ],
+        [
+          {
+            "ja": "だけでは"
+          }
+        ],
+        [
+          {
+            "ja": "だけに"
+          }
+        ],
+        [
+          {
+            "ja": "だけあって"
+          }
+        ]
+      ],
+      "accepted": [
+        2,
+        3
+      ],
+      "explanationId": "n2.day4-dake.question.3.explanation",
+      "instructionId": "n2.day4-dake.question.3.anchor"
+    },
+    {
+      "id": "n2.day4-dake.question.4",
+      "prompt": [
+        {
+          "textId": "n2.day4-dake.question.4.review-instruction"
+        },
+        {
+          "ja": "彼は通訳として十年働いてきた（　）、言葉の選び方が実に自然だ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "だけあって"
+          }
+        ],
+        [
+          {
+            "ja": "だけでは"
+          }
+        ],
+        [
+          {
+            "ja": "だけに"
+          }
+        ],
+        [
+          {
+            "ja": "だけで"
+          }
+        ]
+      ],
+      "accepted": [
+        0,
+        2
+      ],
+      "explanationId": "n2.day4-dake.question.4.explanation",
+      "instructionId": "n2.day4-dake.question.4.anchor"
+    },
+    {
+      "id": "n2.day4-dake.question.5",
+      "prompt": [
+        {
+          "textId": "n2.day4-dake.question.5.review-instruction"
+        },
+        {
+          "ja": "さすが人気店（　）、昼前から長い列ができている。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "だけに"
+          }
+        ],
+        [
+          {
+            "ja": "だけあって"
+          }
+        ],
+        [
+          {
+            "ja": "だけでは"
+          }
+        ],
+        [
+          {
+            "ja": "だけのことはある"
+          }
+        ]
+      ],
+      "accepted": [
+        1,
+        0
+      ],
+      "explanationId": "n2.day4-dake.question.5.explanation",
+      "instructionId": "n2.day4-dake.question.5.anchor"
+    },
+    {
+      "id": "n2.day4-dake.question.6",
+      "prompt": [
+        {
+          "ja": "毎朝半年も練習した（　）。以前よりずっと自然に話せる。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "だけではない"
+          }
+        ],
+        [
+          {
+            "ja": "だけで"
+          }
+        ],
+        [
+          {
+            "ja": "だけのことはある"
+          }
+        ],
+        [
+          {
+            "ja": "だけに"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day4-dake.question.6.explanation",
+      "instructionId": "n2.day4-dake.question.6.anchor"
+    },
+    {
+      "id": "n2.day4-dake.question.7",
+      "prompt": [
+        {
+          "textId": "n2.day4-dake.question.7.review-instruction"
+        },
+        {
+          "ja": "高い料金を払った（　）、サービスは細かいところまで行き届いている。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "だけでは"
+          }
+        ],
+        [
+          {
+            "ja": "だけのことはあって"
+          }
+        ],
+        [
+          {
+            "ja": "だけで"
+          }
+        ],
+        [
+          {
+            "ja": "だけに"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "n2.day4-dake.question.7.explanation",
+      "instructionId": "n2.day4-dake.question.7.anchor"
+    },
+    {
+      "id": "n2.day4-dake.question.8",
+      "prompt": [
+        {
+          "ja": "彼の名前を聞く（　）、学生時代の出来事を思い出す。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "だけでは"
+          }
+        ],
+        [
+          {
+            "ja": "だけに"
+          }
+        ],
+        [
+          {
+            "ja": "だけで"
+          }
+        ],
+        [
+          {
+            "ja": "だけあって"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "n2.day4-dake.question.8.explanation",
+      "instructionId": "n2.day4-dake.question.8.anchor"
+    },
+    {
+      "id": "n2.day4-dake.question.9",
+      "prompt": [
+        {
+          "ja": "この曲は、聞く（　）元気になれる。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "だけで"
+          }
+        ],
+        [
+          {
+            "ja": "だけでは"
+          }
+        ],
+        [
+          {
+            "ja": "だけのことはある"
+          }
+        ],
+        [
+          {
+            "ja": "だけに"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "n2.day4-dake.question.9.explanation",
+      "instructionId": "n2.day4-dake.question.9.anchor"
+    },
+    {
+      "id": "n2.day4-dake.question.10",
+      "prompt": [
+        {
+          "textId": "n2.day4-dake.question.10.review-instruction"
+        },
+        {
+          "ja": "文法の説明を読む（　）、会話で自然に使えるようにはならない。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "だけに"
+          }
+        ],
+        [
+          {
+            "ja": "だけあって"
+          }
+        ],
+        [
+          {
+            "ja": "だけでは"
+          }
+        ],
+        [
+          {
+            "ja": "だけで"
+          }
+        ]
+      ],
+      "accepted": [
+        2,
+        3
+      ],
+      "explanationId": "n2.day4-dake.question.10.explanation",
+      "instructionId": "n2.day4-dake.question.10.anchor"
+    },
+    {
+      "id": "n2.day4-dake.question.11",
+      "prompt": [
+        {
+          "textId": "n2.day4-dake.question.11.review-instruction"
+        },
+        {
+          "ja": "才能がある（　）成功できるとは限らない。努力を続けることも必要だ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "だけで"
+          }
+        ],
+        [
+          {
+            "ja": "だけでは"
+          }
+        ],
+        [
+          {
+            "ja": "だけあって"
+          }
+        ],
+        [
+          {
+            "ja": "だけに"
+          }
+        ]
+      ],
+      "accepted": [
+        1,
+        0
+      ],
+      "explanationId": "n2.day4-dake.question.11.explanation",
+      "instructionId": "n2.day4-dake.question.11.anchor"
+    }
+  ],
+  "wordRefs": []
+}

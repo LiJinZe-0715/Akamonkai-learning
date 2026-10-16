@@ -1,0 +1,469 @@
+{
+  "id": "minna-6",
+  "bookId": "minna",
+  "titleJa": "第6課",
+  "groupJa": "初級Ⅰ",
+  "articles": [
+    {
+      "id": "minna.lesson.6.grammar.1",
+      "titleJa": "N を V",
+      "paragraphIds": [
+        "minna.lesson.6.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "毎朝コーヒーを飲みます。",
+          "translationId": "minna.lesson.6.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.6.grammar.2",
+      "titleJa": "場所 で V",
+      "paragraphIds": [
+        "minna.lesson.6.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "図書館で本を読みます。",
+          "translationId": "minna.lesson.6.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.6.grammar.3",
+      "titleJa": "N を します",
+      "paragraphIds": [
+        "minna.lesson.6.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "週末にテニスをします。",
+          "translationId": "minna.lesson.6.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.6.grammar.4",
+      "titleJa": "Vませんか",
+      "paragraphIds": [
+        "minna.lesson.6.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "いっしょに昼ご飯を食べませんか。",
+          "translationId": "minna.lesson.6.grammar.4.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.6.grammar.5",
+      "titleJa": "Vましょう",
+      "paragraphIds": [
+        "minna.lesson.6.grammar.5.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "少し休みましょう。",
+          "translationId": "minna.lesson.6.grammar.5.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.6-1",
+      "prompt": [
+        {
+          "ja": "毎晩、新聞（　）読みます。"
+        }
+      ],
+      "instructionId": "minna.question.6-1.translation",
+      "options": [
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "と"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.6-1.explanation"
+    },
+    {
+      "id": "minna.question.6-2",
+      "prompt": [
+        {
+          "ja": "公園（　）サッカーをします。"
+        }
+      ],
+      "instructionId": "minna.question.6-2.translation",
+      "options": [
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "へ"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.6-2.explanation"
+    },
+    {
+      "id": "minna.question.6-3",
+      "prompt": [
+        {
+          "ja": "週末、テニス（　）します。"
+        }
+      ],
+      "instructionId": "minna.question.6-3.translation",
+      "options": [
+        [
+          {
+            "ja": "を"
+          }
+        ],
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "が"
+          }
+        ],
+        [
+          {
+            "ja": "へ"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.6-3.explanation"
+    },
+    {
+      "id": "minna.question.6-4",
+      "prompt": [
+        {
+          "ja": "いっしょに映画を（　）。"
+        }
+      ],
+      "instructionId": "minna.question.6-4.translation",
+      "options": [
+        [
+          {
+            "ja": "見ません"
+          }
+        ],
+        [
+          {
+            "ja": "見ませんか"
+          }
+        ],
+        [
+          {
+            "ja": "見ました"
+          }
+        ],
+        [
+          {
+            "ja": "見ますね"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.6-4.explanation"
+    },
+    {
+      "id": "minna.question.6-5",
+      "prompt": [
+        {
+          "ja": "A：少し休みませんか。 B：ええ、（　）。"
+        }
+      ],
+      "instructionId": "minna.question.6-5.translation",
+      "options": [
+        [
+          {
+            "ja": "休みません"
+          }
+        ],
+        [
+          {
+            "ja": "休みました"
+          }
+        ],
+        [
+          {
+            "ja": "休みましょう"
+          }
+        ],
+        [
+          {
+            "ja": "休みませんでした"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.6-5.explanation"
+    },
+    {
+      "id": "minna.question.6-6",
+      "prompt": [
+        {
+          "ja": "食べます"
+        },
+        {
+          "textId": "minna.question.6-6.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.6-6.translation",
+      "options": [
+        [
+          {
+            "ja": "食べないですかでした"
+          }
+        ],
+        [
+          {
+            "ja": "食べるませんか"
+          }
+        ],
+        [
+          {
+            "ja": "食べてませんか"
+          }
+        ],
+        [
+          {
+            "ja": "食べませんか"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.6-6.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.247"
+    },
+    {
+      "wordId": "word.248"
+    },
+    {
+      "wordId": "word.249"
+    },
+    {
+      "wordId": "word.250"
+    },
+    {
+      "wordId": "word.251"
+    },
+    {
+      "wordId": "word.252"
+    },
+    {
+      "wordId": "word.253"
+    },
+    {
+      "wordId": "word.254"
+    },
+    {
+      "wordId": "word.255"
+    },
+    {
+      "wordId": "word.256"
+    },
+    {
+      "wordId": "word.257"
+    },
+    {
+      "wordId": "word.258"
+    },
+    {
+      "wordId": "word.259"
+    },
+    {
+      "wordId": "word.260"
+    },
+    {
+      "wordId": "word.261"
+    },
+    {
+      "wordId": "word.262"
+    },
+    {
+      "wordId": "word.263"
+    },
+    {
+      "wordId": "word.264"
+    },
+    {
+      "wordId": "word.265"
+    },
+    {
+      "wordId": "word.266"
+    },
+    {
+      "wordId": "word.267"
+    },
+    {
+      "wordId": "word.268"
+    },
+    {
+      "wordId": "word.269"
+    },
+    {
+      "wordId": "word.270"
+    },
+    {
+      "wordId": "word.271"
+    },
+    {
+      "wordId": "word.272"
+    },
+    {
+      "wordId": "word.273"
+    },
+    {
+      "wordId": "word.274"
+    },
+    {
+      "wordId": "word.275"
+    },
+    {
+      "wordId": "word.276"
+    },
+    {
+      "wordId": "word.277"
+    },
+    {
+      "wordId": "word.278"
+    },
+    {
+      "wordId": "word.279"
+    },
+    {
+      "wordId": "word.280"
+    },
+    {
+      "wordId": "word.281"
+    },
+    {
+      "wordId": "word.282"
+    },
+    {
+      "wordId": "word.283"
+    },
+    {
+      "wordId": "word.284"
+    },
+    {
+      "wordId": "word.285"
+    },
+    {
+      "wordId": "word.286"
+    },
+    {
+      "wordId": "word.287"
+    },
+    {
+      "wordId": "word.288"
+    },
+    {
+      "wordId": "word.289"
+    },
+    {
+      "wordId": "word.290"
+    },
+    {
+      "wordId": "word.291"
+    },
+    {
+      "wordId": "word.292"
+    },
+    {
+      "wordId": "word.293"
+    },
+    {
+      "wordId": "word.294"
+    },
+    {
+      "wordId": "word.295"
+    },
+    {
+      "wordId": "word.296"
+    },
+    {
+      "wordId": "word.297"
+    },
+    {
+      "wordId": "word.298"
+    },
+    {
+      "wordId": "word.299"
+    },
+    {
+      "wordId": "word.300"
+    },
+    {
+      "wordId": "word.301"
+    },
+    {
+      "wordId": "word.302"
+    },
+    {
+      "wordId": "word.303"
+    },
+    {
+      "wordId": "word.304"
+    }
+  ]
+}

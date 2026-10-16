@@ -1,0 +1,573 @@
+{
+  "id": "topic-1-part",
+  "bookId": "topic",
+  "titleJa": "あのころ、そのころ",
+  "groupJa": "Topic 1",
+  "articles": [
+    {
+      "id": "topic.1.part.grammar.0",
+      "titleJa": "① こ・そ・あ：前の文の指示",
+      "paragraphIds": [
+        "topic.1.part.grammar.0.meaning",
+        "topic.1.part.grammar.0.join",
+        "topic.1.part.grammar.0.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.1.part.grammar.1",
+      "titleJa": "② ～という：名称",
+      "paragraphIds": [
+        "topic.1.part.grammar.1.meaning",
+        "topic.1.part.grammar.1.join",
+        "topic.1.part.grammar.1.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.1.part.grammar.2",
+      "titleJa": "③ ～という：内容",
+      "paragraphIds": [
+        "topic.1.part.grammar.2.meaning",
+        "topic.1.part.grammar.2.join",
+        "topic.1.part.grammar.2.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.1.part.grammar.3",
+      "titleJa": "④ ～っけ：回想・再確認",
+      "paragraphIds": [
+        "topic.1.part.grammar.3.meaning",
+        "topic.1.part.grammar.3.join",
+        "topic.1.part.grammar.3.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.1.part.grammar.4",
+      "titleJa": "⑤ ～って言っていた：発言の伝達",
+      "paragraphIds": [
+        "topic.1.part.grammar.4.meaning",
+        "topic.1.part.grammar.4.join",
+        "topic.1.part.grammar.4.note"
+      ],
+      "examples": [],
+      "children": []
+    },
+    {
+      "id": "topic.1.part.examples",
+      "titleJa": "例文の解説",
+      "paragraphIds": [],
+      "examples": [
+        {
+          "ja": "A：きのう鈴木さんといっしょにカラオケに行ったんですよ。\nB：えっ、鈴木さん？その人、私の知っている人ですか？",
+          "translationId": "topic.1.part.example.0.zh",
+          "analysisId": "topic.1.part.example.0.analysis"
+        },
+        {
+          "ja": "A：駅の近くに新しいレストランができましたね。\nB：ええ、あの店は安くておいしいそうですよ。",
+          "translationId": "topic.1.part.example.1.zh",
+          "analysisId": "topic.1.part.example.1.analysis"
+        },
+        {
+          "ja": "A：20年ぐらい前に家族みんなで行った旅行、覚えている？\nB：ああ、あの時は子どもたちがまだ小さくて大変だったね。",
+          "translationId": "topic.1.part.example.2.zh",
+          "analysisId": "topic.1.part.example.2.analysis"
+        },
+        {
+          "ja": "村上春樹という作家を知っていますか。\n「幼なじみ」という言葉を知っていますか。",
+          "translationId": "topic.1.part.example.3.zh",
+          "analysisId": "topic.1.part.example.3.analysis"
+        },
+        {
+          "ja": "来月、同窓会を開くという手紙をもらいました。",
+          "translationId": "topic.1.part.example.4.zh",
+          "analysisId": "topic.1.part.example.4.analysis"
+        },
+        {
+          "ja": "無駄なコピーはやめたほうがいいという意見が出ました。",
+          "translationId": "topic.1.part.example.5.zh",
+          "analysisId": "topic.1.part.example.5.analysis"
+        },
+        {
+          "ja": "今度の文法テスト、いつだったっけ？\nテストは何ページからだったっけ？",
+          "translationId": "topic.1.part.example.6.zh",
+          "analysisId": "topic.1.part.example.6.analysis"
+        },
+        {
+          "ja": "漢字のテストもあるって言っていたよ。",
+          "translationId": "topic.1.part.example.7.zh",
+          "analysisId": "topic.1.part.example.7.analysis"
+        },
+        {
+          "ja": "パソコンが元の状態に戻った。\n設定を元に戻した。",
+          "translationId": "topic.1.part.example.8.zh",
+          "analysisId": "topic.1.part.example.8.analysis"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "topic.1.part.question.0",
+      "prompt": [
+        {
+          "ja": "村上春樹（　）作家を知っていますか。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "という"
+          }
+        ],
+        [
+          {
+            "ja": "といって"
+          }
+        ],
+        [
+          {
+            "ja": "というの"
+          }
+        ],
+        [
+          {
+            "ja": "というだ"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.1.part.question.0.reason"
+    },
+    {
+      "id": "topic.1.part.question.1",
+      "prompt": [
+        {
+          "ja": "「幼なじみ」（　）言葉を知っていますか。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "と言いて"
+          }
+        ],
+        [
+          {
+            "ja": "といっての"
+          }
+        ],
+        [
+          {
+            "ja": "という"
+          }
+        ],
+        [
+          {
+            "ja": "というだ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.1.part.question.1.reason"
+    },
+    {
+      "id": "topic.1.part.question.2",
+      "prompt": [
+        {
+          "ja": "来月、同窓会を（　）手紙をもらいました。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "開きという"
+          }
+        ],
+        [
+          {
+            "ja": "開くという"
+          }
+        ],
+        [
+          {
+            "ja": "開いてという"
+          }
+        ],
+        [
+          {
+            "ja": "開くだという"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.1.part.question.2.reason"
+    },
+    {
+      "id": "topic.1.part.question.3",
+      "prompt": [
+        {
+          "ja": "普通形で内容を伝えます：先生から、来週テストが（　）連絡が来ました。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "あってという"
+          }
+        ],
+        [
+          {
+            "ja": "あるだという"
+          }
+        ],
+        [
+          {
+            "ja": "ありという"
+          }
+        ],
+        [
+          {
+            "ja": "あるという"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.1.part.question.3.reason"
+    },
+    {
+      "id": "topic.1.part.question.4",
+      "prompt": [
+        {
+          "ja": "無駄なコピーはやめたほうが（　）意見が出ました。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "いいだという"
+          }
+        ],
+        [
+          {
+            "ja": "いいという"
+          }
+        ],
+        [
+          {
+            "ja": "よくという"
+          }
+        ],
+        [
+          {
+            "ja": "いいでという"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.1.part.question.4.reason"
+    },
+    {
+      "id": "topic.1.part.question.5",
+      "prompt": [
+        {
+          "ja": "今度の文法テスト、いつ（　）？"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "だたっけ"
+          }
+        ],
+        [
+          {
+            "ja": "だったけ"
+          }
+        ],
+        [
+          {
+            "ja": "だったっけ"
+          }
+        ],
+        [
+          {
+            "ja": "だったっけだ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.1.part.question.5.reason"
+    },
+    {
+      "id": "topic.1.part.question.6",
+      "prompt": [
+        {
+          "ja": "昨日、何時に家へ（　）？"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "帰ったっけ"
+          }
+        ],
+        [
+          {
+            "ja": "帰りだったっけ"
+          }
+        ],
+        [
+          {
+            "ja": "帰ってっけ"
+          }
+        ],
+        [
+          {
+            "ja": "帰るだったっけ"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.1.part.question.6.reason"
+    },
+    {
+      "id": "topic.1.part.question.7",
+      "prompt": [
+        {
+          "ja": "この店、前もこんなに（　）？"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "高いだったっけ"
+          }
+        ],
+        [
+          {
+            "ja": "高くだったっけ"
+          }
+        ],
+        [
+          {
+            "ja": "高いったっけ"
+          }
+        ],
+        [
+          {
+            "ja": "高かったっけ"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.1.part.question.7.reason"
+    },
+    {
+      "id": "topic.1.part.question.8",
+      "prompt": [
+        {
+          "ja": "田中さんって、学生のころこんなに（　）？"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "元気かったっけ"
+          }
+        ],
+        [
+          {
+            "ja": "元気だったっけ"
+          }
+        ],
+        [
+          {
+            "ja": "元気だたっけ"
+          }
+        ],
+        [
+          {
+            "ja": "元気なだったっけ"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "topic.1.part.question.8.reason"
+    },
+    {
+      "id": "topic.1.part.question.9",
+      "prompt": [
+        {
+          "ja": "鈴木さん、大学の先生（　）？"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "かったっけ"
+          }
+        ],
+        [
+          {
+            "ja": "したっけ"
+          }
+        ],
+        [
+          {
+            "ja": "だったっけ"
+          }
+        ],
+        [
+          {
+            "ja": "でっけ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "topic.1.part.question.9.reason"
+    },
+    {
+      "id": "topic.1.part.question.10",
+      "prompt": [
+        {
+          "ja": "先生は来週テストがある（　）よ。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "って言っていた"
+          }
+        ],
+        [
+          {
+            "ja": "って言いたいた"
+          }
+        ],
+        [
+          {
+            "ja": "って言ったいた"
+          }
+        ],
+        [
+          {
+            "ja": "という言っていた"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "topic.1.part.question.10.reason"
+    },
+    {
+      "id": "topic.1.part.question.11",
+      "prompt": [
+        {
+          "ja": "田中さんは「明日は会社に行かない」（　）。"
+        }
+      ],
+      "options": [
+        [
+          {
+            "ja": "って言いた"
+          }
+        ],
+        [
+          {
+            "ja": "って言いてた"
+          }
+        ],
+        [
+          {
+            "ja": "って言ったた"
+          }
+        ],
+        [
+          {
+            "ja": "って言ってた"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "topic.1.part.question.11.reason"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "topic.1.part.word.0"
+    },
+    {
+      "wordId": "topic.1.part.word.1"
+    },
+    {
+      "wordId": "topic.1.part.word.2"
+    },
+    {
+      "wordId": "topic.1.part.word.3"
+    },
+    {
+      "wordId": "topic.1.part.word.4"
+    },
+    {
+      "wordId": "topic.1.part.word.5"
+    },
+    {
+      "wordId": "topic.1.part.word.6"
+    },
+    {
+      "wordId": "topic.1.part.word.7"
+    },
+    {
+      "wordId": "topic.1.part.word.8"
+    },
+    {
+      "wordId": "topic.1.part.word.9"
+    },
+    {
+      "wordId": "topic.1.part.word.10"
+    },
+    {
+      "wordId": "topic.1.part.word.11"
+    },
+    {
+      "wordId": "topic.1.part.word.12"
+    },
+    {
+      "wordId": "topic.1.part.word.13"
+    },
+    {
+      "wordId": "topic.1.part.word.14"
+    }
+  ]
+}

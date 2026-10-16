@@ -1,0 +1,437 @@
+{
+  "id": "minna-30",
+  "bookId": "minna",
+  "titleJa": "第30課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.30.grammar.1",
+      "titleJa": "N が 他動詞て あります",
+      "paragraphIds": [
+        "minna.lesson.30.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "壁に予定表が貼ってあります。",
+          "translationId": "minna.lesson.30.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.30.grammar.2",
+      "titleJa": "Vて＋おきます（事前準備）",
+      "paragraphIds": [
+        "minna.lesson.30.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "会議の前に資料をコピーしておきます。",
+          "translationId": "minna.lesson.30.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.30.grammar.3",
+      "titleJa": "Vて＋おきます（後処理／状態の維持）",
+      "paragraphIds": [
+        "minna.lesson.30.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "使ったら、元の場所に戻しておいてください。",
+          "translationId": "minna.lesson.30.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.30.grammar.4",
+      "titleJa": "まだ Vています",
+      "paragraphIds": [
+        "minna.lesson.30.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "まだ雨が降っています。",
+          "translationId": "minna.lesson.30.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.30-1",
+      "prompt": [
+        {
+          "ja": "会議のために、いすが（　）あります。"
+        }
+      ],
+      "instructionId": "minna.question.30-1.translation",
+      "options": [
+        [
+          {
+            "ja": "並んで"
+          }
+        ],
+        [
+          {
+            "ja": "並べた"
+          }
+        ],
+        [
+          {
+            "ja": "並べて"
+          }
+        ],
+        [
+          {
+            "ja": "並べ"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.30-1.explanation"
+    },
+    {
+      "id": "minna.question.30-2",
+      "prompt": [
+        {
+          "ja": "明日の会議で使う資料を、今日コピーして（　）。"
+        }
+      ],
+      "instructionId": "minna.question.30-2.translation",
+      "options": [
+        [
+          {
+            "ja": "みます"
+          }
+        ],
+        [
+          {
+            "ja": "もらいます"
+          }
+        ],
+        [
+          {
+            "ja": "あげます"
+          }
+        ],
+        [
+          {
+            "ja": "おきます"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.30-2.explanation"
+    },
+    {
+      "id": "minna.question.30-3",
+      "prompt": [
+        {
+          "ja": "その窓は開けたままでいいです。開けて（　）ください。"
+        }
+      ],
+      "instructionId": "minna.question.30-3.translation",
+      "options": [
+        [
+          {
+            "ja": "おいて"
+          }
+        ],
+        [
+          {
+            "ja": "みて"
+          }
+        ],
+        [
+          {
+            "ja": "きて"
+          }
+        ],
+        [
+          {
+            "ja": "しまってから"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.30-3.explanation"
+    },
+    {
+      "id": "minna.question.30-4",
+      "prompt": [
+        {
+          "ja": "A：もう雨はやみましたか。 B：いいえ、まだ（　）。"
+        }
+      ],
+      "instructionId": "minna.question.30-4.translation",
+      "options": [
+        [
+          {
+            "ja": "降りません"
+          }
+        ],
+        [
+          {
+            "ja": "降っています"
+          }
+        ],
+        [
+          {
+            "ja": "降りませんでした"
+          }
+        ],
+        [
+          {
+            "ja": "降ってしまいましたからでした"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.30-4.explanation"
+    },
+    {
+      "id": "minna.question.30-5",
+      "prompt": [
+        {
+          "ja": "比較「窓が開いています」と「窓が開けてあります」。後者が強調するものは？"
+        }
+      ],
+      "instructionId": "minna.question.30-5.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.30-5.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.30-5.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.30-5.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.30-5.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.30-5.explanation"
+    },
+    {
+      "id": "minna.question.30-6",
+      "prompt": [
+        {
+          "ja": "使った道具は元の場所に（　）おいてください。"
+        }
+      ],
+      "instructionId": "minna.question.30-6.translation",
+      "options": [
+        [
+          {
+            "ja": "戻し"
+          }
+        ],
+        [
+          {
+            "ja": "戻す"
+          }
+        ],
+        [
+          {
+            "ja": "戻した"
+          }
+        ],
+        [
+          {
+            "ja": "戻して"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.30-6.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1220"
+    },
+    {
+      "wordId": "word.1221"
+    },
+    {
+      "wordId": "word.1222"
+    },
+    {
+      "wordId": "word.1223"
+    },
+    {
+      "wordId": "word.1224"
+    },
+    {
+      "wordId": "word.1225"
+    },
+    {
+      "wordId": "word.1226"
+    },
+    {
+      "wordId": "word.1227"
+    },
+    {
+      "wordId": "word.1228"
+    },
+    {
+      "wordId": "word.1229"
+    },
+    {
+      "wordId": "word.1230"
+    },
+    {
+      "wordId": "word.1231"
+    },
+    {
+      "wordId": "word.1232"
+    },
+    {
+      "wordId": "word.1233"
+    },
+    {
+      "wordId": "word.1234"
+    },
+    {
+      "wordId": "word.1235"
+    },
+    {
+      "wordId": "word.1236"
+    },
+    {
+      "wordId": "word.1237"
+    },
+    {
+      "wordId": "word.1238"
+    },
+    {
+      "wordId": "word.1239"
+    },
+    {
+      "wordId": "word.1240"
+    },
+    {
+      "wordId": "word.1241"
+    },
+    {
+      "wordId": "word.1242"
+    },
+    {
+      "wordId": "word.1243"
+    },
+    {
+      "wordId": "word.1244"
+    },
+    {
+      "wordId": "word.1245"
+    },
+    {
+      "wordId": "word.1246"
+    },
+    {
+      "wordId": "word.1247"
+    },
+    {
+      "wordId": "word.1248"
+    },
+    {
+      "wordId": "word.1249"
+    },
+    {
+      "wordId": "word.1250"
+    },
+    {
+      "wordId": "word.1251"
+    },
+    {
+      "wordId": "word.1252"
+    },
+    {
+      "wordId": "word.1253"
+    },
+    {
+      "wordId": "word.1254"
+    },
+    {
+      "wordId": "word.1255"
+    },
+    {
+      "wordId": "word.1256"
+    },
+    {
+      "wordId": "word.1257"
+    },
+    {
+      "wordId": "word.1258"
+    },
+    {
+      "wordId": "word.1259"
+    },
+    {
+      "wordId": "word.1260"
+    },
+    {
+      "wordId": "word.1261"
+    },
+    {
+      "wordId": "word.1262"
+    },
+    {
+      "wordId": "word.1263"
+    },
+    {
+      "wordId": "word.1264"
+    },
+    {
+      "wordId": "word.1265"
+    },
+    {
+      "wordId": "word.1266"
+    },
+    {
+      "wordId": "word.1267"
+    },
+    {
+      "wordId": "word.1268"
+    },
+    {
+      "wordId": "word.1269"
+    },
+    {
+      "wordId": "word.1270"
+    },
+    {
+      "wordId": "word.1271"
+    },
+    {
+      "wordId": "word.1272"
+    }
+  ]
+}

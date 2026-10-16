@@ -1,0 +1,452 @@
+{
+  "id": "minna-36",
+  "bookId": "minna",
+  "titleJa": "第36課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.36.grammar.1",
+      "titleJa": "V辞書形／Vない形＋ように、～",
+      "paragraphIds": [
+        "minna.lesson.36.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "忘れないように、メモします。",
+          "translationId": "minna.lesson.36.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.36.grammar.2",
+      "titleJa": "V辞書形＋ようになります",
+      "paragraphIds": [
+        "minna.lesson.36.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "日本語が話せるようになりました。",
+          "translationId": "minna.lesson.36.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.36.grammar.3",
+      "titleJa": "Vない形（ないを取る）＋なくなります",
+      "paragraphIds": [
+        "minna.lesson.36.grammar.3.meaning",
+        "minna.lesson.36.grammar.3.note"
+      ],
+      "examples": [
+        {
+          "ja": "最近、甘い物を食べなくなりました。",
+          "translationId": "minna.lesson.36.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.36.grammar.4",
+      "titleJa": "V辞書形／Vない形＋ようにします",
+      "paragraphIds": [
+        "minna.lesson.36.grammar.4.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "毎日、日本語を読むようにしています。",
+          "translationId": "minna.lesson.36.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.36-1",
+      "prompt": [
+        {
+          "ja": "約束を（　）ように、メモします。"
+        }
+      ],
+      "instructionId": "minna.question.36-1.translation",
+      "options": [
+        [
+          {
+            "ja": "忘れない"
+          }
+        ],
+        [
+          {
+            "ja": "忘れなく"
+          }
+        ],
+        [
+          {
+            "ja": "忘れた"
+          }
+        ],
+        [
+          {
+            "ja": "忘れます"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.36-1.explanation"
+    },
+    {
+      "id": "minna.question.36-2",
+      "prompt": [
+        {
+          "ja": "毎日練習して、泳げるように（　）。"
+        }
+      ],
+      "instructionId": "minna.question.36-2.translation",
+      "options": [
+        [
+          {
+            "ja": "しました"
+          }
+        ],
+        [
+          {
+            "ja": "なりました"
+          }
+        ],
+        [
+          {
+            "ja": "しておきました"
+          }
+        ],
+        [
+          {
+            "ja": "してみました"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.36-2.explanation"
+    },
+    {
+      "id": "minna.question.36-3",
+      "prompt": [
+        {
+          "ja": "最近、肉を（　）なりました。"
+        }
+      ],
+      "instructionId": "minna.question.36-3.translation",
+      "options": [
+        [
+          {
+            "ja": "食べないなく"
+          }
+        ],
+        [
+          {
+            "ja": "食べらな"
+          }
+        ],
+        [
+          {
+            "ja": "食べなく"
+          }
+        ],
+        [
+          {
+            "ja": "食べないに"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.36-3.explanation"
+    },
+    {
+      "id": "minna.question.36-4",
+      "prompt": [
+        {
+          "ja": "健康のために、毎日歩くように（　）。"
+        }
+      ],
+      "instructionId": "minna.question.36-4.translation",
+      "options": [
+        [
+          {
+            "ja": "なっています"
+          }
+        ],
+        [
+          {
+            "ja": "なりました"
+          }
+        ],
+        [
+          {
+            "ja": "なります"
+          }
+        ],
+        [
+          {
+            "ja": "しています"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.36-4.explanation"
+    },
+    {
+      "id": "minna.question.36-5",
+      "prompt": [
+        {
+          "ja": "小さい字も読める（　）、眼鏡をかけます。"
+        }
+      ],
+      "instructionId": "minna.question.36-5.translation",
+      "options": [
+        [
+          {
+            "ja": "ように"
+          }
+        ],
+        [
+          {
+            "ja": "ことに"
+          }
+        ],
+        [
+          {
+            "ja": "つもりで"
+          }
+        ],
+        [
+          {
+            "ja": "そうに"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.36-5.explanation"
+    },
+    {
+      "id": "minna.question.36-6",
+      "prompt": [
+        {
+          "ja": "以前は読めましたが、今は小さい字が（　）なりました。"
+        }
+      ],
+      "instructionId": "minna.question.36-6.translation",
+      "options": [
+        [
+          {
+            "ja": "読まなく"
+          }
+        ],
+        [
+          {
+            "ja": "読めなく"
+          }
+        ],
+        [
+          {
+            "ja": "読まないに"
+          }
+        ],
+        [
+          {
+            "ja": "読めないなく"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.36-6.explanation"
+    },
+    {
+      "id": "minna.question.36-7",
+      "prompt": [
+        {
+          "ja": "寝る前にスマホを（　）ようにしています。"
+        }
+      ],
+      "instructionId": "minna.question.36-7.translation",
+      "options": [
+        [
+          {
+            "ja": "使わなく"
+          }
+        ],
+        [
+          {
+            "ja": "使いない"
+          }
+        ],
+        [
+          {
+            "ja": "使わない"
+          }
+        ],
+        [
+          {
+            "ja": "使えなく"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.36-7.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1519"
+    },
+    {
+      "wordId": "word.1520"
+    },
+    {
+      "wordId": "word.1521"
+    },
+    {
+      "wordId": "word.1522"
+    },
+    {
+      "wordId": "word.1523"
+    },
+    {
+      "wordId": "word.1524"
+    },
+    {
+      "wordId": "word.1525"
+    },
+    {
+      "wordId": "word.1526"
+    },
+    {
+      "wordId": "word.1527"
+    },
+    {
+      "wordId": "word.1528"
+    },
+    {
+      "wordId": "word.1529"
+    },
+    {
+      "wordId": "word.1530"
+    },
+    {
+      "wordId": "word.1531"
+    },
+    {
+      "wordId": "word.1532"
+    },
+    {
+      "wordId": "word.1533"
+    },
+    {
+      "wordId": "word.1534"
+    },
+    {
+      "wordId": "word.1535"
+    },
+    {
+      "wordId": "word.1536"
+    },
+    {
+      "wordId": "word.1537"
+    },
+    {
+      "wordId": "word.1538"
+    },
+    {
+      "wordId": "word.1539"
+    },
+    {
+      "wordId": "word.1540"
+    },
+    {
+      "wordId": "word.1541"
+    },
+    {
+      "wordId": "word.1542"
+    },
+    {
+      "wordId": "word.1543"
+    },
+    {
+      "wordId": "word.1544"
+    },
+    {
+      "wordId": "word.1545"
+    },
+    {
+      "wordId": "word.1546"
+    },
+    {
+      "wordId": "word.1547"
+    },
+    {
+      "wordId": "word.1548"
+    },
+    {
+      "wordId": "word.1549"
+    },
+    {
+      "wordId": "word.1550"
+    },
+    {
+      "wordId": "word.1551"
+    },
+    {
+      "wordId": "word.1552"
+    },
+    {
+      "wordId": "word.1553"
+    },
+    {
+      "wordId": "word.1554"
+    },
+    {
+      "wordId": "word.1555"
+    },
+    {
+      "wordId": "word.1556"
+    },
+    {
+      "wordId": "word.1557"
+    },
+    {
+      "wordId": "word.1558"
+    },
+    {
+      "wordId": "word.1559"
+    },
+    {
+      "wordId": "word.1560"
+    },
+    {
+      "wordId": "word.1561"
+    },
+    {
+      "wordId": "word.1562"
+    },
+    {
+      "wordId": "word.1563"
+    },
+    {
+      "wordId": "word.1564"
+    }
+  ]
+}

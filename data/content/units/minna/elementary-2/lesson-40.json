@@ -1,0 +1,481 @@
+{
+  "id": "minna-40",
+  "bookId": "minna",
+  "titleJa": "第40課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.40.grammar.1",
+      "titleJa": "疑問詞＋普通形＋か",
+      "paragraphIds": [
+        "minna.lesson.40.grammar.1.meaning",
+        "minna.lesson.40.grammar.1.note"
+      ],
+      "examples": [
+        {
+          "ja": "会議が何時に始まるか、知っていますか。",
+          "translationId": "minna.lesson.40.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.40.grammar.2",
+      "titleJa": "普通形＋かどうか",
+      "paragraphIds": [
+        "minna.lesson.40.grammar.2.meaning",
+        "minna.lesson.40.grammar.2.note"
+      ],
+      "examples": [
+        {
+          "ja": "参加できるかどうか、明日返事します。",
+          "translationId": "minna.lesson.40.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.40.grammar.3",
+      "titleJa": "Vて形＋みます",
+      "paragraphIds": [
+        "minna.lesson.40.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "この靴を履いてみます。",
+          "translationId": "minna.lesson.40.grammar.3.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.40-1",
+      "prompt": [
+        {
+          "ja": "会議が何時に（　）か、教えてください。"
+        }
+      ],
+      "instructionId": "minna.question.40-1.translation",
+      "options": [
+        [
+          {
+            "ja": "始まる"
+          }
+        ],
+        [
+          {
+            "ja": "始まります"
+          }
+        ],
+        [
+          {
+            "ja": "始まるだ"
+          }
+        ],
+        [
+          {
+            "ja": "始まって"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.40-1.explanation"
+    },
+    {
+      "id": "minna.question.40-2",
+      "prompt": [
+        {
+          "ja": "田中さんが来る（　）、まだ分かりません。"
+        }
+      ],
+      "instructionId": "minna.question.40-2.translation",
+      "options": [
+        [
+          {
+            "ja": "のかどう"
+          }
+        ],
+        [
+          {
+            "ja": "かどうか"
+          }
+        ],
+        [
+          {
+            "ja": "とどうか"
+          }
+        ],
+        [
+          {
+            "ja": "ようか"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.40-2.explanation"
+    },
+    {
+      "id": "minna.question.40-3",
+      "prompt": [
+        {
+          "ja": "この靴を（　）みてもいいですか。"
+        }
+      ],
+      "instructionId": "minna.question.40-3.translation",
+      "options": [
+        [
+          {
+            "ja": "履き"
+          }
+        ],
+        [
+          {
+            "ja": "履く"
+          }
+        ],
+        [
+          {
+            "ja": "履いて"
+          }
+        ],
+        [
+          {
+            "ja": "履いた"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.40-3.explanation"
+    },
+    {
+      "id": "minna.question.40-4",
+      "prompt": [
+        {
+          "ja": "だれが担当（　）、確認します。"
+        }
+      ],
+      "instructionId": "minna.question.40-4.translation",
+      "options": [
+        [
+          {
+            "ja": "だか"
+          }
+        ],
+        [
+          {
+            "ja": "なか"
+          }
+        ],
+        [
+          {
+            "ja": "かどうか"
+          }
+        ],
+        [
+          {
+            "ja": "か"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.40-4.explanation"
+    },
+    {
+      "id": "minna.question.40-5",
+      "prompt": [
+        {
+          "ja": "予約が必要（　）、調べてください。"
+        }
+      ],
+      "instructionId": "minna.question.40-5.translation",
+      "options": [
+        [
+          {
+            "ja": "かどうか"
+          }
+        ],
+        [
+          {
+            "ja": "だかどうか"
+          }
+        ],
+        [
+          {
+            "ja": "なかどうか"
+          }
+        ],
+        [
+          {
+            "ja": "のかどうか"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.40-5.explanation"
+    },
+    {
+      "id": "minna.question.40-6",
+      "prompt": [
+        {
+          "textId": "minna.question.40-6.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.40-6.translation",
+      "options": [
+        [
+          {
+            "ja": "どこに住んでいるかどうか分かりません。"
+          }
+        ],
+        [
+          {
+            "ja": "どこに住んでいるか分かりません。"
+          }
+        ],
+        [
+          {
+            "ja": "どこに住んでいますか分かりません。"
+          }
+        ],
+        [
+          {
+            "ja": "どこに住んでいると分かりません。"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.40-6.explanation"
+    },
+    {
+      "id": "minna.question.40-7",
+      "prompt": [
+        {
+          "textId": "minna.question.40-7.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.40-7.translation",
+      "options": [
+        [
+          {
+            "ja": "食べておきます。"
+          }
+        ],
+        [
+          {
+            "ja": "食べたことがあります。"
+          }
+        ],
+        [
+          {
+            "ja": "食べてみます。"
+          }
+        ],
+        [
+          {
+            "ja": "食べなければなりません。"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.40-7.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1698"
+    },
+    {
+      "wordId": "word.1699"
+    },
+    {
+      "wordId": "word.1700"
+    },
+    {
+      "wordId": "word.1701"
+    },
+    {
+      "wordId": "word.1702"
+    },
+    {
+      "wordId": "word.1703"
+    },
+    {
+      "wordId": "word.1704"
+    },
+    {
+      "wordId": "word.1705"
+    },
+    {
+      "wordId": "word.1706"
+    },
+    {
+      "wordId": "word.1707"
+    },
+    {
+      "wordId": "word.1708"
+    },
+    {
+      "wordId": "word.1709"
+    },
+    {
+      "wordId": "word.1710"
+    },
+    {
+      "wordId": "word.1711"
+    },
+    {
+      "wordId": "word.1712"
+    },
+    {
+      "wordId": "word.1713"
+    },
+    {
+      "wordId": "word.1714"
+    },
+    {
+      "wordId": "word.1715"
+    },
+    {
+      "wordId": "word.1716"
+    },
+    {
+      "wordId": "word.1717"
+    },
+    {
+      "wordId": "word.1718"
+    },
+    {
+      "wordId": "word.1719"
+    },
+    {
+      "wordId": "word.1720"
+    },
+    {
+      "wordId": "word.1721"
+    },
+    {
+      "wordId": "word.1722"
+    },
+    {
+      "wordId": "word.1723"
+    },
+    {
+      "wordId": "word.1724"
+    },
+    {
+      "wordId": "word.1725"
+    },
+    {
+      "wordId": "word.1726"
+    },
+    {
+      "wordId": "word.1727"
+    },
+    {
+      "wordId": "word.1728"
+    },
+    {
+      "wordId": "word.1729"
+    },
+    {
+      "wordId": "word.1730"
+    },
+    {
+      "wordId": "word.1731"
+    },
+    {
+      "wordId": "word.1732"
+    },
+    {
+      "wordId": "word.1733"
+    },
+    {
+      "wordId": "word.1734"
+    },
+    {
+      "wordId": "word.1735"
+    },
+    {
+      "wordId": "word.1736"
+    },
+    {
+      "wordId": "word.1737"
+    },
+    {
+      "wordId": "word.1738"
+    },
+    {
+      "wordId": "word.1739"
+    },
+    {
+      "wordId": "word.1740"
+    },
+    {
+      "wordId": "word.1741"
+    },
+    {
+      "wordId": "word.1742"
+    },
+    {
+      "wordId": "word.1743"
+    },
+    {
+      "wordId": "word.1744"
+    },
+    {
+      "wordId": "word.1745"
+    },
+    {
+      "wordId": "word.1746"
+    },
+    {
+      "wordId": "word.1747"
+    },
+    {
+      "wordId": "word.1748"
+    },
+    {
+      "wordId": "word.1749"
+    },
+    {
+      "wordId": "word.1750"
+    },
+    {
+      "wordId": "word.1751"
+    },
+    {
+      "wordId": "word.1752"
+    },
+    {
+      "wordId": "word.1753"
+    },
+    {
+      "wordId": "word.1754"
+    },
+    {
+      "wordId": "word.1755"
+    },
+    {
+      "wordId": "word.1756"
+    },
+    {
+      "wordId": "word.1757"
+    }
+  ]
+}

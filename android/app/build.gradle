@@ -1,0 +1,26 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'app.study.mobile'
+    compileSdk 35
+    buildFeatures { buildConfig true }
+    // Keep _next and other web directories in the APK.
+    androidResources { ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~' }
+    defaultConfig {
+        applicationId 'app.study.akamonkai'
+        minSdk 26
+        targetSdk 35
+        // Set both release versions manually; never derive them from Git.
+        versionCode 3
+        versionName '0.2'
+        buildConfigField 'String', 'UPDATE_BASE_URL', '"https://lijinze-0715.github.io/Akamonkai-learning/downloads/"'
+        buildConfigField 'String', 'UPDATE_APK_NAME', '"Akamonkai-learning.apk"'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    signingConfigs {
+        debug { storeFile file('../.signing/debug.keystore') }
+    }
+}

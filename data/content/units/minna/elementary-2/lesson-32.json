@@ -1,0 +1,471 @@
+{
+  "id": "minna-32",
+  "bookId": "minna",
+  "titleJa": "第32課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.32.grammar.1",
+      "titleJa": "Vた形＋ほうがいいです",
+      "paragraphIds": [
+        "minna.lesson.32.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "早く寝たほうがいいです。",
+          "translationId": "minna.lesson.32.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.32.grammar.2",
+      "titleJa": "Vない形＋ほうがいいです",
+      "paragraphIds": [
+        "minna.lesson.32.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "無理をしないほうがいいです。",
+          "translationId": "minna.lesson.32.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.32.grammar.3",
+      "titleJa": "V・い形普通形／な形語幹／N＋でしょう／かもしれません",
+      "paragraphIds": [
+        "minna.lesson.32.grammar.3.meaning",
+        "minna.lesson.32.grammar.3.note"
+      ],
+      "examples": [
+        {
+          "ja": "明日は雪が降るかもしれません。",
+          "translationId": "minna.lesson.32.grammar.3.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.32-1",
+      "prompt": [
+        {
+          "ja": "熱がありますね。今日は早く（　）ほうがいいです。"
+        }
+      ],
+      "instructionId": "minna.question.32-1.translation",
+      "options": [
+        [
+          {
+            "ja": "寝た"
+          }
+        ],
+        [
+          {
+            "ja": "寝て"
+          }
+        ],
+        [
+          {
+            "ja": "寝ます"
+          }
+        ],
+        [
+          {
+            "ja": "寝たり"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.32-1.explanation"
+    },
+    {
+      "id": "minna.question.32-2",
+      "prompt": [
+        {
+          "ja": "体の調子が悪いので、無理を（　）ほうがいいです。"
+        }
+      ],
+      "instructionId": "minna.question.32-2.translation",
+      "options": [
+        [
+          {
+            "ja": "しなかった"
+          }
+        ],
+        [
+          {
+            "ja": "しない"
+          }
+        ],
+        [
+          {
+            "ja": "しなく"
+          }
+        ],
+        [
+          {
+            "ja": "してないの"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.32-2.explanation"
+    },
+    {
+      "id": "minna.question.32-3",
+      "prompt": [
+        {
+          "ja": "明日は休み（　）。"
+        }
+      ],
+      "instructionId": "minna.question.32-3.translation",
+      "options": [
+        [
+          {
+            "ja": "だかもしれません"
+          }
+        ],
+        [
+          {
+            "ja": "なかもしれません"
+          }
+        ],
+        [
+          {
+            "ja": "かもしれません"
+          }
+        ],
+        [
+          {
+            "ja": "のかもしれません"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.32-3.explanation"
+    },
+    {
+      "id": "minna.question.32-4",
+      "prompt": [
+        {
+          "ja": "日曜日なので、あの店は（　）でしょう。"
+        }
+      ],
+      "instructionId": "minna.question.32-4.translation",
+      "options": [
+        [
+          {
+            "ja": "暇だ"
+          }
+        ],
+        [
+          {
+            "ja": "暇な"
+          }
+        ],
+        [
+          {
+            "ja": "暇の"
+          }
+        ],
+        [
+          {
+            "ja": "暇"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.32-4.explanation"
+    },
+    {
+      "id": "minna.question.32-5",
+      "prompt": [
+        {
+          "ja": "少し薬を（　）ほうがいいです。"
+        }
+      ],
+      "instructionId": "minna.question.32-5.translation",
+      "options": [
+        [
+          {
+            "ja": "飲んだ"
+          }
+        ],
+        [
+          {
+            "ja": "飲んで"
+          }
+        ],
+        [
+          {
+            "ja": "飲みた"
+          }
+        ],
+        [
+          {
+            "ja": "飲むた"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.32-5.explanation"
+    },
+    {
+      "id": "minna.question.32-6",
+      "prompt": [
+        {
+          "ja": "まだ決まっていませんが、来月転勤するかもしれません。"
+        }
+      ],
+      "instructionId": "minna.question.32-6.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.32-6.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.32-6.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.32-6.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.32-6.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.32-6.explanation"
+    },
+    {
+      "id": "minna.question.32-7",
+      "prompt": [
+        {
+          "ja": "昨日の試験は（　）かもしれません。"
+        }
+      ],
+      "instructionId": "minna.question.32-7.translation",
+      "options": [
+        [
+          {
+            "ja": "難しかっただ"
+          }
+        ],
+        [
+          {
+            "ja": "難しいだった"
+          }
+        ],
+        [
+          {
+            "ja": "難しかった"
+          }
+        ],
+        [
+          {
+            "ja": "難しかったな"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.32-7.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1314"
+    },
+    {
+      "wordId": "word.1315"
+    },
+    {
+      "wordId": "word.1316"
+    },
+    {
+      "wordId": "word.1317"
+    },
+    {
+      "wordId": "word.1318"
+    },
+    {
+      "wordId": "word.1319"
+    },
+    {
+      "wordId": "word.1320"
+    },
+    {
+      "wordId": "word.1321"
+    },
+    {
+      "wordId": "word.1322"
+    },
+    {
+      "wordId": "word.1323"
+    },
+    {
+      "wordId": "word.1324"
+    },
+    {
+      "wordId": "word.1325"
+    },
+    {
+      "wordId": "word.1326"
+    },
+    {
+      "wordId": "word.1327"
+    },
+    {
+      "wordId": "word.1328"
+    },
+    {
+      "wordId": "word.1329"
+    },
+    {
+      "wordId": "word.1330"
+    },
+    {
+      "wordId": "word.1331"
+    },
+    {
+      "wordId": "word.1332"
+    },
+    {
+      "wordId": "word.1333"
+    },
+    {
+      "wordId": "word.1334"
+    },
+    {
+      "wordId": "word.1335"
+    },
+    {
+      "wordId": "word.1336"
+    },
+    {
+      "wordId": "word.1337"
+    },
+    {
+      "wordId": "word.1338"
+    },
+    {
+      "wordId": "word.1339"
+    },
+    {
+      "wordId": "word.1340"
+    },
+    {
+      "wordId": "word.1341"
+    },
+    {
+      "wordId": "word.1342"
+    },
+    {
+      "wordId": "word.1343"
+    },
+    {
+      "wordId": "word.1344"
+    },
+    {
+      "wordId": "word.1345"
+    },
+    {
+      "wordId": "word.1346"
+    },
+    {
+      "wordId": "word.1347"
+    },
+    {
+      "wordId": "word.1348"
+    },
+    {
+      "wordId": "word.1349"
+    },
+    {
+      "wordId": "word.1350"
+    },
+    {
+      "wordId": "word.1351"
+    },
+    {
+      "wordId": "word.1352"
+    },
+    {
+      "wordId": "word.1353"
+    },
+    {
+      "wordId": "word.1354"
+    },
+    {
+      "wordId": "word.1355"
+    },
+    {
+      "wordId": "word.1356"
+    },
+    {
+      "wordId": "word.1357"
+    },
+    {
+      "wordId": "word.1358"
+    },
+    {
+      "wordId": "word.1359"
+    },
+    {
+      "wordId": "word.1360"
+    },
+    {
+      "wordId": "word.1361"
+    },
+    {
+      "wordId": "word.1362"
+    },
+    {
+      "wordId": "word.1363"
+    },
+    {
+      "wordId": "word.1364"
+    },
+    {
+      "wordId": "word.1365"
+    },
+    {
+      "wordId": "word.1366"
+    },
+    {
+      "wordId": "word.1367"
+    },
+    {
+      "wordId": "word.1368"
+    },
+    {
+      "wordId": "word.1369"
+    },
+    {
+      "wordId": "word.1370"
+    }
+  ]
+}

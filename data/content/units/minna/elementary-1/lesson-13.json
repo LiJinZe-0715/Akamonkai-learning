@@ -1,0 +1,400 @@
+{
+  "id": "minna-13",
+  "bookId": "minna",
+  "titleJa": "第13課",
+  "groupJa": "初級Ⅰ",
+  "articles": [
+    {
+      "id": "minna.lesson.13.grammar.1",
+      "titleJa": "N が ほしいです",
+      "paragraphIds": [
+        "minna.lesson.13.grammar.1.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "新しい自転車がほしいです。",
+          "translationId": "minna.lesson.13.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.13.grammar.2",
+      "titleJa": "Vます形（ますを取る）＋たいです",
+      "paragraphIds": [
+        "minna.lesson.13.grammar.2.meaning",
+        "minna.lesson.13.grammar.2.note"
+      ],
+      "examples": [
+        {
+          "ja": "京都へ行きたいです。",
+          "translationId": "minna.lesson.13.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.13.grammar.3",
+      "titleJa": "場所 へ Vます形（ますを取る）／N に 行きます",
+      "paragraphIds": [
+        "minna.lesson.13.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "駅へ友達を迎えに行きます。",
+          "translationId": "minna.lesson.13.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.13.grammar.4",
+      "titleJa": "どこか／何か",
+      "paragraphIds": [
+        "minna.lesson.13.grammar.4.meaning",
+        "minna.lesson.13.grammar.4.note"
+      ],
+      "examples": [
+        {
+          "ja": "休みにどこかへ行きましたか。",
+          "translationId": "minna.lesson.13.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.13-1",
+      "prompt": [
+        {
+          "ja": "新しいカメラ（　）ほしいです。"
+        }
+      ],
+      "instructionId": "minna.question.13-1.translation",
+      "options": [
+        [
+          {
+            "ja": "に"
+          }
+        ],
+        [
+          {
+            "ja": "が"
+          }
+        ],
+        [
+          {
+            "ja": "で"
+          }
+        ],
+        [
+          {
+            "ja": "へ"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.13-1.explanation"
+    },
+    {
+      "id": "minna.question.13-2",
+      "prompt": [
+        {
+          "ja": "北海道へ（　）です。"
+        }
+      ],
+      "instructionId": "minna.question.13-2.translation",
+      "options": [
+        [
+          {
+            "ja": "行くたい"
+          }
+        ],
+        [
+          {
+            "ja": "行ってたい"
+          }
+        ],
+        [
+          {
+            "ja": "行きたい"
+          }
+        ],
+        [
+          {
+            "ja": "行いたい"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.13-2.explanation"
+    },
+    {
+      "id": "minna.question.13-3",
+      "prompt": [
+        {
+          "ja": "駅へ友達を（　）に行きます。"
+        }
+      ],
+      "instructionId": "minna.question.13-3.translation",
+      "options": [
+        [
+          {
+            "ja": "迎える"
+          }
+        ],
+        [
+          {
+            "ja": "迎えて"
+          }
+        ],
+        [
+          {
+            "ja": "迎えた"
+          }
+        ],
+        [
+          {
+            "ja": "迎え"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.13-3.explanation"
+    },
+    {
+      "id": "minna.question.13-4",
+      "prompt": [
+        {
+          "ja": "おなかがすきました。（　）食べたいです。"
+        }
+      ],
+      "instructionId": "minna.question.13-4.translation",
+      "options": [
+        [
+          {
+            "ja": "何か"
+          }
+        ],
+        [
+          {
+            "ja": "何も"
+          }
+        ],
+        [
+          {
+            "ja": "だれか"
+          }
+        ],
+        [
+          {
+            "ja": "どこも"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.13-4.explanation"
+    },
+    {
+      "id": "minna.question.13-5",
+      "prompt": [
+        {
+          "ja": "今日は外へ（　）。"
+        }
+      ],
+      "instructionId": "minna.question.13-5.translation",
+      "options": [
+        [
+          {
+            "ja": "行きたいじゃありません"
+          }
+        ],
+        [
+          {
+            "ja": "行きたくないです"
+          }
+        ],
+        [
+          {
+            "ja": "行かないたいです"
+          }
+        ],
+        [
+          {
+            "ja": "行きたいません"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.13-5.explanation"
+    },
+    {
+      "id": "minna.question.13-6",
+      "prompt": [
+        {
+          "ja": "デパートへ（　）に行きます。"
+        }
+      ],
+      "instructionId": "minna.question.13-6.translation",
+      "options": [
+        [
+          {
+            "ja": "買い物の"
+          }
+        ],
+        [
+          {
+            "ja": "買い物で"
+          }
+        ],
+        [
+          {
+            "ja": "買い物"
+          }
+        ],
+        [
+          {
+            "ja": "買い物を"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.13-6.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.618"
+    },
+    {
+      "wordId": "word.619"
+    },
+    {
+      "wordId": "word.620"
+    },
+    {
+      "wordId": "word.621"
+    },
+    {
+      "wordId": "word.622"
+    },
+    {
+      "wordId": "word.623"
+    },
+    {
+      "wordId": "word.624"
+    },
+    {
+      "wordId": "word.625"
+    },
+    {
+      "wordId": "word.626"
+    },
+    {
+      "wordId": "word.627"
+    },
+    {
+      "wordId": "word.628"
+    },
+    {
+      "wordId": "word.629"
+    },
+    {
+      "wordId": "word.630"
+    },
+    {
+      "wordId": "word.631"
+    },
+    {
+      "wordId": "word.632"
+    },
+    {
+      "wordId": "word.633"
+    },
+    {
+      "wordId": "word.634"
+    },
+    {
+      "wordId": "word.635"
+    },
+    {
+      "wordId": "word.636"
+    },
+    {
+      "wordId": "word.637"
+    },
+    {
+      "wordId": "word.638"
+    },
+    {
+      "wordId": "word.639"
+    },
+    {
+      "wordId": "word.640"
+    },
+    {
+      "wordId": "word.641"
+    },
+    {
+      "wordId": "word.642"
+    },
+    {
+      "wordId": "word.643"
+    },
+    {
+      "wordId": "word.644"
+    },
+    {
+      "wordId": "word.645"
+    },
+    {
+      "wordId": "word.646"
+    },
+    {
+      "wordId": "word.647"
+    },
+    {
+      "wordId": "word.648"
+    },
+    {
+      "wordId": "word.649"
+    },
+    {
+      "wordId": "word.650"
+    },
+    {
+      "wordId": "word.651"
+    },
+    {
+      "wordId": "word.652"
+    },
+    {
+      "wordId": "word.653"
+    },
+    {
+      "wordId": "word.654"
+    },
+    {
+      "wordId": "word.655"
+    },
+    {
+      "wordId": "word.656"
+    },
+    {
+      "wordId": "word.657"
+    }
+  ]
+}

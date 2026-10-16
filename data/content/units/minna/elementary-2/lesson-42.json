@@ -1,0 +1,515 @@
+{
+  "id": "minna-42",
+  "bookId": "minna",
+  "titleJa": "第42課",
+  "groupJa": "初級Ⅱ",
+  "articles": [
+    {
+      "id": "minna.lesson.42.grammar.1",
+      "titleJa": "V辞書形／Nの＋ために",
+      "paragraphIds": [
+        "minna.lesson.42.grammar.1.meaning",
+        "minna.lesson.42.grammar.1.note"
+      ],
+      "examples": [
+        {
+          "ja": "日本で働くために、日本語を勉強しています。",
+          "translationId": "minna.lesson.42.grammar.1.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.42.grammar.2",
+      "titleJa": "V辞書形＋のに使います",
+      "paragraphIds": [
+        "minna.lesson.42.grammar.2.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "このはさみは紙を切るのに使います。",
+          "translationId": "minna.lesson.42.grammar.2.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.42.grammar.3",
+      "titleJa": "V辞書形＋のに便利です",
+      "paragraphIds": [
+        "minna.lesson.42.grammar.3.meaning"
+      ],
+      "examples": [
+        {
+          "ja": "このアプリは漢字を調べるのに便利です。",
+          "translationId": "minna.lesson.42.grammar.3.translation"
+        }
+      ],
+      "children": []
+    },
+    {
+      "id": "minna.lesson.42.grammar.4",
+      "titleJa": "数量詞＋は／も",
+      "paragraphIds": [
+        "minna.lesson.42.grammar.4.meaning",
+        "minna.lesson.42.grammar.4.note"
+      ],
+      "examples": [
+        {
+          "ja": "駅まで30分もかかります。",
+          "translationId": "minna.lesson.42.grammar.4.translation"
+        }
+      ],
+      "children": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "minna.question.42-1",
+      "prompt": [
+        {
+          "ja": "留学（　）ために、お金をためています。"
+        }
+      ],
+      "instructionId": "minna.question.42-1.translation",
+      "options": [
+        [
+          {
+            "ja": "し"
+          }
+        ],
+        [
+          {
+            "ja": "して"
+          }
+        ],
+        [
+          {
+            "ja": "する"
+          }
+        ],
+        [
+          {
+            "ja": "した"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.42-1.explanation"
+    },
+    {
+      "id": "minna.question.42-2",
+      "prompt": [
+        {
+          "ja": "この道具は缶を（　）のに使います。"
+        }
+      ],
+      "instructionId": "minna.question.42-2.translation",
+      "options": [
+        [
+          {
+            "ja": "開けて"
+          }
+        ],
+        [
+          {
+            "ja": "開けた"
+          }
+        ],
+        [
+          {
+            "ja": "開け"
+          }
+        ],
+        [
+          {
+            "ja": "開ける"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.42-2.explanation"
+    },
+    {
+      "id": "minna.question.42-3",
+      "prompt": [
+        {
+          "ja": "このアプリは漢字を（　）のに便利です。"
+        }
+      ],
+      "instructionId": "minna.question.42-3.translation",
+      "options": [
+        [
+          {
+            "ja": "調べる"
+          }
+        ],
+        [
+          {
+            "ja": "調べて"
+          }
+        ],
+        [
+          {
+            "ja": "調べます"
+          }
+        ],
+        [
+          {
+            "ja": "調べた"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.42-3.explanation"
+    },
+    {
+      "id": "minna.question.42-4",
+      "prompt": [
+        {
+          "ja": "予想は十分でしたが、一時間（　）かかりました。"
+        }
+      ],
+      "instructionId": "minna.question.42-4.translation",
+      "options": [
+        [
+          {
+            "ja": "しか"
+          }
+        ],
+        [
+          {
+            "ja": "も"
+          }
+        ],
+        [
+          {
+            "ja": "だけしか"
+          }
+        ],
+        [
+          {
+            "ja": "にしか"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.42-4.explanation"
+    },
+    {
+      "id": "minna.question.42-5",
+      "prompt": [
+        {
+          "ja": "家族（　）ために働いています。"
+        }
+      ],
+      "instructionId": "minna.question.42-5.translation",
+      "options": [
+        [
+          {
+            "ja": "な"
+          }
+        ],
+        [
+          {
+            "ja": "だ"
+          }
+        ],
+        [
+          {
+            "ja": "の"
+          }
+        ],
+        [
+          {
+            "ja": "を"
+          }
+        ]
+      ],
+      "accepted": [
+        2
+      ],
+      "explanationId": "minna.question.42-5.explanation"
+    },
+    {
+      "id": "minna.question.42-6",
+      "prompt": [
+        {
+          "ja": "この作業には一時間は必要です。"
+        }
+      ],
+      "instructionId": "minna.question.42-6.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.42-6.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.42-6.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.42-6.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.42-6.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        3
+      ],
+      "explanationId": "minna.question.42-6.explanation"
+    },
+    {
+      "id": "minna.question.42-7",
+      "prompt": [
+        {
+          "ja": "日本語が話せる（　）、毎日練習しています。"
+        }
+      ],
+      "instructionId": "minna.question.42-7.translation",
+      "options": [
+        [
+          {
+            "ja": "ように"
+          }
+        ],
+        [
+          {
+            "ja": "そうに"
+          }
+        ],
+        [
+          {
+            "ja": "つもりで"
+          }
+        ],
+        [
+          {
+            "ja": "ことに"
+          }
+        ]
+      ],
+      "accepted": [
+        0
+      ],
+      "explanationId": "minna.question.42-7.explanation"
+    },
+    {
+      "id": "minna.question.42-8",
+      "prompt": [
+        {
+          "ja": "このはさみは紙を切るのに使います"
+        },
+        {
+          "textId": "minna.question.42-8.prompt.instruction"
+        }
+      ],
+      "instructionId": "minna.question.42-8.translation",
+      "options": [
+        [
+          {
+            "textId": "minna.question.42-8.option.0"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.42-8.option.1"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.42-8.option.2"
+          }
+        ],
+        [
+          {
+            "textId": "minna.question.42-8.option.3"
+          }
+        ]
+      ],
+      "accepted": [
+        1
+      ],
+      "explanationId": "minna.question.42-8.explanation"
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "word.1812"
+    },
+    {
+      "wordId": "word.1813"
+    },
+    {
+      "wordId": "word.1814"
+    },
+    {
+      "wordId": "word.1815"
+    },
+    {
+      "wordId": "word.1816"
+    },
+    {
+      "wordId": "word.1817"
+    },
+    {
+      "wordId": "word.1818"
+    },
+    {
+      "wordId": "word.1819"
+    },
+    {
+      "wordId": "word.1820"
+    },
+    {
+      "wordId": "word.1821"
+    },
+    {
+      "wordId": "word.1822"
+    },
+    {
+      "wordId": "word.1823"
+    },
+    {
+      "wordId": "word.1824"
+    },
+    {
+      "wordId": "word.1825"
+    },
+    {
+      "wordId": "word.1826"
+    },
+    {
+      "wordId": "word.1827"
+    },
+    {
+      "wordId": "word.1828"
+    },
+    {
+      "wordId": "word.1829"
+    },
+    {
+      "wordId": "word.1830"
+    },
+    {
+      "wordId": "word.1831"
+    },
+    {
+      "wordId": "word.1832"
+    },
+    {
+      "wordId": "word.1833"
+    },
+    {
+      "wordId": "word.1834"
+    },
+    {
+      "wordId": "word.1835"
+    },
+    {
+      "wordId": "word.1836"
+    },
+    {
+      "wordId": "word.1837"
+    },
+    {
+      "wordId": "word.1838"
+    },
+    {
+      "wordId": "word.1839"
+    },
+    {
+      "wordId": "word.1840"
+    },
+    {
+      "wordId": "word.1841"
+    },
+    {
+      "wordId": "word.1842"
+    },
+    {
+      "wordId": "word.1843"
+    },
+    {
+      "wordId": "word.1844"
+    },
+    {
+      "wordId": "word.1845"
+    },
+    {
+      "wordId": "word.1846"
+    },
+    {
+      "wordId": "word.1847"
+    },
+    {
+      "wordId": "word.1848"
+    },
+    {
+      "wordId": "word.1849"
+    },
+    {
+      "wordId": "word.1850"
+    },
+    {
+      "wordId": "word.1851"
+    },
+    {
+      "wordId": "word.1852"
+    },
+    {
+      "wordId": "word.1853"
+    },
+    {
+      "wordId": "word.1854"
+    },
+    {
+      "wordId": "word.1855"
+    },
+    {
+      "wordId": "word.1856"
+    },
+    {
+      "wordId": "word.1857"
+    },
+    {
+      "wordId": "word.1858"
+    },
+    {
+      "wordId": "word.1859"
+    },
+    {
+      "wordId": "word.1860"
+    },
+    {
+      "wordId": "word.1861"
+    },
+    {
+      "wordId": "word.1862"
+    },
+    {
+      "wordId": "word.1863"
+    },
+    {
+      "wordId": "word.1864"
+    },
+    {
+      "wordId": "word.1865"
+    }
+  ]
+}

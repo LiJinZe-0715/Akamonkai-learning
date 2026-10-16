@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width,initial-scale=1.0,viewport-fit=cover" name="viewport"/>
+    <meta content="#f5f7fb" name="theme-color"/>
+    <script>
+        (() => {
+            let saved;
+            try {
+                saved = localStorage.getItem("akamonkai.theme");
+            } catch {
+            }
+            const theme = saved === "light" || saved === "dark" ? saved : window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+            document.documentElement.dataset.theme = theme;
+            document.querySelector('meta[name="theme-color"]').setAttribute("content", theme === "dark" ? "#101827" : "#f5f7fb");
+        })();
+    </script>
+    <meta
+            content="赤門会日本語 — 教材に沿った語彙・文法・読解の復習。"
+            name="description"
+    />
+    <title>赤門会日本語</title>
+</head>
+<body>
+<div id="root"></div>
+<script src="/src/main.tsx" type="module"></script>
+</body>
+</html>
