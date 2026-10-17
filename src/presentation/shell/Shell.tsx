@@ -13,7 +13,7 @@ export function Shell({children}: { children: ReactNode }) {
     const t = useUi();
     const {theme, selectTheme} = useTheme();
     const [active, setActive] = useState("today");
-    const lessonPage = typeof window !== "undefined" && new URLSearchParams(window.location.search).has("unit");
+    const lessonPage = typeof window !== "undefined" && ["unit", "book"].some(key => new URLSearchParams(window.location.search).has(key));
     useEffect(() => {
         const update = () => {
             const target = window.location.hash.slice(1);

@@ -6,13 +6,13 @@ import {ListenButton} from "../../../../presentation/components/ListenButton";
 import {wordFilters} from "../data/word-filters";
 import {useVocabulary} from "../hooks/use-vocabulary";
 
-export function VocabularyScreen({words: source, texts}: { words: readonly Word[]; texts: TranslationCatalog }) {
+export function VocabularyScreen({words: source, texts, showToolbar = true}: { words: readonly Word[]; texts: TranslationCatalog; showToolbar?: boolean }) {
     const {progress, markWord, words, query, setQuery, filter, setFilter} = useVocabulary(source, texts);
     const t = useUi();
     const {locale} = useLanguage();
     return (
         <section>
-            <div className="vocabulary-toolbar">
+            {showToolbar && <div className="vocabulary-toolbar">
                 <input
                     type="search"
                     value={query}
@@ -31,10 +31,10 @@ export function VocabularyScreen({words: source, texts}: { words: readonly Word[
                         </button>
                     ))}
                 </div>
-            </div>
-            <div className="list-caption">
+            </div>}
+            {showToolbar && <div className="list-caption">
                 {t("ui.wordCount", {count: words.length})}
-            </div>
+            </div>}
             <ul className="vocabulary-list">
                 {words.map((w, i) => {
                     const progressId = w.progressId ?? w.id;

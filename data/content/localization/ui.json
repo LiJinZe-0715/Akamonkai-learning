@@ -1,4 +1,44 @@
 {
+  "ui.kanjiIndexHint": {
+    "zh": "按教材顺序每 60 字一组。汉字、发音、词汇和例句一起学习，测试单独进行。",
+    "en": "Study in textbook order, 60 characters per group. Character forms, pronunciation, vocabulary and examples stay together, with a separate test."
+  },
+  "ui.kanjiCharacterCount": {
+    "zh": "{count} 字",
+    "en": "{count} characters"
+  },
+  "ui.kanjiStudy": {
+    "zh": "汉字及词汇",
+    "en": "Kanji & vocabulary"
+  },
+  "ui.kanjiTest": {
+    "zh": "测试",
+    "en": "Test"
+  },
+  "ui.kanjiShape": {
+    "zh": "字形",
+    "en": "Character form"
+  },
+  "ui.kanjiReadings": {
+    "zh": "发音",
+    "en": "Pronunciation"
+  },
+  "ui.kanjiWordReadings": {
+    "zh": "本字暂无单独的音读、训读资料，以下为本课词汇读音。",
+    "en": "Separate on and kun readings are not available for this character. Vocabulary readings from this lesson are shown below."
+  },
+  "ui.kanjiVocabulary": {
+    "zh": "词汇",
+    "en": "Vocabulary"
+  },
+  "ui.kanjiExamples": {
+    "zh": "例句",
+    "en": "Example sentences"
+  },
+  "ui.kanjiNoExamples": {
+    "zh": "本字的教材资料暂未收录例句。",
+    "en": "The textbook material for this character does not currently include example sentences."
+  },
   "ui.dashboardTitle": {
     "zh": "今天，从一课开始。",
     "en": "One lesson at a time."
@@ -188,12 +228,12 @@
     "en": "Grammar test"
   },
   "ui.viewKanji": {
-    "zh": "汉字",
-    "en": "Kanji"
+    "zh": "汉字及词汇",
+    "en": "Kanji & vocabulary"
   },
   "ui.viewReadingTest": {
-    "zh": "读音自测",
-    "en": "Reading test"
+    "zh": "测试",
+    "en": "Test"
   },
   "ui.viewKatakana": {
     "zh": "片假名自测",

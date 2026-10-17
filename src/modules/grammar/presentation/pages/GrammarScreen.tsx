@@ -71,13 +71,13 @@ function ArticleView({
     );
 }
 
-export function GrammarScreen({articles: source, texts, lessonId}: { articles: readonly Article[]; texts: TranslationCatalog; lessonId: string }) {
+export function GrammarScreen({articles: source, texts, lessonId, showContents = true, showSpeechControls = true}: { articles: readonly Article[]; texts: TranslationCatalog; lessonId: string; showContents?: boolean; showSpeechControls?: boolean }) {
     const services = useServices();
     const t = useUi();
     const {articles, lines, roles} = useMemo(() => grammarViewModel(source, lessonId), [source, lessonId]);
     return (
-        <div className="grammar-layout">
-            <nav className="contents" aria-label="文法の目次">
+        <div className={showContents ? "grammar-layout" : "grammar-examples"}>
+            {showContents && <nav className="contents" aria-label="文法の目次">
         <span lang="ja" translate="no">
           この単元の内容
         </span>
@@ -87,9 +87,9 @@ export function GrammarScreen({articles: source, texts, lessonId}: { articles: r
                         {item.titleJa}
                     </a>
                 ))}
-            </nav>
+            </nav>}
             <div>
-                <section className="speech-controls" aria-label={t("ui.speechRoles")}>
+                {showSpeechControls && <section className="speech-controls" aria-label={t("ui.speechRoles")}>
                     <div className="button-row">
                         {roles.map(role => <VoiceSelect key={role} role={role} lessonId={lessonId}/>)}
                         {lines.length > 0 &&
@@ -97,7 +97,7 @@ export function GrammarScreen({articles: source, texts, lessonId}: { articles: r
                                           lines={lines}/>}
                     </div>
                     <small>{t("ui.speechRoleHint")}</small>
-                </section>
+                </section>}
                 {articles.map((a) => (
                     <ArticleView key={a.id} article={a} catalog={texts} lessonId={lessonId}/>
                 ))}

@@ -19,6 +19,7 @@ export interface Unit {
     wordCount: number;
     questionCount: number;
     views: View[];
+    characters?: Unit[];
 }
 
 export interface Book {

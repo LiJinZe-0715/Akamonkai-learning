@@ -64,8 +64,10 @@ export function AssessmentScreen({
                         ? t("ui.wordTest")
                         : view === "katakana"
                             ? t("ui.katakanaTest")
-                            : lessonId.startsWith("kanji-")
-                                ? t("ui.readingTest")
+                            : lessonId.includes("-group-") && lessonId.startsWith("kanji-")
+                                ? t("ui.kanjiTest")
+                                : lessonId.startsWith("kanji-")
+                                    ? t("ui.readingTest")
                                 : t("ui.questionCount", {count: questions.length})}
                 </p>
                 <span aria-live="polite">

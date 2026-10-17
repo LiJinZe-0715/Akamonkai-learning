@@ -3,7 +3,7 @@ import {useServices, useUi} from "./StudyContext";
 import {Shell} from "./shell/Shell";
 import {CatalogScreen} from "./screens/CatalogScreen";
 import {LessonScreen} from "./screens/LessonScreen";
-import {LessonEntryScreen, useCatalog} from "../modules/curriculum/presentation/index";
+import {BookScreen, LessonEntryScreen, useCatalog} from "../modules/curriculum/presentation/index";
 import {destinations} from "./shell/data/navigation";
 
 class ErrorBoundary extends Component<
@@ -62,19 +62,23 @@ export function App() {
         try {
             const params = new URLSearchParams(window.location.search);
             const unitId = params.get("unit");
+            const bookId = params.get("book");
+            const book = catalog.books.find(book => book.id === bookId);
+            if (!unitId && bookId && !book) throw new Error("Unavailable book");
             const entry = unitId && !params.has("view")
                 ? services.curriculum.lessons(catalog).find(item => item.unit.id === unitId)
                 : undefined;
-            if (unitId && !params.has("view") && !entry) throw new Error("Unavailable lesson");
             const selected = services.curriculum.resolve(
                 catalog,
-                entry ? null : unitId,
+                entry && !entry.unit.views.includes("kanji") ? null : unitId,
                 params.get("view"),
             );
-            content = entry ? (
-                <LessonEntryScreen {...entry} />
-            ) : selected ? (
+            content = selected ? (
                 <LessonScreen {...selected} />
+            ) : entry ? (
+                <LessonEntryScreen {...entry}/>
+            ) : book ? (
+                <BookScreen book={book}/>
             ) : (
                 <CatalogScreen catalog={catalog}/>
             );

@@ -1,5 +1,15 @@
 /** Required UI identifiers; checked against the editable catalog during build. */
 export const requiredUiTextIds = [
+    "ui.kanjiIndexHint",
+    "ui.kanjiCharacterCount",
+    "ui.kanjiStudy",
+    "ui.kanjiTest",
+    "ui.kanjiShape",
+    "ui.kanjiReadings",
+    "ui.kanjiWordReadings",
+    "ui.kanjiVocabulary",
+    "ui.kanjiExamples",
+    "ui.kanjiNoExamples",
     "ui.all",
     "ui.allBooks",
     "ui.answer",

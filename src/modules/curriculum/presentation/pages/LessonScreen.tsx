@@ -7,6 +7,7 @@ import {AssessmentScreen} from "../../../assessment/presentation/index";
 import {bookHref, lessonHref} from "../curriculum-routes";
 import {viewTitles} from "../data/study-view-labels";
 import {useLesson} from "../hooks/use-lesson";
+import {KanjiScreen} from "./KanjiScreen";
 
 export function LessonScreen({
                                  book,
@@ -25,11 +26,13 @@ export function LessonScreen({
     const previous = adjacent.find(item => item.direction === "previous");
     const next = adjacent.find(item => item.direction === "next");
     const groups = [...new Set(book.units.map(item => item.groupJa))];
+    const kanjiGroup = !!unit.characters;
+    const modeTitle = (mode: View) => kanjiGroup ? t(mode === "kanji" ? "ui.kanjiStudy" : "ui.kanjiTest") : viewTitles[mode];
     return (
         <>
             <div className="lesson-controls">
                 <nav className="lesson-return" aria-label={t("ui.lessonNavigation")}>
-                    <a className="return-to-book" href={lessonHref(unit.id)}>← {t("ui.backToLesson")}</a>
+                    {!unit.views.includes("kanji") && <a className="return-to-book" href={lessonHref(unit.id)}>← {t("ui.backToLesson")}</a>}
                     <a className="return-to-book" href={bookHref(book.id, unit.id)}>← {t("ui.backToBook")}</a>
                     <a href="./#catalog">{t("ui.allBooks")}</a>
                 </nav>
@@ -59,7 +62,7 @@ export function LessonScreen({
                 </h1>
                 <div className="lesson-subline">
           <span lang="ja" translate="no">
-            {viewTitles[view]}
+            {modeTitle(view)}
           </span>
                     <span>
             {view === "words" || view === "word-test"
@@ -79,7 +82,7 @@ export function LessonScreen({
                         translate="no"
                         aria-current={view === mode ? "page" : undefined}
                     >
-                        {viewTitles[mode]}
+                        {modeTitle(mode)}
                     </a>
                 ))}
             </nav>
@@ -98,7 +101,9 @@ export function LessonScreen({
                 </p>
             ) : view === "words" ? (
                 <VocabularyScreen words={lesson.words} texts={lesson.texts}/>
-            ) : view === "grammar" || view === "kanji" ? (
+            ) : view === "kanji" ? (
+                <KanjiScreen lesson={lesson}/>
+            ) : view === "grammar" ? (
                 <GrammarScreen articles={lesson.articles} texts={lesson.texts} lessonId={lesson.id}/>
             ) : (
                 <AssessmentScreen source={questions} texts={lesson.texts} lessonId={lesson.id} view={view}/>

@@ -14,6 +14,7 @@ export interface LessonBundle {
     articles: Article[];
     questions: Question[];
     texts: TranslationCatalog;
+    characters?: LessonBundle[];
 }
 
 export interface CurriculumRepository {

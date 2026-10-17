@@ -338,6 +338,8 @@ function render(component, props, locale) {
 }
 
 const {SpeechControls} = load('src/presentation/components/SpeechControls.tsx');
+const {groupKanjiCatalog} = load('src/modules/curriculum/domain/kanji-groups.ts');
+const studyCatalog = groupKanjiCatalog(catalog);
 assert(render(SpeechControls, {}, 'zh').includes('设备声音'), 'Speech settings must render without browser globals');
 const zhIndex = render(CatalogScreen, {catalog}, 'zh'), enIndex = render(CatalogScreen, {catalog}, 'en');
 const {Shell} = load('src/presentation/shell/Shell.tsx');
@@ -360,12 +362,28 @@ for (const [locale, html] of [['zh', zhIndex], ['en', enIndex]]) {
 }
 const links = html => [...html.matchAll(/href="(\?unit=[^"]+)"/g)].map(m => m[1].replaceAll('&amp;', '&'));
 assert.deepEqual(links(zhIndex), links(enIndex));
-const expected = catalog.books.flatMap(b => b.units.map(u => '?unit=' + u.id));
-assert.deepEqual([...links(zhIndex)].sort(), expected.sort(), 'Missing or duplicate index route');
+const expected = studyCatalog.books.flatMap(b => b.units.flatMap(u => u.characters
+    ? u.views.map(view => '?unit=' + u.id + '&view=' + view) : ['?unit=' + u.id]));
+assert.deepEqual(links(zhIndex), [], 'The outer library must not expose inline lesson or group links');
+const bookLinks = html => [...html.matchAll(/class="textbook textbook-cover" href="([^"]+)"/g)].map(match => match[1]);
+assert.deepEqual(bookLinks(zhIndex), studyCatalog.books.map(book => './?book=' + book.id));
+assert.deepEqual(bookLinks(zhIndex), bookLinks(enIndex));
+assert(!zhIndex.includes('<details') && !zhIndex.includes('class="unit-list"'), 'Book entries must navigate rather than expand');
 const {LessonScreen} = load('src/presentation/screens/LessonScreen.tsx');
 const {LessonEntryScreen} = load('src/modules/curriculum/presentation/pages/LessonEntryScreen.tsx');
+const {BookScreen} = load('src/modules/curriculum/presentation/pages/BookScreen.tsx');
 const {bookHref, lessonHref} = load('src/modules/curriculum/presentation/curriculum-routes.ts');
-for (const book of catalog.books) for (const unit of book.units) for (const locale of ['zh', 'en']) {
+for (const locale of ['zh', 'en']) {
+    const bookRoutes = studyCatalog.books.flatMap(book => {
+        const html = render(BookScreen, {book}, locale);
+        assert(html.includes('<h1 lang="ja" translate="no">' + book.titleJa + '</h1>'));
+        assert(html.includes('href="./#catalog"'), 'Each book must link back to the library');
+        assert(!html.includes('<details') && !html.includes('hidden=""'), 'Book contents must display directly');
+        return links(html);
+    });
+    assert.deepEqual(bookRoutes.sort(), [...expected].sort(), 'All lessons and group modes must remain reachable through their book');
+}
+for (const book of studyCatalog.books) for (const unit of book.units) for (const locale of ['zh', 'en']) {
     const entry = render(LessonEntryScreen, {book, unit}, locale);
     assert.deepEqual(links(entry).sort(), unit.views.map(view => lessonHref(unit.id, view)).sort(),
         'Lesson entry must retain every available study and test route: ' + unit.id);
@@ -376,9 +394,9 @@ for (const book of catalog.books) for (const unit of book.units) for (const loca
     for (const id of ['ui.chooseLessonMode', ...(hasLearning ? ['ui.learning'] : []), ...(hasTests ? ['ui.tests'] : [])])
         assert(entry.includes(ui[id][locale]), 'Missing lesson mode translation: ' + id);
 }
-for (const book of catalog.books) for (const unit of book.units) for (const view of unit.views) {
+for (const book of studyCatalog.books) for (const unit of book.units) for (const view of unit.views) {
     const html = render(LessonScreen, {book, unit, view}, 'zh');
-    assert(links(html).includes(lessonHref(unit.id)), 'Missing return to lesson selection: ' + unit.id);
+    if (!unit.views.includes('kanji')) assert(links(html).includes(lessonHref(unit.id)), 'Missing return to lesson selection: ' + unit.id);
     assert(html.includes('href="' + bookHref(book.id, unit.id).replaceAll('&', '&amp;') + '"'), 'Missing contextual return: ' + unit.id);
     assert(html.includes('href="./#catalog"'), 'Missing direct library return');
     const picker = html.match(/<select[^>]*>([\s\S]*?)<\/select>/)?.[1];
@@ -388,34 +406,69 @@ for (const book of catalog.books) for (const unit of book.units) for (const view
         assert(picker.includes('value="' + lessonHref(target.id, targetView).replaceAll('&', '&amp;') + '"'), 'Invalid lesson picker destination: ' + target.id);
     }
     assert(picker.includes(' selected=""'), 'Picker must indicate the current lesson');
+    if (unit.characters) {
+        const tabs = html.match(/<nav class="lesson-tabs"[^>]*>([\s\S]*?)<\/nav>/)[1];
+        assert.equal(links(tabs).length, 2, 'Kanji groups must have exactly two modes');
+        assert(tabs.includes(ui['ui.kanjiStudy'].zh) && tabs.includes(ui['ui.kanjiTest'].zh));
+        assert(!tabs.includes('view=words') && !tabs.includes('view=word-test'), 'Kanji and vocabulary must stay together');
+    }
 }
 const windowBeforeReturnCheck = Object.getOwnPropertyDescriptor(globalThis, 'window');
 try {
-    // Returning to a later lesson must reveal it, rather than leaving it behind Show more.
+    // Returning from study opens this book and marks the original lesson or group.
     globalThis.window = {location: {search: '?book=minna&focus=minna-42'}};
-    const returned = render(CatalogScreen, {catalog}, 'zh');
-    assert(returned.includes('<details class="textbook" open=""'));
+    const returned = render(BookScreen, {book: studyCatalog.books.find(book => book.id === 'minna')}, 'zh');
     const focusedEntry = returned.match(/<a[^>]*id="unit-minna-42"[^>]*>/)?.[0];
     assert(focusedEntry && !focusedEntry.includes('hidden'), 'Return target must be visible');
+    assert(focusedEntry.includes('aria-current="location"'), 'Return target must be marked');
     assert(!returned.includes('id="unit-topic-1-part"'), 'Book return must retain its filter');
+    for (const book of studyCatalog.books.filter(book => book.units.some(unit => unit.characters))) {
+        const last = book.units.at(-1);
+        globalThis.window = {location: {search: '?book=' + book.id + '&focus=' + last.id}};
+        const grid = render(BookScreen, {book}, 'zh');
+        assert(grid.includes('class="book-contents"') && !grid.includes('<details'));
+        assert.equal((grid.match(/class="unit-entry kanji-group-entry"/g) || []).length, book.units.length, 'Opening a kanji book must show every group');
+        assert(!grid.includes('hidden=""') && !grid.includes('class="show-more"'), 'Kanji groups must not be hidden');
+        assert.deepEqual(links(grid), book.units.flatMap(unit => unit.views.map(view => lessonHref(unit.id, view))), 'Each group must offer study and test');
+        assert(grid.match(new RegExp('<article[^>]*id="unit-' + last.id + '"[^>]*aria-current="location"')), 'Returning from a group must mark its entry');
+        for (const unit of book.units) {
+            assert(grid.includes(unit.titleJa), 'Missing group range: ' + unit.id);
+            assert(grid.includes(unit.characters.map(character => character.titleJa.split(' ')[2]).join(' ')), 'Missing group character preview');
+        }
+    }
     globalThis.window = {location: {search: '?book=missing&focus=missing'}};
-    assert.equal(links(render(CatalogScreen, {catalog}, 'zh')).length, expected.length, 'Invalid return parameters must fall back to all books');
+    assert.equal(bookLinks(render(CatalogScreen, {catalog}, 'zh')).length, studyCatalog.books.length, 'Invalid filter parameters must fall back to all books');
 } finally {
     if (windowBeforeReturnCheck) Object.defineProperty(globalThis, 'window', windowBeforeReturnCheck);
     else delete globalThis.window;
 }
 let renderedViews = 0;
+const {KanjiScreen} = load('src/modules/curriculum/presentation/pages/KanjiScreen.tsx');
 for (const unit of compileUnits()) {
     const descriptor = catalog.books.flatMap(b => b.units).find(d => d.id === unit.id);
     for (const view of descriptor.views) {
-        const component = view === 'words' ? VocabularyScreen : ['grammar', 'kanji'].includes(view) ? GrammarScreen : AssessmentScreen;
+        const component = view === 'words' ? VocabularyScreen : view === 'kanji' ? KanjiScreen : view === 'grammar' ? GrammarScreen : AssessmentScreen;
         for (const locale of ['zh', 'en']) {
             const source = createStudyServices(ui).session.source(unit, view);
             const props = view === 'words' ? {words: unit.words, texts: unit.texts}
-                : ['grammar', 'kanji'].includes(view) ? {articles: unit.articles, texts: unit.texts, lessonId: unit.id}
+                : view === 'kanji' ? {lesson: unit}
+                    : view === 'grammar' ? {articles: unit.articles, texts: unit.texts, lessonId: unit.id}
                     : {source, texts: unit.texts, lessonId: unit.id, view};
             const html = render(component, props, locale);
             assert(!html.includes('Unknown text ID'));
+            if (view === 'kanji') {
+                for (const id of ['ui.kanjiShape', 'ui.kanjiReadings', 'ui.kanjiVocabulary', 'ui.kanjiExamples'])
+                    assert(html.includes(ui[id][locale]), 'Missing kanji detail section: ' + id);
+                assert(html.includes('class="kanji-glyph" lang="ja" translate="no">' + unit.articles[0].titleJa));
+                assert.equal((html.match(/class="word-headword"/g) || []).length, unit.words.length, 'Kanji detail must include its vocabulary');
+                const checkExamples = article => {
+                    for (const example of article.examples.filter(e => !/^(画数|音読み|訓読み)：/.test(e.ja)))
+                        assert(html.includes('aria-label="' + ui['ui.speak'][locale] + ' ' + example.ja.replaceAll('&', '&amp;').replaceAll('"', '&quot;') + '"'), 'Missing example audio: ' + unit.id);
+                    article.children.forEach(checkExamples);
+                };
+                unit.articles.forEach(checkExamples);
+                assert(!html.includes('class="contents"'), 'Kanji detail must not show a redundant grammar index');
+            }
             if (view === 'words') {
                 assert.equal((html.match(/class="word-headword"/g) || []).length, unit.words.length);
                 assert.equal((html.match(/class="word-note"/g) || []).length, unit.words.filter(w => w.noteId && unit.texts[w.noteId][locale].trim()).length, 'Empty notes must not expose an empty toggle');
@@ -424,12 +477,14 @@ for (const unit of compileUnits()) {
         renderedViews++;
     }
 }
-console.log(JSON.stringify({indexRoutes: links(zhIndex).length, renderedViews, bothLanguages: 'passed'}));
+console.log(JSON.stringify({bookEntries: bookLinks(zhIndex).length, bookUnitRoutes: expected.length, renderedViews, bothLanguages: 'passed'}));
 
 const {checkModuleContracts} = await import('./check-module-contracts.mjs');
 await checkModuleContracts({load, catalog, units: compileUnits(), ui});
 const {checkKanji} = await import('./check-kanji.mjs');
 await checkKanji({load, catalog, units: compileUnits()});
+const {checkKanjiGroups} = await import('./check-kanji-groups.mjs');
+await checkKanjiGroups({load, catalog, units: compileUnits(), ui, render});
 await import('./check-content-review.mjs');
 await import('./check-theme.mjs');
 const {checkSpeech} = await import('./check-speech.mjs');

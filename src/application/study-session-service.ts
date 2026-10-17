@@ -17,6 +17,10 @@ export class StudySessionService implements StudySessionUseCases {
     }
 
     source(lesson: LessonBundle, view: View): Question[] {
+        if (lesson.characters && view === "reading-test") return [
+            ...lesson.questions,
+            ...this.assessment.vocabulary(lesson.words, id => lesson.texts[id].zh, id => lesson.texts[id].en),
+        ];
         return view === "word-test"
             ? this.assessment.vocabulary(lesson.words, id => lesson.texts[id].zh, id => lesson.texts[id].en) : lesson.questions;
     }

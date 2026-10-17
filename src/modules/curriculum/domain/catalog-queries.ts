@@ -23,7 +23,8 @@ export function filterCatalog(catalog: Catalog, bookId: string, query: string): 
     return catalog.books.filter(book => bookId === "all" || book.id === bookId)
         .map(book => ({
             ...book, units: book.units.filter(unit =>
-                [unit.titleJa, unit.groupJa, book.titleJa, book.subtitleJa].some(text => text.toLowerCase().includes(search)))
+                [unit.titleJa, unit.groupJa, book.titleJa, book.subtitleJa, ...(unit.characters?.map(character => character.titleJa) ?? [])]
+                    .some(text => text.toLowerCase().includes(search)))
         }))
         .filter(book => book.units.length > 0);
 }
