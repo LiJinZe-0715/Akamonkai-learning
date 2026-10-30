@@ -1,0 +1,71 @@
+{
+  "id": "katakana-practice-12",
+  "bookId": "katakana-practice",
+  "titleJa": "第12課 建物",
+  "groupJa": "テーマ別語彙",
+  "articles": [],
+  "questions": [
+    {
+      "id": "katakana.practice.12.word.1.spelling",
+      "prompt": [
+        {
+          "textId": "katakana.practice.12.word.1.meaning"
+        }
+      ],
+      "instructionId": "katakana.practice.instruction",
+      "acceptedText": [
+        "ビル"
+      ]
+    },
+    {
+      "id": "katakana.practice.12.word.2.spelling",
+      "prompt": [
+        {
+          "textId": "katakana.practice.12.word.2.meaning"
+        }
+      ],
+      "instructionId": "katakana.practice.instruction",
+      "acceptedText": [
+        "アパート"
+      ]
+    },
+    {
+      "id": "katakana.practice.12.word.3.spelling",
+      "prompt": [
+        {
+          "textId": "katakana.practice.12.word.3.meaning"
+        }
+      ],
+      "instructionId": "katakana.practice.instruction",
+      "acceptedText": [
+        "エレベーター"
+      ]
+    },
+    {
+      "id": "katakana.practice.12.word.4.spelling",
+      "prompt": [
+        {
+          "textId": "katakana.practice.12.word.4.meaning"
+        }
+      ],
+      "instructionId": "katakana.practice.instruction",
+      "acceptedText": [
+        "エスカレーター"
+      ]
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "katakana.practice.12.word.1"
+    },
+    {
+      "wordId": "katakana.practice.12.word.2"
+    },
+    {
+      "wordId": "katakana.practice.12.word.3"
+    },
+    {
+      "wordId": "katakana.practice.12.word.4"
+    }
+  ]
+}

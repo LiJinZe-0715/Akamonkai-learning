@@ -1,0 +1,535 @@
+/* Swiss grid shell: hard black rules, uppercase micro-type, zero radius. */
+
+.skip-link {
+    position: absolute;
+    top: 0;
+    left: 24px;
+    z-index: 100;
+    padding: 10px 18px;
+    background: var(--ink);
+    color: var(--paper);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    transform: translateY(-140%);
+    transition: transform 140ms ease;
+}
+
+.skip-link:focus-visible {
+    transform: translateY(0);
+}
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    border-bottom: 1px solid var(--rule-strong);
+    background: var(--paper);
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    width: 100%;
+    max-width: var(--width-shell);
+    min-height: 66px;
+    margin-inline: auto;
+    padding-inline: 24px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    flex: none;
+}
+
+.seal {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    background: var(--accent);
+    color: var(--on-accent);
+    font-family: var(--font-display);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+
+.brand strong {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.25;
+}
+
+.brand small {
+    display: block;
+    margin-top: 3px;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    line-height: 1.4;
+}
+
+.brand-japanese {
+    font-family: var(--font-display);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 20px;
+    flex: none;
+}
+
+.desktop-nav {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+    margin-left: auto;
+    align-self: stretch;
+}
+
+.desktop-nav a {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 0 14px;
+    color: var(--ink-2);
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    transition: color 120ms ease;
+}
+
+.desktop-nav a .ui-icon {
+    width: 14px;
+    height: 14px;
+    opacity: 0.7;
+}
+
+.desktop-nav a:hover {
+    color: var(--ink);
+}
+
+.desktop-nav a[aria-current="location"] {
+    color: var(--ink);
+}
+
+.desktop-nav a[aria-current="location"]::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 3px;
+    background: var(--accent);
+}
+
+.theme-toggle {
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    border: 1px solid var(--rule-strong);
+    background: transparent;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+    transition: background 120ms ease, border-color 120ms ease, color 120ms ease;
+}
+
+.theme-toggle:hover {
+    border-color: var(--ink);
+    background: var(--ink);
+    color: var(--paper);
+}
+
+.language-switch {
+    display: inline-flex;
+    border: 1px solid var(--rule-strong);
+    overflow: hidden;
+}
+
+.language-switch button {
+    padding: 6px 10px;
+    border: 0;
+    background: transparent;
+    color: var(--ink-3);
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: background 120ms ease, color 120ms ease;
+}
+
+.language-switch button + button {
+    border-left: 1px solid var(--rule-strong);
+}
+
+.language-switch button[aria-pressed="true"] {
+    background: var(--ink);
+    color: var(--paper);
+}
+
+.app-main {
+    width: 100%;
+    max-width: var(--width-shell);
+    margin-inline: auto;
+    padding: 48px 24px 0;
+}
+
+/* Mobile tab bar */
+
+.mobile-nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 40;
+    display: none;
+    border-top: 1px solid var(--rule-strong);
+    background: var(--paper);
+    padding-bottom: env(safe-area-inset-bottom, 0);
+}
+
+.mobile-nav a {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 9px 4px 8px;
+    border-top: 2px solid transparent;
+    color: var(--ink-3);
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.mobile-nav a .ui-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.mobile-nav a[aria-current="location"] {
+    border-top-color: var(--accent);
+    color: var(--ink);
+}
+
+/* Footer and settings */
+
+.site-footer {
+    margin-top: 96px;
+    border-top: 1px solid var(--rule-strong);
+}
+
+.settings-section {
+    width: 100%;
+    max-width: var(--width-shell);
+    margin-inline: auto;
+    padding: 44px 24px 0;
+}
+
+.settings-section > * {
+    max-width: 760px;
+}
+
+.settings-heading {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding-bottom: 10px;
+    color: var(--ink);
+}
+
+.settings-heading h2 {
+    font-size: 18px;
+    letter-spacing: -0.02em;
+}
+
+.settings-heading .ui-icon {
+    color: var(--ink-3);
+}
+
+.theme-settings {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 15px 0;
+    border-bottom: 1px solid var(--rule);
+    font-size: 12.5px;
+    color: var(--ink-2);
+}
+
+.speech-settings,
+.progress-tools {
+    border-bottom: 1px solid var(--rule);
+}
+
+.speech-settings > summary,
+.progress-tools > summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0;
+    font-size: 12.5px;
+    color: var(--ink-2);
+    list-style: none;
+}
+
+.speech-settings > summary::-webkit-details-marker,
+.progress-tools > summary::-webkit-details-marker {
+    display: none;
+}
+
+.speech-settings > summary .ui-icon,
+.progress-tools > summary .ui-icon {
+    color: var(--ink-3);
+    transition: transform 160ms ease;
+}
+
+.speech-settings[open] > summary .ui-icon,
+.progress-tools[open] > summary .ui-icon {
+    transform: rotate(180deg);
+}
+
+.speech-settings > summary:hover,
+.progress-tools > summary:hover {
+    color: var(--accent);
+}
+
+.speech-settings .speech-controls,
+.progress-tools > p,
+.progress-tools > .button-row {
+    padding-bottom: 18px;
+}
+
+.progress-tools > p {
+    max-width: var(--measure);
+    font-size: 12px;
+    line-height: 1.7;
+    color: var(--ink-3);
+}
+
+.speech-controls {
+    display: grid;
+    gap: 12px;
+}
+
+.speech-controls > .button-row {
+    gap: 10px;
+}
+
+.speech-controls label {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--ink-3);
+}
+
+/* Speed and engine address: one compact row, the slider wide enough to aim with. */
+.speech-controls input[type="range"] {
+    width: 140px;
+    accent-color: var(--accent);
+}
+
+.speech-controls input[type="text"] {
+    width: 16ch;
+    font-variant-numeric: tabular-nums;
+}
+
+/* A full address is longer than 16ch, and on a phone the fixed width clipped it
+   right where the port is. Let the field take the leftover width instead. */
+.speech-controls .speech-address {
+    flex: 1 1 18ch;
+    max-width: 34ch;
+    min-width: 0;
+}
+
+.speech-controls .speech-address input[type="text"] {
+    flex: 1;
+    width: auto;
+    min-width: 0;
+}
+
+.speech-controls output {
+    min-width: 4.5ch;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink-2);
+}
+
+.speech-controls p,
+.speech-controls small {
+    font-size: 12px;
+    line-height: 1.7;
+    color: var(--ink-3);
+}
+
+.footer-attribution {
+    width: 100%;
+    max-width: var(--width-shell);
+    margin-inline: auto;
+    padding: 32px 24px 44px;
+    font-size: 11.5px;
+    line-height: 1.8;
+    color: var(--ink-3);
+}
+
+.footer-attribution > * {
+    max-width: 760px;
+}
+
+.footer-attribution strong {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+}
+
+.footer-attribution p {
+    margin-top: 6px;
+    max-width: var(--measure);
+}
+
+.footer-attribution a {
+    display: inline-block;
+    margin-top: 8px;
+    border-bottom: 1px solid var(--rule-strong);
+    color: var(--ink-2);
+}
+
+.footer-attribution a:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+/* Android download banner */
+
+.android-download {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 36px;
+    padding: 14px 18px;
+    border: 1px solid var(--rule-strong);
+    border-left: 4px solid var(--accent);
+    background: var(--paper);
+}
+
+.android-download strong {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.android-download p {
+    margin-top: 3px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: var(--ink-3);
+}
+
+.android-download a {
+    padding: 8px 16px;
+    border: 1px solid var(--ink);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: background 120ms ease, color 120ms ease;
+}
+
+.android-download a:hover {
+    background: var(--ink);
+    color: var(--paper);
+}
+
+@media (max-width: 899px) {
+    .header-inner {
+        min-height: 58px;
+        gap: 16px;
+        padding-inline: 18px;
+    }
+
+    .desktop-nav {
+        display: none;
+    }
+
+    .header-actions {
+        margin-left: auto;
+    }
+
+    .brand small {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+    }
+
+    .app-main {
+        padding: 30px 18px 76px;
+    }
+
+    .site-footer {
+        margin-top: 64px;
+        padding-bottom: 58px;
+    }
+
+    .settings-section {
+        padding: 34px 18px 0;
+    }
+
+    .footer-attribution {
+        padding: 26px 18px 36px;
+    }
+
+    .android-download {
+        gap: 10px;
+        padding: 12px 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .android-download {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: center;
+        gap: 8px 12px;
+    }
+
+    .android-download p {
+        font-size: 10.5px;
+        line-height: 1.55;
+    }
+
+    .android-download a {
+        padding: 6px 10px;
+        font-size: 10px;
+        white-space: nowrap;
+    }
+}

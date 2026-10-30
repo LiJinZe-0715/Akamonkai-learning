@@ -1,0 +1,86 @@
+{
+  "id": "katakana-practice-05",
+  "bookId": "katakana-practice",
+  "titleJa": "第05課 食べ物①",
+  "groupJa": "テーマ別語彙",
+  "articles": [],
+  "questions": [
+    {
+      "id": "katakana.practice.05.word.1.spelling",
+      "prompt": [
+        {
+          "textId": "katakana.practice.05.word.1.meaning"
+        }
+      ],
+      "instructionId": "katakana.practice.instruction",
+      "acceptedText": [
+        "ホットドッグ"
+      ]
+    },
+    {
+      "id": "katakana.practice.05.word.2.spelling",
+      "prompt": [
+        {
+          "textId": "katakana.practice.05.word.2.meaning"
+        }
+      ],
+      "instructionId": "katakana.practice.instruction",
+      "acceptedText": [
+        "ハンバーガー"
+      ]
+    },
+    {
+      "id": "katakana.practice.05.word.3.spelling",
+      "prompt": [
+        {
+          "textId": "katakana.practice.05.word.3.meaning"
+        }
+      ],
+      "instructionId": "katakana.practice.instruction",
+      "acceptedText": [
+        "ポテト"
+      ]
+    },
+    {
+      "id": "katakana.practice.05.word.4.spelling",
+      "prompt": [
+        {
+          "textId": "katakana.practice.05.word.4.meaning"
+        }
+      ],
+      "instructionId": "katakana.practice.instruction",
+      "acceptedText": [
+        "スパゲティー"
+      ]
+    },
+    {
+      "id": "katakana.practice.05.word.5.spelling",
+      "prompt": [
+        {
+          "textId": "katakana.practice.05.word.5.meaning"
+        }
+      ],
+      "instructionId": "katakana.practice.instruction",
+      "acceptedText": [
+        "サンドイッチ"
+      ]
+    }
+  ],
+  "wordRefs": [
+    {
+      "wordId": "katakana.practice.05.word.1"
+    },
+    {
+      "wordId": "katakana.practice.05.word.2"
+    },
+    {
+      "wordId": "katakana.practice.05.word.3"
+    },
+    {
+      "wordId": "katakana.practice.05.word.4"
+    },
+    {
+      "wordId": "katakana.practice.05.word.5"
+    }
+  ]
+}

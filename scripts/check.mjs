@@ -1,0 +1,506 @@
+import fs from "node:fs";
+import path from "node:path";
+import assert from "node:assert/strict";
+import ts from "@typescript/typescript6";
+import {createRequire} from "node:module";
+import {compileUnits, kanjiBookIds} from "./compile-content.mjs";
+
+const files = (dir) =>
+    fs
+        .readdirSync(dir, {withFileTypes: true})
+        .flatMap((e) =>
+            e.isDirectory() ? files(dir + "/" + e.name) : [dir + "/" + e.name],
+        );
+const read = (f) => JSON.parse(fs.readFileSync(f, "utf8"));
+const catalog = read("data/content/catalog.json");
+const units = compileUnits();
+assert.equal(new Set(units.map((u) => u.id)).size, units.length);
+assert.deepEqual(units.map((unit) => unit.id).sort(),
+    catalog.books.flatMap((book) => book.units.map((unit) => unit.id)).sort(),
+    "Compiled courses must include every catalogued unit exactly once");
+assert.deepEqual([...fs.readdirSync("data/content/units"), ...kanjiBookIds].sort(), catalog.books.map((book) => book.id).sort(),
+    "Course sources must be grouped by textbook");
+const verbReference = read("data/content/reference/verbs.json");
+assert.deepEqual(units.find((u) => u.id === "verbs"), verbReference);
+assert(!fs.existsSync("data/content/units/verbs.json"), "Reference must not use the textbook compiler");
+const referenceTextIds = new Set(Object.keys(verbReference.texts));
+for (const unit of units.filter((u) => u.id !== "verbs")) {
+    assert(Object.keys(unit.texts).every((id) => !referenceTextIds.has(id)),
+        "Textbook shares reference text IDs: " + unit.id);
+    const articleIds = new Set();
+    const checkArticles = (articles) => articles.forEach((article) => {
+        assert(!article.id.startsWith("verb-"), "Repeated reference appendix in " + unit.id);
+        assert(!articleIds.has(article.id), "Duplicate article in " + unit.id + ": " + article.id);
+        articleIds.add(article.id);
+        checkArticles(article.children);
+    });
+    checkArticles(unit.articles);
+    assert(!Object.keys(unit.texts).some(id => id.startsWith("curriculum.conjugation.")),
+        "Obsolete generic conjugation data in " + unit.id);
+}
+let references = 0,
+    questions = 0,
+    words = 0;
+const allIds = new Set();
+for (const unit of units) {
+    const descriptor = catalog.books
+        .find((b) => b.id === unit.bookId)
+        ?.units.find((u) => u.id === unit.id);
+    assert(descriptor, "Unlisted unit " + unit.id);
+    const check = (id) => {
+        assert(
+            unit.texts[id] &&
+            typeof unit.texts[id].zh === "string" &&
+            typeof unit.texts[id].en === "string",
+            "Missing text " + id + " in " + unit.id,
+        );
+        if (unit.texts[id].zh.trim())
+            assert(unit.texts[id].en.trim(), "Missing English " + id);
+        references++;
+    };
+
+    function walk(value, key = "") {
+        if (!value) return;
+        if (
+            typeof value === "string" &&
+            (key === "textId" || (key.endsWith("Id") && !["bookId", "progressId"].includes(key)))
+        )
+            check(value);
+        else if (key === "paragraphIds") value.forEach(check);
+        else if (Array.isArray(value)) value.forEach((x) => walk(x));
+        else if (typeof value === "object")
+            for (const [k, v] of Object.entries(value)) if (k !== "texts") walk(v, k);
+    }
+
+    walk(unit);
+    for (const word of unit.words) {
+        assert(word.wordJa && word.readingJa);
+        assert(!/[ァ-ヶ]/.test(word.readingJa), "Non-hiragana reading " + word.id);
+        words++;
+    }
+    for (const q of unit.questions) {
+        assert(!allIds.has(q.id), "Duplicate question " + q.id);
+        allIds.add(q.id);
+        questions++;
+        assert(q.prompt.length);
+        for (const s of q.prompt) assert(Boolean(s.ja) !== Boolean(s.textId));
+        if (q.options) {
+            assert(q.options.length >= 2);
+            assert(q.accepted.length > 0);
+            for (const i of q.accepted) assert(Number.isInteger(i) && q.options[i]);
+        } else
+            assert(
+                q.acceptedText.length &&
+                q.acceptedText.every((x) => typeof x === "string" && x.trim()),
+            );
+    }
+    assert.equal(descriptor.wordCount, unit.words.length);
+    assert.equal(descriptor.questionCount, unit.questions.length);
+}
+assert.equal(catalog.books.find((b) => b.id === "minna").units.filter(u => u.id.startsWith("minna-")).length, 50);
+assert(
+    units
+        .find((u) => u.id === "topic-6-reading")
+        .articles.some((a) => a.examples.length),
+);
+assert(units.find((u) => u.id === "verbs").articles.length === 21);
+const graph = new Map();
+for (const file of files("src").filter((f) => /\.tsx?$/.test(f))) {
+    const code = fs.readFileSync(file, "utf8"),
+        ast = ts.createSourceFile(file, code, ts.ScriptTarget.Latest, true);
+    assert(
+        !/localStorage|sessionStorage/.test(code) ||
+        file.includes("/infrastructure/"),
+        "Storage leaked: " + file,
+    );
+    assert(
+        !/\bfetch\(/.test(code) || file.includes("/infrastructure/"),
+        "Network leaked: " + file,
+    );
+    if (file.includes("/domain/"))
+        assert(
+            !/react|document\.|window\.|localStorage|fetch\(/.test(code),
+            "Domain impurity: " + file,
+        );
+    if (file.includes("/presentation/"))
+        assert(!/createObjectURL|revokeObjectURL|new Blob\(|\.text\(\)/.test(code), "File adapter leaked into UI: " + file);
+    if (file.includes("/application/"))
+        assert(!/document\.|window\.|new Blob\(|createObjectURL|localStorage|sessionStorage|\bfetch\(/.test(code), "Browser dependency in application: " + file);
+    const edges = [];
+    for (const statement of ast.statements) {
+        if (
+            !(ts.isImportDeclaration(statement) || ts.isExportDeclaration(statement))
+        )
+            continue;
+        const spec = statement.moduleSpecifier?.text;
+        if (!spec) continue;
+        assert(!spec.endsWith(".json") && !spec.includes("/content/"), "Bundled content import: " + file);
+        const typeOnly = statement.isTypeOnly || statement.importClause?.isTypeOnly;
+        if (!spec.startsWith(".")) {
+            if (file.includes("/domain/") || file.includes("/application/"))
+                assert(!/react|next|vite/.test(spec), "Framework dependency: " + file);
+            continue;
+        }
+        const target = path.posix.normalize(
+            path.posix.join(path.posix.dirname(file), spec),
+        );
+        assert(!target.startsWith("data/"), "Source dataset import: " + file);
+        if (target.includes("/presentation/data/"))
+            assert(file.includes("/presentation/"), "UI configuration leaked inward: " + file);
+        if (target.includes("/infrastructure/")) {
+            assert(file.includes("/infrastructure/") || file.startsWith("src/bootstrap/"), "Infrastructure bypass: " + file);
+        }
+        if (file.endsWith("/public.ts")) assert(typeOnly || target.includes("/domain/"), "Concrete service leaked through public API: " + file);
+        const module = file.match(/^src\/modules\/([^/]+)\//)?.[1],
+            targetModule = target.match(/^src\/modules\/([^/]+)\//)?.[1];
+        if (module && targetModule && module !== targetModule)
+            assert(
+                target.endsWith("/public") || (file.includes("/presentation/") && target.endsWith("/presentation/index")),
+                "Private module import: " + file + " -> " + target,
+            );
+        if (file.includes("/domain/"))
+            assert(
+                target.startsWith("src/shared/kernel/") ||
+                target.startsWith("src/modules/" + module + "/domain/"),
+                "Domain dependency: " + file,
+            );
+        if (file.includes("/application/"))
+            assert(
+                !target.includes("/infrastructure/") &&
+                !target.includes("/presentation/"),
+                "Application dependency: " + file,
+            );
+        if (file.includes("/presentation/")) {
+            assert(
+                !target.includes("/infrastructure/") && !target.startsWith("data/content/"),
+                "Presentation bypass: " + file,
+            );
+            if (targetModule && targetModule !== module)
+                assert(
+                    target.endsWith("/public") || target.endsWith("/presentation/index"),
+                    "Presentation imports module internals: " + file,
+                );
+        }
+        // Include type-only edges too: architectural cycles remain cycles even when erased at runtime.
+        {
+            const full = [
+                target,
+                target + ".ts",
+                target + ".tsx",
+                target + ".json",
+            ].find(fs.existsSync);
+            if (full) edges.push(full);
+        }
+    }
+    graph.set(file, edges);
+}
+for (const file of graph.keys()) {
+    const visit = (f, seen) => {
+        for (const next of graph.get(f) ?? []) {
+            assert(next !== file, "Cycle " + file);
+            if (!seen.has(next)) {
+                seen.add(next);
+                visit(next, seen);
+            }
+        }
+    };
+    visit(file, new Set());
+}
+const cache = new Map();
+
+function load(file) {
+    file = path.resolve(file);
+    if (cache.has(file)) return cache.get(file).exports;
+    if (file.endsWith(".json")) return read(file);
+    const m = {exports: {}};
+    cache.set(file, m);
+    const req = createRequire(file);
+    const local = (spec) => {
+        if (!spec.startsWith(".")) return req(spec);
+        const base = path.resolve(path.dirname(file), spec);
+        return load(
+            [base, base + ".ts", base + ".tsx", base + ".json"].find(fs.existsSync),
+        );
+    };
+    const js = ts.transpileModule(fs.readFileSync(file, "utf8"), {
+        compilerOptions: {
+            module: ts.ModuleKind.CommonJS,
+            target: ts.ScriptTarget.ES2022,
+            jsx: ts.JsxEmit.ReactJSX,
+            esModuleInterop: true,
+        },
+    }).outputText;
+    new Function("require", "module", "exports", js)(local, m, m.exports);
+    return m.exports;
+}
+
+const {AssessmentService} = load("src/modules/assessment/application/assessment-service.ts"),
+    assessment = new AssessmentService();
+for (const unit of units) {
+    const prepared = assessment.start(unit.questions),
+        answers = {};
+    for (const q of prepared)
+        answers[q.id] = q.options ? q.accepted[0] : q.acceptedText[0];
+    const result = assessment.grade(prepared, answers);
+    assert.equal(result.correct, prepared.length);
+    assert(result.complete);
+    assert.equal(assessment.retry(prepared, answers).length, 0);
+    for (const q of prepared.filter((q) => q.options))
+        for (const accepted of q.accepted)
+            assert(assessment.correct(q, accepted), "Lost accepted alternate");
+    const wordQs = assessment.vocabulary(unit.words, (id) => unit.texts[id].zh, (id) => unit.texts[id].en);
+    for (const q of wordQs) {
+        for (const locale of ["zh", "en"]) {
+            const labels = q.options.map((o) => unit.texts[o[0].textId][locale].trim().toLowerCase());
+            assert.equal(new Set(labels).size, labels.length, "Duplicate " + locale + " choices in " + q.id);
+        }
+    }
+}
+const {ProgressService} = load("src/modules/learning-progress/application/progress-service.ts");
+let saved = null;
+const progress = new ProgressService({
+    read: () => saved,
+    write: (p) => {
+        saved = p;
+        return true;
+    },
+}, {now: () => "2026-09-21T00:00:00.000Z"});
+let state = progress.load();
+state = progress.mark(state, "word.1", "saved");
+state = progress.record(state, "minna-1:grammar-test", 5, 6);
+progress.save(state);
+assert.deepEqual(progress.load(), state);
+assert.deepEqual(
+    progress.import(progress.export(state), progress.load()),
+    state,
+);
+assert.throws(() =>
+    progress.import('{"version":1,"words":[],"results":{}}', state),
+);
+assert.throws(() => progress.import("{bad", state));
+// Resume state remains compatible with existing version 1 exports and merges by time.
+const visited = progress.visit(state, "minna-3", "words");
+progress.save(visited);
+assert.deepEqual(progress.load(), visited);
+assert.deepEqual(progress.import(progress.export(visited), state), visited);
+assert.deepEqual(progress.import(progress.export(state), visited), visited);
+const newerVisit = {...visited, lastVisited: {unitId: "minna-4", view: "grammar", at: "2026-09-22T00:00:00.000Z"}};
+assert.deepEqual(progress.import(progress.export(visited), newerVisit).lastVisited, newerVisit.lastVisited);
+assert.deepEqual(progress.import(progress.export(newerVisit), visited).lastVisited, newerVisit.lastVisited);
+assert.throws(() => progress.visit(state, "", "words"));
+assert.throws(() => progress.import(JSON.stringify({
+    ...state,
+    lastVisited: {unitId: "minna-1", view: "words", at: "invalid"}
+}), state));
+const {LocalizationService} = load("src/modules/localization/application/localization-service.ts"),
+    ui = read("data/content/localization/ui.json");
+const loc = new LocalizationService({
+    read: () => "zh", write: () => {
+    }
+}, ui);
+for (const unit of units) {
+    for (const locale of ["zh", "en"])
+        for (const [id, value] of Object.entries(unit.texts))
+            assert.equal(loc.text(unit.texts, id, locale), value[locale]);
+}
+const target = units.find((u) => u.id === "minna-21");
+const id = "minna.lesson.21.grammar.1.meaning";
+const en = loc.text(target.texts, id, "en");
+const title = target.titleJa;
+target.texts[id].zh = "修订后的中文";
+assert.equal(loc.text(target.texts, id, "en"), en);
+assert.equal(target.titleJa, title);
+console.log(
+    JSON.stringify({
+        units: units.length,
+        vocabularyRows: words,
+        fixedQuestions: questions,
+        textReferences: references,
+        moduleBoundaries: "passed",
+        gradingAndAlternateAnswers: "passed",
+        progressRoundTrip: "passed",
+        languageIsolation: "passed",
+    }),
+);
+const React = createRequire(import.meta.url)('react');
+const {renderToStaticMarkup} = createRequire(import.meta.url)('react-dom/server');
+const {StudyProvider} = load('src/presentation/StudyContext.tsx');
+const {createStudyServices} = load('src/bootstrap/create-study-services.ts');
+const {CatalogScreen} = load('src/presentation/screens/CatalogScreen.tsx');
+const {VocabularyScreen} = load('src/presentation/screens/VocabularyScreen.tsx');
+const {GrammarScreen} = load('src/presentation/screens/GrammarScreen.tsx');
+const {AssessmentScreen} = load('src/presentation/screens/AssessmentScreen.tsx');
+
+function render(component, props, locale, progress) {
+    const services = createStudyServices(ui);
+    services.localization.current = () => locale;
+    if (progress) services.progress.load = () => progress;
+    return renderToStaticMarkup(React.createElement(StudyProvider, {services}, React.createElement(component, props)));
+}
+
+const {SpeechControls} = load('src/presentation/components/SpeechControls.tsx');
+const {groupKanjiCatalog} = load('src/modules/curriculum/domain/kanji-groups.ts');
+const studyCatalog = groupKanjiCatalog(catalog);
+assert(render(SpeechControls, {}, 'zh').includes('设备声音'), 'Speech settings must render without browser globals');
+const zhIndex = render(CatalogScreen, {catalog}, 'zh'), enIndex = render(CatalogScreen, {catalog}, 'en');
+const {Shell} = load('src/presentation/shell/Shell.tsx');
+for (const locale of ['zh', 'en']) {
+    const shell = render(Shell, {children: null}, locale);
+    for (const id of ['ui.switchToDark', 'ui.appearance', 'ui.dayMode', 'ui.nightMode']) {
+        assert(shell.includes(ui[id][locale]), 'Missing appearance control: ' + id);
+    }
+}
+for (const [locale, html] of [['zh', zhIndex], ['en', enIndex]]) {
+    const groups = [...html.matchAll(/<section class="library-level" aria-labelledby="level-([^"]+)">([\s\S]*?)<\/section>/g)];
+    assert.deepEqual(groups.map(match => match[1]), ['beginner', 'intermediate']);
+    assert(groups[0][2].includes(ui['ui.levelBeginner'][locale]));
+    assert(groups[1][2].includes(ui['ui.levelIntermediate'][locale]));
+    for (const book of catalog.books) {
+        const groupIndex = ['minna', 'katakana-practice', 'kanji-daily', 'topic'].includes(book.id) ? 0 : 1;
+        assert(groups[groupIndex][2].includes(book.titleJa), 'Book in wrong level: ' + book.id);
+        assert(!groups[1 - groupIndex][2].includes(book.titleJa), 'Book duplicated across levels: ' + book.id);
+    }
+}
+const links = html => [...html.matchAll(/href="(\?unit=[^"]+)"/g)].map(m => m[1].replaceAll('&amp;', '&'));
+assert.deepEqual(links(zhIndex), links(enIndex));
+const expected = studyCatalog.books.flatMap(b => b.units.flatMap(u => u.characters
+    ? u.views.map(view => '?unit=' + u.id + '&view=' + view) : ['?unit=' + u.id]));
+assert.deepEqual(links(zhIndex), [], 'The outer library must not expose inline lesson or group links');
+const bookLinks = html => [...html.matchAll(/class="textbook textbook-cover" href="([^"]+)"/g)].map(match => match[1]);
+assert.deepEqual(bookLinks(zhIndex), studyCatalog.books.map(book => './?book=' + book.id));
+assert.deepEqual(bookLinks(zhIndex), bookLinks(enIndex));
+assert(!zhIndex.includes('<details') && !zhIndex.includes('class="unit-list"'), 'Book entries must navigate rather than expand');
+const {LessonScreen} = load('src/presentation/screens/LessonScreen.tsx');
+const {LessonEntryScreen} = load('src/modules/curriculum/presentation/pages/LessonEntryScreen.tsx');
+const {BookScreen} = load('src/modules/curriculum/presentation/pages/BookScreen.tsx');
+const {bookHref, lessonHref} = load('src/modules/curriculum/presentation/curriculum-routes.ts');
+const {emptyProgress} = load('src/modules/learning-progress/domain/progress.ts');
+for (const book of studyCatalog.books) {
+    const unit = book.units[0];
+    for (const view of unit.views) {
+        const progress = {...emptyProgress(), lastVisited: {unitId: unit.id, view, at: '2026-10-26T00:00:00Z'}};
+        const html = render(CatalogScreen, {catalog: studyCatalog}, 'zh', progress);
+        const href = html.match(/class="continue-button" href="([^"]+)"/)[1].replaceAll('&amp;', '&');
+        assert.equal(href, './' + lessonHref(unit.id, view), 'Continue learning must preserve the saved study/test mode');
+    }
+}
+for (const locale of ['zh', 'en']) {
+    const bookRoutes = studyCatalog.books.flatMap(book => {
+        const html = render(BookScreen, {book}, locale);
+        assert(html.includes('<h1 lang="ja" translate="no">' + book.titleJa + '</h1>'));
+        assert(html.includes('href="./#catalog"'), 'Each book must link back to the library');
+        assert(!html.includes('<details') && !html.includes('hidden=""'), 'Book contents must display directly');
+        return links(html);
+    });
+    assert.deepEqual(bookRoutes.sort(), [...expected].sort(), 'All lessons and group modes must remain reachable through their book');
+}
+for (const book of studyCatalog.books) for (const unit of book.units) for (const locale of ['zh', 'en']) {
+    const entry = render(LessonEntryScreen, {book, unit}, locale);
+    assert.deepEqual(links(entry).sort(), unit.views.map(view => lessonHref(unit.id, view)).sort(),
+        'Lesson entry must retain every available study and test route: ' + unit.id);
+    const hasLearning = unit.views.some(view => ['words', 'grammar', 'kanji'].includes(view));
+    const hasTests = unit.views.some(view => !['words', 'grammar', 'kanji'].includes(view));
+    assert.equal(entry.includes('id="mode-learning"'), hasLearning);
+    assert.equal(entry.includes('id="mode-tests"'), hasTests);
+    for (const id of ['ui.chooseLessonMode', ...(hasLearning ? ['ui.learning'] : []), ...(hasTests ? ['ui.tests'] : [])])
+        assert(entry.includes(ui[id][locale]), 'Missing lesson mode translation: ' + id);
+}
+for (const book of studyCatalog.books) for (const unit of book.units) for (const view of unit.views) {
+    const html = render(LessonScreen, {book, unit, view}, 'zh');
+    if (!unit.views.includes('kanji')) assert(links(html).includes(lessonHref(unit.id)), 'Missing return to lesson selection: ' + unit.id);
+    assert(html.includes('href="' + bookHref(book.id, unit.id).replaceAll('&', '&amp;') + '"'), 'Missing contextual return: ' + unit.id);
+    assert(html.includes('href="./#catalog"'), 'Missing direct library return');
+    const picker = html.match(/<select[^>]*>([\s\S]*?)<\/select>/)?.[1];
+    assert(picker);
+    for (const target of book.units) {
+        const targetView = target.views.includes(view) ? view : target.views[0];
+        assert(picker.includes('value="' + lessonHref(target.id, targetView).replaceAll('&', '&amp;') + '"'), 'Invalid lesson picker destination: ' + target.id);
+    }
+    assert(picker.includes(' selected=""'), 'Picker must indicate the current lesson');
+    if (unit.characters) {
+        const tabs = html.match(/<nav class="lesson-tabs"[^>]*>([\s\S]*?)<\/nav>/)[1];
+        assert.equal(links(tabs).length, 2, 'Kanji groups must have exactly two modes');
+        assert(tabs.includes(ui['ui.kanjiStudy'].zh) && tabs.includes(ui['ui.kanjiTest'].zh));
+        assert(!tabs.includes('view=words') && !tabs.includes('view=word-test'), 'Kanji and vocabulary must stay together');
+    }
+}
+const windowBeforeReturnCheck = Object.getOwnPropertyDescriptor(globalThis, 'window');
+try {
+    // Returning from study opens this book and marks the original lesson or group.
+    globalThis.window = {location: {search: '?book=minna&focus=minna-42'}};
+    const returned = render(BookScreen, {book: studyCatalog.books.find(book => book.id === 'minna')}, 'zh');
+    const focusedEntry = returned.match(/<a[^>]*id="unit-minna-42"[^>]*>/)?.[0];
+    assert(focusedEntry && !focusedEntry.includes('hidden'), 'Return target must be visible');
+    assert(focusedEntry.includes('aria-current="location"'), 'Return target must be marked');
+    assert(!returned.includes('id="unit-topic-1-part"'), 'Book return must retain its filter');
+    for (const book of studyCatalog.books.filter(book => book.units.some(unit => unit.characters))) {
+        const last = book.units.at(-1);
+        globalThis.window = {location: {search: '?book=' + book.id + '&focus=' + last.id}};
+        const grid = render(BookScreen, {book}, 'zh');
+        assert(grid.includes('class="book-contents"') && !grid.includes('<details'));
+        assert.equal((grid.match(/class="unit-entry kanji-group-entry"/g) || []).length, book.units.length, 'Opening a kanji book must show every group');
+        assert(!grid.includes('hidden=""') && !grid.includes('class="show-more"'), 'Kanji groups must not be hidden');
+        assert.deepEqual(links(grid), book.units.flatMap(unit => unit.views.map(view => lessonHref(unit.id, view))), 'Each group must offer study and test');
+        assert(grid.match(new RegExp('<article[^>]*id="unit-' + last.id + '"[^>]*aria-current="location"')), 'Returning from a group must mark its entry');
+        for (const unit of book.units) {
+            assert(grid.includes(unit.titleJa), 'Missing group range: ' + unit.id);
+            assert(grid.includes(unit.characters.map(character => character.titleJa.split(' ')[2]).join(' ')), 'Missing group character preview');
+        }
+    }
+    globalThis.window = {location: {search: '?book=missing&focus=missing'}};
+    assert.equal(bookLinks(render(CatalogScreen, {catalog}, 'zh')).length, studyCatalog.books.length, 'Invalid filter parameters must fall back to all books');
+} finally {
+    if (windowBeforeReturnCheck) Object.defineProperty(globalThis, 'window', windowBeforeReturnCheck);
+    else delete globalThis.window;
+}
+let renderedViews = 0;
+const {KanjiScreen} = load('src/modules/curriculum/presentation/pages/KanjiScreen.tsx');
+for (const unit of compileUnits()) {
+    const descriptor = catalog.books.flatMap(b => b.units).find(d => d.id === unit.id);
+    for (const view of descriptor.views) {
+        const component = view === 'words' ? VocabularyScreen : view === 'kanji' ? KanjiScreen : view === 'grammar' ? GrammarScreen : AssessmentScreen;
+        for (const locale of ['zh', 'en']) {
+            const source = createStudyServices(ui).session.source(unit, view);
+            const props = view === 'words' ? {words: unit.words, texts: unit.texts}
+                : view === 'kanji' ? {lesson: unit}
+                    : view === 'grammar' ? {articles: unit.articles, texts: unit.texts, lessonId: unit.id}
+                    : {source, texts: unit.texts, lessonId: unit.id, view};
+            const html = render(component, props, locale);
+            assert(!html.includes('Unknown text ID'));
+            if (view === 'kanji') {
+                for (const id of ['ui.kanjiShape', 'ui.kanjiReadings', 'ui.kanjiVocabulary', 'ui.kanjiExamples'])
+                    assert(html.includes(ui[id][locale]), 'Missing kanji detail section: ' + id);
+                assert(html.includes('class="kanji-glyph" lang="ja" translate="no">' + unit.articles[0].titleJa));
+                assert.equal((html.match(/class="word-headword"/g) || []).length, unit.words.length, 'Kanji detail must include its vocabulary');
+                const checkExamples = article => {
+                    for (const example of article.examples.filter(e => !/^(画数|音読み|訓読み)：/.test(e.ja)))
+                        assert(html.includes('aria-label="' + ui['ui.speak'][locale] + ' ' + example.ja.replaceAll('&', '&amp;').replaceAll('"', '&quot;') + '"'), 'Missing example audio: ' + unit.id);
+                    article.children.forEach(checkExamples);
+                };
+                unit.articles.forEach(checkExamples);
+                assert(!html.includes('class="contents"'), 'Kanji detail must not show a redundant grammar index');
+            }
+            if (view === 'words') {
+                assert.equal((html.match(/class="word-headword"/g) || []).length, unit.words.length);
+                assert.equal((html.match(/class="word-note"/g) || []).length, unit.words.filter(w => w.noteId && unit.texts[w.noteId][locale].trim()).length, 'Empty notes must not expose an empty toggle');
+            }
+        }
+        renderedViews++;
+    }
+}
+console.log(JSON.stringify({bookEntries: bookLinks(zhIndex).length, bookUnitRoutes: expected.length, renderedViews, bothLanguages: 'passed'}));
+
+const {checkModuleContracts} = await import('./check-module-contracts.mjs');
+await checkModuleContracts({load, catalog, units: compileUnits(), ui});
+const {checkKanji} = await import('./check-kanji.mjs');
+await checkKanji({load, catalog, units: compileUnits()});
+const {checkKanjiGroups} = await import('./check-kanji-groups.mjs');
+await checkKanjiGroups({load, catalog, units: compileUnits(), ui, render});
+await import('./check-content-review.mjs');
+await import('./check-theme.mjs');
+const {checkSpeech} = await import('./check-speech.mjs');
+await checkSpeech({load});
+const {checkStudyWorkflows} = await import('./check-study-workflows.mjs');
+await checkStudyWorkflows({load, catalog, units: compileUnits(), ui});
+const {checkPersistenceAndValidation} = await import('./check-persistence-and-validation.mjs');
+await checkPersistenceAndValidation({load, units: compileUnits(), ui});

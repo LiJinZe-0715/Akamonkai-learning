@@ -1,0 +1,940 @@
+/* Swiss grid study views: dense vocabulary rows, a ruled grammar column, a flat answer sheet. */
+
+/* Vocabulary */
+
+.vocabulary-toolbar {
+    display: grid;
+    gap: 16px;
+    margin-bottom: 4px;
+}
+
+.vocabulary-toolbar input[type="search"] {
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    border-bottom: 2px solid var(--rule-strong);
+    background: transparent;
+    font-size: 15px;
+    outline: none;
+}
+
+.vocabulary-toolbar input[type="search"]:focus {
+    border-bottom-color: var(--accent);
+}
+
+.vocabulary-toolbar input[type="search"]::placeholder {
+    color: var(--ink-3);
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    width: fit-content;
+    max-width: 100%;
+    border: 1px solid var(--rule-strong);
+}
+
+.filter-buttons button {
+    padding: 6px 13px;
+    border: 0;
+    border-right: 1px solid var(--rule);
+    background: transparent;
+    color: var(--ink-2);
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1.6;
+    cursor: pointer;
+    transition: background 120ms ease, color 120ms ease;
+}
+
+.filter-buttons button:last-child {
+    border-right: 0;
+}
+
+.filter-buttons button:hover {
+    background: var(--surface-2);
+    color: var(--ink);
+}
+
+.filter-buttons button[aria-pressed="true"] {
+    background: var(--ink);
+    color: var(--paper);
+}
+
+.list-caption {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--rule);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.vocabulary-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+}
+
+.word-row {
+    display: grid;
+    grid-template-columns: 32px minmax(0, 1fr) auto;
+    gap: 16px;
+    align-items: start;
+    padding: 18px 10px 18px 12px;
+    border-bottom: 1px solid var(--rule);
+    border-left: 3px solid transparent;
+    scroll-margin-top: 25px;
+    transition: background 120ms ease, border-color 120ms ease;
+}
+
+.word-row:hover {
+    border-left-color: var(--accent);
+    background: var(--surface-2);
+}
+
+.row-number {
+    padding-top: 5px;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.word-content {
+    display: grid;
+    gap: 1px;
+    min-width: 0;
+}
+
+.word-reading {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: var(--ink-3);
+}
+
+.word-headword {
+    font-family: var(--font-display);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+}
+
+.word-meaning {
+    margin-top: 3px;
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--ink-2);
+}
+
+.word-note {
+    margin-top: 9px;
+}
+
+.word-note > summary {
+    display: inline-block;
+    padding-bottom: 1px;
+    border-bottom: 1px solid var(--rule-strong);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    list-style: none;
+}
+
+.word-note > summary::-webkit-details-marker {
+    display: none;
+}
+
+.word-note > summary:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+.word-note > p {
+    margin-top: 8px;
+    max-width: var(--measure);
+    font-size: 12.5px;
+    line-height: 1.85;
+    color: var(--ink-2);
+}
+
+.word-actions {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+    opacity: 0.9;
+    transition: opacity 120ms ease;
+}
+
+.word-actions .icon-button {
+    color: var(--ink-2);
+}
+
+.word-actions .icon-button:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+.word-actions .icon-button[aria-pressed="true"] {
+    color: var(--accent);
+}
+
+.word-actions .icon-button span,
+.example-japanese .icon-button span {
+    display: none;
+}
+
+.word-row:hover .word-actions,
+.word-actions:focus-within {
+    opacity: 1;
+}
+
+/* Grammar */
+
+.grammar-layout {
+    display: grid;
+    grid-template-columns: 196px minmax(0, 1fr);
+    gap: 64px;
+    align-items: start;
+}
+
+.grammar-body {
+    min-width: 0;
+    max-width: 780px;
+}
+
+.grammar-examples {
+    max-width: 800px;
+}
+
+.contents {
+    position: sticky;
+    top: 96px;
+    display: grid;
+    gap: 0;
+    align-content: start;
+}
+
+.contents > span {
+    padding-bottom: 9px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid var(--rule-strong);
+    font-size: 9.5px;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+}
+
+.contents a {
+    display: flex;
+    gap: 9px;
+    padding: 7px 0;
+    border-bottom: 1px solid var(--rule);
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--ink-2);
+    transition: color 120ms ease;
+}
+
+.contents a small {
+    flex: none;
+    padding-top: 1px;
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.contents a:hover {
+    color: var(--accent);
+}
+
+.contents a:hover small {
+    color: var(--accent);
+}
+
+.grammar-article {
+    margin-bottom: 72px;
+    scroll-margin-top: 24px;
+}
+
+.grammar-head {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--rule-strong);
+}
+
+.grammar-no {
+    flex: none;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+}
+
+.grammar-title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.32;
+    letter-spacing: -0.02em;
+}
+
+/* One panel holds both the explanation and the examples, so a rule reads as a
+   single block instead of a stack of unrelated boxes. */
+
+.grammar-panel {
+    margin-top: 16px;
+    border: 1px solid var(--rule);
+    border-top: 1px solid var(--rule-strong);
+    background: var(--surface);
+}
+
+.panel-block {
+    padding: 20px 24px 22px;
+}
+
+.panel-block + .panel-block {
+    border-top: 1px solid var(--rule);
+}
+
+.panel-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink);
+}
+
+.panel-label::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: var(--accent);
+}
+
+.panel-label b {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+}
+
+/* Rows: label column on the left, prose on the right. Every row shares one
+   type size; only the core line and the pattern strip change treatment. */
+
+.explain-rows {
+    display: grid;
+    margin-top: 8px;
+}
+
+.explain-row {
+    display: grid;
+    grid-template-columns: 58px minmax(0, 1fr);
+    gap: 18px;
+    padding: 15px 0;
+    border-top: 1px solid var(--rule);
+}
+
+.explain-row:first-child {
+    border-top: 0;
+    padding-top: 12px;
+}
+
+.explain-row:last-child {
+    padding-bottom: 0;
+}
+
+.explain-label {
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    line-height: 1.5;
+    color: var(--ink-3);
+    white-space: nowrap;
+}
+
+.explain-body {
+    max-width: 60ch;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--ink);
+    text-wrap: pretty;
+    line-break: strict;
+}
+
+/* 核心: the one line a learner must be able to recall. */
+.tone-core {
+    padding: 18px 0 20px;
+}
+
+.tone-core .explain-label {
+    padding-top: 8px;
+    color: var(--accent);
+}
+
+.tone-core .explain-body {
+    font-size: 18.5px;
+    font-weight: 600;
+    line-height: 1.72;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+}
+
+/* 接续: a pattern, set off so it can be copied straight into notes. */
+.tone-pattern .explain-body {
+    padding: 11px 15px;
+    border-left: 2px solid var(--ink);
+    background: var(--surface-2);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+}
+
+/* 易错: same size, but the label steps up to full ink so the eye catches it. */
+.tone-warn .explain-label {
+    color: var(--ink);
+}
+
+/* Japanese inside Chinese prose: accented, never boxed — a filled chip around
+   every quoted word breaks the line into confetti. */
+.ja-quote {
+    font-family: var(--font-display);
+    font-style: normal;
+    font-weight: 700;
+    color: var(--accent);
+}
+
+/* Headwords written in kanji only look exactly like Chinese, so they get weight
+   instead of colour — the entry word is marked, the script is not claimed. */
+.term-head {
+    font-weight: 700;
+    color: var(--ink);
+}
+
+/* Two quoted examples written back to back would otherwise run together as one
+   string; the separator is emitted by the view, not by a sibling selector. */
+.ja-sep {
+    padding: 0 4px;
+    font-weight: 400;
+    color: var(--ink-3);
+}
+
+.example-list {
+    display: grid;
+    margin-top: 10px;
+}
+
+.example {
+    padding: 16px 0 18px;
+    border-top: 1px solid var(--rule);
+}
+
+.example:first-child {
+    border-top: 0;
+    padding-top: 6px;
+}
+
+.example:last-child {
+    padding-bottom: 0;
+}
+
+.example-no {
+    display: block;
+    margin-bottom: 6px;
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    letter-spacing: 0.1em;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.example-japanese {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    font-family: var(--font-display);
+    font-size: 18.5px;
+    font-weight: 500;
+    line-height: 1.8;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+}
+
+.example-japanese strong {
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.dialogue-lines {
+    display: grid;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.dialogue-lines .example-japanese {
+    font-size: 17.5px;
+}
+
+.example-line {
+    display: grid;
+    grid-template-columns: 26px minmax(0, 1fr);
+    gap: 12px;
+    margin-top: 9px;
+    padding-right: 36px;
+}
+
+.example-zh {
+    max-width: var(--measure);
+    font-size: 15px;
+    line-height: 1.85;
+    color: var(--ink-2);
+}
+
+.example-note {
+    max-width: var(--measure);
+    font-size: 13.5px;
+    line-height: 1.9;
+    color: var(--ink-2);
+}
+
+.example-tag {
+    padding-top: 4px;
+    font-size: 9.5px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--ink-3);
+    white-space: nowrap;
+}
+
+.is-note .example-tag {
+    color: var(--accent);
+}
+
+.example > details {
+    margin-top: 10px;
+}
+
+.example > details > summary {
+    display: inline-block;
+    padding-bottom: 1px;
+    border-bottom: 1px solid var(--rule-strong);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    list-style: none;
+}
+
+.example > details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.example > details > p,
+.example > details > span {
+    display: block;
+    margin-top: 8px;
+    font-family: var(--font-display);
+    font-size: 15px;
+    color: var(--ink);
+}
+
+/* Nested rules keep the same shape, one step smaller and indented by a rule. */
+.grammar-rule {
+    margin-top: 34px;
+    padding-left: 24px;
+    border-left: 1px solid var(--rule);
+    scroll-margin-top: 24px;
+}
+
+.grammar-rule > .grammar-head {
+    padding-bottom: 10px;
+    border-bottom-width: 1px;
+}
+
+.grammar-rule .grammar-title {
+    font-size: 20px;
+}
+
+.grammar-rule .panel-block {
+    padding: 18px 20px 20px;
+}
+
+.grammar-rule .explain-row {
+    grid-template-columns: 52px minmax(0, 1fr);
+    gap: 14px;
+}
+
+.grammar-layout .speech-controls,
+.grammar-examples .speech-controls {
+    margin-bottom: 34px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--rule);
+}
+
+
+/* Assessment */
+
+.assessment {
+    max-width: 800px;
+}
+
+.assessment-heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    padding-bottom: 11px;
+    border-bottom: 2px solid var(--rule-strong);
+}
+
+.assessment-heading > p {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--ink-2);
+}
+
+.assessment-heading > span {
+    font-size: 11.5px;
+    font-weight: 600;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.assessment > progress {
+    display: block;
+    width: 100%;
+    height: 4px;
+    margin: 16px 0 4px;
+    border: 0;
+    appearance: none;
+    background: var(--rule);
+}
+
+.assessment > progress::-webkit-progress-bar {
+    background: var(--rule);
+}
+
+.assessment > progress::-webkit-progress-value {
+    background: var(--accent);
+}
+
+.assessment > progress::-moz-progress-bar {
+    background: var(--accent);
+}
+
+.questions {
+    display: grid;
+}
+
+.question {
+    min-width: 0;
+    margin: 0;
+    padding: 26px 0 24px;
+    border: 0;
+    border-bottom: 1px solid var(--rule);
+}
+
+.question > legend {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    padding: 0;
+    margin-bottom: 15px;
+    font-family: var(--font-display);
+    font-size: 16.5px;
+    font-weight: 700;
+    line-height: 1.55;
+    letter-spacing: -0.01em;
+}
+
+.question-number {
+    flex: none;
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.question.correct .question-number {
+    color: var(--ok);
+}
+
+.question.incorrect .question-number {
+    color: var(--bad);
+}
+
+.question > p.muted {
+    margin: -8px 0 14px 36px;
+    font-size: 11.5px;
+}
+
+.options {
+    display: grid;
+    gap: 0;
+    border-top: 1px solid var(--rule);
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 11px 14px;
+    border-bottom: 1px solid var(--rule);
+    cursor: pointer;
+    transition: background 120ms ease, color 120ms ease;
+}
+
+.options label:hover {
+    background: var(--surface-2);
+}
+
+.options label.selected {
+    background: var(--accent-soft);
+    box-shadow: inset 3px 0 0 var(--accent);
+}
+
+.options label.answer-key {
+    box-shadow: inset 3px 0 0 var(--ok);
+}
+
+.options label.selected.answer-key {
+    box-shadow: inset 3px 0 0 var(--ok);
+}
+
+.options input[type="radio"] {
+    flex: none;
+    width: 13px;
+    height: 13px;
+    margin: 0;
+    border: 1px solid var(--rule-strong);
+    border-radius: 50%;
+    appearance: none;
+    cursor: pointer;
+}
+
+.options input[type="radio"]:checked {
+    border-color: var(--accent);
+    background: var(--accent);
+    box-shadow: inset 0 0 0 3px var(--paper);
+}
+
+.option-letter {
+    flex: none;
+    width: 13px;
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    font-weight: 600;
+    color: var(--ink-3);
+}
+
+.answer-input {
+    width: 100%;
+    max-width: 420px;
+    padding: 10px 12px;
+    border: 1px solid var(--rule-strong);
+    background: var(--paper);
+    font-size: 14px;
+    outline: none;
+    transition: border-color 120ms ease;
+}
+
+.answer-input:focus {
+    border-color: var(--accent);
+    box-shadow: inset 0 -2px 0 var(--accent);
+}
+
+.feedback {
+    margin-top: 14px;
+    padding: 13px 16px;
+    border-left: 3px solid var(--accent);
+    background: var(--surface-2);
+}
+
+.feedback > strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+.feedback > p {
+    font-size: 12.5px;
+    line-height: 1.8;
+    color: var(--ink-2);
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 22px 0;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.pagination button {
+    padding: 6px 15px;
+    border: 1px solid var(--rule-strong);
+    background: transparent;
+    color: var(--ink-2);
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 120ms ease, color 120ms ease, border-color 120ms ease;
+}
+
+.pagination button:hover:not(:disabled) {
+    border-color: var(--ink);
+    background: var(--ink);
+    color: var(--paper);
+}
+
+.pagination button:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+
+.submit-area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+    margin-top: 8px;
+    padding-top: 32px;
+    border-top: 2px solid var(--rule-strong);
+}
+
+.submit-area .muted {
+    font-size: 11.5px;
+}
+
+.result-panel {
+    margin: 28px 0 8px;
+    padding: 26px 28px;
+    border: 2px solid var(--rule-strong);
+    background: var(--paper);
+}
+
+.result-panel > h2 {
+    font-family: var(--font-sans);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+}
+
+.result-panel > strong {
+    display: block;
+    margin: 10px 0 22px;
+    font-family: var(--font-display);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 860px) {
+    .grammar-layout {
+        grid-template-columns: 1fr;
+        gap: 26px;
+    }
+
+    .panel-block {
+        padding: 18px 18px 20px;
+    }
+
+    .grammar-rule {
+        padding-left: 16px;
+    }
+
+    .grammar-rule .panel-block {
+        padding: 16px 16px 18px;
+    }
+
+    .explain-row,
+    .grammar-rule .explain-row {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 6px;
+        padding: 14px 0;
+    }
+
+    .explain-label,
+    .tone-core .explain-label {
+        padding-top: 0;
+    }
+
+    .tone-core .explain-body {
+        font-size: 17.5px;
+    }
+
+    .example-line {
+        padding-right: 0;
+    }
+
+    .contents {
+        position: static;
+        padding-bottom: 10px;
+    }
+
+    .contents a {
+        padding: 5px 0;
+    }
+
+    .word-row {
+        grid-template-columns: 24px minmax(0, 1fr) auto;
+        gap: 12px;
+    }
+
+    .word-headword {
+        font-size: 21px;
+    }
+
+    .question > legend {
+        font-size: 15.5px;
+    }
+
+    .result-panel > strong {
+        font-size: 32px;
+    }
+}

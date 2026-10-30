@@ -1,0 +1,399 @@
+/* Swiss grid design tokens: pure white, pure black, one electric accent.
+   No serif, no radius, no shadow. Hierarchy comes from weight, scale and rules. */
+
+:root {
+    color-scheme: light;
+    --paper: #ffffff;
+    --surface: #ffffff;
+    --surface-2: #f4f4f4;
+    --ink: #0a0a0a;
+    --ink-2: #4a4a4a;
+    --ink-3: #8a8a8a;
+    --rule: #e4e4e4;
+    --rule-strong: #0a0a0a;
+    --accent: #0f3cff;
+    --accent-soft: #eef1ff;
+    --on-accent: #ffffff;
+
+    /* Inverted panel: a solid block that flips with the theme. */
+    --panel-bg: #0a0a0a;
+    --panel-ink: #ffffff;
+    --panel-ink-2: #a8a8a8;
+    --panel-accent: #9db0ff;
+
+    /* Answer state. Kept out of the accent ramp so blue stays "interactive". */
+    --ok: #0b7a3b;
+    --bad: #d81f1f;
+
+    --font-sans: "Helvetica Neue", Helvetica, Arial, "Segoe UI", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Microsoft YaHei", sans-serif;
+    --font-display: "Helvetica Neue", Helvetica, Arial, "Segoe UI", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Microsoft YaHei", sans-serif;
+    --font-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+
+    --width-shell: 1180px;
+    --measure: 68ch;
+}
+
+[data-theme="dark"] {
+    color-scheme: dark;
+    --paper: #0a0a0a;
+    --surface: #121212;
+    --surface-2: #1b1b1b;
+    --ink: #fafafa;
+    --ink-2: #b4b4b4;
+    --ink-3: #7d7d7d;
+    --rule: #262626;
+    --rule-strong: #fafafa;
+    --accent: #7f9bff;
+    --accent-soft: #16204a;
+    --on-accent: #0a0a0a;
+
+    --panel-bg: #fafafa;
+    --panel-ink: #0a0a0a;
+    --panel-ink-2: #5a5a5a;
+    --panel-accent: #0f3cff;
+
+    --ok: #4ade80;
+    --bad: #ff6b6b;
+}
+
+@layer base {
+    html {
+        -webkit-text-size-adjust: 100%;
+        scroll-behavior: smooth;
+        scroll-padding-top: 88px;
+        scroll-padding-bottom: 90px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        html {
+            scroll-behavior: auto;
+        }
+    }
+
+    body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: var(--font-sans);
+        font-size: 15px;
+        line-height: 1.65;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    h1, h2, h3, h4 {
+        margin: 0;
+        font-family: var(--font-display);
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: -0.03em;
+        text-wrap: balance;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    button {
+        font: inherit;
+        color: inherit;
+    }
+
+    summary {
+        cursor: pointer;
+    }
+
+    ::selection {
+        background: var(--ink);
+        color: var(--paper);
+    }
+
+    :focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+    }
+
+    ruby > rt {
+        font-family: var(--font-sans);
+        font-size: 0.5em;
+        font-weight: 400;
+        color: var(--ink-3);
+        letter-spacing: 0.02em;
+    }
+
+    ruby > rp {
+        color: var(--ink-3);
+    }
+}
+
+/* Shared primitives */
+
+.ui-icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    flex: none;
+    vertical-align: -0.18em;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
+.shell {
+    width: 100%;
+    max-width: var(--width-shell);
+    margin-inline: auto;
+    padding-inline: 36px;
+}
+
+@media (max-width: 640px) {
+    .shell {
+        padding-inline: 20px;
+    }
+}
+
+.eyebrow {
+    font-family: var(--font-sans);
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+.section-kicker {
+    display: block;
+    font-family: var(--font-sans);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.26em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+}
+
+.muted {
+    color: var(--ink-3);
+    font-size: 13px;
+}
+
+.empty-state {
+    padding: 56px 0;
+    text-align: center;
+    color: var(--ink-3);
+    font-size: 14px;
+}
+
+.empty-state h1 {
+    margin-bottom: 12px;
+    font-size: 24px;
+    color: var(--ink);
+}
+
+.empty-state button {
+    margin-top: 16px;
+    padding: 10px 22px;
+    border: 1px solid var(--ink);
+    border-radius: 0;
+    background: var(--ink);
+    color: var(--paper);
+    font-size: 12.5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.empty-state button:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--on-accent);
+}
+
+/* Buttons */
+
+.button-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.button-row > button,
+.file-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 14px;
+    border: 1px solid var(--rule-strong);
+    border-radius: 0;
+    background: transparent;
+    font-size: 12.5px;
+    font-weight: 500;
+    line-height: 1.4;
+    cursor: pointer;
+    transition: background 120ms ease, color 120ms ease, border-color 120ms ease;
+}
+
+.button-row > button:hover,
+.file-button:hover {
+    background: var(--ink);
+    color: var(--paper);
+}
+
+.button-row > button[aria-pressed="true"] {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--paper);
+}
+
+.button-row > button:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+
+.file-button input {
+    display: none;
+}
+
+.primary-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-width: 160px;
+    padding: 12px 26px;
+    border: 1px solid var(--ink);
+    border-radius: 0;
+    background: var(--ink);
+    color: var(--paper);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    transition: background 120ms ease, border-color 120ms ease;
+}
+
+.primary-button:hover:not(:disabled) {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--on-accent);
+}
+
+.primary-button:disabled {
+    border-color: var(--rule);
+    background: transparent;
+    color: var(--ink-3);
+    cursor: not-allowed;
+}
+
+.icon-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    min-width: 30px;
+    height: 30px;
+    padding: 0 7px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    background: transparent;
+    color: var(--ink-2);
+    font-size: 12px;
+    cursor: pointer;
+    transition: color 120ms ease, border-color 120ms ease, background 120ms ease;
+}
+
+.icon-button:hover {
+    border-color: var(--ink);
+    background: var(--ink);
+    color: var(--paper);
+}
+
+.icon-button[aria-pressed="true"] {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+/* Form controls */
+
+input[type="search"],
+input[type="text"],
+select,
+.answer-input {
+    font-family: var(--font-sans);
+    font-size: 14px;
+    color: var(--ink);
+    background: transparent;
+}
+
+select {
+    padding: 7px 28px 7px 10px;
+    border: 1px solid var(--ink);
+    border-radius: 0;
+    background-color: var(--paper);
+    background-image: linear-gradient(45deg, transparent 50%, currentColor 50%),
+    linear-gradient(135deg, currentColor 50%, transparent 50%);
+    background-position: calc(100% - 15px) calc(50% - 1px), calc(100% - 10px) calc(50% - 1px);
+    background-size: 5px 5px, 5px 5px;
+    background-repeat: no-repeat;
+    appearance: none;
+    cursor: pointer;
+}
+
+select:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+label {
+    font-size: 13px;
+}
+
+/* Feedback surfaces */
+
+.notice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 28px;
+    padding: 12px 16px;
+    border: 1px solid var(--ink);
+    border-left: 4px solid var(--accent);
+    background: var(--paper);
+    font-size: 12.5px;
+    color: var(--ink-2);
+}
+
+.notice button {
+    border: 0;
+    background: transparent;
+    color: var(--ink-3);
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.notice button:hover {
+    color: var(--accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.001ms !important;
+        transition-duration: 0.001ms !important;
+    }
+}
