@@ -3,6 +3,7 @@ import path from "node:path";
 
 const read = (p) => JSON.parse(fs.readFileSync(p, "utf8"));
 export const kanjiBookIds = ["kanji-daily", "kanji-700"];
+export const libraryLevelIds = ["beginner", "jlpt-grammar", "intermediate"];
 const courseFiles = (directory) => fs.readdirSync(directory, {withFileTypes: true})
     .flatMap((entry) => entry.isDirectory()
         ? courseFiles(path.join(directory, entry.name))
@@ -46,4 +47,40 @@ export function compileUnits() {
         });
     });
     return [...lessons, ...kanji, read("data/content/reference/verbs.json")];
+}
+
+// The source catalog declares book order, library level, unit order and the
+// study views each unit exposes. Titles, group names and the word/question
+// counts are derived from the compiled unit content, so they are never
+// maintained twice.
+export function buildCatalog(units = compileUnits()) {
+    const source = read("data/content/catalog.json");
+    const byId = new Map(units.map(unit => [unit.id, unit]));
+    return {
+        schemaVersion: source.schemaVersion,
+        siteTitleJa: source.siteTitleJa,
+        books: source.books.map(book => {
+            if (!libraryLevelIds.includes(book.level)) throw Error("Unknown library level: " + book.id);
+            return {
+                id: book.id,
+                titleJa: book.titleJa,
+                subtitleJa: book.subtitleJa,
+                level: book.level,
+                units: book.units.map(entry => {
+                    const unit = byId.get(entry.id);
+                    if (!unit) throw Error("Catalogued unit is missing: " + entry.id);
+                    const views = entry.views;
+                    if (!views?.length) throw Error("Study views are required for: " + entry.id);
+                    return {
+                        id: unit.id,
+                        titleJa: unit.titleJa,
+                        groupJa: unit.groupJa,
+                        wordCount: unit.words.length,
+                        questionCount: unit.questions.length,
+                        views: [...views],
+                    };
+                }),
+            };
+        }),
+    };
 }

@@ -3,7 +3,7 @@ import {useUi} from "../../../../presentation/StudyContext";
 import {Icon} from "../../../../presentation/components/Icon";
 import {bookHref, lessonHref} from "../curriculum-routes";
 import {viewTextId} from "../data/study-view-labels";
-import {libraryDisplay, libraryLevels} from "../data/catalog-display";
+import {libraryDisplay, libraryLevelOrder, libraryLevelTitles} from "../data/catalog-display";
 import {useDashboard} from "../hooks/use-dashboard";
 
 function BookCard({book}: { book: Book }) {
@@ -72,11 +72,11 @@ export function CatalogScreen({catalog}: { catalog: Catalog }) {
                                                    onClick={() => setBook(book.id)} lang="ja"
                                                    translate="no">{book.titleJa}</button>)}
             </nav>
-            {libraryLevels.map(level => {
-                const books = visible.filter(book => (level.bookIds as readonly string[]).includes(book.id));
+            {libraryLevelOrder.map(level => {
+                const books = visible.filter(book => book.level === level);
                 return books.length > 0 &&
-                    <section key={level.id} className="library-level" aria-labelledby={"level-" + level.id}>
-                        <h3 id={"level-" + level.id}>{t(level.titleId)}</h3>
+                    <section key={level} className="library-level" aria-labelledby={"level-" + level}>
+                        <h3 id={"level-" + level}>{t(libraryLevelTitles[level])}</h3>
                         <div className="textbook-list">{books.map(book => <BookCard
                             key={book.id} book={book}/>)}</div>
                     </section>;

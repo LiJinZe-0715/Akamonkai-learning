@@ -3,7 +3,7 @@ import path from "node:path";
 import assert from "node:assert/strict";
 import ts from "@typescript/typescript6";
 import {createRequire} from "node:module";
-import {compileUnits, kanjiBookIds} from "./compile-content.mjs";
+import {buildCatalog, compileUnits, kanjiBookIds, libraryLevelIds} from "./compile-content.mjs";
 
 const files = (dir) =>
     fs
@@ -12,8 +12,8 @@ const files = (dir) =>
             e.isDirectory() ? files(dir + "/" + e.name) : [dir + "/" + e.name],
         );
 const read = (f) => JSON.parse(fs.readFileSync(f, "utf8"));
-const catalog = read("data/content/catalog.json");
 const units = compileUnits();
+const catalog = buildCatalog(units);
 assert.equal(new Set(units.map((u) => u.id)).size, units.length);
 assert.deepEqual(units.map((unit) => unit.id).sort(),
     catalog.books.flatMap((book) => book.units.map((unit) => unit.id)).sort(),
@@ -356,16 +356,11 @@ for (const [locale, html] of [['zh', zhIndex], ['en', enIndex]]) {
     assert(groups[0][2].includes(ui['ui.levelBeginner'][locale]));
     assert(groups[1][2].includes(ui['ui.levelJlptGrammar'][locale]));
     assert(groups[2][2].includes(ui['ui.levelIntermediate'][locale]));
-    const levelBookIds = [
-        ['minna', 'katakana-practice', 'kanji-daily', 'topic'],
-        ['n2'],
-        ['chukyu', 'kanji-700', 'try-n2', 'soumatome-n2-vocab'],
-    ];
     for (const book of catalog.books) {
-        const groupIndex = levelBookIds.findIndex(ids => ids.includes(book.id));
+        const groupIndex = libraryLevelIds.indexOf(book.level);
         assert(groupIndex >= 0, 'Book has no level: ' + book.id);
         assert(groups[groupIndex][2].includes('href="./?book=' + book.id + '"'), 'Book in wrong level: ' + book.id);
-        levelBookIds.forEach((_, other) => other !== groupIndex
+        libraryLevelIds.forEach((_, other) => other !== groupIndex
             && assert(!groups[other][2].includes('href="./?book=' + book.id + '"'), 'Book duplicated across levels: ' + book.id));
     }
 }

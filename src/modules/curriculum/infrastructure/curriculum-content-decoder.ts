@@ -1,4 +1,4 @@
-import {type Catalog, isStudyView} from "../domain/catalog";
+import {type Catalog, isLibraryLevel, isStudyView} from "../domain/catalog";
 import type {Article} from "../../grammar/public";
 import type {Segment} from "../../../shared/kernel/text-types";
 import type {LessonBundle} from "../application/contracts";
@@ -37,6 +37,7 @@ export function decodeCatalog(value: unknown): Catalog {
         books.add(b.id);
         text(b.titleJa);
         text(b.subtitleJa);
+        assert(isLibraryLevel(b.level), "invalid library level");
         list(b.units);
         for (const u of b.units) {
             object(u);
@@ -53,7 +54,7 @@ export function decodeCatalog(value: unknown): Catalog {
     const dto = value as unknown as Catalog;
     return {
         schemaVersion: 1, siteTitleJa: dto.siteTitleJa, books: dto.books.map(book => ({
-            id: book.id, titleJa: book.titleJa, subtitleJa: book.subtitleJa,
+            id: book.id, titleJa: book.titleJa, subtitleJa: book.subtitleJa, level: book.level,
             units: book.units.map(unit => ({
                 id: unit.id, titleJa: unit.titleJa, groupJa: unit.groupJa,
                 wordCount: unit.wordCount, questionCount: unit.questionCount, views: [...unit.views]

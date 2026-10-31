@@ -22,10 +22,18 @@ export interface Unit {
     characters?: Unit[];
 }
 
+export const libraryLevels = ["beginner", "jlpt-grammar", "intermediate"] as const;
+export type LibraryLevel = (typeof libraryLevels)[number];
+
+export function isLibraryLevel(value: unknown): value is LibraryLevel {
+    return typeof value === "string" && libraryLevels.some(level => level === value);
+}
+
 export interface Book {
     id: string;
     titleJa: string;
     subtitleJa: string;
+    level: LibraryLevel;
     units: Unit[];
 }
 

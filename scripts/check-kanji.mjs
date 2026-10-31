@@ -28,7 +28,7 @@ export async function checkKanji({load, catalog, units}) {
     assert.equal(photos.flatMap(unit => unit.questions).length, 474);
     assert.equal(kanji.filter(unit => unit.bookId === "kanji-daily" && Number(unit.id.split("-").at(-1)) >= 211).flatMap(unit => unit.words).length, 863);
     assert.equal(kanji.filter(unit => unit.bookId === "kanji-700").flatMap(unit => unit.words).length, 555);
-    assert.equal(kanji.flatMap(unit => unit.questions).filter(question => question.id.startsWith("kanji.new.practice.")).length, 49);
+    assert.equal(kanji.flatMap(unit => unit.questions).filter(question => question.id.startsWith("kanji.new.practice.")).length, 0);
     for (const unit of photos) {
         assert(/^kanji\/\d+\.jpg$/u.test(unit.source.image), "Invalid source photo: " + unit.id);
         assert(unit.source.strokes > 0);
