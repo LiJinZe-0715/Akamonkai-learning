@@ -9,7 +9,9 @@ export async function checkModuleContracts({load, catalog, units, ui}) {
     const {ProgressService} = load("src/modules/learning-progress/application/progress-service.ts");
     const {emptyProgress} = load("src/modules/learning-progress/domain/progress.ts");
     assert.deepEqual(decodeCatalog(structuredClone(catalog)), catalog);
-    for (const u of units) assert.deepEqual(decodeLesson(structuredClone(u), u.id), u);
+    // Character groups are assembled from their character files, so only real
+    // lesson files round-trip through the lesson decoder.
+    for (const u of units.filter(u => !u.characters)) assert.deepEqual(decodeLesson(structuredClone(u), u.id), u);
     const broken = structuredClone(units.find(u => u.words.length));
     delete broken.texts[broken.words[0].meaningId];
     assert.throws(() => decodeLesson(broken, broken.id), /missing translation/);

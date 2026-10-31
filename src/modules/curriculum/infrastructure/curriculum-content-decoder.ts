@@ -1,4 +1,4 @@
-import {type Catalog, isLibraryLevel, isStudyView} from "../domain/catalog";
+import {type Catalog, type Unit, isLibraryLevel, isStudyView} from "../domain/catalog";
 import type {Article} from "../../grammar/public";
 import type {Segment} from "../../../shared/kernel/text-types";
 import type {LessonBundle} from "../application/contracts";
@@ -30,6 +30,27 @@ export function decodeCatalog(value: unknown): Catalog {
     text(value.siteTitleJa);
     list(value.books);
     const books = new Set(), units = new Set();
+    const copyUnit = (u: Unit): Unit => ({
+        id: u.id, titleJa: u.titleJa, groupJa: u.groupJa,
+        wordCount: u.wordCount, questionCount: u.questionCount, views: [...u.views],
+        ...(u.characters ? {characters: u.characters.map(copyUnit)} : {}),
+    });
+    const validateUnit = (u: unknown) => {
+        object(u);
+        identifier(u.id);
+        assert(!units.has(u.id), "duplicate unit");
+        units.add(u.id);
+        text(u.titleJa);
+        text(u.groupJa);
+        list(u.views);
+        assert(u.views.length && new Set(u.views).size === u.views.length && u.views.every(isStudyView), "invalid study view");
+        for (const key of ["wordCount", "questionCount"]) assert(Number.isInteger(u[key]) && (u[key] as number) >= 0, "invalid count");
+        if (u.characters !== undefined) {
+            list(u.characters);
+            assert(u.characters.length, "empty character group");
+            u.characters.forEach(validateUnit);
+        }
+    };
     for (const b of value.books) {
         object(b);
         identifier(b.id);
@@ -39,26 +60,13 @@ export function decodeCatalog(value: unknown): Catalog {
         text(b.subtitleJa);
         assert(isLibraryLevel(b.level), "invalid library level");
         list(b.units);
-        for (const u of b.units) {
-            object(u);
-            identifier(u.id);
-            assert(!units.has(u.id), "duplicate unit");
-            units.add(u.id);
-            text(u.titleJa);
-            text(u.groupJa);
-            list(u.views);
-            assert(u.views.length && new Set(u.views).size === u.views.length && u.views.every(isStudyView), "invalid study view");
-            for (const key of ["wordCount", "questionCount"]) assert(Number.isInteger(u[key]) && (u[key] as number) >= 0, "invalid count");
-        }
+        b.units.forEach(validateUnit);
     }
     const dto = value as unknown as Catalog;
     return {
         schemaVersion: 1, siteTitleJa: dto.siteTitleJa, books: dto.books.map(book => ({
             id: book.id, titleJa: book.titleJa, subtitleJa: book.subtitleJa, level: book.level,
-            units: book.units.map(unit => ({
-                id: unit.id, titleJa: unit.titleJa, groupJa: unit.groupJa,
-                wordCount: unit.wordCount, questionCount: unit.questionCount, views: [...unit.views]
-            })),
+            units: book.units.map(copyUnit),
         }))
     };
 }

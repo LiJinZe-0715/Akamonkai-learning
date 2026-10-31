@@ -65,6 +65,7 @@ export const requiredUiTextIds = [
     "ui.progress",
     "ui.questionCount",
     "ui.readingTest",
+    "ui.readingText",
     "ui.recentPractice",
     "ui.records",
     "ui.reload",

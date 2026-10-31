@@ -3,7 +3,7 @@ import path from "node:path";
 import assert from "node:assert/strict";
 import ts from "@typescript/typescript6";
 import {createRequire} from "node:module";
-import {buildCatalog, compileUnits, kanjiBookIds, libraryLevelIds} from "./compile-content.mjs";
+import {buildCatalog, compileUnits, flattenUnits, kanjiBookIds, libraryLevelIds} from "./compile-content.mjs";
 
 const files = (dir) =>
     fs
@@ -42,10 +42,12 @@ let references = 0,
     questions = 0,
     words = 0;
 const allIds = new Set();
-for (const unit of units) {
+for (const unit of flattenUnits(units)) {
     const descriptor = catalog.books
         .find((b) => b.id === unit.bookId)
-        ?.units.find((u) => u.id === unit.id);
+        ?.units
+        .flatMap((u) => u.characters ?? [u])
+        .find((u) => u.id === unit.id);
     assert(descriptor, "Unlisted unit " + unit.id);
     const check = (id) => {
         assert(
@@ -436,7 +438,7 @@ try {
     assert(focusedEntry && !focusedEntry.includes('hidden'), 'Return target must be visible');
     assert(focusedEntry.includes('aria-current="location"'), 'Return target must be marked');
     assert(!returned.includes('id="unit-topic-1-part"'), 'Book return must retain its filter');
-    for (const book of studyCatalog.books.filter(book => book.units.some(unit => unit.characters))) {
+    for (const book of studyCatalog.books.filter(book => book.units.every(unit => unit.characters))) {
         const last = book.units.at(-1);
         globalThis.window = {location: {search: '?book=' + book.id + '&focus=' + last.id}};
         const grid = render(BookScreen, {book}, 'zh');
@@ -458,8 +460,8 @@ try {
 }
 let renderedViews = 0;
 const {KanjiScreen} = load('src/modules/curriculum/presentation/pages/KanjiScreen.tsx');
-for (const unit of compileUnits()) {
-    const descriptor = catalog.books.flatMap(b => b.units).find(d => d.id === unit.id);
+for (const unit of flattenUnits(compileUnits())) {
+    const descriptor = flattenUnits(catalog.books.flatMap(b => b.units)).find(d => d.id === unit.id);
     for (const view of descriptor.views) {
         const component = view === 'words' ? VocabularyScreen : view === 'kanji' ? KanjiScreen : view === 'grammar' ? GrammarScreen : AssessmentScreen;
         for (const locale of ['zh', 'en']) {
@@ -488,6 +490,25 @@ for (const unit of compileUnits()) {
                 assert.equal((html.match(/class="word-note"/g) || []).length, unit.words.filter(w => w.noteId && unit.texts[w.noteId][locale].trim()).length, 'Empty notes must not expose an empty toggle');
             }
         }
+        renderedViews++;
+    }
+}
+// A character group is served as one flattened bundle, exactly as the repository
+// assembles it from the character files.
+for (const unit of compileUnits().filter((u) => u.characters)) {
+    const lesson = {
+        id: unit.id, bookId: unit.bookId, titleJa: unit.titleJa, groupJa: unit.groupJa,
+        words: unit.characters.flatMap(character => character.words),
+        articles: unit.characters.flatMap(character => character.articles),
+        questions: unit.characters.flatMap(character => character.questions),
+        texts: Object.assign({}, ...unit.characters.map(character => character.texts)),
+        characters: unit.characters,
+    };
+    for (const locale of ['zh', 'en']) {
+        const html = render(KanjiScreen, {lesson}, locale);
+        assert(!html.includes('Unknown text ID'));
+        assert.equal((html.match(/class="kanji-character"/g) || []).length, unit.characters.length, 'Missing character card: ' + unit.id);
+        assert.equal((html.match(/class="word-headword"/g) || []).length, lesson.words.length, 'Missing character vocabulary: ' + unit.id);
         renderedViews++;
     }
 }

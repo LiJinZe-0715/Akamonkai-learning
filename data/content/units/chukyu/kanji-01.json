@@ -1,0 +1,2344 @@
+{
+  "bookId": "chukyu",
+  "group": {
+    "id": "chukyu-kanji-1",
+    "titleJa": "第1課 漢字",
+    "groupJa": "中級・漢字"
+  },
+  "units": [
+    {
+      "id": "chukyu-kanji-01-01",
+      "bookId": "chukyu",
+      "titleJa": "漢字 001 音",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.1",
+          "titleJa": "音",
+          "paragraphIds": [
+            "chukyu.kanji.1.1.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：オン・イン"
+            },
+            {
+              "ja": "訓読み：おと・ね"
+            },
+            {
+              "ja": "[音楽:おんがく]を聞くと、気持ちが落ち着く。",
+              "translationId": "chukyu.kanji.1.1.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.1.word.0",
+          "wordJa": "音楽",
+          "readingJa": "おんがく",
+          "meaningId": "chukyu.kanji.1.1.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.1.word.1",
+          "wordJa": "音",
+          "readingJa": "おと",
+          "meaningId": "chukyu.kanji.1.1.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.1.word.2",
+          "wordJa": "発音",
+          "readingJa": "はつおん",
+          "meaningId": "chukyu.kanji.1.1.word.2.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.1.word.3",
+          "wordJa": "録音する",
+          "readingJa": "ろくおんする",
+          "meaningId": "chukyu.kanji.1.1.word.3.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.1.word.0.reading",
+          "prompt": [
+            {
+              "ja": "音楽"
+            }
+          ],
+          "acceptedText": [
+            "おんがく"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.1.word.1.reading",
+          "prompt": [
+            {
+              "ja": "音"
+            }
+          ],
+          "acceptedText": [
+            "おと"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.1.word.2.reading",
+          "prompt": [
+            {
+              "ja": "発音"
+            }
+          ],
+          "acceptedText": [
+            "はつおん"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.1.word.3.reading",
+          "prompt": [
+            {
+              "ja": "録音する"
+            }
+          ],
+          "acceptedText": [
+            "ろくおんする"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.1.meaning": {
+          "zh": "声音、音响。",
+          "en": "Sound, noise."
+        },
+        "chukyu.kanji.1.1.example": {
+          "zh": "听音乐，心情就会平静下来。",
+          "en": "Listening to music calms me down."
+        },
+        "chukyu.kanji.1.1.word.0.meaning": {
+          "zh": "音乐",
+          "en": "music"
+        },
+        "chukyu.kanji.1.1.word.1.meaning": {
+          "zh": "声音",
+          "en": "sound"
+        },
+        "chukyu.kanji.1.1.word.2.meaning": {
+          "zh": "发音",
+          "en": "pronunciation"
+        },
+        "chukyu.kanji.1.1.word.3.meaning": {
+          "zh": "录音",
+          "en": "to record audio"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-02",
+      "bookId": "chukyu",
+      "titleJa": "漢字 002 楽",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.2",
+          "titleJa": "楽",
+          "paragraphIds": [
+            "chukyu.kanji.1.2.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ガク・ラク"
+            },
+            {
+              "ja": "訓読み：たのしい・たのしむ"
+            },
+            {
+              "ja": "[楽:たの]しい音楽を聞いて、ストレスを解消する。",
+              "translationId": "chukyu.kanji.1.2.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.2.word.0",
+          "wordJa": "音楽",
+          "readingJa": "おんがく",
+          "meaningId": "chukyu.kanji.1.2.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.2.word.1",
+          "wordJa": "楽しい",
+          "readingJa": "たのしい",
+          "meaningId": "chukyu.kanji.1.2.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.2.word.2",
+          "wordJa": "楽しむ",
+          "readingJa": "たのしむ",
+          "meaningId": "chukyu.kanji.1.2.word.2.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.2.word.3",
+          "wordJa": "楽な",
+          "readingJa": "らくな",
+          "meaningId": "chukyu.kanji.1.2.word.3.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.2.word.0.reading",
+          "prompt": [
+            {
+              "ja": "音楽"
+            }
+          ],
+          "acceptedText": [
+            "おんがく"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.2.word.1.reading",
+          "prompt": [
+            {
+              "ja": "楽しい"
+            }
+          ],
+          "acceptedText": [
+            "たのしい"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.2.word.2.reading",
+          "prompt": [
+            {
+              "ja": "楽しむ"
+            }
+          ],
+          "acceptedText": [
+            "たのしむ"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.2.word.3.reading",
+          "prompt": [
+            {
+              "ja": "楽な"
+            }
+          ],
+          "acceptedText": [
+            "らくな"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.2.meaning": {
+          "zh": "快乐；音乐。",
+          "en": "Pleasure; music."
+        },
+        "chukyu.kanji.1.2.example": {
+          "zh": "听愉快的音乐来消除压力。",
+          "en": "I relieve stress by listening to cheerful music."
+        },
+        "chukyu.kanji.1.2.word.0.meaning": {
+          "zh": "音乐",
+          "en": "music"
+        },
+        "chukyu.kanji.1.2.word.1.meaning": {
+          "zh": "愉快的",
+          "en": "enjoyable"
+        },
+        "chukyu.kanji.1.2.word.2.meaning": {
+          "zh": "享受、欣赏",
+          "en": "to enjoy"
+        },
+        "chukyu.kanji.1.2.word.3.meaning": {
+          "zh": "轻松的",
+          "en": "easy, comfortable"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-03",
+      "bookId": "chukyu",
+      "titleJa": "漢字 003 効",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.3",
+          "titleJa": "効",
+          "paragraphIds": [
+            "chukyu.kanji.1.3.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：コウ"
+            },
+            {
+              "ja": "訓読み：きく"
+            },
+            {
+              "ja": "この薬はよく[効:き]く。",
+              "translationId": "chukyu.kanji.1.3.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.3.word.0",
+          "wordJa": "効果",
+          "readingJa": "こうか",
+          "meaningId": "chukyu.kanji.1.3.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.3.word.0.reading",
+          "prompt": [
+            {
+              "ja": "効果"
+            }
+          ],
+          "acceptedText": [
+            "こうか"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.3.meaning": {
+          "zh": "效果、见效。",
+          "en": "Effect; to be effective."
+        },
+        "chukyu.kanji.1.3.example": {
+          "zh": "这个药很有效。",
+          "en": "This medicine works well."
+        },
+        "chukyu.kanji.1.3.word.0.meaning": {
+          "zh": "效果",
+          "en": "effect"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-04",
+      "bookId": "chukyu",
+      "titleJa": "漢字 004 寂",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.4",
+          "titleJa": "寂",
+          "paragraphIds": [
+            "chukyu.kanji.1.4.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ジャク・セキ"
+            },
+            {
+              "ja": "訓読み：さび・さびしい・さびれる"
+            },
+            {
+              "ja": "一人の夜は[寂:さび]しい。",
+              "translationId": "chukyu.kanji.1.4.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.4.word.0",
+          "wordJa": "寂しい",
+          "readingJa": "さびしい",
+          "meaningId": "chukyu.kanji.1.4.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.4.word.0.reading",
+          "prompt": [
+            {
+              "ja": "寂しい"
+            }
+          ],
+          "acceptedText": [
+            "さびしい"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.4.meaning": {
+          "zh": "寂寞、冷清。",
+          "en": "Lonely, desolate."
+        },
+        "chukyu.kanji.1.4.example": {
+          "zh": "一个人的夜晚很寂寞。",
+          "en": "A night alone is lonely."
+        },
+        "chukyu.kanji.1.4.word.0.meaning": {
+          "zh": "寂寞的",
+          "en": "lonely"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-05",
+      "bookId": "chukyu",
+      "titleJa": "漢字 005 好",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.5",
+          "titleJa": "好",
+          "paragraphIds": [
+            "chukyu.kanji.1.5.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：コウ"
+            },
+            {
+              "ja": "訓読み：すく・このむ"
+            },
+            {
+              "ja": "私はクラシックが[好:す]きだ。",
+              "translationId": "chukyu.kanji.1.5.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.5.word.0",
+          "wordJa": "好きな",
+          "readingJa": "すきな",
+          "meaningId": "chukyu.kanji.1.5.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.5.word.1",
+          "wordJa": "大好きな",
+          "readingJa": "だいすきな",
+          "meaningId": "chukyu.kanji.1.5.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.5.word.2",
+          "wordJa": "好意的な",
+          "readingJa": "こういてきな",
+          "meaningId": "chukyu.kanji.1.5.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.5.word.0.reading",
+          "prompt": [
+            {
+              "ja": "好きな"
+            }
+          ],
+          "acceptedText": [
+            "すきな"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.5.word.1.reading",
+          "prompt": [
+            {
+              "ja": "大好きな"
+            }
+          ],
+          "acceptedText": [
+            "だいすきな"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.5.word.2.reading",
+          "prompt": [
+            {
+              "ja": "好意的な"
+            }
+          ],
+          "acceptedText": [
+            "こういてきな"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.5.meaning": {
+          "zh": "喜好、中意。",
+          "en": "To like, to prefer."
+        },
+        "chukyu.kanji.1.5.example": {
+          "zh": "我喜欢古典音乐。",
+          "en": "I like classical music."
+        },
+        "chukyu.kanji.1.5.word.0.meaning": {
+          "zh": "喜欢的",
+          "en": "liked, favourite"
+        },
+        "chukyu.kanji.1.5.word.1.meaning": {
+          "zh": "非常喜欢的",
+          "en": "very favourite"
+        },
+        "chukyu.kanji.1.5.word.2.meaning": {
+          "zh": "好意的、正面的",
+          "en": "favourable"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-06",
+      "bookId": "chukyu",
+      "titleJa": "漢字 006 落",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.6",
+          "titleJa": "落",
+          "paragraphIds": [
+            "chukyu.kanji.1.6.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ラク"
+            },
+            {
+              "ja": "訓読み：おちる・おとす"
+            },
+            {
+              "ja": "静かな音楽を聞くと、心が[落:お]ち着く。",
+              "translationId": "chukyu.kanji.1.6.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.6.word.0",
+          "wordJa": "落ち着く",
+          "readingJa": "おちつく",
+          "meaningId": "chukyu.kanji.1.6.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.6.word.1",
+          "wordJa": "落ち葉",
+          "readingJa": "おちば",
+          "meaningId": "chukyu.kanji.1.6.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.6.word.2",
+          "wordJa": "舞い落ちる",
+          "readingJa": "まいおちる",
+          "meaningId": "chukyu.kanji.1.6.word.2.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.6.word.3",
+          "wordJa": "財布を落とす",
+          "readingJa": "さいふをおとす",
+          "meaningId": "chukyu.kanji.1.6.word.3.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.6.word.0.reading",
+          "prompt": [
+            {
+              "ja": "落ち着く"
+            }
+          ],
+          "acceptedText": [
+            "おちつく"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.6.word.1.reading",
+          "prompt": [
+            {
+              "ja": "落ち葉"
+            }
+          ],
+          "acceptedText": [
+            "おちば"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.6.word.2.reading",
+          "prompt": [
+            {
+              "ja": "舞い落ちる"
+            }
+          ],
+          "acceptedText": [
+            "まいおちる"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.6.word.3.reading",
+          "prompt": [
+            {
+              "ja": "財布を落とす"
+            }
+          ],
+          "acceptedText": [
+            "さいふをおとす"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.6.meaning": {
+          "zh": "落下、使掉落；安定。",
+          "en": "To fall, to drop; to settle."
+        },
+        "chukyu.kanji.1.6.example": {
+          "zh": "听安静的音乐，心就会平静。",
+          "en": "Quiet music settles my mind."
+        },
+        "chukyu.kanji.1.6.word.0.meaning": {
+          "zh": "平静、安定",
+          "en": "to calm down"
+        },
+        "chukyu.kanji.1.6.word.1.meaning": {
+          "zh": "落叶",
+          "en": "fallen leaves"
+        },
+        "chukyu.kanji.1.6.word.2.meaning": {
+          "zh": "飘落",
+          "en": "to flutter down"
+        },
+        "chukyu.kanji.1.6.word.3.meaning": {
+          "zh": "丢钱包",
+          "en": "to drop one's wallet"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-07",
+      "bookId": "chukyu",
+      "titleJa": "漢字 007 然",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.7",
+          "titleJa": "然",
+          "paragraphIds": [
+            "chukyu.kanji.1.7.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ゼン・ネン"
+            },
+            {
+              "ja": "[自然:しぜん]の音を聞くと、心がいやされる。",
+              "translationId": "chukyu.kanji.1.7.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.7.word.0",
+          "wordJa": "自然",
+          "readingJa": "しぜん",
+          "meaningId": "chukyu.kanji.1.7.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.7.word.1",
+          "wordJa": "突然",
+          "readingJa": "とつぜん",
+          "meaningId": "chukyu.kanji.1.7.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.7.word.2",
+          "wordJa": "全然",
+          "readingJa": "ぜんぜん",
+          "meaningId": "chukyu.kanji.1.7.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.7.word.0.reading",
+          "prompt": [
+            {
+              "ja": "自然"
+            }
+          ],
+          "acceptedText": [
+            "しぜん"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.7.word.1.reading",
+          "prompt": [
+            {
+              "ja": "突然"
+            }
+          ],
+          "acceptedText": [
+            "とつぜん"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.7.word.2.reading",
+          "prompt": [
+            {
+              "ja": "全然"
+            }
+          ],
+          "acceptedText": [
+            "ぜんぜん"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.7.meaning": {
+          "zh": "……的样子（构成副词、形容动词）。",
+          "en": "State or manner, used in compounds."
+        },
+        "chukyu.kanji.1.7.example": {
+          "zh": "听自然的声音，心会得到治愈。",
+          "en": "The sounds of nature heal the heart."
+        },
+        "chukyu.kanji.1.7.word.0.meaning": {
+          "zh": "自然",
+          "en": "nature"
+        },
+        "chukyu.kanji.1.7.word.1.meaning": {
+          "zh": "突然",
+          "en": "suddenly"
+        },
+        "chukyu.kanji.1.7.word.2.meaning": {
+          "zh": "完全（不）",
+          "en": "not at all"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-08",
+      "bookId": "chukyu",
+      "titleJa": "漢字 008 波",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.8",
+          "titleJa": "波",
+          "paragraphIds": [
+            "chukyu.kanji.1.8.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ハ"
+            },
+            {
+              "ja": "訓読み：なみ"
+            },
+            {
+              "ja": "海の[波:なみ]の音は、心を落ち着かせる。",
+              "translationId": "chukyu.kanji.1.8.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.8.word.0",
+          "wordJa": "波",
+          "readingJa": "なみ",
+          "meaningId": "chukyu.kanji.1.8.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.8.word.1",
+          "wordJa": "波の音",
+          "readingJa": "なみのおと",
+          "meaningId": "chukyu.kanji.1.8.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.8.word.2",
+          "wordJa": "津波",
+          "readingJa": "つなみ",
+          "meaningId": "chukyu.kanji.1.8.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.8.word.0.reading",
+          "prompt": [
+            {
+              "ja": "波"
+            }
+          ],
+          "acceptedText": [
+            "なみ"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.8.word.1.reading",
+          "prompt": [
+            {
+              "ja": "波の音"
+            }
+          ],
+          "acceptedText": [
+            "なみのおと"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.8.word.2.reading",
+          "prompt": [
+            {
+              "ja": "津波"
+            }
+          ],
+          "acceptedText": [
+            "つなみ"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.8.meaning": {
+          "zh": "波浪。",
+          "en": "Wave."
+        },
+        "chukyu.kanji.1.8.example": {
+          "zh": "海浪的声音让人心静。",
+          "en": "The sound of waves calms the mind."
+        },
+        "chukyu.kanji.1.8.word.0.meaning": {
+          "zh": "波浪",
+          "en": "wave"
+        },
+        "chukyu.kanji.1.8.word.1.meaning": {
+          "zh": "海浪声",
+          "en": "sound of waves"
+        },
+        "chukyu.kanji.1.8.word.2.meaning": {
+          "zh": "海啸",
+          "en": "tsunami"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-09",
+      "bookId": "chukyu",
+      "titleJa": "漢字 009 鳥",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.9",
+          "titleJa": "鳥",
+          "paragraphIds": [
+            "chukyu.kanji.1.9.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：チョウ"
+            },
+            {
+              "ja": "訓読み：とり"
+            },
+            {
+              "ja": "朝、[小鳥:ことり]の声で目が覚めた。",
+              "translationId": "chukyu.kanji.1.9.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.9.word.0",
+          "wordJa": "小鳥",
+          "readingJa": "ことり",
+          "meaningId": "chukyu.kanji.1.9.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.9.word.1",
+          "wordJa": "焼き鳥",
+          "readingJa": "やきとり",
+          "meaningId": "chukyu.kanji.1.9.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.9.word.0.reading",
+          "prompt": [
+            {
+              "ja": "小鳥"
+            }
+          ],
+          "acceptedText": [
+            "ことり"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.9.word.1.reading",
+          "prompt": [
+            {
+              "ja": "焼き鳥"
+            }
+          ],
+          "acceptedText": [
+            "やきとり"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.9.meaning": {
+          "zh": "鸟。",
+          "en": "Bird."
+        },
+        "chukyu.kanji.1.9.example": {
+          "zh": "早上被小鸟的叫声叫醒。",
+          "en": "I woke up to the birds singing."
+        },
+        "chukyu.kanji.1.9.word.0.meaning": {
+          "zh": "小鸟",
+          "en": "small bird"
+        },
+        "chukyu.kanji.1.9.word.1.meaning": {
+          "zh": "烤鸡肉串",
+          "en": "grilled chicken skewers"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-10",
+      "bookId": "chukyu",
+      "titleJa": "漢字 010 鳴",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.10",
+          "titleJa": "鳴",
+          "paragraphIds": [
+            "chukyu.kanji.1.10.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：メイ"
+            },
+            {
+              "ja": "訓読み：なく・なる・ならす"
+            },
+            {
+              "ja": "小鳥がきれいな声で[鳴:な]いている。",
+              "translationId": "chukyu.kanji.1.10.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.10.word.0",
+          "wordJa": "鳴く",
+          "readingJa": "なく",
+          "meaningId": "chukyu.kanji.1.10.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.10.word.0.reading",
+          "prompt": [
+            {
+              "ja": "鳴く"
+            }
+          ],
+          "acceptedText": [
+            "なく"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.10.meaning": {
+          "zh": "（动物）叫、响。",
+          "en": "To chirp, to ring."
+        },
+        "chukyu.kanji.1.10.example": {
+          "zh": "小鸟用悦耳的声音叫着。",
+          "en": "A small bird is singing beautifully."
+        },
+        "chukyu.kanji.1.10.word.0.meaning": {
+          "zh": "（动物）叫",
+          "en": "to chirp, to cry"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-11",
+      "bookId": "chukyu",
+      "titleJa": "漢字 011 声",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.11",
+          "titleJa": "声",
+          "paragraphIds": [
+            "chukyu.kanji.1.11.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：セイ・ショウ"
+            },
+            {
+              "ja": "訓読み：こえ・こわ"
+            },
+            {
+              "ja": "彼女の[声:こえ]はとてもきれいだ。",
+              "translationId": "chukyu.kanji.1.11.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.11.word.0",
+          "wordJa": "鳴き声",
+          "readingJa": "なきごえ",
+          "meaningId": "chukyu.kanji.1.11.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.11.word.1",
+          "wordJa": "声",
+          "readingJa": "こえ",
+          "meaningId": "chukyu.kanji.1.11.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.11.word.0.reading",
+          "prompt": [
+            {
+              "ja": "鳴き声"
+            }
+          ],
+          "acceptedText": [
+            "なきごえ"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.11.word.1.reading",
+          "prompt": [
+            {
+              "ja": "声"
+            }
+          ],
+          "acceptedText": [
+            "こえ"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.11.meaning": {
+          "zh": "声音、嗓音。",
+          "en": "Voice, sound."
+        },
+        "chukyu.kanji.1.11.example": {
+          "zh": "她的声音很好听。",
+          "en": "Her voice is beautiful."
+        },
+        "chukyu.kanji.1.11.word.0.meaning": {
+          "zh": "（动物的）叫声",
+          "en": "animal cry"
+        },
+        "chukyu.kanji.1.11.word.1.meaning": {
+          "zh": "声音、嗓音",
+          "en": "voice"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-12",
+      "bookId": "chukyu",
+      "titleJa": "漢字 012 歌",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.12",
+          "titleJa": "歌",
+          "paragraphIds": [
+            "chukyu.kanji.1.12.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：カ"
+            },
+            {
+              "ja": "訓読み：うた・うたう"
+            },
+            {
+              "ja": "みんなで[歌:うた]を歌った。",
+              "translationId": "chukyu.kanji.1.12.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.12.word.0",
+          "wordJa": "歌",
+          "readingJa": "うた",
+          "meaningId": "chukyu.kanji.1.12.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.12.word.1",
+          "wordJa": "歌う",
+          "readingJa": "うたう",
+          "meaningId": "chukyu.kanji.1.12.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.12.word.2",
+          "wordJa": "歌手",
+          "readingJa": "かしゅ",
+          "meaningId": "chukyu.kanji.1.12.word.2.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.12.word.3",
+          "wordJa": "歌舞伎",
+          "readingJa": "かぶき",
+          "meaningId": "chukyu.kanji.1.12.word.3.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.12.word.0.reading",
+          "prompt": [
+            {
+              "ja": "歌"
+            }
+          ],
+          "acceptedText": [
+            "うた"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.12.word.1.reading",
+          "prompt": [
+            {
+              "ja": "歌う"
+            }
+          ],
+          "acceptedText": [
+            "うたう"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.12.word.2.reading",
+          "prompt": [
+            {
+              "ja": "歌手"
+            }
+          ],
+          "acceptedText": [
+            "かしゅ"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.12.word.3.reading",
+          "prompt": [
+            {
+              "ja": "歌舞伎"
+            }
+          ],
+          "acceptedText": [
+            "かぶき"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.12.meaning": {
+          "zh": "歌、唱歌。",
+          "en": "Song; to sing."
+        },
+        "chukyu.kanji.1.12.example": {
+          "zh": "大家一起唱了歌。",
+          "en": "We all sang a song together."
+        },
+        "chukyu.kanji.1.12.word.0.meaning": {
+          "zh": "歌",
+          "en": "song"
+        },
+        "chukyu.kanji.1.12.word.1.meaning": {
+          "zh": "唱歌",
+          "en": "to sing"
+        },
+        "chukyu.kanji.1.12.word.2.meaning": {
+          "zh": "歌手",
+          "en": "singer"
+        },
+        "chukyu.kanji.1.12.word.3.meaning": {
+          "zh": "歌舞伎",
+          "en": "kabuki"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-13",
+      "bookId": "chukyu",
+      "titleJa": "漢字 013 遊",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.13",
+          "titleJa": "遊",
+          "paragraphIds": [
+            "chukyu.kanji.1.13.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ユウ・ユ"
+            },
+            {
+              "ja": "訓読み：あそぶ"
+            },
+            {
+              "ja": "子供たちは歌に合わせて[手遊:てあそ]びをする。",
+              "translationId": "chukyu.kanji.1.13.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.13.word.0",
+          "wordJa": "手遊び",
+          "readingJa": "てあそび",
+          "meaningId": "chukyu.kanji.1.13.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.13.word.1",
+          "wordJa": "遊ぶ",
+          "readingJa": "あそぶ",
+          "meaningId": "chukyu.kanji.1.13.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.13.word.0.reading",
+          "prompt": [
+            {
+              "ja": "手遊び"
+            }
+          ],
+          "acceptedText": [
+            "てあそび"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.13.word.1.reading",
+          "prompt": [
+            {
+              "ja": "遊ぶ"
+            }
+          ],
+          "acceptedText": [
+            "あそぶ"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.13.meaning": {
+          "zh": "玩、游玩。",
+          "en": "To play."
+        },
+        "chukyu.kanji.1.13.example": {
+          "zh": "孩子们随着歌声做手指游戏。",
+          "en": "The children play hand games to the song."
+        },
+        "chukyu.kanji.1.13.word.0.meaning": {
+          "zh": "手指游戏",
+          "en": "hand game"
+        },
+        "chukyu.kanji.1.13.word.1.meaning": {
+          "zh": "玩",
+          "en": "to play"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-14",
+      "bookId": "chukyu",
+      "titleJa": "漢字 014 器",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.14",
+          "titleJa": "器",
+          "paragraphIds": [
+            "chukyu.kanji.1.14.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：キ"
+            },
+            {
+              "ja": "訓読み：うつわ"
+            },
+            {
+              "ja": "彼は[楽器:がっき]が何でも演奏できる。",
+              "translationId": "chukyu.kanji.1.14.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.14.word.0",
+          "wordJa": "楽器",
+          "readingJa": "がっき",
+          "meaningId": "chukyu.kanji.1.14.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.14.word.1",
+          "wordJa": "炊飯器",
+          "readingJa": "すいはんき",
+          "meaningId": "chukyu.kanji.1.14.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.14.word.2",
+          "wordJa": "電子機器",
+          "readingJa": "でんしきき",
+          "meaningId": "chukyu.kanji.1.14.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.14.word.0.reading",
+          "prompt": [
+            {
+              "ja": "楽器"
+            }
+          ],
+          "acceptedText": [
+            "がっき"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.14.word.1.reading",
+          "prompt": [
+            {
+              "ja": "炊飯器"
+            }
+          ],
+          "acceptedText": [
+            "すいはんき"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.14.word.2.reading",
+          "prompt": [
+            {
+              "ja": "電子機器"
+            }
+          ],
+          "acceptedText": [
+            "でんしきき"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.14.meaning": {
+          "zh": "器具、容器。",
+          "en": "Vessel, instrument."
+        },
+        "chukyu.kanji.1.14.example": {
+          "zh": "他什么乐器都会演奏。",
+          "en": "He can play any instrument."
+        },
+        "chukyu.kanji.1.14.word.0.meaning": {
+          "zh": "乐器",
+          "en": "musical instrument"
+        },
+        "chukyu.kanji.1.14.word.1.meaning": {
+          "zh": "电饭锅",
+          "en": "rice cooker"
+        },
+        "chukyu.kanji.1.14.word.2.meaning": {
+          "zh": "电子设备",
+          "en": "electronic device"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-15",
+      "bookId": "chukyu",
+      "titleJa": "漢字 015 演",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.15",
+          "titleJa": "演",
+          "paragraphIds": [
+            "chukyu.kanji.1.15.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：エン"
+            },
+            {
+              "ja": "彼女はピアノを[演奏:えんそう]する。",
+              "translationId": "chukyu.kanji.1.15.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.15.word.0",
+          "wordJa": "演奏する",
+          "readingJa": "えんそうする",
+          "meaningId": "chukyu.kanji.1.15.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.15.word.1",
+          "wordJa": "演歌",
+          "readingJa": "えんか",
+          "meaningId": "chukyu.kanji.1.15.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.15.word.0.reading",
+          "prompt": [
+            {
+              "ja": "演奏する"
+            }
+          ],
+          "acceptedText": [
+            "えんそうする"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.15.word.1.reading",
+          "prompt": [
+            {
+              "ja": "演歌"
+            }
+          ],
+          "acceptedText": [
+            "えんか"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.15.meaning": {
+          "zh": "表演、演绎。",
+          "en": "To perform."
+        },
+        "chukyu.kanji.1.15.example": {
+          "zh": "她演奏钢琴。",
+          "en": "She plays the piano."
+        },
+        "chukyu.kanji.1.15.word.0.meaning": {
+          "zh": "演奏",
+          "en": "to perform music"
+        },
+        "chukyu.kanji.1.15.word.1.meaning": {
+          "zh": "演歌",
+          "en": "enka ballad"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-16",
+      "bookId": "chukyu",
+      "titleJa": "漢字 016 奏",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.16",
+          "titleJa": "奏",
+          "paragraphIds": [
+            "chukyu.kanji.1.16.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ソウ"
+            },
+            {
+              "ja": "訓読み：かなでる"
+            },
+            {
+              "ja": "コンサートでバイオリンを[演奏:えんそう]した。",
+              "translationId": "chukyu.kanji.1.16.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.16.word.0",
+          "wordJa": "演奏",
+          "readingJa": "えんそう",
+          "meaningId": "chukyu.kanji.1.16.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.16.word.0.reading",
+          "prompt": [
+            {
+              "ja": "演奏"
+            }
+          ],
+          "acceptedText": [
+            "えんそう"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.16.meaning": {
+          "zh": "演奏（乐器）。",
+          "en": "To play an instrument."
+        },
+        "chukyu.kanji.1.16.example": {
+          "zh": "在音乐会上演奏了小提琴。",
+          "en": "I played the violin at the concert."
+        },
+        "chukyu.kanji.1.16.word.0.meaning": {
+          "zh": "演奏",
+          "en": "musical performance"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-17",
+      "bookId": "chukyu",
+      "titleJa": "漢字 017 簡",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.17",
+          "titleJa": "簡",
+          "paragraphIds": [
+            "chukyu.kanji.1.17.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：カン"
+            },
+            {
+              "ja": "この本は[簡単:かんたん]な日本語で書かれている。",
+              "translationId": "chukyu.kanji.1.17.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.17.word.0",
+          "wordJa": "簡単な",
+          "readingJa": "かんたんな",
+          "meaningId": "chukyu.kanji.1.17.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.17.word.0.reading",
+          "prompt": [
+            {
+              "ja": "簡単な"
+            }
+          ],
+          "acceptedText": [
+            "かんたんな"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.17.meaning": {
+          "zh": "简单、简略。",
+          "en": "Simple, brief."
+        },
+        "chukyu.kanji.1.17.example": {
+          "zh": "这本书用简单的日语写成。",
+          "en": "This book is written in simple Japanese."
+        },
+        "chukyu.kanji.1.17.word.0.meaning": {
+          "zh": "简单的",
+          "en": "simple"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-18",
+      "bookId": "chukyu",
+      "titleJa": "漢字 018 単",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.18",
+          "titleJa": "単",
+          "paragraphIds": [
+            "chukyu.kanji.1.18.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：タン"
+            },
+            {
+              "ja": "1時間[単位:たんい]で授業が終わる。",
+              "translationId": "chukyu.kanji.1.18.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.18.word.0",
+          "wordJa": "簡単な",
+          "readingJa": "かんたんな",
+          "meaningId": "chukyu.kanji.1.18.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.18.word.1",
+          "wordJa": "単位",
+          "readingJa": "たんい",
+          "meaningId": "chukyu.kanji.1.18.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.18.word.0.reading",
+          "prompt": [
+            {
+              "ja": "簡単な"
+            }
+          ],
+          "acceptedText": [
+            "かんたんな"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.18.word.1.reading",
+          "prompt": [
+            {
+              "ja": "単位"
+            }
+          ],
+          "acceptedText": [
+            "たんい"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.18.meaning": {
+          "zh": "单一、单位。",
+          "en": "Single, unit."
+        },
+        "chukyu.kanji.1.18.example": {
+          "zh": "课以一小时为单位结束。",
+          "en": "Classes end in one-hour units."
+        },
+        "chukyu.kanji.1.18.word.0.meaning": {
+          "zh": "简单的",
+          "en": "simple"
+        },
+        "chukyu.kanji.1.18.word.1.meaning": {
+          "zh": "单位、学分",
+          "en": "unit, credit"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-19",
+      "bookId": "chukyu",
+      "titleJa": "漢字 019 嫌",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.19",
+          "titleJa": "嫌",
+          "paragraphIds": [
+            "chukyu.kanji.1.19.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ケン・ゲン"
+            },
+            {
+              "ja": "訓読み：きらう・いや"
+            },
+            {
+              "ja": "[嫌:きら]いな音楽を聞いても、リラックスできない。",
+              "translationId": "chukyu.kanji.1.19.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.19.word.0",
+          "wordJa": "嫌いな",
+          "readingJa": "きらいな",
+          "meaningId": "chukyu.kanji.1.19.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.19.word.1",
+          "wordJa": "嫌な",
+          "readingJa": "いやな",
+          "meaningId": "chukyu.kanji.1.19.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.19.word.2",
+          "wordJa": "嫌がる",
+          "readingJa": "いやがる",
+          "meaningId": "chukyu.kanji.1.19.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.19.word.0.reading",
+          "prompt": [
+            {
+              "ja": "嫌いな"
+            }
+          ],
+          "acceptedText": [
+            "きらいな"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.19.word.1.reading",
+          "prompt": [
+            {
+              "ja": "嫌な"
+            }
+          ],
+          "acceptedText": [
+            "いやな"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.19.word.2.reading",
+          "prompt": [
+            {
+              "ja": "嫌がる"
+            }
+          ],
+          "acceptedText": [
+            "いやがる"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.19.meaning": {
+          "zh": "讨厌、不愿意。",
+          "en": "To dislike; unpleasant."
+        },
+        "chukyu.kanji.1.19.example": {
+          "zh": "听讨厌的音乐也无法放松。",
+          "en": "You cannot relax to music you dislike."
+        },
+        "chukyu.kanji.1.19.word.0.meaning": {
+          "zh": "讨厌的",
+          "en": "disliked"
+        },
+        "chukyu.kanji.1.19.word.1.meaning": {
+          "zh": "令人不快的",
+          "en": "unpleasant"
+        },
+        "chukyu.kanji.1.19.word.2.meaning": {
+          "zh": "表示厌恶",
+          "en": "to show dislike"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-20",
+      "bookId": "chukyu",
+      "titleJa": "漢字 020 葉",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.20",
+          "titleJa": "葉",
+          "paragraphIds": [
+            "chukyu.kanji.1.20.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ヨウ"
+            },
+            {
+              "ja": "訓読み：は"
+            },
+            {
+              "ja": "秋になると、木の[葉:は]が落ちる。",
+              "translationId": "chukyu.kanji.1.20.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.20.word.0",
+          "wordJa": "言葉",
+          "readingJa": "ことば",
+          "meaningId": "chukyu.kanji.1.20.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.20.word.1",
+          "wordJa": "葉",
+          "readingJa": "は",
+          "meaningId": "chukyu.kanji.1.20.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.20.word.2",
+          "wordJa": "落ち葉",
+          "readingJa": "おちば",
+          "meaningId": "chukyu.kanji.1.20.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.20.word.0.reading",
+          "prompt": [
+            {
+              "ja": "言葉"
+            }
+          ],
+          "acceptedText": [
+            "ことば"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.20.word.1.reading",
+          "prompt": [
+            {
+              "ja": "葉"
+            }
+          ],
+          "acceptedText": [
+            "は"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.20.word.2.reading",
+          "prompt": [
+            {
+              "ja": "落ち葉"
+            }
+          ],
+          "acceptedText": [
+            "おちば"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.20.meaning": {
+          "zh": "叶子；语言（言葉）。",
+          "en": "Leaf; word (in 言葉)."
+        },
+        "chukyu.kanji.1.20.example": {
+          "zh": "一到秋天，树叶就落下。",
+          "en": "In autumn the leaves fall."
+        },
+        "chukyu.kanji.1.20.word.0.meaning": {
+          "zh": "语言、词语",
+          "en": "word, language"
+        },
+        "chukyu.kanji.1.20.word.1.meaning": {
+          "zh": "叶子",
+          "en": "leaf"
+        },
+        "chukyu.kanji.1.20.word.2.meaning": {
+          "zh": "落叶",
+          "en": "fallen leaves"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-21",
+      "bookId": "chukyu",
+      "titleJa": "漢字 021 難",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.21",
+          "titleJa": "難",
+          "paragraphIds": [
+            "chukyu.kanji.1.21.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ナン"
+            },
+            {
+              "ja": "訓読み：むずかしい・かたい"
+            },
+            {
+              "ja": "漢字の読み方は[難:むずか]しい。",
+              "translationId": "chukyu.kanji.1.21.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.21.word.0",
+          "wordJa": "難しい",
+          "readingJa": "むずかしい",
+          "meaningId": "chukyu.kanji.1.21.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.21.word.1",
+          "wordJa": "避難場所",
+          "readingJa": "ひなんばしょ",
+          "meaningId": "chukyu.kanji.1.21.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.21.word.2",
+          "wordJa": "避難訓練",
+          "readingJa": "ひなんくんれん",
+          "meaningId": "chukyu.kanji.1.21.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.21.word.0.reading",
+          "prompt": [
+            {
+              "ja": "難しい"
+            }
+          ],
+          "acceptedText": [
+            "むずかしい"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.21.word.1.reading",
+          "prompt": [
+            {
+              "ja": "避難場所"
+            }
+          ],
+          "acceptedText": [
+            "ひなんばしょ"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.21.word.2.reading",
+          "prompt": [
+            {
+              "ja": "避難訓練"
+            }
+          ],
+          "acceptedText": [
+            "ひなんくんれん"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.21.meaning": {
+          "zh": "困难；灾难。",
+          "en": "Difficult; disaster."
+        },
+        "chukyu.kanji.1.21.example": {
+          "zh": "汉字的读音很难。",
+          "en": "Kanji readings are difficult."
+        },
+        "chukyu.kanji.1.21.word.0.meaning": {
+          "zh": "难的",
+          "en": "difficult"
+        },
+        "chukyu.kanji.1.21.word.1.meaning": {
+          "zh": "避难场所",
+          "en": "evacuation site"
+        },
+        "chukyu.kanji.1.21.word.2.meaning": {
+          "zh": "避难演练",
+          "en": "evacuation drill"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-22",
+      "bookId": "chukyu",
+      "titleJa": "漢字 022 士",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.22",
+          "titleJa": "士",
+          "paragraphIds": [
+            "chukyu.kanji.1.22.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：シ"
+            },
+            {
+              "ja": "彼女は[療法士:りょうほうし]として働いている。",
+              "translationId": "chukyu.kanji.1.22.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.22.word.0",
+          "wordJa": "療法士",
+          "readingJa": "りょうほうし",
+          "meaningId": "chukyu.kanji.1.22.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.22.word.1",
+          "wordJa": "保育士",
+          "readingJa": "ほいくし",
+          "meaningId": "chukyu.kanji.1.22.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.22.word.2",
+          "wordJa": "弁護士",
+          "readingJa": "べんごし",
+          "meaningId": "chukyu.kanji.1.22.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.22.word.0.reading",
+          "prompt": [
+            {
+              "ja": "療法士"
+            }
+          ],
+          "acceptedText": [
+            "りょうほうし"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.22.word.1.reading",
+          "prompt": [
+            {
+              "ja": "保育士"
+            }
+          ],
+          "acceptedText": [
+            "ほいくし"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.22.word.2.reading",
+          "prompt": [
+            {
+              "ja": "弁護士"
+            }
+          ],
+          "acceptedText": [
+            "べんごし"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.22.meaning": {
+          "zh": "（某种资格的）人士。",
+          "en": "Person with a qualification."
+        },
+        "chukyu.kanji.1.22.example": {
+          "zh": "她作为疗法师工作。",
+          "en": "She works as a therapist."
+        },
+        "chukyu.kanji.1.22.word.0.meaning": {
+          "zh": "疗法师",
+          "en": "therapist"
+        },
+        "chukyu.kanji.1.22.word.1.meaning": {
+          "zh": "保育员",
+          "en": "nursery teacher"
+        },
+        "chukyu.kanji.1.22.word.2.meaning": {
+          "zh": "律师",
+          "en": "lawyer"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-23",
+      "bookId": "chukyu",
+      "titleJa": "漢字 023 緒",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.23",
+          "titleJa": "緒",
+          "paragraphIds": [
+            "chukyu.kanji.1.23.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ショ・チョ"
+            },
+            {
+              "ja": "訓読み：お"
+            },
+            {
+              "ja": "音楽療法士と[一緒:いっしょ]に歌った。",
+              "translationId": "chukyu.kanji.1.23.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.23.word.0",
+          "wordJa": "一緒に",
+          "readingJa": "いっしょに",
+          "meaningId": "chukyu.kanji.1.23.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.23.word.0.reading",
+          "prompt": [
+            {
+              "ja": "一緒に"
+            }
+          ],
+          "acceptedText": [
+            "いっしょに"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.23.meaning": {
+          "zh": "头绪、条理（一緒）。",
+          "en": "Thread, beginning (in 一緒)."
+        },
+        "chukyu.kanji.1.23.example": {
+          "zh": "和音乐疗法师一起唱歌。",
+          "en": "I sang together with the music therapist."
+        },
+        "chukyu.kanji.1.23.word.0.meaning": {
+          "zh": "一起",
+          "en": "together"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-24",
+      "bookId": "chukyu",
+      "titleJa": "漢字 024 第",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.24",
+          "titleJa": "第",
+          "paragraphIds": [
+            "chukyu.kanji.1.24.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ダイ"
+            },
+            {
+              "ja": "[第:だい]1課の本文を読んでください。",
+              "translationId": "chukyu.kanji.1.24.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.24.word.0",
+          "wordJa": "次第に",
+          "readingJa": "しだいに",
+          "meaningId": "chukyu.kanji.1.24.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.24.word.1",
+          "wordJa": "第1課",
+          "readingJa": "だいいっか",
+          "meaningId": "chukyu.kanji.1.24.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.24.word.0.reading",
+          "prompt": [
+            {
+              "ja": "次第に"
+            }
+          ],
+          "acceptedText": [
+            "しだいに"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.24.word.1.reading",
+          "prompt": [
+            {
+              "ja": "第1課"
+            }
+          ],
+          "acceptedText": [
+            "だいいっか"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.24.meaning": {
+          "zh": "次序、第……。",
+          "en": "Ordinal prefix."
+        },
+        "chukyu.kanji.1.24.example": {
+          "zh": "请读第1课的正文。",
+          "en": "Please read the text of lesson one."
+        },
+        "chukyu.kanji.1.24.word.0.meaning": {
+          "zh": "逐渐",
+          "en": "gradually"
+        },
+        "chukyu.kanji.1.24.word.1.meaning": {
+          "zh": "第1课",
+          "en": "lesson one"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-01-25",
+      "bookId": "chukyu",
+      "titleJa": "漢字 025 現",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.1.25",
+          "titleJa": "現",
+          "paragraphIds": [
+            "chukyu.kanji.1.25.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ゲン"
+            },
+            {
+              "ja": "訓読み：あらわす・あらわれる"
+            },
+            {
+              "ja": "[現:げん]代社会では、ストレスが多い。",
+              "translationId": "chukyu.kanji.1.25.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.1.25.word.0",
+          "wordJa": "現代",
+          "readingJa": "げんだい",
+          "meaningId": "chukyu.kanji.1.25.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.25.word.1",
+          "wordJa": "現象",
+          "readingJa": "げんしょう",
+          "meaningId": "chukyu.kanji.1.25.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.25.word.2",
+          "wordJa": "現金",
+          "readingJa": "げんきん",
+          "meaningId": "chukyu.kanji.1.25.word.2.meaning"
+        },
+        {
+          "id": "chukyu.kanji.1.25.word.3",
+          "wordJa": "建築現場",
+          "readingJa": "けんちくげんば",
+          "meaningId": "chukyu.kanji.1.25.word.3.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.1.25.word.0.reading",
+          "prompt": [
+            {
+              "ja": "現代"
+            }
+          ],
+          "acceptedText": [
+            "げんだい"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.25.word.1.reading",
+          "prompt": [
+            {
+              "ja": "現象"
+            }
+          ],
+          "acceptedText": [
+            "げんしょう"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.25.word.2.reading",
+          "prompt": [
+            {
+              "ja": "現金"
+            }
+          ],
+          "acceptedText": [
+            "げんきん"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.1.25.word.3.reading",
+          "prompt": [
+            {
+              "ja": "建築現場"
+            }
+          ],
+          "acceptedText": [
+            "けんちくげんば"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.1.25.meaning": {
+          "zh": "出现、现在。",
+          "en": "To appear; present."
+        },
+        "chukyu.kanji.1.25.example": {
+          "zh": "现代社会压力很大。",
+          "en": "Modern society is full of stress."
+        },
+        "chukyu.kanji.1.25.word.0.meaning": {
+          "zh": "现代",
+          "en": "modern times"
+        },
+        "chukyu.kanji.1.25.word.1.meaning": {
+          "zh": "现象",
+          "en": "phenomenon"
+        },
+        "chukyu.kanji.1.25.word.2.meaning": {
+          "zh": "现金",
+          "en": "cash"
+        },
+        "chukyu.kanji.1.25.word.3.meaning": {
+          "zh": "建筑工地",
+          "en": "construction site"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1633 @@
+{
+  "bookId": "chukyu",
+  "group": {
+    "id": "chukyu-kanji-8",
+    "titleJa": "第8課 漢字",
+    "groupJa": "中級・漢字"
+  },
+  "units": [
+    {
+      "id": "chukyu-kanji-08-01",
+      "bookId": "chukyu",
+      "titleJa": "漢字 157 印",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.1",
+          "titleJa": "印",
+          "paragraphIds": [
+            "chukyu.kanji.8.1.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：イン"
+            },
+            {
+              "ja": "訓読み：しるし"
+            },
+            {
+              "ja": "人の第一[印象:いんしょう]は見た目で決まる。",
+              "translationId": "chukyu.kanji.8.1.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.1.word.0",
+          "wordJa": "印象",
+          "readingJa": "いんしょう",
+          "meaningId": "chukyu.kanji.8.1.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.8.1.word.1",
+          "wordJa": "矢印",
+          "readingJa": "やじるし",
+          "meaningId": "chukyu.kanji.8.1.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.1.word.0.reading",
+          "prompt": [
+            {
+              "ja": "印象"
+            }
+          ],
+          "acceptedText": [
+            "いんしょう"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.8.1.word.1.reading",
+          "prompt": [
+            {
+              "ja": "矢印"
+            }
+          ],
+          "acceptedText": [
+            "やじるし"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.1.meaning": {
+          "zh": "印、记号、印象。",
+          "en": "Mark, seal; impression."
+        },
+        "chukyu.kanji.8.1.example": {
+          "zh": "人的第一印象由外表决定。",
+          "en": "First impressions are decided by appearance."
+        },
+        "chukyu.kanji.8.1.word.0.meaning": {
+          "zh": "印象",
+          "en": "impression"
+        },
+        "chukyu.kanji.8.1.word.1.meaning": {
+          "zh": "箭头",
+          "en": "arrow"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-02",
+      "bookId": "chukyu",
+      "titleJa": "漢字 158 素",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.2",
+          "titleJa": "素",
+          "paragraphIds": [
+            "chukyu.kanji.8.2.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ソ・ス"
+            },
+            {
+              "ja": "印象を決める[要素:ようそ]は二つある。",
+              "translationId": "chukyu.kanji.8.2.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.2.word.0",
+          "wordJa": "要素",
+          "readingJa": "ようそ",
+          "meaningId": "chukyu.kanji.8.2.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.2.word.0.reading",
+          "prompt": [
+            {
+              "ja": "要素"
+            }
+          ],
+          "acceptedText": [
+            "ようそ"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.2.meaning": {
+          "zh": "元素、素。",
+          "en": "Element, plain."
+        },
+        "chukyu.kanji.8.2.example": {
+          "zh": "决定印象的要素有两个。",
+          "en": "Two elements decide an impression."
+        },
+        "chukyu.kanji.8.2.word.0.meaning": {
+          "zh": "要素",
+          "en": "element"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-03",
+      "bookId": "chukyu",
+      "titleJa": "漢字 159 容",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.3",
+          "titleJa": "容",
+          "paragraphIds": [
+            "chukyu.kanji.8.3.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ヨウ"
+            },
+            {
+              "ja": "話の[内容:ないよう]が大切だ。",
+              "translationId": "chukyu.kanji.8.3.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.3.word.0",
+          "wordJa": "内容",
+          "readingJa": "ないよう",
+          "meaningId": "chukyu.kanji.8.3.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.8.3.word.1",
+          "wordJa": "美容院",
+          "readingJa": "びよういん",
+          "meaningId": "chukyu.kanji.8.3.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.3.word.0.reading",
+          "prompt": [
+            {
+              "ja": "内容"
+            }
+          ],
+          "acceptedText": [
+            "ないよう"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.8.3.word.1.reading",
+          "prompt": [
+            {
+              "ja": "美容院"
+            }
+          ],
+          "acceptedText": [
+            "びよういん"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.3.meaning": {
+          "zh": "内容、容貌。",
+          "en": "Content; appearance."
+        },
+        "chukyu.kanji.8.3.example": {
+          "zh": "说话的内容很重要。",
+          "en": "The content of what you say matters."
+        },
+        "chukyu.kanji.8.3.word.0.meaning": {
+          "zh": "内容",
+          "en": "content"
+        },
+        "chukyu.kanji.8.3.word.1.meaning": {
+          "zh": "美发店",
+          "en": "hair salon"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-04",
+      "bookId": "chukyu",
+      "titleJa": "漢字 160 情",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.4",
+          "titleJa": "情",
+          "paragraphIds": [
+            "chukyu.kanji.8.4.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ジョウ・セイ"
+            },
+            {
+              "ja": "訓読み：なさけ"
+            },
+            {
+              "ja": "彼は[表情:ひょうじょう]が変わらない。",
+              "translationId": "chukyu.kanji.8.4.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.4.word.0",
+          "wordJa": "情報",
+          "readingJa": "じょうほう",
+          "meaningId": "chukyu.kanji.8.4.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.8.4.word.1",
+          "wordJa": "表情",
+          "readingJa": "ひょうじょう",
+          "meaningId": "chukyu.kanji.8.4.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.4.word.0.reading",
+          "prompt": [
+            {
+              "ja": "情報"
+            }
+          ],
+          "acceptedText": [
+            "じょうほう"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.8.4.word.1.reading",
+          "prompt": [
+            {
+              "ja": "表情"
+            }
+          ],
+          "acceptedText": [
+            "ひょうじょう"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.4.meaning": {
+          "zh": "情感、情况。",
+          "en": "Feeling; situation."
+        },
+        "chukyu.kanji.8.4.example": {
+          "zh": "他表情不变。",
+          "en": "His expression does not change."
+        },
+        "chukyu.kanji.8.4.word.0.meaning": {
+          "zh": "信息",
+          "en": "information"
+        },
+        "chukyu.kanji.8.4.word.1.meaning": {
+          "zh": "表情",
+          "en": "facial expression"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-05",
+      "bookId": "chukyu",
+      "titleJa": "漢字 161 報",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.5",
+          "titleJa": "報",
+          "paragraphIds": [
+            "chukyu.kanji.8.5.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ホウ"
+            },
+            {
+              "ja": "訓読み：むくいる"
+            },
+            {
+              "ja": "明日の[天気予報:てんきよほう]を見る。",
+              "translationId": "chukyu.kanji.8.5.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.5.word.0",
+          "wordJa": "情報",
+          "readingJa": "じょうほう",
+          "meaningId": "chukyu.kanji.8.5.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.8.5.word.1",
+          "wordJa": "天気予報",
+          "readingJa": "てんきよほう",
+          "meaningId": "chukyu.kanji.8.5.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.8.5.word.2",
+          "wordJa": "報告",
+          "readingJa": "ほうこく",
+          "meaningId": "chukyu.kanji.8.5.word.2.meaning"
+        },
+        {
+          "id": "chukyu.kanji.8.5.word.3",
+          "wordJa": "津波注意報",
+          "readingJa": "つなみちゅういほう",
+          "meaningId": "chukyu.kanji.8.5.word.3.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.5.word.0.reading",
+          "prompt": [
+            {
+              "ja": "情報"
+            }
+          ],
+          "acceptedText": [
+            "じょうほう"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.8.5.word.1.reading",
+          "prompt": [
+            {
+              "ja": "天気予報"
+            }
+          ],
+          "acceptedText": [
+            "てんきよほう"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.8.5.word.2.reading",
+          "prompt": [
+            {
+              "ja": "報告"
+            }
+          ],
+          "acceptedText": [
+            "ほうこく"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.8.5.word.3.reading",
+          "prompt": [
+            {
+              "ja": "津波注意報"
+            }
+          ],
+          "acceptedText": [
+            "つなみちゅういほう"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.5.meaning": {
+          "zh": "报告、报答。",
+          "en": "Report; to repay."
+        },
+        "chukyu.kanji.8.5.example": {
+          "zh": "看明天的天气预报。",
+          "en": "I check tomorrow's weather forecast."
+        },
+        "chukyu.kanji.8.5.word.0.meaning": {
+          "zh": "信息",
+          "en": "information"
+        },
+        "chukyu.kanji.8.5.word.1.meaning": {
+          "zh": "天气预报",
+          "en": "weather forecast"
+        },
+        "chukyu.kanji.8.5.word.2.meaning": {
+          "zh": "报告",
+          "en": "report"
+        },
+        "chukyu.kanji.8.5.word.3.meaning": {
+          "zh": "海啸警报",
+          "en": "tsunami advisory"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-06",
+      "bookId": "chukyu",
+      "titleJa": "漢字 162 聴",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.6",
+          "titleJa": "聴",
+          "paragraphIds": [
+            "chukyu.kanji.8.6.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：チョウ"
+            },
+            {
+              "ja": "訓読み：きく"
+            },
+            {
+              "ja": "[聴覚:ちょうかく]から入る情報も多い。",
+              "translationId": "chukyu.kanji.8.6.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.6.word.0",
+          "wordJa": "聴覚情報",
+          "readingJa": "ちょうかくじょうほう",
+          "meaningId": "chukyu.kanji.8.6.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.8.6.word.1",
+          "wordJa": "聴覚",
+          "readingJa": "ちょうかく",
+          "meaningId": "chukyu.kanji.8.6.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.6.word.0.reading",
+          "prompt": [
+            {
+              "ja": "聴覚情報"
+            }
+          ],
+          "acceptedText": [
+            "ちょうかくじょうほう"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.8.6.word.1.reading",
+          "prompt": [
+            {
+              "ja": "聴覚"
+            }
+          ],
+          "acceptedText": [
+            "ちょうかく"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.6.meaning": {
+          "zh": "听（听觉）。",
+          "en": "To listen, hearing."
+        },
+        "chukyu.kanji.8.6.example": {
+          "zh": "来自听觉的信息也很多。",
+          "en": "Much information also comes through hearing."
+        },
+        "chukyu.kanji.8.6.word.0.meaning": {
+          "zh": "听觉信息",
+          "en": "auditory information"
+        },
+        "chukyu.kanji.8.6.word.1.meaning": {
+          "zh": "听觉",
+          "en": "hearing"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-07",
+      "bookId": "chukyu",
+      "titleJa": "漢字 163 耳",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.7",
+          "titleJa": "耳",
+          "paragraphIds": [
+            "chukyu.kanji.8.7.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ジ"
+            },
+            {
+              "ja": "訓読み：みみ"
+            },
+            {
+              "ja": "[耳:みみ]から入る情報を大切にする。",
+              "translationId": "chukyu.kanji.8.7.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.7.word.0",
+          "wordJa": "耳",
+          "readingJa": "みみ",
+          "meaningId": "chukyu.kanji.8.7.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.7.word.0.reading",
+          "prompt": [
+            {
+              "ja": "耳"
+            }
+          ],
+          "acceptedText": [
+            "みみ"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.7.meaning": {
+          "zh": "耳朵。",
+          "en": "Ear."
+        },
+        "chukyu.kanji.8.7.example": {
+          "zh": "重视从耳朵进入的信息。",
+          "en": "Value what you hear."
+        },
+        "chukyu.kanji.8.7.word.0.meaning": {
+          "zh": "耳朵",
+          "en": "ear"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-08",
+      "bookId": "chukyu",
+      "titleJa": "漢字 164 装",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.8",
+          "titleJa": "装",
+          "paragraphIds": [
+            "chukyu.kanji.8.8.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ソウ・ショウ"
+            },
+            {
+              "ja": "訓読み：よそおう"
+            },
+            {
+              "ja": "[服装:ふくそう]は第一印象を左右する。",
+              "translationId": "chukyu.kanji.8.8.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.8.word.0",
+          "wordJa": "服装",
+          "readingJa": "ふくそう",
+          "meaningId": "chukyu.kanji.8.8.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.8.word.0.reading",
+          "prompt": [
+            {
+              "ja": "服装"
+            }
+          ],
+          "acceptedText": [
+            "ふくそう"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.8.meaning": {
+          "zh": "服装、装备。",
+          "en": "Attire; to equip."
+        },
+        "chukyu.kanji.8.8.example": {
+          "zh": "服装会影响第一印象。",
+          "en": "Clothing affects first impressions."
+        },
+        "chukyu.kanji.8.8.word.0.meaning": {
+          "zh": "服装",
+          "en": "clothing"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-09",
+      "bookId": "chukyu",
+      "titleJa": "漢字 165 判",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.9",
+          "titleJa": "判",
+          "paragraphIds": [
+            "chukyu.kanji.8.9.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ハン・バン"
+            },
+            {
+              "ja": "相手を[判断:はんだん]するのは難しい。",
+              "translationId": "chukyu.kanji.8.9.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.9.word.0",
+          "wordJa": "判断する",
+          "readingJa": "はんだんする",
+          "meaningId": "chukyu.kanji.8.9.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.9.word.0.reading",
+          "prompt": [
+            {
+              "ja": "判断する"
+            }
+          ],
+          "acceptedText": [
+            "はんだんする"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.9.meaning": {
+          "zh": "判断、判定。",
+          "en": "To judge."
+        },
+        "chukyu.kanji.8.9.example": {
+          "zh": "判断对方很难。",
+          "en": "Judging others is difficult."
+        },
+        "chukyu.kanji.8.9.word.0.meaning": {
+          "zh": "判断",
+          "en": "to judge"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-10",
+      "bookId": "chukyu",
+      "titleJa": "漢字 166 断",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.10",
+          "titleJa": "断",
+          "paragraphIds": [
+            "chukyu.kanji.8.10.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ダン"
+            },
+            {
+              "ja": "訓読み：たつ・ことわる"
+            },
+            {
+              "ja": "誘いを[断:ことわ]った。",
+              "translationId": "chukyu.kanji.8.10.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.10.word.0",
+          "wordJa": "判断する",
+          "readingJa": "はんだんする",
+          "meaningId": "chukyu.kanji.8.10.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.10.word.0.reading",
+          "prompt": [
+            {
+              "ja": "判断する"
+            }
+          ],
+          "acceptedText": [
+            "はんだんする"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.10.meaning": {
+          "zh": "断、拒绝。",
+          "en": "To cut off; to refuse."
+        },
+        "chukyu.kanji.8.10.example": {
+          "zh": "拒绝了邀请。",
+          "en": "I declined the invitation."
+        },
+        "chukyu.kanji.8.10.word.0.meaning": {
+          "zh": "判断",
+          "en": "to judge"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-11",
+      "bookId": "chukyu",
+      "titleJa": "漢字 167 説",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.11",
+          "titleJa": "説",
+          "paragraphIds": [
+            "chukyu.kanji.8.11.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：セツ・ゼイ"
+            },
+            {
+              "ja": "訓読み：とく"
+            },
+            {
+              "ja": "先生が文法を[説明:せつめい]する。",
+              "translationId": "chukyu.kanji.8.11.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.11.word.0",
+          "wordJa": "説",
+          "readingJa": "せつ",
+          "meaningId": "chukyu.kanji.8.11.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.8.11.word.1",
+          "wordJa": "説明する",
+          "readingJa": "せつめいする",
+          "meaningId": "chukyu.kanji.8.11.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.8.11.word.2",
+          "wordJa": "小説",
+          "readingJa": "しょうせつ",
+          "meaningId": "chukyu.kanji.8.11.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.11.word.0.reading",
+          "prompt": [
+            {
+              "ja": "説"
+            }
+          ],
+          "acceptedText": [
+            "せつ"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.8.11.word.1.reading",
+          "prompt": [
+            {
+              "ja": "説明する"
+            }
+          ],
+          "acceptedText": [
+            "せつめいする"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.8.11.word.2.reading",
+          "prompt": [
+            {
+              "ja": "小説"
+            }
+          ],
+          "acceptedText": [
+            "しょうせつ"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.11.meaning": {
+          "zh": "说明、学说。",
+          "en": "Explanation; theory."
+        },
+        "chukyu.kanji.8.11.example": {
+          "zh": "老师说明语法。",
+          "en": "The teacher explains the grammar."
+        },
+        "chukyu.kanji.8.11.word.0.meaning": {
+          "zh": "学说、说法",
+          "en": "theory"
+        },
+        "chukyu.kanji.8.11.word.1.meaning": {
+          "zh": "说明",
+          "en": "to explain"
+        },
+        "chukyu.kanji.8.11.word.2.meaning": {
+          "zh": "小说",
+          "en": "novel"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-12",
+      "bookId": "chukyu",
+      "titleJa": "漢字 168 姿",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.12",
+          "titleJa": "姿",
+          "paragraphIds": [
+            "chukyu.kanji.8.12.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：シ"
+            },
+            {
+              "ja": "訓読み：すがた"
+            },
+            {
+              "ja": "前かがみの[姿:すがた]は自信がなさそうに見える。",
+              "translationId": "chukyu.kanji.8.12.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.12.word.0",
+          "wordJa": "姿勢",
+          "readingJa": "しせい",
+          "meaningId": "chukyu.kanji.8.12.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.12.word.0.reading",
+          "prompt": [
+            {
+              "ja": "姿勢"
+            }
+          ],
+          "acceptedText": [
+            "しせい"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.12.meaning": {
+          "zh": "姿态、身影。",
+          "en": "Figure, posture."
+        },
+        "chukyu.kanji.8.12.example": {
+          "zh": "前倾的姿势看起来没有自信。",
+          "en": "A stooped posture looks unconfident."
+        },
+        "chukyu.kanji.8.12.word.0.meaning": {
+          "zh": "姿势、态度",
+          "en": "posture"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-13",
+      "bookId": "chukyu",
+      "titleJa": "漢字 169 勢",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.13",
+          "titleJa": "勢",
+          "paragraphIds": [
+            "chukyu.kanji.8.13.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：セイ"
+            },
+            {
+              "ja": "訓読み：いきおい"
+            },
+            {
+              "ja": "[姿勢:しせい]を正して話を聞く。",
+              "translationId": "chukyu.kanji.8.13.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.13.word.0",
+          "wordJa": "姿勢",
+          "readingJa": "しせい",
+          "meaningId": "chukyu.kanji.8.13.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.13.word.0.reading",
+          "prompt": [
+            {
+              "ja": "姿勢"
+            }
+          ],
+          "acceptedText": [
+            "しせい"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.13.meaning": {
+          "zh": "气势、势力。",
+          "en": "Force, momentum."
+        },
+        "chukyu.kanji.8.13.example": {
+          "zh": "端正姿势听人说话。",
+          "en": "To sit up straight and listen."
+        },
+        "chukyu.kanji.8.13.word.0.meaning": {
+          "zh": "姿势、态度",
+          "en": "posture"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-14",
+      "bookId": "chukyu",
+      "titleJa": "漢字 170 笑",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.14",
+          "titleJa": "笑",
+          "paragraphIds": [
+            "chukyu.kanji.8.14.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ショウ"
+            },
+            {
+              "ja": "訓読み：えむ・わらう"
+            },
+            {
+              "ja": "彼はいつも[笑:わら]っている。",
+              "translationId": "chukyu.kanji.8.14.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.14.word.0",
+          "wordJa": "笑顔",
+          "readingJa": "えがお",
+          "meaningId": "chukyu.kanji.8.14.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.8.14.word.1",
+          "wordJa": "笑う",
+          "readingJa": "わらう",
+          "meaningId": "chukyu.kanji.8.14.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.14.word.0.reading",
+          "prompt": [
+            {
+              "ja": "笑顔"
+            }
+          ],
+          "acceptedText": [
+            "えがお"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.8.14.word.1.reading",
+          "prompt": [
+            {
+              "ja": "笑う"
+            }
+          ],
+          "acceptedText": [
+            "わらう"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.14.meaning": {
+          "zh": "笑。",
+          "en": "To laugh, to smile."
+        },
+        "chukyu.kanji.8.14.example": {
+          "zh": "他总是笑着。",
+          "en": "He is always smiling."
+        },
+        "chukyu.kanji.8.14.word.0.meaning": {
+          "zh": "笑脸",
+          "en": "smiling face"
+        },
+        "chukyu.kanji.8.14.word.1.meaning": {
+          "zh": "笑",
+          "en": "to laugh"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-15",
+      "bookId": "chukyu",
+      "titleJa": "漢字 171 顔",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.15",
+          "titleJa": "顔",
+          "paragraphIds": [
+            "chukyu.kanji.8.15.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ガン"
+            },
+            {
+              "ja": "訓読み：かお"
+            },
+            {
+              "ja": "[笑顔:えがお]を見せると、相手に伝わる。",
+              "translationId": "chukyu.kanji.8.15.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.15.word.0",
+          "wordJa": "笑顔",
+          "readingJa": "えがお",
+          "meaningId": "chukyu.kanji.8.15.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.8.15.word.1",
+          "wordJa": "顔",
+          "readingJa": "かお",
+          "meaningId": "chukyu.kanji.8.15.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.15.word.0.reading",
+          "prompt": [
+            {
+              "ja": "笑顔"
+            }
+          ],
+          "acceptedText": [
+            "えがお"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.8.15.word.1.reading",
+          "prompt": [
+            {
+              "ja": "顔"
+            }
+          ],
+          "acceptedText": [
+            "かお"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.15.meaning": {
+          "zh": "脸。",
+          "en": "Face."
+        },
+        "chukyu.kanji.8.15.example": {
+          "zh": "露出笑容能传达给对方。",
+          "en": "Showing a smile gets through to people."
+        },
+        "chukyu.kanji.8.15.word.0.meaning": {
+          "zh": "笑脸",
+          "en": "smiling face"
+        },
+        "chukyu.kanji.8.15.word.1.meaning": {
+          "zh": "脸",
+          "en": "face"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-16",
+      "bookId": "chukyu",
+      "titleJa": "漢字 172 頼",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.16",
+          "titleJa": "頼",
+          "paragraphIds": [
+            "chukyu.kanji.8.16.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ライ"
+            },
+            {
+              "ja": "訓読み：たのむ・たのもしい・たよる"
+            },
+            {
+              "ja": "彼は[頼:たの]りになる人だ。",
+              "translationId": "chukyu.kanji.8.16.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.16.word.0",
+          "wordJa": "信頼",
+          "readingJa": "しんらい",
+          "meaningId": "chukyu.kanji.8.16.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.8.16.word.1",
+          "wordJa": "頼む",
+          "readingJa": "たのむ",
+          "meaningId": "chukyu.kanji.8.16.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.16.word.0.reading",
+          "prompt": [
+            {
+              "ja": "信頼"
+            }
+          ],
+          "acceptedText": [
+            "しんらい"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.8.16.word.1.reading",
+          "prompt": [
+            {
+              "ja": "頼む"
+            }
+          ],
+          "acceptedText": [
+            "たのむ"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.16.meaning": {
+          "zh": "依赖、请求。",
+          "en": "To rely on, to ask."
+        },
+        "chukyu.kanji.8.16.example": {
+          "zh": "他是个可靠的人。",
+          "en": "He is a reliable person."
+        },
+        "chukyu.kanji.8.16.word.0.meaning": {
+          "zh": "信赖",
+          "en": "trust"
+        },
+        "chukyu.kanji.8.16.word.1.meaning": {
+          "zh": "请求、委托",
+          "en": "to ask, to request"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-17",
+      "bookId": "chukyu",
+      "titleJa": "漢字 173 寄",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.17",
+          "titleJa": "寄",
+          "paragraphIds": [
+            "chukyu.kanji.8.17.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：キ"
+            },
+            {
+              "ja": "訓読み：よる・よせる"
+            },
+            {
+              "ja": "椅子の背に[寄:よ]りかかる。",
+              "translationId": "chukyu.kanji.8.17.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.17.word.0",
+          "wordJa": "寄りかかる",
+          "readingJa": "よりかかる",
+          "meaningId": "chukyu.kanji.8.17.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.8.17.word.1",
+          "wordJa": "お年寄り",
+          "readingJa": "おとしより",
+          "meaningId": "chukyu.kanji.8.17.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.17.word.0.reading",
+          "prompt": [
+            {
+              "ja": "寄りかかる"
+            }
+          ],
+          "acceptedText": [
+            "よりかかる"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.8.17.word.1.reading",
+          "prompt": [
+            {
+              "ja": "お年寄り"
+            }
+          ],
+          "acceptedText": [
+            "おとしより"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.17.meaning": {
+          "zh": "靠近、寄。",
+          "en": "To approach; to contribute."
+        },
+        "chukyu.kanji.8.17.example": {
+          "zh": "靠在椅背上。",
+          "en": "To lean back against the chair."
+        },
+        "chukyu.kanji.8.17.word.0.meaning": {
+          "zh": "倚靠",
+          "en": "to lean against"
+        },
+        "chukyu.kanji.8.17.word.1.meaning": {
+          "zh": "老年人",
+          "en": "elderly person"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-18",
+      "bookId": "chukyu",
+      "titleJa": "漢字 174 威",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.18",
+          "titleJa": "威",
+          "paragraphIds": [
+            "chukyu.kanji.8.18.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：イ"
+            },
+            {
+              "ja": "彼はいつも[威張:いば]っている。",
+              "translationId": "chukyu.kanji.8.18.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.18.word.0",
+          "wordJa": "威圧感",
+          "readingJa": "いあつかん",
+          "meaningId": "chukyu.kanji.8.18.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.8.18.word.1",
+          "wordJa": "威張る",
+          "readingJa": "いばる",
+          "meaningId": "chukyu.kanji.8.18.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.18.word.0.reading",
+          "prompt": [
+            {
+              "ja": "威圧感"
+            }
+          ],
+          "acceptedText": [
+            "いあつかん"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.8.18.word.1.reading",
+          "prompt": [
+            {
+              "ja": "威張る"
+            }
+          ],
+          "acceptedText": [
+            "いばる"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.18.meaning": {
+          "zh": "威严、威势。",
+          "en": "Dignity, authority."
+        },
+        "chukyu.kanji.8.18.example": {
+          "zh": "他总是摆架子。",
+          "en": "He is always acting superior."
+        },
+        "chukyu.kanji.8.18.word.0.meaning": {
+          "zh": "压迫感",
+          "en": "intimidating presence"
+        },
+        "chukyu.kanji.8.18.word.1.meaning": {
+          "zh": "逞威风",
+          "en": "to be bossy"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-19",
+      "bookId": "chukyu",
+      "titleJa": "漢字 175 圧",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.19",
+          "titleJa": "圧",
+          "paragraphIds": [
+            "chukyu.kanji.8.19.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：アツ"
+            },
+            {
+              "ja": "この店は[威圧感:いあつかん]がある。",
+              "translationId": "chukyu.kanji.8.19.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.19.word.0",
+          "wordJa": "威圧感",
+          "readingJa": "いあつかん",
+          "meaningId": "chukyu.kanji.8.19.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.19.word.0.reading",
+          "prompt": [
+            {
+              "ja": "威圧感"
+            }
+          ],
+          "acceptedText": [
+            "いあつかん"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.19.meaning": {
+          "zh": "压、压力。",
+          "en": "Pressure."
+        },
+        "chukyu.kanji.8.19.example": {
+          "zh": "这家店让人有压迫感。",
+          "en": "This shop feels intimidating."
+        },
+        "chukyu.kanji.8.19.word.0.meaning": {
+          "zh": "压迫感",
+          "en": "intimidating presence"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-08-20",
+      "bookId": "chukyu",
+      "titleJa": "漢字 176 身",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.8.20",
+          "titleJa": "身",
+          "paragraphIds": [
+            "chukyu.kanji.8.20.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：シン"
+            },
+            {
+              "ja": "訓読み：み"
+            },
+            {
+              "ja": "[身:み]につけた習慣は変えにくい。",
+              "translationId": "chukyu.kanji.8.20.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.8.20.word.0",
+          "wordJa": "中身",
+          "readingJa": "なかみ",
+          "meaningId": "chukyu.kanji.8.20.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.8.20.word.1",
+          "wordJa": "身振り",
+          "readingJa": "みぶり",
+          "meaningId": "chukyu.kanji.8.20.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.8.20.word.2",
+          "wordJa": "身につける",
+          "readingJa": "みにつける",
+          "meaningId": "chukyu.kanji.8.20.word.2.meaning"
+        },
+        {
+          "id": "chukyu.kanji.8.20.word.3",
+          "wordJa": "刺身",
+          "readingJa": "さしみ",
+          "meaningId": "chukyu.kanji.8.20.word.3.meaning"
+        },
+        {
+          "id": "chukyu.kanji.8.20.word.4",
+          "wordJa": "独身",
+          "readingJa": "どくしん",
+          "meaningId": "chukyu.kanji.8.20.word.4.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.8.20.word.0.reading",
+          "prompt": [
+            {
+              "ja": "中身"
+            }
+          ],
+          "acceptedText": [
+            "なかみ"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.8.20.word.1.reading",
+          "prompt": [
+            {
+              "ja": "身振り"
+            }
+          ],
+          "acceptedText": [
+            "みぶり"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.8.20.word.2.reading",
+          "prompt": [
+            {
+              "ja": "身につける"
+            }
+          ],
+          "acceptedText": [
+            "みにつける"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.8.20.word.3.reading",
+          "prompt": [
+            {
+              "ja": "刺身"
+            }
+          ],
+          "acceptedText": [
+            "さしみ"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.8.20.word.4.reading",
+          "prompt": [
+            {
+              "ja": "独身"
+            }
+          ],
+          "acceptedText": [
+            "どくしん"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.8.20.meaning": {
+          "zh": "身体、自身。",
+          "en": "Body, oneself."
+        },
+        "chukyu.kanji.8.20.example": {
+          "zh": "养成的习惯很难改。",
+          "en": "Habits you acquire are hard to change."
+        },
+        "chukyu.kanji.8.20.word.0.meaning": {
+          "zh": "内容、内部",
+          "en": "contents"
+        },
+        "chukyu.kanji.8.20.word.1.meaning": {
+          "zh": "手势、姿态",
+          "en": "gesture"
+        },
+        "chukyu.kanji.8.20.word.2.meaning": {
+          "zh": "掌握、随身带",
+          "en": "to acquire"
+        },
+        "chukyu.kanji.8.20.word.3.meaning": {
+          "zh": "生鱼片",
+          "en": "sashimi"
+        },
+        "chukyu.kanji.8.20.word.4.meaning": {
+          "zh": "单身",
+          "en": "single"
+        }
+      }
+    }
+  ]
+}

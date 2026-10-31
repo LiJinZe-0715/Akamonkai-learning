@@ -119,7 +119,7 @@ function ArticleView({
                     {article.examples.length > 0 && (
                         <section className="panel-block">
                             <span className="panel-label">
-                                {t("ui.grammarExamples")}
+                                {t(article.id.includes(".reading.") ? "ui.readingText" : "ui.grammarExamples")}
                                 {article.examples.length > 1 && <b>{article.examples.length}</b>}
                             </span>
                             <div className="example-list">

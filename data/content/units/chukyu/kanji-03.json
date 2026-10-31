@@ -1,0 +1,2077 @@
+{
+  "bookId": "chukyu",
+  "group": {
+    "id": "chukyu-kanji-3",
+    "titleJa": "第3課 漢字",
+    "groupJa": "中級・漢字"
+  },
+  "units": [
+    {
+      "id": "chukyu-kanji-03-01",
+      "bookId": "chukyu",
+      "titleJa": "漢字 046 面",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.1",
+          "titleJa": "面",
+          "paragraphIds": [
+            "chukyu.kanji.3.1.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：メン"
+            },
+            {
+              "ja": "訓読み：おも・おもて・つら"
+            },
+            {
+              "ja": "この町には[面白:おもしろ]い店が多い。",
+              "translationId": "chukyu.kanji.3.1.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.1.word.0",
+          "wordJa": "面白い",
+          "readingJa": "おもしろい",
+          "meaningId": "chukyu.kanji.3.1.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.1.word.1",
+          "wordJa": "大変な面",
+          "readingJa": "たいへんなめん",
+          "meaningId": "chukyu.kanji.3.1.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.1.word.2",
+          "wordJa": "二面性",
+          "readingJa": "にめんせい",
+          "meaningId": "chukyu.kanji.3.1.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.1.word.0.reading",
+          "prompt": [
+            {
+              "ja": "面白い"
+            }
+          ],
+          "acceptedText": [
+            "おもしろい"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.1.word.1.reading",
+          "prompt": [
+            {
+              "ja": "大変な面"
+            }
+          ],
+          "acceptedText": [
+            "たいへんなめん"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.1.word.2.reading",
+          "prompt": [
+            {
+              "ja": "二面性"
+            }
+          ],
+          "acceptedText": [
+            "にめんせい"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.1.meaning": {
+          "zh": "脸、方面。",
+          "en": "Face; aspect, side."
+        },
+        "chukyu.kanji.3.1.example": {
+          "zh": "这个城市有趣的店很多。",
+          "en": "This town has many interesting shops."
+        },
+        "chukyu.kanji.3.1.word.0.meaning": {
+          "zh": "有趣的",
+          "en": "interesting"
+        },
+        "chukyu.kanji.3.1.word.1.meaning": {
+          "zh": "辛苦的一面",
+          "en": "the hard side"
+        },
+        "chukyu.kanji.3.1.word.2.meaning": {
+          "zh": "两面性",
+          "en": "two-sided nature"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-02",
+      "bookId": "chukyu",
+      "titleJa": "漢字 047 否",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.2",
+          "titleJa": "否",
+          "paragraphIds": [
+            "chukyu.kanji.3.2.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ヒ"
+            },
+            {
+              "ja": "訓読み：いな"
+            },
+            {
+              "ja": "彼は[否定:ひてい]的なことを言わない。",
+              "translationId": "chukyu.kanji.3.2.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.2.word.0",
+          "wordJa": "否定的な",
+          "readingJa": "ひていてきな",
+          "meaningId": "chukyu.kanji.3.2.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.2.word.0.reading",
+          "prompt": [
+            {
+              "ja": "否定的な"
+            }
+          ],
+          "acceptedText": [
+            "ひていてきな"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.2.meaning": {
+          "zh": "否定、否。",
+          "en": "No, negation."
+        },
+        "chukyu.kanji.3.2.example": {
+          "zh": "他不说否定的话。",
+          "en": "He does not say negative things."
+        },
+        "chukyu.kanji.3.2.word.0.meaning": {
+          "zh": "否定的",
+          "en": "negative"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-03",
+      "bookId": "chukyu",
+      "titleJa": "漢字 048 定",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.3",
+          "titleJa": "定",
+          "paragraphIds": [
+            "chukyu.kanji.3.3.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：テイ・ジョウ"
+            },
+            {
+              "ja": "訓読み：さだめる・さだまる・さだか"
+            },
+            {
+              "ja": "駅前の店で[定食:ていしょく]を食べた。",
+              "translationId": "chukyu.kanji.3.3.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.3.word.0",
+          "wordJa": "否定的な",
+          "readingJa": "ひていてきな",
+          "meaningId": "chukyu.kanji.3.3.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.3.word.1",
+          "wordJa": "定食",
+          "readingJa": "ていしょく",
+          "meaningId": "chukyu.kanji.3.3.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.3.word.0.reading",
+          "prompt": [
+            {
+              "ja": "否定的な"
+            }
+          ],
+          "acceptedText": [
+            "ひていてきな"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.3.word.1.reading",
+          "prompt": [
+            {
+              "ja": "定食"
+            }
+          ],
+          "acceptedText": [
+            "ていしょく"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.3.meaning": {
+          "zh": "决定、固定。",
+          "en": "To fix, to decide."
+        },
+        "chukyu.kanji.3.3.example": {
+          "zh": "在车站前的店吃了套餐。",
+          "en": "I ate a set meal at the shop by the station."
+        },
+        "chukyu.kanji.3.3.word.0.meaning": {
+          "zh": "否定的",
+          "en": "negative"
+        },
+        "chukyu.kanji.3.3.word.1.meaning": {
+          "zh": "套餐",
+          "en": "set meal"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-04",
+      "bookId": "chukyu",
+      "titleJa": "漢字 049 雰",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.4",
+          "titleJa": "雰",
+          "paragraphIds": [
+            "chukyu.kanji.3.4.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：フン"
+            },
+            {
+              "ja": "この店は[雰囲気:ふんいき]がいい。",
+              "translationId": "chukyu.kanji.3.4.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.4.word.0",
+          "wordJa": "雰囲気",
+          "readingJa": "ふんいき",
+          "meaningId": "chukyu.kanji.3.4.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.4.word.0.reading",
+          "prompt": [
+            {
+              "ja": "雰囲気"
+            }
+          ],
+          "acceptedText": [
+            "ふんいき"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.4.meaning": {
+          "zh": "气氛（雰囲気）。",
+          "en": "Atmosphere (in 雰囲気)."
+        },
+        "chukyu.kanji.3.4.example": {
+          "zh": "这家店氛围很好。",
+          "en": "This shop has a nice atmosphere."
+        },
+        "chukyu.kanji.3.4.word.0.meaning": {
+          "zh": "气氛",
+          "en": "atmosphere"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-05",
+      "bookId": "chukyu",
+      "titleJa": "漢字 050 囲",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.5",
+          "titleJa": "囲",
+          "paragraphIds": [
+            "chukyu.kanji.3.5.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：イ"
+            },
+            {
+              "ja": "訓読み：かこむ・かこう"
+            },
+            {
+              "ja": "家族に[囲:かこ]まれて暮らす。",
+              "translationId": "chukyu.kanji.3.5.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.5.word.0",
+          "wordJa": "雰囲気",
+          "readingJa": "ふんいき",
+          "meaningId": "chukyu.kanji.3.5.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.5.word.0.reading",
+          "prompt": [
+            {
+              "ja": "雰囲気"
+            }
+          ],
+          "acceptedText": [
+            "ふんいき"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.5.meaning": {
+          "zh": "包围、围绕。",
+          "en": "To surround."
+        },
+        "chukyu.kanji.3.5.example": {
+          "zh": "被家人围绕着生活。",
+          "en": "I live surrounded by my family."
+        },
+        "chukyu.kanji.3.5.word.0.meaning": {
+          "zh": "气氛",
+          "en": "atmosphere"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-06",
+      "bookId": "chukyu",
+      "titleJa": "漢字 051 満",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.6",
+          "titleJa": "満",
+          "paragraphIds": [
+            "chukyu.kanji.3.6.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：マン"
+            },
+            {
+              "ja": "訓読み：みちる・みたす"
+            },
+            {
+              "ja": "今の生活に[満足:まんぞく]している。",
+              "translationId": "chukyu.kanji.3.6.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.6.word.0",
+          "wordJa": "満ちる",
+          "readingJa": "みちる",
+          "meaningId": "chukyu.kanji.3.6.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.6.word.1",
+          "wordJa": "満足する",
+          "readingJa": "まんぞくする",
+          "meaningId": "chukyu.kanji.3.6.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.6.word.2",
+          "wordJa": "満足度",
+          "readingJa": "まんぞくど",
+          "meaningId": "chukyu.kanji.3.6.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.6.word.0.reading",
+          "prompt": [
+            {
+              "ja": "満ちる"
+            }
+          ],
+          "acceptedText": [
+            "みちる"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.6.word.1.reading",
+          "prompt": [
+            {
+              "ja": "満足する"
+            }
+          ],
+          "acceptedText": [
+            "まんぞくする"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.6.word.2.reading",
+          "prompt": [
+            {
+              "ja": "満足度"
+            }
+          ],
+          "acceptedText": [
+            "まんぞくど"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.6.meaning": {
+          "zh": "满、满足。",
+          "en": "Full; to be satisfied."
+        },
+        "chukyu.kanji.3.6.example": {
+          "zh": "对现在的生活很满足。",
+          "en": "I am satisfied with my life."
+        },
+        "chukyu.kanji.3.6.word.0.meaning": {
+          "zh": "充满",
+          "en": "to be full"
+        },
+        "chukyu.kanji.3.6.word.1.meaning": {
+          "zh": "满足",
+          "en": "to be satisfied"
+        },
+        "chukyu.kanji.3.6.word.2.meaning": {
+          "zh": "满意度",
+          "en": "satisfaction level"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-07",
+      "bookId": "chukyu",
+      "titleJa": "漢字 052 酒",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.7",
+          "titleJa": "酒",
+          "paragraphIds": [
+            "chukyu.kanji.3.7.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：シュ"
+            },
+            {
+              "ja": "訓読み：さけ・さか"
+            },
+            {
+              "ja": "夜遅い電車は[酒:さけ]臭い。",
+              "translationId": "chukyu.kanji.3.7.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.7.word.0",
+          "wordJa": "酒",
+          "readingJa": "さけ",
+          "meaningId": "chukyu.kanji.3.7.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.7.word.1",
+          "wordJa": "日本酒",
+          "readingJa": "にほんしゅ",
+          "meaningId": "chukyu.kanji.3.7.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.7.word.0.reading",
+          "prompt": [
+            {
+              "ja": "酒"
+            }
+          ],
+          "acceptedText": [
+            "さけ"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.7.word.1.reading",
+          "prompt": [
+            {
+              "ja": "日本酒"
+            }
+          ],
+          "acceptedText": [
+            "にほんしゅ"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.7.meaning": {
+          "zh": "酒。",
+          "en": "Alcohol, sake."
+        },
+        "chukyu.kanji.3.7.example": {
+          "zh": "深夜的电车有酒味。",
+          "en": "Late-night trains smell of alcohol."
+        },
+        "chukyu.kanji.3.7.word.0.meaning": {
+          "zh": "酒",
+          "en": "alcohol"
+        },
+        "chukyu.kanji.3.7.word.1.meaning": {
+          "zh": "日本清酒",
+          "en": "sake"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-08",
+      "bookId": "chukyu",
+      "titleJa": "漢字 053 臭",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.8",
+          "titleJa": "臭",
+          "paragraphIds": [
+            "chukyu.kanji.3.8.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：シュウ"
+            },
+            {
+              "ja": "訓読み：くさい・におう"
+            },
+            {
+              "ja": "この魚は[臭:くさ]い。",
+              "translationId": "chukyu.kanji.3.8.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.8.word.0",
+          "wordJa": "臭い",
+          "readingJa": "くさい",
+          "meaningId": "chukyu.kanji.3.8.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.8.word.0.reading",
+          "prompt": [
+            {
+              "ja": "臭い"
+            }
+          ],
+          "acceptedText": [
+            "くさい"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.8.meaning": {
+          "zh": "臭、气味。",
+          "en": "Smelly; smell."
+        },
+        "chukyu.kanji.3.8.example": {
+          "zh": "这条鱼有臭味。",
+          "en": "This fish smells bad."
+        },
+        "chukyu.kanji.3.8.word.0.meaning": {
+          "zh": "臭的",
+          "en": "smelly"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-09",
+      "bookId": "chukyu",
+      "titleJa": "漢字 054 配",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.9",
+          "titleJa": "配",
+          "paragraphIds": [
+            "chukyu.kanji.3.9.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ハイ"
+            },
+            {
+              "ja": "訓読み：くばる"
+            },
+            {
+              "ja": "チラシを[配:くば]る。",
+              "translationId": "chukyu.kanji.3.9.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.9.word.0",
+          "wordJa": "配る",
+          "readingJa": "くばる",
+          "meaningId": "chukyu.kanji.3.9.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.9.word.1",
+          "wordJa": "宅配便",
+          "readingJa": "たくはいびん",
+          "meaningId": "chukyu.kanji.3.9.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.9.word.2",
+          "wordJa": "心配する",
+          "readingJa": "しんぱいする",
+          "meaningId": "chukyu.kanji.3.9.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.9.word.0.reading",
+          "prompt": [
+            {
+              "ja": "配る"
+            }
+          ],
+          "acceptedText": [
+            "くばる"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.9.word.1.reading",
+          "prompt": [
+            {
+              "ja": "宅配便"
+            }
+          ],
+          "acceptedText": [
+            "たくはいびん"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.9.word.2.reading",
+          "prompt": [
+            {
+              "ja": "心配する"
+            }
+          ],
+          "acceptedText": [
+            "しんぱいする"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.9.meaning": {
+          "zh": "分配、配送、担心。",
+          "en": "To distribute; to worry."
+        },
+        "chukyu.kanji.3.9.example": {
+          "zh": "发传单。",
+          "en": "To hand out flyers."
+        },
+        "chukyu.kanji.3.9.word.0.meaning": {
+          "zh": "分发",
+          "en": "to distribute"
+        },
+        "chukyu.kanji.3.9.word.1.meaning": {
+          "zh": "快递",
+          "en": "courier service"
+        },
+        "chukyu.kanji.3.9.word.2.meaning": {
+          "zh": "担心",
+          "en": "to worry"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-10",
+      "bookId": "chukyu",
+      "titleJa": "漢字 055 滑",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.10",
+          "titleJa": "滑",
+          "paragraphIds": [
+            "chukyu.kanji.3.10.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：カツ・コツ"
+            },
+            {
+              "ja": "訓読み：すべる・なめらか"
+            },
+            {
+              "ja": "床が濡れていて[滑:すべ]りやすい。",
+              "translationId": "chukyu.kanji.3.10.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.10.word.0",
+          "wordJa": "滑る",
+          "readingJa": "すべる",
+          "meaningId": "chukyu.kanji.3.10.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.10.word.0.reading",
+          "prompt": [
+            {
+              "ja": "滑る"
+            }
+          ],
+          "acceptedText": [
+            "すべる"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.10.meaning": {
+          "zh": "滑、光滑。",
+          "en": "To slip; smooth."
+        },
+        "chukyu.kanji.3.10.example": {
+          "zh": "地板湿了容易滑。",
+          "en": "The wet floor is slippery."
+        },
+        "chukyu.kanji.3.10.word.0.meaning": {
+          "zh": "滑",
+          "en": "to slip"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-11",
+      "bookId": "chukyu",
+      "titleJa": "漢字 056 扉",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.11",
+          "titleJa": "扉",
+          "paragraphIds": [
+            "chukyu.kanji.3.11.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ヒ"
+            },
+            {
+              "ja": "訓読み：とびら"
+            },
+            {
+              "ja": "[扉:とびら]を開けてください。",
+              "translationId": "chukyu.kanji.3.11.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.11.word.0",
+          "wordJa": "扉を開く",
+          "readingJa": "とびらをひらく",
+          "meaningId": "chukyu.kanji.3.11.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.11.word.1",
+          "wordJa": "扉",
+          "readingJa": "とびら",
+          "meaningId": "chukyu.kanji.3.11.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.11.word.0.reading",
+          "prompt": [
+            {
+              "ja": "扉を開く"
+            }
+          ],
+          "acceptedText": [
+            "とびらをひらく"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.11.word.1.reading",
+          "prompt": [
+            {
+              "ja": "扉"
+            }
+          ],
+          "acceptedText": [
+            "とびら"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.11.meaning": {
+          "zh": "门、门扇。",
+          "en": "Door, door leaf."
+        },
+        "chukyu.kanji.3.11.example": {
+          "zh": "请把门打开。",
+          "en": "Please open the door."
+        },
+        "chukyu.kanji.3.11.word.0.meaning": {
+          "zh": "开门",
+          "en": "to open the door"
+        },
+        "chukyu.kanji.3.11.word.1.meaning": {
+          "zh": "门扇",
+          "en": "door"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-12",
+      "bookId": "chukyu",
+      "titleJa": "漢字 057 繰",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.12",
+          "titleJa": "繰",
+          "paragraphIds": [
+            "chukyu.kanji.3.12.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "訓読み：く・る"
+            },
+            {
+              "ja": "同じ注意を[繰り返:くりかえ]す。",
+              "translationId": "chukyu.kanji.3.12.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.12.word.0",
+          "wordJa": "繰り返し",
+          "readingJa": "くりかえし",
+          "meaningId": "chukyu.kanji.3.12.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.12.word.0.reading",
+          "prompt": [
+            {
+              "ja": "繰り返し"
+            }
+          ],
+          "acceptedText": [
+            "くりかえし"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.12.meaning": {
+          "zh": "反复、缠绕（繰り返す）。",
+          "en": "To repeat, to reel."
+        },
+        "chukyu.kanji.3.12.example": {
+          "zh": "反复同样的提醒。",
+          "en": "The same warning is repeated."
+        },
+        "chukyu.kanji.3.12.word.0.meaning": {
+          "zh": "反复",
+          "en": "repetition"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-13",
+      "bookId": "chukyu",
+      "titleJa": "漢字 058 返",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.13",
+          "titleJa": "返",
+          "paragraphIds": [
+            "chukyu.kanji.3.13.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ヘン"
+            },
+            {
+              "ja": "訓読み：かえす・かえる"
+            },
+            {
+              "ja": "借りた本を[返:かえ]した。",
+              "translationId": "chukyu.kanji.3.13.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.13.word.0",
+          "wordJa": "繰り返し",
+          "readingJa": "くりかえし",
+          "meaningId": "chukyu.kanji.3.13.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.13.word.1",
+          "wordJa": "返す",
+          "readingJa": "かえす",
+          "meaningId": "chukyu.kanji.3.13.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.13.word.2",
+          "wordJa": "返事",
+          "readingJa": "へんじ",
+          "meaningId": "chukyu.kanji.3.13.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.13.word.0.reading",
+          "prompt": [
+            {
+              "ja": "繰り返し"
+            }
+          ],
+          "acceptedText": [
+            "くりかえし"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.13.word.1.reading",
+          "prompt": [
+            {
+              "ja": "返す"
+            }
+          ],
+          "acceptedText": [
+            "かえす"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.13.word.2.reading",
+          "prompt": [
+            {
+              "ja": "返事"
+            }
+          ],
+          "acceptedText": [
+            "へんじ"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.13.meaning": {
+          "zh": "返回、归还。",
+          "en": "To return."
+        },
+        "chukyu.kanji.3.13.example": {
+          "zh": "把借的书还了。",
+          "en": "I returned the book I borrowed."
+        },
+        "chukyu.kanji.3.13.word.0.meaning": {
+          "zh": "反复",
+          "en": "repetition"
+        },
+        "chukyu.kanji.3.13.word.1.meaning": {
+          "zh": "归还",
+          "en": "to return something"
+        },
+        "chukyu.kanji.3.13.word.2.meaning": {
+          "zh": "回信、回答",
+          "en": "reply"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-14",
+      "bookId": "chukyu",
+      "titleJa": "漢字 059 押",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.14",
+          "titleJa": "押",
+          "paragraphIds": [
+            "chukyu.kanji.3.14.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：オウ"
+            },
+            {
+              "ja": "訓読み：おす・おさえる"
+            },
+            {
+              "ja": "電車で人を[押:お]しのける。",
+              "translationId": "chukyu.kanji.3.14.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.14.word.0",
+          "wordJa": "押しのける",
+          "readingJa": "おしのける",
+          "meaningId": "chukyu.kanji.3.14.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.14.word.1",
+          "wordJa": "押す",
+          "readingJa": "おす",
+          "meaningId": "chukyu.kanji.3.14.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.14.word.0.reading",
+          "prompt": [
+            {
+              "ja": "押しのける"
+            }
+          ],
+          "acceptedText": [
+            "おしのける"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.14.word.1.reading",
+          "prompt": [
+            {
+              "ja": "押す"
+            }
+          ],
+          "acceptedText": [
+            "おす"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.14.meaning": {
+          "zh": "推、按。",
+          "en": "To push, to press."
+        },
+        "chukyu.kanji.3.14.example": {
+          "zh": "在电车里把人推开。",
+          "en": "To push people aside on the train."
+        },
+        "chukyu.kanji.3.14.word.0.meaning": {
+          "zh": "推开",
+          "en": "to push aside"
+        },
+        "chukyu.kanji.3.14.word.1.meaning": {
+          "zh": "推、按",
+          "en": "to push"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-15",
+      "bookId": "chukyu",
+      "titleJa": "漢字 060 座",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.15",
+          "titleJa": "座",
+          "paragraphIds": [
+            "chukyu.kanji.3.15.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ザ"
+            },
+            {
+              "ja": "訓読み：すわる"
+            },
+            {
+              "ja": "空いている[座席:ざせき]に座った。",
+              "translationId": "chukyu.kanji.3.15.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.15.word.0",
+          "wordJa": "座る",
+          "readingJa": "すわる",
+          "meaningId": "chukyu.kanji.3.15.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.15.word.1",
+          "wordJa": "座席",
+          "readingJa": "ざせき",
+          "meaningId": "chukyu.kanji.3.15.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.15.word.0.reading",
+          "prompt": [
+            {
+              "ja": "座る"
+            }
+          ],
+          "acceptedText": [
+            "すわる"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.15.word.1.reading",
+          "prompt": [
+            {
+              "ja": "座席"
+            }
+          ],
+          "acceptedText": [
+            "ざせき"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.15.meaning": {
+          "zh": "坐、座位。",
+          "en": "To sit; seat."
+        },
+        "chukyu.kanji.3.15.example": {
+          "zh": "坐到了空位上。",
+          "en": "I sat in an empty seat."
+        },
+        "chukyu.kanji.3.15.word.0.meaning": {
+          "zh": "坐",
+          "en": "to sit"
+        },
+        "chukyu.kanji.3.15.word.1.meaning": {
+          "zh": "座位",
+          "en": "seat"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-16",
+      "bookId": "chukyu",
+      "titleJa": "漢字 061 席",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.16",
+          "titleJa": "席",
+          "paragraphIds": [
+            "chukyu.kanji.3.16.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：セキ"
+            },
+            {
+              "ja": "会議中に[席:せき]を外した。",
+              "translationId": "chukyu.kanji.3.16.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.16.word.0",
+          "wordJa": "座席",
+          "readingJa": "ざせき",
+          "meaningId": "chukyu.kanji.3.16.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.16.word.1",
+          "wordJa": "席を外す",
+          "readingJa": "せきをはずす",
+          "meaningId": "chukyu.kanji.3.16.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.16.word.2",
+          "wordJa": "出席する",
+          "readingJa": "しゅっせきする",
+          "meaningId": "chukyu.kanji.3.16.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.16.word.0.reading",
+          "prompt": [
+            {
+              "ja": "座席"
+            }
+          ],
+          "acceptedText": [
+            "ざせき"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.16.word.1.reading",
+          "prompt": [
+            {
+              "ja": "席を外す"
+            }
+          ],
+          "acceptedText": [
+            "せきをはずす"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.16.word.2.reading",
+          "prompt": [
+            {
+              "ja": "出席する"
+            }
+          ],
+          "acceptedText": [
+            "しゅっせきする"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.16.meaning": {
+          "zh": "座位、出席。",
+          "en": "Seat; attendance."
+        },
+        "chukyu.kanji.3.16.example": {
+          "zh": "开会时离开了座位。",
+          "en": "I left my seat during the meeting."
+        },
+        "chukyu.kanji.3.16.word.0.meaning": {
+          "zh": "座位",
+          "en": "seat"
+        },
+        "chukyu.kanji.3.16.word.1.meaning": {
+          "zh": "离开座位",
+          "en": "to leave one's seat"
+        },
+        "chukyu.kanji.3.16.word.2.meaning": {
+          "zh": "出席",
+          "en": "to attend"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-17",
+      "bookId": "chukyu",
+      "titleJa": "漢字 062 失",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.17",
+          "titleJa": "失",
+          "paragraphIds": [
+            "chukyu.kanji.3.17.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：シツ"
+            },
+            {
+              "ja": "訓読み：うしなう"
+            },
+            {
+              "ja": "[失礼:しつれい]ですが、お名前は？",
+              "translationId": "chukyu.kanji.3.17.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.17.word.0",
+          "wordJa": "失礼な",
+          "readingJa": "しつれいな",
+          "meaningId": "chukyu.kanji.3.17.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.17.word.1",
+          "wordJa": "失敗する",
+          "readingJa": "しっぱいする",
+          "meaningId": "chukyu.kanji.3.17.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.17.word.0.reading",
+          "prompt": [
+            {
+              "ja": "失礼な"
+            }
+          ],
+          "acceptedText": [
+            "しつれいな"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.17.word.1.reading",
+          "prompt": [
+            {
+              "ja": "失敗する"
+            }
+          ],
+          "acceptedText": [
+            "しっぱいする"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.17.meaning": {
+          "zh": "失去、失礼。",
+          "en": "To lose; rudeness."
+        },
+        "chukyu.kanji.3.17.example": {
+          "zh": "不好意思，请问贵姓？",
+          "en": "Excuse me, may I have your name?"
+        },
+        "chukyu.kanji.3.17.word.0.meaning": {
+          "zh": "失礼的",
+          "en": "rude"
+        },
+        "chukyu.kanji.3.17.word.1.meaning": {
+          "zh": "失败",
+          "en": "to fail"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-18",
+      "bookId": "chukyu",
+      "titleJa": "漢字 063 思",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.18",
+          "titleJa": "思",
+          "paragraphIds": [
+            "chukyu.kanji.3.18.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：シ"
+            },
+            {
+              "ja": "訓読み：おもう"
+            },
+            {
+              "ja": "日本は[思:おも]っていたより静かだ。",
+              "translationId": "chukyu.kanji.3.18.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.18.word.0",
+          "wordJa": "思う",
+          "readingJa": "おもう",
+          "meaningId": "chukyu.kanji.3.18.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.18.word.1",
+          "wordJa": "思い出す",
+          "readingJa": "おもいだす",
+          "meaningId": "chukyu.kanji.3.18.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.18.word.0.reading",
+          "prompt": [
+            {
+              "ja": "思う"
+            }
+          ],
+          "acceptedText": [
+            "おもう"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.18.word.1.reading",
+          "prompt": [
+            {
+              "ja": "思い出す"
+            }
+          ],
+          "acceptedText": [
+            "おもいだす"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.18.meaning": {
+          "zh": "想、认为。",
+          "en": "To think."
+        },
+        "chukyu.kanji.3.18.example": {
+          "zh": "日本比想象中安静。",
+          "en": "Japan is quieter than I thought."
+        },
+        "chukyu.kanji.3.18.word.0.meaning": {
+          "zh": "想、认为",
+          "en": "to think"
+        },
+        "chukyu.kanji.3.18.word.1.meaning": {
+          "zh": "想起",
+          "en": "to remember"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-19",
+      "bookId": "chukyu",
+      "titleJa": "漢字 064 側",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.19",
+          "titleJa": "側",
+          "paragraphIds": [
+            "chukyu.kanji.3.19.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ソク"
+            },
+            {
+              "ja": "訓読み：がわ"
+            },
+            {
+              "ja": "地球の反対[側:がわ]から来た。",
+              "translationId": "chukyu.kanji.3.19.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.19.word.0",
+          "wordJa": "反対側",
+          "readingJa": "はんたいがわ",
+          "meaningId": "chukyu.kanji.3.19.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.19.word.1",
+          "wordJa": "右側",
+          "readingJa": "みぎがわ",
+          "meaningId": "chukyu.kanji.3.19.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.19.word.2",
+          "wordJa": "左側",
+          "readingJa": "ひだりがわ",
+          "meaningId": "chukyu.kanji.3.19.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.19.word.0.reading",
+          "prompt": [
+            {
+              "ja": "反対側"
+            }
+          ],
+          "acceptedText": [
+            "はんたいがわ"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.19.word.1.reading",
+          "prompt": [
+            {
+              "ja": "右側"
+            }
+          ],
+          "acceptedText": [
+            "みぎがわ"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.19.word.2.reading",
+          "prompt": [
+            {
+              "ja": "左側"
+            }
+          ],
+          "acceptedText": [
+            "ひだりがわ"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.19.meaning": {
+          "zh": "旁边、一侧。",
+          "en": "Side."
+        },
+        "chukyu.kanji.3.19.example": {
+          "zh": "从地球的另一边来的。",
+          "en": "I came from the other side of the earth."
+        },
+        "chukyu.kanji.3.19.word.0.meaning": {
+          "zh": "对面、另一边",
+          "en": "opposite side"
+        },
+        "chukyu.kanji.3.19.word.1.meaning": {
+          "zh": "右侧",
+          "en": "right side"
+        },
+        "chukyu.kanji.3.19.word.2.meaning": {
+          "zh": "左侧",
+          "en": "left side"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-20",
+      "bookId": "chukyu",
+      "titleJa": "漢字 065 習",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.20",
+          "titleJa": "習",
+          "paragraphIds": [
+            "chukyu.kanji.3.20.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：シュウ"
+            },
+            {
+              "ja": "訓読み：ならう"
+            },
+            {
+              "ja": "毎晩[復習:ふくしゅう]をしている。",
+              "translationId": "chukyu.kanji.3.20.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.20.word.0",
+          "wordJa": "習慣",
+          "readingJa": "しゅうかん",
+          "meaningId": "chukyu.kanji.3.20.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.20.word.1",
+          "wordJa": "学習",
+          "readingJa": "がくしゅう",
+          "meaningId": "chukyu.kanji.3.20.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.20.word.2",
+          "wordJa": "予習",
+          "readingJa": "よしゅう",
+          "meaningId": "chukyu.kanji.3.20.word.2.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.20.word.3",
+          "wordJa": "復習",
+          "readingJa": "ふくしゅう",
+          "meaningId": "chukyu.kanji.3.20.word.3.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.20.word.4",
+          "wordJa": "習う",
+          "readingJa": "ならう",
+          "meaningId": "chukyu.kanji.3.20.word.4.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.20.word.0.reading",
+          "prompt": [
+            {
+              "ja": "習慣"
+            }
+          ],
+          "acceptedText": [
+            "しゅうかん"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.20.word.1.reading",
+          "prompt": [
+            {
+              "ja": "学習"
+            }
+          ],
+          "acceptedText": [
+            "がくしゅう"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.20.word.2.reading",
+          "prompt": [
+            {
+              "ja": "予習"
+            }
+          ],
+          "acceptedText": [
+            "よしゅう"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.20.word.3.reading",
+          "prompt": [
+            {
+              "ja": "復習"
+            }
+          ],
+          "acceptedText": [
+            "ふくしゅう"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.20.word.4.reading",
+          "prompt": [
+            {
+              "ja": "習う"
+            }
+          ],
+          "acceptedText": [
+            "ならう"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.20.meaning": {
+          "zh": "学习、习惯。",
+          "en": "To learn."
+        },
+        "chukyu.kanji.3.20.example": {
+          "zh": "每天晚上复习。",
+          "en": "I review every evening."
+        },
+        "chukyu.kanji.3.20.word.0.meaning": {
+          "zh": "习惯",
+          "en": "habit"
+        },
+        "chukyu.kanji.3.20.word.1.meaning": {
+          "zh": "学习",
+          "en": "study, learning"
+        },
+        "chukyu.kanji.3.20.word.2.meaning": {
+          "zh": "预习",
+          "en": "preparation for class"
+        },
+        "chukyu.kanji.3.20.word.3.meaning": {
+          "zh": "复习",
+          "en": "review"
+        },
+        "chukyu.kanji.3.20.word.4.meaning": {
+          "zh": "学习（技能）",
+          "en": "to learn"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-21",
+      "bookId": "chukyu",
+      "titleJa": "漢字 066 慣",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.21",
+          "titleJa": "慣",
+          "paragraphIds": [
+            "chukyu.kanji.3.21.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：カン"
+            },
+            {
+              "ja": "訓読み：なれる・ならす"
+            },
+            {
+              "ja": "日本の生活に[慣:な]れた。",
+              "translationId": "chukyu.kanji.3.21.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.21.word.0",
+          "wordJa": "習慣",
+          "readingJa": "しゅうかん",
+          "meaningId": "chukyu.kanji.3.21.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.21.word.1",
+          "wordJa": "慣れる",
+          "readingJa": "なれる",
+          "meaningId": "chukyu.kanji.3.21.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.21.word.0.reading",
+          "prompt": [
+            {
+              "ja": "習慣"
+            }
+          ],
+          "acceptedText": [
+            "しゅうかん"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.21.word.1.reading",
+          "prompt": [
+            {
+              "ja": "慣れる"
+            }
+          ],
+          "acceptedText": [
+            "なれる"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.21.meaning": {
+          "zh": "习惯、适应。",
+          "en": "To get used to."
+        },
+        "chukyu.kanji.3.21.example": {
+          "zh": "习惯了日本的生活。",
+          "en": "I have got used to life in Japan."
+        },
+        "chukyu.kanji.3.21.word.0.meaning": {
+          "zh": "习惯",
+          "en": "habit"
+        },
+        "chukyu.kanji.3.21.word.1.meaning": {
+          "zh": "习惯、适应",
+          "en": "to become used to"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-22",
+      "bookId": "chukyu",
+      "titleJa": "漢字 067 違",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.22",
+          "titleJa": "違",
+          "paragraphIds": [
+            "chukyu.kanji.3.22.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：イ"
+            },
+            {
+              "ja": "訓読み：ちがう・ちがえる"
+            },
+            {
+              "ja": "文化が[違:ちが]うのは不思議ではない。",
+              "translationId": "chukyu.kanji.3.22.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.22.word.0",
+          "wordJa": "違う",
+          "readingJa": "ちがう",
+          "meaningId": "chukyu.kanji.3.22.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.22.word.1",
+          "wordJa": "違和感",
+          "readingJa": "いわかん",
+          "meaningId": "chukyu.kanji.3.22.word.1.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.22.word.2",
+          "wordJa": "駐車違反",
+          "readingJa": "ちゅうしゃいはん",
+          "meaningId": "chukyu.kanji.3.22.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.22.word.0.reading",
+          "prompt": [
+            {
+              "ja": "違う"
+            }
+          ],
+          "acceptedText": [
+            "ちがう"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.22.word.1.reading",
+          "prompt": [
+            {
+              "ja": "違和感"
+            }
+          ],
+          "acceptedText": [
+            "いわかん"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.22.word.2.reading",
+          "prompt": [
+            {
+              "ja": "駐車違反"
+            }
+          ],
+          "acceptedText": [
+            "ちゅうしゃいはん"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.22.meaning": {
+          "zh": "不同、违反。",
+          "en": "To differ; violation."
+        },
+        "chukyu.kanji.3.22.example": {
+          "zh": "文化不同并不奇怪。",
+          "en": "It is no wonder cultures differ."
+        },
+        "chukyu.kanji.3.22.word.0.meaning": {
+          "zh": "不同",
+          "en": "to differ"
+        },
+        "chukyu.kanji.3.22.word.1.meaning": {
+          "zh": "不协调感",
+          "en": "sense of discomfort"
+        },
+        "chukyu.kanji.3.22.word.2.meaning": {
+          "zh": "违章停车",
+          "en": "parking violation"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-23",
+      "bookId": "chukyu",
+      "titleJa": "漢字 068 議",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.23",
+          "titleJa": "議",
+          "paragraphIds": [
+            "chukyu.kanji.3.23.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ギ"
+            },
+            {
+              "ja": "明日は[会議:かいぎ]がある。",
+              "translationId": "chukyu.kanji.3.23.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.23.word.0",
+          "wordJa": "不思議な",
+          "readingJa": "ふしぎな",
+          "meaningId": "chukyu.kanji.3.23.word.0.meaning"
+        },
+        {
+          "id": "chukyu.kanji.3.23.word.1",
+          "wordJa": "会議",
+          "readingJa": "かいぎ",
+          "meaningId": "chukyu.kanji.3.23.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.23.word.0.reading",
+          "prompt": [
+            {
+              "ja": "不思議な"
+            }
+          ],
+          "acceptedText": [
+            "ふしぎな"
+          ]
+        },
+        {
+          "id": "chukyu.kanji.3.23.word.1.reading",
+          "prompt": [
+            {
+              "ja": "会議"
+            }
+          ],
+          "acceptedText": [
+            "かいぎ"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.23.meaning": {
+          "zh": "商议、议论。",
+          "en": "Discussion."
+        },
+        "chukyu.kanji.3.23.example": {
+          "zh": "明天有会议。",
+          "en": "There is a meeting tomorrow."
+        },
+        "chukyu.kanji.3.23.word.0.meaning": {
+          "zh": "不可思议的",
+          "en": "mysterious"
+        },
+        "chukyu.kanji.3.23.word.1.meaning": {
+          "zh": "会议",
+          "en": "meeting"
+        }
+      }
+    },
+    {
+      "id": "chukyu-kanji-03-24",
+      "bookId": "chukyu",
+      "titleJa": "漢字 069 暮",
+      "groupJa": "中級・漢字",
+      "articles": [
+        {
+          "id": "chukyu.kanji.3.24",
+          "titleJa": "暮",
+          "paragraphIds": [
+            "chukyu.kanji.3.24.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ボ"
+            },
+            {
+              "ja": "訓読み：くれる・くらす"
+            },
+            {
+              "ja": "10年ほど日本で[暮:く]らしている。",
+              "translationId": "chukyu.kanji.3.24.example"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "chukyu.kanji.3.24.word.0",
+          "wordJa": "暮らす",
+          "readingJa": "くらす",
+          "meaningId": "chukyu.kanji.3.24.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "chukyu.kanji.3.24.word.0.reading",
+          "prompt": [
+            {
+              "ja": "暮らす"
+            }
+          ],
+          "acceptedText": [
+            "くらす"
+          ]
+        }
+      ],
+      "texts": {
+        "chukyu.kanji.3.24.meaning": {
+          "zh": "生活、日暮。",
+          "en": "To live; to get dark."
+        },
+        "chukyu.kanji.3.24.example": {
+          "zh": "在日本生活了大约10年。",
+          "en": "I have lived in Japan for about ten years."
+        },
+        "chukyu.kanji.3.24.word.0.meaning": {
+          "zh": "生活",
+          "en": "to live"
+        }
+      }
+    }
+  ]
+}

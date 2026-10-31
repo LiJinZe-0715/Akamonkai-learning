@@ -6,7 +6,8 @@ import {lessonHref} from "../curriculum-routes";
 
 export function BookScreen({book}: {book: Book}) {
     const t = useUi();
-    const kanji = book.units.some(unit => unit.characters);
+    // The per-20-character hint only fits textbooks made entirely of character groups.
+    const kanji = book.units.every(unit => unit.characters);
     const focusUnitId = typeof window === "undefined" ? null : new URLSearchParams(window.location.search).get("focus");
     useEffect(() => {
         document.title = book.titleJa + "｜赤門会日本語";
