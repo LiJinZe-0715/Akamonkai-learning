@@ -3,16 +3,12 @@ import {useUi} from "../../../../presentation/StudyContext";
 import {Icon} from "../../../../presentation/components/Icon";
 import {bookHref, lessonHref} from "../curriculum-routes";
 import {viewTextId} from "../data/study-view-labels";
-import {beginnerBookIds, libraryDisplay, libraryLevels} from "../data/catalog-display";
+import {libraryDisplay, libraryLevels} from "../data/catalog-display";
 import {useDashboard} from "../hooks/use-dashboard";
 
-function BookCard({book, number}: {
-    book: Book;
-    number: number;
-}) {
+function BookCard({book}: { book: Book }) {
     const t = useUi();
     return <a className="textbook textbook-cover" href={bookHref(book.id)}>
-            <span className="book-spine" aria-hidden="true">{String(number).padStart(2, "0")}</span>
             <span className="textbook-title"><small lang="ja" translate="no">{book.subtitleJa}</small><strong lang="ja"
                                                                                                               translate="no">{book.titleJa}</strong><span>{t("ui.unitCount", {count: book.units.length})}</span></span>
             <Icon name="arrow"/>
@@ -77,13 +73,12 @@ export function CatalogScreen({catalog}: { catalog: Catalog }) {
                                                    translate="no">{book.titleJa}</button>)}
             </nav>
             {libraryLevels.map(level => {
-                const books = visible.filter(book => beginnerBookIds.includes(book.id) === (level.id === "beginner"));
+                const books = visible.filter(book => (level.bookIds as readonly string[]).includes(book.id));
                 return books.length > 0 &&
                     <section key={level.id} className="library-level" aria-labelledby={"level-" + level.id}>
                         <h3 id={"level-" + level.id}>{t(level.titleId)}</h3>
                         <div className="textbook-list">{books.map(book => <BookCard
-                            key={book.id} book={book}
-                            number={catalog.books.findIndex(b => b.id === book.id) + 1}/>)}</div>
+                            key={book.id} book={book}/>)}</div>
                     </section>;
             })}
             {!visible.length && <p className="empty-state" role="status">{t("ui.empty")}</p>}

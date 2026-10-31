@@ -16,10 +16,10 @@ export async function checkKanji({load, catalog, units}) {
         assert.equal(source.bookId, kanjiBookIds[index]);
         assert(source.units.every(unit => unit.bookId === source.bookId), "Mixed textbook content");
     }
-    assert.deepEqual(sources.map(source => source.units.length), [540, 160]);
+    assert.deepEqual(sources.map(source => source.units.length), [540, 200]);
     const numbered = bookId => kanji.filter(unit => unit.bookId === bookId).map(unit => Number(unit.id.split("-").at(-1)));
     assert.deepEqual(numbered("kanji-daily"), Array.from({length: 540}, (_, i) => i + 1));
-    assert.deepEqual(numbered("kanji-700"), Array.from({length: 160}, (_, i) => i + 301));
+    assert.deepEqual(numbered("kanji-700"), Array.from({length: 200}, (_, i) => i + 301));
     const photos = sources.flatMap(source => source.units).filter(unit => unit.source);
     assert(photos.every(unit => unit.bookId === "kanji-daily"), "Daily kanji photos must stay in their textbook");
     assert.equal(photos.length, 210);
@@ -27,7 +27,7 @@ export async function checkKanji({load, catalog, units}) {
     assert.equal(photos.flatMap(unit => unit.words).length, 474);
     assert.equal(photos.flatMap(unit => unit.questions).length, 474);
     assert.equal(kanji.filter(unit => unit.bookId === "kanji-daily" && Number(unit.id.split("-").at(-1)) >= 211).flatMap(unit => unit.words).length, 863);
-    assert.equal(kanji.filter(unit => unit.bookId === "kanji-700").flatMap(unit => unit.words).length, 449);
+    assert.equal(kanji.filter(unit => unit.bookId === "kanji-700").flatMap(unit => unit.words).length, 555);
     assert.equal(kanji.flatMap(unit => unit.questions).filter(question => question.id.startsWith("kanji.new.practice.")).length, 49);
     for (const unit of photos) {
         assert(/^kanji\/\d+\.jpg$/u.test(unit.source.image), "Invalid source photo: " + unit.id);

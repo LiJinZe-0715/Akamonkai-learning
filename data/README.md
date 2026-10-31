@@ -31,14 +31,14 @@ content/units/
     day-01-mono.json              按学习日和语法主题命名
 ```
 
-上面的文件名为代表例子，普通课程共有 123 个源文件。加上两本汉字教材文件中的 700 个单字单元与 `content/reference/verbs.json` 中的独立参考资料，目录合计 824 个单元。
+上面的文件名为代表例子，普通课程共有 123 个源文件。加上两本汉字教材文件中的 700 个单字单元与 `content/reference/verbs.json` 中的独立参考资料，目录合计 882 个单元。
 
 ## 汉字内容
 
-两本书各自维护一个汉字正文源文件：`content/kanji-daily.json` 与 `content/kanji-700.json`，格式为 `{schemaVersion: 1, bookId, units: [...]}`。文件的 `bookId` 必须与文件名一致，内部单元只能属于该书，不能混入另一套教材的内容。每个单元只对应一个汉字，`articles` 只有该字的一篇文章，`words` 与 `questions` 归属于该字，词条和 `texts` 直接存入单元。目录显示 `漢字 001 一`，按编号逐字导航，不再按 20 或 30 字分组。
+两本书各自维护一个汉字正文源文件：`content/kanji-daily.json` 与 `content/kanji-700.json`，格式为 `{schemaVersion: 1, bookId, units: [...]}`。文件的 `bookId` 必须与文件名一致，内部单元只能属于该书，不能混入另一套教材的内容。每个单元只对应一个汉字，`articles` 只有该字的一篇文章，`words` 与 `questions` 归属于该字，词条和 `texts` 直接存入单元。目录显示 `漢字 001 一`，按编号逐字导航；阅读时每 20 字合成一课（`第N課`），与教材的课次一致。
 
 - `kanji-daily`：`kanji-intermediate-1` 至 `kanji-intermediate-540`，连续收录 001–540。
-- `kanji-700`：`kanji-new-301` 至 `kanji-new-460`，已收录 301–460，共 160 字。
+- `kanji-700`：`kanji-new-301` 至 `kanji-new-500`，已收录 301–500，共 200 字；461–500 依据 `kanji700/` 的 8 张照片录入（第9・10課，p78–p87）。
 - 新增 001–210 根据 `kanji/` 中 68 张照片录入，`source` 保留图片路径、教材页码、编号及笔画数，仅用于维护，编译时剔除。
 - 原有词汇、文章、题目和共享进度 ID 保留；综合题按考查的目标字归入对应单字单元，不丢弃题目。
 - 词汇保留教材的原始词形，包括「ます」形；同形不同读音或含义保留独立词条。例句用 `[漢字:かな]` 标注读音。

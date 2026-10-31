@@ -352,13 +352,21 @@ for (const locale of ['zh', 'en']) {
 }
 for (const [locale, html] of [['zh', zhIndex], ['en', enIndex]]) {
     const groups = [...html.matchAll(/<section class="library-level" aria-labelledby="level-([^"]+)">([\s\S]*?)<\/section>/g)];
-    assert.deepEqual(groups.map(match => match[1]), ['beginner', 'intermediate']);
+    assert.deepEqual(groups.map(match => match[1]), ['beginner', 'jlpt-grammar', 'intermediate']);
     assert(groups[0][2].includes(ui['ui.levelBeginner'][locale]));
-    assert(groups[1][2].includes(ui['ui.levelIntermediate'][locale]));
+    assert(groups[1][2].includes(ui['ui.levelJlptGrammar'][locale]));
+    assert(groups[2][2].includes(ui['ui.levelIntermediate'][locale]));
+    const levelBookIds = [
+        ['minna', 'katakana-practice', 'kanji-daily', 'topic'],
+        ['n2'],
+        ['chukyu', 'kanji-700', 'try-n2', 'soumatome-n2-vocab'],
+    ];
     for (const book of catalog.books) {
-        const groupIndex = ['minna', 'katakana-practice', 'kanji-daily', 'topic'].includes(book.id) ? 0 : 1;
-        assert(groups[groupIndex][2].includes(book.titleJa), 'Book in wrong level: ' + book.id);
-        assert(!groups[1 - groupIndex][2].includes(book.titleJa), 'Book duplicated across levels: ' + book.id);
+        const groupIndex = levelBookIds.findIndex(ids => ids.includes(book.id));
+        assert(groupIndex >= 0, 'Book has no level: ' + book.id);
+        assert(groups[groupIndex][2].includes('href="./?book=' + book.id + '"'), 'Book in wrong level: ' + book.id);
+        levelBookIds.forEach((_, other) => other !== groupIndex
+            && assert(!groups[other][2].includes('href="./?book=' + book.id + '"'), 'Book duplicated across levels: ' + book.id));
     }
 }
 const links = html => [...html.matchAll(/href="(\?unit=[^"]+)"/g)].map(m => m[1].replaceAll('&amp;', '&'));
@@ -367,7 +375,7 @@ const expected = studyCatalog.books.flatMap(b => b.units.flatMap(u => u.characte
     ? u.views.map(view => '?unit=' + u.id + '&view=' + view) : ['?unit=' + u.id]));
 assert.deepEqual(links(zhIndex), [], 'The outer library must not expose inline lesson or group links');
 const bookLinks = html => [...html.matchAll(/class="textbook textbook-cover" href="([^"]+)"/g)].map(match => match[1]);
-assert.deepEqual(bookLinks(zhIndex), studyCatalog.books.map(book => './?book=' + book.id));
+assert.deepEqual([...bookLinks(zhIndex)].sort(), studyCatalog.books.map(book => './?book=' + book.id).sort());
 assert.deepEqual(bookLinks(zhIndex), bookLinks(enIndex));
 assert(!zhIndex.includes('<details') && !zhIndex.includes('class="unit-list"'), 'Book entries must navigate rather than expand');
 const {LessonScreen} = load('src/presentation/screens/LessonScreen.tsx');

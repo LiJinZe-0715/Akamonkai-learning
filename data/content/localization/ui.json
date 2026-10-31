@@ -1,7 +1,7 @@
 {
   "ui.kanjiIndexHint": {
-    "zh": "按教材顺序每 60 字一组。汉字、发音、词汇和例句一起学习，测试单独进行。",
-    "en": "Study in textbook order, 60 characters per group. Character forms, pronunciation, vocabulary and examples stay together, with a separate test."
+    "zh": "按教材顺序每 20 字一课。汉字、发音、词汇和例句一起学习，测试单独进行。",
+    "en": "Study in textbook order, 20 characters per lesson. Character forms, pronunciation, vocabulary and examples stay together, with a separate test."
   },
   "ui.kanjiCharacterCount": {
     "zh": "{count} 字",
@@ -102,6 +102,10 @@
   "ui.levelIntermediate": {
     "zh": "新中级（N2）",
     "en": "New Intermediate (N2)"
+  },
+  "ui.levelJlptGrammar": {
+    "zh": "JLPT文法总结",
+    "en": "JLPT Grammar Summary"
   },
   "ui.records": {
     "zh": "记录",

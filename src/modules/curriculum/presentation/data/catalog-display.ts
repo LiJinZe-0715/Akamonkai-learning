@@ -4,8 +4,8 @@ export const libraryDisplay = {
     libraryKicker: "LIBRARY",
     recordsKicker: "YOUR LEARNING"
 } as const;
-export const beginnerBookIds: readonly string[] = ["minna", "katakana-practice", "kanji-daily", "topic"];
 export const libraryLevels = [
-    {id: "beginner", titleId: "ui.levelBeginner"},
-    {id: "intermediate", titleId: "ui.levelIntermediate"},
+    {id: "beginner", titleId: "ui.levelBeginner", bookIds: ["minna", "katakana-practice", "kanji-daily", "topic"]},
+    {id: "jlpt-grammar", titleId: "ui.levelJlptGrammar", bookIds: ["n2"]},
+    {id: "intermediate", titleId: "ui.levelIntermediate", bookIds: ["chukyu", "kanji-700", "try-n2", "soumatome-n2-vocab"]},
 ] as const;

@@ -69,7 +69,7 @@ for (const unit of units.filter(unit => unit.id.startsWith('kanji-new-'))) {
         examples++;
     }
 }
-assert.equal(examples, 160);
+assert.equal(examples, 200);
 const dailyKanji = units.filter(unit => unit.bookId === 'kanji-daily' && Number(unit.id.split('-').at(-1)) >= 277 && Number(unit.id.split('-').at(-1)) <= 360)
     .sort((a, b) => Number(a.id.split('-').at(-1)) - Number(b.id.split('-').at(-1)));
 assert.equal(dailyKanji.flatMap(unit => unit.words).length, 215);

@@ -48,6 +48,7 @@ export const requiredUiTextIds = [
     "ui.nextLesson",
     "ui.levelBeginner",
     "ui.levelIntermediate",
+    "ui.levelJlptGrammar",
     "ui.loading",
     "ui.localOnly",
     "ui.mainNavigation",

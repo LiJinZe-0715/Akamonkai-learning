@@ -21,7 +21,7 @@ export async function checkKanjiGroups({load, catalog, units, ui, render}) {
     assert.deepEqual(await service.catalog(), grouped);
     const sessions = createStudyServices(ui).session;
     const assessment = createStudyServices(ui).assessment;
-    for (const [bookId, sizes] of [["kanji-daily", Array(9).fill(60)], ["kanji-700", [60, 60, 40]]]) {
+    for (const [bookId, sizes] of [["kanji-daily", Array(27).fill(20)], ["kanji-700", Array(10).fill(20)]]) {
         const book = grouped.books.find(book => book.id === bookId);
         const original = catalog.books.find(book => book.id === bookId);
         assert.deepEqual(book.units.map(unit => unit.characters.length), sizes);
@@ -91,10 +91,10 @@ export async function checkKanjiGroups({load, catalog, units, ui, render}) {
     }
     assert.equal(reads["/content/kanji-daily.json"], 1);
     assert.equal(reads["/content/kanji-700.json"], 1);
-    await assert.rejects(service.lesson("kanji-daily-group-10", "kanji"), /Unavailable/);
-    assert.throws(() => service.resolve(grouped, "kanji-new-461", "kanji"), /Unavailable/);
-    assert.equal(service.destination(grouped, "kanji-new-461", "kanji"), undefined);
+    await assert.rejects(service.lesson("kanji-daily-group-28", "kanji"), /Unavailable/);
+    assert.throws(() => service.resolve(grouped, "kanji-new-501", "kanji"), /Unavailable/);
+    assert.equal(service.destination(grouped, "kanji-new-501", "kanji"), undefined);
     assert.equal(service.destination(grouped, "kanji-intermediate-1", "grammar-test"), undefined);
     assert.equal(catalog.books.find(book => book.id === "kanji-daily").units.length, 540, "Grouping must not mutate source metadata");
-    console.log(JSON.stringify({kanjiGroups: 12, charactersPerGroup: "60; final group 40", groupedStudyAndTests: "passed", legacyRoutesAndTextbookIsolation: "passed"}));
+    console.log(JSON.stringify({kanjiGroups: 37, charactersPerGroup: "20", groupedStudyAndTests: "passed", legacyRoutesAndTextbookIsolation: "passed"}));
 }

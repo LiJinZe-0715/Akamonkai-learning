@@ -340,19 +340,6 @@
     background: var(--surface-2);
 }
 
-.book-spine {
-    font-family: var(--font-mono);
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    color: var(--ink-3);
-    font-variant-numeric: tabular-nums;
-}
-
-.textbook:hover .book-spine {
-    color: var(--accent);
-}
-
 .textbook-title {
     display: grid;
     gap: 3px;

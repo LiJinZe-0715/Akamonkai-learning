@@ -17251,6 +17251,3837 @@
           "en": "角 (かど). Please turn right at the next corner."
         }
       }
+    },
+    {
+      "id": "kanji-new-461",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 461 符",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.461",
+          "titleJa": "符",
+          "paragraphIds": [
+            "kanji.new.461.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：フ"
+            },
+            {
+              "ja": "駅の窓口で[切符:きっぷ]を買って、電車に乗った。",
+              "translationId": "kanji.new.461.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.461.word.0",
+          "wordJa": "切符",
+          "readingJa": "きっぷ",
+          "meaningId": "kanji.new.461.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.461.word.1",
+          "wordJa": "符号",
+          "readingJa": "ふごう",
+          "meaningId": "kanji.new.461.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.461.word.0.reading",
+          "prompt": [
+            {
+              "ja": "切符"
+            }
+          ],
+          "acceptedText": [
+            "きっぷ"
+          ]
+        },
+        {
+          "id": "kanji.new.461.word.1.reading",
+          "prompt": [
+            {
+              "ja": "符号"
+            }
+          ],
+          "acceptedText": [
+            "ふごう"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.461.meaning": {
+          "zh": "符号；票",
+          "en": "sign, mark"
+        },
+        "kanji.new.461.supplement.example.translation": {
+          "zh": "在车站窗口买了车票，然后坐电车。",
+          "en": "I bought a ticket at the station counter and got on the train."
+        },
+        "kanji.new.461.word.0.meaning": {
+          "zh": "车票",
+          "en": "ticket"
+        },
+        "kanji.new.461.word.1.meaning": {
+          "zh": "符号；标记",
+          "en": "sign, mark"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-462",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 462 券",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.462",
+          "titleJa": "券",
+          "paragraphIds": [
+            "kanji.new.462.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ケン"
+            },
+            {
+              "ja": "通学には[定期券:ていきけん]を使っている。",
+              "translationId": "kanji.new.462.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.462.word.0",
+          "wordJa": "券",
+          "readingJa": "けん",
+          "meaningId": "kanji.new.462.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.462.word.1",
+          "wordJa": "定期券",
+          "readingJa": "ていきけん",
+          "meaningId": "kanji.new.462.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.462.word.0.reading",
+          "prompt": [
+            {
+              "ja": "券"
+            }
+          ],
+          "acceptedText": [
+            "けん"
+          ]
+        },
+        {
+          "id": "kanji.new.462.word.1.reading",
+          "prompt": [
+            {
+              "ja": "定期券"
+            }
+          ],
+          "acceptedText": [
+            "ていきけん"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.462.meaning": {
+          "zh": "票；券",
+          "en": "ticket, coupon"
+        },
+        "kanji.new.462.supplement.example.translation": {
+          "zh": "上学使用月票。",
+          "en": "I use a commuter pass to get to school."
+        },
+        "kanji.new.462.word.0.meaning": {
+          "zh": "票；券",
+          "en": "ticket, coupon"
+        },
+        "kanji.new.462.word.1.meaning": {
+          "zh": "月票；定期票",
+          "en": "commuter pass"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-463",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 463 枚",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.463",
+          "titleJa": "枚",
+          "paragraphIds": [
+            "kanji.new.463.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：マイ"
+            },
+            {
+              "ja": "コピーの[枚数:まいすう]を確かめてからボタンを押してください。",
+              "translationId": "kanji.new.463.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.463.word.0",
+          "wordJa": "〜枚",
+          "readingJa": "まい",
+          "meaningId": "kanji.new.463.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.463.word.1",
+          "wordJa": "枚数",
+          "readingJa": "まいすう",
+          "meaningId": "kanji.new.463.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.463.word.0.reading",
+          "prompt": [
+            {
+              "ja": "〜枚"
+            }
+          ],
+          "acceptedText": [
+            "まい"
+          ]
+        },
+        {
+          "id": "kanji.new.463.word.1.reading",
+          "prompt": [
+            {
+              "ja": "枚数"
+            }
+          ],
+          "acceptedText": [
+            "まいすう"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.463.meaning": {
+          "zh": "张（薄物计数）",
+          "en": "counter for flat things"
+        },
+        "kanji.new.463.supplement.example.translation": {
+          "zh": "请确认复印的张数后再按按钮。",
+          "en": "Check the number of copies before pressing the button."
+        },
+        "kanji.new.463.word.0.meaning": {
+          "zh": "～张（薄物计数）",
+          "en": "counter for flat things"
+        },
+        "kanji.new.463.word.1.meaning": {
+          "zh": "张数",
+          "en": "the number of sheets"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-464",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 464 札",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.464",
+          "titleJa": "札",
+          "paragraphIds": [
+            "kanji.new.464.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：サツ"
+            },
+            {
+              "ja": "財布には[千円札:せんえんさつ]が二枚しか残っていない。",
+              "translationId": "kanji.new.464.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.464.word.0",
+          "wordJa": "千円札",
+          "readingJa": "せんえんさつ",
+          "meaningId": "kanji.new.464.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.464.word.0.reading",
+          "prompt": [
+            {
+              "ja": "千円札"
+            }
+          ],
+          "acceptedText": [
+            "せんえんさつ"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.464.meaning": {
+          "zh": "纸币；牌子",
+          "en": "tag, bill"
+        },
+        "kanji.new.464.supplement.example.translation": {
+          "zh": "钱包里只剩两张一千日元纸币。",
+          "en": "Only two thousand-yen bills are left in my wallet."
+        },
+        "kanji.new.464.word.0.meaning": {
+          "zh": "一千日元纸币",
+          "en": "a thousand-yen bill"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-465",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 465 改",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.465",
+          "titleJa": "改",
+          "paragraphIds": [
+            "kanji.new.465.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：カイ"
+            },
+            {
+              "ja": "訓読み：あらためる"
+            },
+            {
+              "ja": "友だちは[改札口:かいさつぐち]の前で待っている。",
+              "translationId": "kanji.new.465.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.465.word.0",
+          "wordJa": "改札口",
+          "readingJa": "かいさつぐち",
+          "meaningId": "kanji.new.465.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.465.word.1",
+          "wordJa": "改正する",
+          "readingJa": "かいせいする",
+          "meaningId": "kanji.new.465.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.465.word.2",
+          "wordJa": "改める",
+          "readingJa": "あらためる",
+          "meaningId": "kanji.new.465.word.2.meaning"
+        },
+        {
+          "id": "kanji.new.465.word.3",
+          "wordJa": "改めて",
+          "readingJa": "あらためて",
+          "meaningId": "kanji.new.465.word.3.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.465.word.0.reading",
+          "prompt": [
+            {
+              "ja": "改札口"
+            }
+          ],
+          "acceptedText": [
+            "かいさつぐち"
+          ]
+        },
+        {
+          "id": "kanji.new.465.word.1.reading",
+          "prompt": [
+            {
+              "ja": "改正する"
+            }
+          ],
+          "acceptedText": [
+            "かいせいする"
+          ]
+        },
+        {
+          "id": "kanji.new.465.word.2.reading",
+          "prompt": [
+            {
+              "ja": "改める"
+            }
+          ],
+          "acceptedText": [
+            "あらためる"
+          ]
+        },
+        {
+          "id": "kanji.new.465.word.3.reading",
+          "prompt": [
+            {
+              "ja": "改めて"
+            }
+          ],
+          "acceptedText": [
+            "あらためて"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.465.meaning": {
+          "zh": "改；改革",
+          "en": "reform, examine"
+        },
+        "kanji.new.465.supplement.example.translation": {
+          "zh": "朋友在检票口前等着。",
+          "en": "My friend is waiting in front of the ticket gate."
+        },
+        "kanji.new.465.word.0.meaning": {
+          "zh": "检票口",
+          "en": "a ticket gate"
+        },
+        "kanji.new.465.word.1.meaning": {
+          "zh": "修改；更正",
+          "en": "to revise"
+        },
+        "kanji.new.465.word.2.meaning": {
+          "zh": "改变；改正",
+          "en": "to renew, to change"
+        },
+        "kanji.new.465.word.3.meaning": {
+          "zh": "重新；改日",
+          "en": "some other time"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-466",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 466 算",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.466",
+          "titleJa": "算",
+          "paragraphIds": [
+            "kanji.new.466.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：サン"
+            },
+            {
+              "ja": "旅行の費用を[計算:けいさん]してみた。",
+              "translationId": "kanji.new.466.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.466.word.0",
+          "wordJa": "計算する",
+          "readingJa": "けいさんする",
+          "meaningId": "kanji.new.466.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.466.word.1",
+          "wordJa": "予算",
+          "readingJa": "よさん",
+          "meaningId": "kanji.new.466.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.466.word.0.reading",
+          "prompt": [
+            {
+              "ja": "計算する"
+            }
+          ],
+          "acceptedText": [
+            "けいさんする"
+          ]
+        },
+        {
+          "id": "kanji.new.466.word.1.reading",
+          "prompt": [
+            {
+              "ja": "予算"
+            }
+          ],
+          "acceptedText": [
+            "よさん"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.466.meaning": {
+          "zh": "计算",
+          "en": "calculate"
+        },
+        "kanji.new.466.supplement.example.translation": {
+          "zh": "算了一下旅行的费用。",
+          "en": "I calculated the cost of the trip."
+        },
+        "kanji.new.466.word.0.meaning": {
+          "zh": "计算",
+          "en": "to calculate"
+        },
+        "kanji.new.466.word.1.meaning": {
+          "zh": "预算",
+          "en": "a budget"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-467",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 467 精",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.467",
+          "titleJa": "精",
+          "paragraphIds": [
+            "kanji.new.467.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：セイ"
+            },
+            {
+              "ja": "降りる駅で運賃を[精算:せいさん]した。",
+              "translationId": "kanji.new.467.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.467.word.0",
+          "wordJa": "精算",
+          "readingJa": "せいさん",
+          "meaningId": "kanji.new.467.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.467.word.1",
+          "wordJa": "精神",
+          "readingJa": "せいしん",
+          "meaningId": "kanji.new.467.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.467.word.0.reading",
+          "prompt": [
+            {
+              "ja": "精算"
+            }
+          ],
+          "acceptedText": [
+            "せいさん"
+          ]
+        },
+        {
+          "id": "kanji.new.467.word.1.reading",
+          "prompt": [
+            {
+              "ja": "精神"
+            }
+          ],
+          "acceptedText": [
+            "せいしん"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.467.meaning": {
+          "zh": "精；精神",
+          "en": "spirit"
+        },
+        "kanji.new.467.supplement.example.translation": {
+          "zh": "在下车的车站结算了车费。",
+          "en": "I settled the fare at the station where I got off."
+        },
+        "kanji.new.467.word.0.meaning": {
+          "zh": "结算；核算",
+          "en": "adjustment"
+        },
+        "kanji.new.467.word.1.meaning": {
+          "zh": "精神",
+          "en": "spirit"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-468",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 468 面",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.468",
+          "titleJa": "面",
+          "paragraphIds": [
+            "kanji.new.468.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：メン"
+            },
+            {
+              "ja": "彼はいつも[真面目:まじめ]に働いている。",
+              "translationId": "kanji.new.468.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.468.word.0",
+          "wordJa": "表面",
+          "readingJa": "ひょうめん",
+          "meaningId": "kanji.new.468.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.468.word.1",
+          "wordJa": "場面",
+          "readingJa": "ばめん",
+          "meaningId": "kanji.new.468.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.468.word.2",
+          "wordJa": "真面目な",
+          "readingJa": "まじめな",
+          "meaningId": "kanji.new.468.word.2.meaning"
+        },
+        {
+          "id": "kanji.new.468.word.3",
+          "wordJa": "方面",
+          "readingJa": "ほうめん",
+          "meaningId": "kanji.new.468.word.3.meaning"
+        },
+        {
+          "id": "kanji.new.468.word.4",
+          "wordJa": "正面",
+          "readingJa": "しょうめん",
+          "meaningId": "kanji.new.468.word.4.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.468.word.0.reading",
+          "prompt": [
+            {
+              "ja": "表面"
+            }
+          ],
+          "acceptedText": [
+            "ひょうめん"
+          ]
+        },
+        {
+          "id": "kanji.new.468.word.1.reading",
+          "prompt": [
+            {
+              "ja": "場面"
+            }
+          ],
+          "acceptedText": [
+            "ばめん"
+          ]
+        },
+        {
+          "id": "kanji.new.468.word.2.reading",
+          "prompt": [
+            {
+              "ja": "真面目な"
+            }
+          ],
+          "acceptedText": [
+            "まじめな"
+          ]
+        },
+        {
+          "id": "kanji.new.468.word.3.reading",
+          "prompt": [
+            {
+              "ja": "方面"
+            }
+          ],
+          "acceptedText": [
+            "ほうめん"
+          ]
+        },
+        {
+          "id": "kanji.new.468.word.4.reading",
+          "prompt": [
+            {
+              "ja": "正面"
+            }
+          ],
+          "acceptedText": [
+            "しょうめん"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.468.meaning": {
+          "zh": "面；表面",
+          "en": "face, direction"
+        },
+        "kanji.new.468.supplement.example.translation": {
+          "zh": "他总是认真工作。",
+          "en": "He always works seriously."
+        },
+        "kanji.new.468.word.0.meaning": {
+          "zh": "表面",
+          "en": "a surface"
+        },
+        "kanji.new.468.word.1.meaning": {
+          "zh": "场面",
+          "en": "a scene"
+        },
+        "kanji.new.468.word.2.meaning": {
+          "zh": "认真；踏实",
+          "en": "serious, earnest"
+        },
+        "kanji.new.468.word.3.meaning": {
+          "zh": "方面",
+          "en": "a direction"
+        },
+        "kanji.new.468.word.4.meaning": {
+          "zh": "正面",
+          "en": "the front"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-469",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 469 停",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.469",
+          "titleJa": "停",
+          "paragraphIds": [
+            "kanji.new.469.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：テイ"
+            },
+            {
+              "ja": "バスの[停留所:ていりゅうじょ]で十分待った。",
+              "translationId": "kanji.new.469.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.469.word.0",
+          "wordJa": "停止する",
+          "readingJa": "ていしする",
+          "meaningId": "kanji.new.469.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.469.word.1",
+          "wordJa": "停電",
+          "readingJa": "ていでん",
+          "meaningId": "kanji.new.469.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.469.word.2",
+          "wordJa": "停車する",
+          "readingJa": "ていしゃする",
+          "meaningId": "kanji.new.469.word.2.meaning"
+        },
+        {
+          "id": "kanji.new.469.word.3",
+          "wordJa": "停留所",
+          "readingJa": "ていりゅうじょ",
+          "meaningId": "kanji.new.469.word.3.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.469.word.0.reading",
+          "prompt": [
+            {
+              "ja": "停止する"
+            }
+          ],
+          "acceptedText": [
+            "ていしする"
+          ]
+        },
+        {
+          "id": "kanji.new.469.word.1.reading",
+          "prompt": [
+            {
+              "ja": "停電"
+            }
+          ],
+          "acceptedText": [
+            "ていでん"
+          ]
+        },
+        {
+          "id": "kanji.new.469.word.2.reading",
+          "prompt": [
+            {
+              "ja": "停車する"
+            }
+          ],
+          "acceptedText": [
+            "ていしゃする"
+          ]
+        },
+        {
+          "id": "kanji.new.469.word.3.reading",
+          "prompt": [
+            {
+              "ja": "停留所"
+            }
+          ],
+          "acceptedText": [
+            "ていりゅうじょ"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.469.meaning": {
+          "zh": "停；停止",
+          "en": "stop"
+        },
+        "kanji.new.469.supplement.example.translation": {
+          "zh": "在公交车站等了十分钟。",
+          "en": "I waited ten minutes at the bus stop."
+        },
+        "kanji.new.469.word.0.meaning": {
+          "zh": "停止",
+          "en": "to stop"
+        },
+        "kanji.new.469.word.1.meaning": {
+          "zh": "停电",
+          "en": "a blackout"
+        },
+        "kanji.new.469.word.2.meaning": {
+          "zh": "停车",
+          "en": "to stop"
+        },
+        "kanji.new.469.word.3.meaning": {
+          "zh": "车站；停车站",
+          "en": "a stop"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-470",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 470 刻",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.470",
+          "titleJa": "刻",
+          "paragraphIds": [
+            "kanji.new.470.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：コク"
+            },
+            {
+              "ja": "訓読み：きざむ"
+            },
+            {
+              "ja": "[時刻表:じこくひょう]で次の電車の時間を調べる。",
+              "translationId": "kanji.new.470.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.470.word.0",
+          "wordJa": "時刻",
+          "readingJa": "じこく",
+          "meaningId": "kanji.new.470.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.470.word.1",
+          "wordJa": "深刻な",
+          "readingJa": "しんこくな",
+          "meaningId": "kanji.new.470.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.470.word.2",
+          "wordJa": "時刻表",
+          "readingJa": "じこくひょう",
+          "meaningId": "kanji.new.470.word.2.meaning"
+        },
+        {
+          "id": "kanji.new.470.word.3",
+          "wordJa": "刻む",
+          "readingJa": "きざむ",
+          "meaningId": "kanji.new.470.word.3.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.470.word.0.reading",
+          "prompt": [
+            {
+              "ja": "時刻"
+            }
+          ],
+          "acceptedText": [
+            "じこく"
+          ]
+        },
+        {
+          "id": "kanji.new.470.word.1.reading",
+          "prompt": [
+            {
+              "ja": "深刻な"
+            }
+          ],
+          "acceptedText": [
+            "しんこくな"
+          ]
+        },
+        {
+          "id": "kanji.new.470.word.2.reading",
+          "prompt": [
+            {
+              "ja": "時刻表"
+            }
+          ],
+          "acceptedText": [
+            "じこくひょう"
+          ]
+        },
+        {
+          "id": "kanji.new.470.word.3.reading",
+          "prompt": [
+            {
+              "ja": "刻む"
+            }
+          ],
+          "acceptedText": [
+            "きざむ"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.470.meaning": {
+          "zh": "刻；时刻",
+          "en": "time, cut"
+        },
+        "kanji.new.470.supplement.example.translation": {
+          "zh": "用时刻表查下一班电车的时间。",
+          "en": "I check the next train time in the timetable."
+        },
+        "kanji.new.470.word.0.meaning": {
+          "zh": "时刻；时间",
+          "en": "time"
+        },
+        "kanji.new.470.word.1.meaning": {
+          "zh": "严重；深刻",
+          "en": "serious"
+        },
+        "kanji.new.470.word.2.meaning": {
+          "zh": "时刻表",
+          "en": "a timetable"
+        },
+        "kanji.new.470.word.3.meaning": {
+          "zh": "刻；切碎",
+          "en": "to chop, to mine"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-471",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 471 普",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.471",
+          "titleJa": "普",
+          "paragraphIds": [
+            "kanji.new.471.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：フ"
+            },
+            {
+              "ja": "[普段:ふだん]は自転車で学校に通っている。",
+              "translationId": "kanji.new.471.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.471.word.0",
+          "wordJa": "普通の",
+          "readingJa": "ふつうの",
+          "meaningId": "kanji.new.471.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.471.word.1",
+          "wordJa": "普段の",
+          "readingJa": "ふだんの",
+          "meaningId": "kanji.new.471.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.471.word.0.reading",
+          "prompt": [
+            {
+              "ja": "普通の"
+            }
+          ],
+          "acceptedText": [
+            "ふつうの"
+          ]
+        },
+        {
+          "id": "kanji.new.471.word.1.reading",
+          "prompt": [
+            {
+              "ja": "普段の"
+            }
+          ],
+          "acceptedText": [
+            "ふだんの"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.471.meaning": {
+          "zh": "普通",
+          "en": "widely, generally"
+        },
+        "kanji.new.471.supplement.example.translation": {
+          "zh": "平时骑自行车上学。",
+          "en": "I usually go to school by bicycle."
+        },
+        "kanji.new.471.word.0.meaning": {
+          "zh": "普通的",
+          "en": "usual, normal"
+        },
+        "kanji.new.471.word.1.meaning": {
+          "zh": "平时的",
+          "en": "usual"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-472",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 472 快",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.472",
+          "titleJa": "快",
+          "paragraphIds": [
+            "kanji.new.472.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：カイ"
+            },
+            {
+              "ja": "新しい部屋は[快適:かいてき]でよく眠れる。",
+              "translationId": "kanji.new.472.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.472.word.0",
+          "wordJa": "快適な",
+          "readingJa": "かいてきな",
+          "meaningId": "kanji.new.472.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.472.word.1",
+          "wordJa": "快速電車",
+          "readingJa": "かいそくでんしゃ",
+          "meaningId": "kanji.new.472.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.472.word.0.reading",
+          "prompt": [
+            {
+              "ja": "快適な"
+            }
+          ],
+          "acceptedText": [
+            "かいてきな"
+          ]
+        },
+        {
+          "id": "kanji.new.472.word.1.reading",
+          "prompt": [
+            {
+              "ja": "快速電車"
+            }
+          ],
+          "acceptedText": [
+            "かいそくでんしゃ"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.472.meaning": {
+          "zh": "快；舒适",
+          "en": "pleasure, fast"
+        },
+        "kanji.new.472.supplement.example.translation": {
+          "zh": "新房间很舒适，睡得很好。",
+          "en": "The new room is comfortable, so I sleep well."
+        },
+        "kanji.new.472.word.0.meaning": {
+          "zh": "舒适的",
+          "en": "comfortable"
+        },
+        "kanji.new.472.word.1.meaning": {
+          "zh": "快速列车",
+          "en": "a rapid train"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-473",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 473 換",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.473",
+          "titleJa": "換",
+          "paragraphIds": [
+            "kanji.new.473.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：カン"
+            },
+            {
+              "ja": "訓読み：かえる"
+            },
+            {
+              "ja": "部屋の空気が悪いので[換気:かんき]した。",
+              "translationId": "kanji.new.473.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.473.word.0",
+          "wordJa": "交換する",
+          "readingJa": "こうかんする",
+          "meaningId": "kanji.new.473.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.473.word.1",
+          "wordJa": "換気する",
+          "readingJa": "かんきする",
+          "meaningId": "kanji.new.473.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.473.word.2",
+          "wordJa": "乗り換える",
+          "readingJa": "のりかえる",
+          "meaningId": "kanji.new.473.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.473.word.0.reading",
+          "prompt": [
+            {
+              "ja": "交換する"
+            }
+          ],
+          "acceptedText": [
+            "こうかんする"
+          ]
+        },
+        {
+          "id": "kanji.new.473.word.1.reading",
+          "prompt": [
+            {
+              "ja": "換気する"
+            }
+          ],
+          "acceptedText": [
+            "かんきする"
+          ]
+        },
+        {
+          "id": "kanji.new.473.word.2.reading",
+          "prompt": [
+            {
+              "ja": "乗り換える"
+            }
+          ],
+          "acceptedText": [
+            "のりかえる"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.473.meaning": {
+          "zh": "换",
+          "en": "change"
+        },
+        "kanji.new.473.supplement.example.translation": {
+          "zh": "房间空气不好，所以通了通风。",
+          "en": "The air in the room was stale, so I aired it out."
+        },
+        "kanji.new.473.word.0.meaning": {
+          "zh": "交换",
+          "en": "to exchange"
+        },
+        "kanji.new.473.word.1.meaning": {
+          "zh": "换气；通风",
+          "en": "to ventilate"
+        },
+        "kanji.new.473.word.2.meaning": {
+          "zh": "换乘",
+          "en": "to change, to transfer"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-474",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 474 禁",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.474",
+          "titleJa": "禁",
+          "paragraphIds": [
+            "kanji.new.474.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：キン"
+            },
+            {
+              "ja": "この池では釣りが[禁止:きんし]されている。",
+              "translationId": "kanji.new.474.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.474.word.0",
+          "wordJa": "禁止する",
+          "readingJa": "きんしする",
+          "meaningId": "kanji.new.474.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.474.word.0.reading",
+          "prompt": [
+            {
+              "ja": "禁止する"
+            }
+          ],
+          "acceptedText": [
+            "きんしする"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.474.meaning": {
+          "zh": "禁止",
+          "en": "prohibit"
+        },
+        "kanji.new.474.supplement.example.translation": {
+          "zh": "这个池塘禁止钓鱼。",
+          "en": "Fishing is prohibited in this pond."
+        },
+        "kanji.new.474.word.0.meaning": {
+          "zh": "禁止",
+          "en": "to prohibit"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-475",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 475 煙",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.475",
+          "titleJa": "煙",
+          "paragraphIds": [
+            "kanji.new.475.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：エン"
+            },
+            {
+              "ja": "訓読み：けむり"
+            },
+            {
+              "ja": "工場の[煙突:えんとつ]から白い煙が出ている。",
+              "translationId": "kanji.new.475.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.475.word.0",
+          "wordJa": "煙突",
+          "readingJa": "えんとつ",
+          "meaningId": "kanji.new.475.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.475.word.1",
+          "wordJa": "煙",
+          "readingJa": "けむり",
+          "meaningId": "kanji.new.475.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.475.word.2",
+          "wordJa": "煙い",
+          "readingJa": "けむい",
+          "meaningId": "kanji.new.475.word.2.meaning"
+        },
+        {
+          "id": "kanji.new.475.word.3",
+          "wordJa": "禁煙",
+          "readingJa": "きんえん",
+          "meaningId": "kanji.new.475.word.3.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.475.word.0.reading",
+          "prompt": [
+            {
+              "ja": "煙突"
+            }
+          ],
+          "acceptedText": [
+            "えんとつ"
+          ]
+        },
+        {
+          "id": "kanji.new.475.word.1.reading",
+          "prompt": [
+            {
+              "ja": "煙"
+            }
+          ],
+          "acceptedText": [
+            "けむり"
+          ]
+        },
+        {
+          "id": "kanji.new.475.word.2.reading",
+          "prompt": [
+            {
+              "ja": "煙い"
+            }
+          ],
+          "acceptedText": [
+            "けむい"
+          ]
+        },
+        {
+          "id": "kanji.new.475.word.3.reading",
+          "prompt": [
+            {
+              "ja": "禁煙"
+            }
+          ],
+          "acceptedText": [
+            "きんえん"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.475.meaning": {
+          "zh": "烟",
+          "en": "smoke"
+        },
+        "kanji.new.475.supplement.example.translation": {
+          "zh": "工厂的烟囱冒着白烟。",
+          "en": "White smoke is coming out of the factory chimney."
+        },
+        "kanji.new.475.word.0.meaning": {
+          "zh": "烟囱",
+          "en": "a chimney"
+        },
+        "kanji.new.475.word.1.meaning": {
+          "zh": "烟",
+          "en": "smoke"
+        },
+        "kanji.new.475.word.2.meaning": {
+          "zh": "烟熏的；呛人的",
+          "en": "smoky"
+        },
+        "kanji.new.475.word.3.meaning": {
+          "zh": "禁烟",
+          "en": "No Smoking"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-476",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 476 険",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.476",
+          "titleJa": "険",
+          "paragraphIds": [
+            "kanji.new.476.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ケン"
+            },
+            {
+              "ja": "訓読み：けわしい"
+            },
+            {
+              "ja": "山道は[険:けわ]しくて、足元が危なかった。",
+              "translationId": "kanji.new.476.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.476.word.0",
+          "wordJa": "冒険",
+          "readingJa": "ぼうけん",
+          "meaningId": "kanji.new.476.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.476.word.1",
+          "wordJa": "険しい",
+          "readingJa": "けわしい",
+          "meaningId": "kanji.new.476.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.476.word.0.reading",
+          "prompt": [
+            {
+              "ja": "冒険"
+            }
+          ],
+          "acceptedText": [
+            "ぼうけん"
+          ]
+        },
+        {
+          "id": "kanji.new.476.word.1.reading",
+          "prompt": [
+            {
+              "ja": "険しい"
+            }
+          ],
+          "acceptedText": [
+            "けわしい"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.476.meaning": {
+          "zh": "险",
+          "en": "steep"
+        },
+        "kanji.new.476.supplement.example.translation": {
+          "zh": "山路险峻，脚下很危险。",
+          "en": "The mountain path was steep and the footing was dangerous."
+        },
+        "kanji.new.476.word.0.meaning": {
+          "zh": "冒险",
+          "en": "adventure"
+        },
+        "kanji.new.476.word.1.meaning": {
+          "zh": "险峻；严峻",
+          "en": "steep, severe"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-477",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 477 危",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.477",
+          "titleJa": "危",
+          "paragraphIds": [
+            "kanji.new.477.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：キ"
+            },
+            {
+              "ja": "訓読み：あぶない"
+            },
+            {
+              "ja": "夜の海は[危険:きけん]だから近づかないほうがいい。",
+              "translationId": "kanji.new.477.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.477.word.0",
+          "wordJa": "危険な",
+          "readingJa": "きけんな",
+          "meaningId": "kanji.new.477.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.477.word.1",
+          "wordJa": "危ない",
+          "readingJa": "あぶない",
+          "meaningId": "kanji.new.477.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.477.word.2",
+          "wordJa": "危うい",
+          "readingJa": "あやうい",
+          "meaningId": "kanji.new.477.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.477.word.0.reading",
+          "prompt": [
+            {
+              "ja": "危険な"
+            }
+          ],
+          "acceptedText": [
+            "きけんな"
+          ]
+        },
+        {
+          "id": "kanji.new.477.word.1.reading",
+          "prompt": [
+            {
+              "ja": "危ない"
+            }
+          ],
+          "acceptedText": [
+            "あぶない"
+          ]
+        },
+        {
+          "id": "kanji.new.477.word.2.reading",
+          "prompt": [
+            {
+              "ja": "危うい"
+            }
+          ],
+          "acceptedText": [
+            "あやうい"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.477.meaning": {
+          "zh": "危险",
+          "en": "danger"
+        },
+        "kanji.new.477.supplement.example.translation": {
+          "zh": "夜里的海很危险，最好别靠近。",
+          "en": "The sea is dangerous at night, so you had better stay away."
+        },
+        "kanji.new.477.word.0.meaning": {
+          "zh": "危险的",
+          "en": "dangerous"
+        },
+        "kanji.new.477.word.1.meaning": {
+          "zh": "危险（口语）",
+          "en": "dangerous (casual)"
+        },
+        "kanji.new.477.word.2.meaning": {
+          "zh": "岌岌可危",
+          "en": "precarious, in peril"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-478",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 478 路",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.478",
+          "titleJa": "路",
+          "paragraphIds": [
+            "kanji.new.478.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ロ"
+            },
+            {
+              "ja": "工事のため[道路:どうろ]が混んでいる。",
+              "translationId": "kanji.new.478.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.478.word.0",
+          "wordJa": "道路",
+          "readingJa": "どうろ",
+          "meaningId": "kanji.new.478.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.478.word.1",
+          "wordJa": "線路",
+          "readingJa": "せんろ",
+          "meaningId": "kanji.new.478.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.478.word.2",
+          "wordJa": "通路",
+          "readingJa": "つうろ",
+          "meaningId": "kanji.new.478.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.478.word.0.reading",
+          "prompt": [
+            {
+              "ja": "道路"
+            }
+          ],
+          "acceptedText": [
+            "どうろ"
+          ]
+        },
+        {
+          "id": "kanji.new.478.word.1.reading",
+          "prompt": [
+            {
+              "ja": "線路"
+            }
+          ],
+          "acceptedText": [
+            "せんろ"
+          ]
+        },
+        {
+          "id": "kanji.new.478.word.2.reading",
+          "prompt": [
+            {
+              "ja": "通路"
+            }
+          ],
+          "acceptedText": [
+            "つうろ"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.478.meaning": {
+          "zh": "路",
+          "en": "road, way"
+        },
+        "kanji.new.478.supplement.example.translation": {
+          "zh": "因为施工，道路很堵。",
+          "en": "The road is crowded because of construction."
+        },
+        "kanji.new.478.word.0.meaning": {
+          "zh": "道路",
+          "en": "a road"
+        },
+        "kanji.new.478.word.1.meaning": {
+          "zh": "铁路线",
+          "en": "a track, a railroad"
+        },
+        "kanji.new.478.word.2.meaning": {
+          "zh": "通道",
+          "en": "a passage"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-479",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 479 側",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.479",
+          "titleJa": "側",
+          "paragraphIds": [
+            "kanji.new.479.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "訓読み：がわ"
+            },
+            {
+              "ja": "川の[両側:りょうがわ]に桜の木が並んでいる。",
+              "translationId": "kanji.new.479.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.479.word.0",
+          "wordJa": "両側",
+          "readingJa": "りょうがわ",
+          "meaningId": "kanji.new.479.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.479.word.1",
+          "wordJa": "〜側",
+          "readingJa": "がわ",
+          "meaningId": "kanji.new.479.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.479.word.0.reading",
+          "prompt": [
+            {
+              "ja": "両側"
+            }
+          ],
+          "acceptedText": [
+            "りょうがわ"
+          ]
+        },
+        {
+          "id": "kanji.new.479.word.1.reading",
+          "prompt": [
+            {
+              "ja": "〜側"
+            }
+          ],
+          "acceptedText": [
+            "がわ"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.479.meaning": {
+          "zh": "侧；旁边",
+          "en": "side"
+        },
+        "kanji.new.479.supplement.example.translation": {
+          "zh": "河的两岸排列着樱花树。",
+          "en": "Cherry trees line both sides of the river."
+        },
+        "kanji.new.479.word.0.meaning": {
+          "zh": "两侧",
+          "en": "both sides"
+        },
+        "kanji.new.479.word.1.meaning": {
+          "zh": "～侧",
+          "en": "side of"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-480",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 480 窓",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.480",
+          "titleJa": "窓",
+          "paragraphIds": [
+            "kanji.new.480.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "訓読み：まど"
+            },
+            {
+              "ja": "切符は駅の[窓口:まどぐち]で買えます。",
+              "translationId": "kanji.new.480.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.480.word.0",
+          "wordJa": "窓",
+          "readingJa": "まど",
+          "meaningId": "kanji.new.480.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.480.word.1",
+          "wordJa": "窓口",
+          "readingJa": "まどぐち",
+          "meaningId": "kanji.new.480.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.480.word.0.reading",
+          "prompt": [
+            {
+              "ja": "窓"
+            }
+          ],
+          "acceptedText": [
+            "まど"
+          ]
+        },
+        {
+          "id": "kanji.new.480.word.1.reading",
+          "prompt": [
+            {
+              "ja": "窓口"
+            }
+          ],
+          "acceptedText": [
+            "まどぐち"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.480.meaning": {
+          "zh": "窗",
+          "en": "window"
+        },
+        "kanji.new.480.supplement.example.translation": {
+          "zh": "车票可以在车站窗口买到。",
+          "en": "You can buy tickets at the station counter."
+        },
+        "kanji.new.480.word.0.meaning": {
+          "zh": "窗户",
+          "en": "window"
+        },
+        "kanji.new.480.word.1.meaning": {
+          "zh": "窗口；服务台",
+          "en": "window (counter), service desk"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-481",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 481 受",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.481",
+          "titleJa": "受",
+          "paragraphIds": [
+            "kanji.new.481.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ジュ"
+            },
+            {
+              "ja": "訓読み：うける"
+            },
+            {
+              "ja": "宅配便の荷物を[受け取る:うけとる]のは家族に頼んだ。",
+              "translationId": "kanji.new.481.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.481.word.0",
+          "wordJa": "受験する",
+          "readingJa": "じゅけんする",
+          "meaningId": "kanji.new.481.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.481.word.1",
+          "wordJa": "受ける",
+          "readingJa": "うける",
+          "meaningId": "kanji.new.481.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.481.word.2",
+          "wordJa": "受け取る",
+          "readingJa": "うけとる",
+          "meaningId": "kanji.new.481.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.481.word.0.reading",
+          "prompt": [
+            {
+              "ja": "受験する"
+            }
+          ],
+          "acceptedText": [
+            "じゅけんする"
+          ]
+        },
+        {
+          "id": "kanji.new.481.word.1.reading",
+          "prompt": [
+            {
+              "ja": "受ける"
+            }
+          ],
+          "acceptedText": [
+            "うける"
+          ]
+        },
+        {
+          "id": "kanji.new.481.word.2.reading",
+          "prompt": [
+            {
+              "ja": "受け取る"
+            }
+          ],
+          "acceptedText": [
+            "うけとる"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.481.meaning": {
+          "zh": "受；接受",
+          "en": "receive, accept"
+        },
+        "kanji.new.481.supplement.example.translation": {
+          "zh": "收快递的事托给了家人。",
+          "en": "I asked my family to receive the parcel."
+        },
+        "kanji.new.481.word.0.meaning": {
+          "zh": "参加考试",
+          "en": "to take an entrance examination"
+        },
+        "kanji.new.481.word.1.meaning": {
+          "zh": "接受；参加（考试）",
+          "en": "to receive"
+        },
+        "kanji.new.481.word.2.meaning": {
+          "zh": "收下；领取",
+          "en": "to receive"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-482",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 482 付",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.482",
+          "titleJa": "付",
+          "paragraphIds": [
+            "kanji.new.482.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：フ"
+            },
+            {
+              "ja": "訓読み：つける"
+            },
+            {
+              "ja": "[付近:ふきん]のスーパーは夜十時まで開いている。",
+              "translationId": "kanji.new.482.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.482.word.0",
+          "wordJa": "付近の",
+          "readingJa": "ふきんの",
+          "meaningId": "kanji.new.482.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.482.word.1",
+          "wordJa": "付く",
+          "readingJa": "つく",
+          "meaningId": "kanji.new.482.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.482.word.2",
+          "wordJa": "付ける",
+          "readingJa": "つける",
+          "meaningId": "kanji.new.482.word.2.meaning"
+        },
+        {
+          "id": "kanji.new.482.word.3",
+          "wordJa": "受付",
+          "readingJa": "うけつけ",
+          "meaningId": "kanji.new.482.word.3.meaning"
+        },
+        {
+          "id": "kanji.new.482.word.4",
+          "wordJa": "付属する",
+          "readingJa": "ふぞくする",
+          "meaningId": "kanji.new.482.word.4.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.482.word.0.reading",
+          "prompt": [
+            {
+              "ja": "付近の"
+            }
+          ],
+          "acceptedText": [
+            "ふきんの"
+          ]
+        },
+        {
+          "id": "kanji.new.482.word.1.reading",
+          "prompt": [
+            {
+              "ja": "付く"
+            }
+          ],
+          "acceptedText": [
+            "つく"
+          ]
+        },
+        {
+          "id": "kanji.new.482.word.2.reading",
+          "prompt": [
+            {
+              "ja": "付ける"
+            }
+          ],
+          "acceptedText": [
+            "つける"
+          ]
+        },
+        {
+          "id": "kanji.new.482.word.3.reading",
+          "prompt": [
+            {
+              "ja": "受付"
+            }
+          ],
+          "acceptedText": [
+            "うけつけ"
+          ]
+        },
+        {
+          "id": "kanji.new.482.word.4.reading",
+          "prompt": [
+            {
+              "ja": "付属する"
+            }
+          ],
+          "acceptedText": [
+            "ふぞくする"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.482.meaning": {
+          "zh": "附；附着",
+          "en": "attach"
+        },
+        "kanji.new.482.supplement.example.translation": {
+          "zh": "附近的超市开到晚上十点。",
+          "en": "The nearby supermarket is open until ten at night."
+        },
+        "kanji.new.482.word.0.meaning": {
+          "zh": "附近的",
+          "en": "neighbouring"
+        },
+        "kanji.new.482.word.1.meaning": {
+          "zh": "附着；留下",
+          "en": "to attach, to stick"
+        },
+        "kanji.new.482.word.2.meaning": {
+          "zh": "安装；附加",
+          "en": "to attach"
+        },
+        "kanji.new.482.word.3.meaning": {
+          "zh": "接待处；受理",
+          "en": "a reception desk"
+        },
+        "kanji.new.482.word.4.meaning": {
+          "zh": "附属",
+          "en": "to attach"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-483",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 483 常",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.483",
+          "titleJa": "常",
+          "paragraphIds": [
+            "kanji.new.483.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ジョウ"
+            },
+            {
+              "ja": "訓読み：つね"
+            },
+            {
+              "ja": "挨拶をするのは社会の[常識:じょうしき]だ。",
+              "translationId": "kanji.new.483.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.483.word.0",
+          "wordJa": "日常の",
+          "readingJa": "にちじょうの",
+          "meaningId": "kanji.new.483.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.483.word.1",
+          "wordJa": "常識",
+          "readingJa": "じょうしき",
+          "meaningId": "kanji.new.483.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.483.word.2",
+          "wordJa": "正常な",
+          "readingJa": "せいじょうな",
+          "meaningId": "kanji.new.483.word.2.meaning"
+        },
+        {
+          "id": "kanji.new.483.word.3",
+          "wordJa": "常に",
+          "readingJa": "つねに",
+          "meaningId": "kanji.new.483.word.3.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.483.word.0.reading",
+          "prompt": [
+            {
+              "ja": "日常の"
+            }
+          ],
+          "acceptedText": [
+            "にちじょうの"
+          ]
+        },
+        {
+          "id": "kanji.new.483.word.1.reading",
+          "prompt": [
+            {
+              "ja": "常識"
+            }
+          ],
+          "acceptedText": [
+            "じょうしき"
+          ]
+        },
+        {
+          "id": "kanji.new.483.word.2.reading",
+          "prompt": [
+            {
+              "ja": "正常な"
+            }
+          ],
+          "acceptedText": [
+            "せいじょうな"
+          ]
+        },
+        {
+          "id": "kanji.new.483.word.3.reading",
+          "prompt": [
+            {
+              "ja": "常に"
+            }
+          ],
+          "acceptedText": [
+            "つねに"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.483.meaning": {
+          "zh": "常；平常",
+          "en": "normal, regular"
+        },
+        "kanji.new.483.supplement.example.translation": {
+          "zh": "打招呼是社会的常识。",
+          "en": "Greeting people is common sense in society."
+        },
+        "kanji.new.483.word.0.meaning": {
+          "zh": "日常的",
+          "en": "daily"
+        },
+        "kanji.new.483.word.1.meaning": {
+          "zh": "常识",
+          "en": "common sense"
+        },
+        "kanji.new.483.word.2.meaning": {
+          "zh": "正常的",
+          "en": "normal"
+        },
+        "kanji.new.483.word.3.meaning": {
+          "zh": "经常；总是",
+          "en": "always"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-484",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 484 非",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.484",
+          "titleJa": "非",
+          "paragraphIds": [
+            "kanji.new.484.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ヒ"
+            },
+            {
+              "ja": "試験の結果は[非常:ひじょう]に良かった。",
+              "translationId": "kanji.new.484.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.484.word.0",
+          "wordJa": "非〜",
+          "readingJa": "ひ",
+          "meaningId": "kanji.new.484.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.484.word.1",
+          "wordJa": "非常口",
+          "readingJa": "ひじょうぐち",
+          "meaningId": "kanji.new.484.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.484.word.2",
+          "wordJa": "非常の",
+          "readingJa": "ひじょうの",
+          "meaningId": "kanji.new.484.word.2.meaning"
+        },
+        {
+          "id": "kanji.new.484.word.3",
+          "wordJa": "非常に",
+          "readingJa": "ひじょうに",
+          "meaningId": "kanji.new.484.word.3.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.484.word.0.reading",
+          "prompt": [
+            {
+              "ja": "非〜"
+            }
+          ],
+          "acceptedText": [
+            "ひ"
+          ]
+        },
+        {
+          "id": "kanji.new.484.word.1.reading",
+          "prompt": [
+            {
+              "ja": "非常口"
+            }
+          ],
+          "acceptedText": [
+            "ひじょうぐち"
+          ]
+        },
+        {
+          "id": "kanji.new.484.word.2.reading",
+          "prompt": [
+            {
+              "ja": "非常の"
+            }
+          ],
+          "acceptedText": [
+            "ひじょうの"
+          ]
+        },
+        {
+          "id": "kanji.new.484.word.3.reading",
+          "prompt": [
+            {
+              "ja": "非常に"
+            }
+          ],
+          "acceptedText": [
+            "ひじょうに"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.484.meaning": {
+          "zh": "非",
+          "en": "is not, non-"
+        },
+        "kanji.new.484.supplement.example.translation": {
+          "zh": "考试结果非常好。",
+          "en": "The exam results were extremely good."
+        },
+        "kanji.new.484.word.0.meaning": {
+          "zh": "非～；不～",
+          "en": "non-, un-"
+        },
+        "kanji.new.484.word.1.meaning": {
+          "zh": "紧急出口",
+          "en": "an emergency exit"
+        },
+        "kanji.new.484.word.2.meaning": {
+          "zh": "紧急的",
+          "en": "emergency"
+        },
+        "kanji.new.484.word.3.meaning": {
+          "zh": "非常",
+          "en": "very, extremely"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-485",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 485 階",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.485",
+          "titleJa": "階",
+          "paragraphIds": [
+            "kanji.new.485.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：カイ"
+            },
+            {
+              "ja": "事務所はこのビルの五[階:かい]にある。",
+              "translationId": "kanji.new.485.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.485.word.0",
+          "wordJa": "〜階",
+          "readingJa": "かい",
+          "meaningId": "kanji.new.485.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.485.word.0.reading",
+          "prompt": [
+            {
+              "ja": "〜階"
+            }
+          ],
+          "acceptedText": [
+            "かい"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.485.meaning": {
+          "zh": "层；等级",
+          "en": "floor, rank"
+        },
+        "kanji.new.485.supplement.example.translation": {
+          "zh": "办公室在这栋楼的五层。",
+          "en": "The office is on the fifth floor of this building."
+        },
+        "kanji.new.485.word.0.meaning": {
+          "zh": "～层",
+          "en": "floor"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-486",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 486 段",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.486",
+          "titleJa": "段",
+          "paragraphIds": [
+            "kanji.new.486.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ダン"
+            },
+            {
+              "ja": "エレベーターが止まっているので[階段:かいだん]を上った。",
+              "translationId": "kanji.new.486.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.486.word.0",
+          "wordJa": "階段",
+          "readingJa": "かいだん",
+          "meaningId": "kanji.new.486.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.486.word.1",
+          "wordJa": "手段",
+          "readingJa": "しゅだん",
+          "meaningId": "kanji.new.486.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.486.word.0.reading",
+          "prompt": [
+            {
+              "ja": "階段"
+            }
+          ],
+          "acceptedText": [
+            "かいだん"
+          ]
+        },
+        {
+          "id": "kanji.new.486.word.1.reading",
+          "prompt": [
+            {
+              "ja": "手段"
+            }
+          ],
+          "acceptedText": [
+            "しゅだん"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.486.meaning": {
+          "zh": "段；台阶",
+          "en": "step"
+        },
+        "kanji.new.486.supplement.example.translation": {
+          "zh": "电梯停了，所以走了楼梯。",
+          "en": "The elevator was out of order, so I took the stairs."
+        },
+        "kanji.new.486.word.0.meaning": {
+          "zh": "楼梯",
+          "en": "stairs"
+        },
+        "kanji.new.486.word.1.meaning": {
+          "zh": "手段",
+          "en": "a means, a way"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-487",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 487 営",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.487",
+          "titleJa": "営",
+          "paragraphIds": [
+            "kanji.new.487.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：エイ"
+            },
+            {
+              "ja": "この店は夜八時まで[営業中:えいぎょうちゅう]だ。",
+              "translationId": "kanji.new.487.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.487.word.0",
+          "wordJa": "営業",
+          "readingJa": "えいぎょう",
+          "meaningId": "kanji.new.487.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.487.word.1",
+          "wordJa": "営業中",
+          "readingJa": "えいぎょうちゅう",
+          "meaningId": "kanji.new.487.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.487.word.0.reading",
+          "prompt": [
+            {
+              "ja": "営業"
+            }
+          ],
+          "acceptedText": [
+            "えいぎょう"
+          ]
+        },
+        {
+          "id": "kanji.new.487.word.1.reading",
+          "prompt": [
+            {
+              "ja": "営業中"
+            }
+          ],
+          "acceptedText": [
+            "えいぎょうちゅう"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.487.meaning": {
+          "zh": "营；经营",
+          "en": "manage"
+        },
+        "kanji.new.487.supplement.example.translation": {
+          "zh": "这家店营业到晚上八点。",
+          "en": "This shop is open until eight at night."
+        },
+        "kanji.new.487.word.0.meaning": {
+          "zh": "营业；经营",
+          "en": "business, trade, sales"
+        },
+        "kanji.new.487.word.1.meaning": {
+          "zh": "营业中",
+          "en": "to be open"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-488",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 488 準",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.488",
+          "titleJa": "準",
+          "paragraphIds": [
+            "kanji.new.488.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ジュン"
+            },
+            {
+              "ja": "この製品は安全の[基準:きじゅん]を満たしている。",
+              "translationId": "kanji.new.488.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.488.word.0",
+          "wordJa": "水準",
+          "readingJa": "すいじゅん",
+          "meaningId": "kanji.new.488.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.488.word.1",
+          "wordJa": "基準",
+          "readingJa": "きじゅん",
+          "meaningId": "kanji.new.488.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.488.word.0.reading",
+          "prompt": [
+            {
+              "ja": "水準"
+            }
+          ],
+          "acceptedText": [
+            "すいじゅん"
+          ]
+        },
+        {
+          "id": "kanji.new.488.word.1.reading",
+          "prompt": [
+            {
+              "ja": "基準"
+            }
+          ],
+          "acceptedText": [
+            "きじゅん"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.488.meaning": {
+          "zh": "准；标准",
+          "en": "standard, prepare"
+        },
+        "kanji.new.488.supplement.example.translation": {
+          "zh": "这个产品符合安全标准。",
+          "en": "This product meets the safety standards."
+        },
+        "kanji.new.488.word.0.meaning": {
+          "zh": "水准；水平",
+          "en": "a level, standards"
+        },
+        "kanji.new.488.word.1.meaning": {
+          "zh": "标准",
+          "en": "standards"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-489",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 489 備",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.489",
+          "titleJa": "備",
+          "paragraphIds": [
+            "kanji.new.489.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ビ"
+            },
+            {
+              "ja": "訓読み：そなえる"
+            },
+            {
+              "ja": "旅行の[準備:じゅんび]で荷物をまとめた。",
+              "translationId": "kanji.new.489.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.489.word.0",
+          "wordJa": "準備する",
+          "readingJa": "じゅんびする",
+          "meaningId": "kanji.new.489.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.489.word.1",
+          "wordJa": "設備",
+          "readingJa": "せつび",
+          "meaningId": "kanji.new.489.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.489.word.2",
+          "wordJa": "備える",
+          "readingJa": "そなえる",
+          "meaningId": "kanji.new.489.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.489.word.0.reading",
+          "prompt": [
+            {
+              "ja": "準備する"
+            }
+          ],
+          "acceptedText": [
+            "じゅんびする"
+          ]
+        },
+        {
+          "id": "kanji.new.489.word.1.reading",
+          "prompt": [
+            {
+              "ja": "設備"
+            }
+          ],
+          "acceptedText": [
+            "せつび"
+          ]
+        },
+        {
+          "id": "kanji.new.489.word.2.reading",
+          "prompt": [
+            {
+              "ja": "備える"
+            }
+          ],
+          "acceptedText": [
+            "そなえる"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.489.meaning": {
+          "zh": "备；准备",
+          "en": "provide, prepare"
+        },
+        "kanji.new.489.supplement.example.translation": {
+          "zh": "为旅行做准备，收拾了行李。",
+          "en": "I packed my bags to prepare for the trip."
+        },
+        "kanji.new.489.word.0.meaning": {
+          "zh": "准备",
+          "en": "to prepare"
+        },
+        "kanji.new.489.word.1.meaning": {
+          "zh": "设备",
+          "en": "equipment"
+        },
+        "kanji.new.489.word.2.meaning": {
+          "zh": "具备；准备",
+          "en": "to prepare"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-490",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 490 清",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.490",
+          "titleJa": "清",
+          "paragraphIds": [
+            "kanji.new.490.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：セイ"
+            },
+            {
+              "ja": "訓読み：きよい"
+            },
+            {
+              "ja": "台所はいつも[清潔:せいけつ]に保っている。",
+              "translationId": "kanji.new.490.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.490.word.0",
+          "wordJa": "清潔な",
+          "readingJa": "せいけつな",
+          "meaningId": "kanji.new.490.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.490.word.1",
+          "wordJa": "清書する",
+          "readingJa": "せいしょする",
+          "meaningId": "kanji.new.490.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.490.word.2",
+          "wordJa": "清い",
+          "readingJa": "きよい",
+          "meaningId": "kanji.new.490.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.490.word.0.reading",
+          "prompt": [
+            {
+              "ja": "清潔な"
+            }
+          ],
+          "acceptedText": [
+            "せいけつな"
+          ]
+        },
+        {
+          "id": "kanji.new.490.word.1.reading",
+          "prompt": [
+            {
+              "ja": "清書する"
+            }
+          ],
+          "acceptedText": [
+            "せいしょする"
+          ]
+        },
+        {
+          "id": "kanji.new.490.word.2.reading",
+          "prompt": [
+            {
+              "ja": "清い"
+            }
+          ],
+          "acceptedText": [
+            "きよい"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.490.meaning": {
+          "zh": "清；洁净",
+          "en": "clear"
+        },
+        "kanji.new.490.supplement.example.translation": {
+          "zh": "厨房一直保持清洁。",
+          "en": "I always keep the kitchen clean."
+        },
+        "kanji.new.490.word.0.meaning": {
+          "zh": "清洁的",
+          "en": "clean"
+        },
+        "kanji.new.490.word.1.meaning": {
+          "zh": "誊清",
+          "en": "to make a fair copy"
+        },
+        "kanji.new.490.word.2.meaning": {
+          "zh": "清澈；纯洁",
+          "en": "clean, clear, pure"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-491",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 491 掃",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.491",
+          "titleJa": "掃",
+          "paragraphIds": [
+            "kanji.new.491.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ソウ"
+            },
+            {
+              "ja": "訓読み：はく"
+            },
+            {
+              "ja": "教室を[清掃:せいそう]するのは当番の仕事だ。",
+              "translationId": "kanji.new.491.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.491.word.0",
+          "wordJa": "清掃する",
+          "readingJa": "せいそうする",
+          "meaningId": "kanji.new.491.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.491.word.1",
+          "wordJa": "掃く",
+          "readingJa": "はく",
+          "meaningId": "kanji.new.491.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.491.word.0.reading",
+          "prompt": [
+            {
+              "ja": "清掃する"
+            }
+          ],
+          "acceptedText": [
+            "せいそうする"
+          ]
+        },
+        {
+          "id": "kanji.new.491.word.1.reading",
+          "prompt": [
+            {
+              "ja": "掃く"
+            }
+          ],
+          "acceptedText": [
+            "はく"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.491.meaning": {
+          "zh": "扫",
+          "en": "sweep"
+        },
+        "kanji.new.491.supplement.example.translation": {
+          "zh": "打扫教室是值日生的工作。",
+          "en": "Cleaning the classroom is the duty of the student on duty."
+        },
+        "kanji.new.491.word.0.meaning": {
+          "zh": "清扫",
+          "en": "to clean"
+        },
+        "kanji.new.491.word.1.meaning": {
+          "zh": "扫",
+          "en": "to sweep"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-492",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 492 議",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.492",
+          "titleJa": "議",
+          "paragraphIds": [
+            "kanji.new.492.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ギ"
+            },
+            {
+              "ja": "明日の[会議:かいぎ]で新しい計画を話し合う。",
+              "translationId": "kanji.new.492.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.492.word.0",
+          "wordJa": "会議",
+          "readingJa": "かいぎ",
+          "meaningId": "kanji.new.492.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.492.word.1",
+          "wordJa": "不思議な",
+          "readingJa": "ふしぎな",
+          "meaningId": "kanji.new.492.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.492.word.0.reading",
+          "prompt": [
+            {
+              "ja": "会議"
+            }
+          ],
+          "acceptedText": [
+            "かいぎ"
+          ]
+        },
+        {
+          "id": "kanji.new.492.word.1.reading",
+          "prompt": [
+            {
+              "ja": "不思議な"
+            }
+          ],
+          "acceptedText": [
+            "ふしぎな"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.492.meaning": {
+          "zh": "议；讨论",
+          "en": "discuss"
+        },
+        "kanji.new.492.supplement.example.translation": {
+          "zh": "明天的会议上讨论新计划。",
+          "en": "We will discuss the new plan at tomorrow's meeting."
+        },
+        "kanji.new.492.word.0.meaning": {
+          "zh": "会议",
+          "en": "a meeting, a conference"
+        },
+        "kanji.new.492.word.1.meaning": {
+          "zh": "不可思议的",
+          "en": "strange, mysterious"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-493",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 493 製",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.493",
+          "titleJa": "製",
+          "paragraphIds": [
+            "kanji.new.493.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：セイ"
+            },
+            {
+              "ja": "この[製品:せいひん]は日本で作られている。",
+              "translationId": "kanji.new.493.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.493.word.0",
+          "wordJa": "〜製",
+          "readingJa": "せい",
+          "meaningId": "kanji.new.493.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.493.word.1",
+          "wordJa": "製品",
+          "readingJa": "せいひん",
+          "meaningId": "kanji.new.493.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.493.word.2",
+          "wordJa": "製作する",
+          "readingJa": "せいさくする",
+          "meaningId": "kanji.new.493.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.493.word.0.reading",
+          "prompt": [
+            {
+              "ja": "〜製"
+            }
+          ],
+          "acceptedText": [
+            "せい"
+          ]
+        },
+        {
+          "id": "kanji.new.493.word.1.reading",
+          "prompt": [
+            {
+              "ja": "製品"
+            }
+          ],
+          "acceptedText": [
+            "せいひん"
+          ]
+        },
+        {
+          "id": "kanji.new.493.word.2.reading",
+          "prompt": [
+            {
+              "ja": "製作する"
+            }
+          ],
+          "acceptedText": [
+            "せいさくする"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.493.meaning": {
+          "zh": "制；制造",
+          "en": "make, manufacture"
+        },
+        "kanji.new.493.supplement.example.translation": {
+          "zh": "这个产品在日本制造。",
+          "en": "This product is made in Japan."
+        },
+        "kanji.new.493.word.0.meaning": {
+          "zh": "～制造",
+          "en": "made of, made in"
+        },
+        "kanji.new.493.word.1.meaning": {
+          "zh": "产品",
+          "en": "a product"
+        },
+        "kanji.new.493.word.2.meaning": {
+          "zh": "制作",
+          "en": "to make"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-494",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 494 綿",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.494",
+          "titleJa": "綿",
+          "paragraphIds": [
+            "kanji.new.494.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：メン"
+            },
+            {
+              "ja": "訓読み：わた"
+            },
+            {
+              "ja": "夏は[木綿:もめん]のシャツが着やすい。",
+              "translationId": "kanji.new.494.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.494.word.0",
+          "wordJa": "木綿",
+          "readingJa": "もめん",
+          "meaningId": "kanji.new.494.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.494.word.1",
+          "wordJa": "綿100%",
+          "readingJa": "めん100%",
+          "meaningId": "kanji.new.494.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.494.word.2",
+          "wordJa": "綿",
+          "readingJa": "わた",
+          "meaningId": "kanji.new.494.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.494.word.0.reading",
+          "prompt": [
+            {
+              "ja": "木綿"
+            }
+          ],
+          "acceptedText": [
+            "もめん"
+          ]
+        },
+        {
+          "id": "kanji.new.494.word.1.reading",
+          "prompt": [
+            {
+              "ja": "綿100%"
+            }
+          ],
+          "acceptedText": [
+            "めん100%"
+          ]
+        },
+        {
+          "id": "kanji.new.494.word.2.reading",
+          "prompt": [
+            {
+              "ja": "綿"
+            }
+          ],
+          "acceptedText": [
+            "わた"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.494.meaning": {
+          "zh": "棉",
+          "en": "cotton"
+        },
+        "kanji.new.494.supplement.example.translation": {
+          "zh": "夏天棉布衬衫好穿。",
+          "en": "Cotton shirts are comfortable to wear in summer."
+        },
+        "kanji.new.494.word.0.meaning": {
+          "zh": "棉；棉布",
+          "en": "cotton"
+        },
+        "kanji.new.494.word.1.meaning": {
+          "zh": "100%棉",
+          "en": "cotton 100%"
+        },
+        "kanji.new.494.word.2.meaning": {
+          "zh": "棉花；棉絮",
+          "en": "cotton wool"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-495",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 495 募",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.495",
+          "titleJa": "募",
+          "paragraphIds": [
+            "kanji.new.495.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ボ"
+            },
+            {
+              "ja": "会社は新しい社員を[募集:ぼしゅう]している。",
+              "translationId": "kanji.new.495.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.495.word.0",
+          "wordJa": "募集する",
+          "readingJa": "ぼしゅうする",
+          "meaningId": "kanji.new.495.word.0.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.495.word.0.reading",
+          "prompt": [
+            {
+              "ja": "募集する"
+            }
+          ],
+          "acceptedText": [
+            "ぼしゅうする"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.495.meaning": {
+          "zh": "募；招募",
+          "en": "gather"
+        },
+        "kanji.new.495.supplement.example.translation": {
+          "zh": "公司在招募新员工。",
+          "en": "The company is recruiting new employees."
+        },
+        "kanji.new.495.word.0.meaning": {
+          "zh": "招募",
+          "en": "to recruit, to invite"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-496",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 496 給",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.496",
+          "titleJa": "給",
+          "paragraphIds": [
+            "kanji.new.496.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：キュウ"
+            },
+            {
+              "ja": "[給料:きゅうりょう]は毎月二十五日に振り込まれる。",
+              "translationId": "kanji.new.496.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.496.word.0",
+          "wordJa": "給料",
+          "readingJa": "きゅうりょう",
+          "meaningId": "kanji.new.496.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.496.word.1",
+          "wordJa": "供給する",
+          "readingJa": "きょうきゅうする",
+          "meaningId": "kanji.new.496.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.496.word.2",
+          "wordJa": "給与",
+          "readingJa": "きゅうよ",
+          "meaningId": "kanji.new.496.word.2.meaning"
+        },
+        {
+          "id": "kanji.new.496.word.3",
+          "wordJa": "月給",
+          "readingJa": "げっきゅう",
+          "meaningId": "kanji.new.496.word.3.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.496.word.0.reading",
+          "prompt": [
+            {
+              "ja": "給料"
+            }
+          ],
+          "acceptedText": [
+            "きゅうりょう"
+          ]
+        },
+        {
+          "id": "kanji.new.496.word.1.reading",
+          "prompt": [
+            {
+              "ja": "供給する"
+            }
+          ],
+          "acceptedText": [
+            "きょうきゅうする"
+          ]
+        },
+        {
+          "id": "kanji.new.496.word.2.reading",
+          "prompt": [
+            {
+              "ja": "給与"
+            }
+          ],
+          "acceptedText": [
+            "きゅうよ"
+          ]
+        },
+        {
+          "id": "kanji.new.496.word.3.reading",
+          "prompt": [
+            {
+              "ja": "月給"
+            }
+          ],
+          "acceptedText": [
+            "げっきゅう"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.496.meaning": {
+          "zh": "给；供给",
+          "en": "supply, give"
+        },
+        "kanji.new.496.supplement.example.translation": {
+          "zh": "工资每月二十五日打入账户。",
+          "en": "The salary is transferred on the twenty-fifth of every month."
+        },
+        "kanji.new.496.word.0.meaning": {
+          "zh": "工资",
+          "en": "salary"
+        },
+        "kanji.new.496.word.1.meaning": {
+          "zh": "供给",
+          "en": "to supply"
+        },
+        "kanji.new.496.word.2.meaning": {
+          "zh": "薪金；津贴",
+          "en": "an allowance, a pay"
+        },
+        "kanji.new.496.word.3.meaning": {
+          "zh": "月薪",
+          "en": "a monthly salary"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-497",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 497 師",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.497",
+          "titleJa": "師",
+          "paragraphIds": [
+            "kanji.new.497.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：シ"
+            },
+            {
+              "ja": "姉は小学校の[教師:きょうし]をしている。",
+              "translationId": "kanji.new.497.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.497.word.0",
+          "wordJa": "教師",
+          "readingJa": "きょうし",
+          "meaningId": "kanji.new.497.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.497.word.1",
+          "wordJa": "医師",
+          "readingJa": "いし",
+          "meaningId": "kanji.new.497.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.497.word.0.reading",
+          "prompt": [
+            {
+              "ja": "教師"
+            }
+          ],
+          "acceptedText": [
+            "きょうし"
+          ]
+        },
+        {
+          "id": "kanji.new.497.word.1.reading",
+          "prompt": [
+            {
+              "ja": "医師"
+            }
+          ],
+          "acceptedText": [
+            "いし"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.497.meaning": {
+          "zh": "师",
+          "en": "master"
+        },
+        "kanji.new.497.supplement.example.translation": {
+          "zh": "姐姐是小学教师。",
+          "en": "My older sister is an elementary school teacher."
+        },
+        "kanji.new.497.word.0.meaning": {
+          "zh": "教师",
+          "en": "a teacher"
+        },
+        "kanji.new.497.word.1.meaning": {
+          "zh": "医生",
+          "en": "a doctor"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-498",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 498 求",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.498",
+          "titleJa": "求",
+          "paragraphIds": [
+            "kanji.new.498.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：キュウ"
+            },
+            {
+              "ja": "訓読み：もとめる"
+            },
+            {
+              "ja": "社員は会社に改善を[求める:もとめる]ことにした。",
+              "translationId": "kanji.new.498.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.498.word.0",
+          "wordJa": "要求する",
+          "readingJa": "ようきゅうする",
+          "meaningId": "kanji.new.498.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.498.word.1",
+          "wordJa": "請求する",
+          "readingJa": "せいきゅうする",
+          "meaningId": "kanji.new.498.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.498.word.2",
+          "wordJa": "求める",
+          "readingJa": "もとめる",
+          "meaningId": "kanji.new.498.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.498.word.0.reading",
+          "prompt": [
+            {
+              "ja": "要求する"
+            }
+          ],
+          "acceptedText": [
+            "ようきゅうする"
+          ]
+        },
+        {
+          "id": "kanji.new.498.word.1.reading",
+          "prompt": [
+            {
+              "ja": "請求する"
+            }
+          ],
+          "acceptedText": [
+            "せいきゅうする"
+          ]
+        },
+        {
+          "id": "kanji.new.498.word.2.reading",
+          "prompt": [
+            {
+              "ja": "求める"
+            }
+          ],
+          "acceptedText": [
+            "もとめる"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.498.meaning": {
+          "zh": "求",
+          "en": "seek, request"
+        },
+        "kanji.new.498.supplement.example.translation": {
+          "zh": "员工决定向公司要求改善。",
+          "en": "The employees decided to ask the company for improvements."
+        },
+        "kanji.new.498.word.0.meaning": {
+          "zh": "要求",
+          "en": "to demand"
+        },
+        "kanji.new.498.word.1.meaning": {
+          "zh": "索要；请求付款",
+          "en": "to ask, to charge"
+        },
+        "kanji.new.498.word.2.meaning": {
+          "zh": "寻求",
+          "en": "to ask, to seek"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-499",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 499 修",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.499",
+          "titleJa": "修",
+          "paragraphIds": [
+            "kanji.new.499.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：シュウ"
+            },
+            {
+              "ja": "壊れた自転車を[修理:しゅうり]してもらった。",
+              "translationId": "kanji.new.499.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.499.word.0",
+          "wordJa": "修理する",
+          "readingJa": "しゅうりする",
+          "meaningId": "kanji.new.499.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.499.word.1",
+          "wordJa": "修正する",
+          "readingJa": "しゅうせいする",
+          "meaningId": "kanji.new.499.word.1.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.499.word.0.reading",
+          "prompt": [
+            {
+              "ja": "修理する"
+            }
+          ],
+          "acceptedText": [
+            "しゅうりする"
+          ]
+        },
+        {
+          "id": "kanji.new.499.word.1.reading",
+          "prompt": [
+            {
+              "ja": "修正する"
+            }
+          ],
+          "acceptedText": [
+            "しゅうせいする"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.499.meaning": {
+          "zh": "修",
+          "en": "repair"
+        },
+        "kanji.new.499.supplement.example.translation": {
+          "zh": "请人修好了坏掉的自行车。",
+          "en": "I had the broken bicycle repaired."
+        },
+        "kanji.new.499.word.0.meaning": {
+          "zh": "修理",
+          "en": "to repair"
+        },
+        "kanji.new.499.word.1.meaning": {
+          "zh": "修正",
+          "en": "to amend, to revise"
+        }
+      }
+    },
+    {
+      "id": "kanji-new-500",
+      "bookId": "kanji-700",
+      "titleJa": "漢字 500 承",
+      "groupJa": "漢字",
+      "articles": [
+        {
+          "id": "kanji.new.500",
+          "titleJa": "承",
+          "paragraphIds": [
+            "kanji.new.500.meaning"
+          ],
+          "examples": [
+            {
+              "ja": "音読み：ショウ"
+            },
+            {
+              "ja": "訓読み：うけたまわる"
+            },
+            {
+              "ja": "父は私の留学を[承諾:しょうだく]してくれた。",
+              "translationId": "kanji.new.500.supplement.example.translation"
+            }
+          ],
+          "children": []
+        }
+      ],
+      "words": [
+        {
+          "id": "kanji.new.500.word.0",
+          "wordJa": "承諾する",
+          "readingJa": "しょうだくする",
+          "meaningId": "kanji.new.500.word.0.meaning"
+        },
+        {
+          "id": "kanji.new.500.word.1",
+          "wordJa": "承認する",
+          "readingJa": "しょうにんする",
+          "meaningId": "kanji.new.500.word.1.meaning"
+        },
+        {
+          "id": "kanji.new.500.word.2",
+          "wordJa": "承る",
+          "readingJa": "うけたまわる",
+          "meaningId": "kanji.new.500.word.2.meaning"
+        }
+      ],
+      "questions": [
+        {
+          "id": "kanji.new.500.word.0.reading",
+          "prompt": [
+            {
+              "ja": "承諾する"
+            }
+          ],
+          "acceptedText": [
+            "しょうだくする"
+          ]
+        },
+        {
+          "id": "kanji.new.500.word.1.reading",
+          "prompt": [
+            {
+              "ja": "承認する"
+            }
+          ],
+          "acceptedText": [
+            "しょうにんする"
+          ]
+        },
+        {
+          "id": "kanji.new.500.word.2.reading",
+          "prompt": [
+            {
+              "ja": "承る"
+            }
+          ],
+          "acceptedText": [
+            "うけたまわる"
+          ]
+        }
+      ],
+      "texts": {
+        "kanji.new.500.meaning": {
+          "zh": "承；接受",
+          "en": "accept"
+        },
+        "kanji.new.500.supplement.example.translation": {
+          "zh": "父亲同意了我留学。",
+          "en": "My father approved of my studying abroad."
+        },
+        "kanji.new.500.word.0.meaning": {
+          "zh": "同意；承诺",
+          "en": "to approve"
+        },
+        "kanji.new.500.word.1.meaning": {
+          "zh": "批准；认可",
+          "en": "to agree"
+        },
+        "kanji.new.500.word.2.meaning": {
+          "zh": "敬听；接受",
+          "en": "to accept"
+        }
+      }
     }
   ]
 }
