@@ -1,0 +1,129 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.24",
+  "bookId": "katakana-renshucho",
+  "title": "第24課 洋服・他②",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.24.word.0",
+          "word": "スーツ",
+          "reading": "すーつ",
+          "meaningId": "katakana-renshucho.24.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.24.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.24.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "スーツ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.24.word.1",
+          "word": "ネクタイ",
+          "reading": "ねくたい",
+          "meaningId": "katakana-renshucho.24.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.24.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.24.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ネクタイ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.24.word.2",
+          "word": "ベルト",
+          "reading": "べると",
+          "meaningId": "katakana-renshucho.24.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.24.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.24.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ベルト"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.24.word.3",
+          "word": "ズボン",
+          "reading": "ずぼん",
+          "meaningId": "katakana-renshucho.24.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.24.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.24.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ズボン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.24.word.4",
+          "word": "スカート",
+          "reading": "すかーと",
+          "meaningId": "katakana-renshucho.24.word.4.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.24.word.4.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.24.word.4.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "スカート"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

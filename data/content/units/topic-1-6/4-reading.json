@@ -1,0 +1,1057 @@
+{
+  "kind": "lesson",
+  "id": "topic-1-6.4-reading",
+  "bookId": "topic-1-6",
+  "title": "Topic 4 読解：睡眠",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.0",
+          "word": "睡眠",
+          "reading": "すいみん",
+          "meaningId": "topic-1-6.4-reading.word.0.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.1",
+          "word": "寝る",
+          "reading": "ねる",
+          "meaningId": "topic-1-6.4-reading.word.1.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.2",
+          "word": "起きる",
+          "reading": "おきる",
+          "meaningId": "topic-1-6.4-reading.word.2.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.3",
+          "word": "起こす",
+          "reading": "おこす",
+          "meaningId": "topic-1-6.4-reading.word.3.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.4",
+          "word": "パンダ",
+          "reading": "ぱんだ",
+          "meaningId": "topic-1-6.4-reading.word.4.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.5",
+          "word": "コアラ",
+          "reading": "こあら",
+          "meaningId": "topic-1-6.4-reading.word.5.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.6",
+          "word": "活動する",
+          "reading": "かつどうする",
+          "meaningId": "topic-1-6.4-reading.word.6.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.7",
+          "word": "神",
+          "reading": "かみ",
+          "meaningId": "topic-1-6.4-reading.word.7.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.8",
+          "word": "眠る",
+          "reading": "ねむる",
+          "meaningId": "topic-1-6.4-reading.word.8.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.9",
+          "word": "考える",
+          "reading": "かんがえる",
+          "meaningId": "topic-1-6.4-reading.word.9.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.10",
+          "word": "実際",
+          "reading": "じっさい",
+          "meaningId": "topic-1-6.4-reading.word.10.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.11",
+          "word": "最高",
+          "reading": "さいこう",
+          "meaningId": "topic-1-6.4-reading.word.11.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.12",
+          "word": "最低",
+          "reading": "さいてい",
+          "meaningId": "topic-1-6.4-reading.word.12.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.13",
+          "word": "記録",
+          "reading": "きろく",
+          "meaningId": "topic-1-6.4-reading.word.13.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.14",
+          "word": "つまり",
+          "reading": "つまり",
+          "meaningId": "topic-1-6.4-reading.word.14.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.15",
+          "word": "ところが",
+          "reading": "ところが",
+          "meaningId": "topic-1-6.4-reading.word.15.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.16",
+          "word": "不眠症",
+          "reading": "ふみんしょう",
+          "meaningId": "topic-1-6.4-reading.word.16.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.17",
+          "word": "悩む",
+          "reading": "なやむ",
+          "meaningId": "topic-1-6.4-reading.word.17.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.18",
+          "word": "悩み",
+          "reading": "なやみ",
+          "meaningId": "topic-1-6.4-reading.word.18.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.19",
+          "word": "寝つき",
+          "reading": "ねつき",
+          "meaningId": "topic-1-6.4-reading.word.19.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.20",
+          "word": "寝つく",
+          "reading": "ねつく",
+          "meaningId": "topic-1-6.4-reading.word.20.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.21",
+          "word": "悪い",
+          "reading": "わるい",
+          "meaningId": "topic-1-6.4-reading.word.21.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.22",
+          "word": "十分な",
+          "reading": "じゅうぶんな",
+          "meaningId": "topic-1-6.4-reading.word.22.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.23",
+          "word": "不十分な",
+          "reading": "ふじゅうぶんな",
+          "meaningId": "topic-1-6.4-reading.word.23.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.24",
+          "word": "眠り",
+          "reading": "ねむり",
+          "meaningId": "topic-1-6.4-reading.word.24.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.25",
+          "word": "リズム",
+          "reading": "りずむ",
+          "meaningId": "topic-1-6.4-reading.word.25.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.26",
+          "word": "狂う",
+          "reading": "くるう",
+          "meaningId": "topic-1-6.4-reading.word.26.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.27",
+          "word": "ますます",
+          "reading": "ますます",
+          "meaningId": "topic-1-6.4-reading.word.27.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.28",
+          "word": "思い込む",
+          "reading": "おもいこむ",
+          "meaningId": "topic-1-6.4-reading.word.28.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.29",
+          "word": "酒",
+          "reading": "さけ",
+          "meaningId": "topic-1-6.4-reading.word.29.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.30",
+          "word": "続ける",
+          "reading": "つづける",
+          "meaningId": "topic-1-6.4-reading.word.30.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.31",
+          "word": "続く",
+          "reading": "つづく",
+          "meaningId": "topic-1-6.4-reading.word.31.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.32",
+          "word": "やめる",
+          "reading": "やめる",
+          "meaningId": "topic-1-6.4-reading.word.32.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.33",
+          "word": "心",
+          "reading": "こころ",
+          "meaningId": "topic-1-6.4-reading.word.33.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.34",
+          "word": "静かな",
+          "reading": "しずかな",
+          "meaningId": "topic-1-6.4-reading.word.34.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.35",
+          "word": "待つ",
+          "reading": "まつ",
+          "meaningId": "topic-1-6.4-reading.word.35.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-reading.word.36",
+          "word": "あせる",
+          "reading": "あせる",
+          "meaningId": "topic-1-6.4-reading.word.36.meaning",
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.4-reading.grammar.0",
+          "title": "語彙の使い方",
+          "examples": [],
+          "noteIds": [
+            "topic-1-6.4-reading.grammar.0.note.0"
+          ],
+          "children": [],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.4-reading.grammar.1",
+          "title": "読解・内容のまとめ",
+          "examples": [],
+          "noteIds": [
+            "topic-1-6.4-reading.grammar.1.note.0",
+            "topic-1-6.4-reading.grammar.1.note.1",
+            "topic-1-6.4-reading.grammar.1.note.2"
+          ],
+          "children": [],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.4-reading.grammar.2",
+          "title": "～て／～なくて",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "番号が分からなくて、連絡できなかった。",
+              "translationId": "topic-1-6.4-reading.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "嬉しくて、涙が出た。",
+              "translationId": "topic-1-6.4-reading.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-reading.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "仕事が忙し（　　）、旅行に行けません。"
+                }
+              ],
+              "explanationId": "topic-1-6.4-reading.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "のでて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "なくて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "いで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くて"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-reading.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "電話番号が（　　）、連絡できませんでした。"
+                },
+                {
+                  "textId": "topic-1-6.4-reading.grammar.2.question.1.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.4-reading.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "分からなで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "分からなくで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "分からなくて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "分からないくて"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-reading.grammar.2.question.2",
+              "prompt": [
+                {
+                  "japanese": "辞書を見（　　）書いてください。"
+                },
+                {
+                  "textId": "topic-1-6.4-reading.grammar.2.question.2.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.4-reading.grammar.2.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ないと"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "なく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "なくて"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-reading.grammar.2.question.3",
+              "prompt": [
+                {
+                  "japanese": "昨日は勉強せ（　　）試験を受けました。"
+                }
+              ],
+              "explanationId": "topic-1-6.4-reading.grammar.2.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "なく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "なくて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ずに"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.4-reading.grammar.2.meaning",
+          "formationId": "topic-1-6.4-reading.grammar.2.formation",
+          "usageId": "topic-1-6.4-reading.grammar.2.usage",
+          "pitfallId": "topic-1-6.4-reading.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.4-reading.grammar.3",
+          "title": "～ないで／～ずに",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "朝ごはんを食べないで学校へ行った。",
+              "translationId": "topic-1-6.4-reading.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "辞書を使わずに読んだ。",
+              "translationId": "topic-1-6.4-reading.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-reading.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "朝ご飯を（　　）学校へ来ました。"
+                },
+                {
+                  "textId": "topic-1-6.4-reading.grammar.3.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.4-reading.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "食べないで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べるないで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べなくで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べなで"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-reading.grammar.3.question.1",
+              "prompt": [
+                {
+                  "japanese": "帽子を（　　）学校へ来ました。"
+                },
+                {
+                  "textId": "topic-1-6.4-reading.grammar.3.question.1.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.4-reading.grammar.3.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "かぶりずに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "かぶるずに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "かぶらずに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "かぶれずに"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.4-reading.grammar.3.meaning",
+          "formationId": "topic-1-6.4-reading.grammar.3.formation",
+          "usageId": "topic-1-6.4-reading.grammar.3.usage",
+          "pitfallId": "topic-1-6.4-reading.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.4-reading.grammar.4",
+          "title": "～（よ）うとする（試み）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "忘れようとしたが、忘れられなかった。",
+              "translationId": "topic-1-6.4-reading.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "ドアを開けようとしたが、鍵がかかっていた。",
+              "translationId": "topic-1-6.4-reading.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "topic-1-6.4-reading.grammar.4.meaning",
+          "formationId": "topic-1-6.4-reading.grammar.4.formation",
+          "usageId": "topic-1-6.4-reading.grammar.4.usage",
+          "pitfallId": "topic-1-6.4-reading.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.4-reading.grammar.5",
+          "title": "～（よ）うとした時（直前）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "出かけようとした時、電話が鳴った。",
+              "translationId": "topic-1-6.4-reading.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "寝ようとしたら、雨が降り出した。",
+              "translationId": "topic-1-6.4-reading.grammar.5.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-reading.grammar.5.question.0",
+              "prompt": [
+                {
+                  "japanese": "彼女のことを忘れ（　　）としました。"
+                },
+                {
+                  "textId": "topic-1-6.4-reading.grammar.5.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.4-reading.grammar.5.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "たい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "て"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "た"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "よう"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.4-reading.grammar.5.meaning",
+          "formationId": "topic-1-6.4-reading.grammar.5.formation",
+          "usageId": "topic-1-6.4-reading.grammar.5.usage",
+          "pitfallId": "topic-1-6.4-reading.grammar.5.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.4-reading.grammar.6",
+          "title": "例文の解説",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "友達がいなくて、寂しいです。",
+              "translationId": "topic-1-6.4-reading.grammar.6.example.0.translation",
+              "analysisId": "topic-1-6.4-reading.grammar.6.example.0.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "電話番号が分からなくて、連絡できませんでした。",
+              "translationId": "topic-1-6.4-reading.grammar.6.example.1.translation",
+              "analysisId": "topic-1-6.4-reading.grammar.6.example.1.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "仕事が忙しくて、旅行に行けません。",
+              "translationId": "topic-1-6.4-reading.grammar.6.example.2.translation",
+              "analysisId": "topic-1-6.4-reading.grammar.6.example.2.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "辞書を見ないで書いてください。",
+              "translationId": "topic-1-6.4-reading.grammar.6.example.3.translation",
+              "analysisId": "topic-1-6.4-reading.grammar.6.example.3.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "コーヒーに砂糖を入れないで飲みます。",
+              "translationId": "topic-1-6.4-reading.grammar.6.example.4.translation",
+              "analysisId": "topic-1-6.4-reading.grammar.6.example.4.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "勉強せずに試験を受けた。",
+              "translationId": "topic-1-6.4-reading.grammar.6.example.5.translation",
+              "analysisId": "topic-1-6.4-reading.grammar.6.example.5.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "朝ご飯を食べないで学校へ来た。",
+              "translationId": "topic-1-6.4-reading.grammar.6.example.6.translation",
+              "analysisId": "topic-1-6.4-reading.grammar.6.example.6.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "帽子をかぶらずに学校へ来た。",
+              "translationId": "topic-1-6.4-reading.grammar.6.example.7.translation",
+              "analysisId": "topic-1-6.4-reading.grammar.6.example.7.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "知っている言葉を使って、一生懸命日本語で話そうとしています。",
+              "translationId": "topic-1-6.4-reading.grammar.6.example.8.translation",
+              "analysisId": "topic-1-6.4-reading.grammar.6.example.8.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼女のことを忘れようとしましたが、忘れられません。",
+              "translationId": "topic-1-6.4-reading.grammar.6.example.9.translation",
+              "analysisId": "topic-1-6.4-reading.grammar.6.example.9.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "おふろに入ろうとした時、電話のベルが鳴りました。",
+              "translationId": "topic-1-6.4-reading.grammar.6.example.10.translation",
+              "analysisId": "topic-1-6.4-reading.grammar.6.example.10.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "お金を払おうとしたら、先輩が「私が払うよ」と言いました。",
+              "translationId": "topic-1-6.4-reading.grammar.6.example.11.translation",
+              "analysisId": "topic-1-6.4-reading.grammar.6.example.11.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "眠らずにいようとして成功した人はいない。",
+              "translationId": "topic-1-6.4-reading.grammar.6.example.12.translation",
+              "analysisId": "topic-1-6.4-reading.grammar.6.example.12.analysis"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-reading.grammar.6.question.0",
+              "prompt": [
+                {
+                  "japanese": "日本語で話（　　）としています。"
+                },
+                {
+                  "textId": "topic-1-6.4-reading.grammar.6.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.4-reading.grammar.6.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "す"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "せる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "した"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "そう"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.4-reading.grammar.7",
+          "title": "補充読解・練習（オリジナル）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この文章の作者は、眠れないことを心配する人について述べている。「すぐに眠らなければ」と焦ると、かえって眠りにくくなることがあるという。そのため、作者は眠りを急がず、落ち着いて待つことを勧めている。これは文章の内容を学ぶための説明であり、病気の診断や治療の指示ではない。",
+              "translationId": "topic-1-6.4-reading.grammar.7.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "topic-1-6.4-reading.grammar.7.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-reading.grammar.7.question.0",
+              "prompt": [
+                {
+                  "japanese": "出かけ（　　）とした時、雨が降ってきました。"
+                }
+              ],
+              "explanationId": "topic-1-6.4-reading.grammar.7.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "たい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "て"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "よう"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "た"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-reading.grammar.7.question.1",
+              "prompt": [
+                {
+                  "japanese": "お金を（　　）としたら、先輩が「私が払うよ」と言いました。"
+                }
+              ],
+              "explanationId": "topic-1-6.4-reading.grammar.7.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "払よう"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "払ろう"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "払うよう"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "払おう"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-reading.grammar.7.question.2",
+              "prompt": [
+                {
+                  "japanese": "この文章の作者は、眠れないことを心配する人について述べている。「すぐに眠らなければ」と焦ると、かえって眠りにくくなることがあるという。そのため、作者は眠りを急がず、落ち着いて待つことを勧めている。これは文章の内容を学ぶための説明であり、病気の診断や治療の指示ではない。\n\n【補充読解】作者の考えとして最も合うものはどれですか。"
+                }
+              ],
+              "instructionId": "topic-1-6.4-reading.grammar.7.question.2.instruction",
+              "explanationId": "topic-1-6.4-reading.grammar.7.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "眠れない人は必ず病気である。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "この文章で病気を診断できる。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "必ずすぐに眠らなければならない。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "眠りを急がず、落ち着いて待つとよい。"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-reading.grammar.7.question.3",
+              "prompt": [
+                {
+                  "japanese": "この文章の作者は、眠れないことを心配する人について述べている。「すぐに眠らなければ」と焦ると、かえって眠りにくくなることがあるという。そのため、作者は眠りを急がず、落ち着いて待つことを勧めている。これは文章の内容を学ぶための説明であり、病気の診断や治療の指示ではない。\n\n【補充読解】焦ると、どうなることがあると書かれていますか。"
+                }
+              ],
+              "instructionId": "topic-1-6.4-reading.grammar.7.question.3.instruction",
+              "explanationId": "topic-1-6.4-reading.grammar.7.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "朝まで必ず眠れる。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "必ずすぐに眠れる。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "文章が読めなくなる。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "かえって眠りにくくなる。"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-reading.grammar.7.question.4",
+              "prompt": [
+                {
+                  "japanese": "この文章の作者は、眠れないことを心配する人について述べている。「すぐに眠らなければ」と焦ると、かえって眠りにくくなることがあるという。そのため、作者は眠りを急がず、落ち着いて待つことを勧めている。これは文章の内容を学ぶための説明であり、病気の診断や治療の指示ではない。\n\n【補充読解】「そのため」は主に何を受けていますか。"
+                }
+              ],
+              "instructionId": "topic-1-6.4-reading.grammar.7.question.4.instruction",
+              "explanationId": "topic-1-6.4-reading.grammar.7.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "焦ると眠りにくくなることがある、という説明。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "文章に作者がいないこと。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "作者が病気を診断したこと。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "全員がすぐに眠れること。"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-reading.grammar.7.question.5",
+              "prompt": [
+                {
+                  "japanese": "この文章の作者は、眠れないことを心配する人について述べている。「すぐに眠らなければ」と焦ると、かえって眠りにくくなることがあるという。そのため、作者は眠りを急がず、落ち着いて待つことを勧めている。これは文章の内容を学ぶための説明であり、病気の診断や治療の指示ではない。\n\n【補充読解】最後の文によると、この説明の目的は何ですか。"
+                }
+              ],
+              "instructionId": "topic-1-6.4-reading.grammar.7.question.5.instruction",
+              "explanationId": "topic-1-6.4-reading.grammar.7.question.5.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "治療方法を指定すること。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "薬の量を決めること。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "病気を診断すること。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "文章の内容を学ぶこと。"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

@@ -1,0 +1,129 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.1",
+  "bookId": "katakana-renshucho",
+  "title": "第01課 長音",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.1.word.0",
+          "word": "ラーメン",
+          "reading": "らーめん",
+          "meaningId": "katakana-renshucho.1.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.1.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.1.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ラーメン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.1.word.1",
+          "word": "カレンダー",
+          "reading": "かれんだー",
+          "meaningId": "katakana-renshucho.1.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.1.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.1.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "カレンダー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.1.word.2",
+          "word": "ステーキ",
+          "reading": "すてーき",
+          "meaningId": "katakana-renshucho.1.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.1.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.1.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ステーキ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.1.word.3",
+          "word": "テーブル",
+          "reading": "てーぶる",
+          "meaningId": "katakana-renshucho.1.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.1.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.1.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "テーブル"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.1.word.4",
+          "word": "ボール",
+          "reading": "ぼーる",
+          "meaningId": "katakana-renshucho.1.word.4.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.1.word.4.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.1.word.4.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ボール"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

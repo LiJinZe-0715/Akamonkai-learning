@@ -1,0 +1,106 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.12",
+  "bookId": "katakana-renshucho",
+  "title": "第12課 建物",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.12.word.0",
+          "word": "ビル",
+          "reading": "びる",
+          "meaningId": "katakana-renshucho.12.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.12.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.12.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ビル"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.12.word.1",
+          "word": "アパート",
+          "reading": "あぱーと",
+          "meaningId": "katakana-renshucho.12.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.12.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.12.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "アパート"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.12.word.2",
+          "word": "エレベーター",
+          "reading": "えれべーたー",
+          "meaningId": "katakana-renshucho.12.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.12.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.12.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "エレベーター"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.12.word.3",
+          "word": "エスカレーター",
+          "reading": "えすかれーたー",
+          "meaningId": "katakana-renshucho.12.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.12.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.12.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "エスカレーター"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

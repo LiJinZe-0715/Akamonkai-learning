@@ -1,0 +1,601 @@
+{
+  "kind": "lesson",
+  "id": "nihongo-noryoku-shiken-n2-bunpo.7-uchi",
+  "bookId": "nihongo-noryoku-shiken-n2-bunpo",
+  "title": "うちの表現",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.0",
+          "title": "～うちに",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本にいるうちに、北海道へ行きたい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "温かいうちに、召し上がってください。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "元気なうちに、いろいろな所へ旅行しておきたい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.0.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.0.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.0.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1",
+          "title": "～ないうちに",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "忘れないうちに、メモしておこう。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "暗くならないうちに、家に帰りましょう。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "冷めないうちに、スープを飲んでください。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.0.prompt.0"
+                },
+                {
+                  "japanese": "日本にいる（　）、一度は北海道へ行きたい。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ないうちに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちでは"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.1",
+              "prompt": [
+                {
+                  "japanese": "このアプリは、使っている（　）だんだん操作に慣れてきた。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "うちでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないうちに"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.2",
+              "prompt": [
+                {
+                  "japanese": "日本語の歌を何度も聞いている（　）、少しずつ歌詞が分かるようになった。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "うちでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないうちに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちに"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.3",
+              "prompt": [
+                {
+                  "japanese": "若い（　）、失敗してもやり直す機会はたくさんある。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "うちは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないうちに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちに"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.4",
+              "prompt": [
+                {
+                  "japanese": "三つの案の（　）、この案がいちばん実現しやすい。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.4.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ないうちに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちに"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.5",
+              "prompt": [
+                {
+                  "japanese": "友達と話している（　）、いつの間にか終電の時間になっていた。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.5.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.question.5.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "うちでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないうちに"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2",
+          "title": "～ているうちに",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本語を勉強しているうちに、日本の文化にも興味を持つようになった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "話しているうちに、緊張が消えていった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "毎日走っているうちに、体が軽くなってきた。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.0.prompt.0"
+                },
+                {
+                  "japanese": "料理が冷めないように、熱い（　）食べてください。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "うちに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ているうちに"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "大事な用事だから、忘れ（　）予定表に書いておこう。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ないうちに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ているうちに"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.2",
+              "prompt": [
+                {
+                  "japanese": "雨が降ら（　）、早く家へ帰りましょう。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ないうちに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ているうちに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちは"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.3",
+              "prompt": [
+                {
+                  "japanese": "両親が元気な（　）、毎年一緒に旅行したい。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "うちでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないうちに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ているうちに"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.4",
+              "prompt": [
+                {
+                  "japanese": "クラスの学生の（　）、李さんがいちばん早く来る。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.4.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "うちでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ているうちに"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.5",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.5.prompt.0"
+                },
+                {
+                  "japanese": "体が元気な（　）、行きたい場所へできるだけ行っておきたい。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.5.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.question.5.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "うちに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ているうちに"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.3",
+          "title": "～うちは",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本にいるうちは、日本語を勉強し続けるつもりだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "親が元気なうちは、心配はいらない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "学生のうちは、いろいろな経験をしたほうがいい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.3.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.3.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.3.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.4",
+          "title": "～うちでは",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "三人のうちでは、田中さんがいちばん若い。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "このクラスのうちでは、彼が最もよく発言する。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "果物のうちでは、桃が一番好きだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.4.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.4.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.4.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.7-uchi.grammar.4.pitfall"
+        }
+      ]
+    }
+  }
+}

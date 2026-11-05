@@ -1,0 +1,276 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-11",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第11課 ～に関係なく・無視して",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-11.grammar.0",
+          "title": "～を問わず",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この仕事は、経験の有無を問わず応募できる。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "昼夜を問わず、工事が続いている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-11.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "この仕事は、経験の有無（　）応募できる。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "を問わず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかけては"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "をめぐって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に応じて"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-11.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-11.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-11.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-11.grammar.1",
+          "title": "～にかかわりなく・～にかかわらず",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "天候にかかわらず、試合は行われる。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "年齢にかかわりなく、実力で評価する。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-11.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "天候（　）、試合は行われる。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にわたって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に沿って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にこたえて"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-11.grammar.1.question.1",
+              "prompt": [
+                {
+                  "japanese": "冗談（　）、本題に入りましょう。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.1.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "はさておき"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "はもとより"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を問わず"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-11.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-11.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-11.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-11.grammar.2",
+          "title": "～もかまわず",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼は人目もかまわず、大声で泣き出した。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "雨もかまわず、子どもたちは外で遊んでいる。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-11.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "彼は人目（　）、大声で泣き出した。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に限らず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "もかまわず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "はさておき"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "をはじめ"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-11.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-11.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-11.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-11.grammar.3",
+          "title": "～はもとより",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼は挨拶はもとより、礼儀作法も身についていない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "説明はもとより、お詫びの言葉もなかった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-11.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-11.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-11.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-11.grammar.4",
+          "title": "～はさておき",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "冗談はさておき、本題に入りましょう。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "値段はさておき、このデザインが気に入った。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-11.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-11.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-11.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-11.grammar.4.pitfall"
+        }
+      ]
+    }
+  }
+}

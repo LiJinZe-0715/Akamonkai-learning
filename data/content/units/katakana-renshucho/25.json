@@ -1,0 +1,106 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.25",
+  "bookId": "katakana-renshucho",
+  "title": "第25課 国名①",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.25.word.0",
+          "word": "アメリカ",
+          "reading": "あめりか",
+          "meaningId": "katakana-renshucho.25.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.25.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.25.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "アメリカ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.25.word.1",
+          "word": "カナダ",
+          "reading": "かなだ",
+          "meaningId": "katakana-renshucho.25.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.25.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.25.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "カナダ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.25.word.2",
+          "word": "ロシア",
+          "reading": "ろしあ",
+          "meaningId": "katakana-renshucho.25.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.25.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.25.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ロシア"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.25.word.3",
+          "word": "メキシコ",
+          "reading": "めきしこ",
+          "meaningId": "katakana-renshucho.25.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.25.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.25.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "メキシコ"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

@@ -1,0 +1,107 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.11",
+  "bookId": "katakana-renshucho",
+  "title": "第11課 電気製品③",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.11.word.0",
+          "word": "カメラ",
+          "reading": "かめら",
+          "meaningId": "katakana-renshucho.11.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.11.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.11.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "カメラ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.11.word.1",
+          "word": "スマホ",
+          "reading": "すまほ",
+          "meaningId": "katakana-renshucho.11.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.11.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.11.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "スマホ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.11.word.2",
+          "word": "イヤホン",
+          "reading": "いやほん",
+          "meaningId": "katakana-renshucho.11.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.11.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.11.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "イヤホン",
+                "イヤフォン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.11.word.3",
+          "word": "ケーブル",
+          "reading": "けーぶる",
+          "meaningId": "katakana-renshucho.11.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.11.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.11.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ケーブル"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

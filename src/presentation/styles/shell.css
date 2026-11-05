@@ -1,0 +1,618 @@
+/* 瑞士网格式外壳：硬黑分隔线、大写字小号字、零圆角。 */
+
+.skip-link {
+    position: absolute;
+    top: 0;
+    left: 24px;
+    z-index: 100;
+    padding: 10px 18px;
+    background: var(--ink);
+    color: var(--paper);
+    font-size: calc(10px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    transform: translateY(-140%);
+    transition: transform 140ms ease;
+}
+
+.skip-link:focus-visible {
+    transform: translateY(0);
+}
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    border-bottom: 1px solid var(--rule-strong);
+    background: var(--paper);
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    width: 100%;
+    max-width: var(--width-shell);
+    min-height: 66px;
+    margin-inline: auto;
+    padding-inline: 24px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    flex: none;
+}
+
+.seal {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    background: var(--accent);
+    color: var(--on-accent);
+    font-family: var(--font-display);
+    font-size: calc(14px * var(--font-scale));
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+
+.brand strong {
+    display: block;
+    font-family: var(--font-display);
+    font-size: calc(12px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.25;
+}
+
+.brand small {
+    display: block;
+    margin-top: 3px;
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    line-height: 1.4;
+}
+
+.brand-japanese {
+    font-family: var(--font-display);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 20px;
+    flex: none;
+}
+
+.desktop-nav {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+    margin-left: auto;
+    align-self: stretch;
+}
+
+.desktop-nav a {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 0 14px;
+    color: var(--ink-2);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    transition: color 120ms ease;
+}
+
+.desktop-nav a .ui-icon {
+    width: 14px;
+    height: 14px;
+    opacity: 0.7;
+}
+
+.desktop-nav a:hover {
+    color: var(--ink);
+}
+
+.desktop-nav a[aria-current="page"] {
+    color: var(--ink);
+}
+
+.desktop-nav a[aria-current="page"]::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 3px;
+    background: var(--accent);
+}
+
+/* 齿轮旁的语言切换：两个按钮连成一组，和齿轮同高。 */
+.language-switch {
+    display: inline-flex;
+    height: 36px;
+    border: 1px solid var(--rule-strong);
+}
+
+.language-switch button {
+    padding: 0 10px;
+    border: 0;
+    background: transparent;
+    color: var(--ink-3);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    cursor: pointer;
+    transition: background 120ms ease, color 120ms ease;
+}
+
+.language-switch button + button {
+    border-left: 1px solid var(--rule-strong);
+}
+
+.language-switch button:hover {
+    color: var(--ink);
+}
+
+.language-switch button[aria-pressed="true"] {
+    background: var(--ink);
+    color: var(--paper);
+}
+
+/* 右上角齿轮：进设置页。 */
+.settings-link {
+    display: grid;
+    place-items: center;
+    width: 36px;
+    height: 36px;
+    border: 1px solid var(--rule-strong);
+    color: var(--ink-2);
+    transition: background 120ms ease, border-color 120ms ease, color 120ms ease;
+}
+
+.settings-link:hover,
+.settings-link[aria-current="page"] {
+    border-color: var(--ink);
+    background: var(--ink);
+    color: var(--paper);
+}
+
+.app-main {
+    width: 100%;
+    max-width: var(--width-shell);
+    margin-inline: auto;
+    padding: 48px 24px 96px;
+}
+
+/* 手机底部标签栏 */
+
+.mobile-nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 40;
+    display: none;
+    border-top: 1px solid var(--rule-strong);
+    background: var(--paper);
+    padding-bottom: env(safe-area-inset-bottom, 0);
+}
+
+.mobile-nav a {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 9px 4px 8px;
+    border-top: 2px solid transparent;
+    color: var(--ink-3);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.mobile-nav a .ui-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.mobile-nav a[aria-current="page"] {
+    border-top-color: var(--accent);
+    color: var(--ink);
+}
+
+/* 设置页：和首页、教材库同一套粗线标题，模块之间留同样的间距，铺满正文宽度。 */
+
+.settings-module {
+    margin-top: 56px;
+}
+
+.setting-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px 24px;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--rule);
+}
+
+.setting-label {
+    flex: 1 1 24ch;
+    font-size: calc(10px * var(--font-scale));
+    font-weight: 600;
+    color: var(--ink-2);
+}
+
+.setting-label p {
+    max-width: var(--measure);
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--ink-3);
+}
+
+.setting-control {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+/* 下载链接长得和按钮一样。 */
+.setting-link-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 14px;
+    border: 1px solid var(--ink);
+    font-size: calc(10px * var(--font-scale));
+    font-weight: 500;
+    line-height: 1.4;
+    white-space: nowrap;
+    transition: background 120ms ease, color 120ms ease;
+}
+
+.setting-link-button:hover {
+    background: var(--ink);
+    color: var(--paper);
+}
+
+.settings-speech {
+    padding-top: 18px;
+}
+
+/* 放大倍率：滑杆 + 百分比 + 复原，一行排开。 */
+.text-scale-setting {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+}
+
+.text-scale-setting input[type="range"] {
+    width: 180px;
+    margin: 0;
+    accent-color: var(--accent);
+}
+
+.text-scale-setting output {
+    min-width: 4.5ch;
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+}
+
+.text-scale-reset {
+    padding: 2px 0;
+    border: 0;
+    border-bottom: 1px solid var(--rule-strong);
+    background: transparent;
+    color: var(--ink-2);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.text-scale-reset:hover:not(:disabled) {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+.text-scale-reset:disabled {
+    opacity: 0.35;
+    border-color: var(--rule);
+    cursor: default;
+}
+
+.speech-controls {
+    display: grid;
+    gap: 12px;
+}
+
+.speech-controls > .button-row {
+    gap: 10px;
+}
+
+.speech-controls label {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--ink-3);
+}
+
+/* 语速行：滑杆要宽到容易点准。 */
+.speech-controls input[type="range"] {
+    width: 140px;
+    accent-color: var(--accent);
+}
+
+.speech-controls output {
+    min-width: 4.5ch;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink-2);
+}
+
+.speech-controls p,
+.speech-controls small {
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.7;
+    color: var(--ink-3);
+}
+
+/* 引擎检查：哪个引擎应答、提供哪些声音、本地还是在线。 */
+
+.speech-diagnostics {
+    display: grid;
+    gap: 8px;
+    padding: 12px 14px;
+    border: 1px solid var(--rule);
+    background: var(--surface-2);
+}
+
+.speech-diagnostics dl {
+    display: grid;
+    grid-template-columns: max-content minmax(0, 1fr);
+    gap: 6px 14px;
+    align-items: baseline;
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.6;
+}
+
+.speech-diagnostics dt {
+    color: var(--ink-3);
+}
+
+.speech-diagnostics dd {
+    color: var(--ink-2);
+    overflow-wrap: anywhere;
+}
+
+.speech-count {
+    margin-left: 6px;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.speech-voice-list {
+    display: grid;
+    gap: 4px;
+}
+
+.speech-voice-list li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px;
+}
+
+.speech-voice-list code {
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    color: var(--ink-3);
+}
+
+.speech-voice-list li[aria-current="true"] .speech-voice-name {
+    color: var(--accent);
+}
+
+.speech-voice-more {
+    color: var(--ink-3);
+}
+
+.speech-voice-tag {
+    padding: 0 6px;
+    border: 1px solid var(--rule);
+    font-size: calc(8px * var(--font-scale));
+    color: var(--ink-3);
+    white-space: nowrap;
+}
+
+/* 非日语声音照实列出，不藏起来——直接说明。 */
+.speech-voice-other {
+    border-color: var(--rule-strong);
+    color: var(--ink-2);
+}
+
+/* 再看一次声音列表：手机常常在页面打开之后才绑定引擎。 */
+.speech-actions {
+    gap: 10px;
+}
+
+.speech-actions .speech-hint {
+    flex: 1 1 20ch;
+    font-size: calc(8px * var(--font-scale));
+    line-height: 1.6;
+    color: var(--ink-3);
+}
+
+/* 没有引擎应答：设置区自己给出下载入口。 */
+
+.engine-download {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 12px 14px;
+    border: 1px solid var(--rule-strong);
+    border-left: 4px solid var(--accent);
+    background: var(--paper);
+}
+
+.engine-download strong {
+    font-size: calc(10px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.engine-download p {
+    margin-top: 3px;
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.6;
+    color: var(--ink-3);
+}
+
+.engine-download-actions {
+    display: grid;
+    gap: 8px;
+    justify-items: end;
+}
+
+.engine-download-get {
+    padding: 8px 16px;
+    border: 1px solid var(--ink);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: background 120ms ease, color 120ms ease;
+}
+
+.engine-download-get:hover {
+    background: var(--ink);
+    color: var(--paper);
+}
+
+/* 系统设置入口：比下载更暗一档，它是「去别处装」而不是「在这里装」。 */
+.engine-download-settings {
+    padding: 0;
+    border: 0;
+    border-bottom: 1px solid var(--rule);
+    background: none;
+    font-size: calc(8px * var(--font-scale));
+    letter-spacing: 0.04em;
+    color: var(--ink-3);
+}
+
+.engine-download-settings:hover {
+    color: var(--accent);
+}
+
+/* 操作指引比下载更低调：下载是动作，指引只是帮忙。 */
+.engine-download-how {
+    font-size: calc(8px * var(--font-scale));
+    letter-spacing: 0.04em;
+    color: var(--ink-3);
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 1px;
+}
+
+.engine-download-how:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+@media (max-width: 899px) {
+    .header-inner {
+        min-height: 58px;
+        gap: 16px;
+        padding-inline: 18px;
+    }
+
+    .desktop-nav {
+        display: none;
+    }
+
+    .header-actions {
+        margin-left: auto;
+    }
+
+    .brand small {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+    }
+
+    .app-main {
+        /* 底部导航栏的高度随字号放大，再加上手势条；写死的话字号一大，页面最底下的按钮就被盖住。 */
+        padding: 30px 18px calc(64px + 16px * var(--font-scale) + env(safe-area-inset-bottom, 0px));
+    }
+
+}
+
+@media (max-width: 600px) {
+    .engine-download {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: center;
+        gap: 8px 12px;
+        padding: 10px 12px;
+    }
+
+    .engine-download p {
+        line-height: 1.55;
+    }
+
+    .engine-download-get {
+        padding: 6px 10px;
+    }
+
+    .engine-download-actions {
+        justify-items: end;
+    }
+}
+
+/* 首页的学习记录备份 */
+.progress-tools > p {
+    max-width: var(--measure);
+    margin: 18px 0 14px;
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.7;
+    color: var(--ink-3);
+}
+
+/* 清空学习记录：危险操作用 --bad 标出来，确认区与上面的按钮隔开一点。 */
+.clear-progress {
+    margin-top: 16px;
+    /* 自动滚过来时停在底部导航栏上方，而不是钻到它下面。 */
+    scroll-margin-bottom: calc(64px + 16px * var(--font-scale) + env(safe-area-inset-bottom, 0px));
+}
+
+.clear-progress p {
+    color: var(--bad);
+}
+
+button.danger {
+    color: var(--bad);
+    border-color: var(--bad);
+}

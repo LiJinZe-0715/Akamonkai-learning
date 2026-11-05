@@ -1,0 +1,159 @@
+/* 语音指南：按阅读页处理，用分隔线分段，和外壳其他页面一样占满窗口
+   ——不另设居中窄栏。 */
+
+.guide {
+    padding-bottom: 20px;
+}
+
+.guide-header {
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--rule-strong);
+}
+
+.guide-header h1 {
+    margin: 10px 0 14px;
+    font-size: calc(24px * var(--font-scale));
+    line-height: 1.25;
+    letter-spacing: -0.015em;
+}
+
+.guide-intro {
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.85;
+    color: var(--ink-2);
+}
+
+.guide-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px 20px;
+    margin-top: 18px;
+    font-size: calc(8px * var(--font-scale));
+    line-height: 1.6;
+    color: var(--ink-3);
+}
+
+.guide-back {
+    color: var(--ink);
+    border-bottom: 1px solid var(--ink);
+    padding-bottom: 1px;
+}
+
+.guide-back:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+.guide h2 {
+    font-size: calc(12px * var(--font-scale));
+    letter-spacing: 0.01em;
+}
+
+/* 编号步骤上方的引导语。 */
+
+.guide-panel-lead {
+    margin-top: 22px;
+}
+
+.guide h3 {
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.5;
+}
+
+.guide p {
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.85;
+    color: var(--ink-2);
+}
+
+/* 步骤：序号占固定槽位，正文左边缘保持一条直线。 */
+
+.guide-steps {
+    padding: 26px 0 6px;
+}
+
+.guide-steps ol {
+    counter-reset: guide-step;
+    margin-top: 8px;
+    list-style: none;
+}
+
+.guide-steps li {
+    counter-increment: guide-step;
+    display: flex;
+    gap: 16px;
+    padding: 18px 0;
+    border-top: 1px solid var(--rule);
+}
+
+.guide-steps li::before {
+    content: counter(guide-step, decimal-leading-zero);
+    flex: 0 0 40px;
+    padding-top: 2px;
+    font-family: var(--font-mono);
+    font-size: calc(10px * var(--font-scale));
+    color: var(--accent);
+}
+
+.guide-steps li > div {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.guide-steps h3 {
+    margin-bottom: 5px;
+}
+
+.guide-action {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 7px 14px;
+    border: 1px solid var(--ink);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: background 120ms ease, color 120ms ease;
+}
+
+.guide-action:hover {
+    background: var(--ink);
+    color: var(--paper);
+}
+
+.guide-faq {
+    margin-top: 30px;
+    padding-top: 22px;
+    border-top: 1px solid var(--rule);
+}
+
+.guide-faq dl {
+    display: grid;
+    gap: 6px 20px;
+    margin-top: 12px;
+}
+
+.guide-faq dt {
+    margin-top: 10px;
+    font-size: calc(10px * var(--font-scale));
+    font-weight: 700;
+    color: var(--ink);
+}
+
+.guide-faq dd {
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.8;
+    color: var(--ink-2);
+}
+
+@media (max-width: 600px) {
+    .guide-steps li {
+        gap: 12px;
+    }
+
+    .guide-steps li::before {
+        flex-basis: 26px;
+    }
+}

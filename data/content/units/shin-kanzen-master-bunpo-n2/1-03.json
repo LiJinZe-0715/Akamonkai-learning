@@ -1,0 +1,275 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-03",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第3課 ～後で",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-03.grammar.0",
+          "title": "～てはじめて",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "病気になってはじめて、健康のありがたさが分かった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "実際にやってみてはじめて、難しさが分かる。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-03.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-03.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-03.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-03.grammar.1",
+          "title": "～上（で）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "家族と相談した上で、返事をします。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "申込書は内容を確認の上で、ご提出ください。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-03.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "内容をご確認の（　）、ご署名ください。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "上で"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "最中"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "一方で"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-03.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-03.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-03.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-03.grammar.2",
+          "title": "～次第",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "詳しいことが分かり次第、お知らせします。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "着き次第、電話をください。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-03.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "子どもを育てて（　）、親の苦労が分かった。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "はじめて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "以来"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "上で"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "次第"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-03.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "資料ができ（　）、すぐにお送りします。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "以来"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "上は"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "次第"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-03.grammar.2.question.2",
+              "prompt": [
+                {
+                  "japanese": "大学を卒業して（　）、一度も彼に会っていない。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.2.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "最中"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "上で"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "次第"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "以来"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-03.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-03.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-03.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-03.grammar.3",
+          "title": "～て以来・～てこのかた",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本に来て以来、一度も風邪をひいていない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "卒業してこのかた、彼とは会っていない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-03.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-03.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-03.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-03.grammar.4",
+          "title": "～てからでないと・～てからでなければ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "上司に相談してからでないと、返事ができません。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "実際に見てからでなければ、判断できない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-03.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-03.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-03.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-03.grammar.4.pitfall"
+        }
+      ]
+    }
+  }
+}

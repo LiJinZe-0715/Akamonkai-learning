@@ -1,0 +1,106 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.16",
+  "bookId": "katakana-renshucho",
+  "title": "第16課 身の回りの物①",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.16.word.0",
+          "word": "パスポート",
+          "reading": "ぱすぽーと",
+          "meaningId": "katakana-renshucho.16.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.16.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.16.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "パスポート"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.16.word.1",
+          "word": "ティッシュ",
+          "reading": "てぃっしゅ",
+          "meaningId": "katakana-renshucho.16.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.16.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.16.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ティッシュ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.16.word.2",
+          "word": "サングラス",
+          "reading": "さんぐらす",
+          "meaningId": "katakana-renshucho.16.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.16.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.16.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "サングラス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.16.word.3",
+          "word": "ハンカチ",
+          "reading": "はんかち",
+          "meaningId": "katakana-renshucho.16.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.16.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.16.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ハンカチ"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

@@ -1,0 +1,33 @@
+<resources>
+    <!-- 默认资源（非中文系统）。中文系统回落到 values-zh/strings.xml。
+         Android 在安装时从资源里解析启动器名称，所以名字会跟随系统语言，
+         MainActivity 里不需要写任何代码。 -->
+    <string name="app_name">Akamonkai Japanese Learning</string>
+
+    <!-- 壳里的提示：英文在 values，中文在 values-zh，两边的键必须一致（pnpm check 会查）。 -->
+    <string name="update_no_browser">Install a browser first to download the update.</string>
+    <string name="update_busy">Already checking for updates…</string>
+    <string name="update_checking">Checking for updates…</string>
+    <string name="update_available_title">New content is available</string>
+    <string name="update_available_message">Installed: %1$s
+Online: %2$s
+
+Open the downloaded APK and follow the prompts. Your study records are kept, so do not uninstall the app first.</string>
+    <string name="update_download">Download</string>
+    <string name="later">Later</string>
+    <string name="update_title">Check for updates</string>
+    <string name="update_latest">Up to date (%1$s)</string>
+    <string name="ok">OK</string>
+    <string name="update_failed_title">Unable to check for updates</string>
+    <string name="update_failed_message">Check your network or try again later. Offline study is not affected.</string>
+    <string name="no_file_picker">No file picker is available</string>
+    <string name="no_link_app">No app can open this link</string>
+    <string name="exit_prompt">Leave the app?</string>
+    <string name="exit">Leave</string>
+    <string name="keep_studying">Keep studying</string>
+    <string name="backup_too_large">The backup file is too large</string>
+    <string name="save_pending">Finish the previous save first</string>
+    <string name="no_file_saver">No file saver is available</string>
+    <string name="saved">Study records saved</string>
+    <string name="save_failed">Saving failed, please try again</string>
+</resources>

@@ -1,0 +1,106 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.35",
+  "bookId": "katakana-renshucho",
+  "title": "第35課 動物",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.35.word.0",
+          "word": "パンダ",
+          "reading": "ぱんだ",
+          "meaningId": "katakana-renshucho.35.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.35.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.35.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "パンダ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.35.word.1",
+          "word": "コアラ",
+          "reading": "こあら",
+          "meaningId": "katakana-renshucho.35.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.35.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.35.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "コアラ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.35.word.2",
+          "word": "カンガルー",
+          "reading": "かんがるー",
+          "meaningId": "katakana-renshucho.35.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.35.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.35.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "カンガルー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.35.word.3",
+          "word": "ライオン",
+          "reading": "らいおん",
+          "meaningId": "katakana-renshucho.35.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.35.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.35.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ライオン"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

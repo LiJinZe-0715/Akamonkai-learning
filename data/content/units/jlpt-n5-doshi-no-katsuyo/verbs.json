@@ -1,0 +1,2184 @@
+{
+  "kind": "lesson",
+  "id": "jlpt-n5-doshi-no-katsuyo.verbs",
+  "bookId": "jlpt-n5-doshi-no-katsuyo",
+  "title": "動詞の活用",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.0",
+          "title": "動詞のグループ",
+          "examples": [],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.0.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.0.note.1",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.0.note.2",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.0.note.3"
+          ],
+          "children": [],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.1",
+          "title": "活用形（未然形・連用形・終止形・連体形・仮定形・命令形）",
+          "examples": [],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.1.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.1.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.1.grammar.0",
+              "title": "未然形",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書く → 書か（ない）"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べ（ない）"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "する → し（ない）"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る → こ（ない）"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "書く → 書こ（う）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.1.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.1.grammar.1",
+              "title": "連用形",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書く → 書き（ます）"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べ（ます）"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "する → し（ます）"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る → き（ます）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.1.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.1.grammar.2",
+              "title": "終止形",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書く。"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "食べる。"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "行く。"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る。"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.1.grammar.2.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.1.grammar.3",
+              "title": "連体形",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書く本"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "食べる人"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る日"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.1.grammar.3.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.1.grammar.4",
+              "title": "仮定形",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書けば"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "食べれば"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "すれば"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来れば（くれば）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.1.grammar.4.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.1.grammar.5",
+              "title": "命令形",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書け"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "食べろ"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "しろ／せよ"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来い（こい）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.1.grammar.5.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.2",
+          "title": "辞書形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "寝る前に、歯を磨きます。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.2.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.2.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.2.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.2.grammar.0",
+              "title": "Ⅰグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書きます → 書き → 書く"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "読みます → 読み → 読む"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "買います → 買い → 買う"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "帰ります → 帰り → 帰る"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.2.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.2.grammar.1",
+              "title": "Ⅱグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "食べます → 食べ → 食べる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "起きます → 起き → 起きる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "借ります → 借り → 借りる"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.2.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.2.grammar.2",
+              "title": "Ⅲグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "します → する"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "勉強します → 勉強する"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来ます（きます）→ 来る（くる）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.2.grammar.2.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.3",
+          "title": "ます形・丁寧形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "昨日は勉強しませんでした。今日は勉強します。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.3.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.3.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.3.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.3.grammar.0",
+              "title": "Ⅰグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書く → 書き → 書きます"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "泳ぐ → 泳ぎます"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "話す → 話します"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "待つ → 待ちます"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "死ぬ → 死にます"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "遊ぶ → 遊びます"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "読む → 読みます"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "帰る → 帰ります"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "買う → 買います"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.3.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.3.grammar.1",
+              "title": "Ⅱグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べ → 食べます"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "見る → 見 → 見ます"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.3.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.3.grammar.2",
+              "title": "Ⅲグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "する → します"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る（くる）→ 来ます（きます）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.3.grammar.2.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.3.grammar.3",
+              "title": "丁寧形の四つの形",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書きます ／ 書きません ／ 書きました ／ 書きませんでした"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.3.grammar.3.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.4",
+          "title": "ます形の語幹",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "音楽を聞きながら、料理します。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.4.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.4.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.4.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.4.grammar.0",
+              "title": "Ⅰグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "読む → 読みます → 読み → 読みながら"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "書く → 書きます → 書き → 書きやすい"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.4.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.4.grammar.1",
+              "title": "Ⅱグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べ → 食べたい"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "見る → 見 → 見に行く"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.4.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.4.grammar.2",
+              "title": "Ⅲグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "勉強する → 勉強し → 勉強しながら"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る → 来ます（きます）→ 来（き）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.4.grammar.2.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5",
+          "title": "て形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "窓を開けてください。今、本を読んでいます。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.grammar.0",
+              "title": "Ⅰグループ：う・つ・る",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "買う → 買って"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "待つ → 待って"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "帰る → 帰って"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "買います → 買う → 買って"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.grammar.1",
+              "title": "Ⅰグループ：む・ぶ・ぬ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "読む → 読んで"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "遊ぶ → 遊んで"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "死ぬ → 死んで"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "読みます → 読む → 読んで"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.grammar.2",
+              "title": "Ⅰグループ：く",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書く → 書いて"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "歩く → 歩いて"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "書きます → 書く → 書いて"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.grammar.2.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.grammar.3",
+              "title": "Ⅰグループ：ぐ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "泳ぐ → 泳いで"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "泳ぎます → 泳ぐ → 泳いで"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.grammar.3.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.grammar.4",
+              "title": "Ⅰグループ：す",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "話す → 話して"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "話します → 話す → 話して"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.grammar.4.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.grammar.5",
+              "title": "Ⅱグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べて"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "見る → 見て"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "起きる → 起きて"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "借ります → 借りる → 借りて"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.grammar.5.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.grammar.6",
+              "title": "Ⅲグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "する → して"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る（くる）→ 来て（きて）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.grammar.6.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.grammar.7",
+              "title": "「行く」の特別な活用",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "行きます → 行く → 行って"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.5.grammar.7.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.6",
+          "title": "た形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本へ行ったことがあります。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.6.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.6.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.6.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.6.grammar.0",
+              "title": "Ⅰグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "買う → 買って → 買った"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "読む → 読んで → 読んだ"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "書く → 書いて → 書いた"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "泳ぐ → 泳いで → 泳いだ"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "話す → 話して → 話した"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.6.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.6.grammar.1",
+              "title": "Ⅱグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べた"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "見る → 見た"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.6.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.6.grammar.2",
+              "title": "Ⅲグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "する → した"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る（くる）→ 来た（きた）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.6.grammar.2.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.6.grammar.3",
+              "title": "「行く」の特別な活用",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "行きます → 行く → 行って → 行った"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.6.grammar.3.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.7",
+          "title": "ない形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "明日は学校へ行かないつもりです。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.7.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.7.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.7.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.7.grammar.0",
+              "title": "Ⅰグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書く → 書か → 書かない"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "読む → 読ま → 読まない"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "話す → 話さない"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "帰る → 帰らない"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "買う → 買わ → 買わない"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.7.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.7.grammar.1",
+              "title": "Ⅱグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べない"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "見る → 見ない"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.7.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.7.grammar.2",
+              "title": "Ⅲグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "する → しない"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る（くる）→ 来ない（こない）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.7.grammar.2.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.8",
+          "title": "なかった形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "昨日は宿題をしなかった。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.8.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.8.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.8.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.8.grammar.0",
+              "title": "全グループ共通の第2段階",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書く → 書かない → 書かなかった"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "買う → 買わない → 買わなかった"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べない → 食べなかった"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "する → しない → しなかった"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る → 来ない（こない）→ 来なかった（こなかった）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.8.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.8.grammar.1",
+              "title": "「ある」の例外",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "ある → ない → なかった"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.8.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.9",
+          "title": "普通形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "田中さんは明日来ないと言いました。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.9.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.9.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.9.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.9.grammar.0",
+              "title": "普通形の四つの形",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書く ／ 書かない ／ 書いた ／ 書かなかった"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "食べる ／ 食べない ／ 食べた ／ 食べなかった"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "する ／ しない ／ した ／ しなかった"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る（くる）／ 来ない（こない）／ 来た（きた）／ 来なかった（こなかった）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.9.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.9.grammar.1",
+              "title": "文型への接続",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "行きません → 行かない → 行かないと思います"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "読みました → 読んだ → 読んだ本"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.9.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.10",
+          "title": "可能形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "私は日本語の新聞が読めます。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.10.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.10.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.10.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.10.grammar.0",
+              "title": "Ⅰグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書く → 書け → 書ける"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "読む → 読める"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "話す → 話せる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "買う → 買える"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.10.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.10.grammar.1",
+              "title": "Ⅱグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べられる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "見る → 見られる"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.10.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.10.grammar.2",
+              "title": "Ⅲグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "する → できる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "勉強する → 勉強できる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る → 来られる（こられる）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.10.grammar.2.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.10.grammar.3",
+              "title": "否定形・丁寧形への活用",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "読める → 読めない ／ 読めます"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "食べられる → 食べられない ／ 食べられます"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.10.grammar.3.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.11",
+          "title": "意向形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "週末は図書館で勉強しようと思っています。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.11.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.11.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.11.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.11.grammar.0",
+              "title": "Ⅰグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書く → 書こ → 書こう"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "読む → 読もう"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "買う → 買おう"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "帰る → 帰ろう"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.11.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.11.grammar.1",
+              "title": "Ⅱグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べよう"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "見る → 見よう"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.11.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.11.grammar.2",
+              "title": "Ⅲグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "する → しよう"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る → 来よう（こよう）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.11.grammar.2.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.12",
+          "title": "命令形・禁止形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "ここに車を止めるな。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.12.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.12.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.12.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.12.grammar.0",
+              "title": "Ⅰグループ命令",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書く → 書け"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "待つ → 待て"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "帰る → 帰れ"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.12.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.12.grammar.1",
+              "title": "Ⅱグループ命令",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べろ"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "見る → 見ろ"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.12.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.12.grammar.2",
+              "title": "Ⅲグループ命令",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "する → しろ ／ せよ"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る → 来い（こい）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.12.grammar.2.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.12.grammar.3",
+              "title": "全グループの禁止形",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書く → 書くな"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べるな"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "する → するな"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る → 来るな（くるな）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.12.grammar.3.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.13",
+          "title": "ば形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "毎日練習すれば、上手になります。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.13.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.13.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.13.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.13.grammar.0",
+              "title": "Ⅰグループ肯定",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書く → 書け → 書けば"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "読む → 読めば"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "買う → 買えば"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.13.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.13.grammar.1",
+              "title": "Ⅱグループ肯定",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べれば"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "見る → 見れば"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.13.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.13.grammar.2",
+              "title": "Ⅲグループ肯定",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "する → すれば"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る → 来れば（くれば）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.13.grammar.2.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.13.grammar.3",
+              "title": "否定の条件形",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "行く → 行かない → 行かなければ"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べない → 食べなければ"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.13.grammar.3.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.14",
+          "title": "たら形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "家に帰ったら、電話してください。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.14.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.14.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.14.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.14.grammar.0",
+              "title": "肯定の条件形",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "帰る → 帰った → 帰ったら"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "読む → 読んだ → 読んだら"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べた → 食べたら"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "する → した → したら"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る → 来た（きた）→ 来たら（きたら）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.14.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.14.grammar.1",
+              "title": "否定の条件形",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "行く → 行かない → 行かなかった → 行かなかったら"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.14.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.15",
+          "title": "受身形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "私は先生にほめられました。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.15.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.15.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.15.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.15.grammar.0",
+              "title": "Ⅰグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書く → 書か → 書かれる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "読む → 読まれる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "買う → 買われる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "話す → 話される"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.15.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.15.grammar.1",
+              "title": "Ⅱグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べられる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "見る → 見られる"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.15.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.15.grammar.2",
+              "title": "Ⅲグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "する → される"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る → 来られる（こられる）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.15.grammar.2.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.15.grammar.3",
+              "title": "過去形・丁寧形への活用",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "ほめる → ほめられる → ほめられた ／ ほめられました"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.15.grammar.3.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.16",
+          "title": "使役形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "先生は学生に作文を書かせました。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.16.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.16.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.16.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.16.grammar.0",
+              "title": "Ⅰグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書く → 書か → 書かせる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "読む → 読ませる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "買う → 買わせる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "話す → 話させる"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.16.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.16.grammar.1",
+              "title": "Ⅱグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べさせる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "見る → 見させる"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.16.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.16.grammar.2",
+              "title": "Ⅲグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "する → させる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る → 来させる（こさせる）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.16.grammar.2.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.16.grammar.3",
+              "title": "使役形からて形へ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "行く → 行かせる → 行かせて → 行かせてください"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "休む → 休ませる → 休ませて → 休ませていただけませんか"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.16.grammar.3.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.17",
+          "title": "使役受身形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "私は先生に作文を書かされました。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.17.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.17.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.17.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.17.grammar.0",
+              "title": "Ⅰグループ省略しない形",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書く → 書かせる → 書かせられる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "読む → 読ませる → 読ませられる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "話す → 話させる → 話させられる"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.17.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.17.grammar.1",
+              "title": "Ⅰグループよく使われる縮約形",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "書かせられる → 書かされる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "読ませられる → 読まされる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "買わせられる → 買わされる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "話す → 話させられる"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.17.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.17.grammar.2",
+              "title": "Ⅱグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べさせる → 食べさせられる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "見る → 見させる → 見させられる"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.17.grammar.2.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.17.grammar.3",
+              "title": "Ⅲグループ",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "する → させる → させられる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る → 来させる → 来させられる（こさせられる）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.17.grammar.3.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.18",
+          "title": "ないで・なくて・ずに",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "朝ご飯を食べずに、学校へ行きました。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.18.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.18.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.18.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.18.grammar.0",
+              "title": "ないで",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べない → 食べないで"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "行く → 行かない → 行かないでください"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.18.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.18.grammar.1",
+              "title": "なくて",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "分かる → 分からない → 分からなくて"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "できる → できない → できなくて"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.18.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.18.grammar.2",
+              "title": "ずに",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "飲む → 飲まない → 飲まずに"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べない → 食べずに"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "する → せずに"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "来る → 来ない（こない）→ 来ずに（こずに）"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.18.grammar.2.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.19",
+          "title": "尊敬語",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "先生はもうお帰りになりました。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.19.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.19.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.19.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.19.grammar.0",
+              "title": "お＋ます形の語幹＋になる",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "読む → 読みます → 読み → お読みになる → お読みになります"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.19.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.19.grammar.1",
+              "title": "（ら）れる形",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "行く → 行かれる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "話す → 話される"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.19.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.19.grammar.2",
+              "title": "特別な動詞",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "行く・来る・いる → いらっしゃる → いらっしゃいます"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "言う → おっしゃる → おっしゃいます"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "食べる・飲む → 召し上がる → 召し上がります"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "見る → ご覧になる → ご覧になります"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "する → なさる → なさいます"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "くれる → くださる → くださいます"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.19.grammar.2.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.20",
+          "title": "謙譲語",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "荷物をお持ちします。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.20.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.20.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.20.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.20.grammar.0",
+              "title": "お＋ます形の語幹＋する",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "持つ → 持ちます → 持ち → お持ちする → お持ちします"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.20.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.20.grammar.1",
+              "title": "ご＋漢語＋する",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "案内する → ご案内する → ご案内します"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "説明する → ご説明する → ご説明します"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.20.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.20.grammar.2",
+              "title": "特別な形",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "行く・来る → 参る → 参ります"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "いる → おる → おります"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "言う → 申す → 申します"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "見る → 拝見する → 拝見します"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "もらう → いただく → いただきます"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.20.grammar.2.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.21",
+          "title": "話し言葉の縮約形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "宿題を忘れちゃった。",
+              "translationId": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.21.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.21.note.0",
+            "jlpt-n5-doshi-no-katsuyo.verbs.grammar.21.note.1"
+          ],
+          "children": [
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.21.grammar.0",
+              "title": "ている→てる",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "食べる → 食べている → 食べてる"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "読む → 読んでいる → 読んでる"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.21.grammar.0.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.21.grammar.1",
+              "title": "てしまう→ちゃう",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "食べてしまう → 食べちゃう → 食べちゃった"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "飲んでしまう → 飲んじゃう → 飲んじゃった"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.21.grammar.1.note.0"
+              ],
+              "children": [],
+              "questions": []
+            },
+            {
+              "kind": "grammar",
+              "id": "jlpt-n5-doshi-no-katsuyo.verbs.grammar.21.grammar.2",
+              "title": "ておく→とく",
+              "examples": [
+                {
+                  "kind": "sentence",
+                  "text": "買っておく → 買っとく"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "読んでおく → 読んどく"
+                }
+              ],
+              "noteIds": [
+                "jlpt-n5-doshi-no-katsuyo.verbs.grammar.21.grammar.2.note.0"
+              ],
+              "children": [],
+              "questions": []
+            }
+          ],
+          "questions": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2241 @@
+{
+  "kind": "lesson",
+  "id": "ichinichi-jugofun-no-kanji-renshu.4",
+  "bookId": "ichinichi-jugofun-no-kanji-renshu",
+  "title": "91~120",
+  "modules": {
+    "kanji": {
+      "kind": "kanji-module",
+      "items": [
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.91",
+          "character": "画",
+          "strokeCount": 8,
+          "onReadings": [
+            "ガ",
+            "カク"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.91.word.0",
+              "word": "画家",
+              "reading": "がか",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.91.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.91.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "画家"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "がか"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.91.word.1",
+              "word": "画数",
+              "reading": "かくすう",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.91.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.91.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "画数"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "かくすう"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "あの人は[画家:がか]です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "この漢字の[画数:かくすう]は8です。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.92",
+          "character": "写",
+          "strokeCount": 5,
+          "onReadings": [
+            "シャ"
+          ],
+          "kunReadings": [
+            "うつ.します",
+            "うつ.ります"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.92.word.0",
+              "word": "写真",
+              "reading": "しゃしん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.92.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.92.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "写真"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "しゃしん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.92.word.1",
+              "word": "写します",
+              "reading": "うつします",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.92.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.92.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "写します"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "うつします"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "だれの[写真:しゃしん]ですか。"
+            },
+            {
+              "kind": "sentence",
+              "text": "先生の字を[写します:うつします]。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.93",
+          "character": "真",
+          "strokeCount": 10,
+          "onReadings": [
+            "シン"
+          ],
+          "kunReadings": [
+            "ま"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.93.word.0",
+              "word": "写真",
+              "reading": "しゃしん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.93.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.93.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "写真"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "しゃしん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.93.word.1",
+              "word": "真夜中",
+              "reading": "まよなか",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.93.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.93.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "真夜中"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "まよなか"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.93.word.2",
+              "word": "真ん中",
+              "reading": "まんなか",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.93.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.93.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "真ん中"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "まんなか"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "どこでこの[写真:しゃしん]を撮りましたか。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[真夜中:まよなか]に地震がありました。"
+            },
+            {
+              "kind": "sentence",
+              "text": "道の[真ん中:まんなか]を歩きます。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.94",
+          "character": "牛",
+          "strokeCount": 4,
+          "onReadings": [
+            "ギュウ"
+          ],
+          "kunReadings": [
+            "うし"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.94.word.0",
+              "word": "牛",
+              "reading": "うし",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.94.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.94.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "牛"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "うし"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.94.word.1",
+              "word": "牛肉",
+              "reading": "ぎゅうにく",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.94.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.94.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "牛肉"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "ぎゅうにく"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.94.word.2",
+              "word": "牛乳",
+              "reading": "ぎゅうにゅう",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.94.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.94.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "牛乳"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "ぎゅうにゅう"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この[牛:うし]は、今年生まれました。"
+            },
+            {
+              "kind": "sentence",
+              "text": "スーパーで[牛肉:ぎゅうにく]を買います。"
+            },
+            {
+              "kind": "sentence",
+              "text": "毎日、[牛乳:ぎゅうにゅう]を飲みます。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.95",
+          "character": "馬",
+          "strokeCount": 10,
+          "onReadings": [
+            "バ"
+          ],
+          "kunReadings": [
+            "うま"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.95.word.0",
+              "word": "馬",
+              "reading": "うま",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.95.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.95.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "馬"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "うま"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.95.word.1",
+              "word": "馬車",
+              "reading": "ばしゃ",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.95.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.95.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "馬車"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "ばしゃ"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "北海道で[馬:うま]を見ました。"
+            },
+            {
+              "kind": "sentence",
+              "text": "きのう[馬車:ばしゃ]に乗りました。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.96",
+          "character": "肉",
+          "strokeCount": 6,
+          "onReadings": [
+            "ニク"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.96.word.0",
+              "word": "豚肉",
+              "reading": "ぶたにく",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.96.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.96.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "豚肉"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "ぶたにく"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.96.word.1",
+              "word": "鳥肉",
+              "reading": "とりにく",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.96.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.96.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "鳥肉"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "とりにく"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "アリさんは[豚肉:ぶたにく]を食べません。"
+            },
+            {
+              "kind": "sentence",
+              "text": "野菜と[鳥肉:とりにく]を食べました。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.97",
+          "character": "魚",
+          "strokeCount": 11,
+          "onReadings": [
+            "ギョ"
+          ],
+          "kunReadings": [
+            "さかな",
+            "うお"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.97.word.0",
+              "word": "生の魚",
+              "reading": "なまのさかな",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.97.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.97.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "生の魚"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "なまのさかな"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.97.word.1",
+              "word": "魚屋",
+              "reading": "さかなや",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.97.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.97.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "魚屋"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "さかなや"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.97.word.2",
+              "word": "金魚",
+              "reading": "きんぎょ",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.97.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.97.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "金魚"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "きんぎょ"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本人は[生の魚:なまのさかな]を食べます。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[魚屋:さかなや]で働きます。"
+            },
+            {
+              "kind": "sentence",
+              "text": "きのう[金魚:きんぎょ]を買いました。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.98",
+          "character": "茶",
+          "strokeCount": 9,
+          "onReadings": [
+            "チャ",
+            "サ"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.98.word.0",
+              "word": "お茶",
+              "reading": "おちゃ",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.98.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.98.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "お茶"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "おちゃ"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.98.word.1",
+              "word": "紅茶",
+              "reading": "こうちゃ",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.98.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.98.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "紅茶"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "こうちゃ"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.98.word.2",
+              "word": "喫茶店",
+              "reading": "きっさてん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.98.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.98.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "喫茶店"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "きっさてん"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "毎日[お茶:おちゃ]を飲みます。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[紅茶:こうちゃ]を飲みますか。"
+            },
+            {
+              "kind": "sentence",
+              "text": "あの[喫茶店:きっさてん]でちょっと休みませんか。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.99",
+          "character": "酒",
+          "strokeCount": 10,
+          "onReadings": [
+            "シュ"
+          ],
+          "kunReadings": [
+            "さけ",
+            "さか"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.99.word.0",
+              "word": "お酒",
+              "reading": "おさけ",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.99.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.99.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "お酒"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "おさけ"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.99.word.1",
+              "word": "日本酒",
+              "reading": "にほんしゅ",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.99.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.99.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "日本酒"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "にほんしゅ"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.99.word.2",
+              "word": "酒屋",
+              "reading": "さかや",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.99.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.99.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "酒屋"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "さかや"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "毎晩、[お酒:おさけ]を飲みますか。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[日本酒:にほんしゅ]を飲みます。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[酒屋:さかや]でワインを買いました。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.100",
+          "character": "父",
+          "strokeCount": 4,
+          "onReadings": [
+            "フ"
+          ],
+          "kunReadings": [
+            "ちち"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.100.word.0",
+              "word": "お父さん",
+              "reading": "おとうさん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.100.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.100.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "お父さん"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "おとうさん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.100.word.1",
+              "word": "父",
+              "reading": "ちち",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.100.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.100.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "父"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "ちち"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "[お父さん:おとうさん]に何をあげましたか。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[父:ちち]の日にネクタイをあげました。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.101",
+          "character": "母",
+          "strokeCount": 5,
+          "onReadings": [
+            "ボ"
+          ],
+          "kunReadings": [
+            "はは"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.101.word.0",
+              "word": "お母さん",
+              "reading": "おかあさん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.101.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.101.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "お母さん"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "おかあさん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.101.word.1",
+              "word": "母",
+              "reading": "はは",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.101.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.101.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "母"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "はは"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "あの人は田中さんの[お母さん:おかあさん]です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[母:はは]は49歳です。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.102",
+          "character": "兄",
+          "strokeCount": 5,
+          "onReadings": [
+            "ケイ",
+            "キョウ"
+          ],
+          "kunReadings": [
+            "あに"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.102.word.0",
+              "word": "お兄さん",
+              "reading": "おにいさん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.102.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.102.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "お兄さん"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "おにいさん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.102.word.1",
+              "word": "兄",
+              "reading": "あに",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.102.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.102.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "兄"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "あに"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "トムさんの[お兄さん:おにいさん]は英語の先生です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "わたしの[兄:あに]は27歳です。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.103",
+          "character": "姉",
+          "strokeCount": 8,
+          "onReadings": [
+            "シ"
+          ],
+          "kunReadings": [
+            "あね"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.103.word.0",
+              "word": "お姉さん",
+              "reading": "おねえさん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.103.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.103.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "お姉さん"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "おねえさん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.103.word.1",
+              "word": "姉",
+              "reading": "あね",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.103.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.103.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "姉"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "あね"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "メアリーさんの[お姉さん:おねえさん]はきのう日本へ来ました。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[姉:あね]は会社員です。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.104",
+          "character": "弟",
+          "strokeCount": 7,
+          "onReadings": [
+            "ダイ",
+            "テイ"
+          ],
+          "kunReadings": [
+            "おとうと"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.104.word.0",
+              "word": "弟",
+              "reading": "おとうと",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.104.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.104.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "弟"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "おとうと"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.104.word.1",
+              "word": "兄弟",
+              "reading": "きょうだい",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.104.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.104.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "兄弟"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "きょうだい"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "[弟:おとうと]は学生です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[兄弟:きょうだい]は何人ですか。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.105",
+          "character": "妹",
+          "strokeCount": 8,
+          "onReadings": [
+            "マイ"
+          ],
+          "kunReadings": [
+            "いもうと"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.105.word.0",
+              "word": "妹",
+              "reading": "いもうと",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.105.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.105.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "妹"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "いもうと"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.105.word.1",
+              "word": "姉妹",
+              "reading": "しまい",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.105.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.105.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "姉妹"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "しまい"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "きのうの夜、[妹:いもうと]とテレビを見ました。"
+            },
+            {
+              "kind": "sentence",
+              "text": "わたしは[三人姉妹:さんにんしまい]です。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.106",
+          "character": "家",
+          "strokeCount": 10,
+          "onReadings": [
+            "カ"
+          ],
+          "kunReadings": [
+            "いえ"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.106.word.0",
+              "word": "家族",
+              "reading": "かぞく",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.106.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.106.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "家族"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "かぞく"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.106.word.1",
+              "word": "家",
+              "reading": "いえ",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.106.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.106.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "家"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "いえ",
+                    "うち"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "もう[家族:かぞく]に手紙を書きましたか。"
+            },
+            {
+              "kind": "sentence",
+              "text": "山田さんの[家:いえ]はどこですか。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.107",
+          "character": "族",
+          "strokeCount": 11,
+          "onReadings": [
+            "ゾク"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.107.word.0",
+              "word": "水族館",
+              "reading": "すいぞくかん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.107.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.107.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "水族館"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "すいぞくかん"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "おととい[水族館:すいぞくかん]へ行きました。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.108",
+          "character": "主",
+          "strokeCount": 5,
+          "onReadings": [
+            "シュ"
+          ],
+          "kunReadings": [
+            "おも",
+            "ぬし"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.108.word.0",
+              "word": "ご主人",
+              "reading": "ごしゅじん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.108.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.108.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "ご主人"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "ごしゅじん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.108.word.1",
+              "word": "主人",
+              "reading": "しゅじん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.108.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.108.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "主人"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "しゅじん"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "[ご主人:ごしゅじん]に何をもらいましたか。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[主人:しゅじん]に指輪をもらいました。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.109",
+          "character": "子",
+          "strokeCount": 3,
+          "onReadings": [
+            "シ"
+          ],
+          "kunReadings": [
+            "こ"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.109.word.0",
+              "word": "子ども",
+              "reading": "こども",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.109.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.109.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "子ども"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "こども"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.109.word.1",
+              "word": "男の子",
+              "reading": "おとこのこ",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.109.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.109.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "男の子"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "おとこのこ"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.109.word.2",
+              "word": "男子",
+              "reading": "だんし",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.109.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.109.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "男子"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "だんし"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "[子ども:こども]とデパートへ行きました。"
+            },
+            {
+              "kind": "sentence",
+              "text": "日本人の[男の子:おとこのこ]に英語を教えます。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[男子:だんし]トイレは3階です。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.110",
+          "character": "内",
+          "strokeCount": 4,
+          "onReadings": [
+            "ナイ"
+          ],
+          "kunReadings": [
+            "うち"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.110.word.0",
+              "word": "家内",
+              "reading": "かない",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.110.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.110.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "家内"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "かない"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.110.word.1",
+              "word": "案内します",
+              "reading": "あんないします",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.110.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.110.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "案内します"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "あんないします"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "来月[家内:かない]が日本へ来ます。"
+            },
+            {
+              "kind": "sentence",
+              "text": "これから京都を[案内します:あんないします]。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.111",
+          "character": "借",
+          "strokeCount": 10,
+          "onReadings": [
+            "シャク"
+          ],
+          "kunReadings": [
+            "か.ります"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.111.word.0",
+              "word": "借ります",
+              "reading": "かります",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.111.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.111.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "借ります"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "かります"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.111.word.1",
+              "word": "借金",
+              "reading": "しゃっきん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.111.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.111.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "借金"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "しゃっきん"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "鈴木さんに辞書を[借:か]りました。"
+            },
+            {
+              "kind": "sentence",
+              "text": "10万円、[借金:しゃっきん]をしました。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.112",
+          "character": "貸",
+          "strokeCount": 12,
+          "onReadings": [
+            "タイ"
+          ],
+          "kunReadings": [
+            "か.します"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.112.word.0",
+              "word": "貸します",
+              "reading": "かします",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.112.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.112.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "貸します"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "かします"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "先週、弟にお金を[貸:か]しました。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.113",
+          "character": "切",
+          "strokeCount": 4,
+          "onReadings": [
+            "セツ"
+          ],
+          "kunReadings": [
+            "き.ります"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.113.word.0",
+              "word": "切ります",
+              "reading": "きります",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.113.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.113.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "切ります"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "きります"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.113.word.1",
+              "word": "親切",
+              "reading": "しんせつ",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.113.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.113.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "親切"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "しんせつ"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.113.word.2",
+              "word": "切手",
+              "reading": "きって",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.113.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.113.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "切手"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "きって"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "はさみで紙を[切ります:きります]。"
+            },
+            {
+              "kind": "sentence",
+              "text": "田中さんは[親切:しんせつ]な人です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "80円の[切手:きって]をください。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.114",
+          "character": "修",
+          "strokeCount": 10,
+          "onReadings": [
+            "シュウ"
+          ],
+          "kunReadings": [
+            "おさ.めます"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.114.word.0",
+              "word": "修理します",
+              "reading": "しゅうりします",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.114.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.114.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "修理します"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "しゅうりします"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "ラジオを[修理します:しゅうりします]。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.115",
+          "character": "理",
+          "strokeCount": 11,
+          "onReadings": [
+            "リ"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.115.word.0",
+              "word": "料理",
+              "reading": "りょうり",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.115.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.115.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "料理"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "りょうり"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.115.word.1",
+              "word": "理科",
+              "reading": "りか",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.115.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.115.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "理科"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "りか"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "きのう[日本料理:にほんりょうり]を食べました。"
+            },
+            {
+              "kind": "sentence",
+              "text": "鈴木さんは[理科:りか]の先生です。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.116",
+          "character": "英",
+          "strokeCount": 8,
+          "onReadings": [
+            "エイ"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.116.word.0",
+              "word": "英語",
+              "reading": "えいご",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.116.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.116.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "英語"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "えいご"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "リンダさんに[英語:えいご]で手紙を書きました。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.117",
+          "character": "語",
+          "strokeCount": 14,
+          "onReadings": [
+            "ゴ"
+          ],
+          "kunReadings": [
+            "かた.ります"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.117.word.0",
+              "word": "日本語",
+              "reading": "にほんご",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.117.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.117.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "日本語"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "にほんご",
+                    "にっぽんご"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.117.word.1",
+              "word": "中国語",
+              "reading": "ちゅうごくご",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.117.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.117.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "中国語"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "ちゅうごくご"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "山田さんは[日本語:にほんご]の先生です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "だれに[中国語:ちゅうごくご]を習いましたか。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.118",
+          "character": "大",
+          "strokeCount": 3,
+          "onReadings": [
+            "ダイ",
+            "タイ"
+          ],
+          "kunReadings": [
+            "おお.きい"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.118.word.0",
+              "word": "大きい",
+              "reading": "おおきい",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.118.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.118.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "大きい"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "おおきい"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.118.word.1",
+              "word": "大学",
+              "reading": "だいがく",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.118.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.118.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "大学"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "だいがく"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.118.word.2",
+              "word": "大変",
+              "reading": "たいへん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.118.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.118.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "大変"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "たいへん"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "きのう、[大きい:おおきい]かばんを買いました。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[大学:だいがく]の図書館で勉強します。"
+            },
+            {
+              "kind": "sentence",
+              "text": "「10時まで働きました。」「[大変:たいへん]ですね。」"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.119",
+          "character": "小",
+          "strokeCount": 3,
+          "onReadings": [
+            "ショウ"
+          ],
+          "kunReadings": [
+            "ちい.さい",
+            "こ",
+            "お"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.119.word.0",
+              "word": "小さい",
+              "reading": "ちいさい",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.119.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.119.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "小さい"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "ちいさい"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.119.word.1",
+              "word": "小学校",
+              "reading": "しょうがっこう",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.119.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.119.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "小学校"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "しょうがっこう"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.119.word.2",
+              "word": "小切手",
+              "reading": "こぎって",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.119.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.119.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "小切手"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "こぎって"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "このセーターは[小さい:ちいさい]です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[新宿小学校:しんじゅくしょうがっこう]はどこですか。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[小切手:こぎって]で払いました。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.120",
+          "character": "高",
+          "strokeCount": 10,
+          "onReadings": [
+            "コウ"
+          ],
+          "kunReadings": [
+            "たか.い"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.120.word.0",
+              "word": "高い",
+              "reading": "たかい",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.120.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.120.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "高い"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "たかい"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.120.word.1",
+              "word": "高い",
+              "reading": "たかい",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.120.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.120.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "高い"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "たかい"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.120.word.2",
+              "word": "高校生",
+              "reading": "こうこうせい",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.4.kanji.120.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.4.kanji.120.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "高校生"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "acceptedAnswers": [
+                    "こうこうせい"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "サンシャインビルは[高い:たかい]ビルです。"
+            },
+            {
+              "kind": "sentence",
+              "text": "「この靴は2万円です。」「[高い:たかい]ですね。」"
+            },
+            {
+              "kind": "sentence",
+              "text": "妹は[高校生:こうこうせい]です。"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

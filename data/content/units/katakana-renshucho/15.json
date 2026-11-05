@@ -1,0 +1,130 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.15",
+  "bookId": "katakana-renshucho",
+  "title": "第15課 文房具②",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.15.word.0",
+          "word": "セロテープ",
+          "reading": "せろてーぷ",
+          "meaningId": "katakana-renshucho.15.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.15.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.15.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "セロテープ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.15.word.1",
+          "word": "カッター",
+          "reading": "かったー",
+          "meaningId": "katakana-renshucho.15.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.15.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.15.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "カッター"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.15.word.2",
+          "word": "ファイル",
+          "reading": "ふぁいる",
+          "meaningId": "katakana-renshucho.15.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.15.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.15.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ファイル"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.15.word.3",
+          "word": "ホッチキス",
+          "reading": "ほっちきす",
+          "meaningId": "katakana-renshucho.15.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.15.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.15.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ホッチキス",
+                "ホチキス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.15.word.4",
+          "word": "ガムテープ",
+          "reading": "がむてーぷ",
+          "meaningId": "katakana-renshucho.15.word.4.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.15.word.4.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.15.word.4.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ガムテープ"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

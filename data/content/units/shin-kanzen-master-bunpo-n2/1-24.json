@@ -1,0 +1,300 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-24",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第24課 提案する・意志を表す",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-24.grammar.0",
+          "title": "～（よ）うではないか",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "みんなでこの問題を考えようではないか。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "もう一度、原点に戻ってみようではないか。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-24.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "みんなでこの問題を考え（　）ではないか。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "る"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "よう"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ます"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "た"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-24.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-24.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-24.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-24.grammar.1",
+          "title": "～ことだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "風邪のときは、早く寝ることだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "人の話はよく聞くことだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-24.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-24.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-24.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-24.grammar.2",
+          "title": "～ものだ／～ものではない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "約束は守るものだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "人の悪口を言うものではない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-24.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-24.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-24.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-24.grammar.3",
+          "title": "～ことはない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "そんなに心配することはない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "わざわざ行くことはない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-24.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "風邪のときは、早く寝る（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "まいか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことはない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-24.grammar.3.question.1",
+              "prompt": [
+                {
+                  "japanese": "そんなに心配する（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.3.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことはない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "まいか"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-24.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-24.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-24.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-24.grammar.4",
+          "title": "～（よ）うか～まいか",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "旅行に行こうか行くまいか、まだ決めていない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "本当のことを言おうか言うまいか、迷っている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-24.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "本当のことを言おう（）、迷っている。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "と言うまいか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "か言うか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "か言うまいか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "か言わないか"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-24.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-24.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-24.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-24.grammar.5",
+          "title": "～ものか",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "あんな店、二度と行くものか。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "そんな恥ずかしいことはするものか。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.5.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-24.grammar.5.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-24.grammar.5.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-24.grammar.5.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-24.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

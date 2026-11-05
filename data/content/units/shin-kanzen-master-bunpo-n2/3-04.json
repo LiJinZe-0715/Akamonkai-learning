@@ -1,0 +1,133 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.3-04",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第4課 視点を動かさない手段-1 動詞の使い方",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-04.grammar.0",
+          "title": "自動詞と他動詞の使い分け",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "風でドアが開いた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-04.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "暑いので、窓を開けた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-04.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-04.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "風でドア（　）開いた。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-04.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "は"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "が"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-04.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-04.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-04.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-04.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-04.grammar.1",
+          "title": "～てある／～ておく",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "会議の資料はもう準備してある。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-04.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "明日までに資料を準備しておく。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-04.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-04.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "会議の資料はもう準備し（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-04.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "てしまう"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ている"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "てある"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ておく"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-04.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-04.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-04.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-04.grammar.1.pitfall"
+        }
+      ]
+    }
+  }
+}

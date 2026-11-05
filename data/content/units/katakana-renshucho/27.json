@@ -1,0 +1,106 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.27",
+  "bookId": "katakana-renshucho",
+  "title": "第27課 国名③",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.27.word.0",
+          "word": "イタリア",
+          "reading": "いたりあ",
+          "meaningId": "katakana-renshucho.27.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.27.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.27.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "イタリア"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.27.word.1",
+          "word": "エジプト",
+          "reading": "えじぷと",
+          "meaningId": "katakana-renshucho.27.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.27.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.27.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "エジプト"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.27.word.2",
+          "word": "オーストラリア",
+          "reading": "おーすとらりあ",
+          "meaningId": "katakana-renshucho.27.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.27.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.27.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "オーストラリア"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.27.word.3",
+          "word": "フィリピン",
+          "reading": "ふぃりぴん",
+          "meaningId": "katakana-renshucho.27.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.27.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.27.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "フィリピン"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

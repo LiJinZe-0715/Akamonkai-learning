@@ -1,0 +1,646 @@
+{
+  "kind": "lesson",
+  "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake",
+  "bookId": "nihongo-noryoku-shiken-n2-bunpo",
+  "title": "わけの表現",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.0",
+          "title": "～わけだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "毎日練習しているから、上達が早いわけだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "エアコンが壊れていたのか。暑いわけだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "十年も日本に住んでいれば、日本語が上手なわけだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.0.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.0.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.0.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.1",
+          "title": "～わけがない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼がそんな約束を忘れるわけがない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "一晩でこの本を全部読めるわけがない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "こんなに寒いのに、外で待てるわけがない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.1.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.1.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.1.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.2",
+          "title": "～わけではない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "甘い物が嫌いなわけではない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "日本に住んでいるからといって、日本語が完璧なわけではない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "高いものが必ずしもいいわけではない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.2.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.2.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.2.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.3",
+          "title": "～というわけではない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "高ければ必ず質がいいというわけではない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "有名な大学を出たからといって、仕事ができるというわけではない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "毎日同じものを食べているからといって、飽きているというわけではない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "値段が高ければ、必ず品質もいい（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.3.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わけにはいかない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "というわけではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけがない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.3.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.3.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.3.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4",
+          "title": "～わけにはいかない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "大事な試験の前に、遊びに行くわけにはいかない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "お世話になった人の頼みを断るわけにはいかない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "明日は早いから、今日は飲むわけにはいかない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "毎日三時間も練習しているのか。上達が早い（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わけだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけがない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけにはいかない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけではない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.question.1",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.question.1.prompt.0"
+                },
+                {
+                  "japanese": "甘い物が嫌いな（　）。健康のために控えているだけだ。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わけではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけにはいかない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.question.2",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.question.2.prompt.0"
+                },
+                {
+                  "japanese": "明日は大事な試験があるので、今夜は遊びに行く（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わけではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけにはいかない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけがない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけだ"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.question.3",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.question.3.prompt.0"
+                },
+                {
+                  "japanese": "秘密にしてほしいと頼まれた以上、他人に話す（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わけにはいかない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけがない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけだ"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5",
+          "title": "～ないわけにはいかない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "招待された以上、参加しないわけにはいかない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "借りたお金は返さないわけにはいかない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "先輩に頼まれては、手伝わないわけにはいかない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.0",
+              "prompt": [
+                {
+                  "japanese": "今日は祝日だから、銀行が閉まっている（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わけがない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないわけにはいかない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけだ"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.1",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.1.prompt.0"
+                },
+                {
+                  "japanese": "今週は忙しいが、まったく会えない（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ないわけにはいかない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "一方だ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけではない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.2",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.2.prompt.0"
+                },
+                {
+                  "japanese": "責任感の強い彼が、大切な約束を忘れる（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わけではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけがない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけにはいかない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.3",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.3.prompt.0"
+                },
+                {
+                  "japanese": "この量の仕事を一時間で全部終えられる（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わけがない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないわけにはいかない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけだ"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.4",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.4.prompt.0"
+                },
+                {
+                  "japanese": "お世話になった先生に招待されたのだから、参加しない（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.4.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わけにはいかない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけがない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけだ"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.5",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.5.prompt.0"
+                },
+                {
+                  "japanese": "自分のミスで迷惑をかけた以上、謝らない（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.5.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.5.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わけだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけにはいかない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけがない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけではない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.6",
+              "prompt": [
+                {
+                  "japanese": "日本に長く住んでいるからといって、漢字が全部読める（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.6.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.question.6.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わけがない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "というわけではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけにはいかない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.2-wake.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

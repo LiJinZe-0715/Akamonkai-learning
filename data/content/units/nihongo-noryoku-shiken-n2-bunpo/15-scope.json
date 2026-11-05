@@ -1,0 +1,641 @@
+{
+  "kind": "lesson",
+  "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope",
+  "bookId": "nihongo-noryoku-shiken-n2-bunpo",
+  "title": "無関係・限定",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0",
+          "title": "～にかかわらず",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "年齢にかかわらず、誰でも応募できます。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "天候にかかわらず、試合は行います。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "理由の有無にかかわらず、欠席は認められない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.question.0.prompt.0"
+                },
+                {
+                  "japanese": "経験があるかどうか（　）、参加者は同じ基礎クラスから始めます。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にすぎず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にもかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "はともかく"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.question.1",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.question.1.prompt.0"
+                },
+                {
+                  "japanese": "雨が降るか降らないか（　）、明日の試合は行われます。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にほかならず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にすぎず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "はさておき"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.question.2",
+              "prompt": [
+                {
+                  "japanese": "デザインは（　）、このパソコンは性能がいい。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "を問わず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にすぎない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ともかく"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.question.3",
+              "prompt": [
+                {
+                  "japanese": "費用の話は（　）、まず実現できるか検討しましょう。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "を問わず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "さておき"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にすぎない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.question.4",
+              "prompt": [
+                {
+                  "japanese": "前置きは（　）、すぐに結論から話してください。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.question.4.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "さておき"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にすぎず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にほかならず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.1",
+          "title": "～を問わず",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "経験の有無を問わず、応募できます。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "性別を問わず、多くの人が参加した。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "曜日を問わず、いつでも連絡してください。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.1.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.1.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.1.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.2",
+          "title": "～はともかく",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "値段はともかく、品質はとてもいい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "見た目はともかく、味は保証する。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "結果はともかく、よく頑張った。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.2.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.2.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.2.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.3",
+          "title": "～はさておき",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "冗談はさておき、本題に入りましょう。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "費用はさておき、まず安全性を考えよう。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "名前はさておき、この料理はおいしい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.3.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.3.question.0.prompt.0"
+                },
+                {
+                  "japanese": "年齢や性別（　）、幅広い人材を募集しています。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.3.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "を問わず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にもかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "はさておき"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にすぎず"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.3.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.3.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.3.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.4",
+          "title": "～にすぎない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "これは私個人の意見にすぎない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼はまだ新人にすぎない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "原因は単なる勘違いにすぎなかった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "私はただ、聞いたことを伝えた（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.4.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にすぎない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を問わず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "はさておかない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を問わない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.4.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.4.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.4.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5",
+          "title": "～にほかならない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "成功の理由は、毎日の努力にほかならない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼が怒ったのは、信頼されたかったからにほかならない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この結果は、準備不足の表れにほかならない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.question.0.prompt.0"
+                },
+                {
+                  "japanese": "この大会は、国籍（　）誰でも参加できる。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にすぎず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を問わず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "はともかく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にほかならない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.question.1",
+              "prompt": [
+                {
+                  "japanese": "彼の方法が正しいかどうかは（　）、結果は出ている。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にほかならない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ともかく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にすぎない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.question.2",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.question.2.prompt.0"
+                },
+                {
+                  "japanese": "彼の発言は、個人的な意見（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にほかならない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を問わず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にすぎない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.question.3",
+              "prompt": [
+                {
+                  "japanese": "このプロジェクトが成功したのは、チーム全員が協力したから（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にほかならない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を問わず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "はともかく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限らず"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.question.4",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.question.4.prompt.0"
+                },
+                {
+                  "japanese": "今回の失敗は、準備不足が招いた結果（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.question.4.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に先立って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "はさておき"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にほかならない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.15-scope.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-16",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第16課 ～だから（理由）-1",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-16.grammar.0",
+          "title": "～によって",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "今回の事故によって、多くの人がけがをした。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "国によって習慣が違う。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-16.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "国（　）習慣が違う。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "おかげで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "によって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "につき"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-16.grammar.0.question.1",
+              "prompt": [
+                {
+                  "japanese": "工事中（　）、この道は通れません。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.0.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "おかげで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "によって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "につき"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-16.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-16.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-16.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-16.grammar.1",
+          "title": "～ものだから・～もので",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "道が込んでいたものだから、遅れてしまいました。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "知らなかったもので、失礼しました。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-16.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "道が込んでいた（　）、遅れてしまいました。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-16.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-16.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-16.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-16.grammar.2",
+          "title": "～おかげだ／～せいだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "先生のおかげで、合格できました。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "寝坊したせいで、電車に乗り遅れた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-16.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "先生の（　）、合格できました。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "くせに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "おかげで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "せいで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "あまり"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-16.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-16.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-16.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-16.grammar.3",
+          "title": "～あまり・あまりの～に",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "驚きのあまり、声も出なかった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "あまりの寒さに、手が震えた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-16.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-16.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-16.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-16.grammar.4",
+          "title": "～につき",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "本日は休業日につき、営業しておりません。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "工事中につき、この道は通れません。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-16.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-16.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-16.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-16.grammar.4.pitfall"
+        }
+      ]
+    }
+  }
+}

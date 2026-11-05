@@ -1,0 +1,1011 @@
+/* 瑞士网格式学习页：紧凑的单词行、带分隔线的文法栏、扁平的答题纸。 */
+
+/* 单词 */
+
+.vocabulary-toolbar {
+    display: grid;
+    gap: 16px;
+    margin-bottom: 4px;
+}
+
+.vocabulary-toolbar input[type="search"] {
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    border-bottom: 2px solid var(--rule-strong);
+    background: transparent;
+    font-size: calc(12px * var(--font-scale));
+    outline: none;
+}
+
+.vocabulary-toolbar input[type="search"]:focus {
+    border-bottom-color: var(--accent);
+}
+
+.vocabulary-toolbar input[type="search"]::placeholder {
+    color: var(--ink-3);
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    width: fit-content;
+    max-width: 100%;
+    border: 1px solid var(--rule-strong);
+}
+
+.filter-buttons button {
+    padding: 6px 13px;
+    border: 0;
+    border-right: 1px solid var(--rule);
+    background: transparent;
+    color: var(--ink-2);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1.6;
+    cursor: pointer;
+    transition: background 120ms ease, color 120ms ease;
+}
+
+.filter-buttons button:last-child {
+    border-right: 0;
+}
+
+.filter-buttons button:hover {
+    background: var(--surface-2);
+    color: var(--ink);
+}
+
+.filter-buttons button[aria-pressed="true"] {
+    background: var(--ink);
+    color: var(--paper);
+}
+
+.list-caption {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--rule);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.vocabulary-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+}
+
+.word-row {
+    display: grid;
+    grid-template-columns: 32px minmax(0, 1fr) auto;
+    gap: 16px;
+    align-items: start;
+    padding: 18px 10px 18px 12px;
+    border-bottom: 1px solid var(--rule);
+    border-left: 3px solid transparent;
+    scroll-margin-top: 25px;
+    transition: background 120ms ease, border-color 120ms ease;
+}
+
+.word-row:hover {
+    border-left-color: var(--accent);
+    background: var(--surface-2);
+}
+
+.row-number {
+    padding-top: 5px;
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.word-content {
+    display: grid;
+    gap: 1px;
+    min-width: 0;
+    max-width: var(--measure);
+}
+
+.word-reading {
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: var(--ink-3);
+}
+
+.word-headword {
+    font-family: var(--font-display);
+    font-size: calc(18px * var(--font-scale));
+    font-weight: 700;
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+}
+
+.word-meaning {
+    margin-top: 3px;
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.7;
+    color: var(--ink-2);
+}
+
+.word-note {
+    margin-top: 9px;
+}
+
+/* 用法直接展开：小标签 + 说明文字。 */
+.word-note-label {
+    display: inline-block;
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    color: var(--ink-3);
+}
+
+.word-note > p {
+    margin-top: 4px;
+    max-width: var(--measure);
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.85;
+    color: var(--ink-2);
+}
+
+.word-actions {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+    opacity: 0.9;
+    transition: opacity 120ms ease;
+}
+
+.word-actions .icon-button {
+    color: var(--ink-2);
+}
+
+.word-actions .icon-button:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+.word-actions .icon-button[aria-pressed="true"] {
+    color: var(--accent);
+}
+
+.word-actions .icon-button span,
+.example-japanese .icon-button span {
+    display: none;
+}
+
+.word-row:hover .word-actions,
+.word-actions:focus-within {
+    opacity: 1;
+}
+
+/* 文法 */
+
+/* 目录移进了翻页条：每个文法点占一页，原来放索引的那一栏就取消了。
+   栏本身占满窗口；只有正文保留行宽上限（见 --measure）。 */
+.grammar-body {
+    min-width: 0;
+}
+
+.grammar-examples {
+    min-width: 0;
+}
+
+.grammar-article {
+    margin-bottom: 72px;
+    scroll-margin-top: 24px;
+}
+
+.grammar-head,
+.passage-head {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--rule-strong);
+}
+
+.grammar-no {
+    flex: none;
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+}
+
+.grammar-title,
+.passage-title {
+    font-size: calc(20px * var(--font-scale));
+    font-weight: 700;
+    line-height: 1.32;
+    letter-spacing: -0.02em;
+}
+
+/* 讲解和例句放在同一个面板里，一条规则读起来是一整个块，
+   而不是一摞互不相干的盒子。 */
+
+.grammar-panel {
+    margin-top: 16px;
+    border: 1px solid var(--rule);
+    border-top: 1px solid var(--rule-strong);
+    background: var(--surface);
+}
+
+.panel-block {
+    padding: 20px 24px 22px;
+}
+
+.panel-block + .panel-block {
+    border-top: 1px solid var(--rule);
+}
+
+.panel-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink);
+}
+
+.panel-label::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: var(--accent);
+}
+
+.panel-label b {
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+}
+
+/* 行：左侧标签栏，右侧正文。各行字号一致；
+   只有核心句和接续条另做样式。 */
+
+.explain-rows {
+    display: grid;
+    margin-top: 8px;
+}
+
+/* 标签列（构成、注意、译、解析……）的宽度。中文标签一两个字，英文的 Formation、
+   Explanation 长得多，固定宽度下会压到右边的正文上，所以英文界面单独加宽，并随字号缩放。 */
+:root {
+    --explain-label-width: 58px;
+    --explain-label-width-compact: 52px;
+    --example-tag-width: 26px;
+    --sentence-tag-width: calc(20px * var(--font-scale));
+}
+
+:lang(en) {
+    --explain-label-width: calc(58px * var(--font-scale));
+    --explain-label-width-compact: calc(58px * var(--font-scale));
+    --example-tag-width: calc(40px * var(--font-scale));
+    --sentence-tag-width: calc(56px * var(--font-scale));
+}
+
+.explain-row {
+    display: grid;
+    grid-template-columns: var(--explain-label-width) minmax(0, 1fr);
+    gap: 18px;
+    padding: 15px 0;
+    border-top: 1px solid var(--rule);
+}
+
+.explain-row:first-child {
+    border-top: 0;
+    padding-top: 12px;
+}
+
+.explain-row:last-child {
+    padding-bottom: 0;
+}
+
+.explain-label {
+    padding-top: 5px;
+    font-size: calc(10px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    line-height: 1.5;
+    color: var(--ink-3);
+    white-space: nowrap;
+}
+
+.explain-body {
+    font-size: calc(12px * var(--font-scale));
+    line-height: 1.9;
+    color: var(--ink);
+    text-wrap: pretty;
+    line-break: strict;
+}
+
+/* 核心：学习者必须记住的那一句。 */
+.tone-core {
+    padding: 18px 0 20px;
+}
+
+.tone-core .explain-label {
+    padding-top: 8px;
+    color: var(--accent);
+}
+
+.tone-core .explain-body {
+    font-size: calc(14px * var(--font-scale));
+    font-weight: 600;
+    line-height: 1.72;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+}
+
+/* 接续：句型，单独排开，方便直接抄进笔记。 */
+.tone-pattern .explain-body {
+    padding: 11px 15px;
+    border-left: 2px solid var(--ink);
+    background: var(--surface-2);
+    font-size: calc(12px * var(--font-scale));
+    font-weight: 600;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+}
+
+/* 易错：字号不变，只把标签加深到全黑，让眼睛先注意到。 */
+.tone-warn .explain-label {
+    color: var(--ink);
+}
+
+/* 中文正文里的日语：加强字重，不加框——每个引词都套个实心色块，
+   整行会被切得七零八落。 */
+.ja-quote {
+    font-family: var(--font-display);
+    font-style: normal;
+    font-weight: 700;
+    color: var(--accent);
+}
+
+/* 只写汉字的词条看着和中文一模一样，所以用字重而不是颜色区分
+   ——只标出词条，不替它断言属于哪种文字。 */
+.term-head {
+    font-weight: 700;
+    color: var(--ink);
+}
+
+/* 两个引例连着写会粘成一整串；分隔符由视图直接输出，
+   不靠兄弟选择器加。 */
+.ja-sep {
+    padding: 0 4px;
+    font-weight: 400;
+    color: var(--ink-3);
+}
+
+.example-list {
+    display: grid;
+    margin-top: 10px;
+}
+
+.example {
+    padding: 16px 0 18px;
+    border-top: 1px solid var(--rule);
+}
+
+.example:first-child {
+    border-top: 0;
+    padding-top: 6px;
+}
+
+.example:last-child {
+    padding-bottom: 0;
+}
+
+.example-no {
+    display: block;
+    margin-bottom: 6px;
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    letter-spacing: 0.1em;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.example-japanese {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    max-width: var(--measure);
+    font-family: var(--font-display);
+    font-size: calc(14px * var(--font-scale));
+    font-weight: 500;
+    line-height: 1.8;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+}
+
+.example-japanese strong {
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.dialogue-lines {
+    display: grid;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.dialogue-lines .example-japanese {
+    font-size: calc(14px * var(--font-scale));
+}
+
+.example-line {
+    display: grid;
+    grid-template-columns: var(--example-tag-width) minmax(0, 1fr);
+    gap: 12px;
+    margin-top: 9px;
+    padding-right: 36px;
+}
+
+.example-zh {
+    max-width: var(--measure);
+    font-size: calc(12px * var(--font-scale));
+    line-height: 1.85;
+    color: var(--ink-2);
+}
+
+.example-note {
+    max-width: var(--measure);
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.9;
+    color: var(--ink-2);
+}
+
+/* 一句一行，拆解内容才好扫读。 */
+.prose-line {
+    display: block;
+}
+
+.prose-line + .prose-line {
+    margin-top: 3px;
+}
+
+.example-tag {
+    padding-top: 4px;
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--ink-3);
+    white-space: nowrap;
+}
+
+.is-note .example-tag {
+    color: var(--accent);
+}
+
+.example > details {
+    margin-top: 10px;
+}
+
+.example > details > summary {
+    display: inline-block;
+    padding-bottom: 1px;
+    border-bottom: 1px solid var(--rule-strong);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    list-style: none;
+}
+
+.example > details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.example > details > p,
+.example > details > span {
+    display: block;
+    margin-top: 8px;
+    font-family: var(--font-display);
+    font-size: calc(12px * var(--font-scale));
+    color: var(--ink);
+}
+
+/* 嵌套规则保持同样形状，小一号并向右缩进一条线。 */
+.grammar-rule {
+    margin-top: 34px;
+    padding-left: 24px;
+    border-left: 1px solid var(--rule);
+    scroll-margin-top: 24px;
+}
+
+.grammar-rule > .grammar-head {
+    padding-bottom: 10px;
+    border-bottom-width: 1px;
+}
+
+.grammar-rule .grammar-title {
+    font-size: calc(16px * var(--font-scale));
+}
+
+.grammar-rule .panel-block {
+    padding: 18px 20px 20px;
+}
+
+.grammar-rule .explain-row {
+    grid-template-columns: var(--explain-label-width-compact) minmax(0, 1fr);
+    gap: 14px;
+}
+
+.grammar-body .speech-controls,
+.grammar-examples .speech-controls {
+    margin-bottom: 34px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--rule);
+}
+
+/* 课文：先整篇，再逐句 */
+
+.passage-body {
+    min-width: 0;
+}
+
+.passage {
+    margin-bottom: 72px;
+    scroll-margin-top: 24px;
+}
+
+.passage-panel {
+    margin-top: 16px;
+    padding: 18px 24px 24px;
+    border: 1px solid var(--rule);
+    border-top: 1px solid var(--rule-strong);
+    background: var(--surface);
+}
+
+/* 课文整版摊开，不设行宽上限：正文区有多大就占多大。 */
+.passage-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+/* 按印刷页面排版：两端对齐、行距宽松、句间不留空。 */
+.passage-text {
+    margin-top: 14px;
+    font-family: var(--font-display);
+    font-size: calc(12px * var(--font-scale));
+    font-weight: 500;
+    line-height: 2.05;
+    letter-spacing: 0.01em;
+    text-align: justify;
+    color: var(--ink);
+}
+
+.passage-caption {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 44px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--rule-strong);
+}
+
+.passage-caption small {
+    font-size: calc(8px * var(--font-scale));
+    letter-spacing: 0.06em;
+    color: var(--ink-3);
+}
+
+.sentence-list {
+    list-style: none;
+}
+
+.sentence {
+    display: grid;
+    grid-template-columns: calc(28px * var(--font-scale)) minmax(0, 1fr);
+    gap: 14px;
+    padding: 18px 0 20px;
+    border-bottom: 1px solid var(--rule);
+}
+
+.sentence-no {
+    padding-top: 6px;
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    letter-spacing: 0.1em;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.sentence-body {
+    min-width: 0;
+}
+
+.sentence-ja {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    font-family: var(--font-display);
+    font-size: calc(12px * var(--font-scale));
+    font-weight: 500;
+    line-height: 1.85;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+}
+
+.sentence-ja .icon-button span {
+    display: none;
+}
+
+.sentence-line {
+    display: grid;
+    grid-template-columns: var(--sentence-tag-width) minmax(0, 1fr);
+    gap: 12px;
+    margin-top: 8px;
+    padding-right: 36px;
+}
+
+.sentence-tag {
+    padding-top: 4px;
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--ink-3);
+    white-space: nowrap;
+}
+
+.sentence-line.is-note .sentence-tag {
+    color: var(--accent);
+}
+
+.sentence-zh {
+    font-size: calc(12px * var(--font-scale));
+    line-height: 1.85;
+    color: var(--ink-2);
+}
+
+.sentence-note {
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.9;
+    color: var(--ink-2);
+}
+
+/* 测验 */
+
+.assessment {
+    min-width: 0;
+}
+
+.assessment-heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    max-width: var(--measure);
+    padding-bottom: 11px;
+    border-bottom: 2px solid var(--rule-strong);
+}
+
+.assessment-heading > p {
+    font-size: calc(10px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--ink-2);
+}
+
+.assessment-heading > span {
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.assessment > progress {
+    display: block;
+    width: 100%;
+    height: 4px;
+    margin: 16px 0 4px;
+    border: 0;
+    appearance: none;
+    background: var(--rule);
+}
+
+.assessment > progress::-webkit-progress-bar {
+    background: var(--rule);
+}
+
+.assessment > progress::-webkit-progress-value {
+    background: var(--accent);
+}
+
+.assessment > progress::-moz-progress-bar {
+    background: var(--accent);
+}
+
+.questions {
+    display: grid;
+}
+
+.question {
+    min-width: 0;
+    margin: 0;
+    padding: 26px 0 24px;
+    border: 0;
+    border-bottom: 1px solid var(--rule);
+}
+
+.question > legend {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    padding: 0;
+    margin-bottom: 15px;
+    font-family: var(--font-display);
+    font-size: calc(12px * var(--font-scale));
+    font-weight: 700;
+    line-height: 1.55;
+    letter-spacing: -0.01em;
+}
+
+.question-number {
+    flex: none;
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.question.correct .question-number {
+    color: var(--ok);
+}
+
+.question.incorrect .question-number {
+    color: var(--bad);
+}
+
+.question > p.muted {
+    margin: -8px 0 14px 36px;
+    font-size: calc(8px * var(--font-scale));
+}
+
+.options {
+    display: grid;
+    gap: 0;
+    border-top: 1px solid var(--rule);
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 11px 14px;
+    border-bottom: 1px solid var(--rule);
+    cursor: pointer;
+    transition: background 120ms ease, color 120ms ease;
+}
+
+.options label:hover {
+    background: var(--surface-2);
+}
+
+.options label.selected {
+    background: var(--accent-soft);
+    box-shadow: inset 3px 0 0 var(--accent);
+}
+
+.options label.answer-key {
+    box-shadow: inset 3px 0 0 var(--ok);
+}
+
+.options label.selected.answer-key {
+    box-shadow: inset 3px 0 0 var(--ok);
+}
+
+.options input[type="radio"] {
+    flex: none;
+    width: 13px;
+    height: 13px;
+    margin: 0;
+    border: 1px solid var(--rule-strong);
+    border-radius: 50%;
+    appearance: none;
+    cursor: pointer;
+}
+
+.options input[type="radio"]:checked {
+    border-color: var(--accent);
+    background: var(--accent);
+    box-shadow: inset 0 0 0 3px var(--paper);
+}
+
+.option-letter {
+    flex: none;
+    width: 13px;
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    color: var(--ink-3);
+}
+
+.answer-input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--rule-strong);
+    background: var(--paper);
+    font-size: calc(10px * var(--font-scale));
+    outline: none;
+    transition: border-color 120ms ease;
+}
+
+.answer-input:focus {
+    border-color: var(--accent);
+    box-shadow: inset 0 -2px 0 var(--accent);
+}
+
+.feedback {
+    margin-top: 14px;
+    padding: 13px 16px;
+    border-left: 3px solid var(--accent);
+    background: var(--surface-2);
+}
+
+.feedback > strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+.feedback > p {
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.8;
+    color: var(--ink-2);
+}
+
+.question-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 14px;
+}
+
+.question-actions button {
+    padding: 7px 16px;
+    border: 1px solid var(--rule-strong);
+    background: transparent;
+    color: var(--ink);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 120ms ease, color 120ms ease;
+}
+
+.question-actions button:hover:not(:disabled) {
+    background: var(--ink);
+    color: var(--paper);
+}
+
+.question-actions button:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+
+.submit-area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+    margin-top: 8px;
+    padding-top: 32px;
+    border-top: 2px solid var(--rule-strong);
+}
+
+.submit-area .muted {
+    font-size: calc(8px * var(--font-scale));
+}
+
+.result-panel {
+    margin: 28px 0 8px;
+    padding: 26px 28px;
+    border: 2px solid var(--rule-strong);
+    background: var(--paper);
+}
+
+.result-panel > h2 {
+    font-family: var(--font-sans);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+}
+
+.result-panel > strong {
+    display: block;
+    margin: 10px 0 22px;
+    font-family: var(--font-display);
+    font-size: calc(32px * var(--font-scale));
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 860px) {
+    .panel-block {
+        padding: 18px 18px 20px;
+    }
+
+    .grammar-rule {
+        padding-left: 16px;
+    }
+
+    .grammar-rule .panel-block {
+        padding: 16px 16px 18px;
+    }
+
+    .explain-row,
+    .grammar-rule .explain-row {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 6px;
+        padding: 14px 0;
+    }
+
+    .explain-label,
+    .tone-core .explain-label {
+        padding-top: 0;
+    }
+
+    .example-line {
+        padding-right: 0;
+    }
+
+    .passage-panel {
+        padding: 16px 18px 20px;
+    }
+
+    .sentence {
+        grid-template-columns: calc(20px * var(--font-scale)) minmax(0, 1fr);
+        gap: 10px;
+    }
+
+    .sentence-line {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 4px;
+        padding-right: 0;
+    }
+
+    .word-row {
+        grid-template-columns: 24px minmax(0, 1fr) auto;
+        gap: 12px;
+    }
+
+}

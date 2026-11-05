@@ -1,0 +1,629 @@
+{
+  "kind": "lesson",
+  "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition",
+  "bookId": "nihongo-noryoku-shiken-n2-bunpo",
+  "title": "条件",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.0",
+          "title": "～ものなら",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "行けるものなら、世界一周旅行をしてみたい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "できるものなら、あの日に戻ってやり直したい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "許されるものなら、すぐにでも会社を辞めたい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.0.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.0.question.0.prompt.0"
+                },
+                {
+                  "japanese": "こんな時間にピアノを（　）、近所から苦情が来るよ。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.0.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "弾くとしたら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "弾けるものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "弾こうものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "弾かない限り"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.0.question.1",
+              "prompt": [
+                {
+                  "japanese": "法律が変わら（　）、現在の制度は続くだろう。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.0.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.0.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ともかく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ない限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.0.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.0.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.0.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1",
+          "title": "～ようものなら",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "そんなことを言おうものなら、みんなに反対される。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "親に黙って留学しようものなら、大変なことになる。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この秘密を漏らそうものなら、ただでは済まない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "もう一度人生をやり直せる（　）、別の仕事を選ぶかもしれない。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ない限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ようものなら"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.question.1",
+              "prompt": [
+                {
+                  "japanese": "会える（　）、もう一度先生とゆっくり話したい。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ないことには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ようものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.question.2",
+              "prompt": [
+                {
+                  "japanese": "本人が謝ら（　）、私はこの件を許すつもりはない。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ようものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ない限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ともかく"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.question.3",
+              "prompt": [
+                {
+                  "japanese": "もし一年休みが取れる（　）、何をしたいですか。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ない限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ようものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "としたら"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.question.4",
+              "prompt": [
+                {
+                  "japanese": "このペースが続く（　）、完成まであと三日必要だ。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.question.4.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないことには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "とすれば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ようものなら"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2",
+          "title": "～ないことには",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "実際に使ってみないことには、便利かどうか分からない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "本人に聞いてみないことには、何も決められない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "お金を集めないことには、計画は始められない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.question.0.prompt.0"
+                },
+                {
+                  "japanese": "この秘密を誰かに（　）、二度と信用しない。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "話せるものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "話さないことには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "話そうものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "話すとすれば"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "実物を見てみ（　）、買うかどうか決められない。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないことには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ともかく"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.question.2",
+              "prompt": [
+                {
+                  "japanese": "彼に直接聞いてみ（　）、本当の理由は分からない。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ないことには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ともかく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.question.3",
+              "prompt": [
+                {
+                  "japanese": "彼の話が本当だ（　）、あなたはどうしますか。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないことには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "としたら"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.3",
+          "title": "～ない限り",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "努力しない限り、上達は望めない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "実際に会わない限り、本当のことは分からない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "事故が起きない限り、この規則は変えられない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "参加者が一人五千円払う（　）、百人で五十万円集まる。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.3.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ない限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "とすれば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかかわらず"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.3.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.3.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.3.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.4",
+          "title": "～としたら",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "一年間海外で働くとしたら、どの国を選びますか。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "もし私が彼の立場だとしたら、同じことをしただろう。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "宝くじが当たったとしたら、まず何をしますか。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.4.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.4.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.4.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.5",
+          "title": "～とすれば",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "一日に十ページ進むとすれば、読み終わるまでに二十日かかる。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "一人五千円だとすれば、十人で五万円になる。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.5.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼が来ないとすれば、会議は延期だろう。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.5.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.5.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.5.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.5.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.11-condition.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

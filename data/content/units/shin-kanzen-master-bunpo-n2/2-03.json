@@ -1,0 +1,193 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.2-03",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第3課 文の組み立て-3 「～ない」がつく文法形式",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.2-03.grammar.0",
+          "title": "～ないまでも",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "毎日とは言わないまでも、週に一度は運動したい。",
+              "translationId": "shin-kanzen-master-bunpo-n2.2-03.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "合格しないまでも、力はついたはずだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.2-03.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.2-03.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "毎日とは言わ（　）、週に一度は運動したい。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.2-03.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ないでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないことには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないまでも"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ずには"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.2-03.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.2-03.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.2-03.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.2-03.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.2-03.grammar.1",
+          "title": "～ないものでもない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "条件次第では、引き受けられないものでもない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.2-03.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "時間があれば、行けないものでもない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.2-03.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.2-03.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "条件次第では、引き受けられ（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.2-03.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ずにはいられない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ざるを得ない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないものでもない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないではすまない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.2-03.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.2-03.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.2-03.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.2-03.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.2-03.grammar.2",
+          "title": "～ないではすまない・～ずにはすまない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "こんなに壊してしまったら、弁償しないではすまない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.2-03.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼にひどいことを言ったので、謝らずにはすまない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.2-03.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.2-03.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "こんなに壊したら、弁償せ（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.2-03.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ざるを得ない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ずにはいられない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ずにはすまない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないまでも"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.2-03.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.2-03.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.2-03.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.2-03.grammar.2.pitfall"
+        }
+      ]
+    }
+  }
+}

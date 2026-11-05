@@ -1,0 +1,252 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-10",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第10課 ～やらなど",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-10.grammar.0",
+          "title": "～やら～やら",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "机の上には本やら書類やらが山のように積んである。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-10.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "忙しくて、会議やら出張やらで休む暇もない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-10.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-10.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "机の上には本（　）書類やらが山のように積んである。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-10.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "さえ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "こそ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "やら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかり"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-10.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-10.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-10.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-10.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-10.grammar.1",
+          "title": "～というか～というか",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼の態度は、失礼というか、無神経というか、とにかく腹が立つ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-10.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "うれしいというか、恥ずかしいというか、複雑な気持ちだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-10.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-10.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "行く（　）行かないにしろ、早く決めてください。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-10.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "につけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にしろ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に応じ"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-10.grammar.1.question.1",
+              "prompt": [
+                {
+                  "japanese": "彼の態度は、失礼（　）、無神経というか、とにかく腹が立つ。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-10.grammar.1.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "といえば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "といっても"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "というか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "としたら"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-10.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-10.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-10.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-10.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-10.grammar.2",
+          "title": "～にしても～にしても",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "賛成にしても反対にしても、まず意見を聞かせてほしい。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-10.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "行くにしろ行かないにしろ、早く決めてください。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-10.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-10.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-10.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-10.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-10.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-10.grammar.3",
+          "title": "～といった",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "リンゴやミカンといった果物が好きだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-10.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "京都や奈良といった古い都を訪ねた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-10.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-10.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "リンゴやミカン（　）果物が好きだ。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-10.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "といった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "といえば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "としたら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "という"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-10.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-10.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-10.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-10.grammar.3.pitfall"
+        }
+      ]
+    }
+  }
+}

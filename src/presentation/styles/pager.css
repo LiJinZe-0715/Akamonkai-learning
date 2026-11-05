@@ -1,0 +1,292 @@
+/* 分页阅读器：一页一条，左右翻页，索引随手可及。 */
+
+.paged {
+    display: grid;
+    gap: 0;
+}
+
+/* 翻页条贴在站点页头与模式切换器下方，去往其他页的入口
+   永远不会滚出视野。 */
+.paged-bar {
+    position: sticky;
+    top: 66px;
+    z-index: 24;
+    display: grid;
+    margin-bottom: 30px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule-strong);
+    background: var(--paper);
+}
+
+.paged-row {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 0;
+}
+
+.paged-step {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 6px 11px;
+    border: 1px solid var(--rule-strong);
+    background: transparent;
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    line-height: 1.4;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background 120ms ease, color 120ms ease, opacity 120ms ease;
+}
+
+.paged-step:hover:not(:disabled),
+.paged-step:focus-visible:not(:disabled) {
+    background: var(--ink);
+    color: var(--paper);
+}
+
+.paged-step:disabled {
+    opacity: 0.28;
+    cursor: default;
+}
+
+.paged-middle {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
+}
+
+.paged-count {
+    flex: none;
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    letter-spacing: 0.06em;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+.paged-count b {
+    font-weight: 700;
+    color: var(--ink);
+}
+
+.paged-select {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding: 4px 2px;
+    border: 0;
+    border-bottom: 1px solid var(--rule-strong);
+    background: transparent;
+    color: var(--ink);
+    font-family: var(--font-display);
+    font-size: calc(10px * var(--font-scale));
+    font-weight: 500;
+    line-height: 1.6;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.paged-select:focus-visible {
+    outline: none;
+    border-bottom-color: var(--accent);
+}
+
+.paged-index-toggle {
+    flex: none;
+    padding: 5px 11px;
+    border: 1px solid var(--rule-strong);
+    background: transparent;
+    color: var(--ink-2);
+    font-family: var(--font-sans);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    line-height: 1.5;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background 120ms ease, color 120ms ease;
+}
+
+.paged-index-toggle:hover {
+    background: var(--surface-2);
+    color: var(--ink);
+}
+
+.paged-index-toggle[aria-expanded="true"] {
+    background: var(--ink);
+    color: var(--paper);
+}
+
+/* 索引本体：字表矩阵或目录，在翻页条内部滚动，
+   不会把页面内容顶来顶去。 */
+.paged-index {
+    max-height: min(52vh, 420px);
+    padding: 16px 0 18px;
+    border-top: 1px solid var(--rule);
+    overflow: auto;
+    overscroll-behavior: contain;
+}
+
+.paged-index .kanji-grid {
+    margin-bottom: 0;
+}
+
+.paged-contents {
+    display: grid;
+    align-content: start;
+}
+
+.paged-contents button {
+    display: flex;
+    gap: 9px;
+    width: 100%;
+    padding: 8px 0 8px 2px;
+    border: 0;
+    border-bottom: 1px solid var(--rule);
+    background: transparent;
+    color: var(--ink-2);
+    font-family: var(--font-display);
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.5;
+    text-align: left;
+    cursor: pointer;
+    transition: color 120ms ease, padding 120ms ease, background 120ms ease;
+}
+
+.paged-contents button:hover {
+    color: var(--accent);
+    background: var(--surface-2);
+}
+
+.paged-contents button[aria-current="true"] {
+    padding-left: 12px;
+    box-shadow: inset 3px 0 0 var(--accent);
+    color: var(--ink);
+    font-weight: 700;
+}
+
+.paged-contents button small {
+    flex: none;
+    padding-top: 2px;
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.paged-contents button[aria-current="true"] small {
+    color: var(--accent);
+}
+
+.paged-progress {
+    height: 2px;
+    background: var(--rule);
+}
+
+.paged-progress > span {
+    display: block;
+    height: 100%;
+    background: var(--accent);
+    transition: width 200ms ease;
+}
+
+.paged-viewport {
+    min-height: 44vh;
+    /* 竖向拖动仍是滚动；横向拖动由我们拿来当翻页。 */
+    touch-action: pan-y;
+}
+
+.paged-page[hidden] {
+    display: none;
+}
+
+/* 独占整列的页面不需要条目之间的留白。 */
+.paged-page > .grammar-article,
+.paged-page > .passage {
+    margin-bottom: 0;
+}
+
+.paged-page > .kanji-character {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+}
+
+.paged[data-direction="1"] .paged-page[data-active="true"] {
+    animation: paged-flip-next 220ms cubic-bezier(0.22, 0.61, 0.36, 1) both;
+}
+
+.paged[data-direction="-1"] .paged-page[data-active="true"] {
+    animation: paged-flip-previous 220ms cubic-bezier(0.22, 0.61, 0.36, 1) both;
+}
+
+@keyframes paged-flip-next {
+    from {
+        opacity: 0;
+        transform: translateX(18px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes paged-flip-previous {
+    from {
+        opacity: 0;
+        transform: translateX(-18px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .paged[data-direction] .paged-page[data-active="true"] {
+        animation: none;
+    }
+
+    .paged-progress > span {
+        transition: none;
+    }
+}
+
+@media (max-width: 720px) {
+    .paged-row {
+        gap: 8px;
+    }
+
+    .paged-step {
+        padding: 7px 10px;
+    }
+
+    /* 只留箭头：手机上文字占的宽度比它带来的收益大。 */
+    .paged-step-text {
+        display: none;
+    }
+
+    .paged-middle {
+        gap: 8px;
+    }
+
+    .paged-index-toggle {
+        padding: 5px 8px;
+        letter-spacing: 0.06em;
+    }
+
+    .paged-viewport {
+        min-height: 40vh;
+    }
+}

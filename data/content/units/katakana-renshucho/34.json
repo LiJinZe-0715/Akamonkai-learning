@@ -1,0 +1,106 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.34",
+  "bookId": "katakana-renshucho",
+  "title": "第34課 部屋②",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.34.word.0",
+          "word": "カーペット",
+          "reading": "かーぺっと",
+          "meaningId": "katakana-renshucho.34.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.34.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.34.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "カーペット"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.34.word.1",
+          "word": "スリッパ",
+          "reading": "すりっぱ",
+          "meaningId": "katakana-renshucho.34.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.34.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.34.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "スリッパ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.34.word.2",
+          "word": "ベッド",
+          "reading": "べっど",
+          "meaningId": "katakana-renshucho.34.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.34.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.34.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ベッド"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.34.word.3",
+          "word": "ハンガー",
+          "reading": "はんがー",
+          "meaningId": "katakana-renshucho.34.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.34.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.34.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ハンガー"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

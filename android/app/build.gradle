@@ -1,0 +1,37 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace = 'app.study.mobile'
+    compileSdk 35
+    buildFeatures { buildConfig = true }
+    // 默认规则会丢掉以 _ 开头的目录；网页资源一个都不能少，所以只排除版本库与系统杂项。
+    androidResources { ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~' }
+    defaultConfig {
+        applicationId 'app.study.akamonkai'
+        minSdk 26
+        targetSdk 35
+        // 两个版本号都写死，不再参与任何判断：个人项目的历史会被重写，递增版本号只是
+        // 在编一个没人看的故事。「线上是不是另一个包」由 APK 的 sha256 回答。
+        // 注意 versionCode 只能升不能降：已经装了更高版本的设备必须先卸载才能装这个包。
+        versionCode 1
+        versionName '1.0'
+        buildConfigField 'String', 'UPDATE_BASE_URL', '"https://lijinze-0715.github.io/Akamonkai-learning/downloads/"'
+        buildConfigField 'String', 'UPDATE_APK_NAME', '"Akamonkai-learning.apk"'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    signingConfigs {
+        debug { storeFile file('../.signing/debug.keystore') }
+    }
+    buildTypes {
+        // 发的是 release 包（不可调试、R8 压缩），但签名仍用这把钥匙：证书不变，
+        // 已装的设备可以直接覆盖安装。证书指纹登记在 android/release-signing.json。
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig = signingConfigs.debug
+        }
+    }
+}

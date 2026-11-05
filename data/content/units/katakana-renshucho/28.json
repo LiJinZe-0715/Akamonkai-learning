@@ -1,0 +1,106 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.28",
+  "bookId": "katakana-renshucho",
+  "title": "第28課 国名④",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.28.word.0",
+          "word": "インドネシア",
+          "reading": "いんどねしあ",
+          "meaningId": "katakana-renshucho.28.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.28.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.28.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "インドネシア"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.28.word.1",
+          "word": "ベトナム",
+          "reading": "べとなむ",
+          "meaningId": "katakana-renshucho.28.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.28.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.28.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ベトナム"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.28.word.2",
+          "word": "タイ",
+          "reading": "たい",
+          "meaningId": "katakana-renshucho.28.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.28.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.28.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "タイ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.28.word.3",
+          "word": "シンガポール",
+          "reading": "しんがぽーる",
+          "meaningId": "katakana-renshucho.28.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.28.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.28.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "シンガポール"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

@@ -1,0 +1,106 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.10",
+  "bookId": "katakana-renshucho",
+  "title": "第10課 電気製品②",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.10.word.0",
+          "word": "アイロン",
+          "reading": "あいろん",
+          "meaningId": "katakana-renshucho.10.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.10.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.10.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "アイロン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.10.word.1",
+          "word": "ドライヤー",
+          "reading": "どらいやー",
+          "meaningId": "katakana-renshucho.10.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.10.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.10.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ドライヤー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.10.word.2",
+          "word": "エアコン",
+          "reading": "えあこん",
+          "meaningId": "katakana-renshucho.10.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.10.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.10.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "エアコン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.10.word.3",
+          "word": "電子レンジ",
+          "reading": "でんしれんじ",
+          "meaningId": "katakana-renshucho.10.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.10.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.10.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "電子レンジ"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

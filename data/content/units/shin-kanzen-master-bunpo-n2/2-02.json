@@ -1,0 +1,193 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.2-02",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第2課 文の組み立て-2 名詞を説明する形式",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.2-02.grammar.0",
+          "title": "動詞＋名詞（～ている／～た）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "壊れている自転車を直した。",
+              "translationId": "shin-kanzen-master-bunpo-n2.2-02.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "昨日買った本はとても面白い。",
+              "translationId": "shin-kanzen-master-bunpo-n2.2-02.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.2-02.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "（　）自転車を直した。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.2-02.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "壊れそう"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "壊れたい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "壊れる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "壊れている"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.2-02.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.2-02.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.2-02.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.2-02.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.2-02.grammar.1",
+          "title": "～の＋名詞／～である＋名詞",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "留学生の田中さんが来ました。",
+              "translationId": "shin-kanzen-master-bunpo-n2.2-02.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "社会人である以上、責任を持つべきだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.2-02.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.2-02.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "（　）以上、責任を持つべきだ。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.2-02.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "社会人だ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "社会人である"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "社会人の"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "社会人な"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.2-02.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.2-02.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.2-02.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.2-02.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.2-02.grammar.2",
+          "title": "～という＋名詞",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "東京という町は、人が多い。",
+              "translationId": "shin-kanzen-master-bunpo-n2.2-02.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼が会社を辞めるという話を聞いた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.2-02.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.2-02.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "彼が会社を辞める（　）話を聞いた。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.2-02.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "といえば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "といった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "としたら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "という"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.2-02.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.2-02.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.2-02.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.2-02.grammar.2.pitfall"
+        }
+      ]
+    }
+  }
+}

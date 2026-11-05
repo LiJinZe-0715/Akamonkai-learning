@@ -1,0 +1,673 @@
+{
+  "kind": "lesson",
+  "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake",
+  "bookId": "nihongo-noryoku-shiken-n2-bunpo",
+  "title": "だけの表現",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.0",
+          "title": "～だけ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "食べたいだけ食べてもいい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "あるだけのお金を全部使ってしまった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "見ただけでは、本物かどうか分からない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.0.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.0.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.0.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.1",
+          "title": "できるだけ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "できるだけ早く返事してください。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "健康のため、できるだけ歩くようにしている。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "人の前では、できるだけ怒らないほうがいい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "明日の面接には、（　）早く来てください。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.1.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけあって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "できるだけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけのことはある"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.1.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.1.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.1.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.2",
+          "title": "～だけに",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "期待していただけに、失敗したときは本当に残念だった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "長年使ってきただけに、この道具には愛着がある。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "有名な店だけに、休日は行列ができる。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.2.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.2.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.2.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3",
+          "title": "～だけあって",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼は十年間日本語を勉強しているだけあって、発音がとても自然だ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "プロだけあって、仕事が早い。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "有名なだけあって、この店の料理はどれもおいしい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.0.prompt.0"
+                },
+                {
+                  "japanese": "責任の重い仕事（　）、小さなミスでも強く気にしてしまう。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけあって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけでは"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.1",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.1.prompt.0"
+                },
+                {
+                  "japanese": "彼は通訳として十年働いてきた（　）、言葉の選び方が実に自然だ。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけあって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけしか"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.2",
+              "prompt": [
+                {
+                  "japanese": "彼の名前を聞く（　）、学生時代の出来事を思い出す。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけあって"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.3",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.3.prompt.0"
+                },
+                {
+                  "japanese": "文法の説明を読む（　）、会話で自然に使えるようにはならない。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけでなく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけあって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.4",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.4.prompt.0"
+                },
+                {
+                  "japanese": "才能がある（　）成功できるとは限らない。努力を続けることも必要だ。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.4.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけあって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけしか"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4",
+          "title": "～だけのことはある",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "二時間並んだだけのことはあって、このラーメンは本当においしい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "高いだけのことはある。この店のサービスは一流だ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "長年練習しただけのことはあって、彼の演奏は見事だった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.question.0.prompt.0"
+                },
+                {
+                  "japanese": "長い間楽しみにしていた（　）、中止になって本当に残念だ。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけあって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけのことはある"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけで"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.question.1",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.question.1.prompt.0"
+                },
+                {
+                  "japanese": "さすが人気店（　）、昼前から長い列ができている。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけのことはある"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけあって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけでは"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.question.2",
+              "prompt": [
+                {
+                  "japanese": "毎朝半年も練習した（　）。以前よりずっと自然に話せる。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけのことはある"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけではない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.question.3",
+              "prompt": [
+                {
+                  "japanese": "この曲は、聞く（　）元気になれる。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけのことはある"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.5",
+          "title": "～だけで",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この写真を見るだけで、旅行のことを思い出す。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "名前を聞いただけで、怖くなった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.5.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "少し歩いただけで、足が痛くなった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.5.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.5.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.5.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.5.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.5.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.6",
+          "title": "～だけでは",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "教科書を読むだけでは、自然な会話は身につかない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.6.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "謝るだけでは、済まない問題もある。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.6.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "説明を聞いただけでは、よく分からない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.6.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.6.question.0",
+              "prompt": [
+                {
+                  "japanese": "旅行の前に、必要な情報を調べられる（　）調べておこう。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.6.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.6.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.6.question.1",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.6.question.1.prompt.0"
+                },
+                {
+                  "japanese": "高い料金を払った（　）、サービスは細かいところまで行き届いている。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.6.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.6.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけのことはあって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけしか"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.6.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.6.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.6.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.4-dake.grammar.6.pitfall"
+        }
+      ]
+    }
+  }
+}

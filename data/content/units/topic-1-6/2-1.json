@@ -1,0 +1,863 @@
+{
+  "kind": "lesson",
+  "id": "topic-1-6.2-1",
+  "bookId": "topic-1-6",
+  "title": "2-1 ベトナムへ行こう！",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.0",
+          "word": "インドシナ半島",
+          "reading": "いんどしなはんとう",
+          "meaningId": "topic-1-6.2-1.word.0.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.1",
+          "word": "南シナ海",
+          "reading": "みなみしなかい",
+          "meaningId": "topic-1-6.2-1.word.1.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.2",
+          "word": "面する",
+          "reading": "めんする",
+          "meaningId": "topic-1-6.2-1.word.2.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.3",
+          "word": "カンボジア",
+          "reading": "かんぼじあ",
+          "meaningId": "topic-1-6.2-1.word.3.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.4",
+          "word": "ラオス",
+          "reading": "らおす",
+          "meaningId": "topic-1-6.2-1.word.4.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.5",
+          "word": "国民",
+          "reading": "こくみん",
+          "meaningId": "topic-1-6.2-1.word.5.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.6",
+          "word": "仏教",
+          "reading": "ぶっきょう",
+          "meaningId": "topic-1-6.2-1.word.6.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.7",
+          "word": "～徒",
+          "reading": "~と",
+          "meaningId": "topic-1-6.2-1.word.7.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.8",
+          "word": "ハノイ",
+          "reading": "はのい",
+          "meaningId": "topic-1-6.2-1.word.8.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.9",
+          "word": "首都",
+          "reading": "しゅと",
+          "meaningId": "topic-1-6.2-1.word.9.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.10",
+          "word": "東洋",
+          "reading": "とうよう",
+          "meaningId": "topic-1-6.2-1.word.10.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.11",
+          "word": "真珠",
+          "reading": "しんじゅ",
+          "meaningId": "topic-1-6.2-1.word.11.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.12",
+          "word": "ホーチミン",
+          "reading": "ほーちみん",
+          "meaningId": "topic-1-6.2-1.word.12.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.13",
+          "word": "～的",
+          "reading": "~てき",
+          "meaningId": "topic-1-6.2-1.word.13.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.14",
+          "word": "フエ",
+          "reading": "ふえ",
+          "meaningId": "topic-1-6.2-1.word.14.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.15",
+          "word": "植民地",
+          "reading": "しょくみんち",
+          "meaningId": "topic-1-6.2-1.word.15.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.16",
+          "word": "～風",
+          "reading": "~ふう",
+          "meaningId": "topic-1-6.2-1.word.16.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.17",
+          "word": "例えば",
+          "reading": "たとえば",
+          "meaningId": "topic-1-6.2-1.word.17.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.18",
+          "word": "聖",
+          "reading": "せい",
+          "meaningId": "topic-1-6.2-1.word.18.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.19",
+          "word": "中心",
+          "reading": "ちゅうしん",
+          "meaningId": "topic-1-6.2-1.word.19.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.20",
+          "word": "シンボル",
+          "reading": "しんぼる",
+          "meaningId": "topic-1-6.2-1.word.20.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.21",
+          "word": "市民",
+          "reading": "しみん",
+          "meaningId": "topic-1-6.2-1.word.21.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.22",
+          "word": "劇場",
+          "reading": "げきじょう",
+          "meaningId": "topic-1-6.2-1.word.22.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.23",
+          "word": "中央",
+          "reading": "ちゅうおう",
+          "meaningId": "topic-1-6.2-1.word.23.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.24",
+          "word": "観光客",
+          "reading": "かんこうきゃく",
+          "meaningId": "topic-1-6.2-1.word.24.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.25",
+          "word": "エビ",
+          "reading": "えび",
+          "meaningId": "topic-1-6.2-1.word.25.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.26",
+          "word": "巻く",
+          "reading": "まく",
+          "meaningId": "topic-1-6.2-1.word.26.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.27",
+          "word": "春巻き",
+          "reading": "はるまき",
+          "meaningId": "topic-1-6.2-1.word.27.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.28",
+          "word": "スープ",
+          "reading": "すーぷ",
+          "meaningId": "topic-1-6.2-1.word.28.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.29",
+          "word": "とにかく",
+          "reading": "とにかく",
+          "meaningId": "topic-1-6.2-1.word.29.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.30",
+          "word": "アオザイ",
+          "reading": "あおざい",
+          "meaningId": "topic-1-6.2-1.word.30.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.31",
+          "word": "民族",
+          "reading": "みんぞく",
+          "meaningId": "topic-1-6.2-1.word.31.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.32",
+          "word": "衣装",
+          "reading": "いしょう",
+          "meaningId": "topic-1-6.2-1.word.32.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.33",
+          "word": "オーダーメイド",
+          "reading": "おーだーめいど",
+          "meaningId": "topic-1-6.2-1.word.33.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.34",
+          "word": "銀",
+          "reading": "ぎん",
+          "meaningId": "topic-1-6.2-1.word.34.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-1.word.35",
+          "word": "コーヒーカップ",
+          "reading": "こーひーかっぷ",
+          "meaningId": "topic-1-6.2-1.word.35.meaning",
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.2-1.grammar.0",
+          "title": "読解・内容のまとめ",
+          "examples": [],
+          "noteIds": [
+            "topic-1-6.2-1.grammar.0.note.0"
+          ],
+          "children": [],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.2-1.grammar.1",
+          "title": "① ～たら：条件・時間",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "駅に着いたら、連絡してね。",
+              "translationId": "topic-1-6.2-1.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "安かったら、買おうと思う。",
+              "translationId": "topic-1-6.2-1.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.2-1.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "駅に（　）、連絡してください。"
+                }
+              ],
+              "explanationId": "topic-1-6.2-1.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "着いただら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "着くら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "着いたら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "着いてら"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.2-1.grammar.1.question.1",
+              "prompt": [
+                {
+                  "japanese": "値段が（　）、買います。"
+                }
+              ],
+              "explanationId": "topic-1-6.2-1.grammar.1.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "安かったら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "安いら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "安いだったら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "安くら"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.2-1.grammar.1.meaning",
+          "formationId": "topic-1-6.2-1.grammar.1.formation",
+          "usageId": "topic-1-6.2-1.grammar.1.usage",
+          "pitfallId": "topic-1-6.2-1.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.2-1.grammar.2",
+          "title": "② ～なら：話題を受けた条件",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "北海道へ行くなら、セーターを持って行ったほうがいい。",
+              "translationId": "topic-1-6.2-1.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "田中さんなら、もう帰りましたよ。",
+              "translationId": "topic-1-6.2-1.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.2-1.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "北海道へ（　）、厚い服を持って行ったほうがいいですよ。"
+                }
+              ],
+              "explanationId": "topic-1-6.2-1.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "行くなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "行くだなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "行きなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "行ってなら"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.2-1.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "この仕事が（　）、私もやってみたいです。"
+                }
+              ],
+              "explanationId": "topic-1-6.2-1.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "簡単でなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "簡単ななら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "簡単なら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "簡単だなら"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.2-1.grammar.2.question.2",
+              "prompt": [
+                {
+                  "japanese": "学生（　）、この割引が使えます。"
+                }
+              ],
+              "explanationId": "topic-1-6.2-1.grammar.2.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "なら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "でなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ななら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だなら"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.2-1.grammar.2.meaning",
+          "formationId": "topic-1-6.2-1.grammar.2.formation",
+          "usageId": "topic-1-6.2-1.grammar.2.usage",
+          "pitfallId": "topic-1-6.2-1.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.2-1.grammar.3",
+          "title": "たら／なら：使い分け",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本に行ったら、連絡してね。",
+              "translationId": "topic-1-6.2-1.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "日本に行くなら、薬を持って行ってね。",
+              "translationId": "topic-1-6.2-1.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "topic-1-6.2-1.grammar.3.meaning",
+          "formationId": "topic-1-6.2-1.grammar.3.formation",
+          "usageId": "topic-1-6.2-1.grammar.3.usage",
+          "pitfallId": "topic-1-6.2-1.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.2-1.grammar.4",
+          "title": "③ ～というのは～のことです：定義",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "「マック」というのは、マクドナルドのことです。",
+              "translationId": "topic-1-6.2-1.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "「持ち家」というのは、自分の家のことです。",
+              "translationId": "topic-1-6.2-1.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.2-1.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "「ミスド」（　）、ミスタードーナツのことです。"
+                }
+              ],
+              "explanationId": "topic-1-6.2-1.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "というのは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "というだは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "というは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "といのは"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.2-1.grammar.4.meaning",
+          "formationId": "topic-1-6.2-1.grammar.4.formation",
+          "usageId": "topic-1-6.2-1.grammar.4.usage",
+          "pitfallId": "topic-1-6.2-1.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.2-1.grammar.5",
+          "title": "例文の解説",
+          "examples": [
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.2-1.grammar.5.example.0",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.2-1.grammar.5.example.0.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "駅に着いたら、連絡してください。"
+                    },
+                    {
+                      "kind": "sentence",
+                      "text": "すぐ迎えに行きますね。"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.2-1.grammar.5.example.0.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "わかりました。"
+                    },
+                    {
+                      "kind": "sentence",
+                      "text": "よろしくお願いします。"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.2-1.grammar.5.example.0.analysis"
+            },
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.2-1.grammar.5.example.1",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.2-1.grammar.5.example.1.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "田中さんはどこですか。"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.2-1.grammar.5.example.1.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "田中さんなら、さっき部長に呼ばれて、会議室へ行きましたよ。"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.2-1.grammar.5.example.1.analysis"
+            },
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.2-1.grammar.5.example.2",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.2-1.grammar.5.example.2.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "実は、来月北海道へ旅行に行くんです。"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.2-1.grammar.5.example.2.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "いいですね。"
+                    },
+                    {
+                      "kind": "sentence",
+                      "text": "でも、北海道へ行くなら、セーターを持って行ったほうがいいですよ。"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.2-1.grammar.5.example.2.analysis"
+            },
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.2-1.grammar.5.example.3",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.2-1.grammar.5.example.3.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "先生、高校を卒業したら、アメリカへ留学したいと思っているんですが……。"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.2-1.grammar.5.example.3.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "えっ、アメリカへ留学したいなら、もっと英語を勉強してください。"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.2-1.grammar.5.example.3.analysis"
+            },
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.2-1.grammar.5.example.4",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.2-1.grammar.5.example.4.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "このマックというのは何ですか。"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.2-1.grammar.5.example.4.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "ああ、マクドナルドのことですよ。"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.2-1.grammar.5.example.4.analysis"
+            },
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.2-1.grammar.5.example.5",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.2-1.grammar.5.example.5.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "ねえ、ミスドへ行かない？"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.2-1.grammar.5.example.5.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "えっ、ミスド？"
+                    },
+                    {
+                      "kind": "sentence",
+                      "text": " それ、何？"
+                    }
+                  ]
+                },
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.2-1.grammar.5.example.5.line.2.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "ミスドっていうのは、ミスタードーナツのことだよ。"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.2-1.grammar.5.example.5.analysis"
+            },
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.2-1.grammar.5.example.6",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.2-1.grammar.5.example.6.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "すみません。"
+                    },
+                    {
+                      "kind": "sentence",
+                      "text": "「立ち入り禁止」というのは、どういう意味ですか。"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.2-1.grammar.5.example.6.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "入ってはいけないということですよ。"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.2-1.grammar.5.example.6.analysis"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": []
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

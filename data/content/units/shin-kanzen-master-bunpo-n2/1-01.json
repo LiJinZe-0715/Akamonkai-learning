@@ -1,0 +1,276 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-01",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第1課 ～とき・～直後に",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-01.grammar.0",
+          "title": "～際（に）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "帰国の際、お世話になった先生にごあいさつに伺いました。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "お降りの際は、足元にご注意ください。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-01.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "彼は「じゃあね」と言った（　）、電話を切ってしまった。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "最中に"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "とたんに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "上で"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-01.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-01.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-01.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-01.grammar.1",
+          "title": "～に際して・～にあたって",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "新校舎の建設に際して、地域の皆様のご理解をいただきました。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "開会にあたって、一言ごあいさつ申し上げます。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-01.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "留学（　）、必要な書類をすべてそろえた。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に限って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にわたって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に対して"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に際して"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-01.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-01.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-01.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-01.grammar.2",
+          "title": "～たとたん（に）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "ドアを開けたとたん、猫が飛び出してきた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼の顔を見たとたん、何かあったのだと分かった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-01.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-01.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-01.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-01.grammar.3",
+          "title": "～（か）と思うと・～（か）と思ったら",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "赤ちゃんは泣いたかと思うと、もう笑っている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "空が暗くなったかと思ったら、急に雨が降り出した。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-01.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "空が暗くなった（　）、大粒の雨が降り出した。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "かと思ったら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "かと思うくらい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところで"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-01.grammar.3.question.1",
+              "prompt": [
+                {
+                  "japanese": "お降りの（　）は、足元にご注意ください。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.3.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "最中"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "向け"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "際"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "上"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-01.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-01.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-01.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-01.grammar.4",
+          "title": "～か～ないかのうちに",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "ベルが鳴るか鳴らないかのうちに、学生たちは席を立った。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "横になったかならないかのうちに、寝てしまった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-01.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-01.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-01.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-01.grammar.4.pitfall"
+        }
+      ]
+    }
+  }
+}

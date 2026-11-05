@@ -1,0 +1,106 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.32",
+  "bookId": "katakana-renshucho",
+  "title": "第32課 調味料",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.32.word.0",
+          "word": "ケチャップ",
+          "reading": "けちゃっぷ",
+          "meaningId": "katakana-renshucho.32.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.32.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.32.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ケチャップ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.32.word.1",
+          "word": "マヨネーズ",
+          "reading": "まよねーず",
+          "meaningId": "katakana-renshucho.32.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.32.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.32.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "マヨネーズ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.32.word.2",
+          "word": "ソース",
+          "reading": "そーす",
+          "meaningId": "katakana-renshucho.32.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.32.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.32.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ソース"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.32.word.3",
+          "word": "ドレッシング",
+          "reading": "どれっしんぐ",
+          "meaningId": "katakana-renshucho.32.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.32.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.32.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ドレッシング"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

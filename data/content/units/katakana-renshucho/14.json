@@ -1,0 +1,129 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.14",
+  "bookId": "katakana-renshucho",
+  "title": "第14課 文房具①",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.14.word.0",
+          "word": "マジック",
+          "reading": "まじっく",
+          "meaningId": "katakana-renshucho.14.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.14.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.14.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "マジック"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.14.word.1",
+          "word": "ノート",
+          "reading": "のーと",
+          "meaningId": "katakana-renshucho.14.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.14.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.14.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ノート"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.14.word.2",
+          "word": "シャープペンシル",
+          "reading": "しゃーぷぺんしる",
+          "meaningId": "katakana-renshucho.14.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.14.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.14.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "シャープペンシル"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.14.word.3",
+          "word": "クリップ",
+          "reading": "くりっぷ",
+          "meaningId": "katakana-renshucho.14.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.14.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.14.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "クリップ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.14.word.4",
+          "word": "ボールペン",
+          "reading": "ぼーるぺん",
+          "meaningId": "katakana-renshucho.14.word.4.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.14.word.4.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.14.word.4.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ボールペン"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

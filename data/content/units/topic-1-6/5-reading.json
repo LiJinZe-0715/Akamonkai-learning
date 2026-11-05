@@ -1,0 +1,637 @@
+{
+  "kind": "lesson",
+  "id": "topic-1-6.5-reading",
+  "bookId": "topic-1-6",
+  "title": "Topic 5 読解：オランウータン",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.0",
+          "word": "オランウータン",
+          "reading": "おらんうーたん",
+          "meaningId": "topic-1-6.5-reading.word.0.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.1",
+          "word": "リハビリ",
+          "reading": "りはびり",
+          "meaningId": "topic-1-6.5-reading.word.1.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.2",
+          "word": "センター",
+          "reading": "せんたー",
+          "meaningId": "topic-1-6.5-reading.word.2.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.3",
+          "word": "登る",
+          "reading": "のぼる",
+          "meaningId": "topic-1-6.5-reading.word.3.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.4",
+          "word": "～方",
+          "reading": "~かた",
+          "meaningId": "topic-1-6.5-reading.word.4.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.5",
+          "word": "森",
+          "reading": "もり",
+          "meaningId": "topic-1-6.5-reading.word.5.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.6",
+          "word": "もどす",
+          "reading": "もどす",
+          "meaningId": "topic-1-6.5-reading.word.6.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.7",
+          "word": "訓練",
+          "reading": "くんれん",
+          "meaningId": "topic-1-6.5-reading.word.7.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.8",
+          "word": "大型",
+          "reading": "おおがた",
+          "meaningId": "topic-1-6.5-reading.word.8.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.9",
+          "word": "小型",
+          "reading": "こがた",
+          "meaningId": "topic-1-6.5-reading.word.9.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.10",
+          "word": "類人猿",
+          "reading": "るいじんえん",
+          "meaningId": "topic-1-6.5-reading.word.10.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.11",
+          "word": "絶滅",
+          "reading": "ぜつめつ",
+          "meaningId": "topic-1-6.5-reading.word.11.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.12",
+          "word": "野生",
+          "reading": "やせい",
+          "meaningId": "topic-1-6.5-reading.word.12.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.13",
+          "word": "熱帯雨林",
+          "reading": "ねったいうりん",
+          "meaningId": "topic-1-6.5-reading.word.13.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.14",
+          "word": "果物",
+          "reading": "くだもの",
+          "meaningId": "topic-1-6.5-reading.word.14.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.15",
+          "word": "木の葉",
+          "reading": "このは",
+          "meaningId": "topic-1-6.5-reading.word.15.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.16",
+          "word": "昆虫",
+          "reading": "こんちゅう",
+          "meaningId": "topic-1-6.5-reading.word.16.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.17",
+          "word": "暮らす",
+          "reading": "くらす",
+          "meaningId": "topic-1-6.5-reading.word.17.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.18",
+          "word": "知恵",
+          "reading": "ちえ",
+          "meaningId": "topic-1-6.5-reading.word.18.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.19",
+          "word": "教える",
+          "reading": "おしえる",
+          "meaningId": "topic-1-6.5-reading.word.19.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.20",
+          "word": "教わる",
+          "reading": "おそわる",
+          "meaningId": "topic-1-6.5-reading.word.20.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.21",
+          "word": "習う",
+          "reading": "ならう",
+          "meaningId": "topic-1-6.5-reading.word.21.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.22",
+          "word": "切り開く",
+          "reading": "きりひらく",
+          "meaningId": "topic-1-6.5-reading.word.22.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.23",
+          "word": "畑",
+          "reading": "はたけ",
+          "meaningId": "topic-1-6.5-reading.word.23.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.24",
+          "word": "切りたおす",
+          "reading": "きりたおす",
+          "meaningId": "topic-1-6.5-reading.word.24.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.25",
+          "word": "環境",
+          "reading": "かんきょう",
+          "meaningId": "topic-1-6.5-reading.word.25.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.26",
+          "word": "破壊する",
+          "reading": "はかいする",
+          "meaningId": "topic-1-6.5-reading.word.26.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.27",
+          "word": "荒らす",
+          "reading": "あらす",
+          "meaningId": "topic-1-6.5-reading.word.27.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.28",
+          "word": "育てる",
+          "reading": "そだてる",
+          "meaningId": "topic-1-6.5-reading.word.28.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.29",
+          "word": "育つ",
+          "reading": "そだつ",
+          "meaningId": "topic-1-6.5-reading.word.29.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.30",
+          "word": "あきらめる",
+          "reading": "あきらめる",
+          "meaningId": "topic-1-6.5-reading.word.30.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.31",
+          "word": "密猟者",
+          "reading": "みつりょうしゃ",
+          "meaningId": "topic-1-6.5-reading.word.31.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.32",
+          "word": "殺す",
+          "reading": "ころす",
+          "meaningId": "topic-1-6.5-reading.word.32.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.33",
+          "word": "ペット",
+          "reading": "ぺっと",
+          "meaningId": "topic-1-6.5-reading.word.33.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.34",
+          "word": "捨てる",
+          "reading": "すてる",
+          "meaningId": "topic-1-6.5-reading.word.34.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.35",
+          "word": "政府",
+          "reading": "せいふ",
+          "meaningId": "topic-1-6.5-reading.word.35.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.36",
+          "word": "特別",
+          "reading": "とくべつ",
+          "meaningId": "topic-1-6.5-reading.word.36.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.37",
+          "word": "保護",
+          "reading": "ほご",
+          "meaningId": "topic-1-6.5-reading.word.37.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.38",
+          "word": "～区",
+          "reading": "~く",
+          "meaningId": "topic-1-6.5-reading.word.38.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.39",
+          "word": "建てる",
+          "reading": "たてる",
+          "meaningId": "topic-1-6.5-reading.word.39.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.40",
+          "word": "建つ",
+          "reading": "たつ",
+          "meaningId": "topic-1-6.5-reading.word.40.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.41",
+          "word": "もどる",
+          "reading": "もどる",
+          "meaningId": "topic-1-6.5-reading.word.41.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.42",
+          "word": "荒れる",
+          "reading": "あれる",
+          "meaningId": "topic-1-6.5-reading.word.42.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.43",
+          "word": "開発する",
+          "reading": "かいはつする",
+          "meaningId": "topic-1-6.5-reading.word.43.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.44",
+          "word": "マレーシア",
+          "reading": "まれーしあ",
+          "meaningId": "topic-1-6.5-reading.word.44.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.45",
+          "word": "セピロック",
+          "reading": "せぴろっく",
+          "meaningId": "topic-1-6.5-reading.word.45.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.46",
+          "word": "インドネシア",
+          "reading": "いんどねしあ",
+          "meaningId": "topic-1-6.5-reading.word.46.meaning",
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.5-reading.grammar.0",
+          "title": "語彙の使い方",
+          "examples": [],
+          "noteIds": [
+            "topic-1-6.5-reading.grammar.0.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-reading.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "マレーシアのセピロックには、オランウータンのリハビリテーションセンターがある。ここでは、母親と暮らせなくなった子どもたちが、木に登ることや食べ物を探すことを学ぶ。こうした訓練の目的は、森で生活する力を身につけることである。森林が失われると、オランウータンが暮らせる場所も少なくなるため、動物を助けるだけでなく、その環境を守ることも大切である。\n\n【補充読解】この文章の主な内容は何ですか。"
+                }
+              ],
+              "instructionId": "topic-1-6.5-reading.grammar.0.question.0.instruction",
+              "explanationId": "topic-1-6.5-reading.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "外国へ動物を売る方法。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "オランウータンの訓練と環境保護の大切さ。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "動物園の入場料。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "オランウータンをペットにする方法。"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.5-reading.grammar.1",
+          "title": "読解・内容のまとめ",
+          "examples": [],
+          "noteIds": [
+            "topic-1-6.5-reading.grammar.1.note.0",
+            "topic-1-6.5-reading.grammar.1.note.1",
+            "topic-1-6.5-reading.grammar.1.note.2",
+            "topic-1-6.5-reading.grammar.1.note.3"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-reading.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "マレーシアのセピロックには、オランウータンのリハビリテーションセンターがある。ここでは、母親と暮らせなくなった子どもたちが、木に登ることや食べ物を探すことを学ぶ。こうした訓練の目的は、森で生活する力を身につけることである。森林が失われると、オランウータンが暮らせる場所も少なくなるため、動物を助けるだけでなく、その環境を守ることも大切である。\n\n【補充読解】センターで子どもたちが学ぶことはどれですか。"
+                }
+              ],
+              "instructionId": "topic-1-6.5-reading.grammar.1.question.0.instruction",
+              "explanationId": "topic-1-6.5-reading.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "車を運転すること。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "木に登ったり、食べ物を探したりすること。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "人間の言葉を話すこと。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "外国で買い物をすること。"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.5-reading.grammar.2",
+          "title": "例文の解説",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "親のいないオランウータンの子どもたちに、木の登り方や食べ物の取り方などを教えて、森にもどす訓練をしています。",
+              "translationId": "topic-1-6.5-reading.grammar.2.example.0.translation",
+              "analysisId": "topic-1-6.5-reading.grammar.2.example.0.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "オランウータンは今ではマレーシアやインドネシアにしかいない大型類人猿で、絶滅が心配されている野生動物です。",
+              "translationId": "topic-1-6.5-reading.grammar.2.example.1.translation",
+              "analysisId": "topic-1-6.5-reading.grammar.2.example.1.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "その子どもは５歳ぐらいまで母親といっしょに暮らし、母親から森で生きていくための知恵を教えてもらうのです。",
+              "translationId": "topic-1-6.5-reading.grammar.2.example.2.translation",
+              "analysisId": "topic-1-6.5-reading.grammar.2.example.2.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "最近では熱帯雨林が切り開かれて畑になったり、たくさんの木が切りたおされたりして、オランウータンの住む環境は破壊されてきています。",
+              "translationId": "topic-1-6.5-reading.grammar.2.example.3.translation",
+              "analysisId": "topic-1-6.5-reading.grammar.2.example.3.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "このように森が荒らされると、母親のオランウータンは子どもを育てることをあきらめてしまいます。",
+              "translationId": "topic-1-6.5-reading.grammar.2.example.4.translation",
+              "analysisId": "topic-1-6.5-reading.grammar.2.example.4.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "子どものオランウータンをねらう密猟者に見つけられると、母親のオランウータンは殺され、子どもは外国へペットとして売られてしまうこともあります。",
+              "translationId": "topic-1-6.5-reading.grammar.2.example.5.translation",
+              "analysisId": "topic-1-6.5-reading.grammar.2.example.5.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "こうして親に捨てられたり、人間に育てられて野生の生活を忘れてしまったオランウータンを救うために、マレーシアの政府によって、熱帯雨林の中に特別保護区が作られ、リハビリ・センターが建てられたのです。",
+              "translationId": "topic-1-6.5-reading.grammar.2.example.6.translation",
+              "analysisId": "topic-1-6.5-reading.grammar.2.example.6.analysis"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-reading.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "マレーシアのセピロックには、オランウータンのリハビリテーションセンターがある。ここでは、母親と暮らせなくなった子どもたちが、木に登ることや食べ物を探すことを学ぶ。こうした訓練の目的は、森で生活する力を身につけることである。森林が失われると、オランウータンが暮らせる場所も少なくなるため、動物を助けるだけでなく、その環境を守ることも大切である。\n\n【補充読解】「その環境」は何を指していますか。"
+                }
+              ],
+              "instructionId": "topic-1-6.5-reading.grammar.2.question.0.instruction",
+              "explanationId": "topic-1-6.5-reading.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "オランウータンが暮らす森林などの環境。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "外国のペットショップ。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "人間の学校。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "センターの事務室だけ。"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.5-reading.grammar.3",
+          "title": "補充読解・練習（オリジナル）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "マレーシアのセピロックには、オランウータンのリハビリテーションセンターがある。ここでは、母親と暮らせなくなった子どもたちが、木に登ることや食べ物を探すことを学ぶ。こうした訓練の目的は、森で生活する力を身につけることである。森林が失われると、オランウータンが暮らせる場所も少なくなるため、動物を助けるだけでなく、その環境を守ることも大切である。",
+              "translationId": "topic-1-6.5-reading.grammar.3.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "topic-1-6.5-reading.grammar.3.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-reading.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "マレーシアのセピロックには、オランウータンのリハビリテーションセンターがある。ここでは、母親と暮らせなくなった子どもたちが、木に登ることや食べ物を探すことを学ぶ。こうした訓練の目的は、森で生活する力を身につけることである。森林が失われると、オランウータンが暮らせる場所も少なくなるため、動物を助けるだけでなく、その環境を守ることも大切である。\n\n【補充読解】環境を守ることも大切なのはなぜですか。"
+                }
+              ],
+              "instructionId": "topic-1-6.5-reading.grammar.3.question.0.instruction",
+              "explanationId": "topic-1-6.5-reading.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "森林が増えすぎているから。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "すべての動物が木に登るから。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "センターで買い物をするから。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "森林が失われると、暮らせる場所も少なくなるから。"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

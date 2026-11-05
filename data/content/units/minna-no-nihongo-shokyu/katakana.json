@@ -1,0 +1,3016 @@
+{
+  "kind": "lesson",
+  "id": "minna-no-nihongo-shokyu.katakana",
+  "bookId": "minna-no-nihongo-shokyu",
+  "title": "カタカナ 130問",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.0",
+          "word": "インド",
+          "reading": "いんど",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "カレーが[有名:ゆうめい]な[国:くに]は ___ です。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "インド"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.1",
+          "word": "ブラジル",
+          "reading": "ぶらじる",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "[南米:なんべい]にあって、サッカーが[強:つよ]い[国:くに]は ___ です。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ブラジル"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.2",
+          "word": "カード",
+          "reading": "かーど",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "[現金:げんきん]がありませんから、クレジット ___ で[払:はら]います。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "カード"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.3",
+          "word": "ラジオ",
+          "reading": "らじお",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "[車:くるま]を[運転:うんてん]しながら、 ___ で[音楽:おんがく]やニュースを[聞:き]きます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ラジオ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.4",
+          "word": "コンピューター",
+          "reading": "こんぴゅーたー",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.4.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "[古:ふる]いパソコンが[壊:こわ]れたので、[新:あたら]しい ___ を[買:か]いました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "コンピューター",
+                "パソコン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.5",
+          "word": "ロビー",
+          "reading": "ろびー",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.5.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.5.question.0",
+              "prompt": [
+                {
+                  "japanese": "ホテルの[部屋:へや]ではなく、１[階:かい]の ___ で[待:ま]ち[合:あ]わせをしましょう。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ロビー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.6",
+          "word": "トイレ",
+          "reading": "といれ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.6.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.6.question.0",
+              "prompt": [
+                {
+                  "japanese": "[手:て]を[洗:あら]いたいんですが、 ___ はどこですか。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "トイレ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.7",
+          "word": "スイス",
+          "reading": "すいす",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.7.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.7.question.0",
+              "prompt": [
+                {
+                  "japanese": "ヨーロッパの[山:やま]がきれいで、[時計:とけい]が[有名:ゆうめい]な[国:くに]は ___ です。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "スイス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.8",
+          "word": "ニューヨーク",
+          "reading": "にゅーよーく",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.8.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.8.question.0",
+              "prompt": [
+                {
+                  "japanese": "[自由:じゆう]の[女神:めがみ]があるアメリカの[町:まち]は ___ です。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ニューヨーク"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.9",
+          "word": "ロンドン",
+          "reading": "ろんどん",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.9.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.9.question.0",
+              "prompt": [
+                {
+                  "japanese": "イギリスの[首都:しゅと]で、[美:うつく]しい[町:まち]は ___ です。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ロンドン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.10",
+          "word": "パン",
+          "reading": "ぱん",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.10.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.10.question.0",
+              "prompt": [
+                {
+                  "japanese": "[朝:あさ]ごはんは、ご[飯:はん]ではなく ___ とコーヒーです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "パン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.11",
+          "word": "レポート",
+          "reading": "れぽーと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.11.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.11.question.0",
+              "prompt": [
+                {
+                  "japanese": "[大学:だいがく]の[授業:じゅぎょう]で、[長:なが]い ___ を[書:か]いて[先生:せんせい]に[出:だ]します。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "レポート"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.12",
+          "word": "ビデオ",
+          "reading": "びでお",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.12.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.12.question.0",
+              "prompt": [
+                {
+                  "japanese": "[映画館:えいがかん]に[行:い]かないで、[家:いえ]で[借:か]りた ___ を[見:み]ました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ビデオ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.13",
+          "word": "スプーン",
+          "reading": "すぷーん",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.13.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.13.question.0",
+              "prompt": [
+                {
+                  "japanese": "カレーライスやスープは、 ___ で[食:た]べます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "スプーン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.14",
+          "word": "ナイフ",
+          "reading": "ないふ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.14.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.14.question.0",
+              "prompt": [
+                {
+                  "japanese": "ステーキを[食:た]べる[時:とき]、[肉:にく]を ___ で[切:き]ります。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ナイフ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.15",
+          "word": "フォーク",
+          "reading": "ふぉーく",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.15.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.15.question.0",
+              "prompt": [
+                {
+                  "japanese": "ステーキはナイフと ___ で[食:た]べます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "フォーク"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.16",
+          "word": "ケータイ",
+          "reading": "けーたい",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.16.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.16.question.0",
+              "prompt": [
+                {
+                  "japanese": "カメラを[忘:わす]れたので、 ___ で[写真:しゃしん]を[撮:と]ります。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ケータイ",
+                "スマホ",
+                "スマートフォン",
+                "ケイタイ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.17",
+          "word": "メール",
+          "reading": "めーる",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.17.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.17.question.0",
+              "prompt": [
+                {
+                  "japanese": "[手紙:てがみ]より[速:はや]いので、パソコンで ___ を[送:おく]ります。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "メール"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.18",
+          "word": "ゴム",
+          "reading": "ごむ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.18.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.18.question.0",
+              "prompt": [
+                {
+                  "japanese": "[鉛筆:えんぴつ]で[書:か]いた[字:じ]を[間違:まちが]えたので、[消:け]し ___ で[消:け]します。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ゴム"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.19",
+          "word": "シャツ",
+          "reading": "しゃつ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.19.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.19.question.0",
+              "prompt": [
+                {
+                  "japanese": "スーツの[下:した]に、[白:しろ]い ___ を[着:き]ています。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "シャツ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.20",
+          "word": "プレゼント",
+          "reading": "ぷれぜんと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.20.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.20.question.0",
+              "prompt": [
+                {
+                  "japanese": "[友達:ともだち]の[誕生日:たんじょうび]に、きれいな ___ をあげました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "プレゼント"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.21",
+          "word": "クリスマス",
+          "reading": "くりすます",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.21.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.21.question.0",
+              "prompt": [
+                {
+                  "japanese": "12[月:がつ]25[日:にち]は ___ で、サンタクロースが[来:き]ます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "クリスマス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.22",
+          "word": "ハンサム",
+          "reading": "はんさむ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.22.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.22.question.0",
+              "prompt": [
+                {
+                  "japanese": "[彼:かれ]は[顔:かお]がかっこよくて、とても ___ です。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ハンサム",
+                "イケメン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.23",
+          "word": "スポーツ",
+          "reading": "すぽーつ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.23.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.23.question.0",
+              "prompt": [
+                {
+                  "japanese": "[運動:うんどう]が[好:す]きなので、[休:やす]みの[日:ひ]は ___ をします。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "スポーツ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.24",
+          "word": "ダンス",
+          "reading": "だんす",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.24.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.24.question.0",
+              "prompt": [
+                {
+                  "japanese": "[音楽:おんがく]に[合:あ]わせて、[楽:たの]しく ___ を[踊:おど]ります。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ダンス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.25",
+          "word": "クラシック",
+          "reading": "くらしっく",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.25.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.25.question.0",
+              "prompt": [
+                {
+                  "japanese": "モーツァルトやベートーベンなどの ___ [音楽:おんがく]が[好:す]きです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "クラシック"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.26",
+          "word": "ジャズ",
+          "reading": "じゃず",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.26.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.26.question.0",
+              "prompt": [
+                {
+                  "japanese": "サックスの[即興演奏:そっきょうえんそう]が[印象的:いんしょうてき]な ___ のライブを[聞:き]きました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ジャズ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.27",
+          "word": "コンサート",
+          "reading": "こんさーと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.27.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.27.question.0",
+              "prompt": [
+                {
+                  "japanese": "[好:す]きな[歌手:かしゅ]が[歌:うた]う ___ へ[行:い]きます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "コンサート"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.28",
+          "word": "ローマ字",
+          "reading": "ろーま字",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.28.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.28.question.0",
+              "prompt": [
+                {
+                  "japanese": "[日本語:にほんご]の[音:おと]をアルファベットで[表:あらわ]す[書:か]き[方:かた]を ___ といいます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ローマ字"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.29",
+          "word": "チケット",
+          "reading": "ちけっと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.29.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.29.question.0",
+              "prompt": [
+                {
+                  "japanese": "[映画館:えいがかん]に[入:はい]るために、 ___ を２[枚:まい][買:か]いました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "チケット"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.30",
+          "word": "アルバイト",
+          "reading": "あるばいと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.30.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.30.question.0",
+              "prompt": [
+                {
+                  "japanese": "[学生:がくせい]なので、コンビニで ___ をしてお[金:かね]を[稼:かせ]ぎます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "アルバイト",
+                "バイト"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.31",
+          "word": "ドア",
+          "reading": "どあ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.31.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.31.question.0",
+              "prompt": [
+                {
+                  "japanese": "[部屋:へや]が[暑:あつ]いので、[窓:まど]と ___ を[開:あ]けてください。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ドア"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.32",
+          "word": "ポスト",
+          "reading": "ぽすと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.32.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.32.question.0",
+              "prompt": [
+                {
+                  "japanese": "この[手紙:てがみ]を[送:おく]りたいので、[赤:あか]い ___ に[入:い]れます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ポスト"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.33",
+          "word": "コーナー",
+          "reading": "こーなー",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.33.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.33.question.0",
+              "prompt": [
+                {
+                  "japanese": "スーパーの[野菜:やさい] ___ でトマトを[買:か]います。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "コーナー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.34",
+          "word": "ディズニーランド",
+          "reading": "でぃずにーらんど",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.34.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.34.question.0",
+              "prompt": [
+                {
+                  "japanese": "ミッキーマウスに[会:あ]いに、[東京:とうきょう] ___ へ[遊:あそ]びに[行:い]きました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ディズニーランド"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.35",
+          "word": "クラス",
+          "reading": "くらす",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.35.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.35.question.0",
+              "prompt": [
+                {
+                  "japanese": "[私:わたし]が[勉強:べんきょう]している ___ には、いろいろな[国:くに]の[留学生:りゅうがくせい]がいます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "クラス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.36",
+          "word": "ホテル",
+          "reading": "ほてる",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.36.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.36.question.0",
+              "prompt": [
+                {
+                  "japanese": "[旅行:りょこう]の[時:とき]は、[旅館:りょかん]ではなく[洋式:ようしき]の ___ に[泊:と]まります。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ホテル"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.37",
+          "word": "パーティー",
+          "reading": "ぱーてぃー",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.37.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.37.question.0",
+              "prompt": [
+                {
+                  "japanese": "[友達:ともだち]を[家:いえ]に[呼:よ]んで、[誕生日:たんじょうび] ___ をします。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "パーティー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.38",
+          "word": "プール",
+          "reading": "ぷーる",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.38.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.38.question.0",
+              "prompt": [
+                {
+                  "japanese": "[夏:なつ]は[暑:あつ]いので、[海:うみ]や ___ で[泳:およ]ぐのが[好:す]きです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "プール"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.39",
+          "word": "コピー",
+          "reading": "こぴー",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.39.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.39.question.0",
+              "prompt": [
+                {
+                  "japanese": "この[紙:かみ]をみんなに[配:くば]るので、10[枚:まい] ___ してください。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "コピー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.40",
+          "word": "カタログ",
+          "reading": "かたろぐ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.40.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.40.question.0",
+              "prompt": [
+                {
+                  "japanese": "お[店:みせ]に[行:い]かないで、[本:ほん]の ___ を[見:み]て[商品:しょうひん]を[選:えら]びます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "カタログ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.41",
+          "word": "ソフト",
+          "reading": "そふと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.41.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.41.question.0",
+              "prompt": [
+                {
+                  "japanese": "パソコンで[絵:え]を[描:か]くために、[新:あたら]しい ___ を[入:い]れました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ソフト"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.42",
+          "word": "インタビュー",
+          "reading": "いんたびゅー",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.42.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.42.question.0",
+              "prompt": [
+                {
+                  "japanese": "テレビの[記者:きしゃ]が、[有名人:ゆうめいじん]に[質問:しつもん]する ___ をしています。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "インタビュー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.43",
+          "word": "サービス",
+          "reading": "さーびす",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.43.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.43.question.0",
+              "prompt": [
+                {
+                  "japanese": "この[店:みせ]は[料理:りょうり]も[美味:おい]しいし、[店員:てんいん]の ___ もとてもいいです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "サービス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.44",
+          "word": "ジョギング",
+          "reading": "じょぎんぐ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.44.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.44.question.0",
+              "prompt": [
+                {
+                  "japanese": "[健康:けんこう]のために、[毎朝公園:まいあさこうえん]をゆっくり ___ します。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ジョギング"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.45",
+          "word": "シャワー",
+          "reading": "しゃわー",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.45.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.45.question.0",
+              "prompt": [
+                {
+                  "japanese": "[運動:うんどう]して[汗:あせ]をかいたので、お[風呂場:ふろば]で ___ を[浴:あ]びます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "シャワー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.46",
+          "word": "ボタン",
+          "reading": "ぼたん",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.46.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.46.question.0",
+              "prompt": [
+                {
+                  "japanese": "エレベーターに[乗:の]って、[行:い]きたい[階:かい]の ___ を[押:お]してください。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ボタン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.47",
+          "word": "ピアノ",
+          "reading": "ぴあの",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.47.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.47.question.0",
+              "prompt": [
+                {
+                  "japanese": "[彼女:かのじょ]は[音楽家:おんがくか]で、[上手:じょうず]に ___ を[弾:ひ]きます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ピアノ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.48",
+          "word": "メートル",
+          "reading": "めーとる",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.48.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.48.question.0",
+              "prompt": [
+                {
+                  "japanese": "[体育:たいいく]のテストで、100 ___ を12[秒:びょう]で[走:はし]ります。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "メートル"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.49",
+          "word": "インターネット",
+          "reading": "いんたーねっと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.49.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.49.question.0",
+              "prompt": [
+                {
+                  "japanese": "パソコンを[使:つか]って、 ___ で[世界:せかい]の[情報:じょうほう]を[調:しら]べます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "インターネット"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.50",
+          "word": "ダイエット",
+          "reading": "だいえっと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.50.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.50.question.0",
+              "prompt": [
+                {
+                  "japanese": "[痩:や]せたいので、[今:いま] ___ をしていて[甘:あま]いものを[食:た]べません。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ダイエット"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.51",
+          "word": "スカイツリー",
+          "reading": "すかいつりー",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.51.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.51.question.0",
+              "prompt": [
+                {
+                  "japanese": "[東京:とうきょう]タワーよりも[高:たか]い、[東京:とうきょう] ___ に[登:のぼ]りました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "スカイツリー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.52",
+          "word": "ビザ",
+          "reading": "びざ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.52.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.52.question.0",
+              "prompt": [
+                {
+                  "japanese": "[渡航先:とこうさき]や[目的:もくてき]によっては、パスポートのほかに ___ が[必要:ひつよう]です。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ビザ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.53",
+          "word": "ニュース",
+          "reading": "にゅーす",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.53.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.53.question.0",
+              "prompt": [
+                {
+                  "japanese": "[毎朝:まいあさ]、[新聞:しんぶん]やテレビの ___ を[見:み]て[社会:しゃかい]の[出来事:できごと]を[知:し]ります。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ニュース"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.54",
+          "word": "アニメ",
+          "reading": "あにめ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.54.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.54.question.0",
+              "prompt": [
+                {
+                  "japanese": "[日本:にほん]の[漫画:まんが]や ___ は[世界中:せかいじゅう]で[人気:にんき]があります。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "アニメ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.55",
+          "word": "デザイン",
+          "reading": "でざいん",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.55.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.55.question.0",
+              "prompt": [
+                {
+                  "japanese": "この[服:ふく]は、[形:かたち]や[色:いろ]がきれいで ___ がとてもいいです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "デザイン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.56",
+          "word": "ユーモア",
+          "reading": "ゆーもあ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.56.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.56.question.0",
+              "prompt": [
+                {
+                  "japanese": "[彼:かれ]の[話:はなし]は[笑:わら]えて、 ___ があっておもしろいです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ユーモア"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.57",
+          "word": "ダイニングキッチン",
+          "reading": "だいにんぐきっちん",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.57.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.57.question.0",
+              "prompt": [
+                {
+                  "japanese": "[食事:しょくじ]と[料理:りょうり]の[部屋:へや]が[一緒:いっしょ]になった ___ がある[部屋:へや]に[住:す]みたいです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ダイニングキッチン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.58",
+          "word": "パリ",
+          "reading": "ぱり",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.58.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.58.question.0",
+              "prompt": [
+                {
+                  "japanese": "エッフェル[塔:とう]があるフランスの ___ へ[旅行:りょこう]に[行:い]きたいです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "パリ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.59",
+          "word": "アンケート",
+          "reading": "あんけーと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.59.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.59.question.0",
+              "prompt": [
+                {
+                  "japanese": "お[客様:きゃくさま]の[意見:いけん]を[聞:き]きたいので、 ___ にご[協力:きょうりょく]をお[願:ねが]いします。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "アンケート"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.60",
+          "word": "サイズ",
+          "reading": "さいず",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.60.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.60.question.0",
+              "prompt": [
+                {
+                  "japanese": "[足:あし]が[痛:いた]いです。この[靴:くつ]は、[私:わたし]に ___ が[合:あ]いません。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "サイズ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.61",
+          "word": "ホームステイ",
+          "reading": "ほーむすてい",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.61.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.61.question.0",
+              "prompt": [
+                {
+                  "japanese": "[日本:にほん]の[生活:せいかつ]を[知:し]るために、[日本人:にほんじん]の[家:いえ]に ___ したいです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ホームステイ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.62",
+          "word": "チャンス",
+          "reading": "ちゃんす",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.62.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.62.question.0",
+              "prompt": [
+                {
+                  "japanese": "これは[夢:ゆめ]を[叶:かな]える、いい ___ だと[思:おも]います。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "チャンス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.63",
+          "word": "フリーマーケット",
+          "reading": "ふりーまーけっと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.63.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.63.question.0",
+              "prompt": [
+                {
+                  "japanese": "[日曜日:にちようび]に、[公園:こうえん]の ___ で[安:やす]い[古着:ふるぎ]を[買:か]いました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "フリーマーケット"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.64",
+          "word": "ボランティア",
+          "reading": "ぼらんてぃあ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.64.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.64.question.0",
+              "prompt": [
+                {
+                  "japanese": "[週末:しゅうまつ]はお[金:かね]をもらわずに、[社会:しゃかい]のために ___ をしています。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ボランティア"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.65",
+          "word": "ガス",
+          "reading": "がす",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.65.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.65.question.0",
+              "prompt": [
+                {
+                  "japanese": "[地震:じしん]で ___ が[止:と]まったので、[火:ひ]が[使:つか]えずお[湯:ゆ]が[沸:わ]かせません。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ガス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.66",
+          "word": "ペット",
+          "reading": "ぺっと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.66.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.66.question.0",
+              "prompt": [
+                {
+                  "japanese": "[寂:さび]しいので、[犬:いぬ]や[猫:ねこ]などの ___ を[飼:か]いたいです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ペット"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.67",
+          "word": "クリーニング",
+          "reading": "くりーにんぐ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.67.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.67.question.0",
+              "prompt": [
+                {
+                  "japanese": "[家:いえ]で[洗:あら]えないコートを、 ___ のお[店:みせ]に[出:だ]します。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "クリーニング"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.68",
+          "word": "キッチン",
+          "reading": "きっちん",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.68.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.68.question.0",
+              "prompt": [
+                {
+                  "japanese": "[美味:おい]しい[料理:りょうり]を[作:つく]るために、[広:ひろ]くてきれいな ___ がほしいです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "キッチン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.69",
+          "word": "ポケット",
+          "reading": "ぽけっと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.69.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.69.question.0",
+              "prompt": [
+                {
+                  "japanese": "ズボンの ___ に、[財布:さいふ]や[鍵:かぎ]を[入:い]れます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ポケット"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.70",
+          "word": "メモ",
+          "reading": "めも",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.70.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.70.question.0",
+              "prompt": [
+                {
+                  "japanese": "[先生:せんせい]の[話:はなし]を[忘:わす]れないように、ノートに ___ をしておきます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "メモ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.71",
+          "word": "ボーナス",
+          "reading": "ぼーなす",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.71.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.71.question.0",
+              "prompt": [
+                {
+                  "japanese": "[夏:なつ]と[冬:ふゆ]に、[会社:かいしゃ]から[毎月:まいつき]の[給料:きゅうりょう]とは[別:べつ]に ___ をもらいました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ボーナス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.72",
+          "word": "ゲーム",
+          "reading": "げーむ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.72.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.72.question.0",
+              "prompt": [
+                {
+                  "japanese": "[子供:こども]は、テレビで[遊:あそ]ぶ ___ が[大好:だいす]きです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ゲーム"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.73",
+          "word": "ドラマ",
+          "reading": "どらま",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.73.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.73.question.0",
+              "prompt": [
+                {
+                  "japanese": "[毎週:まいしゅう]テレビで、[俳優:はいゆう]が[演技:えんぎ]する ___ を[見:み]ます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ドラマ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.74",
+          "word": "コップ",
+          "reading": "こっぷ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.74.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.74.question.0",
+              "prompt": [
+                {
+                  "japanese": "ジュースを[飲:の]みたいので、ガラスの ___ に[入:い]れてください。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "コップ",
+                "グラス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.75",
+          "word": "ガラス",
+          "reading": "がらす",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.75.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.75.question.0",
+              "prompt": [
+                {
+                  "japanese": "ボールが[当:あ]たって、[窓:まど]の ___ が[割:わ]れてしまいました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ガラス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.76",
+          "word": "スピーチ",
+          "reading": "すぴーち",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.76.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.76.question.0",
+              "prompt": [
+                {
+                  "japanese": "[会議:かいぎ]でみんなの[前:まえ]に[立:た]って、[自分:じぶん]の[意見:いけん]を ___ します。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "スピーチ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.77",
+          "word": "ミーティング",
+          "reading": "みーてぃんぐ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.77.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.77.question.0",
+              "prompt": [
+                {
+                  "japanese": "[今日:きょう]の[午後:ごご]、[会社:かいしゃ]で[仕事:しごと]の[話:はな]し[合:あ]いの ___ があります。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ミーティング"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.78",
+          "word": "ガイドブック",
+          "reading": "がいどぶっく",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.78.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.78.question.0",
+              "prompt": [
+                {
+                  "japanese": "[旅行:りょこう]の[前:まえ]に、[観光地:かんこうち]が[載:の]っている ___ を[買:か]いました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ガイドブック"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.79",
+          "word": "リュック",
+          "reading": "りゅっく",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.79.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.79.question.0",
+              "prompt": [
+                {
+                  "japanese": "[山:やま]に[登:のぼ]る[時:とき]、[背中:せなか]に[背負:せお]う ___ に[荷物:にもつ]を[入:い]れます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "リュック",
+                "リュックサック"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.80",
+          "word": "インフルエンザ",
+          "reading": "いんふるえんざ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.80.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.80.question.0",
+              "prompt": [
+                {
+                  "japanese": "[冬:ふゆ]に[流行:りゅうこう]する ___ になって、[高:たか]い[熱:ねつ]が[出:だ]ました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "インフルエンザ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.81",
+          "word": "エンジン",
+          "reading": "えんじん",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.81.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.81.question.0",
+              "prompt": [
+                {
+                  "japanese": "[車:くるま]を[走:はし]らせるために、[車:くるま]の ___ をかけます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "エンジン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.82",
+          "word": "チーム",
+          "reading": "ちーむ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.82.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.82.question.0",
+              "prompt": [
+                {
+                  "japanese": "ワールドカップで、サッカーの[日本:にほん] ___ が[勝:か]ちました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "チーム"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.83",
+          "word": "ヨーロッパ",
+          "reading": "よーろっぱ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.83.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.83.question.0",
+              "prompt": [
+                {
+                  "japanese": "フランスやドイツがある ___ を[旅行:りょこう]したいです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ヨーロッパ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.84",
+          "word": "ストレス",
+          "reading": "すとれす",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.84.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.84.question.0",
+              "prompt": [
+                {
+                  "japanese": "[仕事:しごと]が[忙:いそが]しくて[休:やす]む[時間:じかん]がなく、[心:こころ]に ___ がたまっています。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ストレス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.85",
+          "word": "リサイクル",
+          "reading": "りさいくる",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.85.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.85.question.0",
+              "prompt": [
+                {
+                  "japanese": "ゴミを[減:へ]らすために、[新聞紙:しんぶんし]やペットボトルを ___ します。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "リサイクル"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.86",
+          "word": "マーク",
+          "reading": "まーく",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.86.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.86.question.0",
+              "prompt": [
+                {
+                  "japanese": "テストの[大切:たいせつ]なところに、[星:ほし]の ___ をつけてください。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "マーク"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.87",
+          "word": "スポーツクラブ",
+          "reading": "すぽーつくらぶ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.87.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.87.question.0",
+              "prompt": [
+                {
+                  "japanese": "[健康:けんこう]のために、[駅前:えきまえ]の ___ に[通:かよ]って[泳:およ]ぎます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "スポーツクラブ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.88",
+          "word": "グラム",
+          "reading": "ぐらむ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.88.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.88.question.0",
+              "prompt": [
+                {
+                  "japanese": "スーパーで、[牛肉:ぎゅうにく]を200 ___ [買:か]いました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "グラム"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.89",
+          "word": "クリック",
+          "reading": "くりっく",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.89.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.89.question.0",
+              "prompt": [
+                {
+                  "japanese": "パソコンの[画面:がめん]で、マウスを ___ してください。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "クリック"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.90",
+          "word": "レバー",
+          "reading": "ればー",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.90.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.90.question.0",
+              "prompt": [
+                {
+                  "japanese": "[機械:きかい]を[動:うご]かすために、[手:て]でその ___ を[引:ひ]いてください。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "レバー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.91",
+          "word": "キー",
+          "reading": "きー",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.91.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.91.question.0",
+              "prompt": [
+                {
+                  "japanese": "パソコンで[文字:もじ]を[入力:にゅうりょく]するために、キーボードの ___ を[押:お]します。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "キー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.92",
+          "word": "アフリカ",
+          "reading": "あふりか",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.92.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.92.question.0",
+              "prompt": [
+                {
+                  "japanese": "[砂漠:さばく]やライオンなどの[野生動物:やせいどうぶつ]がたくさんいる ___ へ[行:い]きたいです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "アフリカ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.93",
+          "word": "ラッシュ",
+          "reading": "らっしゅ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.93.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.93.question.0",
+              "prompt": [
+                {
+                  "japanese": "[朝:あさ]の[通勤:つうきん] ___ は、[電車:でんしゃ]に[人:ひと]が[多:おお]くて[大変:たいへん]です。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ラッシュ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.94",
+          "word": "チャレンジ",
+          "reading": "ちゃれんじ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.94.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.94.question.0",
+              "prompt": [
+                {
+                  "japanese": "[難:むずか]しい[仕事:しごと]ですが、[諦:あきら]めずに ___ したいです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "チャレンジ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.95",
+          "word": "インスタントラーメン",
+          "reading": "いんすたんとらーめん",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.95.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.95.question.0",
+              "prompt": [
+                {
+                  "japanese": "[時間:じかん]がないので、[短時間:たんじかん]で[作:つく]れる ___ を[食:た]べます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "インスタントラーメン",
+                "カップラーメン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.96",
+          "word": "デート",
+          "reading": "でーと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.96.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.96.question.0",
+              "prompt": [
+                {
+                  "japanese": "[日曜日:にちようび]は[彼女:かのじょ]と[一緒:いっしょ]に[映画館:えいがかん]へ[行:い]って ___ します。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "デート"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.97",
+          "word": "ワールドカップ",
+          "reading": "わーるどかっぷ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.97.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.97.question.0",
+              "prompt": [
+                {
+                  "japanese": "４[年:ねん]に１[度行:どおこな]われるサッカーの ___ をテレビで[見:み]ました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ワールドカップ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.98",
+          "word": "ポルトガル",
+          "reading": "ぽるとがる",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.98.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.98.question.0",
+              "prompt": [
+                {
+                  "japanese": "スペインの[隣:となり]にある ___ はヨーロッパの[国:くに]です。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ポルトガル"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.99",
+          "word": "サウジアラビア",
+          "reading": "さうじあらびあ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.99.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.99.question.0",
+              "prompt": [
+                {
+                  "japanese": "[中東:ちゅうとう]にあって、[石油:せきゆ]がたくさんある[国:くに]は ___ です。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "サウジアラビア"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.100",
+          "word": "キロ",
+          "reading": "きろ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.100.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.100.question.0",
+              "prompt": [
+                {
+                  "japanese": "この[米:こめ]の[重:おも]さは５ ___ グラムです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "キロ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.101",
+          "word": "ハイキング",
+          "reading": "はいきんぐ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.101.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.101.question.0",
+              "prompt": [
+                {
+                  "japanese": "[日曜日:にちようび]は[友達:ともだち]と[山:やま]へ ___ に[行:い]って、[自然:しぜん]の[中:なか]を[歩:ある]きます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ハイキング"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.102",
+          "word": "フロント",
+          "reading": "ふろんと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.102.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.102.question.0",
+              "prompt": [
+                {
+                  "japanese": "ホテルに[着:つ]いたら、１[階:かい]の ___ で[受付:うけつけ]をして、[部屋:へや]の[鍵:かぎ]をもらいます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "フロント"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.103",
+          "word": "タオル",
+          "reading": "たおる",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.103.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.103.question.0",
+              "prompt": [
+                {
+                  "japanese": "シャワーの[後:あと]で、 ___ で[体:からだ]を[拭:ふ]きます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "タオル"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.104",
+          "word": "マラソン",
+          "reading": "まらそん",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.104.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.104.question.0",
+              "prompt": [
+                {
+                  "japanese": "42.195キロメートルを[走:はし]る ___ の[大会:たいかい]に[出:で]ます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "マラソン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.105",
+          "word": "コンテスト",
+          "reading": "こんてすと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.105.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.105.question.0",
+              "prompt": [
+                {
+                  "japanese": "[日本語:にほんご]のスピーチ ___ に[出:で]て、１[位:い]になりました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "コンテスト"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.106",
+          "word": "センチ",
+          "reading": "せんち",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.106.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.106.question.0",
+              "prompt": [
+                {
+                  "japanese": "１メートルは100 ___ メートルです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "センチ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.107",
+          "word": "ミリ",
+          "reading": "みり",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.107.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.107.question.0",
+              "prompt": [
+                {
+                  "japanese": "１センチメートルは10 ___ メートルです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ミリ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.108",
+          "word": "テスト",
+          "reading": "てすと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.108.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.108.question.0",
+              "prompt": [
+                {
+                  "japanese": "[明日:あした]は[漢字:かんじ]の ___ があるので、[今晩:こんばん]よく[勉強:べんきょう]します。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "テスト"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.109",
+          "word": "ドライバー",
+          "reading": "どらいばー",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.109.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.109.question.0",
+              "prompt": [
+                {
+                  "japanese": "ねじを[締:し]めたいので、[工具箱:こうぐばこ]から ___ を[取:と]ってください。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ドライバー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.110",
+          "word": "カップめん",
+          "reading": "かっぷめん",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.110.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.110.question.0",
+              "prompt": [
+                {
+                  "japanese": "お[湯:ゆ]を[入:い]れて３[分:ぷん][待:ま]つだけで[食:た]べられる ___ を[買:か]いました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "カップめん"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.111",
+          "word": "ミキサー",
+          "reading": "みきさー",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.111.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.111.question.0",
+              "prompt": [
+                {
+                  "japanese": "[果物:くだもの]と[牛乳:ぎゅうにゅう]を ___ に[入:い]れて、スイッチを[押:お]すとジュースができます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ミキサー",
+                "ジューサー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.112",
+          "word": "ローン",
+          "reading": "ろーん",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.112.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.112.question.0",
+              "prompt": [
+                {
+                  "japanese": "[家:いえ]を[買:か]うために[銀行:ぎんこう]で ___ を[組:く]んで、[毎月:まいつき][少:すこ]しずつお[金:かね]を[返:かえ]します。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ローン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.113",
+          "word": "ガソリン",
+          "reading": "がそりん",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.113.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.113.question.0",
+              "prompt": [
+                {
+                  "japanese": "[車:くるま]の[燃料:ねんりょう]が[少:すく]なくなったので、スタンドで ___ を[入:い]れます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ガソリン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.114",
+          "word": "パンフレット",
+          "reading": "ぱんふれっと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.114.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.114.question.0",
+              "prompt": [
+                {
+                  "japanese": "[旅行会社:りょこうがいしゃ]でもらった ___ を[見:み]て、[旅行:りょこう]の[行:い]き[先:さき]や[料金:りょうきん]を[調:しら]べます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "パンフレット"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.115",
+          "word": "シングル",
+          "reading": "しんぐる",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.115.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.115.question.0",
+              "prompt": [
+                {
+                  "japanese": "[一人:ひとり]で[泊:と]まるので、ホテルの ___ ルームを[予約:よやく]しました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "シングル"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.116",
+          "word": "ツイン",
+          "reading": "ついん",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.116.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.116.question.0",
+              "prompt": [
+                {
+                  "japanese": "ベッドが２[台:だい]あるホテルの ___ ルームをお[願:ねが]いします。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ツイン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.117",
+          "word": "カット",
+          "reading": "かっと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.117.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.117.question.0",
+              "prompt": [
+                {
+                  "japanese": "[髪:かみ]が[長:なが]くなったので、[美容院:びよういん]で ___ してもらいます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "カット"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.118",
+          "word": "シャンプー",
+          "reading": "しゃんぷー",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.118.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.118.question.0",
+              "prompt": [
+                {
+                  "japanese": "[髪:かみ]を[洗:あら]うために、お[湯:ゆ]でぬらしてから ___ をつけて[泡立:あわだ]てます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "シャンプー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.119",
+          "word": "ショート",
+          "reading": "しょーと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.119.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.119.question.0",
+              "prompt": [
+                {
+                  "japanese": "[美容院:びよういん]で「[髪:かみ]を[短:みじか]くして、 ___ ヘアにしてください」と[言:い]いました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ショート"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.120",
+          "word": "キャンセル",
+          "reading": "きゃんせる",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.120.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.120.question.0",
+              "prompt": [
+                {
+                  "japanese": "[旅行:りょこう]に[行:い]けなくなったので、ホテルの[予約:よやく]を ___ します。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "キャンセル"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.121",
+          "word": "コース",
+          "reading": "こーす",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.121.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.121.question.0",
+              "prompt": [
+                {
+                  "japanese": "このマラソンの ___ は、[駅前:えきまえ]を[出発:しゅっぱつ]して、[公園:こうえん]を[通:とお]ります。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "コース"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.122",
+          "word": "スタート",
+          "reading": "すたーと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.122.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.122.question.0",
+              "prompt": [
+                {
+                  "japanese": "[合図:あいず]とともに[選手:せんしゅ]が[一斉:いっせい]に ___ して、ゴールまで[走:はし]ります。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "スタート"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.123",
+          "word": "ガスレンジ",
+          "reading": "がすれんじ",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.123.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.123.question.0",
+              "prompt": [
+                {
+                  "japanese": "[台所:だいどころ]の ___ に[鍋:なべ]を[置:お]いて、ガスの[火:ひ]で[料理:りょうり]を[作:つく]ります。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ガスレンジ",
+                "ガスコンロ",
+                "コンロ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.124",
+          "word": "データ",
+          "reading": "でーた",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.124.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.124.question.0",
+              "prompt": [
+                {
+                  "japanese": "[調査:ちょうさ]で[集:あつ]めた[数字:すうじ]の ___ をパソコンに[保存:ほぞん]します。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "データ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.125",
+          "word": "パトカー",
+          "reading": "ぱとかー",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.125.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.125.question.0",
+              "prompt": [
+                {
+                  "japanese": "[警察官:けいさつかん]が[赤:あか]いランプのついた ___ に[乗:の]って、[町:まち]を[見回:みまわ]っています。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "パトカー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.126",
+          "word": "パーセント",
+          "reading": "ぱーせんと",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.126.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.126.question.0",
+              "prompt": [
+                {
+                  "japanese": "100[人:にん]のうち80[人:にん]が[賛成:さんせい]しました。[賛成:さんせい]した[人:ひと]は80 ___ です。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "パーセント"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.127",
+          "word": "ガイド",
+          "reading": "がいど",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.127.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.127.question.0",
+              "prompt": [
+                {
+                  "japanese": "[旅行:りょこう]の ___ が、[観光地:かんこうち]を[案内:あんない]して[歴史:れきし]を[説明:せつめい]してくれました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ガイド"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.128",
+          "word": "メールアドレス",
+          "reading": "めーるあどれす",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.128.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.128.question.0",
+              "prompt": [
+                {
+                  "japanese": "メールを[送:おく]りたいので、あなたの ___ を[教:おし]えてください。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "メールアドレス",
+                "アドレス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.katakana.word.129",
+          "word": "スケジュール",
+          "reading": "すけじゅーる",
+          "meaningId": "minna-no-nihongo-shokyu.katakana.word.129.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "minna-no-nihongo-shokyu.katakana.word.129.question.0",
+              "prompt": [
+                {
+                  "japanese": "[来週:らいしゅう]の ___ を[確認:かくにん]すると、[月曜日:げつようび]は[会議:かいぎ]、[火曜日:かようび]は[出張:しゅっちょう]の[予定:よてい]が[入:はい]っています。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.katakana.word.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "スケジュール"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

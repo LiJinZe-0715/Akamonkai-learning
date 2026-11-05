@@ -1,0 +1,687 @@
+{
+  "kind": "lesson",
+  "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono",
+  "bookId": "nihongo-noryoku-shiken-n2-bunpo",
+  "title": "ものの表現",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.0",
+          "title": "～ものだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "人は誰でも失敗するものだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "赤ちゃんは夜泣きするものだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "年を取ると、時間がたつのが早いものだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.0.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.0.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.0.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.1",
+          "title": "～たものだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "子供のころ、この川でよく泳いだものだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "学生時代は、夜遅くまで友達と話したものだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "昔はこの辺りも静かだったものだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.1.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.1.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.1.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2",
+          "title": "～ものだから",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "朝寝坊したものだから、電車に乗り遅れてしまった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "道が混んでいたものだから、約束に遅れてしまいました。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "日本語がまだよく分からないものだから、ゆっくり話していただけませんか。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "新しい環境に入れば、誰でも最初は不安になる（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものを"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだ"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.question.1",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.question.1.prompt.0"
+                },
+                {
+                  "japanese": "日本語能力試験には合格した（　）、会話にはまだ自信がない。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものを"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.question.2",
+              "prompt": [
+                {
+                  "japanese": "一言相談してくれれば手伝った（　）、彼は徹夜で一人で仕上げてしまった。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものを"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.question.3",
+              "prompt": [
+                {
+                  "japanese": "この町も昔は祭りになると、夜遅くまで大勢の人でにぎわった（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだ"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.3",
+          "title": "～ものの",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "免許は取ったものの、ほとんど運転していない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "新しい薬を試したものの、効果はなかった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "会社には戻ったものの、以前と同じ仕事は任されなかった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.3.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.3.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.3.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.4",
+          "title": "～ものなら／～ようものなら",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "できるものなら、もう一度学生時代に戻りたい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この秘密を彼に話そうものなら、家中に広まってしまう。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "社長の前でそんなことを言おうものなら、すぐに首になるよ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "学生のころは、お金がなくても友達と朝までよく語り合った（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.4.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものを"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだ"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.4.question.1",
+              "prompt": [
+                {
+                  "japanese": "一週間ゆっくり休める（　）、携帯の電源を切って山にこもりたい。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.4.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.4.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものを"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだ"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.4.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.4.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.4.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.5",
+          "title": "～ものを",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "先に言ってくれれば手伝ったものを。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "黙っていればいいものを、余計なことを言ってしまった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.5.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "電話一本くれれば迎えに行ったものを。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.5.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.5.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.5.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.5.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.5.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.6",
+          "title": "～ものではない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "人の悪口を言うものではない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.6.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "若いうちは、楽な道ばかり選ぶものではない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.6.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "目上の人に向かって、そんな口のきき方をするものではない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.6.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.6.question.0",
+              "prompt": [
+                {
+                  "japanese": "相手の事情も聞かずに、一方的に責める（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.6.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.6.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ものではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "というものだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.6.question.1",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.6.question.1.prompt.0"
+                },
+                {
+                  "japanese": "何度も練習した（　）、本番では緊張して言葉が出てこなかった。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.6.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.6.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ものを"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.6.question.2",
+              "prompt": [
+                {
+                  "japanese": "できる（　）、あの日に戻って、言えなかった「ありがとう」を伝えたい。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.6.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.6.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ものではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものを"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.6.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.6.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.6.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.6.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.7",
+          "title": "～というものだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "困っている人を黙って助ける。これこそ親切というものだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.7.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "一度決めたことを最後までやり遂げる。それが責任というものだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.7.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "自分の意見を言わずに人の顔色ばかりうかがうのは、協調ではなく服従というものだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.7.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.7.question.0",
+              "prompt": [
+                {
+                  "japanese": "昨日はすぐに返事ができませんでした。会議が長引いた（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.7.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.7.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "というものだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.7.question.1",
+              "prompt": [
+                {
+                  "japanese": "苦しいときに黙ってそばにいる。それが本当の友情（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.7.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.7.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "というものだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものを"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.7.question.2",
+              "prompt": [
+                {
+                  "japanese": "今朝、資料を家に忘れてしまいました。慌てて出てきた（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.7.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.7.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "というものだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものを"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.7.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.7.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.7.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.1-mono.grammar.7.pitfall"
+        }
+      ]
+    }
+  }
+}

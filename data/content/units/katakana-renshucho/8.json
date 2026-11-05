@@ -1,0 +1,129 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.8",
+  "bookId": "katakana-renshucho",
+  "title": "第08課 果物②",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.8.word.0",
+          "word": "オレンジ",
+          "reading": "おれんじ",
+          "meaningId": "katakana-renshucho.8.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.8.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.8.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "オレンジ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.8.word.1",
+          "word": "メロン",
+          "reading": "めろん",
+          "meaningId": "katakana-renshucho.8.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.8.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.8.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "メロン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.8.word.2",
+          "word": "ストロベリー",
+          "reading": "すとろべりー",
+          "meaningId": "katakana-renshucho.8.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.8.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.8.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "ストロベリー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.8.word.3",
+          "word": "グレープ",
+          "reading": "ぐれーぷ",
+          "meaningId": "katakana-renshucho.8.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.8.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.8.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "グレープ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.8.word.4",
+          "word": "アップル",
+          "reading": "あっぷる",
+          "meaningId": "katakana-renshucho.8.word.4.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.8.word.4.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.8.word.4.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "アップル"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

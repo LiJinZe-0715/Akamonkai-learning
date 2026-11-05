@@ -1,0 +1,32 @@
+<resources>
+    <!-- 匹配所有中文语言环境（zh、zh-CN、zh-TW、zh-HK ……）。App 只提供简体中文内容，
+         一个目录就够了。 -->
+    <string name="app_name">赤门会日语学习</string>
+
+    <!-- 壳里的提示：英文在 values，中文在 values-zh，两边的键必须一致（pnpm check 会查）。 -->
+    <string name="update_no_browser">请先安装浏览器再下载更新</string>
+    <string name="update_busy">正在检查更新，请稍候</string>
+    <string name="update_checking">正在检查更新…</string>
+    <string name="update_available_title">线上有新的内容</string>
+    <string name="update_available_message">当前安装：%1$s
+线上版本：%2$s
+
+下载后打开 APK，按系统提示安装即可。学习记录会保留，请勿先卸载 App。</string>
+    <string name="update_download">下载更新</string>
+    <string name="later">稍后</string>
+    <string name="update_title">检查更新</string>
+    <string name="update_latest">已是最新内容（%1$s）</string>
+    <string name="ok">确定</string>
+    <string name="update_failed_title">暂时无法检查更新</string>
+    <string name="update_failed_message">请检查网络，或稍后再试。首次发布前，网站上可能还没有版本信息；离线学习不受影响。</string>
+    <string name="no_file_picker">找不到文件选择器</string>
+    <string name="no_link_app">没有可打开此链接的应用</string>
+    <string name="exit_prompt">退出学习？</string>
+    <string name="exit">退出</string>
+    <string name="keep_studying">继续学习</string>
+    <string name="backup_too_large">备份文件过大</string>
+    <string name="save_pending">请先完成上一次保存</string>
+    <string name="no_file_saver">找不到文件保存器</string>
+    <string name="saved">学习记录已保存</string>
+    <string name="save_failed">保存失败，请重试</string>
+</resources>

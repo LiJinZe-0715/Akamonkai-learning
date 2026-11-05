@@ -1,0 +1,301 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-19",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第19課 ～を見て評価すると・～の立場で評価すると",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-19.grammar.0",
+          "title": "～わりに（は）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この店は値段のわりに、量が多い。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼は年齢のわりに、落ち着いている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-19.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "この店は値段の（　）、量が多い。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くせに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "あまりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うちに"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-19.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-19.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-19.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-19.grammar.1",
+          "title": "～にしては",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "初めて作ったにしては、よくできている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼は学生にしては、お金持ちだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-19.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "初めて作った（　）、よくできている。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にしては"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-19.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-19.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-19.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-19.grammar.2",
+          "title": "～だけ（のことは）ある",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "さすがプロだけのことはあって、仕事が早い。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "有名なだけのことはある味だ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-19.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "さすがプロ（　）あって、仕事が早い。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけのことは"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-19.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-19.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-19.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-19.grammar.3",
+          "title": "～として",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "留学生として、日本の文化を学んでいる。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "親として、それは許せない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-19.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-19.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-19.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-19.grammar.4",
+          "title": "～にとって",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "私にとって、家族が一番大切だ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この問題は子供にとって難しすぎる。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-19.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "私（　）、家族が一番大切だ。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にしたら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にとって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "として"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "について"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-19.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-19.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-19.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-19.grammar.5",
+          "title": "～にしたら・～にすれば",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "親にしたら、子供の失敗は心配だろう。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼にすれば、私の忠告は余計なお世話だったのかもしれない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.5.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-19.grammar.5.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-19.grammar.5.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-19.grammar.5.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-19.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

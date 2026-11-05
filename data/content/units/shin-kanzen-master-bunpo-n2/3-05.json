@@ -1,0 +1,132 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.3-05",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第5課 視点を動かさない手段-2 ～てくる・～ていく",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-05.grammar.0",
+          "title": "～てくる（変化の出現）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "急に雨が降ってきた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-05.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "少しずつ分かってきた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-05.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-05.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "急に雨が降っ（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-05.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "てきた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ている"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "てしまう"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ていった"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-05.grammar.0.question.1",
+              "prompt": [
+                {
+                  "japanese": "人口はこれからも減っ（　）だろう。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-05.grammar.0.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "てある"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ていく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "てくる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ている"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-05.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-05.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-05.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-05.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-05.grammar.1",
+          "title": "～ていく（変化の進行・離去）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "人口はこれからも減っていくだろう。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-05.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この資料をあちらへ持っていってください。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-05.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-05.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-05.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-05.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-05.grammar.1.pitfall"
+        }
+      ]
+    }
+  }
+}

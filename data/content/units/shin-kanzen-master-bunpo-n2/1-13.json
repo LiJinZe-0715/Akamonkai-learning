@@ -1,0 +1,274 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-13",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第13課 ～（話題）は",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-13.grammar.0",
+          "title": "～とは",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "「もったいない」とは、物を無駄にしないという意味だ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "まさか彼が犯人とは思わなかった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-13.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-13.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-13.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-13.grammar.1",
+          "title": "～といえば",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本の食べ物といえば、やはりすしでしょう。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "田中さんといえば、先月結婚したそうですよ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-13.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-13.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-13.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-13.grammar.2",
+          "title": "～というと",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "京都というと、やはりお寺が多いですね。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "山田さんというと、営業部の山田さんですか。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-13.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-13.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-13.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-13.grammar.3",
+          "title": "～（のこと）となると",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "食事のこととなると、彼は急に元気になる。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "お金のこととなると、話が別だ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-13.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-13.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-13.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-13.grammar.4",
+          "title": "～といったら",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "その暑さといったら、息ができないほどだった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "合格したときの彼の喜びようといったら、なかった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-13.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "「もったいない」（　）、物を無駄にしないという意味だ。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "となると"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "といえば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "とは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "といったら"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-13.grammar.4.question.1",
+              "prompt": [
+                {
+                  "japanese": "日本の食べ物（　）、やはりすしでしょう。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.4.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "といったら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "といえば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "となると"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "とは"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-13.grammar.4.question.2",
+              "prompt": [
+                {
+                  "japanese": "食事の（　）、彼は急に元気になる。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.4.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ことといったら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "こととは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことといえば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "こととなると"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-13.grammar.4.question.3",
+              "prompt": [
+                {
+                  "japanese": "その暑さ（　）、息ができないほどだった。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.4.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "といえば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "というと"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "といったら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "とは"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-13.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-13.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-13.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-13.grammar.4.pitfall"
+        }
+      ]
+    }
+  }
+}

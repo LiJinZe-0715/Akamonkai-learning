@@ -1,0 +1,670 @@
+{
+  "kind": "lesson",
+  "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment",
+  "bookId": "nihongo-noryoku-shiken-n2-bunpo",
+  "title": "判断・義務",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.0",
+          "title": "～はずだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "十時に出発したから、彼はもう着いているはずだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "地図によれば、駅はこの先のはずだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "昨日送ったのだから、今日届くはずだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.0.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.0.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.0.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.1",
+          "title": "～べきだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "約束は守るべきだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "自分の意見は自分で言うべきだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "人の悪口を言うべきではない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.1.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.1.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.1.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.2",
+          "title": "～ことだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "早く元気になりたければ、よく休むことだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "迷ったら、まず自分で調べることだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "人に頼みたくなければ、日ごろから準備することだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.2.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.2.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.2.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3",
+          "title": "～に違いない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "灯りがついている。誰かが中にいるに違いない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この字は彼のものに違いない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "あんなに練習したのだから、優勝するに違いない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.question.0.prompt.0"
+                },
+                {
+                  "japanese": "借りた物は、約束の日までに返す（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "べきだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "はずだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に違いない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.question.1",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.question.1.prompt.0"
+                },
+                {
+                  "japanese": "他人の意見を聞かずに、一人で決める（　）ではない。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "おそれ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "はず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "べき"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "しだい"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.question.2",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.question.2.prompt.0"
+                },
+                {
+                  "japanese": "風邪を早く治したければ、今日は早く寝る（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に違いない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "べきだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "はずだ"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.question.3",
+              "prompt": [
+                {
+                  "japanese": "彼の靴が玄関にある。きっとまだ家の中にいる（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "べきだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に違いない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことはない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.question.4",
+              "prompt": [
+                {
+                  "japanese": "無理な運転をすれば、重大な事故を起こし（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.question.4.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "かねない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "はずだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に違いない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4",
+          "title": "～に決まっている",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "そんなうまい話はうそに決まっている。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "毎日練習すれば、上手になるに決まっている。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼が来ないなら、つまらなくなるに決まっている。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.question.0.prompt.0"
+                },
+                {
+                  "japanese": "地図では駅から歩いて五分だから、そろそろ着く（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "はずだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に決まっている"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "べきだ"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.question.1",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.question.1.prompt.0"
+                },
+                {
+                  "japanese": "こんなに安いブランド品は、偽物（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "のはずだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "のことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "のおそれがある"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に決まっている"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.question.2",
+              "prompt": [
+                {
+                  "japanese": "あんなに練習したんだから、彼のチームが勝つ（　）と彼は言っている。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "おそれがある"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に決まっている"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "かねない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.question.3",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.question.3.prompt.0"
+                },
+                {
+                  "japanese": "今夜から明日の朝にかけて、道路が凍結する（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に決まっている"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "おそれがある"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "べきだ"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.5",
+          "title": "～おそれがある",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "今夜は大雪となるおそれがある。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この薬は副作用のおそれがある。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.5.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "大雨で川が氾濫するおそれがある。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.5.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.5.question.0",
+              "prompt": [
+                {
+                  "japanese": "この部品に強い衝撃を与えると、発火の（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.5.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.5.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "べきがある"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "おそれがある"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことがある"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "はずがある"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.5.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.5.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.5.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.5.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.6",
+          "title": "～かねない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "このままでは大事故になりかねない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.6.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "そんなに無理をすると、体を壊しかねない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.6.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "確認を怠ると、大きなミスをしかねない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.6.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.6.question.0",
+              "prompt": [
+                {
+                  "japanese": "彼は五年も日本で働いていたから、日本語が話せる（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.6.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.6.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "はずだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "かねない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "べきだ"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.6.question.1",
+              "prompt": [
+                {
+                  "japanese": "事実を隠し続けると、会社全体の信用を失い（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.6.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.6.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "かねない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "はずがない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "べきではない"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.6.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.6.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.6.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.14-judgment.grammar.6.pitfall"
+        }
+      ]
+    }
+  }
+}

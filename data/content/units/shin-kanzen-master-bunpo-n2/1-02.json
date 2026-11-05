@@ -1,0 +1,300 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-02",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第2課 ～している（進行中）",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-02.grammar.0",
+          "title": "～最中だ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "会議の最中に、携帯電話が鳴ってしまった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "試合の最中だ。邪魔しないでくれ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-02.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "会議の（　）に、部長が突然席を立った。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "最中"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "際"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "上"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "向け"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-02.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-02.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-02.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-02.grammar.1",
+          "title": "～うちに",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "熱いうちに召し上がってください。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "音楽を聞いているうちに、眠ってしまった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-02.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-02.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-02.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-02.grammar.2",
+          "title": "～ばかりだ・～一方だ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "物価は上がる一方だ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "仕事は増えるばかりで、給料は上がらない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-02.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "この町の人口は、ここ10年減る（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ところだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "一方だ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだ"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-02.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "温かい（　）に、スープを飲んでください。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "最中"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "うち"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "上"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "末"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-02.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-02.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-02.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-02.grammar.3",
+          "title": "～（よ）うとしている",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "飛行機は今、離陸しようとしている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "社会の仕組みが大きく変わろうとしている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-02.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "飛行機はまもなく離陸（　）としている。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "している"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "した"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "する"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "しよう"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-02.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-02.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-02.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-02.grammar.4",
+          "title": "～つつある",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この町の人口は年々減りつつある。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "伝統的な祭りが失われつつある。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-02.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-02.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-02.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-02.grammar.5",
+          "title": "～つつ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "音楽を聞きつつ、仕事の準備をする。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "悪いと知りつつ、つい言ってしまった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.5.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-02.grammar.5.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-02.grammar.5.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-02.grammar.5.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-02.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

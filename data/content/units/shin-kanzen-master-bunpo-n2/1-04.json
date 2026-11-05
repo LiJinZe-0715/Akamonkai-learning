@@ -1,0 +1,300 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-04",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第4課 範囲の始まりと終わり・その間",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-04.grammar.0",
+          "title": "～をはじめ（として）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本をはじめ、アジアの国々から留学生が集まった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "校長先生をはじめ、多くの先生方が式に出席した。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-04.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "この店は、店員の態度（　）気に入らない。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に沿って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に応じて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "からして"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "をはじめ"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-04.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-04.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-04.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-04.grammar.1",
+          "title": "～からして",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この店は、店員の態度からして気に入らない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼は服装からして他の人と違っている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-04.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-04.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-04.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-04.grammar.2",
+          "title": "～にわたって",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この工事は3年にわたって行われた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "大会は5日間にわたって開かれた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-04.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "日本（　）、アジアの国々から留学生が集まった。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に対して"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "をはじめ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にわたって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に沿って"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-04.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "この工事は3年（　）行われた。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にわたって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "をめぐって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかけては"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-04.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-04.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-04.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-04.grammar.3",
+          "title": "～を通じて・～を通して",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "交流を通じて、互いの理解が深まった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この地方は一年を通じて雨が少ない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-04.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-04.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-04.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-04.grammar.4",
+          "title": "～限り",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "見渡す限り、草原が続いている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "声を限りに叫んだが、誰も来なかった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-04.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "この地方は一年（　）、雨が少ない。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に基づいて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に対して"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を通じて"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-04.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-04.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-04.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-04.grammar.5",
+          "title": "～だけ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "あるだけのお金を出して、その本を買った。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼は言いたいだけ言って、帰ってしまった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.5.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-04.grammar.5.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-04.grammar.5.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-04.grammar.5.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-04.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.7",
+  "bookId": "katakana-renshucho",
+  "title": "第07課 果物①",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.7.word.0",
+          "word": "レモン",
+          "reading": "れもん",
+          "meaningId": "katakana-renshucho.7.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.7.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.7.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "レモン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.7.word.1",
+          "word": "パイナップル",
+          "reading": "ぱいなっぷる",
+          "meaningId": "katakana-renshucho.7.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.7.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.7.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "パイナップル"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.7.word.2",
+          "word": "グレープフルーツ",
+          "reading": "ぐれーぷふるーつ",
+          "meaningId": "katakana-renshucho.7.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.7.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.7.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "グレープフルーツ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.7.word.3",
+          "word": "キウイ",
+          "reading": "きうい",
+          "meaningId": "katakana-renshucho.7.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.7.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.7.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "キウイ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.7.word.4",
+          "word": "バナナ",
+          "reading": "ばなな",
+          "meaningId": "katakana-renshucho.7.word.4.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.7.word.4.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.7.word.4.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "acceptedAnswers": [
+                "バナナ"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

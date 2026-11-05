@@ -1,0 +1,916 @@
+{
+  "kind": "lesson",
+  "id": "topic-1-6.3-1",
+  "bookId": "topic-1-6",
+  "title": "3-1 フィリピンでの留学生活",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.0",
+          "word": "前略",
+          "reading": "ぜんりゃく",
+          "meaningId": "topic-1-6.3-1.word.0.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.1",
+          "word": "あいかわらず",
+          "reading": "あいかわらず",
+          "meaningId": "topic-1-6.3-1.word.1.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.2",
+          "word": "元気にやる",
+          "reading": "げんきにやる",
+          "meaningId": "topic-1-6.3-1.word.2.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.3",
+          "word": "たつ",
+          "reading": "たつ",
+          "meaningId": "topic-1-6.3-1.word.3.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.4",
+          "word": "ようやく",
+          "reading": "ようやく",
+          "meaningId": "topic-1-6.3-1.word.4.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.5",
+          "word": "のどを通る",
+          "reading": "のどをとおる",
+          "meaningId": "topic-1-6.3-1.word.5.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.6",
+          "word": "一晩中",
+          "reading": "ひとばんじゅう",
+          "meaningId": "topic-1-6.3-1.word.6.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.7",
+          "word": "苦労",
+          "reading": "くろう",
+          "meaningId": "topic-1-6.3-1.word.7.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.8",
+          "word": "気になる",
+          "reading": "きになる",
+          "meaningId": "topic-1-6.3-1.word.8.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.9",
+          "word": "手につかない",
+          "reading": "てにつかない",
+          "meaningId": "topic-1-6.3-1.word.9.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.10",
+          "word": "集中する",
+          "reading": "しゅうちゅうする",
+          "meaningId": "topic-1-6.3-1.word.10.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.11",
+          "word": "だいぶ",
+          "reading": "だいぶ",
+          "meaningId": "topic-1-6.3-1.word.11.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.12",
+          "word": "ゼミ",
+          "reading": "ぜみ",
+          "meaningId": "topic-1-6.3-1.word.12.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.13",
+          "word": "ただ",
+          "reading": "ただ",
+          "meaningId": "topic-1-6.3-1.word.13.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.14",
+          "word": "テーマ",
+          "reading": "てーま",
+          "meaningId": "topic-1-6.3-1.word.14.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.15",
+          "word": "決まる",
+          "reading": "きまる",
+          "meaningId": "topic-1-6.3-1.word.15.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.16",
+          "word": "決める",
+          "reading": "きめる",
+          "meaningId": "topic-1-6.3-1.word.16.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.17",
+          "word": "なんとかなる",
+          "reading": "なんとかなる",
+          "meaningId": "topic-1-6.3-1.word.17.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.18",
+          "word": "扇風機",
+          "reading": "せんぷうき",
+          "meaningId": "topic-1-6.3-1.word.18.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.19",
+          "word": "調査",
+          "reading": "ちょうさ",
+          "meaningId": "topic-1-6.3-1.word.19.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.20",
+          "word": "マニラ湾",
+          "reading": "まにらわん",
+          "meaningId": "topic-1-6.3-1.word.20.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.21",
+          "word": "夕日",
+          "reading": "ゆうひ",
+          "meaningId": "topic-1-6.3-1.word.21.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.22",
+          "word": "うわさ",
+          "reading": "うわさ",
+          "meaningId": "topic-1-6.3-1.word.22.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.23",
+          "word": "～どおり",
+          "reading": "~どおり",
+          "meaningId": "topic-1-6.3-1.word.23.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-1.word.24",
+          "word": "～にて",
+          "reading": "~にて",
+          "meaningId": "topic-1-6.3-1.word.24.meaning",
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-1.grammar.0",
+          "title": "可能形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "漢字が読める。",
+              "translationId": "topic-1-6.3-1.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この店ではカードが使える。",
+              "translationId": "topic-1-6.3-1.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "明日は早く来られる？",
+              "translationId": "topic-1-6.3-1.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-1.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "「読む」的标准可能形是？"
+                }
+              ],
+              "explanationId": "topic-1-6.3-1.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "読まれる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "読める"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "読もう"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "読ませる"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-1.grammar.0.question.1",
+              "prompt": [
+                {
+                  "japanese": "「食べる」的标准可能形是？"
+                }
+              ],
+              "explanationId": "topic-1-6.3-1.grammar.0.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "食べれる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べよう"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べさせる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べられる"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-1.grammar.0.question.2",
+              "prompt": [
+                {
+                  "japanese": "「来る（くる）」の可能形と読み方は？"
+                }
+              ],
+              "explanationId": "topic-1-6.3-1.grammar.0.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "来られる（こられる）"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "来れる（くれる）"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "来られる（くられる）"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "来せる（こせる）"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.3-1.grammar.0.meaning",
+          "formationId": "topic-1-6.3-1.grammar.0.formation",
+          "usageId": "topic-1-6.3-1.grammar.0.usage",
+          "pitfallId": "topic-1-6.3-1.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-1.grammar.1",
+          "title": "～ようになる／～なくなる",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "早く起きられるようになった。",
+              "translationId": "topic-1-6.3-1.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "日本語が少し話せるようになった。",
+              "translationId": "topic-1-6.3-1.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "最近、肉を食べなくなった。",
+              "translationId": "topic-1-6.3-1.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "topic-1-6.3-1.grammar.1.meaning",
+          "formationId": "topic-1-6.3-1.grammar.1.formation",
+          "usageId": "topic-1-6.3-1.grammar.1.usage",
+          "pitfallId": "topic-1-6.3-1.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-1.grammar.2",
+          "title": "～ようになってくる",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "会話が分かるようになってきた。",
+              "translationId": "topic-1-6.3-1.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "だんだん日本語が面白くなってきた。",
+              "translationId": "topic-1-6.3-1.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "練習すれば、自然に話せるようになってくる。",
+              "translationId": "topic-1-6.3-1.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "topic-1-6.3-1.grammar.2.meaning",
+          "formationId": "topic-1-6.3-1.grammar.2.formation",
+          "usageId": "topic-1-6.3-1.grammar.2.usage",
+          "pitfallId": "topic-1-6.3-1.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-1.grammar.3",
+          "title": "～てくる",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "マンションが増えてきた。",
+              "translationId": "topic-1-6.3-1.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "だんだん寒くなってきた。",
+              "translationId": "topic-1-6.3-1.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "おなかがすいてきた。",
+              "translationId": "topic-1-6.3-1.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-1.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "毎朝、早く起きる＿＿なりました。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-1.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ようで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ように"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ようだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ような"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.3-1.grammar.3.meaning",
+          "formationId": "topic-1-6.3-1.grammar.3.formation",
+          "usageId": "topic-1-6.3-1.grammar.3.usage",
+          "pitfallId": "topic-1-6.3-1.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-1.grammar.4",
+          "title": "～ていく",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "これからも増えていくだろう。",
+              "translationId": "topic-1-6.3-1.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "これからも日本語を勉強していくつもりだ。",
+              "translationId": "topic-1-6.3-1.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "人口は少しずつ減っていくでしょう。",
+              "translationId": "topic-1-6.3-1.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-1.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "CDをあまり（買わない）＿＿なりました。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-1.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "買わないで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "買わない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "買わなく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "買わなかった"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.3-1.grammar.4.meaning",
+          "formationId": "topic-1-6.3-1.grammar.4.formation",
+          "usageId": "topic-1-6.3-1.grammar.4.usage",
+          "pitfallId": "topic-1-6.3-1.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-1.grammar.5",
+          "title": "～たばかり",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本に来たばかりです。",
+              "translationId": "topic-1-6.3-1.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "さっき昼ご飯を食べたばかりだ。",
+              "translationId": "topic-1-6.3-1.grammar.5.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この会社に入ったばかりで、まだ分からないことが多い。",
+              "translationId": "topic-1-6.3-1.grammar.5.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-1.grammar.5.question.0",
+              "prompt": [
+                {
+                  "japanese": "日本語が（話せる）＿＿ようになってきました。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-1.grammar.5.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "話せたら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "話せる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "話せて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "話せます"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-1.grammar.5.question.1",
+              "prompt": [
+                {
+                  "japanese": "息子は肉＿＿食べて、野菜をあまり食べません。"
+                },
+                {
+                  "textId": "topic-1-6.3-1.grammar.5.question.1.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.3-1.grammar.5.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "たばかり"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "てばかり"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "のばかり"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかり"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.3-1.grammar.5.meaning",
+          "formationId": "topic-1-6.3-1.grammar.5.formation",
+          "usageId": "topic-1-6.3-1.grammar.5.usage",
+          "pitfallId": "topic-1-6.3-1.grammar.5.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-1.grammar.6",
+          "title": "～てばかりいる",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "弟はゲームをしてばかりいる。",
+              "translationId": "topic-1-6.3-1.grammar.6.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼は文句を言ってばかりいる。",
+              "translationId": "topic-1-6.3-1.grammar.6.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "休みの日は寝てばかりいる。",
+              "translationId": "topic-1-6.3-1.grammar.6.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-1.grammar.6.question.0",
+              "prompt": [
+                {
+                  "japanese": "駅前に新しい店が次々と（増える）＿＿きた。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-1.grammar.6.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "増えた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "増えて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "増える"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "増え"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.3-1.grammar.6.meaning",
+          "formationId": "topic-1-6.3-1.grammar.6.formation",
+          "usageId": "topic-1-6.3-1.grammar.6.usage",
+          "pitfallId": "topic-1-6.3-1.grammar.6.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-1.grammar.7",
+          "title": "Nばかり",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "肉ばかり食べている。",
+              "translationId": "topic-1-6.3-1.grammar.7.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "最近、雨ばかり降っている。",
+              "translationId": "topic-1-6.3-1.grammar.7.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "安い物ばかり買うと、すぐ壊れる。",
+              "translationId": "topic-1-6.3-1.grammar.7.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-1.grammar.7.question.0",
+              "prompt": [
+                {
+                  "japanese": "これから、この町の子どもの数は少しずつ（減る）＿＿いくだろう。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-1.grammar.7.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "減る"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "減った"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "減り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "減って"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.3-1.grammar.7.meaning",
+          "formationId": "topic-1-6.3-1.grammar.7.formation",
+          "usageId": "topic-1-6.3-1.grammar.7.usage",
+          "pitfallId": "topic-1-6.3-1.grammar.7.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-1.grammar.8",
+          "title": "例文の解説",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "となりのうちの一郎君、まだ三歳なのに漢字が読めるそうよ。",
+              "translationId": "topic-1-6.3-1.grammar.8.example.0.translation",
+              "analysisId": "topic-1-6.3-1.grammar.8.example.0.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "初めはなかなか寝られませんでしたが、今はよく寝られるようになりました。",
+              "translationId": "topic-1-6.3-1.grammar.8.example.1.translation",
+              "analysisId": "topic-1-6.3-1.grammar.8.example.1.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "漢字が難しくて、なかなか上手に書けるようになりません。",
+              "translationId": "topic-1-6.3-1.grammar.8.example.2.translation",
+              "analysisId": "topic-1-6.3-1.grammar.8.example.2.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "去年までの服が着られなくなったの。",
+              "translationId": "topic-1-6.3-1.grammar.8.example.3.translation",
+              "analysisId": "topic-1-6.3-1.grammar.8.example.3.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "若い人は携帯電話で音楽を聞くようになって、CDをあまり買わなくなったね。",
+              "translationId": "topic-1-6.3-1.grammar.8.example.4.translation",
+              "analysisId": "topic-1-6.3-1.grammar.8.example.4.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "日本人のおしゃべりがわかるようになってきて、会話の勉強にいいよ。",
+              "translationId": "topic-1-6.3-1.grammar.8.example.5.translation",
+              "analysisId": "topic-1-6.3-1.grammar.8.example.5.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "これからもマンションやビルが増えていくでしょうね。",
+              "translationId": "topic-1-6.3-1.grammar.8.example.6.translation",
+              "analysisId": "topic-1-6.3-1.grammar.8.example.6.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "結婚したばかりの頃はまだ若かったのに……。",
+              "translationId": "topic-1-6.3-1.grammar.8.example.7.translation",
+              "analysisId": "topic-1-6.3-1.grammar.8.example.7.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "毎日泣いてばかりいるんです。",
+              "translationId": "topic-1-6.3-1.grammar.8.example.8.translation",
+              "analysisId": "topic-1-6.3-1.grammar.8.example.8.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "息子は肉ばかり食べていて、魚や野菜をあまり食べないんです。",
+              "translationId": "topic-1-6.3-1.grammar.8.example.9.translation",
+              "analysisId": "topic-1-6.3-1.grammar.8.example.9.analysis"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-1.grammar.8.question.0",
+              "prompt": [
+                {
+                  "japanese": "日本に（来る）＿＿ばかりで、まだ友だちが少ないです。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-1.grammar.8.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "来ます"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "来る"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "来た"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "来て"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-1.grammar.8.question.1",
+              "prompt": [
+                {
+                  "japanese": "先生に（聞く）＿＿ばかりいます。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-1.grammar.8.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "聞き"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "聞いて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "聞いた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "聞く"
+                  }
+                ]
+              ],
+              "correctOptionIndexes": [
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}
