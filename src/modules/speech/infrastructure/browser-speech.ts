@@ -288,7 +288,10 @@ export class BrowserSpeech implements SpeechUseCases {
             else if (utterance && !started.has(index))
                 this.watchStart(token, utterance, () => next(index + 1), nativePause ? watchdogMs.appStart + pause : watchdogMs.start);
         };
-        if (busy) this.settle = setTimeout(() => {
+        // 只有真的 cancel 过才需要等那一拍。队列里只躺着预热样本时也算 busy，但没取消就不该等：
+        // 等这一拍会让 speak() 落到点击回调之外，iOS Safari 等手机浏览器据此判定「没有用户
+        // 手势」直接不读——表现就是手机上点了没声。
+        if (mustCancel && busy) this.settle = setTimeout(() => {
             this.settle = undefined;
             next(0);
         }, cancelSettleMs);

@@ -65,6 +65,9 @@ export function StudyProvider({
     // 清空后的进度代数更高，applyProgress 里的合并会让它整体胜出，内存里的旧记录不会回流。
     const clearProgress = useCallback(async () =>
         applyProgress(await services.progressCommands.clear(latest.current)), [services, applyProgress]);
+    // 朗读服务要在应用一启动就初始化：声音列表、偏好设置和引擎预热都在这里。只挂在设置页时，
+    // 直接打开课文页的读者永远拿不到声音列表，每个朗读键都只会提示「不支持日语朗读」。
+    useEffect(() => services.speech.initialize(), [services]);
     useEffect(() => services.progress.subscribe(() => {
         const merged = services.progress.merge(services.progress.load(), latest.current);
         latest.current = merged;

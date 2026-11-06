@@ -460,6 +460,18 @@ test("预热样本还没读完时，既不取消它也不等那一拍", ["speech
     assert.equal(env.cancellations, 0, "更不得把刚热好的引擎取消掉——取消等于把冷启动退回去");
 });
 
+test("真浏览器里预热样本让队列显示忙，播放仍须在点击回调里同步开口", ["speech:ready", "speech:prewarm"], context => {
+    // 真引擎在预热样本读完前报 pending/speaking；手机浏览器只认点击回调里同步发出的 speak()。
+    const env = speechEnvironment(context, {voices: [LOCAL], instantWarmUp: false});
+    env.synthesis.pending = true;
+    env.synthesis.speaking = true;
+    const before = env.spoken.length;
+    assert(env.speech.play([{text: "一行。", lessonId: "l1"}], () => {
+    }));
+    assert.equal(env.spoken.length, before + 1, "不能挪到定时器里才开口");
+    assert.equal(env.cancellations, 0, "预热样本不取消");
+});
+
 test("整篇连读一次一句，读这一句时后面两句已经排进引擎", ["speech:continuous", "speech:ready"], context => {
     const env = speechEnvironment(context);
     env.setVoices([LOCAL]);

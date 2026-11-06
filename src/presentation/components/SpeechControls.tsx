@@ -1,5 +1,5 @@
 import type {UiTextId} from "../../modules/localization/public";
-import {useEffect, useSyncExternalStore} from "react";
+import {useSyncExternalStore} from "react";
 import {useServices, useUi} from "../StudyContext";
 import {speechPause, speechRate, type SpeechState} from "../../modules/speech/public";
 import {desktopClient, engineGuideHref, engineOffer, openTtsSettings, phoneClient, ttsSettingsAvailable} from "./speech-engine-link";
@@ -124,7 +124,6 @@ export function SpeechControls() {
     const services = useServices();
     const t = useUi();
     const state = useSpeechState();
-    useEffect(() => services.speech.initialize(), [services]);
     return <section className="speech-controls" aria-label={t("ui.speechSettings")}>
         <div className="button-row">
             <VoiceSelect/>
