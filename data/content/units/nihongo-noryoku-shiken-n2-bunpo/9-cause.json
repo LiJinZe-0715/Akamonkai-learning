@@ -1,0 +1,648 @@
+{
+  "kind": "lesson",
+  "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause",
+  "bookId": "nihongo-noryoku-shiken-n2-bunpo",
+  "title": "原因",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.0",
+          "title": "～ため（に）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "大雪のため、電車が遅れた。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "台風のため、明日の試合は中止になった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "事故のため、この道は通れません。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.0.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.0.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.0.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1",
+          "title": "～ものだから",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "電車が止まっていたものだから、遅れてしまった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "あまりに驚いたものだから、声も出なかった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "道が分からなかったものだから、ずいぶん遠回りをした。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "大雪の（　）、高速道路が通行止めになった。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "につき"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ため"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.1",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.1.prompt.0"
+                },
+                {
+                  "japanese": "台風が近づいている（　）、試合は中止になった。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ため"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.2",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.2.prompt.0"
+                },
+                {
+                  "japanese": "初めてだった（　）、うまく説明できなかったんです。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "につき"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことから"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.3",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.3.prompt.0"
+                },
+                {
+                  "japanese": "道が混んでいた（　）、約束の時間に遅れました。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ために"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "につき"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.4",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.4.prompt.0"
+                },
+                {
+                  "japanese": "余計な秘密を話した（　）、友達と気まずくなった。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.4.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "につき"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.5",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.5.prompt.0"
+                },
+                {
+                  "japanese": "人気の作家の新作（　）、発売前から注目されている。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.5.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.5.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くせに"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.6",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.6.prompt.0"
+                },
+                {
+                  "japanese": "窓が開いていた（　）、誰かがここから入ったと考えられる。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.6.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.6.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ことから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "につき"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.7",
+              "prompt": [
+                {
+                  "japanese": "工事中（　）、この入り口はご利用いただけません。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.7.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.question.7.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "につき"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけではなく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことから"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2",
+          "title": "～ばかりに",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "余計な一言を言ったばかりに、彼を怒らせてしまった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "お金がないばかりに、留学をあきらめることになった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "うそをついたばかりに、信用を全部失ってしまった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.question.0.prompt.0"
+                },
+                {
+                  "japanese": "安いからとすぐに買った（　）、かえって高い修理代がかかった。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ために"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことから"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.question.1",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.question.1.prompt.0"
+                },
+                {
+                  "japanese": "長い間準備してきた（　）、失敗したときのショックは大きかった。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "につき"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.question.2",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.question.2.prompt.0"
+                },
+                {
+                  "japanese": "この地域は桜の木が多い（　）、桜町と呼ばれるようになった。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くせに"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.question.3",
+              "prompt": [
+                {
+                  "japanese": "本日は貸し切り（　）、一般のお客様は入店できません。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ために"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "につき"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことから"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.3",
+          "title": "～だけに",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "期待していただけに、中止は本当に残念だった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "苦労して手に入れただけに、喜びも大きい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "有名なだけに、批判も厳しい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.3.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.3.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.3.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.4",
+          "title": "～ことから",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "建物の形が船に似ていることから、船の家と呼ばれている。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "多くの人が集まったことから、人気の高さがうかがえる。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "朝早くから人が並ぶことから、有名な店だと分かる。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.4.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.4.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.4.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.5",
+          "title": "～につき",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "店内改装中につき、本日は休業いたします。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "工事中につき、この通路は使用できません。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.5.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "満席につき、ただいまご案内できません。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.5.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.5.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.5.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.5.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.9-cause.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

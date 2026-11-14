@@ -1,0 +1,133 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.3-09",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第9課 「は・が」の使い分け",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-09.grammar.0",
+          "title": "は（主題）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "私は田中と申します。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-09.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この店は安い。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-09.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-09.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "（　）が来ましたか。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-09.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だれは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だれに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だれを"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "誰"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-09.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-09.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-09.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-09.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-09.grammar.1",
+          "title": "が（新情報・総記）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "誰が来ましたか。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-09.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "私が担当します。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-09.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-09.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "（　）田中と申します。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-09.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "私が"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "私も"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "私は"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "私に"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-09.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-09.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-09.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-09.grammar.1.pitfall"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "kind": "lesson",
+  "id": "sogo-nihongo-n2-goi.1-5",
+  "bookId": "sogo-nihongo-n2-goi",
+  "title": "第1週 5日目 夏休みを海で過ごしています",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.0",
+          "word": "海水浴に行く",
+          "reading": "かいすいよくにいく",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.0.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-5.word.0.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.1",
+          "word": "日光浴をする",
+          "reading": "にっこうよくをする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.1.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-5.word.1.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.2",
+          "word": "太陽の光を浴びる",
+          "reading": "たいようのひかりをあびる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.2.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-5.word.2.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.3",
+          "word": "日焼けする",
+          "reading": "ひやけする",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.3.meaning",
+          "patterns": [
+            {
+              "pattern": "N が <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-5.word.3.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "真っ黒になる",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.4.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.3.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.4",
+          "word": "肌が真っ黒になる",
+          "reading": "はだがまっくろになる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.4.meaning",
+          "contrasts": [
+            {
+              "word": "日焼けする",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.3.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.4.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.5",
+          "word": "サングラスを外す",
+          "reading": "さんぐらすをはずす",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.5.meaning",
+          "contrasts": [
+            {
+              "word": "脱ぐ",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.5.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.5.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.6",
+          "word": "サングラスのあとがついている",
+          "reading": "さんぐらすのあとがついている",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.6.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-5.word.6.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.7",
+          "word": "汗をかく",
+          "reading": "あせをかく",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.7.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-5.word.7.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.8",
+          "word": "海にもぐる",
+          "reading": "うみにもぐる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.8.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-5.word.8.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.9",
+          "word": "おぼれる",
+          "reading": "おぼれる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.9.meaning",
+          "patterns": [
+            {
+              "pattern": "N で <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-5.word.9.pattern.0.usage"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-5.word.9.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.10",
+          "word": "ロープをつかむ",
+          "reading": "ろーぷをつかむ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.10.meaning",
+          "contrasts": [
+            {
+              "word": "つかまる",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.10.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.10.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.11",
+          "word": "魚を捕まえる",
+          "reading": "さかなをつかまえる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.11.meaning",
+          "contrasts": [
+            {
+              "word": "捕まる",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.18.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.11.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.12",
+          "word": "魚をつる",
+          "reading": "さかなをつる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.12.meaning",
+          "contrasts": [
+            {
+              "word": "吊る",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.12.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.12.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.13",
+          "word": "魚が網に引っかかる",
+          "reading": "さかながあみにひっかかる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.13.meaning",
+          "contrasts": [
+            {
+              "word": "引っかける",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.21.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.13.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.14",
+          "word": "シャワーを浴びる",
+          "reading": "しゃわーをあびる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.14.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-5.word.14.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.15",
+          "word": "真っ暗な部屋",
+          "reading": "まっくらなへや",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.15.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-5.word.15.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.16",
+          "word": "ボタンを外す",
+          "reading": "ぼたんをはずす",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.16.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-5.word.16.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.17",
+          "word": "ロープにつかまる",
+          "reading": "ろーぷにつかまる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.17.meaning",
+          "contrasts": [
+            {
+              "word": "つかむ",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.17.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.17.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.18",
+          "word": "捕まる",
+          "reading": "つかまる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.18.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-5.word.18.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "捕まえる",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.11.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.18.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.19",
+          "word": "棚をつる",
+          "reading": "たなをつる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.19.meaning",
+          "contrasts": [
+            {
+              "word": "釣る",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.19.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.19.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.20",
+          "word": "詐欺に引っかかる",
+          "reading": "さぎにひっかかる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.20.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-5.word.20.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.21",
+          "word": "引っかける",
+          "reading": "ひっかける",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.21.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-5.word.21.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "引っかかる",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.13.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.21.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.22",
+          "word": "ボートをこぐ",
+          "reading": "ぼーとをこぐ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.22.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-5.word.22.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.23",
+          "word": "ボートがひっくり返る",
+          "reading": "ぼーとがひっくりかえる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.23.meaning",
+          "contrasts": [
+            {
+              "word": "ひっくり返す",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.30.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.23.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.24",
+          "word": "ボートの行方",
+          "reading": "ぼーとのゆくえ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.24.meaning",
+          "contrasts": [
+            {
+              "word": "行方不明",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.31.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.24.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-5.word.24.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.25",
+          "word": "船を岸に近づける",
+          "reading": "ふねをきしにちかづける",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.25.meaning",
+          "contrasts": [
+            {
+              "word": "近づく",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.32.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.25.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.26",
+          "word": "あちこち行く",
+          "reading": "あちこちいく",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.26.meaning",
+          "contrasts": [
+            {
+              "word": "あちらこちら",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.27.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.26.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.27",
+          "word": "あちらこちら",
+          "reading": "あちらこちら",
+          "pos": "adverb",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.27.meaning",
+          "contrasts": [
+            {
+              "word": "あちこち",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.26.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.27.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-5.word.27.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.28",
+          "word": "うまそうなえさ",
+          "reading": "うまそうなえさ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.28.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-5.word.28.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.29",
+          "word": "自転車をこぐ",
+          "reading": "じてんしゃをこぐ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.29.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-5.word.29.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.30",
+          "word": "ひっくり返す",
+          "reading": "ひっくりかえす",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.30.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-5.word.30.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "ひっくり返る",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.23.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.30.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.31",
+          "word": "行方不明",
+          "reading": "ゆくえふめい",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.31.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> に なる",
+              "usageId": "sogo-nihongo-n2-goi.1-5.word.31.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "行方",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.24.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.31.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.32",
+          "word": "近づく",
+          "reading": "ちかづく",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.32.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-5.word.32.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "近寄る",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.33.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.32.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.33",
+          "word": "近寄る",
+          "reading": "ちかよる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.33.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-5.word.33.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "近づく",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.32.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.33.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-5.word.34",
+          "word": "サメが近づく",
+          "reading": "さめがちかづく",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-5.word.34.meaning",
+          "contrasts": [
+            {
+              "word": "近寄る",
+              "glossId": "sogo-nihongo-n2-goi.1-5.word.33.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-5.word.34.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    }
+  }
+}

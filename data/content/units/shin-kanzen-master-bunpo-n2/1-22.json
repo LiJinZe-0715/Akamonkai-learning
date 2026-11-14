@@ -1,0 +1,301 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-22",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第22課 ～だろうと思う",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-22.grammar.0",
+          "title": "～とみえる",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "よほど疲れているとみえて、彼はすぐに寝てしまった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "相当怒っているとみえて、返事がない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-22.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-22.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-22.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-22.grammar.1",
+          "title": "～かねない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "そんなに働いたら、体を壊しかねない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "このままでは、会社が倒産しかねない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-22.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "そんなに働いたら、体を壊し（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "かねる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "かねない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "得ない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "がたい"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-22.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-22.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-22.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-22.grammar.2",
+          "title": "～おそれがある",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "台風で、川が氾濫するおそれがある。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この薬は副作用のおそれがある。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-22.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "台風で、川が氾濫する（　）がある。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ところ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "おそれ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかり"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけ"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-22.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-22.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-22.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-22.grammar.3",
+          "title": "～まい／～ではあるまいか",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼はもう来るまい。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "そんなことはあるまいと思っていた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-22.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "よほど疲れている（　）、彼はすぐに寝てしまった。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "とみえて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "かねて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "まいと"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にきまって"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-22.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-22.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-22.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-22.grammar.4",
+          "title": "～に違いない・～に相違ない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "電気がついているから、彼は家にいるに違いない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼がやったに相違ない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-22.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-22.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-22.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-22.grammar.5",
+          "title": "～にきまっている",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "そんな高い店、味もいいにきまっている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "どうせ彼は来ないにきまっている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.5.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-22.grammar.5.question.0",
+              "prompt": [
+                {
+                  "japanese": "電気がついているから、彼は家にいる（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.5.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "かねない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にきまっている"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に違いない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "まい"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-22.grammar.5.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-22.grammar.5.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-22.grammar.5.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-22.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

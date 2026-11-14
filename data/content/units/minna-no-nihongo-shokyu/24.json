@@ -1,0 +1,753 @@
+{
+  "kind": "lesson",
+  "id": "minna-no-nihongo-shokyu.24",
+  "bookId": "minna-no-nihongo-shokyu",
+  "title": "第24課",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.24.word.0",
+          "word": "くれます",
+          "reading": "くれます",
+          "lemma": "くれる",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.24.word.0.meaning",
+          "patterns": [
+            {
+              "pattern": "N が <w>",
+              "usageId": "minna-no-nihongo-shokyu.24.word.0.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "あげます",
+              "glossId": "minna-no-nihongo-shokyu.24.word.0.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.24.word.0.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.24.word.1",
+          "word": "連れて 行きます",
+          "reading": "つれていきます",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.24.word.1.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.24.word.1.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "連れて 来ます",
+              "glossId": "minna-no-nihongo-shokyu.24.word.2.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.24.word.1.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.24.word.2",
+          "word": "連れて 来ます",
+          "reading": "つれてきます",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.24.word.2.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.24.word.2.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "連れて 行きます",
+              "glossId": "minna-no-nihongo-shokyu.24.word.1.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.24.word.2.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.24.word.3",
+          "word": "送ります",
+          "reading": "おくります",
+          "lemma": "送る",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.24.word.3.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.24.word.3.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "送ります ［荷物を～］",
+              "glossId": "minna-no-nihongo-shokyu.24.word.3.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.24.word.3.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.24.word.4",
+          "word": "紹介します",
+          "reading": "しょうかいします",
+          "lemma": "紹介する",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.24.word.4.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.24.word.4.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "案内します",
+              "glossId": "minna-no-nihongo-shokyu.24.word.5.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.24.word.4.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.24.word.5",
+          "word": "案内します",
+          "reading": "あんないします",
+          "lemma": "案内する",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.24.word.5.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.24.word.5.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "説明します",
+              "glossId": "minna-no-nihongo-shokyu.24.word.6.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.24.word.5.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.24.word.6",
+          "word": "説明します",
+          "reading": "せつめいします",
+          "lemma": "説明する",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.24.word.6.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.24.word.6.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "意味",
+              "glossId": "minna-no-nihongo-shokyu.24.word.11.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.24.word.6.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.24.word.7",
+          "word": "いれます",
+          "reading": "いれます",
+          "lemma": "いれる",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.24.word.7.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.24.word.7.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "入れます",
+              "glossId": "minna-no-nihongo-shokyu.24.word.7.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.24.word.7.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.24.word.8",
+          "word": "おじいさん / おじいちゃん",
+          "reading": "おじいさん / おじいちゃん",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.24.word.8.meaning",
+          "contrasts": [
+            {
+              "word": "おばあさん /　おばあちゃん",
+              "glossId": "minna-no-nihongo-shokyu.24.word.8.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.24.word.8.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.24.word.9",
+          "word": "おばあさん /　おばあちゃん",
+          "reading": "おばあさん / おばあちゃん",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.24.word.9.meaning",
+          "contrasts": [
+            {
+              "word": "おじいさん / おじいちゃん",
+              "glossId": "minna-no-nihongo-shokyu.24.word.9.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.24.word.9.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.24.word.10",
+          "word": "準備",
+          "reading": "じゅんび",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.24.word.10.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を する",
+              "usageId": "minna-no-nihongo-shokyu.24.word.10.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "片付けます",
+              "glossId": "minna-no-nihongo-shokyu.24.word.10.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.24.word.10.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.24.word.11",
+          "word": "意味",
+          "reading": "いみ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.24.word.11.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が わかる",
+              "usageId": "minna-no-nihongo-shokyu.24.word.11.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "説明します",
+              "glossId": "minna-no-nihongo-shokyu.24.word.6.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.24.word.11.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.24.word.12",
+          "word": "お菓子",
+          "reading": "おかし",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.24.word.12.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 食べる",
+              "usageId": "minna-no-nihongo-shokyu.24.word.12.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "お弁当",
+              "glossId": "minna-no-nihongo-shokyu.24.word.16.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.24.word.12.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.24.word.13",
+          "word": "全部",
+          "reading": "ぜんぶ",
+          "pos": "adverb",
+          "meaningId": "minna-no-nihongo-shokyu.24.word.13.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 食べました",
+              "usageId": "minna-no-nihongo-shokyu.24.word.13.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "少し",
+              "glossId": "minna-no-nihongo-shokyu.24.word.13.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.24.word.13.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.24.word.14",
+          "word": "自分で",
+          "reading": "じぶんで",
+          "pos": "adverb",
+          "meaningId": "minna-no-nihongo-shokyu.24.word.14.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 作る",
+              "usageId": "minna-no-nihongo-shokyu.24.word.14.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "自分",
+              "glossId": "minna-no-nihongo-shokyu.24.word.14.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.24.word.14.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.24.word.15",
+          "word": "ほかに",
+          "reading": "ほかに",
+          "pos": "adverb",
+          "meaningId": "minna-no-nihongo-shokyu.24.word.15.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> ありますか",
+              "usageId": "minna-no-nihongo-shokyu.24.word.15.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "それに",
+              "glossId": "minna-no-nihongo-shokyu.24.word.15.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.24.word.15.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.24.word.16",
+          "word": "お弁当",
+          "reading": "おべんとう",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.24.word.16.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 持って 行く",
+              "usageId": "minna-no-nihongo-shokyu.24.word.16.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "お菓子",
+              "glossId": "minna-no-nihongo-shokyu.24.word.12.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.24.word.16.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.24.word.17",
+          "word": "母の 日",
+          "reading": "ははのひ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.24.word.17.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 花を あげる",
+              "usageId": "minna-no-nihongo-shokyu.24.word.17.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "誕生日",
+              "glossId": "minna-no-nihongo-shokyu.24.word.17.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.24.word.17.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "minna-no-nihongo-shokyu.24.grammar.0",
+          "title": "Vて＋あげます",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "友達に日本語を教えてあげました。",
+              "translationId": "minna-no-nihongo-shokyu.24.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "おばあさんの荷物を持ってあげました。",
+              "translationId": "minna-no-nihongo-shokyu.24.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "田中さんに地図を書いてあげました。",
+              "translationId": "minna-no-nihongo-shokyu.24.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.24.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "私は弟に宿題を手伝って（　）。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.24.grammar.0.question.0.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.24.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "あげました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "いただきました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くれました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "もらいました"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "minna-no-nihongo-shokyu.24.grammar.0.meaning",
+          "formationId": "minna-no-nihongo-shokyu.24.grammar.0.formation",
+          "usageId": "minna-no-nihongo-shokyu.24.grammar.0.usage",
+          "pitfallId": "minna-no-nihongo-shokyu.24.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "minna-no-nihongo-shokyu.24.grammar.1",
+          "title": "Vて＋もらいます",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "友達に引っ越しを手伝ってもらいました。",
+              "translationId": "minna-no-nihongo-shokyu.24.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "先生に作文を直してもらいました。",
+              "translationId": "minna-no-nihongo-shokyu.24.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "友達に駅まで送ってもらいました。",
+              "translationId": "minna-no-nihongo-shokyu.24.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.24.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "私は友達（　）写真を撮ってもらいました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.24.grammar.1.question.0.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.24.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "を"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "が"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "と"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "minna-no-nihongo-shokyu.24.grammar.1.meaning",
+          "formationId": "minna-no-nihongo-shokyu.24.grammar.1.formation",
+          "usageId": "minna-no-nihongo-shokyu.24.grammar.1.usage",
+          "pitfallId": "minna-no-nihongo-shokyu.24.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "minna-no-nihongo-shokyu.24.grammar.2",
+          "title": "Vて＋くれます",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "先輩が仕事を説明してくれました。",
+              "translationId": "minna-no-nihongo-shokyu.24.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "母が弁当を作ってくれました。",
+              "translationId": "minna-no-nihongo-shokyu.24.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "友達が駅まで迎えに来てくれました。",
+              "translationId": "minna-no-nihongo-shokyu.24.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.24.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "友達が駅まで迎えに来て（　）。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.24.grammar.2.question.0.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.24.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "あげました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "いただきました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くれました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "もらいました"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "minna-no-nihongo-shokyu.24.grammar.2.meaning",
+          "formationId": "minna-no-nihongo-shokyu.24.grammar.2.formation",
+          "usageId": "minna-no-nihongo-shokyu.24.grammar.2.usage",
+          "pitfallId": "minna-no-nihongo-shokyu.24.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "minna-no-nihongo-shokyu.24.grammar.3",
+          "title": "だれが／だれに",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "だれが予約してくれましたか。",
+              "translationId": "minna-no-nihongo-shokyu.24.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "だれがこのケーキを作ってくれたのですか。",
+              "translationId": "minna-no-nihongo-shokyu.24.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "だれにこの本を貸してもらいましたか。",
+              "translationId": "minna-no-nihongo-shokyu.24.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.24.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "だれ（　）道を教えてくれましたか。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.24.grammar.3.question.0.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.24.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "が"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "へ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.24.grammar.3.question.1",
+              "prompt": [
+                {
+                  "japanese": "「私は田中さんに駅まで送ってもらいました」を同じ出来事として言い換えると？"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.24.grammar.3.question.1.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.24.grammar.3.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "田中さんが私に駅まで送ってもらいました。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "田中さんが私を駅まで送ってくれました。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "私が田中さんを駅まで送ってあげました。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "私は田中さんを駅まで送ってくれました。"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.24.grammar.3.question.2",
+              "prompt": [
+                {
+                  "japanese": "友達に漢字を（　）あげました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.24.grammar.3.question.2.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.24.grammar.3.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "教えた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "教えて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "教え"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "教える"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "minna-no-nihongo-shokyu.24.grammar.3.meaning",
+          "formationId": "minna-no-nihongo-shokyu.24.grammar.3.formation",
+          "usageId": "minna-no-nihongo-shokyu.24.grammar.3.usage",
+          "pitfallId": "minna-no-nihongo-shokyu.24.grammar.3.pitfall"
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

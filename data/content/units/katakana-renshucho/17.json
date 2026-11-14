@@ -1,0 +1,129 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.17",
+  "bookId": "katakana-renshucho",
+  "title": "第17課 身の回りの物②",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.17.word.0",
+          "word": "キャッシュカード",
+          "reading": "きゃっしゅかーど",
+          "meaningId": "katakana-renshucho.17.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.17.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.17.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "キャッシュカード"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.17.word.1",
+          "word": "クレジットカード",
+          "reading": "くれじっとかーど",
+          "meaningId": "katakana-renshucho.17.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.17.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.17.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "クレジットカード"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.17.word.2",
+          "word": "ライター",
+          "reading": "らいたー",
+          "meaningId": "katakana-renshucho.17.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.17.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.17.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ライター"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.17.word.3",
+          "word": "マスク",
+          "reading": "ますく",
+          "meaningId": "katakana-renshucho.17.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.17.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.17.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "マスク"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.17.word.4",
+          "word": "トイレットペーパー",
+          "reading": "といれっとぺーぱー",
+          "meaningId": "katakana-renshucho.17.word.4.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.17.word.4.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.17.word.4.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "トイレットペーパー"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

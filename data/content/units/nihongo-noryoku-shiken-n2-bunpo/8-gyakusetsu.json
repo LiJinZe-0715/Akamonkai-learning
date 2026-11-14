@@ -1,0 +1,657 @@
+{
+  "kind": "lesson",
+  "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu",
+  "bookId": "nihongo-noryoku-shiken-n2-bunpo",
+  "title": "逆接",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.0",
+          "title": "～ものの",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本に長く住んでいるものの、敬語はまだ苦手だ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "申し込んだものの、まだ返事が来ない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "新製品は発売されたものの、店にはほとんど並んでいない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.0.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.0.question.0.prompt.0"
+                },
+                {
+                  "japanese": "新しい仕事を始めた（　）、まだ何をすればよいか分からない。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.0.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くせに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "からには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わりに"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.0.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.0.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.0.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1",
+          "title": "～ながらも",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "小さい会社ながらも、技術力は高い。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "狭いながらも、自分の部屋が持てて嬉しい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼は知っていながらも、私には教えてくれなかった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.0.prompt.0"
+                },
+                {
+                  "japanese": "日本に長く住んでいる（　）、敬語はまだ苦手だ。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ながらも"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くせに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にしては"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.1",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.1.prompt.0"
+                },
+                {
+                  "japanese": "小さい会社（　）、海外でも高く評価されている。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "からには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ながらも"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くせに"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.2",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.2.prompt.0"
+                },
+                {
+                  "japanese": "彼は若い（　）、チームをまとめる力がある。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "からには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ながらも"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "あまり"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.3",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.3.prompt.0"
+                },
+                {
+                  "japanese": "自分も遅刻した（　）、人のことを責めている。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にしては"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ながらも"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くせに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.4",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.4.prompt.0"
+                },
+                {
+                  "japanese": "このパソコンは値段が安い（　）、性能がいい。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.4.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "につれて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ながらも"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くせに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わりに"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2",
+          "title": "～にもかかわらず",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "大雨にもかかわらず、多くの人が来た。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "何度も注意したにもかかわらず、彼は同じミスを繰り返した。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "休日にもかかわらず、事務所には人が残っていた。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.question.0.prompt.0"
+                },
+                {
+                  "japanese": "大雨（　）、多くの人が会場に集まった。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "からには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にもかかわらず"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.question.1",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.question.1.prompt.0"
+                },
+                {
+                  "japanese": "十分準備した（　）、試験に落ちてしまった。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にもかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くせに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.question.2",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.question.2.prompt.0"
+                },
+                {
+                  "japanese": "彼はよく勉強する（　）、成績があまりよくない。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にもかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に沿って"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.question.3",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.question.3.prompt.0"
+                },
+                {
+                  "japanese": "新人（　）、仕事を覚えるのが早い。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にもかかわらず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にしては"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.3",
+          "title": "～くせに",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "知らないくせに、知っているふりをする。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "子供のくせに、大人びたことを言う。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "自分ではできないくせに、人のやり方に文句ばかり言う。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.3.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.3.question.0.prompt.0"
+                },
+                {
+                  "japanese": "何も知らない（　）、知っているふりをしている。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.3.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "くせに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ついでに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "からには"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.3.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.3.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.3.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.4",
+          "title": "～わりに",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この店は値段が安いわりに、おいしい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼は若いわりに、考え方がしっかりしている。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "一生懸命作ったわりに、評判はよくなかった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.4.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.4.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.4.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.5",
+          "title": "～にしては",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本に来て半年にしては、日本語が上手だ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この値段にしては、料理の量が多い。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.5.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "初めてにしては、よくできた。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.5.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.5.question.0",
+              "prompt": [
+                {
+                  "japanese": "日本に来て一年（　）、日本語がかなり自然だ。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.5.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.5.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "につれて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にしては"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くせに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わりに"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.5.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.5.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.5.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.8-gyakusetsu.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

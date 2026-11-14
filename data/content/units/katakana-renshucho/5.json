@@ -1,0 +1,132 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.5",
+  "bookId": "katakana-renshucho",
+  "title": "第05課 食べ物①",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.5.word.0",
+          "word": "ホットドッグ",
+          "reading": "ほっとどっぐ",
+          "meaningId": "katakana-renshucho.5.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.5.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.5.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ホットドッグ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.5.word.1",
+          "word": "ハンバーガー",
+          "reading": "はんばーがー",
+          "meaningId": "katakana-renshucho.5.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.5.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.5.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ハンバーガー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.5.word.2",
+          "word": "ポテト",
+          "reading": "ぽてと",
+          "meaningId": "katakana-renshucho.5.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.5.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.5.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ポテト"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.5.word.3",
+          "word": "スパゲティー",
+          "reading": "すぱげてぃー",
+          "meaningId": "katakana-renshucho.5.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.5.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.5.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "スパゲティー",
+                "スパゲッティ",
+                "スパゲティ",
+                "スパゲッティー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.5.word.4",
+          "word": "サンドイッチ",
+          "reading": "さんどいっち",
+          "meaningId": "katakana-renshucho.5.word.4.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.5.word.4.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.5.word.4.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "サンドイッチ"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

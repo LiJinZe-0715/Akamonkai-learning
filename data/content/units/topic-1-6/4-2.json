@@ -1,0 +1,1100 @@
+{
+  "kind": "lesson",
+  "id": "topic-1-6.4-2",
+  "bookId": "topic-1-6",
+  "title": "4-2 未来の新製品",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.0",
+          "word": "未来",
+          "reading": "みらい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.4-2.word.0.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 家",
+              "usageId": "topic-1-6.4-2.word.0.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "将来",
+              "glossId": "topic-1-6.4-2.word.0.contrast.0.gloss",
+              "differenceId": "topic-1-6.4-2.word.0.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.1",
+          "word": "～以外",
+          "reading": "~いがい",
+          "pos": "expression",
+          "meaningId": "topic-1-6.4-2.word.1.meaning",
+          "contrasts": [
+            {
+              "word": "以内",
+              "glossId": "topic-1-6.4-2.word.1.contrast.0.gloss",
+              "differenceId": "topic-1-6.4-2.word.1.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.2",
+          "word": "バスルーム",
+          "reading": "ばするーむ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.4-2.word.2.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 入る",
+              "usageId": "topic-1-6.4-2.word.2.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.3",
+          "word": "なかなか",
+          "reading": "なかなか",
+          "pos": "adverb",
+          "meaningId": "topic-1-6.4-2.word.3.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 終わらない",
+              "usageId": "topic-1-6.4-2.word.3.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "けっこう",
+              "glossId": "topic-1-6.4-2.word.3.contrast.0.gloss",
+              "differenceId": "topic-1-6.4-2.word.3.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.4",
+          "word": "なるほど",
+          "reading": "なるほど",
+          "pos": "interjection",
+          "meaningId": "topic-1-6.4-2.word.4.meaning",
+          "contrasts": [
+            {
+              "word": "たしかに",
+              "glossId": "topic-1-6.4-2.word.4.contrast.0.gloss",
+              "differenceId": "topic-1-6.4-2.word.4.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.5",
+          "word": "便座",
+          "reading": "べんざ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.4-2.word.5.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 冷たい",
+              "usageId": "topic-1-6.4-2.word.5.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.6",
+          "word": "リビング",
+          "reading": "りびんぐ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.4-2.word.6.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で くつろぐ",
+              "usageId": "topic-1-6.4-2.word.6.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.7",
+          "word": "ベッドルーム",
+          "reading": "べっどるーむ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.4-2.word.7.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 明かり",
+              "usageId": "topic-1-6.4-2.word.7.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.8",
+          "word": "立ち上がる",
+          "reading": "たちあがる",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.4-2.word.8.meaning",
+          "patterns": [
+            {
+              "pattern": "N から <w>",
+              "usageId": "topic-1-6.4-2.word.8.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "立つ",
+              "glossId": "topic-1-6.4-2.word.8.contrast.0.gloss",
+              "differenceId": "topic-1-6.4-2.word.8.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.9",
+          "word": "最新",
+          "reading": "さいしん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.4-2.word.9.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 技術",
+              "usageId": "topic-1-6.4-2.word.9.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "最先端",
+              "glossId": "topic-1-6.4-2.word.9.contrast.0.gloss",
+              "differenceId": "topic-1-6.4-2.word.9.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.10",
+          "word": "天井",
+          "reading": "てんじょう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.4-2.word.10.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に つける",
+              "usageId": "topic-1-6.4-2.word.10.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "屋根",
+              "glossId": "topic-1-6.4-2.word.10.contrast.0.gloss",
+              "differenceId": "topic-1-6.4-2.word.10.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.11",
+          "word": "流れる",
+          "reading": "ながれる",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.4-2.word.11.meaning",
+          "patterns": [
+            {
+              "pattern": "N が <w>",
+              "usageId": "topic-1-6.4-2.word.11.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "流す",
+              "glossId": "topic-1-6.4-2.word.12.meaning",
+              "differenceId": "topic-1-6.4-2.word.11.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.12",
+          "word": "流す",
+          "reading": "ながす",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.4-2.word.12.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.4-2.word.12.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "流れる",
+              "glossId": "topic-1-6.4-2.word.11.meaning",
+              "differenceId": "topic-1-6.4-2.word.12.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.13",
+          "word": "光",
+          "reading": "ひかり",
+          "pos": "noun",
+          "meaningId": "topic-1-6.4-2.word.13.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が さす",
+              "usageId": "topic-1-6.4-2.word.13.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "明かり",
+              "glossId": "topic-1-6.4-2.word.13.contrast.0.gloss",
+              "differenceId": "topic-1-6.4-2.word.13.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.14",
+          "word": "全体",
+          "reading": "ぜんたい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.4-2.word.14.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 様子",
+              "usageId": "topic-1-6.4-2.word.14.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "全部",
+              "glossId": "topic-1-6.4-2.word.14.contrast.0.gloss",
+              "differenceId": "topic-1-6.4-2.word.14.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.15",
+          "word": "セキュリティー",
+          "reading": "せきゅりてぃー",
+          "pos": "noun",
+          "meaningId": "topic-1-6.4-2.word.15.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が しっかりしている",
+              "usageId": "topic-1-6.4-2.word.15.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "安全",
+              "glossId": "topic-1-6.4-2.word.15.contrast.0.gloss",
+              "differenceId": "topic-1-6.4-2.word.15.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.16",
+          "word": "センサー",
+          "reading": "せんさー",
+          "pos": "noun",
+          "meaningId": "topic-1-6.4-2.word.16.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 反応する",
+              "usageId": "topic-1-6.4-2.word.16.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.17",
+          "word": "プラネタリウム",
+          "reading": "ぷらねたりうむ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.4-2.word.17.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行く",
+              "usageId": "topic-1-6.4-2.word.17.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "天文台",
+              "glossId": "topic-1-6.4-2.word.17.contrast.0.gloss",
+              "differenceId": "topic-1-6.4-2.word.17.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.18",
+          "word": "オートロック",
+          "reading": "おーとろっく",
+          "pos": "noun",
+          "meaningId": "topic-1-6.4-2.word.18.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の マンション",
+              "usageId": "topic-1-6.4-2.word.18.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "鍵",
+              "glossId": "topic-1-6.4-2.word.18.contrast.0.gloss",
+              "differenceId": "topic-1-6.4-2.word.18.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.19",
+          "word": "自動的",
+          "reading": "じどうてき",
+          "pos": "na-adjective",
+          "meaningId": "topic-1-6.4-2.word.19.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 動く",
+              "usageId": "topic-1-6.4-2.word.19.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "自然に",
+              "glossId": "topic-1-6.4-2.word.19.contrast.0.gloss",
+              "differenceId": "topic-1-6.4-2.word.19.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.20",
+          "word": "映る",
+          "reading": "うつる",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.4-2.word.20.meaning",
+          "patterns": [
+            {
+              "pattern": "N が <w>",
+              "usageId": "topic-1-6.4-2.word.20.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "映す",
+              "glossId": "topic-1-6.4-2.word.21.meaning",
+              "differenceId": "topic-1-6.4-2.word.20.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.21",
+          "word": "映す",
+          "reading": "うつす",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.4-2.word.21.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.4-2.word.21.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "映る",
+              "glossId": "topic-1-6.4-2.word.20.meaning",
+              "differenceId": "topic-1-6.4-2.word.21.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.4-2.word.22",
+          "word": "ブザー",
+          "reading": "ぶざー",
+          "pos": "noun",
+          "meaningId": "topic-1-6.4-2.word.22.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 鳴る",
+              "usageId": "topic-1-6.4-2.word.22.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.4-2.grammar.0",
+          "title": "語彙の使い方",
+          "examples": [],
+          "noteIds": [
+            "topic-1-6.4-2.grammar.0.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-2.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "このボタンを（　　）、ドアが開きます。"
+                },
+                {
+                  "textId": "topic-1-6.4-2.grammar.0.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.4-2.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "押してと"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "押すと"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "押せと"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "押しと"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.4-2.grammar.1",
+          "title": "～と",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "このボタンを押すと、おつりが出ます。",
+              "translationId": "topic-1-6.4-2.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "春になると、桜が咲く。",
+              "translationId": "topic-1-6.4-2.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "topic-1-6.4-2.grammar.1.meaning",
+          "formationId": "topic-1-6.4-2.grammar.1.formation",
+          "usageId": "topic-1-6.4-2.grammar.1.usage",
+          "pitfallId": "topic-1-6.4-2.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.4-2.grammar.2",
+          "title": "～ば",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "天気がよければ、行こう。",
+              "translationId": "topic-1-6.4-2.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "安ければ、二つ買います。",
+              "translationId": "topic-1-6.4-2.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-2.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "ここで先生に（　　）、分かりますよ。"
+                },
+                {
+                  "textId": "topic-1-6.4-2.grammar.2.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.4-2.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "聞いてば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "聞けば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "聞いたば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "聞くば"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.4-2.grammar.2.meaning",
+          "formationId": "topic-1-6.4-2.grammar.2.formation",
+          "usageId": "topic-1-6.4-2.grammar.2.usage",
+          "pitfallId": "topic-1-6.4-2.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.4-2.grammar.3",
+          "title": "～なら",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本へ行くなら、薬を持って行ったほうがいい。",
+              "translationId": "topic-1-6.4-2.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "タクシーなら、十分で着きますよ。",
+              "translationId": "topic-1-6.4-2.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-2.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "春に（　　）、暖かくなります。"
+                },
+                {
+                  "textId": "topic-1-6.4-2.grammar.3.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.4-2.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "なると"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ならと"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "なってと"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "なりと"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-2.grammar.3.question.1",
+              "prompt": [
+                {
+                  "japanese": "値段が（　　）、買いたいです。"
+                },
+                {
+                  "textId": "topic-1-6.4-2.grammar.3.question.1.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.4-2.grammar.3.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "安ければ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "安くれば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "安けば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "安いば"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-2.grammar.3.question.2",
+              "prompt": [
+                {
+                  "japanese": "静か（　　）、ここに住みたいです。"
+                }
+              ],
+              "explanationId": "topic-1-6.4-2.grammar.3.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "なら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "すれば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ければ"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-2.grammar.3.question.3",
+              "prompt": [
+                {
+                  "japanese": "傘を持って（　　）よかった。"
+                },
+                {
+                  "textId": "topic-1-6.4-2.grammar.3.question.3.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.4-2.grammar.3.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "きれば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くれば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "これば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くるなら"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-2.grammar.3.question.4",
+              "prompt": [
+                {
+                  "japanese": "昨日、あんなことを言わ（　　）よかった。"
+                },
+                {
+                  "textId": "topic-1-6.4-2.grammar.3.question.4.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.4-2.grammar.3.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ないば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "なければ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "なくば"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.4-2.grammar.3.meaning",
+          "formationId": "topic-1-6.4-2.grammar.3.formation",
+          "usageId": "topic-1-6.4-2.grammar.3.usage",
+          "pitfallId": "topic-1-6.4-2.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.4-2.grammar.4",
+          "title": "～ばよかった／～なければよかった",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "もっと早く家を出ればよかった。",
+              "translationId": "topic-1-6.4-2.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "あんなこと、言わなければよかった。",
+              "translationId": "topic-1-6.4-2.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "topic-1-6.4-2.grammar.4.meaning",
+          "formationId": "topic-1-6.4-2.grammar.4.formation",
+          "usageId": "topic-1-6.4-2.grammar.4.usage",
+          "pitfallId": "topic-1-6.4-2.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.4-2.grammar.5",
+          "title": "自動詞／他動詞",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "窓が開いている。",
+              "translationId": "topic-1-6.4-2.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "暑いので、窓を開けた。",
+              "translationId": "topic-1-6.4-2.grammar.5.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "topic-1-6.4-2.grammar.5.meaning",
+          "formationId": "topic-1-6.4-2.grammar.5.formation",
+          "usageId": "topic-1-6.4-2.grammar.5.usage",
+          "pitfallId": "topic-1-6.4-2.grammar.5.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.4-2.grammar.6",
+          "title": "～ようになっている",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "このドアは押すと開くようになっている。",
+              "translationId": "topic-1-6.4-2.grammar.6.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この機械は水が入ると止まるようになっている。",
+              "translationId": "topic-1-6.4-2.grammar.6.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "topic-1-6.4-2.grammar.6.meaning",
+          "formationId": "topic-1-6.4-2.grammar.6.formation",
+          "usageId": "topic-1-6.4-2.grammar.6.usage",
+          "pitfallId": "topic-1-6.4-2.grammar.6.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.4-2.grammar.7",
+          "title": "例文の解説",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "このつまみを右へ回すと、電気が明るくなります。",
+              "translationId": "topic-1-6.4-2.grammar.7.example.0.translation",
+              "analysisId": "topic-1-6.4-2.grammar.7.example.0.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "勉強してたくさん頭を使うと、おなかがすくね。",
+              "translationId": "topic-1-6.4-2.grammar.7.example.1.translation",
+              "analysisId": "topic-1-6.4-2.grammar.7.example.1.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "成績が悪いと、進学できませんよ。",
+              "translationId": "topic-1-6.4-2.grammar.7.example.2.translation",
+              "analysisId": "topic-1-6.4-2.grammar.7.example.2.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "事務所で聞けば、分かりますよ。",
+              "translationId": "topic-1-6.4-2.grammar.7.example.3.translation",
+              "analysisId": "topic-1-6.4-2.grammar.7.example.3.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "天気がよければ、ピクニックに行こう。",
+              "translationId": "topic-1-6.4-2.grammar.7.example.4.translation",
+              "analysisId": "topic-1-6.4-2.grammar.7.example.4.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "空港からホテルまでどのぐらいですか。— タクシーなら、10分ぐらいですよ。",
+              "translationId": "topic-1-6.4-2.grammar.7.example.5.translation",
+              "analysisId": "topic-1-6.4-2.grammar.7.example.5.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "傘を持ってくればよかった。",
+              "translationId": "topic-1-6.4-2.grammar.7.example.6.translation",
+              "analysisId": "topic-1-6.4-2.grammar.7.example.6.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "あんなことを言わなければよかった。",
+              "translationId": "topic-1-6.4-2.grammar.7.example.7.translation",
+              "analysisId": "topic-1-6.4-2.grammar.7.example.7.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "エアコンをつけていただけませんか。— あれ、故障かな。つきませんね。",
+              "translationId": "topic-1-6.4-2.grammar.7.example.8.translation",
+              "analysisId": "topic-1-6.4-2.grammar.7.example.8.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "値段が上がる。／社長は給料を上げてくれません。",
+              "translationId": "topic-1-6.4-2.grammar.7.example.9.translation",
+              "analysisId": "topic-1-6.4-2.grammar.7.example.9.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "ドアが開く。",
+              "translationId": "topic-1-6.4-2.grammar.7.example.10.translation",
+              "analysisId": "topic-1-6.4-2.grammar.7.example.10.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "この車は、リモコンでかぎが開くようになっています。",
+              "translationId": "topic-1-6.4-2.grammar.7.example.11.translation",
+              "analysisId": "topic-1-6.4-2.grammar.7.example.11.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "この喫茶店では、コーヒーを注文した人は自由にパソコンが使えるようになっています。",
+              "translationId": "topic-1-6.4-2.grammar.7.example.12.translation",
+              "analysisId": "topic-1-6.4-2.grammar.7.example.12.analysis"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-2.grammar.7.question.0",
+              "prompt": [
+                {
+                  "japanese": "この部屋は自動で電気がつく（　　）なっています。"
+                },
+                {
+                  "textId": "topic-1-6.4-2.grammar.7.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.4-2.grammar.7.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ように"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ためを"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことを"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "そうに"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-2.grammar.7.question.1",
+              "prompt": [
+                {
+                  "japanese": "エアコン（　　）つけていただけませんか。"
+                },
+                {
+                  "textId": "topic-1-6.4-2.grammar.7.question.1.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.4-2.grammar.7.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "で"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "が"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.4-2.grammar.7.question.2",
+              "prompt": [
+                {
+                  "japanese": "ドアが（　　）ようになっています。"
+                },
+                {
+                  "textId": "topic-1-6.4-2.grammar.7.question.2.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.4-2.grammar.7.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "開きます"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "開ける"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "開く"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "開けます"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

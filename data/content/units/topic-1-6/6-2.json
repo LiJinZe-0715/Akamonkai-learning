@@ -1,0 +1,1164 @@
+{
+  "kind": "lesson",
+  "id": "topic-1-6.6-2",
+  "bookId": "topic-1-6",
+  "title": "6-2 親の立場、子の立場",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-2.word.0",
+          "word": "立場",
+          "reading": "たちば",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-2.word.0.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 変える",
+              "usageId": "topic-1-6.6-2.word.0.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "意見",
+              "glossId": "topic-1-6.6-2.word.0.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-2.word.0.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-2.word.1",
+          "word": "外交官",
+          "reading": "がいこうかん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-2.word.1.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に なる",
+              "usageId": "topic-1-6.6-2.word.1.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "大使",
+              "glossId": "topic-1-6.6-2.word.1.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-2.word.1.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-2.word.2",
+          "word": "医学部",
+          "reading": "いがくぶ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-2.word.2.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 進む",
+              "usageId": "topic-1-6.6-2.word.2.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "法学部",
+              "glossId": "topic-1-6.6-2.word.3.meaning",
+              "differenceId": "topic-1-6.6-2.word.2.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-2.word.3",
+          "word": "法学部",
+          "reading": "ほうがくぶ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-2.word.3.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で 学ぶ",
+              "usageId": "topic-1-6.6-2.word.3.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "医学部",
+              "glossId": "topic-1-6.6-2.word.2.meaning",
+              "differenceId": "topic-1-6.6-2.word.3.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-2.word.4",
+          "word": "かわりに",
+          "reading": "かわりに",
+          "pos": "expression",
+          "meaningId": "topic-1-6.6-2.word.4.meaning",
+          "contrasts": [
+            {
+              "word": "～に 代わって",
+              "glossId": "topic-1-6.6-2.word.4.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-2.word.4.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-2.word.5",
+          "word": "週",
+          "reading": "しゅう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-2.word.5.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 三回",
+              "usageId": "topic-1-6.6-2.word.5.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "週間",
+              "glossId": "topic-1-6.6-2.word.5.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-2.word.5.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-2.word.6",
+          "word": "鍛える",
+          "reading": "きたえる",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.6-2.word.6.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.6-2.word.6.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "磨く",
+              "glossId": "topic-1-6.6-2.word.6.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-2.word.6.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-2.word.7",
+          "word": "詩",
+          "reading": "し",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-2.word.7.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 書く",
+              "usageId": "topic-1-6.6-2.word.7.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "歌",
+              "glossId": "topic-1-6.6-2.word.7.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-2.word.7.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-2.word.8",
+          "word": "教養",
+          "reading": "きょうよう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-2.word.8.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 身につける",
+              "usageId": "topic-1-6.6-2.word.8.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "知識",
+              "glossId": "topic-1-6.6-2.word.8.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-2.word.8.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-2.word.9",
+          "word": "インスタント食品",
+          "reading": "いんすたんとしょくひん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-2.word.9.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 食べる",
+              "usageId": "topic-1-6.6-2.word.9.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "ファストフード",
+              "glossId": "topic-1-6.6-2.word.9.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-2.word.9.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-2.word.10",
+          "word": "フレッシュ",
+          "reading": "ふれっしゅ",
+          "pos": "na-adjective",
+          "meaningId": "topic-1-6.6-2.word.10.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>な 野菜",
+              "usageId": "topic-1-6.6-2.word.10.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "新鮮な",
+              "glossId": "topic-1-6.6-2.word.10.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-2.word.10.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-2.word.11",
+          "word": "豊か",
+          "reading": "ゆたか",
+          "pos": "na-adjective",
+          "meaningId": "topic-1-6.6-2.word.11.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>な 自然",
+              "usageId": "topic-1-6.6-2.word.11.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "裕福な",
+              "glossId": "topic-1-6.6-2.word.11.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-2.word.11.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-2.word.12",
+          "word": "賛否両論",
+          "reading": "さんぴりょうろん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-2.word.12.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が ある",
+              "usageId": "topic-1-6.6-2.word.12.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "満場一致",
+              "glossId": "topic-1-6.6-2.word.12.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-2.word.12.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-2.word.13",
+          "word": "～化",
+          "reading": "~か",
+          "pos": "suffix",
+          "meaningId": "topic-1-6.6-2.word.13.meaning",
+          "contrasts": [
+            {
+              "word": "～に なる",
+              "glossId": "topic-1-6.6-2.word.13.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-2.word.13.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-2.word.14",
+          "word": "大人",
+          "reading": "おとな",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-2.word.14.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に なる",
+              "usageId": "topic-1-6.6-2.word.14.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "成人",
+              "glossId": "topic-1-6.6-2.word.14.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-2.word.14.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-2.word.15",
+          "word": "世の中",
+          "reading": "よのなか",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-2.word.15.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 変わる",
+              "usageId": "topic-1-6.6-2.word.15.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "社会",
+              "glossId": "topic-1-6.6-2.word.15.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-2.word.15.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-2.word.16",
+          "word": "芸術",
+          "reading": "げいじゅつ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-2.word.16.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 作品",
+              "usageId": "topic-1-6.6-2.word.16.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "アート",
+              "glossId": "topic-1-6.6-2.word.16.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-2.word.16.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-2.word.17",
+          "word": "画家",
+          "reading": "がか",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-2.word.17.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に なる",
+              "usageId": "topic-1-6.6-2.word.17.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "絵描き",
+              "glossId": "topic-1-6.6-2.word.17.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-2.word.17.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-2.grammar.0",
+          "title": "語彙の使い方",
+          "examples": [],
+          "noteIds": [
+            "topic-1-6.6-2.grammar.0.note.0"
+          ],
+          "children": [],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-2.grammar.1",
+          "title": "使役受身",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "毎日、残業させられている。",
+              "translationId": "topic-1-6.6-2.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "子どものころ、毎日ピアノを練習させられた。",
+              "translationId": "topic-1-6.6-2.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-2.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "私は先生に毎日作文を（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.6-2.grammar.1.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-2.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "書かれさせました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "書いてられました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "書きさせられました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "書かされました"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-2.grammar.1.question.1",
+              "prompt": [
+                {
+                  "japanese": "子供のころ、母に嫌いな野菜を（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.6-2.grammar.1.question.1.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-2.grammar.1.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "食べられました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べされました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べさせられました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べさせました"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-2.grammar.1.question.2",
+              "prompt": [
+                {
+                  "japanese": "会議で急に意見を（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.6-2.grammar.1.question.2.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-2.grammar.1.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "話させられた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "話しさせられた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "話されられた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "話さされた"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-2.grammar.1.question.3",
+              "prompt": [
+                {
+                  "japanese": "母に食事の準備を（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.6-2.grammar.1.question.3.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-2.grammar.1.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "手伝わされた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "手伝うされた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "手伝あされた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "手伝いされた"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-2.grammar.1.question.4",
+              "prompt": [
+                {
+                  "japanese": "私は母に毎日嫌いな野菜を（　　）います。"
+                },
+                {
+                  "textId": "topic-1-6.6-2.grammar.1.question.4.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-2.grammar.1.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "食べられて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べさせて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べさせられて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べされて"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.6-2.grammar.1.meaning",
+          "formationId": "topic-1-6.6-2.grammar.1.formation",
+          "usageId": "topic-1-6.6-2.grammar.1.usage",
+          "pitfallId": "topic-1-6.6-2.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-2.grammar.2",
+          "title": "受身／使役／使役受身比較",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "妹にお菓子を食べられた。",
+              "translationId": "topic-1-6.6-2.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "母に野菜を食べさせられる。",
+              "translationId": "topic-1-6.6-2.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-2.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "妹に大好きなお菓子を（　　）しまいました。"
+                },
+                {
+                  "textId": "topic-1-6.6-2.grammar.2.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-2.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "食べさせられて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べれて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べさせて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べられて"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-2.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "私は娘に毎日野菜をたくさん（　　）います。"
+                },
+                {
+                  "textId": "topic-1-6.6-2.grammar.2.question.1.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-2.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "食べられて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べさせて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べされて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べさせられて"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-2.grammar.2.question.2",
+              "prompt": [
+                {
+                  "japanese": "妹は父に留学（　　）もらえなかった。"
+                },
+                {
+                  "textId": "topic-1-6.6-2.grammar.2.question.2.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-2.grammar.2.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "して"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "させて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "しさせて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "されて"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-2.grammar.2.question.3",
+              "prompt": [
+                {
+                  "japanese": "この仕事を私に（　　）ほしいです。"
+                },
+                {
+                  "textId": "topic-1-6.6-2.grammar.2.question.3.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-2.grammar.2.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "させて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "して"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "されて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "する"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-2.grammar.2.question.4",
+              "prompt": [
+                {
+                  "japanese": "一人暮らしを（　　）もらいたいです。"
+                },
+                {
+                  "textId": "topic-1-6.6-2.grammar.2.question.4.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-2.grammar.2.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "しられて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "して"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "させて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "されて"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.6-2.grammar.2.meaning",
+          "formationId": "topic-1-6.6-2.grammar.2.formation",
+          "usageId": "topic-1-6.6-2.grammar.2.usage",
+          "pitfallId": "topic-1-6.6-2.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-2.grammar.3",
+          "title": "使役＋てもらう",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "今日は早く帰らせてもらいます。",
+              "translationId": "topic-1-6.6-2.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この仕事は私にやらせてもらえませんか。",
+              "translationId": "topic-1-6.6-2.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "topic-1-6.6-2.grammar.3.meaning",
+          "formationId": "topic-1-6.6-2.grammar.3.formation",
+          "usageId": "topic-1-6.6-2.grammar.3.usage",
+          "pitfallId": "topic-1-6.6-2.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-2.grammar.4",
+          "title": "～てほしい／～てもらいたい",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "子どもには元気に育ってほしい。",
+              "translationId": "topic-1-6.6-2.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "もう少し静かにしてほしい。",
+              "translationId": "topic-1-6.6-2.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "topic-1-6.6-2.grammar.4.meaning",
+          "formationId": "topic-1-6.6-2.grammar.4.formation",
+          "usageId": "topic-1-6.6-2.grammar.4.usage",
+          "pitfallId": "topic-1-6.6-2.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-2.grammar.5",
+          "title": "使役＋てほしい／使役＋てもらいたい",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この仕事は私にさせてほしい。",
+              "translationId": "topic-1-6.6-2.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "一度、自分で考えさせてほしい。",
+              "translationId": "topic-1-6.6-2.grammar.5.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "topic-1-6.6-2.grammar.5.meaning",
+          "formationId": "topic-1-6.6-2.grammar.5.formation",
+          "usageId": "topic-1-6.6-2.grammar.5.usage",
+          "pitfallId": "topic-1-6.6-2.grammar.5.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-2.grammar.6",
+          "title": "例文の解説",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "私は課長に毎晩遅くまで働かされて、とても疲れました。",
+              "translationId": "topic-1-6.6-2.grammar.6.example.0.translation",
+              "analysisId": "topic-1-6.6-2.grammar.6.example.0.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "子供の頃、私は母に食事の準備を手伝わされました。",
+              "translationId": "topic-1-6.6-2.grammar.6.example.1.translation",
+              "analysisId": "topic-1-6.6-2.grammar.6.example.1.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "実は、昨日の飲み会で部長にお酒をたくさん飲まされたんです。",
+              "translationId": "topic-1-6.6-2.grammar.6.example.2.translation",
+              "analysisId": "topic-1-6.6-2.grammar.6.example.2.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "子供の時よくけんかをして、兄に泣かされていました。",
+              "translationId": "topic-1-6.6-2.grammar.6.example.3.translation",
+              "analysisId": "topic-1-6.6-2.grammar.6.example.3.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "私は妹に大好きなお菓子を食べられてしまいました。",
+              "translationId": "topic-1-6.6-2.grammar.6.example.4.translation",
+              "analysisId": "topic-1-6.6-2.grammar.6.example.4.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "私は娘に毎日野菜をたくさん食べさせています。",
+              "translationId": "topic-1-6.6-2.grammar.6.example.5.translation",
+              "analysisId": "topic-1-6.6-2.grammar.6.example.5.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "私は母に毎日嫌いな野菜を食べさせられています。",
+              "translationId": "topic-1-6.6-2.grammar.6.example.6.translation",
+              "analysisId": "topic-1-6.6-2.grammar.6.example.6.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "忙しくて夏休みが取れなかったので、部長に来週一週間休ませてもらう。",
+              "translationId": "topic-1-6.6-2.grammar.6.example.7.translation",
+              "analysisId": "topic-1-6.6-2.grammar.6.example.7.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "妹はイギリスで英語を勉強したがっていたが、父に留学させてもらえなかった。",
+              "translationId": "topic-1-6.6-2.grammar.6.example.8.translation",
+              "analysisId": "topic-1-6.6-2.grammar.6.example.8.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "私は娘に明るく健康に育ってほしいです。",
+              "translationId": "topic-1-6.6-2.grammar.6.example.9.translation",
+              "analysisId": "topic-1-6.6-2.grammar.6.example.9.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "私は夫にもっと家事を手伝ってもらいたい。",
+              "translationId": "topic-1-6.6-2.grammar.6.example.10.translation",
+              "analysisId": "topic-1-6.6-2.grammar.6.example.10.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "もう少し静かにしてほしいな。\nうん。特に、夜中に大きい声で歌わないでほしいね。",
+              "translationId": "topic-1-6.6-2.grammar.6.example.11.translation",
+              "analysisId": "topic-1-6.6-2.grammar.6.example.11.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "新しい仕事は私にさせてほしかったが、鈴木さんがすることになった。",
+              "translationId": "topic-1-6.6-2.grammar.6.example.12.translation",
+              "analysisId": "topic-1-6.6-2.grammar.6.example.12.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "うん。本当は一人暮らしをさせてもらいたいんだけど、親に反対されているんだ。",
+              "translationId": "topic-1-6.6-2.grammar.6.example.13.translation",
+              "analysisId": "topic-1-6.6-2.grammar.6.example.13.analysis"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-2.grammar.6.question.0",
+              "prompt": [
+                {
+                  "japanese": "来週、一日休ま（　　）もらいたいです。"
+                },
+                {
+                  "textId": "topic-1-6.6-2.grammar.6.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-2.grammar.6.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "させて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "されて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "して"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "せて"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-2.grammar.6.question.1",
+              "prompt": [
+                {
+                  "japanese": "私は娘に元気に（　　）ほしいです。"
+                },
+                {
+                  "textId": "topic-1-6.6-2.grammar.6.question.1.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-2.grammar.6.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "育たせて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "育ちて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "育つて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "育って"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-2.grammar.6.question.2",
+              "prompt": [
+                {
+                  "japanese": "夫に家事を手伝って（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.6-2.grammar.6.question.2.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-2.grammar.6.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "させたい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "もらいたい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "もらうたい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ほしいたい"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-2.grammar.6.question.3",
+              "prompt": [
+                {
+                  "japanese": "夜中に大きい声で歌わ（　　）ほしいです。"
+                },
+                {
+                  "textId": "topic-1-6.6-2.grammar.6.question.3.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-2.grammar.6.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ないの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "なければ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "なくて"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

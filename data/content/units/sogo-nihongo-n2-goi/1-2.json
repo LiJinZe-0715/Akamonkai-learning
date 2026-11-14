@@ -1,0 +1,690 @@
+{
+  "kind": "lesson",
+  "id": "sogo-nihongo-n2-goi.1-2",
+  "bookId": "sogo-nihongo-n2-goi",
+  "title": "第1週 2日目 引っ越しは大変です",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.0",
+          "word": "段ボール箱",
+          "reading": "だんぼーるばこ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.0.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w> に 詰める",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.0.pattern.0.usage"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.0.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.1",
+          "word": "ガムテープ",
+          "reading": "がむてーぷ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.1.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w> で とめる",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.1.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "セロテープ",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.1.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.1.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.1.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.2",
+          "word": "ポリ袋",
+          "reading": "ぽりぶくろ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.2.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w> に 入れる",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.2.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "レジ袋",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.3.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.2.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.2.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.3",
+          "word": "レジ袋",
+          "reading": "れじぶくろ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.3.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> を 断る",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.3.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "ポリ袋",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.2.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.3.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.3.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.4",
+          "word": "キャップ",
+          "reading": "きゃっぷ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.4.meaning",
+          "patterns": [
+            {
+              "pattern": "N の <w> を 外す",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.4.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "ふた",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.4.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.4.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.4.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.5",
+          "word": "パック",
+          "reading": "ぱっく",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.5.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w> で 売る",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.5.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "トレイ",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.6.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.5.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.5.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.6",
+          "word": "トレイ",
+          "reading": "とれい",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.6.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w> に のせる",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.6.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "パック",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.5.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.6.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.6.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.7",
+          "word": "ラベル",
+          "reading": "らべる",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.7.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w> を 貼る",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.7.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "シール",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.7.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.7.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.8",
+          "word": "ペットボトル",
+          "reading": "ぺっとぼとる",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.8.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.8.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.9",
+          "word": "買い換える",
+          "reading": "かいかえる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.9.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.9.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "取り替える",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.9.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.9.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.10",
+          "word": "家電製品",
+          "reading": "かでんせいひん",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.10.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> を 処分する",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.10.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "家電",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.10.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.10.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.10.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.11",
+          "word": "省エネ",
+          "reading": "しょうえね",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.11.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> を 心がける",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.11.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "節電",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.11.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.11.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.11.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.12",
+          "word": "電気代を節約する",
+          "reading": "でんきだいをせつやくする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.12.meaning",
+          "contrasts": [
+            {
+              "word": "節電する",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.12.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.12.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.12.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.13",
+          "word": "ごみがたまる",
+          "reading": "ごみがたまる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.13.meaning",
+          "contrasts": [
+            {
+              "word": "ためる",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.13.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.13.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.14",
+          "word": "リサイクルに出す",
+          "reading": "りさいくるにだす",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.14.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.14.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.15",
+          "word": "不用品を処分する",
+          "reading": "ふようひんをしょぶんする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.15.meaning",
+          "contrasts": [
+            {
+              "word": "捨てる",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.15.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.15.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.16",
+          "word": "ごみを分別する",
+          "reading": "ごみをぶんべつする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.16.meaning",
+          "contrasts": [
+            {
+              "word": "分ける",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.16.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.16.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.16.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.17",
+          "word": "燃えるごみ",
+          "reading": "もえるごみ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.17.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> を 出す",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.17.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "可燃ごみ",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.18.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.17.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.18",
+          "word": "可燃ごみ",
+          "reading": "かねんごみ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.18.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> と して 出す",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.18.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "燃えるごみ",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.17.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.18.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.19",
+          "word": "燃やせるごみ",
+          "reading": "もやせるごみ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.19.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> の 日 に 出す",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.19.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "燃えるごみ",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.17.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.19.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.20",
+          "word": "燃えないごみ",
+          "reading": "もえないごみ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.20.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> を 出す",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.20.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "不燃ごみ",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.21.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.20.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.21",
+          "word": "不燃ごみ",
+          "reading": "ふねんごみ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.21.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> と して 出す",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.21.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "燃えないごみ",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.20.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.21.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.22",
+          "word": "生ごみ",
+          "reading": "なまごみ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.22.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> を 出す",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.22.pattern.0.usage"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.22.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.23",
+          "word": "粗大ごみ",
+          "reading": "そだいごみ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.23.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> を 出す",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.23.pattern.0.usage"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.23.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.24",
+          "word": "資源ごみ",
+          "reading": "しげんごみ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.24.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> を 出す",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.24.pattern.0.usage"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.24.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.25",
+          "word": "指定のごみ袋",
+          "reading": "していのごみぶくろ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.25.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w> に 入れる",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.25.pattern.0.usage"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.25.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.26",
+          "word": "ペットボトルをすすぐ",
+          "reading": "ぺっとぼとるをすすぐ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.26.meaning",
+          "contrasts": [
+            {
+              "word": "洗う",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.26.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.26.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.27",
+          "word": "ラベルをはがす",
+          "reading": "らべるをはがす",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.27.meaning",
+          "contrasts": [
+            {
+              "word": "はがれる",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.27.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.27.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.28",
+          "word": "シールを貼る",
+          "reading": "しーるをはる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.28.meaning",
+          "contrasts": [
+            {
+              "word": "張る",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.28.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.28.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.29",
+          "word": "アルミ缶をつぶす",
+          "reading": "あるみかんをつぶす",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.29.meaning",
+          "contrasts": [
+            {
+              "word": "つぶれる",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.29.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.29.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.29.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.30",
+          "word": "古新聞を再利用する",
+          "reading": "こしんぶんをさいりようする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.30.meaning",
+          "contrasts": [
+            {
+              "word": "リサイクルする",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.30.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.30.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-2.word.30.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.31",
+          "word": "水がもれる",
+          "reading": "みずがもれる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.31.meaning",
+          "contrasts": [
+            {
+              "word": "水をもらす",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.32.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.31.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.32",
+          "word": "水をもらす",
+          "reading": "みずをもらす",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.32.meaning",
+          "contrasts": [
+            {
+              "word": "水がもれる",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.31.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.32.contrast.0.difference"
+            },
+            {
+              "word": "こぼれる",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.35.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.32.contrast.1.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.33",
+          "word": "秘密がもれる",
+          "reading": "ひみつがもれる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.33.meaning",
+          "contrasts": [
+            {
+              "word": "秘密をもらす",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.34.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.33.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.34",
+          "word": "秘密をもらす",
+          "reading": "ひみつをもらす",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.34.meaning",
+          "contrasts": [
+            {
+              "word": "秘密がもれる",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.33.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.34.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-2.word.35",
+          "word": "こぼれる",
+          "reading": "こぼれる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.1-2.word.35.meaning",
+          "patterns": [
+            {
+              "pattern": "N から <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-2.word.35.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "もれる",
+              "glossId": "sogo-nihongo-n2-goi.1-2.word.35.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-2.word.35.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1181 @@
+{
+  "kind": "lesson",
+  "id": "topic-1-6.2-2",
+  "bookId": "topic-1-6",
+  "title": "2-2 ベトナムに行く前に",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-2.word.0",
+          "word": "縦",
+          "reading": "たて",
+          "pos": "noun",
+          "meaningId": "topic-1-6.2-2.word.0.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 切る",
+              "usageId": "topic-1-6.2-2.word.0.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "横",
+              "glossId": "topic-1-6.2-2.word.0.contrast.0.gloss",
+              "differenceId": "topic-1-6.2-2.word.0.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-2.word.1",
+          "word": "北部",
+          "reading": "ほくぶ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.2-2.word.1.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>は 涼しい",
+              "usageId": "topic-1-6.2-2.word.1.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "南部",
+              "glossId": "topic-1-6.2-2.word.6.meaning",
+              "differenceId": "topic-1-6.2-2.word.1.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-2.word.2",
+          "word": "貴重品",
+          "reading": "きちょうひん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.2-2.word.2.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 預ける",
+              "usageId": "topic-1-6.2-2.word.2.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "手荷物",
+              "glossId": "topic-1-6.2-2.word.2.contrast.0.gloss",
+              "differenceId": "topic-1-6.2-2.word.2.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-2.word.3",
+          "word": "～によって",
+          "reading": "~によって",
+          "pos": "expression",
+          "meaningId": "topic-1-6.2-2.word.3.meaning",
+          "contrasts": [
+            {
+              "word": "次第で",
+              "glossId": "topic-1-6.2-2.word.3.contrast.0.gloss",
+              "differenceId": "topic-1-6.2-2.word.3.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-2.word.4",
+          "word": "ゴールデンウィーク",
+          "reading": "ごーるでんうぃーく",
+          "pos": "noun",
+          "meaningId": "topic-1-6.2-2.word.4.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 旅行する",
+              "usageId": "topic-1-6.2-2.word.4.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "お盆",
+              "glossId": "topic-1-6.2-2.word.4.contrast.0.gloss",
+              "differenceId": "topic-1-6.2-2.word.4.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-2.word.5",
+          "word": "遅く",
+          "reading": "おそく",
+          "lemma": "遅い",
+          "pos": "adverb",
+          "meaningId": "topic-1-6.2-2.word.5.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>まで 起きている",
+              "usageId": "topic-1-6.2-2.word.5.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "遅れて",
+              "glossId": "topic-1-6.2-2.word.5.contrast.0.gloss",
+              "differenceId": "topic-1-6.2-2.word.5.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-2.word.6",
+          "word": "南部",
+          "reading": "なんぶ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.2-2.word.6.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>は 暑い",
+              "usageId": "topic-1-6.2-2.word.6.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-2.word.7",
+          "word": "日焼け止め",
+          "reading": "ひやけどめ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.2-2.word.7.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 塗る",
+              "usageId": "topic-1-6.2-2.word.7.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "日傘",
+              "glossId": "topic-1-6.2-2.word.7.contrast.0.gloss",
+              "differenceId": "topic-1-6.2-2.word.7.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-2.word.8",
+          "word": "早め",
+          "reading": "はやめ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.2-2.word.8.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 出る",
+              "usageId": "topic-1-6.2-2.word.8.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "早く",
+              "glossId": "topic-1-6.2-2.word.8.contrast.0.gloss",
+              "differenceId": "topic-1-6.2-2.word.8.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-2.word.9",
+          "word": "間",
+          "reading": "あいだ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.2-2.word.9.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 空ける",
+              "usageId": "topic-1-6.2-2.word.9.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "うちに",
+              "glossId": "topic-1-6.2-2.word.9.contrast.0.gloss",
+              "differenceId": "topic-1-6.2-2.word.9.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-2.word.10",
+          "word": "雨期",
+          "reading": "うき",
+          "pos": "noun",
+          "meaningId": "topic-1-6.2-2.word.10.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 入る",
+              "usageId": "topic-1-6.2-2.word.10.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "乾期",
+              "glossId": "topic-1-6.2-2.word.12.meaning",
+              "differenceId": "topic-1-6.2-2.word.10.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-2.word.11",
+          "word": "手続き",
+          "reading": "てつづき",
+          "pos": "noun",
+          "meaningId": "topic-1-6.2-2.word.11.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を する",
+              "usageId": "topic-1-6.2-2.word.11.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "申請",
+              "glossId": "topic-1-6.2-2.word.11.contrast.0.gloss",
+              "differenceId": "topic-1-6.2-2.word.11.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-2.word.12",
+          "word": "乾期",
+          "reading": "かんき",
+          "pos": "noun",
+          "meaningId": "topic-1-6.2-2.word.12.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>は 水が 足りない",
+              "usageId": "topic-1-6.2-2.word.12.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-2.word.13",
+          "word": "生水",
+          "reading": "なまみず",
+          "pos": "noun",
+          "meaningId": "topic-1-6.2-2.word.13.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 飲まない",
+              "usageId": "topic-1-6.2-2.word.13.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "水道水",
+              "glossId": "topic-1-6.2-2.word.13.contrast.0.gloss",
+              "differenceId": "topic-1-6.2-2.word.13.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-2.word.14",
+          "word": "一応",
+          "reading": "いちおう",
+          "pos": "adverb",
+          "meaningId": "topic-1-6.2-2.word.14.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 持って行く",
+              "usageId": "topic-1-6.2-2.word.14.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "とりあえず",
+              "glossId": "topic-1-6.2-2.word.14.contrast.0.gloss",
+              "differenceId": "topic-1-6.2-2.word.14.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-2.word.15",
+          "word": "中部",
+          "reading": "ちゅうぶ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.2-2.word.15.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 通る",
+              "usageId": "topic-1-6.2-2.word.15.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "中央",
+              "glossId": "topic-1-6.2-2.word.15.contrast.0.gloss",
+              "differenceId": "topic-1-6.2-2.word.15.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.2-2.word.16",
+          "word": "ミネラルウォーター",
+          "reading": "みねらるうぉーたー",
+          "pos": "noun",
+          "meaningId": "topic-1-6.2-2.word.16.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 買う",
+              "usageId": "topic-1-6.2-2.word.16.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "お湯",
+              "glossId": "topic-1-6.2-2.word.16.contrast.0.gloss",
+              "differenceId": "topic-1-6.2-2.word.16.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.2-2.grammar.0",
+          "title": "読解・内容のまとめ",
+          "examples": [],
+          "noteIds": [
+            "topic-1-6.2-2.grammar.0.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.2-2.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "旅行に行く前に、ホテルを予約して（　）ほうがいいです。"
+                }
+              ],
+              "explanationId": "topic-1-6.2-2.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "おきた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "おくた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "おいた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "おいてるた"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.2-2.grammar.1",
+          "title": "④ ～たほうがいい：助言",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "たばこをやめたほうがいい。",
+              "translationId": "topic-1-6.2-2.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "夜遅く出かけないほうがいい。",
+              "translationId": "topic-1-6.2-2.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.2-2.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "健康のために、毎日運動（　）ほうがいいですよ。"
+                },
+                {
+                  "textId": "topic-1-6.2-2.grammar.1.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.2-2.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "して"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "した"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "しだった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "するた"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.2-2.grammar.1.meaning",
+          "formationId": "topic-1-6.2-2.grammar.1.formation",
+          "usageId": "topic-1-6.2-2.grammar.1.usage",
+          "pitfallId": "topic-1-6.2-2.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.2-2.grammar.2",
+          "title": "⑤ ～といい：提案",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "分からなかったら、佐藤先生に聞いてみるといいよ。",
+              "translationId": "topic-1-6.2-2.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "一度、使ってみるといい。",
+              "translationId": "topic-1-6.2-2.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.2-2.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "夜遅く一人で（　）ほうがいいですよ。"
+                },
+                {
+                  "textId": "topic-1-6.2-2.grammar.2.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.2-2.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "出かけないだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "出かけなく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "出かけない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "出かけなかった"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.2-2.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "わからなかったら、先生に聞いて（　）といいですよ。"
+                }
+              ],
+              "explanationId": "topic-1-6.2-2.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "みるだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "みる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "みた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "みて"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.2-2.grammar.2.meaning",
+          "formationId": "topic-1-6.2-2.grammar.2.formation",
+          "usageId": "topic-1-6.2-2.grammar.2.usage",
+          "pitfallId": "topic-1-6.2-2.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.2-2.grammar.3",
+          "title": "⑥ ～てある：結果の状態",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "飲み物は買ってある。",
+              "translationId": "topic-1-6.2-2.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "窓が開けてある。",
+              "translationId": "topic-1-6.2-2.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "topic-1-6.2-2.grammar.3.meaning",
+          "formationId": "topic-1-6.2-2.grammar.3.formation",
+          "usageId": "topic-1-6.2-2.grammar.3.usage",
+          "pitfallId": "topic-1-6.2-2.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.2-2.grammar.4",
+          "title": "⑦ ～ておく：準備",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "明日までにコピーしておきます。",
+              "translationId": "topic-1-6.2-2.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "先に昼ご飯を食べておこう。",
+              "translationId": "topic-1-6.2-2.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.2-2.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "明日の会議の資料はもう（　）ある。"
+                }
+              ],
+              "explanationId": "topic-1-6.2-2.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "準備し"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "準備した"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "準備して"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "準備する"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.2-2.grammar.4.question.1",
+              "prompt": [
+                {
+                  "japanese": "旅行の前に必要なものを準備して（　）。"
+                },
+                {
+                  "textId": "topic-1-6.2-2.grammar.4.question.1.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.2-2.grammar.4.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "おきます"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "おきるます"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "おくます"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "おいてますた"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.2-2.grammar.4.meaning",
+          "formationId": "topic-1-6.2-2.grammar.4.formation",
+          "usageId": "topic-1-6.2-2.grammar.4.usage",
+          "pitfallId": "topic-1-6.2-2.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.2-2.grammar.5",
+          "title": "⑧ もう／まだ：完了・未完了・継続",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "もう宿題は終わった。",
+              "translationId": "topic-1-6.2-2.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "まだ会議をしている。",
+              "translationId": "topic-1-6.2-2.grammar.5.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.2-2.grammar.5.question.0",
+              "prompt": [
+                {
+                  "japanese": "明日の会議のために、今日（　）おきます。"
+                }
+              ],
+              "explanationId": "topic-1-6.2-2.grammar.5.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "コピーした"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "コピーし"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "コピーする"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "コピーして"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.2-2.grammar.5.question.1",
+              "prompt": [
+                {
+                  "japanese": "飲み物はもう（　）あるよ。"
+                }
+              ],
+              "explanationId": "topic-1-6.2-2.grammar.5.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "買った"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "買い"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "買いて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "買って"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.2-2.grammar.5.question.2",
+              "prompt": [
+                {
+                  "japanese": "宿題はもう（　）。"
+                },
+                {
+                  "textId": "topic-1-6.2-2.grammar.5.question.2.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.2-2.grammar.5.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "終わってたた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "終わった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "終わるた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "終わりた"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.2-2.grammar.5.question.3",
+              "prompt": [
+                {
+                  "japanese": "宿題はまだ（　）いません。"
+                },
+                {
+                  "textId": "topic-1-6.2-2.grammar.5.question.3.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.2-2.grammar.5.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "終わって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "終わる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "終わりて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "終わった"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.2-2.grammar.5.meaning",
+          "formationId": "topic-1-6.2-2.grammar.5.formation",
+          "usageId": "topic-1-6.2-2.grammar.5.usage",
+          "pitfallId": "topic-1-6.2-2.grammar.5.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.2-2.grammar.6",
+          "title": "例文の解説",
+          "examples": [
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.2-2.grammar.6.example.0",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.0.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "健康のために、たばこをやめたほうがいいよ。"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.0.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "そうだね。"
+                    },
+                    {
+                      "kind": "sentence",
+                      "text": "でも、なかなかやめられなくて……。"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.2-2.grammar.6.example.0.analysis"
+            },
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.2-2.grammar.6.example.1",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.1.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "毎日本を見ているのに、漢字が覚えられないんです。"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.1.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "漢字が覚えられないなら、毎日たくさん書いたほうがいいですよ。"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.2-2.grammar.6.example.1.analysis"
+            },
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.2-2.grammar.6.example.2",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.2.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "歌舞伎を見てみたいと思っているんだけど……。"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.2.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "じゃあ、佐藤先生に聞いてみるといいよ。"
+                    },
+                    {
+                      "kind": "sentence",
+                      "text": "先生はよく歌舞伎を見に行っているから、わかりやすく教えてくれると思うよ。"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.2-2.grammar.6.example.2.analysis"
+            },
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.2-2.grammar.6.example.3",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.3.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "飲み物は買ってある？"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.3.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "うん、買ってあるよ。"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.2-2.grammar.6.example.3.analysis"
+            },
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.2-2.grammar.6.example.4",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.4.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "明日の会議の資料は準備してある？"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.4.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "すみません。"
+                    },
+                    {
+                      "kind": "sentence",
+                      "text": "まだです。"
+                    },
+                    {
+                      "kind": "sentence",
+                      "text": "明日までにコピーしておきます。"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.2-2.grammar.6.example.4.analysis"
+            },
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.2-2.grammar.6.example.5",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.5.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "もう宿題は終わった？"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.5.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "うん、もう終わったよ。"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.2-2.grammar.6.example.5.analysis"
+            },
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.2-2.grammar.6.example.6",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.6.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "もう漢字テストの勉強は終わった？"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.6.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "ううん、まだ勉強して（い）ない。"
+                    },
+                    {
+                      "kind": "sentence",
+                      "text": "これからやるところ。"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.2-2.grammar.6.example.6.analysis"
+            },
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.2-2.grammar.6.example.7",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.7.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "まだ深夜のアルバイトをしているんですか。"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.7.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "いいえ、ちょっと仕事が大変で、もうしていません。"
+                    }
+                  ]
+                },
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.7.line.2.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "本当ですか。"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.7.line.3.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "はい、もうやめました。"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.2-2.grammar.6.example.7.analysis"
+            },
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.2-2.grammar.6.example.8",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.8.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "まだ会議をしていますか。"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.2-2.grammar.6.example.8.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "ええ、まだしています。"
+                    },
+                    {
+                      "kind": "sentence",
+                      "text": "そろそろ終わると思いますが。"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.2-2.grammar.6.example.8.analysis"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": []
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

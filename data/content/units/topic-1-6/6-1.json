@@ -1,0 +1,1795 @@
+{
+  "kind": "lesson",
+  "id": "topic-1-6.6-1",
+  "bookId": "topic-1-6",
+  "title": "6-1 日本の大学",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.0",
+          "word": "法学部",
+          "reading": "ほうがくぶ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.0.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 入る",
+              "usageId": "topic-1-6.6-1.word.0.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "法学",
+              "glossId": "topic-1-6.6-1.word.0.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.0.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.1",
+          "word": "卒論",
+          "reading": "そつろん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.1.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 書く",
+              "usageId": "topic-1-6.6-1.word.1.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "論文",
+              "glossId": "topic-1-6.6-1.word.39.meaning",
+              "differenceId": "topic-1-6.6-1.word.1.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.2",
+          "word": "ゼミ",
+          "reading": "ぜみ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.2.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 入る",
+              "usageId": "topic-1-6.6-1.word.2.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "講義",
+              "glossId": "topic-1-6.6-1.word.32.meaning",
+              "differenceId": "topic-1-6.6-1.word.2.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.3",
+          "word": "幅広い",
+          "reading": "はばひろい",
+          "pos": "i-adjective",
+          "meaningId": "topic-1-6.6-1.word.3.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 知識",
+              "usageId": "topic-1-6.6-1.word.3.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "広い",
+              "glossId": "topic-1-6.6-1.word.3.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.3.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.4",
+          "word": "全員",
+          "reading": "ぜんいん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.4.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 出席する",
+              "usageId": "topic-1-6.6-1.word.4.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "みんな",
+              "glossId": "topic-1-6.6-1.word.4.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.4.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.5",
+          "word": "ディスカッション",
+          "reading": "でぃすかっしょん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.5.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を する",
+              "usageId": "topic-1-6.6-1.word.5.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "議論",
+              "glossId": "topic-1-6.6-1.word.5.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.5.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.6",
+          "word": "テーマ",
+          "reading": "てーま",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.6.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 決める",
+              "usageId": "topic-1-6.6-1.word.6.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "課題",
+              "glossId": "topic-1-6.6-1.word.6.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.6.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.7",
+          "word": "後期",
+          "reading": "こうき",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.7.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 始まる",
+              "usageId": "topic-1-6.6-1.word.7.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "前期",
+              "glossId": "topic-1-6.6-1.word.46.meaning",
+              "differenceId": "topic-1-6.6-1.word.7.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.8",
+          "word": "順番",
+          "reading": "じゅんばん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.8.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 決める",
+              "usageId": "topic-1-6.6-1.word.8.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "順序",
+              "glossId": "topic-1-6.6-1.word.8.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.8.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.9",
+          "word": "中間",
+          "reading": "ちゅうかん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.9.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 発表する",
+              "usageId": "topic-1-6.6-1.word.9.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "途中",
+              "glossId": "topic-1-6.6-1.word.9.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.9.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.10",
+          "word": "内容",
+          "reading": "ないよう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.10.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 濃い",
+              "usageId": "topic-1-6.6-1.word.10.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "中身",
+              "glossId": "topic-1-6.6-1.word.10.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.10.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.11",
+          "word": "参考",
+          "reading": "さんこう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.11.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に なる",
+              "usageId": "topic-1-6.6-1.word.11.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "見本",
+              "glossId": "topic-1-6.6-1.word.11.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.11.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.12",
+          "word": "～をもとに",
+          "reading": "~をもとに",
+          "pos": "expression",
+          "meaningId": "topic-1-6.6-1.word.12.meaning",
+          "contrasts": [
+            {
+              "word": "～に 基づいて",
+              "glossId": "topic-1-6.6-1.word.12.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.12.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.13",
+          "word": "つける",
+          "reading": "つける",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.6-1.word.13.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.6-1.word.13.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "評価する",
+              "glossId": "topic-1-6.6-1.word.13.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.13.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.14",
+          "word": "語彙",
+          "reading": "ごい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.14.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 増える",
+              "usageId": "topic-1-6.6-1.word.14.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "単語",
+              "glossId": "topic-1-6.6-1.word.14.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.14.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.15",
+          "word": "毎回",
+          "reading": "まいかい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.15.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 提出する",
+              "usageId": "topic-1-6.6-1.word.15.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "いつも",
+              "glossId": "topic-1-6.6-1.word.15.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.15.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.16",
+          "word": "学科",
+          "reading": "がっか",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.16.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 選ぶ",
+              "usageId": "topic-1-6.6-1.word.16.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "学部",
+              "glossId": "topic-1-6.6-1.word.16.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.16.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.17",
+          "word": "短期",
+          "reading": "たんき",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.17.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 留学",
+              "usageId": "topic-1-6.6-1.word.17.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "長期",
+              "glossId": "topic-1-6.6-1.word.17.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.17.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.18",
+          "word": "処理",
+          "reading": "しょり",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.18.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を する",
+              "usageId": "topic-1-6.6-1.word.18.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "対処",
+              "glossId": "topic-1-6.6-1.word.18.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.18.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.19",
+          "word": "北京",
+          "reading": "ぺきん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.19.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行く",
+              "usageId": "topic-1-6.6-1.word.19.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.20",
+          "word": "Eメール",
+          "reading": "いーめーる",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.20.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 送る",
+              "usageId": "topic-1-6.6-1.word.20.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "メール",
+              "glossId": "topic-1-6.6-1.word.20.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.20.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.21",
+          "word": "アドレス",
+          "reading": "あどれす",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.21.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 教える",
+              "usageId": "topic-1-6.6-1.word.21.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "住所",
+              "glossId": "topic-1-6.6-1.word.21.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.21.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.22",
+          "word": "交換",
+          "reading": "こうかん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.22.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>する",
+              "usageId": "topic-1-6.6-1.word.22.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "取り替える",
+              "glossId": "topic-1-6.6-1.word.22.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.22.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.23",
+          "word": "プログラミング",
+          "reading": "ぷろぐらみんぐ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.23.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 学ぶ",
+              "usageId": "topic-1-6.6-1.word.23.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "プログラム",
+              "glossId": "topic-1-6.6-1.word.25.meaning",
+              "differenceId": "topic-1-6.6-1.word.23.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.24",
+          "word": "基礎",
+          "reading": "きそ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.24.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 固める",
+              "usageId": "topic-1-6.6-1.word.24.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "基本",
+              "glossId": "topic-1-6.6-1.word.24.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.24.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.25",
+          "word": "プログラム",
+          "reading": "ぷろぐらむ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.25.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 組む",
+              "usageId": "topic-1-6.6-1.word.25.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "アプリ",
+              "glossId": "topic-1-6.6-1.word.25.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.25.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.26",
+          "word": "ホームページ",
+          "reading": "ほーむぺーじ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.26.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 開く",
+              "usageId": "topic-1-6.6-1.word.26.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "サイト",
+              "glossId": "topic-1-6.6-1.word.26.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.26.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.27",
+          "word": "ゲーム",
+          "reading": "げーむ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.27.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を する",
+              "usageId": "topic-1-6.6-1.word.27.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "遊び",
+              "glossId": "topic-1-6.6-1.word.27.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.27.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.28",
+          "word": "完成する",
+          "reading": "かんせいする",
+          "pos": "verb",
+          "transitivity": "both",
+          "meaningId": "topic-1-6.6-1.word.28.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.6-1.word.28.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "終わる",
+              "glossId": "topic-1-6.6-1.word.28.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.28.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.29",
+          "word": "話し合う",
+          "reading": "はなしあう",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.6-1.word.29.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.6-1.word.29.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "相談する",
+              "glossId": "topic-1-6.6-1.word.29.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.29.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.30",
+          "word": "アイデア",
+          "reading": "あいであ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.30.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 出す",
+              "usageId": "topic-1-6.6-1.word.30.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "考え",
+              "glossId": "topic-1-6.6-1.word.30.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.30.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.31",
+          "word": "授業",
+          "reading": "じゅぎょう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.31.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 受ける",
+              "usageId": "topic-1-6.6-1.word.31.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "講義",
+              "glossId": "topic-1-6.6-1.word.32.meaning",
+              "differenceId": "topic-1-6.6-1.word.31.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.32",
+          "word": "講義",
+          "reading": "こうぎ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.32.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 聞く",
+              "usageId": "topic-1-6.6-1.word.32.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "授業",
+              "glossId": "topic-1-6.6-1.word.31.meaning",
+              "differenceId": "topic-1-6.6-1.word.32.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.33",
+          "word": "休講",
+          "reading": "きゅうこう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.33.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に なる",
+              "usageId": "topic-1-6.6-1.word.33.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "欠席",
+              "glossId": "topic-1-6.6-1.word.33.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.33.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.34",
+          "word": "試験",
+          "reading": "しけん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.34.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 受ける",
+              "usageId": "topic-1-6.6-1.word.34.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "テスト",
+              "glossId": "topic-1-6.6-1.word.34.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.34.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.35",
+          "word": "レポート",
+          "reading": "れぽーと",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.35.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 書く",
+              "usageId": "topic-1-6.6-1.word.35.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "論文",
+              "glossId": "topic-1-6.6-1.word.39.meaning",
+              "differenceId": "topic-1-6.6-1.word.35.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.36",
+          "word": "宿題",
+          "reading": "しゅくだい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.36.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 出す",
+              "usageId": "topic-1-6.6-1.word.36.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "予習",
+              "glossId": "topic-1-6.6-1.word.36.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.36.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.37",
+          "word": "成績",
+          "reading": "せいせき",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.37.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 上がる",
+              "usageId": "topic-1-6.6-1.word.37.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "点数",
+              "glossId": "topic-1-6.6-1.word.37.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.37.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.38",
+          "word": "履修案内",
+          "reading": "りしゅうあんない",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.38.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 読む",
+              "usageId": "topic-1-6.6-1.word.38.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "シラバス",
+              "glossId": "topic-1-6.6-1.word.38.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.38.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.39",
+          "word": "論文",
+          "reading": "ろんぶん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.39.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 書く",
+              "usageId": "topic-1-6.6-1.word.39.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "レポート",
+              "glossId": "topic-1-6.6-1.word.35.meaning",
+              "differenceId": "topic-1-6.6-1.word.39.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.40",
+          "word": "学費",
+          "reading": "がくひ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.40.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 払う",
+              "usageId": "topic-1-6.6-1.word.40.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "授業料",
+              "glossId": "topic-1-6.6-1.word.40.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.40.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.41",
+          "word": "制服",
+          "reading": "せいふく",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.41.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 着る",
+              "usageId": "topic-1-6.6-1.word.41.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "私服",
+              "glossId": "topic-1-6.6-1.word.41.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.41.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.42",
+          "word": "部活",
+          "reading": "ぶかつ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.42.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 入る",
+              "usageId": "topic-1-6.6-1.word.42.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "サークル",
+              "glossId": "topic-1-6.6-1.word.43.meaning",
+              "differenceId": "topic-1-6.6-1.word.42.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.43",
+          "word": "サークル",
+          "reading": "さーくる",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.43.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 入る",
+              "usageId": "topic-1-6.6-1.word.43.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "部活",
+              "glossId": "topic-1-6.6-1.word.42.meaning",
+              "differenceId": "topic-1-6.6-1.word.43.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.44",
+          "word": "奨学金",
+          "reading": "しょうがくきん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.44.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 申し込む",
+              "usageId": "topic-1-6.6-1.word.44.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "授業料免除",
+              "glossId": "topic-1-6.6-1.word.44.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.44.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.45",
+          "word": "校則",
+          "reading": "こうそく",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.45.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 守る",
+              "usageId": "topic-1-6.6-1.word.45.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "規則",
+              "glossId": "topic-1-6.6-1.word.45.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-1.word.45.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-1.word.46",
+          "word": "前期",
+          "reading": "ぜんき",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-1.word.46.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 履修する",
+              "usageId": "topic-1-6.6-1.word.46.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "後期",
+              "glossId": "topic-1-6.6-1.word.7.meaning",
+              "differenceId": "topic-1-6.6-1.word.46.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-1.grammar.0",
+          "title": "語彙の使い方",
+          "examples": [],
+          "noteIds": [
+            "topic-1-6.6-1.grammar.0.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-1.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "部長は林さんをアメリカへ（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.6-1.grammar.0.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-1.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "行きさせました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "行われました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "行かせました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "行けさせました"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-1.grammar.1",
+          "title": "使役【強制・指示】",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "子どもを塾に行かせる。",
+              "translationId": "topic-1-6.6-1.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "田中さんに資料をコピーさせる。",
+              "translationId": "topic-1-6.6-1.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-1.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "先生は学生に作文を（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.6-1.grammar.1.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-1.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "書きさせました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "書かれました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "書かせました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "書けさせました"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.6-1.grammar.1.meaning",
+          "formationId": "topic-1-6.6-1.grammar.1.formation",
+          "usageId": "topic-1-6.6-1.grammar.1.usage",
+          "pitfallId": "topic-1-6.6-1.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-1.grammar.2",
+          "title": "使役【許可・容認】",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "好きなことをさせてあげたい。",
+              "translationId": "topic-1-6.6-1.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "今日は早く帰らせてください。",
+              "translationId": "topic-1-6.6-1.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-1.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "母は子供に野菜を（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.6-1.grammar.2.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-1.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "食べさせました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べさされました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べせました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べらせました"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.6-1.grammar.2.meaning",
+          "formationId": "topic-1-6.6-1.grammar.2.formation",
+          "usageId": "topic-1-6.6-1.grammar.2.usage",
+          "pitfallId": "topic-1-6.6-1.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-1.grammar.3",
+          "title": "使役【感情の原因】",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "両親を安心させたい。",
+              "translationId": "topic-1-6.6-1.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼はみんなを笑わせた。",
+              "translationId": "topic-1-6.6-1.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-1.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "父は兄を行きたい大学へ（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.6-1.grammar.3.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-1.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "行かれた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "行ってさせた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "行かせた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "行きさせた"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.6-1.grammar.3.meaning",
+          "formationId": "topic-1-6.6-1.grammar.3.formation",
+          "usageId": "topic-1-6.6-1.grammar.3.usage",
+          "pitfallId": "topic-1-6.6-1.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-1.grammar.4",
+          "title": "～ことにしている",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "甘いものは食べないことにしている。",
+              "translationId": "topic-1-6.6-1.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "毎朝、新聞を読むことにしている。",
+              "translationId": "topic-1-6.6-1.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-1.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "私は息子にマンガも（　　）います。"
+                },
+                {
+                  "textId": "topic-1-6.6-1.grammar.4.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-1.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "読ませるて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "読ませて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "読まれて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "読みさせて"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.6-1.grammar.4.meaning",
+          "formationId": "topic-1-6.6-1.grammar.4.formation",
+          "usageId": "topic-1-6.6-1.grammar.4.usage",
+          "pitfallId": "topic-1-6.6-1.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-1.grammar.5",
+          "title": "～ことになっている",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "ここでは靴を脱ぐことになっている。",
+              "translationId": "topic-1-6.6-1.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "会議は九時から始まることになっている。",
+              "translationId": "topic-1-6.6-1.grammar.5.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-1.grammar.5.question.0",
+              "prompt": [
+                {
+                  "japanese": "子供の時、弟を（　　）いました。"
+                },
+                {
+                  "textId": "topic-1-6.6-1.grammar.5.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-1.grammar.5.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "泣いてさせて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "泣かれて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "泣かせて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "泣きさせて"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.6-1.grammar.5.meaning",
+          "formationId": "topic-1-6.6-1.grammar.5.formation",
+          "usageId": "topic-1-6.6-1.grammar.5.usage",
+          "pitfallId": "topic-1-6.6-1.grammar.5.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-1.grammar.6",
+          "title": "例文の解説",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "部長は林さんをアメリカへ出張させました。",
+              "translationId": "topic-1-6.6-1.grammar.6.example.0.translation",
+              "analysisId": "topic-1-6.6-1.grammar.6.example.0.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "課長は田中さんに資料をコピーさせました。",
+              "translationId": "topic-1-6.6-1.grammar.6.example.1.translation",
+              "analysisId": "topic-1-6.6-1.grammar.6.example.1.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "申し訳ありません。すぐ係の者に持って行かせます。",
+              "translationId": "topic-1-6.6-1.grammar.6.example.2.translation",
+              "analysisId": "topic-1-6.6-1.grammar.6.example.2.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "父は兄を行きたい大学へ行かせました。",
+              "translationId": "topic-1-6.6-1.grammar.6.example.3.translation",
+              "analysisId": "topic-1-6.6-1.grammar.6.example.3.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "私は息子にマンガも読ませています。マンガも役に立つと思うので。",
+              "translationId": "topic-1-6.6-1.grammar.6.example.4.translation",
+              "analysisId": "topic-1-6.6-1.grammar.6.example.4.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "課長、今度の仕事はぜひ私にさせていただけませんか。",
+              "translationId": "topic-1-6.6-1.grammar.6.example.5.translation",
+              "analysisId": "topic-1-6.6-1.grammar.6.example.5.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "子供の時、私はよく兄弟げんかをして、弟を泣かせていました。",
+              "translationId": "topic-1-6.6-1.grammar.6.example.6.translation",
+              "analysisId": "topic-1-6.6-1.grammar.6.example.6.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "ええ、大学に合格して、両親を安心させたいと思っているんです。",
+              "translationId": "topic-1-6.6-1.grammar.6.example.7.translation",
+              "analysisId": "topic-1-6.6-1.grammar.6.example.7.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "私は毎晩寝る前に日記をつけることにしています。",
+              "translationId": "topic-1-6.6-1.grammar.6.example.8.translation",
+              "analysisId": "topic-1-6.6-1.grammar.6.example.8.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "うん。最近太ったから、夜に甘い物を食べないことにしているの。",
+              "translationId": "topic-1-6.6-1.grammar.6.example.9.translation",
+              "analysisId": "topic-1-6.6-1.grammar.6.example.9.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "日本では二十歳からお酒が飲めることになっています。",
+              "translationId": "topic-1-6.6-1.grammar.6.example.10.translation",
+              "analysisId": "topic-1-6.6-1.grammar.6.example.10.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "部長は会議に出席しないことになっています。課長が出席する予定です。",
+              "translationId": "topic-1-6.6-1.grammar.6.example.11.translation",
+              "analysisId": "topic-1-6.6-1.grammar.6.example.11.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "来週の水曜日にニューヨークへ出発することになっています。",
+              "translationId": "topic-1-6.6-1.grammar.6.example.12.translation",
+              "analysisId": "topic-1-6.6-1.grammar.6.example.12.analysis"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-1.grammar.6.question.0",
+              "prompt": [
+                {
+                  "japanese": "大学に合格して、両親を（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.6-1.grammar.6.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-1.grammar.6.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "安心しさせたい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "安心されたい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "安心させたい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "安心したい"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-1.grammar.6.question.1",
+              "prompt": [
+                {
+                  "japanese": "子供にこの道具を（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.6-1.grammar.6.question.1.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-1.grammar.6.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "使いさせます"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "使わせます"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "使うせます"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "使あせます"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-1.grammar.6.question.2",
+              "prompt": [
+                {
+                  "japanese": "明日、担当者をここへ（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.6-1.grammar.6.question.2.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-1.grammar.6.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "来させます（きさせます）"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "来せます（きせます）"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "来させます（こさせます）"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "来らせます（こらせます）"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-1.grammar.6.question.3",
+              "prompt": [
+                {
+                  "japanese": "自分で決めて、毎朝30分走ることに（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.6-1.grammar.6.question.3.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-1.grammar.6.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "しています"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "します"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "なっています"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "なりました"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-1.grammar.6.question.4",
+              "prompt": [
+                {
+                  "japanese": "健康のため、自分のルールとして夜遅く食べないことに（　　）。"
+                }
+              ],
+              "explanationId": "topic-1-6.6-1.grammar.6.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "しています"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "しますでした"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "してあります"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "なっています"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-1.grammar.6.question.5",
+              "prompt": [
+                {
+                  "japanese": "この学校の規則では、授業中に携帯電話を使わないことに（　　）。"
+                }
+              ],
+              "explanationId": "topic-1-6.6-1.grammar.6.question.5.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "しています"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "なるでした"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "してあります"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "なっています"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-1.grammar.6.question.6",
+              "prompt": [
+                {
+                  "japanese": "来週から新しい先生が授業を担当することに（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.6-1.grammar.6.question.6.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-1.grammar.6.question.6.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "しています"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "していました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "なっています"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "あります"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-1.grammar.6.question.7",
+              "prompt": [
+                {
+                  "japanese": "毎晩、日記を（　　）ことにしています。"
+                },
+                {
+                  "textId": "topic-1-6.6-1.grammar.6.question.7.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-1.grammar.6.question.7.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "つけるの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "つける"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "つけた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "つけて"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

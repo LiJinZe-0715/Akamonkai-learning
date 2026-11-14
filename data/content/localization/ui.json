@@ -1,0 +1,918 @@
+{
+  "ui.kanjiIndexHint": {
+    "zh": "本教材按 {count} 字一课编排。字形、读音、例词和例句一起学习，测验单独进行。",
+    "en": "This book is arranged in lessons of {count} kanji. Forms, readings, example words and sentences stay together, with a separate quiz."
+  },
+  "ui.kanjiStudy": {
+    "zh": "汉字及词汇",
+    "en": "Kanji & vocabulary"
+  },
+  "ui.kanjiShape": {
+    "zh": "字形",
+    "en": "Character form"
+  },
+  "ui.kanjiReadings": {
+    "zh": "发音",
+    "en": "Pronunciation"
+  },
+  "ui.kanjiWordReadings": {
+    "zh": "本字暂无单独的音读、训读资料，以下为本课词汇读音。",
+    "en": "Separate on and kun readings are not available for this character. Vocabulary readings from this lesson are shown below."
+  },
+  "ui.kanjiVocabulary": {
+    "zh": "词汇",
+    "en": "Vocabulary"
+  },
+  "ui.kanjiExamples": {
+    "zh": "例句",
+    "en": "Example sentences"
+  },
+  "ui.kanjiNoExamples": {
+    "zh": "本字的教材资料暂未收录例句。",
+    "en": "The textbook material for this character does not currently include example sentences."
+  },
+  "ui.today": {
+    "zh": "首页",
+    "en": "Home"
+  },
+  "ui.library": {
+    "zh": "教材库",
+    "en": "Library"
+  },
+  "ui.backToBook": {
+    "zh": "返回本书目录",
+    "en": "Back to this book"
+  },
+  "ui.back": {
+    "zh": "返回",
+    "en": "Back"
+  },
+  "ui.lessonNavigation": {
+    "zh": "学习导航",
+    "en": "Study navigation"
+  },
+  "ui.switchLesson": {
+    "zh": "切换课次",
+    "en": "Choose a lesson"
+  },
+  "ui.previousLesson": {
+    "zh": "上一课",
+    "en": "Previous"
+  },
+  "ui.nextLesson": {
+    "zh": "下一课",
+    "en": "Next"
+  },
+  "ui.pagedPrevious": {
+    "zh": "上一页",
+    "en": "Previous page"
+  },
+  "ui.pagedNext": {
+    "zh": "下一页",
+    "en": "Next page"
+  },
+  "ui.pagedJump": {
+    "zh": "跳到某一页",
+    "en": "Jump to a page"
+  },
+  "ui.pagedIndex": {
+    "zh": "索引",
+    "en": "Index"
+  },
+  "ui.textScale": {
+    "zh": "放大倍率",
+    "en": "Text size"
+  },
+  "ui.textScaleReset": {
+    "zh": "恢复默认",
+    "en": "Reset"
+  },
+  "ui.levelBeginner": {
+    "zh": "初级～初中级（N5～N3）",
+    "en": "Beginner to Pre-intermediate (N5–N3)"
+  },
+  "ui.levelMidIntermediate": {
+    "zh": "中级（N2）",
+    "en": "Intermediate (N2)"
+  },
+  "ui.levelIntermediate": {
+    "zh": "新中级（N2）",
+    "en": "New Intermediate (N2)"
+  },
+  "ui.levelJlptGrammar": {
+    "zh": "JLPT文法总结",
+    "en": "JLPT Grammar Summary"
+  },
+  "ui.levelJlptShiken": {
+    "zh": "JLPT真题",
+    "en": "JLPT Past Papers"
+  },
+  "ui.settings": {
+    "zh": "设置",
+    "en": "Settings"
+  },
+  "ui.appearance": {
+    "zh": "外观",
+    "en": "Appearance"
+  },
+  "ui.dayMode": {
+    "zh": "白天模式",
+    "en": "Day mode"
+  },
+  "ui.nightMode": {
+    "zh": "夜间模式",
+    "en": "Night mode"
+  },
+  "ui.mainNavigation": {
+    "zh": "主导航",
+    "en": "Main navigation"
+  },
+  "ui.skipContent": {
+    "zh": "跳到学习内容",
+    "en": "Skip to study content"
+  },
+  "ui.close": {
+    "zh": "关闭",
+    "en": "Close"
+  },
+  "ui.continueLearning": {
+    "zh": "继续学习",
+    "en": "Continue learning"
+  },
+  "ui.startLearning": {
+    "zh": "准备好开始了吗",
+    "en": "Ready to begin?"
+  },
+  "ui.continueAction": {
+    "zh": "接着学",
+    "en": "Continue"
+  },
+  "ui.startAction": {
+    "zh": "开始第一课",
+    "en": "Start learning"
+  },
+  "ui.resumeNote": {
+    "zh": "回到上次打开的课次",
+    "en": "Return to your last opened lesson"
+  },
+  "ui.startNote": {
+    "zh": "也可以去「教材库」选择正在学的教材",
+    "en": "Or pick your textbook in the Library"
+  },
+  "ui.learningSnapshot": {
+    "zh": "我的积累",
+    "en": "Your progress"
+  },
+  "ui.onDevice": {
+    "zh": "本机记录",
+    "en": "On this device"
+  },
+  "ui.testRecords": {
+    "zh": "测试记录",
+    "en": "Test records"
+  },
+  "ui.snapshotNote": {
+    "zh": "收藏生词、标记掌握，每一次复习都算数。",
+    "en": "Save words and mark what you know as you study."
+  },
+  "ui.catalogCount": {
+    "zh": "{books} 本教材 · {units} 个单元",
+    "en": "{books} books · {units} units"
+  },
+  "ui.allBooks": {
+    "zh": "全部教材",
+    "en": "All textbooks"
+  },
+  "ui.unitCount": {
+    "zh": "{count} 个单元",
+    "en": "{count} units"
+  },
+  "ui.practice": {
+    "zh": "学习与练习",
+    "en": "Study & practice"
+  },
+  "ui.viewWords": {
+    "zh": "词汇",
+    "en": "Words"
+  },
+  "ui.viewGrammar": {
+    "zh": "文法",
+    "en": "Grammar"
+  },
+  "ui.viewKanji": {
+    "zh": "汉字及词汇",
+    "en": "Kanji & vocabulary"
+  },
+  "ui.viewArticles": {
+    "zh": "本文",
+    "en": "Text"
+  },
+  "ui.viewDialogues": {
+    "zh": "会话",
+    "en": "Conversation"
+  },
+  "ui.viewQuiz": {
+    "zh": "测验",
+    "en": "Quiz"
+  },
+  "ui.recentPractice": {
+    "zh": "最近的练习",
+    "en": "Recent practice"
+  },
+  "ui.noPracticeTitle": {
+    "zh": "从第一次练习开始",
+    "en": "Start with your first practice"
+  },
+  "ui.noPracticeNote": {
+    "zh": "完成自测后，这里会显示你的成绩。",
+    "en": "Your results will appear here after you finish a test."
+  },
+  "ui.chooseLesson": {
+    "zh": "去选一课",
+    "en": "Choose a lesson"
+  },
+  "ui.dataTools": {
+    "zh": "备份、导入与清空学习记录",
+    "en": "Back up, import & clear progress"
+  },
+  "ui.search": {
+    "zh": "查找课次或日语标题",
+    "en": "Find a lesson or Japanese title"
+  },
+  "ui.wordSearch": {
+    "zh": "搜索读音、词形或释义",
+    "en": "Search readings, words or meanings"
+  },
+  "ui.all": {
+    "zh": "全部",
+    "en": "All"
+  },
+  "ui.saved": {
+    "zh": "生词",
+    "en": "Saved"
+  },
+  "ui.mastered": {
+    "zh": "已掌握",
+    "en": "Mastered"
+  },
+  "ui.save": {
+    "zh": "加入生词",
+    "en": "Save word"
+  },
+  "ui.unsave": {
+    "zh": "移出生词",
+    "en": "Unsave word"
+  },
+  "ui.master": {
+    "zh": "标为已掌握",
+    "en": "Mark as mastered"
+  },
+  "ui.unmaster": {
+    "zh": "取消掌握标记",
+    "en": "Mark for review"
+  },
+  "ui.speak": {
+    "zh": "朗读",
+    "en": "Read aloud"
+  },
+  "ui.stop": {
+    "zh": "停止",
+    "en": "Stop"
+  },
+  "ui.speechUnavailable": {
+    "zh": "此浏览器暂不支持日语朗读。",
+    "en": "Speech playback is unavailable in this browser."
+  },
+  "ui.wordCount": {
+    "zh": "{count} 个词条",
+    "en": "{count} words"
+  },
+  "ui.questionCount": {
+    "zh": "{count} 道题",
+    "en": "{count} questions"
+  },
+  "ui.examNoAudio": {
+    "zh": "本回没有收录听力音频，聴解部分不计入成绩，也不需要作答。",
+    "en": "This exam has no listening audio. The listening section is not scored and can be skipped."
+  },
+  "ui.progress": {
+    "zh": "已答 {done} / {total}",
+    "en": "Answered {done} / {total}"
+  },
+  "ui.finishAll": {
+    "zh": "请完成全部题目后提交。",
+    "en": "Answer every question before submitting."
+  },
+  "ui.jumpUnanswered": {
+    "zh": "跳到未答（{count}）",
+    "en": "Next unanswered ({count})"
+  },
+  "ui.examLastResult": {
+    "zh": "上次 {correct}/{total}",
+    "en": "Last {correct}/{total}"
+  },
+  "ui.correct": {
+    "zh": "回答正确",
+    "en": "Correct"
+  },
+  "ui.incorrect": {
+    "zh": "再复习一下",
+    "en": "Review this one"
+  },
+  "ui.answer": {
+    "zh": "可用答案",
+    "en": "Accepted answers"
+  },
+  "ui.retry": {
+    "zh": "重新练习",
+    "en": "Try again"
+  },
+  "ui.retryWrong": {
+    "zh": "只练错题",
+    "en": "Retry mistakes"
+  },
+  "ui.result": {
+    "zh": "答对 {correct} / {total}，正确率 {percent}%",
+    "en": "{correct} / {total} correct · {percent}%"
+  },
+  "ui.inputAnswer": {
+    "zh": "输入答案",
+    "en": "Type your answer"
+  },
+  "ui.empty": {
+    "zh": "没有符合条件的内容。",
+    "en": "No matching content."
+  },
+  "ui.pending": {
+    "zh": "这部分资料尚未收录。",
+    "en": "This material has not been added yet."
+  },
+  "ui.loading": {
+    "zh": "正在加载学习内容…",
+    "en": "Loading your lesson…"
+  },
+  "ui.error": {
+    "zh": "内容暂时无法加载，请重试或返回索引。",
+    "en": "This lesson could not be loaded. Retry or return to the index."
+  },
+  "ui.lessonNotFound": {
+    "zh": "找不到这本教材，请返回索引重新选择。",
+    "en": "This textbook could not be found. Return to the index to pick another."
+  },
+  "ui.reload": {
+    "zh": "重试",
+    "en": "Retry"
+  },
+  "ui.export": {
+    "zh": "导出学习记录",
+    "en": "Export progress"
+  },
+  "ui.import": {
+    "zh": "导入学习记录",
+    "en": "Import progress"
+  },
+  "ui.imported": {
+    "zh": "已合并导入的学习记录。",
+    "en": "Imported progress has been merged."
+  },
+  "ui.invalidFile": {
+    "zh": "文件格式不正确，请选择本站导出的学习记录。",
+    "en": "Choose a valid progress file exported from this site."
+  },
+  "ui.localOnly": {
+    "zh": "记录保存在当前浏览器。换设备前可以导出；新站不会自动读取旧站的记录。",
+    "en": "Progress stays in this browser. Export it before changing devices. Records from the old site are not read automatically."
+  },
+  "ui.storageError": {
+    "zh": "浏览器暂时无法保存；本次仍可继续学习，请导出记录备份。",
+    "en": "Browser storage is unavailable. You can keep studying; export your progress to keep a backup."
+  },
+  "ui.speechSettings": {
+    "zh": "朗读设置",
+    "en": "Read-aloud settings"
+  },
+  "ui.speechEngine": {
+    "zh": "朗读引擎",
+    "en": "Speech engine"
+  },
+  "ui.speechDevice": {
+    "zh": "系统声音",
+    "en": "System voices"
+  },
+  "ui.speechVoice": {
+    "zh": "默认声音",
+    "en": "Default voice"
+  },
+  "ui.speechDefault": {
+    "zh": "使用页面默认声音",
+    "en": "Use page default"
+  },
+  "ui.speechLocal": {
+    "zh": "本地",
+    "en": "Local"
+  },
+  "ui.speechOnline": {
+    "zh": "在线（非本地）",
+    "en": "Online (not local)"
+  },
+  "ui.speechPause": {
+    "zh": "句间停顿",
+    "en": "Pause between sentences"
+  },
+  "ui.speechRate": {
+    "zh": "语速",
+    "en": "Speed"
+  },
+  "ui.speechRateHint": {
+    "zh": "语速会传给系统声音；少数系统声音不支持变速，调节后听不出变化时请换一个声音。",
+    "en": "Speed is passed to the system voice. A few system voices ignore it — if you hear no change, try another voice."
+  },
+  "ui.speechLoading": {
+    "zh": "正在等待设备日语声音加载…",
+    "en": "Waiting for Japanese device voices…"
+  },
+  "ui.speechNoVoices": {
+    "zh": "没有可用声音",
+    "en": "No available voices"
+  },
+  "ui.speechNoJapanese": {
+    "zh": "系统里只有非日语声音，已经全部隐藏。装好日语语音包后点「重新检测声音」。",
+    "en": "The system only reports non-Japanese voices, so they are hidden. Install the Japanese voice data, then tap Check voices again."
+  },
+  "ui.speechNoEngine": {
+    "zh": "浏览器没有报告任何声音引擎。请在系统设置里启用文字转语音（TTS）后，再点「重新检测声音」。",
+    "en": "The browser reports no speech engine at all. Enable text-to-speech in the system settings, then tap Check voices again."
+  },
+  "ui.speechUnsupported": {
+    "zh": "此浏览器不支持设备朗读。请使用支持 Web Speech API 的浏览器。",
+    "en": "This browser does not support device speech. Use a browser with Web Speech API support."
+  },
+  "ui.speechFailed": {
+    "zh": "设备朗读失败，请重新点击朗读或选择其他声音。",
+    "en": "Device speech failed. Click Read aloud again or choose another voice."
+  },
+  "ui.speechRecheck": {
+    "zh": "重新检测声音",
+    "en": "Check voices again"
+  },
+  "ui.speechVoiceSummary": {
+    "zh": "共 {total} 个可用声音，其中 {count} 个标注为日语。",
+    "en": "{count} of the {total} available voices are tagged Japanese."
+  },
+  "ui.speechPhoneHint": {
+    "zh": "手机上的声音来自系统 TTS：设置 → 系统 → 语言和输入法 → 文字转语音，确认首选引擎和日语语音包都已就绪，再回到这里点「重新检测声音」。",
+    "en": "Voices on a phone come from the system TTS: Settings → System → Languages & input → Text-to-speech, make sure the preferred engine and its Japanese voice data are both in place, then come back and tap Check voices again."
+  },
+  "ui.speechWindowsHint": {
+    "zh": "Windows 的声音来自系统语音包（SAPI）：设置 → 时间和语言 → 语音 里确认装了日语声音，再回到这里点「重新检测声音」。一个都没有的话，用下面的本地语音引擎装一个。",
+    "en": "Windows voices come from the system speech packs (SAPI). Check Settings → Time & language → Speech for a Japanese voice, then tap Check voices again. If there is none at all, install the local engine below."
+  },
+  "ui.speechStorageError": {
+    "zh": "无法保存声音设置，本次页面仍可使用。",
+    "en": "Voice preferences could not be saved. Speech is still available for this session."
+  },
+  "ui.speechRoles": {
+    "zh": "对话角色声音",
+    "en": "Dialogue role voices"
+  },
+  "ui.speechContinuous": {
+    "zh": "连续播放本课例句",
+    "en": "Play lesson examples continuously"
+  },
+  "ui.speechRoleHint": {
+    "zh": "可为对话中的每个角色单独选择声音。",
+    "en": "Choose a separate voice for each speaker."
+  },
+  "ui.engineDownload": {
+    "zh": "本地语音引擎",
+    "en": "Local speech engine"
+  },
+  "ui.engineDownloadHint": {
+    "zh": "装一个本地引擎，日语就能离线朗读，声音也比系统自带的自然得多。装好后刷新本页，新声音就会出现在上面的列表里。",
+    "en": "A local engine reads Japanese offline, in a far more natural voice than the system one. Reload this page afterwards and the new voices show up in the list above."
+  },
+  "ui.downloadEngineAndroid": {
+    "zh": "下载手机端 TTS",
+    "en": "Download Android TTS"
+  },
+  "ui.downloadEngineWindows": {
+    "zh": "下载 Windows 语音引擎",
+    "en": "Download Windows voice"
+  },
+  "ui.guideOpen": {
+    "zh": "如何使用",
+    "en": "How to use"
+  },
+  "ui.guideKicker": {
+    "zh": "日语语音",
+    "en": "Japanese voice"
+  },
+  "ui.guideTitle": {
+    "zh": "让浏览器读出日语",
+    "en": "Get a Japanese voice"
+  },
+  "ui.guideIntro": {
+    "zh": "本站不装也不启动任何引擎，只用系统已经装好的声音。手机通常缺一个日语 TTS 引擎，装好它，声音列表里就会出现日语；Windows 自带的声音读日语偏机械，可以换成本地的日语引擎。",
+    "en": "The site starts no engine of its own — it reads with the voices your system already has. A phone usually has no Japanese TTS engine yet, so install one and it appears in the voice list. Windows can read Japanese out of the box, but it sounds mechanical; a local engine replaces it."
+  },
+  "ui.guideMetaNote": {
+    "zh": "完全离线，装一次就行。",
+    "en": "Fully offline once installed."
+  },
+  "ui.guideBack": {
+    "zh": "回到朗读设置",
+    "en": "Back to speech settings"
+  },
+  "ui.guidePhoneStepsTitle": {
+    "zh": "手机：四个步骤",
+    "en": "On a phone: four steps"
+  },
+  "ui.guidePhoneIntro": {
+    "zh": "手机上不装引擎服务器，装一个 TTS 引擎就够了：它接管系统朗读，本站的「系统语音」就能选到日语声音。",
+    "en": "A phone needs no engine server — one TTS engine is enough. It takes over system speech, and the site's System voice option picks up the Japanese voice."
+  },
+  "ui.guidePhoneStep1Title": {
+    "zh": "下载并安装",
+    "en": "Download and install"
+  },
+  "ui.guidePhoneStep1Body": {
+    "zh": "点下面的按钮下载 APK，约 87 MB。第一次装商店以外的应用，系统会拦一下，按提示允许「安装未知来源应用」再继续。",
+    "en": "Press the button below for the APK, about 87 MB. Android blocks apps from outside the store the first time — allow installing from unknown sources and carry on."
+  },
+  "ui.guidePhoneStep2Title": {
+    "zh": "设为系统 TTS",
+    "en": "Make it the system TTS"
+  },
+  "ui.guidePhoneStep2Body": {
+    "zh": "打开 设置 → 系统 → 语言和输入法 → 文字转语音，在「首选引擎」里选刚装的那个。各家菜单名字不太一样，找不到就直接搜「文字转语音」。",
+    "en": "Open Settings → System → Languages & input → Text-to-speech and pick the app you just installed as the preferred engine. Menu names differ by vendor; searching for text-to-speech gets you there."
+  },
+  "ui.guidePhoneStep3Title": {
+    "zh": "下载日语语音包",
+    "en": "Download the Japanese voice"
+  },
+  "ui.guidePhoneStep3Body": {
+    "zh": "在同一个页面点进这个引擎的设置，下载日语语音数据。这一步要联网，装好之后朗读就完全离线了。",
+    "en": "From the same screen open the engine's settings and download the Japanese voice data. This step needs the network; afterwards reading aloud is fully offline."
+  },
+  "ui.guidePhoneStep4Title": {
+    "zh": "回到本站",
+    "en": "Come back here"
+  },
+  "ui.guidePhoneStep4Body": {
+    "zh": "朗读设置里引擎选「系统语音」，下面的声音列表只列能读日语的声音：标了别的语言（中英等）的引擎会被隐藏，面板上会写明隐藏了几个。看到日语声音就成功了；列表空着并提示「只有非日语声音」，就回到上一步检查首选引擎并装日语语音包。刚装完没看到的话，点「重新检测声音」或刷新一次页面。",
+    "en": "In speech settings pick System voice. The list below shows only voices that can read Japanese: engines tagged with another language (Chinese, English and so on) are hidden, and the panel says how many. A Japanese voice means you are done; an empty list telling you only non-Japanese voices exist sends you back a step to check the preferred engine and install the Japanese voice data. Nothing yet right after installing? Tap Check voices again or reload the page once."
+  },
+  "ui.guideWindowsIntro": {
+    "zh": "Windows 自带的日语声音能用，但读得像机器。下面这个本地引擎把开源日语语音装成系统声音：装好之后系统和别的程序都能用，本站朗读也完全离线。",
+    "en": "Windows can already read Japanese, but it sounds mechanical. This local engine installs an open-source Japanese voice as a system voice: the system and other programs can use it, and this site reads offline."
+  },
+  "ui.guideWindowsStepsTitle": {
+    "zh": "Windows：四个步骤",
+    "en": "On Windows: four steps"
+  },
+  "ui.guideWindowsStep1Title": {
+    "zh": "下载并安装",
+    "en": "Download and install"
+  },
+  "ui.guideWindowsStep1Body": {
+    "zh": "点下面的按钮下载 VoicevoxSapiSetup.exe 并运行。这是个人发布的程序，没有代码签名，Windows 会弹「Windows 已保护你的电脑」，点「更多信息」→「仍要运行」即可。安装过程中会要一次管理员授权。",
+    "en": "Press the button below for VoicevoxSapiSetup.exe and run it. It is a personal release without a code signature, so Windows shows \"Windows protected your PC\" — choose More info, then Run anyway. Expect one administrator prompt during setup."
+  },
+  "ui.guideWindowsStep2Title": {
+    "zh": "确认声音进了系统",
+    "en": "Check the voice is installed"
+  },
+  "ui.guideWindowsStep2Body": {
+    "zh": "打开 设置 → 时间和语言 → 语音，在「语音」的下拉列表里应该能看到刚装的那把嗓子。旧一点的系统在 控制面板 → 语音识别 → 文本到语音转换 里看。看不到就重启一次再打开。",
+    "en": "Open Settings → Time & language → Speech; the new voice should show up in the Voice list. On older builds look under Control Panel → Speech Recognition → Text to Speech. Not there yet? Restart once and open it again."
+  },
+  "ui.guideWindowsStep3Title": {
+    "zh": "回到本站挑声音",
+    "en": "Pick it here"
+  },
+  "ui.guideWindowsStep3Body": {
+    "zh": "刷新本页，在朗读设置里把引擎选成「系统语音」，再到声音列表里挑那个日语声音。列表没变的话点一次「重新检测声音」；刚装完的那一刻，刷新页面比重检测更管用。",
+    "en": "Reload this page, choose System voice in the speech settings, then pick the Japanese voice from the list. If the list has not changed, tap Check voices once; right after an install, reloading the page is the more reliable of the two."
+  },
+  "ui.guideWindowsStep4Title": {
+    "zh": "设成默认声音（可选）",
+    "en": "Make it the default (optional)"
+  },
+  "ui.guideWindowsStep4Body": {
+    "zh": "在 控制面板 → 语音识别 → 文本到语音转换 里把它设为默认声音，别的支持 SAPI 的程序也会跟着用。只在本站听就不用管这一步。",
+    "en": "In Control Panel → Speech Recognition → Text to Speech set it as the default voice and other SAPI programs will use it too. Skip this if you only need it here."
+  },
+  "ui.guideFaqTitle": {
+    "zh": "常见问题",
+    "en": "Questions"
+  },
+  "ui.guideFaq2Q": {
+    "zh": "列出声音了，但日语读得不对",
+    "en": "Voices appear, but the Japanese sounds wrong"
+  },
+  "ui.guideFaq2A": {
+    "zh": "说明系统里有声音，但缺日语语音包——非日语引擎已经被隐藏，所以列表是空的。手机按上面那套的第 3 步补日语数据，引擎设置里一般能单独下载语言包；Windows 缺的是系统语音包，照 Windows 那一套装。",
+    "en": "The system has voices but no Japanese voice data — the non-Japanese ones are hidden, so the list is empty. On a phone, go back to step 3 of the phone steps and download it; an engine's settings usually offer language packs separately. On Windows what is missing is the system speech pack, so follow the Windows steps instead."
+  },
+  "ui.guideFaqWindowsQ": {
+    "zh": "引擎装好了，本站还是看不到它",
+    "en": "The engine is installed but this site cannot see it"
+  },
+  "ui.guideFaqWindowsA": {
+    "zh": "先在 设置 → 时间和语言 → 语音 里确认这把嗓子真的在列表里。在的话刷新本页：浏览器是在启动时读系统声音清单的，安装时页面开着，新声音往往要重开页面或重启浏览器才出现；「重新检测声音」也管用，但刷新更稳。",
+    "en": "First check Settings → Time & language → Speech and confirm the voice is really in the list. If it is, reload this page: browsers read the system voice list at startup, so a voice installed while the page was open usually needs a reload — or a browser restart — to appear. Check voices works too, but a reload is the more reliable of the two."
+  },
+  "ui.guideFaq4Q": {
+    "zh": "手机 Chrome 里一个声音都检测不到",
+    "en": "Chrome on Android finds no voices at all"
+  },
+  "ui.guideFaq4A": {
+    "zh": "Chrome 只列出系统 TTS 引擎已经装好的声音。设置页的「系统声音」只显示能读日语的声音，别的语言的引擎会被隐藏并计数——这能区分两种情况：一个都没有、且提示「没有报告任何声音引擎」，说明 Chrome 看不到任何 TTS 引擎；提示「只有非日语声音」，说明引擎在、只缺日语语音包。前者去「文字转语音」里装并启用引擎，后者下载日语语音数据，然后点「重新检测声音」或刷新本页。",
+    "en": "Chrome only lists the voices the system TTS engine already exposes. The System voices row on the settings page shows only voices that can read Japanese; engines for other languages are hidden and counted — which tells the two cases apart: nothing at all, with a note that no speech engine was reported, means Chrome sees no TTS engine; a note that only non-Japanese voices exist means the engine is there and only the Japanese voice data is missing. For the first, install and enable an engine under Text-to-speech; for the second, download the Japanese voice data, then tap Check voices again or reload this page."
+  },
+  "ui.storageRecovered": {
+    "zh": "发现损坏的学习记录，已恢复可读取的条目。原始记录会保留为恢复备份，可在设置中导出。",
+    "en": "Some saved progress is damaged. Readable records have been recovered; the original is kept as a recovery backup and can be exported in Settings."
+  },
+  "ui.exportRecovery": {
+    "zh": "导出原始恢复备份",
+    "en": "Export original recovery backup"
+  },
+  "ui.draftStorageError": {
+    "zh": "浏览器无法保存测验草稿，请在离开前完成测验。",
+    "en": "The browser cannot save this draft. Finish the test before leaving the page."
+  },
+  "ui.retryPractice": {
+    "zh": "错题重练（不会覆盖完整测验成绩）",
+    "en": "Retry practice (keeps the full-test score)"
+  },
+  "ui.draftRestored": {
+    "zh": "已恢复上次未完成的测验。",
+    "en": "Your unfinished test has been restored."
+  },
+  "ui.androidApp": {
+    "zh": "赤门会 Android App",
+    "en": "Akamonkai Android App"
+  },
+  "ui.androidAppHint": {
+    "zh": "离线复习教材、词汇与测验 · Android 8.0 及以上",
+    "en": "Offline lessons, vocabulary and quizzes · Android 8.0+"
+  },
+  "ui.downloadAndroid": {
+    "zh": "下载 Android APK",
+    "en": "Download Android APK"
+  },
+  "ui.grammarPanelTitle": {
+    "zh": "讲解",
+    "en": "Explanation"
+  },
+  "ui.explanationLabel": {
+    "zh": "解析",
+    "en": "Explanation"
+  },
+  "ui.grammarMeaning": {
+    "zh": "核心",
+    "en": "Core"
+  },
+  "ui.grammarFormation": {
+    "zh": "接续",
+    "en": "Formation"
+  },
+  "ui.grammarUsage": {
+    "zh": "用法",
+    "en": "Usage"
+  },
+  "ui.grammarNote": {
+    "zh": "注意",
+    "en": "Note"
+  },
+  "ui.grammarPitfall": {
+    "zh": "易错",
+    "en": "Watch out"
+  },
+  "ui.grammarBreakdown": {
+    "zh": "拆解",
+    "en": "Breakdown"
+  },
+  "ui.grammarExamples": {
+    "zh": "例文",
+    "en": "Examples"
+  },
+  "ui.readingText": {
+    "zh": "本文",
+    "en": "Text"
+  },
+  "ui.readWhole": {
+    "zh": "全篇朗读",
+    "en": "Read the passage"
+  },
+  "ui.passageAudio": {
+    "zh": "本文录音",
+    "en": "Passage audio"
+  },
+  "ui.readingSentences": {
+    "zh": "逐句精读",
+    "en": "Sentence by sentence"
+  },
+  "ui.readingSentenceCount": {
+    "zh": "共 {count} 句",
+    "en": "{count} sentences"
+  },
+  "ui.readingNoteCount": {
+    "zh": "{count} 处拆解",
+    "en": "{count} breakdowns"
+  },
+  "ui.readingEmpty": {
+    "zh": "本课暂无课文。",
+    "en": "No passage for this lesson."
+  },
+  "ui.grammarTranslation": {
+    "zh": "译",
+    "en": "Meaning"
+  },
+  "ui.partOfSpeech.noun": {
+    "zh": "名词",
+    "en": "noun"
+  },
+  "ui.partOfSpeech.verbalNoun": {
+    "zh": "サ变名词",
+    "en": "suru-verb"
+  },
+  "ui.partOfSpeech.verb": {
+    "zh": "动词",
+    "en": "verb"
+  },
+  "ui.partOfSpeech.iAdjective": {
+    "zh": "イ形容词",
+    "en": "i-adjective"
+  },
+  "ui.partOfSpeech.naAdjective": {
+    "zh": "ナ形容词",
+    "en": "na-adjective"
+  },
+  "ui.partOfSpeech.adverb": {
+    "zh": "副词",
+    "en": "adverb"
+  },
+  "ui.partOfSpeech.conjunction": {
+    "zh": "接续词",
+    "en": "conjunction"
+  },
+  "ui.partOfSpeech.adnominal": {
+    "zh": "连体词",
+    "en": "adnominal"
+  },
+  "ui.partOfSpeech.interjection": {
+    "zh": "感叹词",
+    "en": "interjection"
+  },
+  "ui.partOfSpeech.prefix": {
+    "zh": "前缀",
+    "en": "prefix"
+  },
+  "ui.partOfSpeech.suffix": {
+    "zh": "后缀",
+    "en": "suffix"
+  },
+  "ui.partOfSpeech.counter": {
+    "zh": "量词",
+    "en": "counter"
+  },
+  "ui.partOfSpeech.expression": {
+    "zh": "惯用表达",
+    "en": "expression"
+  },
+  "ui.partOfSpeech.other": {
+    "zh": "其他",
+    "en": "other"
+  },
+  "ui.transitivity.intransitive": {
+    "zh": "自动词",
+    "en": "intransitive"
+  },
+  "ui.transitivity.transitive": {
+    "zh": "他动词",
+    "en": "transitive"
+  },
+  "ui.transitivity.both": {
+    "zh": "自他两用",
+    "en": "both transitive and intransitive"
+  },
+  "ui.wordPatterns": {
+    "zh": "搭配",
+    "en": "Patterns"
+  },
+  "ui.wordContrasts": {
+    "zh": "辨析",
+    "en": "Compare"
+  },
+  "ui.wordPatternLegend": {
+    "zh": "N＝名词，加粗处为本词",
+    "en": "N = noun; bold marks this word"
+  },
+  "ui.submitOne": {
+    "zh": "提交本题",
+    "en": "Check this question"
+  },
+  "ui.submitAll": {
+    "zh": "提交全部",
+    "en": "Submit all"
+  },
+  "ui.levelFilter": {
+    "zh": "按等级筛选",
+    "en": "Filter by level"
+  },
+  "ui.allLevels": {
+    "zh": "全部等级",
+    "en": "All levels"
+  },
+  "ui.speechUntagged": {
+    "zh": "未标注语言",
+    "en": "Language untagged"
+  },
+  "ui.speechHidden": {
+    "zh": "已隐藏 {count} 个非日语声音。",
+    "en": "Hidden {count} non-Japanese voices."
+  },
+  "ui.language": {
+    "zh": "语言",
+    "en": "Language"
+  },
+  "ui.speechOpenSettings": {
+    "zh": "打开系统语音设置",
+    "en": "Open system speech settings"
+  },
+  "ui.searchNav": {
+    "zh": "搜索",
+    "en": "Search"
+  },
+  "ui.searchTitle": {
+    "zh": "全文搜索",
+    "en": "Full-text search"
+  },
+  "ui.searchIntro": {
+    "zh": "一次性搜索全部教材的文法条目、例句、单词与释义，日文和中文都能搜。",
+    "en": "Search grammar points, example sentences, vocabulary and meanings across every textbook, in Japanese or Chinese."
+  },
+  "ui.searchPlaceholder": {
+    "zh": "输入日语或中文，如「音楽」「效果」",
+    "en": "Type Japanese or Chinese, e.g. 音楽 or 效果"
+  },
+  "ui.searchHint": {
+    "zh": "多个词用空格分隔，每个词都要命中。",
+    "en": "Separate words with spaces; every word must match."
+  },
+  "ui.searchCount": {
+    "zh": "找到 {count} 条",
+    "en": "{count} results"
+  },
+  "ui.searchEmpty": {
+    "zh": "没有找到匹配的内容，换个词试试。",
+    "en": "No match. Try another word."
+  },
+  "ui.searchUnavailable": {
+    "zh": "检索内容加载失败，请刷新页面重试。",
+    "en": "Search content failed to load. Reload the page to retry."
+  },
+  "ui.clearProgress": {
+    "zh": "清空学习记录",
+    "en": "Clear progress"
+  },
+  "ui.clearProgressWarning": {
+    "zh": "将删除全部收藏、已掌握标记、测验记录、未提交的测验答案和上次学习位置，无法撤销。需要保留的话，请先「导出学习记录」。",
+    "en": "This deletes all saved and mastered words, test results, unfinished test answers and your last position. It cannot be undone; export your progress first if you want to keep it."
+  },
+  "ui.clearProgressConfirm": {
+    "zh": "确认清空",
+    "en": "Clear everything"
+  },
+  "ui.progressCleared": {
+    "zh": "学习记录已清空。",
+    "en": "Progress has been cleared."
+  },
+  "ui.cancel": {
+    "zh": "取消",
+    "en": "Cancel"
+  },
+  "ui.checkUpdates": {
+    "zh": "检查更新",
+    "en": "Check for updates"
+  },
+  "ui.checkUpdatesHint": {
+    "zh": "对比已安装的 App 与网站上的最新安装包；有新内容时会提示下载，学习记录会保留。",
+    "en": "Compares the installed app with the latest package on the website. If anything changed you can download it; your progress is kept."
+  },
+  "ui.displaySettings": {
+    "zh": "显示设置",
+    "en": "Display"
+  },
+  "ui.examCount": {
+    "zh": "{count} 场真题",
+    "en": "{count} papers"
+  },
+  "ui.examPapers": {
+    "zh": "真题试卷",
+    "en": "Past papers"
+  }
+}

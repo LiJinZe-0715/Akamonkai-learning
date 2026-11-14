@@ -1,0 +1,106 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.3",
+  "bookId": "katakana-renshucho",
+  "title": "第03課 飲み物",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.3.word.0",
+          "word": "ミルク",
+          "reading": "みるく",
+          "meaningId": "katakana-renshucho.3.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.3.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.3.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ミルク"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.3.word.1",
+          "word": "コーラ",
+          "reading": "こーら",
+          "meaningId": "katakana-renshucho.3.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.3.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.3.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "コーラ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.3.word.2",
+          "word": "コーヒー",
+          "reading": "こーひー",
+          "meaningId": "katakana-renshucho.3.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.3.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.3.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "コーヒー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.3.word.3",
+          "word": "ジュース",
+          "reading": "じゅーす",
+          "meaningId": "katakana-renshucho.3.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.3.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.3.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ジュース"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

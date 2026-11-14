@@ -1,0 +1,1593 @@
+{
+  "kind": "lesson",
+  "id": "topic-1-6.3-2",
+  "bookId": "topic-1-6",
+  "title": "3-2 フィリピン人の国民性",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.0",
+          "word": "国民性",
+          "reading": "こくみんせい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-2.word.0.meaning",
+          "patterns": [
+            {
+              "pattern": "N の <w>",
+              "usageId": "topic-1-6.3-2.word.0.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "民族性",
+              "glossId": "topic-1-6.3-2.word.0.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.0.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.1",
+          "word": "ルソン島",
+          "reading": "るそんとう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-2.word.1.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 旅する",
+              "usageId": "topic-1-6.3-2.word.1.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.2",
+          "word": "出身",
+          "reading": "しゅっしん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-2.word.2.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 聞く",
+              "usageId": "topic-1-6.3-2.word.2.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "生まれ",
+              "glossId": "topic-1-6.3-2.word.2.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.2.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.3",
+          "word": "改めて",
+          "reading": "あらためて",
+          "pos": "adverb",
+          "meaningId": "topic-1-6.3-2.word.3.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 考える",
+              "usageId": "topic-1-6.3-2.word.3.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "もう一度",
+              "glossId": "topic-1-6.3-2.word.3.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.3.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.4",
+          "word": "感じる",
+          "reading": "かんじる",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.3-2.word.4.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.3-2.word.4.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "思う",
+              "glossId": "topic-1-6.3-2.word.4.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.4.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.5",
+          "word": "性格",
+          "reading": "せいかく",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-2.word.5.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が いい",
+              "usageId": "topic-1-6.3-2.word.5.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "人格",
+              "glossId": "topic-1-6.3-2.word.5.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.5.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.6",
+          "word": "悲観的",
+          "reading": "ひかんてき",
+          "pos": "na-adjective",
+          "meaningId": "topic-1-6.3-2.word.6.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "topic-1-6.3-2.word.6.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "楽観的だ",
+              "glossId": "topic-1-6.3-2.word.32.meaning",
+              "differenceId": "topic-1-6.3-2.word.6.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.7",
+          "word": "前向き",
+          "reading": "まえむき",
+          "pos": "na-adjective",
+          "meaningId": "topic-1-6.3-2.word.7.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 考える",
+              "usageId": "topic-1-6.3-2.word.7.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "積極的",
+              "glossId": "topic-1-6.3-2.word.7.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.7.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.8",
+          "word": "つらい",
+          "reading": "つらい",
+          "pos": "i-adjective",
+          "meaningId": "topic-1-6.3-2.word.8.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 経験",
+              "usageId": "topic-1-6.3-2.word.8.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "苦しい",
+              "glossId": "topic-1-6.3-2.word.8.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.8.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.9",
+          "word": "ニコニコする",
+          "reading": "にこにこする",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.3-2.word.9.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 様子",
+              "usageId": "topic-1-6.3-2.word.9.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "微笑む",
+              "glossId": "topic-1-6.3-2.word.9.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.9.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.10",
+          "word": "まるで",
+          "reading": "まるで",
+          "pos": "adverb",
+          "meaningId": "topic-1-6.3-2.word.10.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 夢の ようだ",
+              "usageId": "topic-1-6.3-2.word.10.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "ちょうど",
+              "glossId": "topic-1-6.3-2.word.10.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.10.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.11",
+          "word": "悩み",
+          "reading": "なやみ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-2.word.11.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 相談する",
+              "usageId": "topic-1-6.3-2.word.11.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "心配",
+              "glossId": "topic-1-6.3-2.word.11.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.11.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.12",
+          "word": "自己中心的",
+          "reading": "じこちゅうしんてき",
+          "pos": "na-adjective",
+          "meaningId": "topic-1-6.3-2.word.12.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>な 人",
+              "usageId": "topic-1-6.3-2.word.12.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "わがまま",
+              "glossId": "topic-1-6.3-2.word.12.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.12.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.13",
+          "word": "他人",
+          "reading": "たにん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-2.word.13.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 迷惑を かける",
+              "usageId": "topic-1-6.3-2.word.13.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "知らない人",
+              "glossId": "topic-1-6.3-2.word.13.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.13.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.14",
+          "word": "無関心",
+          "reading": "むかんしん",
+          "pos": "na-adjective",
+          "meaningId": "topic-1-6.3-2.word.14.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "topic-1-6.3-2.word.14.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "無視",
+              "glossId": "topic-1-6.3-2.word.14.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.14.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.15",
+          "word": "実際",
+          "reading": "じっさい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-2.word.15.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 見る",
+              "usageId": "topic-1-6.3-2.word.15.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "実は",
+              "glossId": "topic-1-6.3-2.word.15.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.15.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.16",
+          "word": "人間",
+          "reading": "にんげん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-2.word.16.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に とって",
+              "usageId": "topic-1-6.3-2.word.16.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "人",
+              "glossId": "topic-1-6.3-2.word.16.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.16.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.17",
+          "word": "宗教",
+          "reading": "しゅうきょう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-2.word.17.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 違い",
+              "usageId": "topic-1-6.3-2.word.17.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "信仰",
+              "glossId": "topic-1-6.3-2.word.17.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.17.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.18",
+          "word": "～に対する",
+          "reading": "~にたいする",
+          "pos": "expression",
+          "meaningId": "topic-1-6.3-2.word.18.meaning",
+          "contrasts": [
+            {
+              "word": "に対して",
+              "glossId": "topic-1-6.3-2.word.18.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.18.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.19",
+          "word": "信仰心",
+          "reading": "しんこうしん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-2.word.19.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 厚い",
+              "usageId": "topic-1-6.3-2.word.19.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "信心",
+              "glossId": "topic-1-6.3-2.word.19.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.19.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.20",
+          "word": "一部",
+          "reading": "いちぶ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-2.word.20.meaning",
+          "patterns": [
+            {
+              "pattern": "N の <w>",
+              "usageId": "topic-1-6.3-2.word.20.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "全部",
+              "glossId": "topic-1-6.3-2.word.20.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.20.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.21",
+          "word": "お互いに",
+          "reading": "おたがいに",
+          "pos": "adverb",
+          "meaningId": "topic-1-6.3-2.word.21.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 助ける",
+              "usageId": "topic-1-6.3-2.word.21.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "一緒に",
+              "glossId": "topic-1-6.3-2.word.21.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.21.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.22",
+          "word": "似る",
+          "reading": "にる",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.3-2.word.22.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "topic-1-6.3-2.word.22.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "同じだ",
+              "glossId": "topic-1-6.3-2.word.22.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.22.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.23",
+          "word": "上下",
+          "reading": "じょうげ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-2.word.23.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 関係",
+              "usageId": "topic-1-6.3-2.word.23.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "目上",
+              "glossId": "topic-1-6.3-2.word.23.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.23.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.24",
+          "word": "恋愛",
+          "reading": "れんあい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-2.word.24.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を する",
+              "usageId": "topic-1-6.3-2.word.24.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "恋",
+              "glossId": "topic-1-6.3-2.word.24.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.24.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.25",
+          "word": "どちらかと言うと",
+          "reading": "どちらかというと",
+          "pos": "expression",
+          "meaningId": "topic-1-6.3-2.word.25.meaning",
+          "contrasts": [
+            {
+              "word": "むしろ",
+              "glossId": "topic-1-6.3-2.word.25.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.25.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.26",
+          "word": "保守的",
+          "reading": "ほしゅてき",
+          "pos": "na-adjective",
+          "meaningId": "topic-1-6.3-2.word.26.meaning",
+          "patterns": [
+            {
+              "pattern": "N に 対して <w>",
+              "usageId": "topic-1-6.3-2.word.26.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "革新的",
+              "glossId": "topic-1-6.3-2.word.26.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.26.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.27",
+          "word": "～からこそ",
+          "reading": "~からこそ",
+          "pos": "expression",
+          "meaningId": "topic-1-6.3-2.word.27.meaning",
+          "contrasts": [
+            {
+              "word": "だから",
+              "glossId": "topic-1-6.3-2.word.27.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.27.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.28",
+          "word": "成果",
+          "reading": "せいか",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-2.word.28.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 上げる",
+              "usageId": "topic-1-6.3-2.word.28.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "結果",
+              "glossId": "topic-1-6.3-2.word.28.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.28.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.29",
+          "word": "明るい",
+          "reading": "あかるい",
+          "pos": "i-adjective",
+          "meaningId": "topic-1-6.3-2.word.29.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 性格",
+              "usageId": "topic-1-6.3-2.word.29.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "陽気な",
+              "glossId": "topic-1-6.3-2.word.29.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.29.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.30",
+          "word": "勤勉だ",
+          "reading": "きんべんだ",
+          "pos": "expression",
+          "meaningId": "topic-1-6.3-2.word.30.meaning",
+          "patterns": [
+            {
+              "pattern": "N は <w>",
+              "usageId": "topic-1-6.3-2.word.30.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "まじめだ",
+              "glossId": "topic-1-6.3-2.word.30.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.30.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.31",
+          "word": "信仰心が強い",
+          "reading": "しんこうしんがつよい",
+          "pos": "expression",
+          "meaningId": "topic-1-6.3-2.word.31.meaning",
+          "patterns": [
+            {
+              "pattern": "N は <w>",
+              "usageId": "topic-1-6.3-2.word.31.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "信心深い",
+              "glossId": "topic-1-6.3-2.word.31.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.31.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.32",
+          "word": "楽観的だ",
+          "reading": "らっかんてきだ",
+          "pos": "expression",
+          "meaningId": "topic-1-6.3-2.word.32.meaning",
+          "patterns": [
+            {
+              "pattern": "N は <w>",
+              "usageId": "topic-1-6.3-2.word.32.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "悲観的だ",
+              "glossId": "topic-1-6.3-2.word.6.meaning",
+              "differenceId": "topic-1-6.3-2.word.32.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.33",
+          "word": "個人主義的だ",
+          "reading": "こじんしゅぎてきだ",
+          "pos": "expression",
+          "meaningId": "topic-1-6.3-2.word.33.meaning",
+          "patterns": [
+            {
+              "pattern": "N は <w>",
+              "usageId": "topic-1-6.3-2.word.33.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "集団主義的だ",
+              "glossId": "topic-1-6.3-2.word.36.meaning",
+              "differenceId": "topic-1-6.3-2.word.33.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.34",
+          "word": "物質主義的だ",
+          "reading": "ぶっしつしゅぎてきだ",
+          "pos": "expression",
+          "meaningId": "topic-1-6.3-2.word.34.meaning",
+          "patterns": [
+            {
+              "pattern": "N は <w>",
+              "usageId": "topic-1-6.3-2.word.34.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "拝金主義",
+              "glossId": "topic-1-6.3-2.word.34.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.34.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.35",
+          "word": "親切だ",
+          "reading": "しんせつだ",
+          "pos": "expression",
+          "meaningId": "topic-1-6.3-2.word.35.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "topic-1-6.3-2.word.35.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "優しい",
+              "glossId": "topic-1-6.3-2.word.35.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.35.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.36",
+          "word": "集団主義的だ",
+          "reading": "しゅうだんしゅぎてきだ",
+          "pos": "expression",
+          "meaningId": "topic-1-6.3-2.word.36.meaning",
+          "patterns": [
+            {
+              "pattern": "N は <w>",
+              "usageId": "topic-1-6.3-2.word.36.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "個人主義的だ",
+              "glossId": "topic-1-6.3-2.word.33.meaning",
+              "differenceId": "topic-1-6.3-2.word.36.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.37",
+          "word": "家族や友だちを大切にする",
+          "reading": "かぞくやともだちをたいせつにする",
+          "pos": "expression",
+          "meaningId": "topic-1-6.3-2.word.37.meaning",
+          "patterns": [
+            {
+              "pattern": "N は <w>",
+              "usageId": "topic-1-6.3-2.word.37.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "家族思いだ",
+              "glossId": "topic-1-6.3-2.word.37.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.37.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.38",
+          "word": "伝統を大切にする",
+          "reading": "でんとうをたいせつにする",
+          "pos": "expression",
+          "meaningId": "topic-1-6.3-2.word.38.meaning",
+          "patterns": [
+            {
+              "pattern": "N は <w>",
+              "usageId": "topic-1-6.3-2.word.38.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "伝統を守る",
+              "glossId": "topic-1-6.3-2.word.38.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.38.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.39",
+          "word": "上下関係を大切にする",
+          "reading": "じょうげかんけいをたいせつにする",
+          "pos": "expression",
+          "meaningId": "topic-1-6.3-2.word.39.meaning",
+          "patterns": [
+            {
+              "pattern": "N は <w>",
+              "usageId": "topic-1-6.3-2.word.39.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "年功序列",
+              "glossId": "topic-1-6.3-2.word.39.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-2.word.39.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-2.word.40",
+          "word": "新しい文化や考え方に対して保守的だ",
+          "reading": "あたらしいぶんかやかんがえかたにたいしてほしゅてきだ",
+          "pos": "expression",
+          "meaningId": "topic-1-6.3-2.word.40.meaning",
+          "patterns": [
+            {
+              "pattern": "N は <w>",
+              "usageId": "topic-1-6.3-2.word.40.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "保守的",
+              "glossId": "topic-1-6.3-2.word.26.meaning",
+              "differenceId": "topic-1-6.3-2.word.40.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-2.grammar.0",
+          "title": "Aに比べてB",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "去年に比べて、今年は暑い。",
+              "translationId": "topic-1-6.3-2.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "兄に比べて、弟は背が高い。",
+              "translationId": "topic-1-6.3-2.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "東京に比べて、大阪は物価が安い。",
+              "translationId": "topic-1-6.3-2.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-2.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "去年＿＿、今年は暑いです。"
+                },
+                {
+                  "textId": "topic-1-6.3-2.grammar.0.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.3-2.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に比べて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に比べたて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に比べるて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を比べて"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.3-2.grammar.0.meaning",
+          "formationId": "topic-1-6.3-2.grammar.0.formation",
+          "usageId": "topic-1-6.3-2.grammar.0.usage",
+          "pitfallId": "topic-1-6.3-2.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-2.grammar.1",
+          "title": "Aほど～ない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "今日は昨日ほど寒くない。",
+              "translationId": "topic-1-6.3-2.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この店は思ったほど高くなかった。",
+              "translationId": "topic-1-6.3-2.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "私は彼ほど速く走れない。",
+              "translationId": "topic-1-6.3-2.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-2.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "今は昔ほど（きれいだ）＿＿。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-2.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "きれくない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "きれいじゃない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "きれいだない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "きれいなない"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.3-2.grammar.1.meaning",
+          "formationId": "topic-1-6.3-2.grammar.1.formation",
+          "usageId": "topic-1-6.3-2.grammar.1.usage",
+          "pitfallId": "topic-1-6.3-2.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-2.grammar.2",
+          "title": "それに対して",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "兄は活発だ。それに対して、弟は静かだ。",
+              "translationId": "topic-1-6.3-2.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "姉はよく話す。それに対して、妹はあまり話さない。",
+              "translationId": "topic-1-6.3-2.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "都市の人口は増えている。それに対して、農村では減り続けている。",
+              "translationId": "topic-1-6.3-2.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-2.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "姉は読書が好きです。それに＿＿、妹は運動が好きです。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-2.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "対して"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "対したて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "対しで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "対するて"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.3-2.grammar.2.meaning",
+          "formationId": "topic-1-6.3-2.grammar.2.formation",
+          "usageId": "topic-1-6.3-2.grammar.2.usage",
+          "pitfallId": "topic-1-6.3-2.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-2.grammar.3",
+          "title": "～ようだ（推量）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "外は雨が降っているようだ。",
+              "translationId": "topic-1-6.3-2.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "誰か来たようだ。",
+              "translationId": "topic-1-6.3-2.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "熱があるようだ。",
+              "translationId": "topic-1-6.3-2.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-2.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "あの人は学生＿＿ようです。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-2.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "な"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "の"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "で"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-2.grammar.3.question.1",
+              "prompt": [
+                {
+                  "japanese": "少しやせた＿＿気がします。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-2.grammar.3.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ように"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ようの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ような"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ようだ"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.3-2.grammar.3.meaning",
+          "formationId": "topic-1-6.3-2.grammar.3.formation",
+          "usageId": "topic-1-6.3-2.grammar.3.usage",
+          "pitfallId": "topic-1-6.3-2.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-2.grammar.4",
+          "title": "～みたいだ（推量）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "あの店は休みみたいだ。",
+              "translationId": "topic-1-6.3-2.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼はもう帰ったみたいだ。",
+              "translationId": "topic-1-6.3-2.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "このケーキは少し古いみたいだ。",
+              "translationId": "topic-1-6.3-2.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-2.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "この辺りは（静かだ）＿＿ようですね。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-2.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "静かの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "静かでの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "静かな"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "静かだ"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-2.grammar.4.question.1",
+              "prompt": [
+                {
+                  "japanese": "まるで人間の赤ちゃん＿＿ですね。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-2.grammar.4.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "なみたい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "のみたい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "みたい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だみたい"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.3-2.grammar.4.meaning",
+          "formationId": "topic-1-6.3-2.grammar.4.formation",
+          "usageId": "topic-1-6.3-2.grammar.4.usage",
+          "pitfallId": "topic-1-6.3-2.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-2.grammar.5",
+          "title": "まるで～ようだ／みたいだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "まるで夢のようだ。",
+              "translationId": "topic-1-6.3-2.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この川はまるで海みたいだ。",
+              "translationId": "topic-1-6.3-2.grammar.5.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼はまるで子どものようだ。",
+              "translationId": "topic-1-6.3-2.grammar.5.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-2.grammar.5.question.0",
+              "prompt": [
+                {
+                  "japanese": "あの店は休み＿＿みたいです。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-2.grammar.5.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "（不填）"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "な"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "の"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だ"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-2.grammar.5.question.1",
+              "prompt": [
+                {
+                  "japanese": "春なのに、まるで冬＿＿ようです。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-2.grammar.5.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "な"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "の"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.3-2.grammar.5.meaning",
+          "formationId": "topic-1-6.3-2.grammar.5.formation",
+          "usageId": "topic-1-6.3-2.grammar.5.usage",
+          "pitfallId": "topic-1-6.3-2.grammar.5.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-2.grammar.6",
+          "title": "～らしい",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "あの店は閉店したらしい。",
+              "translationId": "topic-1-6.3-2.grammar.6.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "明日は雪が降るらしい。",
+              "translationId": "topic-1-6.3-2.grammar.6.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "山田さんは仕事を辞めるらしい。",
+              "translationId": "topic-1-6.3-2.grammar.6.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-2.grammar.6.question.0",
+              "prompt": [
+                {
+                  "japanese": "うわさでは、あの店は（閉店する）＿＿らしいです。"
+                },
+                {
+                  "textId": "topic-1-6.3-2.grammar.6.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.3-2.grammar.6.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "閉店した"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "閉店しただ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "閉店しました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "閉店して"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-2.grammar.6.question.1",
+              "prompt": [
+                {
+                  "japanese": "田中さんは先生＿＿らしいです。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-2.grammar.6.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "（不填）"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "の"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "な"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だ"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.3-2.grammar.6.meaning",
+          "formationId": "topic-1-6.3-2.grammar.6.formation",
+          "usageId": "topic-1-6.3-2.grammar.6.usage",
+          "pitfallId": "topic-1-6.3-2.grammar.6.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-2.grammar.7",
+          "title": "～ような気がする",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "前にも会ったような気がする。",
+              "translationId": "topic-1-6.3-2.grammar.7.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この計画はうまくいくような気がする。",
+              "translationId": "topic-1-6.3-2.grammar.7.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "窓が開いているような気がする。",
+              "translationId": "topic-1-6.3-2.grammar.7.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "topic-1-6.3-2.grammar.7.meaning",
+          "formationId": "topic-1-6.3-2.grammar.7.formation",
+          "usageId": "topic-1-6.3-2.grammar.7.usage",
+          "pitfallId": "topic-1-6.3-2.grammar.7.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-2.grammar.8",
+          "title": "例文の解説",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本人に比べてフィリピン人は信仰心が強くて、毎週教会へ行っている。",
+              "translationId": "topic-1-6.3-2.grammar.8.example.0.translation",
+              "analysisId": "topic-1-6.3-2.grammar.8.example.0.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "今は昔ほどきれいじゃないよ。",
+              "translationId": "topic-1-6.3-2.grammar.8.example.1.translation",
+              "analysisId": "topic-1-6.3-2.grammar.8.example.1.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "姉は読書が好きで、よく図書館へ行っている。それに対して、妹は運動が好きで、毎日公園で遊んでいる。",
+              "translationId": "topic-1-6.3-2.grammar.8.example.2.translation",
+              "analysisId": "topic-1-6.3-2.grammar.8.example.2.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "にぎやかな声がしますね。パーティーでもしているようですね。",
+              "translationId": "topic-1-6.3-2.grammar.8.example.3.translation",
+              "analysisId": "topic-1-6.3-2.grammar.8.example.3.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "試験が近いから、勉強を頑張っているみたいだね。",
+              "translationId": "topic-1-6.3-2.grammar.8.example.4.translation",
+              "analysisId": "topic-1-6.3-2.grammar.8.example.4.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "春なのに、今日は寒くてまるで冬のようです。",
+              "translationId": "topic-1-6.3-2.grammar.8.example.5.translation",
+              "analysisId": "topic-1-6.3-2.grammar.8.example.5.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "人間の赤ちゃんみたいだね。",
+              "translationId": "topic-1-6.3-2.grammar.8.example.6.translation",
+              "analysisId": "topic-1-6.3-2.grammar.8.example.6.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "うわさでは、売れなくて借金が多かったらしいよ。",
+              "translationId": "topic-1-6.3-2.grammar.8.example.7.translation",
+              "analysisId": "topic-1-6.3-2.grammar.8.example.7.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "本田さん、ダイエットをしているの？ちょっとやせたような気がするけど。",
+              "translationId": "topic-1-6.3-2.grammar.8.example.8.translation",
+              "analysisId": "topic-1-6.3-2.grammar.8.example.8.analysis"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": []
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

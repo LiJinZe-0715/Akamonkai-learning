@@ -1,0 +1,276 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-06",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第6課 ～だけではなく・それに加えて",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-06.grammar.0",
+          "title": "～に限らず",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この番組は若者に限らず、年配の人にも人気がある。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "国内に限らず、海外からも応募があった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-06.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "この番組は若者（　）、年配の人にも人気がある。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限らず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "限りでは"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-06.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-06.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-06.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-06.grammar.1",
+          "title": "～のみならず",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼は学業のみならず、スポーツにも優れている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この問題は日本のみならず、世界全体の問題だ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-06.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-06.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-06.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-06.grammar.2",
+          "title": "～ばかりか",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼は英語ばかりか、中国語も話せる。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "財布ばかりか、携帯まで盗まれた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-06.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "財布（　）、携帯まで盗まれた。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ばかりか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりで"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-06.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "この店は安い（　）、味もいい。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "うちに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "上は"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "上に"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "上で"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-06.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-06.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-06.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-06.grammar.3",
+          "title": "～はもとより",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "経験者はもとより、未経験者も応募できる。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "家族はもとより、友人にもまだ知らせていない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-06.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "経験者は（　）、未経験者も応募できる。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "もとに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "もとより"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "をめぐって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "もとで"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-06.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-06.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-06.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-06.grammar.4",
+          "title": "～上（に）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この店は安い上に、味もいい。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "道に迷った上に、雨にも降られた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-06.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-06.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-06.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-06.grammar.4.pitfall"
+        }
+      ]
+    }
+  }
+}

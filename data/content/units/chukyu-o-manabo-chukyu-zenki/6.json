@@ -1,0 +1,3947 @@
+{
+  "kind": "lesson",
+  "id": "chukyu-o-manabo-chukyu-zenki.6",
+  "bookId": "chukyu-o-manabo-chukyu-zenki",
+  "title": "第6課",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.0",
+          "word": "節分",
+          "reading": "せつぶん",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.0.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.0.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>に 豆をまく",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.0.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.1",
+          "word": "バレンタインデー",
+          "reading": "ばれんたいんでー",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.1.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.1.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>に チョコを 贈る",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.1.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.2",
+          "word": "～前後",
+          "reading": "~ぜんご",
+          "pos": "suffix",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.2.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.2.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.3",
+          "word": "土用のうしの日",
+          "reading": "どようのうしのひ",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.3.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.3.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.4",
+          "word": "太巻きずし",
+          "reading": "ふとまきずし",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.4.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.4.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.5",
+          "word": "お節料理",
+          "reading": "おせちりょうり",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.5.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.5.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.6",
+          "word": "うなぎのかば焼き",
+          "reading": "うなぎのかばやき",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.6.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.6.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.7",
+          "word": "年平均",
+          "reading": "ねんへいきん",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.7.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.7.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>気温",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.7.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.8",
+          "word": "数倍",
+          "reading": "すうばい",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.8.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.8.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>に 増える",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.8.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.9",
+          "word": "跳ね上がる",
+          "reading": "はねあがる",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.9.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.9.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N が <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.9.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.10",
+          "word": "うなぎ",
+          "reading": "うなぎ",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.10.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.10.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.11",
+          "word": "江戸時代",
+          "reading": "えどじだい",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.11.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.11.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.12",
+          "word": "夏ばて",
+          "reading": "なつばて",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.12.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.12.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>する",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.12.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.13",
+          "word": "防止",
+          "reading": "ぼうし",
+          "pos": "verbal-noun",
+          "transitivity": "transitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.13.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.13.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N を <w>する",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.13.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.14",
+          "word": "宣伝コピー",
+          "reading": "せんでんこぴー",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.14.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.14.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.15",
+          "word": "期間",
+          "reading": "きかん",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.15.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.15.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>中",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.15.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.16",
+          "word": "定着する",
+          "reading": "ていちゃくする",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.16.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.16.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N が <w>する",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.16.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.17",
+          "word": "元",
+          "reading": "もと",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.17.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.17.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.18",
+          "word": "恵方",
+          "reading": "えほう",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.18.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.18.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>を 向く",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.18.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.19",
+          "word": "方向",
+          "reading": "ほうこう",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.19.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.19.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>を 変える",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.19.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.20",
+          "word": "向く",
+          "reading": "むく",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.20.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.20.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.20.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.21",
+          "word": "大手",
+          "reading": "おおて",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.21.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.21.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.22",
+          "word": "コンビニチェーン",
+          "reading": "こんびにちぇーん",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.22.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.22.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.23",
+          "word": "持ち込む",
+          "reading": "もちこむ",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.23.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.23.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.23.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.24",
+          "word": "広める",
+          "reading": "ひろめる",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.24.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.24.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.24.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.25",
+          "word": "商業",
+          "reading": "しょうぎょう",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.25.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.25.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.26",
+          "word": "主義",
+          "reading": "しゅぎ",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.26.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.26.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.27",
+          "word": "贈る",
+          "reading": "おくる",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.27.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.27.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.27.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "あげる",
+              "glossId": "chukyu-o-manabo-chukyu-zenki.6.word.27.contrast.0.gloss",
+              "differenceId": "chukyu-o-manabo-chukyu-zenki.6.word.27.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.28",
+          "word": "バター",
+          "reading": "ばたー",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.28.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.28.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>を 塗る",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.28.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.29",
+          "word": "不足する",
+          "reading": "ふそくする",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.29.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.29.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N が <w>する",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.29.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.30",
+          "word": "～類",
+          "reading": "~るい",
+          "pos": "suffix",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.30.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.30.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.31",
+          "word": "見直す",
+          "reading": "みなおす",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.31.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.31.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.31.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.32",
+          "word": "焼き肉",
+          "reading": "やきにく",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.32.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.32.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.33",
+          "word": "流す",
+          "reading": "ながす",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.33.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.33.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.33.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.34",
+          "word": "生まれ変わる",
+          "reading": "うまれかわる",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.34.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.34.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.34.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.35",
+          "word": "就職する",
+          "reading": "しゅうしょくする",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.35.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.35.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N に <w>する",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.35.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.36",
+          "word": "漁獲量",
+          "reading": "ぎょかくりょう",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.36.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.36.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>が 減る",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.36.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.37",
+          "word": "減り続ける",
+          "reading": "へりつづける",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.37.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.37.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N が <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.37.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.38",
+          "word": "円グラフ",
+          "reading": "えんぐらふ",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.38.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.38.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>で 示す",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.38.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.39",
+          "word": "占める",
+          "reading": "しめる",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.39.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.39.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.39.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.40",
+          "word": "折れ線グラフ",
+          "reading": "おれせんぐらふ",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.40.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.40.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.41",
+          "word": "自給率",
+          "reading": "じきゅうりつ",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.41.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.41.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>が 下がる",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.41.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.42",
+          "word": "うなぎ上り",
+          "reading": "うなぎのぼり",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.42.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.42.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.43",
+          "word": "伸び",
+          "reading": "のび",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.43.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.43.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>が 鈍い",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.43.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.44",
+          "word": "目立つ",
+          "reading": "めだつ",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.44.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.44.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N が <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.44.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.45",
+          "word": "横ばい",
+          "reading": "よこばい",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.45.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.45.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>が 続く",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.45.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.46",
+          "word": "棒グラフ",
+          "reading": "ぼうぐらふ",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.46.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.46.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.47",
+          "word": "生産量",
+          "reading": "せいさんりょう",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.47.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.47.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>が 増える",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.47.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.48",
+          "word": "最大",
+          "reading": "さいだい",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.48.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.48.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>の 産地",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.48.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.49",
+          "word": "次いで",
+          "reading": "ついで",
+          "pos": "conjunction",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.49.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.49.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.50",
+          "word": "生産国",
+          "reading": "せいさんこく",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.50.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.50.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.51",
+          "word": "成長期",
+          "reading": "せいちょうき",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.51.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.51.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.52",
+          "word": "習慣化",
+          "reading": "しゅうかんか",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.52.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.52.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>する",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.52.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.53",
+          "word": "影響",
+          "reading": "えいきょう",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.53.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.53.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>を 与える",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.53.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.54",
+          "word": "落ち着き",
+          "reading": "おちつき",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.54.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.54.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>が ある",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.54.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.55",
+          "word": "しっかり",
+          "reading": "しっかり",
+          "pos": "adverb",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.55.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.55.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.56",
+          "word": "点字ブロック",
+          "reading": "てんじぶろっく",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.56.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.56.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.57",
+          "word": "食",
+          "reading": "しょく",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.57.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.57.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.58",
+          "word": "きずな",
+          "reading": "きずな",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.58.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.58.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>を 深める",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.58.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.59",
+          "word": "季節感",
+          "reading": "きせつかん",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.59.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.59.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>が ある",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.59.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.60",
+          "word": "旬",
+          "reading": "しゅん",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.60.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.60.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N の <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.60.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.61",
+          "word": "食材",
+          "reading": "しょくざい",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.61.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.61.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.62",
+          "word": "味わう",
+          "reading": "あじわう",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.62.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.62.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.62.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.63",
+          "word": "関係する",
+          "reading": "かんけいする",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.63.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.63.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N に <w>する",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.63.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.64",
+          "word": "クーラー",
+          "reading": "くーらー",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.64.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.64.note.0"
+          ],
+          "contrasts": [
+            {
+              "word": "ヒーター",
+              "glossId": "chukyu-o-manabo-chukyu-zenki.6.word.64.contrast.0.gloss",
+              "differenceId": "chukyu-o-manabo-chukyu-zenki.6.word.64.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.65",
+          "word": "中継する",
+          "reading": "ちゅうけいする",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.65.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.65.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N を <w>する",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.65.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.66",
+          "word": "ネット",
+          "reading": "ねっと",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.66.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.66.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>で 買う",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.66.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.67",
+          "word": "アルコール",
+          "reading": "あるこーる",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.67.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.67.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>を 摂取する",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.67.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.68",
+          "word": "患者",
+          "reading": "かんじゃ",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.68.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.68.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>を 診る",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.68.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.69",
+          "word": "詐欺事件",
+          "reading": "さぎじけん",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.69.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.69.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>に 巻き込まれる",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.69.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.70",
+          "word": "だます",
+          "reading": "だます",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.70.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.70.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.70.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.71",
+          "word": "愛する",
+          "reading": "あいする",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.71.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.71.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.71.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.72",
+          "word": "手洗い",
+          "reading": "てあらい",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.72.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.72.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>を する",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.72.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.73",
+          "word": "うがい",
+          "reading": "うがい",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.73.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.73.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>を する",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.73.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.74",
+          "word": "消費期限",
+          "reading": "しょうひきげん",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.74.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.74.note.0"
+          ],
+          "contrasts": [
+            {
+              "word": "賞味期限",
+              "glossId": "chukyu-o-manabo-chukyu-zenki.6.word.74.contrast.0.gloss",
+              "differenceId": "chukyu-o-manabo-chukyu-zenki.6.word.74.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.75",
+          "word": "廃棄処分",
+          "reading": "はいきしょぶん",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.75.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.75.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>に する",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.75.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.76",
+          "word": "摂取カロリー",
+          "reading": "せっしゅかろりー",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.76.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.76.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>を 抑える",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.76.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.77",
+          "word": "年齢",
+          "reading": "ねんれい",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.77.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.77.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>を 問わない",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.77.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.78",
+          "word": "性別",
+          "reading": "せいべつ",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.78.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.78.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>を 記入する",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.78.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.79",
+          "word": "キロカロリー",
+          "reading": "きろかろりー",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.79.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.79.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.80",
+          "word": "学校給食",
+          "reading": "がっこうきゅうしょく",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.80.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.80.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.81",
+          "word": "生",
+          "reading": "なま",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.81.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.81.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.82",
+          "word": "加熱する",
+          "reading": "かねつする",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.82.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.82.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N を <w>する",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.82.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.83",
+          "word": "全国一",
+          "reading": "ぜんこくいち",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.83.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.83.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.84",
+          "word": "通す",
+          "reading": "とおす",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.84.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.84.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.84.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.85",
+          "word": "月別",
+          "reading": "つきべつ",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.85.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.85.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.86",
+          "word": "一方",
+          "reading": "いっぽう",
+          "pos": "conjunction",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.86.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.86.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>で",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.86.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.87",
+          "word": "すっぱい",
+          "reading": "すっぱい",
+          "pos": "i-adjective",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.87.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.87.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.88",
+          "word": "さっぱりしている",
+          "reading": "さっぱりしている",
+          "pos": "expression",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.88.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.88.note.0"
+          ],
+          "contrasts": [
+            {
+              "word": "こってり",
+              "glossId": "chukyu-o-manabo-chukyu-zenki.6.word.88.contrast.0.gloss",
+              "differenceId": "chukyu-o-manabo-chukyu-zenki.6.word.88.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.89",
+          "word": "油っこい",
+          "reading": "あぶらっこい",
+          "pos": "i-adjective",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.89.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.89.note.0"
+          ],
+          "contrasts": [
+            {
+              "word": "さっぱりしている",
+              "glossId": "chukyu-o-manabo-chukyu-zenki.6.word.88.meaning",
+              "differenceId": "chukyu-o-manabo-chukyu-zenki.6.word.89.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.90",
+          "word": "中食",
+          "reading": "なかしょく",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.90.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.90.note.0"
+          ],
+          "contrasts": [
+            {
+              "word": "外食",
+              "glossId": "chukyu-o-manabo-chukyu-zenki.6.word.90.contrast.0.gloss",
+              "differenceId": "chukyu-o-manabo-chukyu-zenki.6.word.90.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.91",
+          "word": "一定の",
+          "reading": "いっていの",
+          "lemma": "一定",
+          "pos": "adnominal",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.91.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.91.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.92",
+          "word": "決まる",
+          "reading": "きまる",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.92.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.92.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N が <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.92.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.93",
+          "word": "集中する",
+          "reading": "しゅうちゅうする",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.93.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.93.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.93.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.94",
+          "word": "訪れる",
+          "reading": "おとずれる",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.94.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.94.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "N が <w>",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.94.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.95",
+          "word": "1年中",
+          "reading": "いちねんじゅう",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.95.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.95.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.96",
+          "word": "売り上げ",
+          "reading": "うりあげ",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.96.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.96.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>が 伸びる",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.96.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.97",
+          "word": "効果",
+          "reading": "こうか",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.97.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.97.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>が ある",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.97.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.98",
+          "word": "関西",
+          "reading": "かんさい",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.98.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.98.note.0"
+          ],
+          "contrasts": [
+            {
+              "word": "関東",
+              "glossId": "chukyu-o-manabo-chukyu-zenki.6.word.101.meaning",
+              "differenceId": "chukyu-o-manabo-chukyu-zenki.6.word.98.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.99",
+          "word": "恵方巻き",
+          "reading": "えほうまき",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.99.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.99.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.100",
+          "word": "幸運",
+          "reading": "こううん",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.100.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.100.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>が 訪れる",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.100.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.101",
+          "word": "関東",
+          "reading": "かんとう",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.101.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.101.note.0"
+          ],
+          "contrasts": [
+            {
+              "word": "関西",
+              "glossId": "chukyu-o-manabo-chukyu-zenki.6.word.98.meaning",
+              "differenceId": "chukyu-o-manabo-chukyu-zenki.6.word.101.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.102",
+          "word": "食生活",
+          "reading": "しょくせいかつ",
+          "pos": "noun",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.102.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.102.note.0"
+          ],
+          "patterns": [
+            {
+              "pattern": "<w>を 見直す",
+              "usageId": "chukyu-o-manabo-chukyu-zenki.6.word.102.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.103",
+          "word": "縁起のいい",
+          "reading": "えんぎのいい",
+          "lemma": "縁起がいい",
+          "pos": "expression",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.103.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.103.note.0"
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.word.104",
+          "word": "一気に",
+          "reading": "いっきに",
+          "pos": "adverb",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.word.104.meaning",
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.word.104.note.0"
+          ],
+          "questions": []
+        }
+      ]
+    },
+    "kanji": {
+      "kind": "kanji-module",
+      "items": [
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.1",
+          "character": "焼",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.1.meaning",
+          "onReadings": [
+            "ショウ"
+          ],
+          "kunReadings": [
+            "や.く",
+            "や.ける"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.1.word.0",
+              "word": "かば焼き",
+              "reading": "かばやき",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.1.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.1.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "かば焼き"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "かばやき"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.1.word.1",
+              "word": "焼き鳥",
+              "reading": "やきとり",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.1.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.1.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "焼き鳥"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "やきとり"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.1.word.2",
+              "word": "魚を焼く",
+              "reading": "さかなをやく",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.1.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.1.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "魚を焼く"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "さかなをやく"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.1.word.3",
+              "word": "魚が焼ける",
+              "reading": "さかながやける",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.1.word.3.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.1.word.3.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "魚が焼ける"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "さかながやける"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "魚を[焼:や]いて食べる。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.1.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.2",
+          "character": "平",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.2.meaning",
+          "onReadings": [
+            "ヘイ",
+            "ビョウ"
+          ],
+          "kunReadings": [
+            "たい.ら",
+            "ひら"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.2.word.0",
+              "word": "平均",
+              "reading": "へいきん",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.2.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.2.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "平均"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "へいきん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.2.word.1",
+              "word": "平和",
+              "reading": "へいわ",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.2.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.2.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "平和"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "へいわ"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "世界の[平和:へいわ]を願う。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.2.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.3",
+          "character": "均",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.3.meaning",
+          "onReadings": [
+            "キン"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.3.word.0",
+              "word": "平均",
+              "reading": "へいきん",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.3.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.3.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "平均"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "へいきん"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "クラスの[平均:へいきん]点は70点だ。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.3.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.4",
+          "character": "倍",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.4.meaning",
+          "onReadings": [
+            "バイ"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.4.word.0",
+              "word": "20数倍",
+              "reading": "にじゅうすうばい",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.4.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.4.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "20数倍"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "にじゅうすうばい"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.4.word.1",
+              "word": "2倍",
+              "reading": "にばい",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.4.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.4.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "2倍"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "にばい"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "値段が2[倍:ばい]になった。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.4.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.5",
+          "character": "江",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.5.meaning",
+          "onReadings": [
+            "コウ"
+          ],
+          "kunReadings": [
+            "え"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.5.word.0",
+              "word": "江戸",
+              "reading": "えど",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.5.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.5.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "江戸"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "えど"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.5.word.1",
+              "word": "江戸時代",
+              "reading": "えどじだい",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.5.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.5.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "江戸時代"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "えどじだい"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "[江戸:えど]時代の話を読む。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.5.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.6",
+          "character": "戸",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.6.meaning",
+          "onReadings": [
+            "コ"
+          ],
+          "kunReadings": [
+            "と"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.6.word.0",
+              "word": "江戸",
+              "reading": "えど",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.6.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.6.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "江戸"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "えど"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "[江戸:えど]は今の東京だ。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.6.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.7",
+          "character": "夏",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.7.meaning",
+          "onReadings": [
+            "カ",
+            "ゲ"
+          ],
+          "kunReadings": [
+            "なつ"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.7.word.0",
+              "word": "夏ばて",
+              "reading": "なつばて",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.7.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.7.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "夏ばて"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "なつばて"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.7.word.1",
+              "word": "夏休み",
+              "reading": "なつやすみ",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.7.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.7.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "夏休み"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "なつやすみ"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "[夏:なつ]は暑くて苦手だ。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.7.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.8",
+          "character": "防",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.8.meaning",
+          "onReadings": [
+            "ボウ"
+          ],
+          "kunReadings": [
+            "ふせ.ぐ"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.8.word.0",
+              "word": "防止",
+              "reading": "ぼうし",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.8.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.8.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "防止"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ぼうし"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "事故[防止:ぼうし]のために気をつける。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.8.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.9",
+          "character": "宣",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.9.meaning",
+          "onReadings": [
+            "セン"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.9.word.0",
+              "word": "宣伝",
+              "reading": "せんでん",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.9.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.9.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "宣伝"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "せんでん"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "新商品の[宣伝:せんでん]をする。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.9.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.10",
+          "character": "続",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.10.meaning",
+          "onReadings": [
+            "ゾク"
+          ],
+          "kunReadings": [
+            "つづ.く",
+            "つづ.ける"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.10.word.0",
+              "word": "効果が続く",
+              "reading": "こうかがつづく",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.10.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.10.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "効果が続く"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "こうかがつづく"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.10.word.1",
+              "word": "勉強を続ける",
+              "reading": "べんきょうをつづける",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.10.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.10.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "勉強を続ける"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "べんきょうをつづける"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "毎日勉強を[続:つづ]ける。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.10.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.11",
+          "character": "短",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.11.meaning",
+          "onReadings": [
+            "タン"
+          ],
+          "kunReadings": [
+            "みじか.い"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.11.word.0",
+              "word": "短い",
+              "reading": "みじかい",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.11.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.11.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "短い"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "みじかい"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.11.word.1",
+              "word": "短時間に",
+              "reading": "たんじかんに",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.11.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.11.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "短時間に"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "たんじかんに"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "[短:みじか]い休みを取る。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.11.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.12",
+          "character": "期",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.12.meaning",
+          "onReadings": [
+            "キ",
+            "ゴ"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.12.word.0",
+              "word": "期間",
+              "reading": "きかん",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.12.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.12.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "期間"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "きかん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.12.word.1",
+              "word": "期間限定",
+              "reading": "きかんげんてい",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.12.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.12.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "期間限定"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "きかんげんてい"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この商品は[期間限定:きかんげんてい]だ。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.12.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.13",
+          "character": "集",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.13.meaning",
+          "onReadings": [
+            "シュウ"
+          ],
+          "kunReadings": [
+            "あつ.める",
+            "あつ.まる",
+            "つど.う"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.13.word.0",
+              "word": "集中する",
+              "reading": "しゅうちゅうする",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.13.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.13.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "集中する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "しゅうちゅうする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.13.word.1",
+              "word": "募集中",
+              "reading": "ぼしゅうちゅう",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.13.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.13.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "募集中"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ぼしゅうちゅう"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.13.word.2",
+              "word": "切手を集める",
+              "reading": "きってをあつめる",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.13.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.13.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "切手を集める"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "きってをあつめる"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.13.word.3",
+              "word": "人が集まる",
+              "reading": "ひとがあつまる",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.13.word.3.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.13.word.3.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "人が集まる"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ひとがあつまる"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "駅前に人が[集:あつ]まっている。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.13.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.14",
+          "character": "節",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.14.meaning",
+          "onReadings": [
+            "セツ",
+            "セチ"
+          ],
+          "kunReadings": [
+            "ふし"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.14.word.0",
+              "word": "節分",
+              "reading": "せつぶん",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.14.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.14.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "節分"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "せつぶん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.14.word.1",
+              "word": "季節",
+              "reading": "きせつ",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.14.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.14.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "季節"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "きせつ"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.14.word.2",
+              "word": "調節する",
+              "reading": "ちょうせつする",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.14.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.14.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "調節する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ちょうせつする"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "[節分:せつぶん]に豆をまく。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.14.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.15",
+          "character": "巻",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.15.meaning",
+          "onReadings": [
+            "カン"
+          ],
+          "kunReadings": [
+            "ま.く",
+            "まき"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.15.word.0",
+              "word": "太巻きずし",
+              "reading": "ふとまきずし",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.15.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.15.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "太巻きずし"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ふとまきずし"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "[太巻:ふとま]きずしを作る。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.15.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.16",
+          "character": "関",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.16.meaning",
+          "onReadings": [
+            "カン"
+          ],
+          "kunReadings": [
+            "かか.わる",
+            "せき"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.16.word.0",
+              "word": "関西",
+              "reading": "かんさい",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.16.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.16.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "関西"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "かんさい"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.16.word.1",
+              "word": "関東",
+              "reading": "かんとう",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.16.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.16.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "関東"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "かんとう"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.16.word.2",
+              "word": "関係",
+              "reading": "かんけい",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.16.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.16.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "関係"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "かんけい"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.16.word.3",
+              "word": "～に関して",
+              "reading": "にかんして",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.16.word.3.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.16.word.3.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "～に関して"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "にかんして"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この問題に[関:かか]わっている。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.16.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.17",
+          "character": "恵",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.17.meaning",
+          "onReadings": [
+            "エ",
+            "ケイ"
+          ],
+          "kunReadings": [
+            "めぐ.む"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.17.word.0",
+              "word": "恵方",
+              "reading": "えほう",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.17.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.17.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "恵方"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "えほう"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "今年の[恵方:えほう]は南南東だ。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.17.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.18",
+          "character": "商",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.18.meaning",
+          "onReadings": [
+            "ショウ"
+          ],
+          "kunReadings": [
+            "あきな.う"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.18.word.0",
+              "word": "商業",
+              "reading": "しょうぎょう",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.18.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.18.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "商業"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "しょうぎょう"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "[商:しょう]業の町として栄えた。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.18.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.19",
+          "character": "業",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.19.meaning",
+          "onReadings": [
+            "ギョウ",
+            "ゴウ"
+          ],
+          "kunReadings": [
+            "わざ"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.19.word.0",
+              "word": "商業",
+              "reading": "しょうぎょう",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.19.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.19.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "商業"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "しょうぎょう"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.19.word.1",
+              "word": "職業",
+              "reading": "しょくぎょう",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.19.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.19.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "職業"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "しょくぎょう"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.19.word.2",
+              "word": "営業",
+              "reading": "えいぎょう",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.19.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.19.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "営業"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "えいぎょう"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.19.word.3",
+              "word": "授業",
+              "reading": "じゅぎょう",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.19.word.3.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.19.word.3.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "授業"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "じゅぎょう"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.19.word.4",
+              "word": "卒業する",
+              "reading": "そつぎょうする",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.19.word.4.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.19.word.4.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "卒業する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "そつぎょうする"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "来月[卒業:そつぎょう]する。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.19.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.20",
+          "character": "主",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.20.meaning",
+          "onReadings": [
+            "シュ",
+            "ス"
+          ],
+          "kunReadings": [
+            "ぬし",
+            "おも"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.20.word.0",
+              "word": "主義",
+              "reading": "しゅぎ",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.20.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.20.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "主義"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "しゅぎ"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.20.word.1",
+              "word": "主人",
+              "reading": "しゅじん",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.20.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.20.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "主人"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "しゅじん"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この店の[主人:しゅじん]は親切だ。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.20.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.21",
+          "character": "義",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.21.meaning",
+          "onReadings": [
+            "ギ"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.21.word.0",
+              "word": "主義",
+              "reading": "しゅぎ",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.21.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.21.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "主義"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "しゅぎ"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.21.word.1",
+              "word": "講義",
+              "reading": "こうぎ",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.21.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.21.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "講義"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "こうぎ"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "大学で[講義:こうぎ]を受ける。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.21.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.22",
+          "character": "残",
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.22.meaning",
+          "onReadings": [
+            "ザン"
+          ],
+          "kunReadings": [
+            "のこ.る",
+            "のこ.す"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.22.word.0",
+              "word": "残る",
+              "reading": "のこる",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.22.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.22.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "残る"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "のこる"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.22.word.1",
+              "word": "残念",
+              "reading": "ざんねん",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.22.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.22.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "残念"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ざんねん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.22.word.2",
+              "word": "残業する",
+              "reading": "ざんぎょうする",
+              "meaningId": "chukyu-o-manabo-chukyu-zenki.6.kanji.22.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "chukyu-o-manabo-chukyu-zenki.6.kanji.22.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "残業する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ざんぎょうする"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "昨日は[残業:ざんぎょう]した。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.kanji.22.example.0.translation"
+            }
+          ]
+        }
+      ]
+    },
+    "articles": {
+      "kind": "article-module",
+      "items": [
+        {
+          "kind": "article",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.article.0",
+          "title": "この日に食べなきゃ、意味がない！",
+          "audio": "media/manabo/chukyu-o-manabo-chukyu-zenki.6.mp3",
+          "paragraphs": [
+            {
+              "kind": "paragraph",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0",
+              "sentences": [
+                {
+                  "kind": "sentence",
+                  "text": "日本では1年中うなぎのかば焼きが買える。",
+                  "translationId": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0.sentence.0.translation"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "しかし、「土用のうしの日」（7月20日前後）にはその売り上げが年平均の20数倍にも跳ね上がるのだ。",
+                  "translationId": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0.sentence.1.translation",
+                  "analysisId": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0.sentence.1.analysis"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "多くの人にとって、土用のうしの日は「うなぎを食べずにはいられない日」ということだろう。",
+                  "translationId": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0.sentence.2.translation",
+                  "analysisId": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0.sentence.2.analysis"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "土用のうしの日にうなぎを食べる習慣は江戸時代の「夏ばて防止にはうなぎがよい」という宣伝コピーから生まれたらしい。",
+                  "translationId": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0.sentence.3.translation",
+                  "analysisId": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0.sentence.3.analysis"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "本当だとしたら、200年以上もその効果が続いていることになる。",
+                  "translationId": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0.sentence.4.translation",
+                  "analysisId": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0.sentence.4.analysis"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "短い期間に売り上げが集中するものは、うなぎの他に「バレンタインデーのチョコレート」「クリスマスのケーキ」などがあるが、最近定着しつつあるのが、「節分の太巻きずし」だ。",
+                  "translationId": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0.sentence.5.translation",
+                  "analysisId": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0.sentence.5.analysis"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "これは元は関西にあった「恵方巻き」を食べるという習慣だ。",
+                  "translationId": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0.sentence.6.translation"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "「節分の日に恵方［縁起のいい方向］を向いて、太巻きずしを一気に食べると、その年に幸運が訪れる」と言われている。",
+                  "translationId": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0.sentence.7.translation",
+                  "analysisId": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0.sentence.7.analysis"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "この関西の習慣を、大手コンビニチェーンが関東に持ち込んで、広めたのだ。",
+                  "translationId": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0.sentence.8.translation",
+                  "analysisId": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0.sentence.8.analysis"
+                },
+                {
+                  "kind": "sentence",
+                  "text": "商業主義から生まれる新しい食生活の習慣は、「土用のうしの日のうなぎ」のように、200年後も残っているだろうか。",
+                  "translationId": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0.sentence.9.translation",
+                  "analysisId": "chukyu-o-manabo-chukyu-zenki.6.article.0.paragraph.0.sentence.9.analysis"
+                }
+              ]
+            }
+          ],
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.grammar.0",
+          "title": "話し言葉",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この日に食べなきゃ、意味がない。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "あっ、宿題忘れちゃった。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "これは私のボールペンじゃない。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.grammar.0.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "「飲んでしまった」を口語で短くすると？"
+                }
+              ],
+              "explanationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "飲んちゃった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "飲んじゃった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "飲んでる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "飲んといた"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.grammar.0.meaning",
+          "formationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.0.formation",
+          "usageId": "chukyu-o-manabo-chukyu-zenki.6.grammar.0.usage",
+          "pitfallId": "chukyu-o-manabo-chukyu-zenki.6.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.grammar.1",
+          "title": "Nにとって",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "多くの人にとって、土用のうしの日は「うなぎを食べずにはいられない日」ということだろう。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "留学生にとって日本の物価が高いのは問題だ。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "あなたにとって一番大切なことは何ですか。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.grammar.1.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "「明日のために、食べ物を買っておいて」の「買っておいて」に相当する口語形は？"
+                }
+              ],
+              "explanationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "買わなきゃ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "買っといて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "買ってる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "買っちゃって"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.grammar.1.meaning",
+          "formationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.1.formation",
+          "usageId": "chukyu-o-manabo-chukyu-zenki.6.grammar.1.usage",
+          "pitfallId": "chukyu-o-manabo-chukyu-zenki.6.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.grammar.2",
+          "title": "Vない形＋ずに（は）いられない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "「土用のうしの日」にはうなぎを食べずにはいられない。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼女の悲しい話を聞いた時、涙を流さずにはいられなかった。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "入院した友人を思うと、心配せずにいられない。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.grammar.2.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "私（　）、家族が一番大切だ。立場からの評価を表す。"
+                }
+              ],
+              "explanationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "とともに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に代わって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にとって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を中心に"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "友人が入院したと聞いて、心配（　）いられない。"
+                }
+              ],
+              "explanationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "するずには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "せずには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "せないでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "しずには"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.grammar.2.meaning",
+          "formationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.2.formation",
+          "usageId": "chukyu-o-manabo-chukyu-zenki.6.grammar.2.usage",
+          "pitfallId": "chukyu-o-manabo-chukyu-zenki.6.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.grammar.3",
+          "title": "～らしい（判断・伝聞）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "うなぎを食べる習慣は江戸時代の宣伝コピーから生まれたらしい。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "うわさでは、あの２人は結婚するらしい。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "あの交差点に人がたくさん集まっている。事故らしい。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.grammar.3.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "人が集まっている。どうやら事故（　）。"
+                }
+              ],
+              "explanationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "のらしい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だらしい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ならしい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "らしい"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.grammar.3.meaning",
+          "formationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.3.formation",
+          "usageId": "chukyu-o-manabo-chukyu-zenki.6.grammar.3.usage",
+          "pitfallId": "chukyu-o-manabo-chukyu-zenki.6.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.grammar.4",
+          "title": "～としたら",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "本当だとしたら、200年以上もその効果が続いていることになる。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "生まれ変わるとしたら、女性がいいですか、男性がいいですか。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "今年も留学するのが無理だとしたら、今度こそ就職しなければならない。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.grammar.4.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "その話が本当（　）、予定を変える必要がある。"
+                }
+              ],
+              "explanationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にとしたら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だとしたら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "でとしたら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "なとしたら"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.grammar.4.meaning",
+          "formationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.4.formation",
+          "usageId": "chukyu-o-manabo-chukyu-zenki.6.grammar.4.usage",
+          "pitfallId": "chukyu-o-manabo-chukyu-zenki.6.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.grammar.5",
+          "title": "～（という）ことになる／～ことになっている／～ことにしている",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "本当だとしたら、200年以上もその効果が続いていることになる。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "このままうなぎの漁獲量が減り続けたら、土用のうしの日にうなぎが食べられないことになるだろう。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.5.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼からパーティー参加の返事が今日中に来なかったら、彼は参加しないということになる。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.5.example.2.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "私の会社では夏休みは１週間取れることになっている。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.5.example.3.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "私は夕方１時間、健康のためにジョギングをすることにしている。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.5.example.4.translation"
+            }
+          ],
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.grammar.5.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.grammar.5.question.0",
+              "prompt": [
+                {
+                  "japanese": "店員が全員休んだら、今日は店を開けられない（　）。推論の結果を示す。"
+                }
+              ],
+              "explanationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.5.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ようにする"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことにしている"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことにする"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことになる"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.grammar.5.question.1",
+              "prompt": [
+                {
+                  "japanese": "会社の規則では、ここでたばこを吸ってはいけない。規則を説明する文は？"
+                }
+              ],
+              "explanationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.5.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ここでは吸わないことにしている。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ここでは吸わないことになっている。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ここでは吸うとしたら。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ここでは吸わずにはいられない。"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.grammar.5.question.2",
+              "prompt": [
+                {
+                  "japanese": "健康のために、自分で決めて毎朝歩く習慣を続けている。最も合う文は？"
+                }
+              ],
+              "explanationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.5.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "毎朝歩いたところにいる。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "毎朝歩くらしい。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "毎朝歩くことにしている。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "毎朝歩くことになっている。"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.grammar.5.meaning",
+          "formationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.5.formation",
+          "usageId": "chukyu-o-manabo-chukyu-zenki.6.grammar.5.usage",
+          "pitfallId": "chukyu-o-manabo-chukyu-zenki.6.grammar.5.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "chukyu-o-manabo-chukyu-zenki.6.grammar.6",
+          "title": "グラフの言葉：円グラフ・～％／～割を占める",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "朝何も食べない人は、60代の男性では1.6％だが、20代の男性では18.3％を占めている。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.6.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この店の売り上げの半分以上を、若い女性客が占めている。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.6.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "調査によると、一人暮らしの高齢者は全体の約2割を占めている。",
+              "translationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.6.example.2.translation"
+            }
+          ],
+          "noteIds": [
+            "chukyu-o-manabo-chukyu-zenki.6.grammar.6.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "chukyu-o-manabo-chukyu-zenki.6.grammar.6.question.0",
+              "prompt": [
+                {
+                  "japanese": "全体の30％をグラフで表す：全体の3割（　）いる。"
+                }
+              ],
+              "explanationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.6.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "で占めて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に占めて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を占めて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "が占めて"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "chukyu-o-manabo-chukyu-zenki.6.grammar.6.meaning",
+          "formationId": "chukyu-o-manabo-chukyu-zenki.6.grammar.6.formation",
+          "usageId": "chukyu-o-manabo-chukyu-zenki.6.grammar.6.usage",
+          "pitfallId": "chukyu-o-manabo-chukyu-zenki.6.grammar.6.pitfall"
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

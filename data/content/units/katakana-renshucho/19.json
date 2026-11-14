@@ -1,0 +1,106 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.19",
+  "bookId": "katakana-renshucho",
+  "title": "第19課 スポーツ①",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.19.word.0",
+          "word": "バスケットボール",
+          "reading": "ばすけっとぼーる",
+          "meaningId": "katakana-renshucho.19.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.19.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.19.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "バスケットボール"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.19.word.1",
+          "word": "テニス",
+          "reading": "てにす",
+          "meaningId": "katakana-renshucho.19.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.19.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.19.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "テニス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.19.word.2",
+          "word": "サッカー",
+          "reading": "さっかー",
+          "meaningId": "katakana-renshucho.19.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.19.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.19.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "サッカー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.19.word.3",
+          "word": "サーフィン",
+          "reading": "さーふぃん",
+          "meaningId": "katakana-renshucho.19.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.19.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.19.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "サーフィン"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

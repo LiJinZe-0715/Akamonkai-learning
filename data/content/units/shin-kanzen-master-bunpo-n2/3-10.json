@@ -1,0 +1,133 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.3-10",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第10課 接続表現",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-10.grammar.0",
+          "title": "逆接の接続詞",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この案には賛成だ。しかし、問題もある。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-10.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "急いで行った。ところが、会議は中止だった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-10.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-10.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "この案には賛成だ。（　）、問題もある。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-10.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "一方"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "また"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "つまり"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "しかし"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-10.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-10.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-10.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-10.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-10.grammar.1",
+          "title": "添加・対比の接続詞",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "また、環境問題も重要だ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-10.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "都市の人口は増えた。一方、農村では減っている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-10.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-10.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "都市の人口は増えた。（　）、農村では減っている。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-10.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "つまり"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "さらに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "一方"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "そのため"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-10.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-10.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-10.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-10.grammar.1.pitfall"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1335 @@
+/* 学习页：单词行、文法栏、答题纸的版式。圆角、描边和动画见 cartoon.css。 */
+
+/* 单词 */
+
+.vocabulary-toolbar {
+    display: grid;
+    gap: 16px;
+    margin-bottom: 4px;
+}
+
+.vocabulary-toolbar input[type="search"] {
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    border-bottom: 2px solid var(--rule-strong);
+    background: transparent;
+    font-size: calc(12px * var(--font-scale));
+    outline: none;
+}
+
+.vocabulary-toolbar input[type="search"]:focus {
+    border-bottom-color: var(--accent);
+}
+
+.vocabulary-toolbar input[type="search"]::placeholder {
+    color: var(--ink-3);
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    width: fit-content;
+    max-width: 100%;
+    border: 1px solid var(--rule-strong);
+}
+
+.filter-buttons button {
+    padding: 6px 13px;
+    border: 0;
+    border-right: 1px solid var(--rule);
+    background: transparent;
+    color: var(--ink-2);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1.6;
+    cursor: pointer;
+    transition: background 120ms ease, color 120ms ease;
+}
+
+.filter-buttons button:last-child {
+    border-right: 0;
+}
+
+.filter-buttons button:hover {
+    background: var(--surface-2);
+    color: var(--ink);
+}
+
+.filter-buttons button[aria-pressed="true"] {
+    background: var(--ink);
+    color: var(--paper);
+}
+
+.list-caption {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--rule);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.vocabulary-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+}
+
+.word-row {
+    display: grid;
+    /* 序号列与行距同样连续收缩：桌面 32px / 16px，手机 24px / 12px。 */
+    grid-template-columns: clamp(24px, 1.6vw + 18px, 32px) minmax(0, 1fr) auto;
+    gap: clamp(12px, 0.8vw + 9px, 16px);
+    align-items: start;
+    padding: 18px 10px 18px 12px;
+    border-bottom: 1px solid var(--rule);
+    border-left: 3px solid transparent;
+    scroll-margin-top: 25px;
+    transition: background 120ms ease, border-color 120ms ease;
+}
+
+.word-row:hover {
+    border-left-color: var(--accent);
+    background: var(--surface-2);
+}
+
+.row-number {
+    padding-top: 5px;
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.word-content {
+    display: grid;
+    gap: 1px;
+    min-width: 0;
+    max-width: var(--measure);
+}
+
+.word-reading {
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: var(--ink-3);
+}
+
+.word-headword {
+    font-family: var(--font-display);
+    font-size: calc(18px * var(--font-scale));
+    font-weight: 700;
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+}
+
+.word-meaning {
+    margin-top: 3px;
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.7;
+    color: var(--ink-2);
+}
+
+.word-note {
+    margin-top: 9px;
+}
+
+/* 用法、解析都直接展开：小标签 + 说明文字，共用一套行内版式。 */
+.word-note-label {
+    display: inline-block;
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    color: var(--ink-3);
+}
+
+.word-note > p {
+    margin-top: 4px;
+    max-width: var(--measure);
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.85;
+    color: var(--ink-2);
+}
+
+/* 词性、自他：行内小徽章，常驻不折叠。 */
+.word-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 6px;
+}
+
+.word-tag {
+    padding: 1px 6px;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--ink-3);
+}
+
+.word-tag-transitivity {
+    border-color: color-mix(in srgb, var(--accent) 40%, transparent);
+    color: var(--accent);
+}
+
+/* 搭配骨架：行内展示第一条，`～` 位置换成本词基本形。 */
+.word-pattern {
+    margin-top: 6px;
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.8;
+    color: var(--ink-2);
+}
+
+.word-pattern-text b {
+    font-weight: 600;
+    color: var(--ink);
+}
+
+/* 解析折叠区：搭配说明、辨析、拆解都收在这里。 */
+.word-analysis {
+    margin-top: 8px;
+}
+
+.word-analysis > summary {
+    display: inline-block;
+    cursor: pointer;
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    color: var(--ink-3);
+    list-style: none;
+}
+
+.word-analysis > summary::-webkit-details-marker {
+    display: none;
+}
+
+.word-analysis > summary::after {
+    content: " ▾";
+}
+
+.word-analysis[open] > summary::after {
+    content: " ▴";
+}
+
+.word-analysis > summary:hover {
+    color: var(--accent);
+}
+
+.word-analysis-block {
+    margin-top: 10px;
+    max-width: var(--measure);
+}
+
+.word-pattern-list,
+.word-contrast-list {
+    display: grid;
+    gap: 8px;
+    margin: 6px 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.8;
+    color: var(--ink-2);
+}
+
+.word-pattern-list li {
+    display: grid;
+    gap: 2px;
+}
+
+.word-pattern-legend {
+    margin-top: 6px;
+    font-size: calc(8px * var(--font-scale));
+    color: var(--ink-3);
+}
+
+.word-contrast-list li {
+    display: grid;
+    gap: 2px;
+}
+
+.word-contrast-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px;
+    font-weight: 600;
+    color: var(--ink);
+}
+
+.word-contrast-head a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.word-contrast-meaning {
+    font-weight: 400;
+    font-size: calc(9px * var(--font-scale));
+    color: var(--ink-3);
+}
+
+.word-contrast-meaning::before {
+    content: "（";
+}
+
+.word-contrast-meaning::after {
+    content: "）";
+}
+
+.word-actions {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+    opacity: 0.9;
+    transition: opacity 120ms ease;
+}
+
+.word-actions .icon-button {
+    color: var(--ink-2);
+}
+
+.word-actions .icon-button:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+}
+
+.word-actions .icon-button[aria-pressed="true"] {
+    color: var(--accent);
+}
+
+.word-actions .icon-button span {
+    display: none;
+}
+
+.word-row:hover .word-actions,
+.word-actions:focus-within {
+    opacity: 1;
+}
+
+/* 文法 */
+
+/* 目录移进了翻页条：每个文法点占一页，原来放索引的那一栏就取消了。
+   栏本身占满窗口；只有正文保留行宽上限（见 --measure）。 */
+.grammar-body {
+    min-width: 0;
+}
+
+.grammar-article {
+    margin-bottom: 72px;
+    scroll-margin-top: 24px;
+}
+
+.grammar-head,
+.passage-head {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--rule-strong);
+}
+
+.grammar-no {
+    flex: none;
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+}
+
+.grammar-title,
+.passage-title {
+    font-size: calc(20px * var(--font-scale));
+    font-weight: 700;
+    line-height: 1.32;
+    letter-spacing: -0.02em;
+}
+
+/* 讲解和例句放在同一个面板里，一条规则读起来是一整个块，
+   而不是一摞互不相干的盒子。 */
+
+.grammar-panel {
+    margin-top: 16px;
+    border: 1px solid var(--rule);
+    border-top: 1px solid var(--rule-strong);
+    background: var(--surface);
+}
+
+.panel-block {
+    padding: 20px var(--pad-inline) 22px;
+}
+
+.panel-block + .panel-block {
+    border-top: 1px solid var(--rule);
+}
+
+.panel-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink);
+}
+
+.panel-label::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: var(--accent);
+}
+
+.panel-label b {
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+}
+
+/* 行：左侧标签栏，右侧正文。各行字号一致；
+   只有核心句和接续条另做样式。 */
+
+.explain-rows {
+    display: grid;
+    margin-top: 8px;
+}
+
+/* 标签列（构成、注意、译、解析……）的宽度。中文标签一两个字，英文的 Formation、
+   Explanation 长得多，固定宽度下会压到右边的正文上，所以英文界面单独加宽，并随字号缩放。 */
+:root {
+    --explain-label-width: 58px;
+    --explain-label-width-compact: 52px;
+    --line-tag-width: calc(26px * var(--font-scale));
+}
+
+:lang(en) {
+    --explain-label-width: calc(58px * var(--font-scale));
+    --explain-label-width-compact: calc(58px * var(--font-scale));
+    --line-tag-width: calc(56px * var(--font-scale));
+}
+
+.explain-row {
+    display: grid;
+    grid-template-columns: var(--explain-label-width) minmax(0, 1fr);
+    gap: 18px;
+    padding: 15px 0;
+    border-top: 1px solid var(--rule);
+}
+
+.explain-row:first-child {
+    border-top: 0;
+    padding-top: 12px;
+}
+
+.explain-row:last-child {
+    padding-bottom: 0;
+}
+
+.explain-label {
+    padding-top: 5px;
+    font-size: calc(10px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    line-height: 1.5;
+    color: var(--ink-3);
+    white-space: nowrap;
+}
+
+.explain-body {
+    font-size: calc(12px * var(--font-scale));
+    line-height: 1.9;
+    color: var(--ink);
+    text-wrap: pretty;
+    line-break: strict;
+}
+
+/* 核心：学习者必须记住的那一句。 */
+.tone-core {
+    padding: 18px 0 20px;
+}
+
+.tone-core .explain-label {
+    padding-top: 8px;
+    color: var(--accent);
+}
+
+.tone-core .explain-body {
+    font-size: calc(14px * var(--font-scale));
+    font-weight: 600;
+    line-height: 1.72;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+}
+
+/* 接续：句型，单独排开，方便直接抄进笔记。 */
+.tone-pattern .explain-body {
+    padding: 11px 15px;
+    border-left: 2px solid var(--ink);
+    background: var(--surface-2);
+    font-size: calc(12px * var(--font-scale));
+    font-weight: 600;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+}
+
+/* 易错：字号不变，只把标签加深到全黑，让眼睛先注意到。 */
+.tone-warn .explain-label {
+    color: var(--ink);
+}
+
+/* 中文正文里的日语：加强字重，不加框——每个引词都套个实心色块，
+   整行会被切得七零八落。 */
+.ja-quote {
+    font-family: var(--font-display);
+    font-style: normal;
+    font-weight: 700;
+    color: var(--accent);
+}
+
+/* 只写汉字的词条看着和中文一模一样，所以用字重而不是颜色区分
+   ——只标出词条，不替它断言属于哪种文字。 */
+.term-head {
+    font-weight: 700;
+    color: var(--ink);
+}
+
+/* 两个引例连着写会粘成一整串；分隔符由视图直接输出，
+   不靠兄弟选择器加。 */
+.ja-sep {
+    padding: 0 4px;
+    font-weight: 400;
+    color: var(--ink-3);
+}
+
+.example-list {
+    display: grid;
+    margin-top: 10px;
+}
+
+.example {
+    padding: 16px 0 18px;
+    border-top: 1px solid var(--rule);
+}
+
+.example:first-child {
+    border-top: 0;
+    padding-top: 6px;
+}
+
+.example:last-child {
+    padding-bottom: 0;
+}
+
+.example-no {
+    display: block;
+    margin-bottom: 6px;
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    letter-spacing: 0.1em;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+/* 一行日语：前缀 / 正文 / 朗读按钮各占一列。
+   正文是唯一可伸缩列，长句换行不会挤压角色名，按钮也不必靠 space-between
+   或 margin-left:auto 去「猜」位置；说明块由 JapaneseLine 挂在行外。 */
+.jline {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: start;
+    gap: 16px;
+    max-width: var(--measure);
+    font-family: var(--font-display);
+    font-size: calc(14px * var(--font-scale));
+    font-weight: 500;
+    line-height: 1.8;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+}
+
+.jline.has-role {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+}
+
+.jline-role {
+    font-weight: 700;
+    color: var(--accent);
+    white-space: nowrap;
+}
+
+.jline-text {
+    min-width: 0;
+}
+
+.jline .icon-button span {
+    display: none;
+}
+
+/* 说明块：译 / 拆解，永远在日语行下方。 */
+.jline-note {
+    display: grid;
+    grid-template-columns: var(--line-tag-width) minmax(0, 1fr);
+    gap: 12px;
+    margin-top: 9px;
+    padding-right: 36px;
+}
+
+.jline-note p {
+    margin: 0;
+    max-width: var(--measure);
+}
+
+.jline-zh {
+    font-size: calc(12px * var(--font-scale));
+    line-height: 1.85;
+    color: var(--ink-2);
+}
+
+.jline-note-text {
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.9;
+    color: var(--ink-2);
+}
+
+.jline-tag {
+    padding-top: 4px;
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--ink-3);
+    white-space: nowrap;
+}
+
+.jline-note.is-note .jline-tag {
+    color: var(--accent);
+}
+
+.dialogue-lines {
+    display: grid;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+/* 一句一行，拆解内容才好扫读。 */
+.prose-line {
+    display: block;
+}
+
+.prose-line + .prose-line {
+    margin-top: 3px;
+}
+
+.example > details {
+    margin-top: 10px;
+}
+
+.example > details > summary {
+    display: inline-block;
+    padding-bottom: 1px;
+    border-bottom: 1px solid var(--rule-strong);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    list-style: none;
+}
+
+.example > details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.example > details > p,
+.example > details > span {
+    display: block;
+    margin-top: 8px;
+    font-family: var(--font-display);
+    font-size: calc(12px * var(--font-scale));
+    color: var(--ink);
+}
+
+/* 嵌套规则保持同样形状，小一号并向右缩进一条线。 */
+.grammar-rule {
+    margin-top: 34px;
+    padding-left: clamp(16px, 0.8vw + 13px, 24px);
+    border-left: 1px solid var(--rule);
+    scroll-margin-top: 24px;
+}
+
+.grammar-rule > .grammar-head {
+    padding-bottom: 10px;
+    border-bottom-width: 1px;
+}
+
+.grammar-rule .grammar-title {
+    font-size: calc(16px * var(--font-scale));
+}
+
+.grammar-rule .panel-block {
+    padding: 18px clamp(16px, 1vw + 12px, 20px) 20px;
+}
+
+.grammar-rule .explain-row {
+    grid-template-columns: var(--explain-label-width-compact) minmax(0, 1fr);
+    gap: 14px;
+}
+
+/* 朗读控件条：带角色例句的页按角色选（文法页另带默认声音），其余页只选默认声音。 */
+.speech-roles,
+.speech-voice-bar {
+    margin-bottom: 34px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--rule);
+}
+
+.speech-roles {
+    margin-top: 16px;
+}
+
+/* 课文：先整篇，再逐句 */
+
+.passage-body {
+    min-width: 0;
+}
+
+.passage {
+    margin-bottom: 72px;
+    scroll-margin-top: 24px;
+}
+
+.passage-panel {
+    margin-top: 16px;
+    padding: 18px var(--pad-inline) 24px;
+    border: 1px solid var(--rule);
+    border-top: 1px solid var(--rule-strong);
+    background: var(--surface);
+}
+
+/* 本文录音：整篇一条音轨，单独一行，不挤占「全篇朗读」工具栏。 */
+.passage-audio {
+    margin-top: 12px;
+}
+
+.passage-audio audio {
+    width: 100%;
+    max-width: var(--measure);
+}
+
+/* 课文整版摊开，不设行宽上限：正文区有多大就占多大。 */
+.passage-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+/* 按印刷页面排版：两端对齐、行距宽松、句间不留空。 */
+.passage-text {
+    margin-top: 14px;
+    font-family: var(--font-display);
+    font-size: calc(12px * var(--font-scale));
+    font-weight: 500;
+    line-height: 2.05;
+    letter-spacing: 0.01em;
+    text-align: justify;
+    color: var(--ink);
+}
+
+/* 跟读文章按角色分段：角色名只在段落头出现一次，段内折行不重复。 */
+.passage-paragraph {
+    margin: 0 0 16px;
+}
+
+.passage-paragraph:last-child {
+    margin-bottom: 0;
+}
+
+.passage-role {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 1px 8px;
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: var(--surface-2);
+    font-size: calc(9px * var(--font-scale));
+    letter-spacing: 0.04em;
+    color: var(--ink-2);
+    white-space: nowrap;
+}
+
+.passage-group {
+    margin-top: 26px;
+}
+
+.passage-group-head {
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule);
+}
+
+.passage-group .sentence:first-child {
+    padding-top: 12px;
+}
+
+/* 带 ■ 小标题与 ①②③④ 分组的对话／跟读文章：标题与组号只在起始处出现一次。 */
+.passage-section {
+    margin: 30px 0 10px;
+    padding: 7px 12px;
+    border-left: 3px solid var(--rule-strong);
+    background: var(--surface-2);
+    font-family: var(--font-display);
+    font-size: calc(11px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--ink);
+}
+
+.passage-group-label {
+    margin: 16px 0 0;
+    font-size: calc(10px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--ink-2);
+}
+
+.passage-section + .passage-group-label {
+    margin-top: 2px;
+}
+
+.dialogue-block + .dialogue-block {
+    margin-top: 8px;
+}
+
+.passage-caption {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 44px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--rule-strong);
+}
+
+.passage-caption small {
+    font-size: calc(8px * var(--font-scale));
+    letter-spacing: 0.06em;
+    color: var(--ink-3);
+}
+
+.sentence-list {
+    list-style: none;
+}
+
+.sentence {
+    display: grid;
+    /* 序号列与行距随窗口收缩（桌面 28px / 14px，手机 20px / 10px），不再靠断点另写一套。 */
+    grid-template-columns: calc(clamp(20px, 1.57vw + 14px, 28px) * var(--font-scale)) minmax(0, 1fr);
+    gap: clamp(10px, 0.8vw + 7px, 14px);
+    padding: 18px 0 20px;
+    border-bottom: 1px solid var(--rule);
+}
+
+.sentence-no {
+    padding-top: 6px;
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    letter-spacing: 0.1em;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.sentence-body {
+    min-width: 0;
+}
+
+/* 测验 */
+
+.assessment {
+    min-width: 0;
+}
+
+.assessment-heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    max-width: var(--measure);
+    padding-bottom: 11px;
+    border-bottom: 2px solid var(--rule-strong);
+}
+
+.assessment-heading > p {
+    font-size: calc(10px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--ink-2);
+}
+
+.assessment-heading > span {
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.assessment > progress,
+.exam-paper > progress {
+    display: block;
+    width: 100%;
+    height: 4px;
+    margin: 16px 0 4px;
+    border: 0;
+    appearance: none;
+    background: var(--rule);
+}
+
+.assessment > progress::-webkit-progress-bar,
+.exam-paper > progress::-webkit-progress-bar {
+    background: var(--rule);
+}
+
+.assessment > progress::-webkit-progress-value,
+.exam-paper > progress::-webkit-progress-value {
+    background: var(--accent);
+}
+
+.assessment > progress::-moz-progress-bar,
+.exam-paper > progress::-moz-progress-bar {
+    background: var(--accent);
+}
+
+.questions {
+    display: grid;
+}
+
+/* 测验按模块分块：页首索引直接跳到对应块，块头标明整份测验里的题号范围。 */
+.quiz-index {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    max-width: var(--measure);
+    margin: 18px 0 0;
+    font-size: calc(9px * var(--font-scale));
+}
+
+.quiz-index a {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 6px;
+    color: var(--ink-2);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule-strong);
+}
+
+.quiz-index a:hover {
+    color: var(--accent);
+}
+
+.quiz-block-head {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin: 30px 0 0;
+    padding-bottom: 9px;
+    border-bottom: 2px solid var(--rule-strong);
+    font-family: var(--font-display);
+    font-size: calc(11px * var(--font-scale));
+    font-weight: 700;
+    scroll-margin-top: 16px;
+}
+
+.quiz-range {
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+.question {
+    min-width: 0;
+    margin: 0;
+    padding: 26px 0 24px;
+    border: 0;
+    border-bottom: 1px solid var(--rule);
+}
+
+.question > legend {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    padding: 0;
+    margin-bottom: 15px;
+    font-family: var(--font-display);
+    font-size: calc(12px * var(--font-scale));
+    font-weight: 700;
+    line-height: 1.55;
+    letter-spacing: -0.01em;
+}
+
+/* 题干里用换行分隔的上下文（真题的文章の文法、听力选项）按原样断行。 */
+.question > legend span[lang="ja"] {
+    white-space: pre-line;
+}
+
+/* 题干较长时允许换行，不跟题号挤在一行。 */
+.question > legend {
+    flex-wrap: wrap;
+}
+
+/* 小节下面的答题指示：卷面上只在大题标题下印一次，不在每道题里重复。 */
+.question-section-instruction {
+    margin: 12px 0 16px;
+    font-size: calc(9px * var(--font-scale));
+    line-height: 1.7;
+    color: var(--ink-2);
+}
+
+.question-number {
+    flex: none;
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+/* 真题：模块 → 小节 → 题目。一节一页，左右翻页，页码就是节号。
+   小结头上的模块名（言語知識 / 読解 / 聴解）常驻，读者不用记自己在哪一块。 */
+.exam-paper {
+    max-width: calc(var(--measure) + 60px);
+}
+
+/* 进度条紧接在下面，本身就是一条分隔线；标题栏再压一条 2px 就成了双线。 */
+.exam-paper > .assessment-heading {
+    border-bottom: 0;
+    padding-bottom: 4px;
+}
+
+.exam-section-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 12px;
+    padding-bottom: 9px;
+    border-bottom: 2px solid var(--ink);
+}
+
+.exam-section-module {
+    flex: none;
+    padding: 2px 8px;
+    border: 1px solid var(--rule-strong);
+    border-radius: 999px;
+    font-size: calc(7px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    color: var(--ink-2);
+}
+
+.exam-section-title {
+    flex: 1 1 auto;
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: calc(13px * var(--font-scale));
+    letter-spacing: 0.04em;
+    color: var(--ink);
+}
+
+.exam-section-range {
+    flex: none;
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    letter-spacing: 0.06em;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+}
+
+/* 索引里的模块分组标题：三块之间留白断开，读者一眼看出块边界。 */
+.exam-contents .exam-contents-group {
+    padding: 14px 0 6px;
+    font-size: calc(7px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    color: var(--ink-3);
+}
+
+.exam-contents .exam-contents-group:first-child {
+    padding-top: 0;
+}
+
+/* 一行是「問題N 小节名」，题号区间贴右，扫一眼就能对上是哪几题。 */
+.exam-contents button small {
+    margin-left: auto;
+}
+
+/* 题干图（図の1〜4）与图片选项，别撑破栏宽。 */
+.question-image {
+    display: block;
+    max-width: min(100%, 420px);
+    margin: 10px 0 14px;
+    border: 1px solid var(--rule);
+}
+
+.option-image {
+    max-height: 96px;
+}
+
+.option-text {
+    min-width: 0;
+}
+
+/* 読解每篇的正文块：接在小节头下面，和题目同宽。 */
+.exam-passage-body {
+    max-width: var(--measure);
+    margin: 14px 0 22px;
+}
+
+.exam-passage-body > .passage-text {
+    margin: 0 0 10px;
+    font-size: calc(11px * var(--font-scale));
+    line-height: 2.05;
+}
+
+.exam-passage-body > .passage-text:last-child {
+    margin-bottom: 0;
+}
+
+/* 播放器常驻翻页条：这里的 margin-top / border-top 会把已经很挤的工具栏再撑高一层。 */
+.exam-audio {
+    min-width: 0;
+    padding: 8px 0;
+}
+
+.exam-audio audio {
+    width: 100%;
+    max-width: var(--measure);
+}
+
+.question.correct .question-number {
+    color: var(--ok);
+}
+
+.question.incorrect .question-number {
+    color: var(--bad);
+}
+
+/* 无音源的聴解小节：卷面题号还在，下面只留一句「不计分」的说明。 */
+.exam-section .exam-no-audio {
+    margin: 18px 0;
+    font-size: calc(12px * var(--font-scale));
+}
+
+.question > p.muted {
+    margin: -8px 0 14px 36px;
+    font-size: calc(8px * var(--font-scale));
+}
+
+.options {
+    display: grid;
+    gap: 0;
+    border-top: 1px solid var(--rule);
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 11px 14px;
+    border-bottom: 1px solid var(--rule);
+    cursor: pointer;
+    transition: background 120ms ease, color 120ms ease;
+}
+
+.options label:hover {
+    background: var(--surface-2);
+}
+
+.options label.selected {
+    background: var(--accent-soft);
+    box-shadow: inset 3px 0 0 var(--accent);
+}
+
+.options label.answer-key {
+    box-shadow: inset 3px 0 0 var(--ok);
+}
+
+.options label.selected.answer-key {
+    box-shadow: inset 3px 0 0 var(--ok);
+}
+
+.options input[type="radio"] {
+    flex: none;
+    width: 13px;
+    height: 13px;
+    margin: 0;
+    border: 1px solid var(--rule-strong);
+    border-radius: 50%;
+    appearance: none;
+    cursor: pointer;
+}
+
+.options input[type="radio"]:checked {
+    border-color: var(--accent);
+    background: var(--accent);
+    box-shadow: inset 0 0 0 3px var(--paper);
+}
+
+.option-letter {
+    flex: none;
+    width: 13px;
+    font-family: var(--font-mono);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 600;
+    color: var(--ink-3);
+}
+
+.answer-input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--rule-strong);
+    background: var(--paper);
+    font-size: calc(10px * var(--font-scale));
+    outline: none;
+    transition: border-color 120ms ease;
+}
+
+.answer-input:focus {
+    border-color: var(--accent);
+    box-shadow: inset 0 -2px 0 var(--accent);
+}
+
+.feedback {
+    margin-top: 14px;
+    padding: 13px 16px;
+    border-left: 3px solid var(--accent);
+    background: var(--surface-2);
+}
+
+.feedback > strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+.feedback > p {
+    font-size: calc(10px * var(--font-scale));
+    line-height: 1.8;
+    color: var(--ink-2);
+}
+
+.question-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 14px;
+}
+
+.question-actions button {
+    padding: 7px 16px;
+    border: 1px solid var(--rule-strong);
+    background: transparent;
+    color: var(--ink);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 120ms ease, color 120ms ease;
+}
+
+.question-actions button:hover:not(:disabled) {
+    background: var(--ink);
+    color: var(--paper);
+}
+
+.question-actions button:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+
+.submit-area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+    margin-top: 8px;
+    padding-top: 32px;
+    border-top: 2px solid var(--rule-strong);
+}
+
+.submit-area .muted {
+    font-size: calc(8px * var(--font-scale));
+}
+
+.result-panel {
+    margin: 28px 0 8px;
+    padding: 26px 28px;
+    border: 2px solid var(--rule-strong);
+    background: var(--paper);
+}
+
+.result-panel > h2 {
+    font-family: var(--font-sans);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+}
+
+.result-panel > strong {
+    display: block;
+    margin: 10px 0 22px;
+    font-family: var(--font-display);
+    font-size: calc(32px * var(--font-scale));
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+}
+
+/* 窄屏只保留结构差异：标签列（构成／译／解析）改到正文上方。
+   两栏并排时，正文只剩几十像素宽，怎么调内边距都救不回来。
+   例外之外的内边距、序号列宽、行距都由 clamp 连续变化，不另写一套。 */
+@media (max-width: 860px) {
+    .explain-row,
+    .grammar-rule .explain-row {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 6px;
+        padding: 14px 0;
+    }
+
+    .explain-label,
+    .tone-core .explain-label {
+        padding-top: 0;
+    }
+
+    .jline-note {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 4px;
+        padding-right: 0;
+    }
+}

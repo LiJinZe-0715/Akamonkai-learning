@@ -1,0 +1,414 @@
+{
+  "kind": "lesson",
+  "id": "sogo-nihongo-n2-goi.2-6",
+  "bookId": "sogo-nihongo-n2-goi",
+  "title": "第2週 6日目 パソコンを使っています③",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.0",
+          "word": "プリンターで印刷する",
+          "reading": "ぷりんたーでいんさつする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.0.meaning",
+          "contrasts": [
+            {
+              "word": "プリントする",
+              "glossId": "sogo-nihongo-n2-goi.2-6.word.1.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-6.word.0.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.1",
+          "word": "プリントする",
+          "reading": "ぷりんとする",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.1.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "sogo-nihongo-n2-goi.2-6.word.1.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "印刷する",
+              "glossId": "sogo-nihongo-n2-goi.2-6.word.0.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-6.word.1.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.2",
+          "word": "プリンターの用紙が切れる",
+          "reading": "ぷりんたーのようしがきれる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.2.meaning",
+          "contrasts": [
+            {
+              "word": "切らす",
+              "glossId": "sogo-nihongo-n2-goi.2-6.word.19.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-6.word.2.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.3",
+          "word": "インクがなくなる",
+          "reading": "いんくがなくなる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.3.meaning",
+          "contrasts": [
+            {
+              "word": "切らす",
+              "glossId": "sogo-nihongo-n2-goi.2-6.word.19.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-6.word.3.contrast.0.difference"
+            },
+            {
+              "word": "トナー",
+              "glossId": "sogo-nihongo-n2-goi.2-6.word.4.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-6.word.3.contrast.1.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.4",
+          "word": "トナーがなくなる",
+          "reading": "となーがなくなる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.4.meaning",
+          "contrasts": [
+            {
+              "word": "インク",
+              "glossId": "sogo-nihongo-n2-goi.2-6.word.3.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-6.word.4.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.5",
+          "word": "印刷の範囲を指定する",
+          "reading": "いんさつのはんいをしていする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.5.meaning",
+          "contrasts": [
+            {
+              "word": "設定する",
+              "glossId": "sogo-nihongo-n2-goi.2-6.word.5.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.2-6.word.5.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.6",
+          "word": "印刷の向きを確認する",
+          "reading": "いんさつのむきをかくにんする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.6.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-6.word.6.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.7",
+          "word": "余白を多くする",
+          "reading": "よはくをおおくする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.7.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-6.word.7.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.8",
+          "word": "標準サイズの用紙",
+          "reading": "ひょうじゅんさいずのようし",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.8.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-6.word.8.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.9",
+          "word": "印刷がずれる",
+          "reading": "いんさつがずれる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.9.meaning",
+          "contrasts": [
+            {
+              "word": "ずらす",
+              "glossId": "sogo-nihongo-n2-goi.2-6.word.20.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-6.word.9.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.10",
+          "word": "手間がかかる",
+          "reading": "てまがかかる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.10.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-6.word.10.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.11",
+          "word": "手間を省く",
+          "reading": "てまをはぶく",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.11.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-6.word.11.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.12",
+          "word": "表示を切り替える",
+          "reading": "ひょうじをきりかえる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.12.meaning",
+          "contrasts": [
+            {
+              "word": "変える",
+              "glossId": "sogo-nihongo-n2-goi.2-6.word.12.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.2-6.word.12.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.2-6.word.12.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.13",
+          "word": "データが消える",
+          "reading": "でーたがきえる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.13.meaning",
+          "contrasts": [
+            {
+              "word": "消去する",
+              "glossId": "sogo-nihongo-n2-goi.2-6.word.14.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-6.word.13.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.14",
+          "word": "消去する",
+          "reading": "しょうきょする",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.14.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "sogo-nihongo-n2-goi.2-6.word.14.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "消える",
+              "glossId": "sogo-nihongo-n2-goi.2-6.word.13.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-6.word.14.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.15",
+          "word": "迷惑メール",
+          "reading": "めいわくめーる",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.15.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-6.word.15.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.16",
+          "word": "受信を拒否する",
+          "reading": "じゅしんをきょひする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.16.meaning",
+          "contrasts": [
+            {
+              "word": "断る",
+              "glossId": "sogo-nihongo-n2-goi.2-6.word.16.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.2-6.word.16.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.2-6.word.16.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.17",
+          "word": "個人情報を盗まれる",
+          "reading": "こじんじょうほうをぬすまれる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.17.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-6.word.17.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.18",
+          "word": "ウイルスに感染する",
+          "reading": "ういるすにかんせんする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.18.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-6.word.18.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.19",
+          "word": "切らす",
+          "reading": "きらす",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.19.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "sogo-nihongo-n2-goi.2-6.word.19.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "なくなる",
+              "glossId": "sogo-nihongo-n2-goi.2-6.word.3.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-6.word.19.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.20",
+          "word": "ずらす",
+          "reading": "ずらす",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.20.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "sogo-nihongo-n2-goi.2-6.word.20.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "ずれる",
+              "glossId": "sogo-nihongo-n2-goi.2-6.word.9.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-6.word.20.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.21",
+          "word": "新しいウイルスに対応する",
+          "reading": "あたらしいういるすにたいおうする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.21.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-6.word.21.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.22",
+          "word": "チャットを楽しむ",
+          "reading": "ちゃっとをたのしむ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.22.meaning",
+          "contrasts": [
+            {
+              "word": "コミュニケーション",
+              "glossId": "sogo-nihongo-n2-goi.2-6.word.23.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-6.word.22.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.23",
+          "word": "コミュニケーションを楽しむ",
+          "reading": "こみゅにけーしょんをたのしむ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.23.meaning",
+          "contrasts": [
+            {
+              "word": "チャット",
+              "glossId": "sogo-nihongo-n2-goi.2-6.word.22.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-6.word.23.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.24",
+          "word": "掲示板に書き込む",
+          "reading": "けいじばんにかきこむ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.24.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-6.word.24.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.25",
+          "word": "ネットオークション",
+          "reading": "ねっとおーくしょん",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.25.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-6.word.25.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.26",
+          "word": "物品を売り買いする",
+          "reading": "ぶっぴんをうりかいする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.26.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-6.word.26.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-6.word.27",
+          "word": "オンラインゲームをする",
+          "reading": "おんらいんげーむをする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-6.word.27.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-6.word.27.analysis",
+          "questions": []
+        }
+      ]
+    }
+  }
+}

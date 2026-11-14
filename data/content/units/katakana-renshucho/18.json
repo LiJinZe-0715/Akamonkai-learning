@@ -1,0 +1,129 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.18",
+  "bookId": "katakana-renshucho",
+  "title": "第18課 乗り物",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.18.word.0",
+          "word": "ヘリコプター",
+          "reading": "へりこぷたー",
+          "meaningId": "katakana-renshucho.18.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.18.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.18.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ヘリコプター"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.18.word.1",
+          "word": "バス",
+          "reading": "ばす",
+          "meaningId": "katakana-renshucho.18.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.18.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.18.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "バス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.18.word.2",
+          "word": "タクシー",
+          "reading": "たくしー",
+          "meaningId": "katakana-renshucho.18.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.18.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.18.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "タクシー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.18.word.3",
+          "word": "トラック",
+          "reading": "とらっく",
+          "meaningId": "katakana-renshucho.18.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.18.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.18.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "トラック"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.18.word.4",
+          "word": "バイク",
+          "reading": "ばいく",
+          "meaningId": "katakana-renshucho.18.word.4.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.18.word.4.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.18.word.4.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "バイク"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

@@ -1,0 +1,300 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-18",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第18課 ～できない・困難だ・～できる",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-18.grammar.0",
+          "title": "～がたい",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼がそんなことをしたとは、信じがたい。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "あの日のことは今でも忘れがたい。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-18.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "その件については、私ではお答え（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "がたいです"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "かねません"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "しかねます"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "得ません"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-18.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-18.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-18.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-18.grammar.1",
+          "title": "～わけにはいかない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "大事な会議があるので、休むわけにはいかない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "お世話になった人の頼みを断るわけにはいかない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-18.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "大事な会議があるので、休む（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "どころではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ようがない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "かねない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけにはいかない"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-18.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-18.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-18.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-18.grammar.2",
+          "title": "～かねる",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "その件については、私ではお答えしかねます。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "ご要望には沿いかねます。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-18.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-18.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-18.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-18.grammar.3",
+          "title": "～ようがない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "連絡先が分からないので、知らせようがない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼の努力は言葉で表しようがない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-18.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "彼がそんなことをしたとは、信じ（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "がたい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "得る"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "かねる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ようがない"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-18.grammar.3.question.1",
+              "prompt": [
+                {
+                  "japanese": "連絡先が分からないので、知らせ（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.3.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "得ない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ようがない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "かねる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "がたい"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-18.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-18.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-18.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-18.grammar.4",
+          "title": "～どころではない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼の技術は、まだ一人前どころではない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この成績では、合格どころではない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-18.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-18.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-18.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-18.grammar.5",
+          "title": "～得る／～得ない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "そんなことは十分あり得る。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "そんな事故は起こり得ない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.5.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-18.grammar.5.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-18.grammar.5.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-18.grammar.5.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-18.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

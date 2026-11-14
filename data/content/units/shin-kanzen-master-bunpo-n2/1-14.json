@@ -1,0 +1,300 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-14",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第14課 ～けれど",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-14.grammar.0",
+          "title": "～にもかかわらず",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "雨にもかかわらず、試合は予定どおり行われた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "努力したにもかかわらず、合格できなかった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-14.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "雨（　）、試合は予定どおり行われた。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "といっても"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "からといって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にもかかわらず"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-14.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-14.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-14.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-14.grammar.1",
+          "title": "～ものの・～とはいうものの",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "免許は取ったものの、車を運転する機会がない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "春とはいうものの、まだ寒い日が続いている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-14.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "免許は取った（　）、車を運転する機会がない。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだ"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-14.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-14.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-14.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-14.grammar.2",
+          "title": "～ながら（も）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼は若いながらも、部長に選ばれた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "狭いながらも、自分だけの部屋がほしい。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-14.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-14.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-14.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-14.grammar.3",
+          "title": "～つつ（も）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "悪いと知りつつも、嘘をついてしまった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "体に悪いと知りつつも、たばこをやめられない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-14.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-14.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-14.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-14.grammar.4",
+          "title": "～といっても",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "料理ができるといっても、簡単なものだけだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "日本語が話せるといっても、挨拶程度です。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-14.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-14.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-14.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-14.grammar.5",
+          "title": "～からといって",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本に住んでいるからといって、日本語が上手だとは限らない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "安いからといって、必要のないものは買わない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.5.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-14.grammar.5.question.0",
+              "prompt": [
+                {
+                  "japanese": "日本語が話せる（　）、挨拶程度です。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.5.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "というより"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "からといって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "としたら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "といっても"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-14.grammar.5.question.1",
+              "prompt": [
+                {
+                  "japanese": "安い（　）、必要のないものは買わない。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.5.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "といっても"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "からといって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ながらも"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-14.grammar.5.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-14.grammar.5.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-14.grammar.5.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-14.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

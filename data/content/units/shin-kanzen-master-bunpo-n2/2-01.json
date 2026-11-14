@@ -1,0 +1,193 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.2-01",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第1課 文の組み立て-1 決まった形",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.2-01.grammar.0",
+          "title": "～から～にかけて",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "今夜から明日にかけて、雨が降るでしょう。",
+              "translationId": "shin-kanzen-master-bunpo-n2.2-01.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "関東から東海にかけて、雪が降った。",
+              "translationId": "shin-kanzen-master-bunpo-n2.2-01.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.2-01.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "今夜（　）明日にかけて、雨が降るでしょう。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.2-01.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "から"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "より"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "まで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ほど"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.2-01.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.2-01.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.2-01.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.2-01.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.2-01.grammar.1",
+          "title": "～を皮切りに（して）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "東京公演を皮切りに、全国ツアーが始まった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.2-01.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "春のセールを皮切りに、次々と値下げが行われた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.2-01.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.2-01.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "東京公演（　）、全国ツアーが始まった。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.2-01.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に沿って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を皮切りに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "をめぐって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "をはじめ"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.2-01.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.2-01.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.2-01.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.2-01.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.2-01.grammar.2",
+          "title": "～に至るまで",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "社長に至るまで、全員が制服を着ている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.2-01.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "細かいところに至るまで、よく調べてある。",
+              "translationId": "shin-kanzen-master-bunpo-n2.2-01.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.2-01.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "社長（　）、全員が制服を着ている。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.2-01.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に限って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に至るまで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかけて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にわたって"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.2-01.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.2-01.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.2-01.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.2-01.grammar.2.pitfall"
+        }
+      ]
+    }
+  }
+}

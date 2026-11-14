@@ -1,0 +1,1490 @@
+{
+  "kind": "lesson",
+  "id": "topic-1-6.5-1",
+  "bookId": "topic-1-6",
+  "title": "5-1 殺人事件現場",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.0",
+          "word": "殺人",
+          "reading": "さつじん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.0.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>事件",
+              "usageId": "topic-1-6.5-1.word.0.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "殺害",
+              "glossId": "topic-1-6.5-1.word.0.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.0.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.1",
+          "word": "事件",
+          "reading": "じけん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.1.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 起こる",
+              "usageId": "topic-1-6.5-1.word.1.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "事故",
+              "glossId": "topic-1-6.5-1.word.1.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.1.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.2",
+          "word": "現場",
+          "reading": "げんば",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.2.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 向かう",
+              "usageId": "topic-1-6.5-1.word.2.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "場所",
+              "glossId": "topic-1-6.5-1.word.2.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.2.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.3",
+          "word": "ベル",
+          "reading": "べる",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.3.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 鳴る",
+              "usageId": "topic-1-6.5-1.word.3.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "チャイム",
+              "glossId": "topic-1-6.5-1.word.3.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.3.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.4",
+          "word": "鳴る",
+          "reading": "なる",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.5-1.word.4.meaning",
+          "patterns": [
+            {
+              "pattern": "N が <w>",
+              "usageId": "topic-1-6.5-1.word.4.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "鳴らす",
+              "glossId": "topic-1-6.5-1.word.5.meaning",
+              "differenceId": "topic-1-6.5-1.word.4.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.5",
+          "word": "鳴らす",
+          "reading": "ならす",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.5-1.word.5.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.5-1.word.5.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "鳴る",
+              "glossId": "topic-1-6.5-1.word.4.meaning",
+              "differenceId": "topic-1-6.5-1.word.5.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.6",
+          "word": "後輩",
+          "reading": "こうはい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.6.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 指導する",
+              "usageId": "topic-1-6.5-1.word.6.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "先輩",
+              "glossId": "topic-1-6.5-1.word.6.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.6.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.7",
+          "word": "刑事",
+          "reading": "けいじ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.7.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 調べる",
+              "usageId": "topic-1-6.5-1.word.7.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "警察官",
+              "glossId": "topic-1-6.5-1.word.7.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.7.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.8",
+          "word": "推理",
+          "reading": "すいり",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.8.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を する",
+              "usageId": "topic-1-6.5-1.word.8.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "推測",
+              "glossId": "topic-1-6.5-1.word.8.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.8.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.9",
+          "word": "作家",
+          "reading": "さっか",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.9.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に なる",
+              "usageId": "topic-1-6.5-1.word.9.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "作者",
+              "glossId": "topic-1-6.5-1.word.9.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.9.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.10",
+          "word": "胸",
+          "reading": "むね",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.10.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 撃たれる",
+              "usageId": "topic-1-6.5-1.word.10.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "心臓",
+              "glossId": "topic-1-6.5-1.word.10.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.10.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.11",
+          "word": "ピストル",
+          "reading": "ぴすとる",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.11.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で 撃つ",
+              "usageId": "topic-1-6.5-1.word.11.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "銃",
+              "glossId": "topic-1-6.5-1.word.11.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.11.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.12",
+          "word": "撃つ",
+          "reading": "うつ",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.5-1.word.12.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.5-1.word.12.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "打つ",
+              "glossId": "topic-1-6.5-1.word.12.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.12.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.13",
+          "word": "死体",
+          "reading": "したい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.13.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 見つける",
+              "usageId": "topic-1-6.5-1.word.13.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "遺体",
+              "glossId": "topic-1-6.5-1.word.13.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.13.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.14",
+          "word": "被害者",
+          "reading": "ひがいしゃ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.14.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 家族",
+              "usageId": "topic-1-6.5-1.word.14.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "容疑者",
+              "glossId": "topic-1-6.5-1.word.21.meaning",
+              "differenceId": "topic-1-6.5-1.word.14.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.15",
+          "word": "金庫",
+          "reading": "きんこ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.15.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 開ける",
+              "usageId": "topic-1-6.5-1.word.15.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "ロッカー",
+              "glossId": "topic-1-6.5-1.word.15.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.15.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.16",
+          "word": "状態",
+          "reading": "じょうたい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.16.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 調べる",
+              "usageId": "topic-1-6.5-1.word.16.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "状況",
+              "glossId": "topic-1-6.5-1.word.16.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.16.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.17",
+          "word": "集中する",
+          "reading": "しゅうちゅうする",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.5-1.word.17.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "topic-1-6.5-1.word.17.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "夢中になる",
+              "glossId": "topic-1-6.5-1.word.17.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.17.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.18",
+          "word": "床",
+          "reading": "ゆか",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.18.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 落ちる",
+              "usageId": "topic-1-6.5-1.word.18.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "地面",
+              "glossId": "topic-1-6.5-1.word.18.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.18.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.19",
+          "word": "強盗",
+          "reading": "ごうとう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.19.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 入る",
+              "usageId": "topic-1-6.5-1.word.19.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "泥棒",
+              "glossId": "topic-1-6.5-1.word.19.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.19.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.20",
+          "word": "犯人",
+          "reading": "はんにん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.20.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 捕まえる",
+              "usageId": "topic-1-6.5-1.word.20.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "容疑者",
+              "glossId": "topic-1-6.5-1.word.21.meaning",
+              "differenceId": "topic-1-6.5-1.word.20.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.21",
+          "word": "容疑者",
+          "reading": "ようぎしゃ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.21.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>と みられる",
+              "usageId": "topic-1-6.5-1.word.21.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "犯人",
+              "glossId": "topic-1-6.5-1.word.20.meaning",
+              "differenceId": "topic-1-6.5-1.word.21.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.22",
+          "word": "第一発見者",
+          "reading": "だいいちはっけんしゃ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.22.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 証言",
+              "usageId": "topic-1-6.5-1.word.22.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "目撃者",
+              "glossId": "topic-1-6.5-1.word.23.meaning",
+              "differenceId": "topic-1-6.5-1.word.22.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.23",
+          "word": "目撃者",
+          "reading": "もくげきしゃ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.23.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 見た",
+              "usageId": "topic-1-6.5-1.word.23.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "第一発見者",
+              "glossId": "topic-1-6.5-1.word.22.meaning",
+              "differenceId": "topic-1-6.5-1.word.23.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.24",
+          "word": "凶器",
+          "reading": "きょうき",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.24.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 見つける",
+              "usageId": "topic-1-6.5-1.word.24.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "武器",
+              "glossId": "topic-1-6.5-1.word.24.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.24.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.25",
+          "word": "アリバイ",
+          "reading": "ありばい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.25.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が ある",
+              "usageId": "topic-1-6.5-1.word.25.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "証拠",
+              "glossId": "topic-1-6.5-1.word.25.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.25.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.26",
+          "word": "トリック",
+          "reading": "とりっく",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.26.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 見破る",
+              "usageId": "topic-1-6.5-1.word.26.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "手口",
+              "glossId": "topic-1-6.5-1.word.26.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.26.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.27",
+          "word": "密室",
+          "reading": "みっしつ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.27.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 謎",
+              "usageId": "topic-1-6.5-1.word.27.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "個室",
+              "glossId": "topic-1-6.5-1.word.27.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.27.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.28",
+          "word": "動機",
+          "reading": "どうき",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.28.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が ある",
+              "usageId": "topic-1-6.5-1.word.28.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "理由",
+              "glossId": "topic-1-6.5-1.word.28.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.28.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.29",
+          "word": "証言",
+          "reading": "しょうげん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.29.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を する",
+              "usageId": "topic-1-6.5-1.word.29.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "証拠",
+              "glossId": "topic-1-6.5-1.word.29.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.29.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-1.word.30",
+          "word": "誘拐",
+          "reading": "ゆうかい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-1.word.30.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を する",
+              "usageId": "topic-1-6.5-1.word.30.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "監禁",
+              "glossId": "topic-1-6.5-1.word.30.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-1.word.30.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.5-1.grammar.0",
+          "title": "語彙の使い方",
+          "examples": [],
+          "noteIds": [
+            "topic-1-6.5-1.grammar.0.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-1.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "友達に旅行へ（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.5-1.grammar.0.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.5-1.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "誘われました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "誘られました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "誘うれました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "誘いました"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.5-1.grammar.1",
+          "title": "受身（受身形）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "鈴木君に誘われた。",
+              "translationId": "topic-1-6.5-1.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "電車の中で足を踏まれた。",
+              "translationId": "topic-1-6.5-1.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-1.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "昨日、先生に（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.5-1.grammar.1.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.5-1.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ほめされました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ほめれました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ほめました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ほめられました"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.5-1.grammar.1.meaning",
+          "formationId": "topic-1-6.5-1.grammar.1.formation",
+          "usageId": "topic-1-6.5-1.grammar.1.usage",
+          "pitfallId": "topic-1-6.5-1.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.5-1.grammar.2",
+          "title": "～ている",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "外は雨が降っている。",
+              "translationId": "topic-1-6.5-1.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "窓が割れている。",
+              "translationId": "topic-1-6.5-1.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-1.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "被害者はピストルで（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.5-1.grammar.2.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.5-1.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "撃てられた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "撃たれた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "撃られた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "撃つれた"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-1.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "たばこの火がちゃんと（　　）そうです。"
+                },
+                {
+                  "textId": "topic-1-6.5-1.grammar.2.question.1.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.5-1.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "消えてなかったでした"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "消えていないかった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "消えていなかった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "消えないでした"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.5-1.grammar.2.meaning",
+          "formationId": "topic-1-6.5-1.grammar.2.formation",
+          "usageId": "topic-1-6.5-1.grammar.2.usage",
+          "pitfallId": "topic-1-6.5-1.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.5-1.grammar.3",
+          "title": "～たら【発見】",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "箱を開けたら、手紙が入っていた。",
+              "translationId": "topic-1-6.5-1.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "家に帰ったら、だれもいなかった。",
+              "translationId": "topic-1-6.5-1.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-1.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "この本は多くの国で（　　）います。"
+                },
+                {
+                  "textId": "topic-1-6.5-1.grammar.3.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.5-1.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "翻訳すれて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "翻訳されて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "翻訳して"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "翻訳しられて"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.5-1.grammar.3.meaning",
+          "formationId": "topic-1-6.5-1.grammar.3.formation",
+          "usageId": "topic-1-6.5-1.grammar.3.usage",
+          "pitfallId": "topic-1-6.5-1.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.5-1.grammar.4",
+          "title": "～ている／～てある",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "電気がついている。",
+              "translationId": "topic-1-6.5-1.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "パーティーのために、電気がつけてある。",
+              "translationId": "topic-1-6.5-1.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-1.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "急に客に（　　）と、準備ができなくて困ります。"
+                },
+                {
+                  "textId": "topic-1-6.5-1.grammar.4.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.5-1.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "来らせる（こらせる）"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "来れる（これる）"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "来される（こされる）"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "来られる（こられる）"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.5-1.grammar.4.meaning",
+          "formationId": "topic-1-6.5-1.grammar.4.formation",
+          "usageId": "topic-1-6.5-1.grammar.4.usage",
+          "pitfallId": "topic-1-6.5-1.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.5-1.grammar.5",
+          "title": "例文の解説",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "うん、実は鈴木君にデートに誘われたの。",
+              "translationId": "topic-1-6.5-1.grammar.5.example.0.translation",
+              "analysisId": "topic-1-6.5-1.grammar.5.example.0.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "人が足りないから、高橋さんにやめられると困るなあ。",
+              "translationId": "topic-1-6.5-1.grammar.5.example.1.translation",
+              "analysisId": "topic-1-6.5-1.grammar.5.example.1.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "先生、これ、学校の前に落ちていたんですが。",
+              "translationId": "topic-1-6.5-1.grammar.5.example.2.translation",
+              "analysisId": "topic-1-6.5-1.grammar.5.example.2.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "たばこの火がちゃんと消えていなかったそうですよ。",
+              "translationId": "topic-1-6.5-1.grammar.5.example.3.translation",
+              "analysisId": "topic-1-6.5-1.grammar.5.example.3.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "ドアを開けたら、大きい犬がいてびっくりしました。",
+              "translationId": "topic-1-6.5-1.grammar.5.example.4.translation",
+              "analysisId": "topic-1-6.5-1.grammar.5.example.4.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "きのう区役所へ住所変更の手続きをしに行ったら、区役所は休みでした。",
+              "translationId": "topic-1-6.5-1.grammar.5.example.5.translation",
+              "analysisId": "topic-1-6.5-1.grammar.5.example.5.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "さっき冷蔵庫の中を見たら、何も入っていなかったから、コンビニへ行ってくる。",
+              "translationId": "topic-1-6.5-1.grammar.5.example.6.translation",
+              "analysisId": "topic-1-6.5-1.grammar.5.example.6.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "あれ、この部屋は誰もいないのに、エアコンがついていますね。\nあとで会議があるので、つけてあるんですよ。寒いですから。",
+              "translationId": "topic-1-6.5-1.grammar.5.example.7.translation",
+              "analysisId": "topic-1-6.5-1.grammar.5.example.7.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "あ、ケーキがひとつ残っている。食べてもいい？\nだめ。それは山本さんのために残してあるの。",
+              "translationId": "topic-1-6.5-1.grammar.5.example.8.translation",
+              "analysisId": "topic-1-6.5-1.grammar.5.example.8.analysis"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-1.grammar.5.question.0",
+              "prompt": [
+                {
+                  "japanese": "人手が足りないので、高橋さんに（　　）と困ります。"
+                },
+                {
+                  "textId": "topic-1-6.5-1.grammar.5.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.5-1.grammar.5.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "やまれる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "やめられる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "やめされる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "やめるられる"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-1.grammar.5.question.1",
+              "prompt": [
+                {
+                  "japanese": "ドアを（　　）、知らない人が立っていました。"
+                },
+                {
+                  "textId": "topic-1-6.5-1.grammar.5.question.1.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.5-1.grammar.5.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "開けますたら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "開けたら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "開けてたら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "開けるたら"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-1.grammar.5.question.2",
+              "prompt": [
+                {
+                  "japanese": "区役所へ（　　）、休みでした。"
+                },
+                {
+                  "textId": "topic-1-6.5-1.grammar.5.question.2.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.5-1.grammar.5.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "行ったら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "行くたら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "行きたら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "行いたら"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-1.grammar.5.question.3",
+              "prompt": [
+                {
+                  "japanese": "冷蔵庫の中を（　　）、何も入っていませんでした。"
+                },
+                {
+                  "textId": "topic-1-6.5-1.grammar.5.question.3.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.5-1.grammar.5.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "見てたら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "見ますたら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "見るたら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "見たら"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-1.grammar.5.question.4",
+              "prompt": [
+                {
+                  "japanese": "窓が（　　）います。"
+                },
+                {
+                  "textId": "topic-1-6.5-1.grammar.5.question.4.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.5-1.grammar.5.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "開くて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "開きて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "開いて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "開けて"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-1.grammar.5.question.5",
+              "prompt": [
+                {
+                  "japanese": "会議のために、窓が（　　）あります。"
+                },
+                {
+                  "textId": "topic-1-6.5-1.grammar.5.question.5.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.5-1.grammar.5.question.5.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "開けた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "開けて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "開き"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "開いて"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-1.grammar.5.question.6",
+              "prompt": [
+                {
+                  "japanese": "机の上に資料が置いて（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.5-1.grammar.5.question.6.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.5-1.grammar.5.question.6.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "あります"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "います"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "です"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "なります"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-1.grammar.5.question.7",
+              "prompt": [
+                {
+                  "japanese": "財布が床に落ちて（　　）。"
+                },
+                {
+                  "textId": "topic-1-6.5-1.grammar.5.question.7.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.5-1.grammar.5.question.7.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "おきました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "いました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ありました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "しまいました"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-1.grammar.5.question.8",
+              "prompt": [
+                {
+                  "japanese": "エアコンが（　　）います。"
+                },
+                {
+                  "textId": "topic-1-6.5-1.grammar.5.question.8.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.5-1.grammar.5.question.8.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ついて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "つくて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "つけて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "つきて"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-1.grammar.5.question.9",
+              "prompt": [
+                {
+                  "japanese": "山本さんのために、ケーキが（　　）あります。"
+                },
+                {
+                  "textId": "topic-1-6.5-1.grammar.5.question.9.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.5-1.grammar.5.question.9.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "残って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "残すて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "残して"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "残した"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

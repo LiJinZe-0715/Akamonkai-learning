@@ -1,0 +1,133 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.3-12",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第12課 文体の一貫性",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-12.grammar.0",
+          "title": "だ・である体とです・ます体",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この問題は重要である。早急に対策を考える必要がある。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-12.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この問題は重要です。早急に対策を考える必要があります。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-12.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-12.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "この問題は重要（　）。早急に対策を考える必要がある。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-12.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "です"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "である"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "でした"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ます"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-12.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-12.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-12.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-12.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-12.grammar.1",
+          "title": "文末表現の統一",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "私は毎日日本語を勉強している。将来は日本で働きたいと思っている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-12.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "私は毎日日本語を勉強しています。将来は日本で働きたいと思っています。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-12.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-12.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "私は毎日日本語を勉強している。将来は日本で働きたいと（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-12.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "思っています"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "思っている"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "思います"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "思った"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-12.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-12.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-12.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-12.grammar.1.pitfall"
+        }
+      ]
+    }
+  }
+}

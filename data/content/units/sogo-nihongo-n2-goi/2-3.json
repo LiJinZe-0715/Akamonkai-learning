@@ -1,0 +1,438 @@
+{
+  "kind": "lesson",
+  "id": "sogo-nihongo-n2-goi.2-3",
+  "bookId": "sogo-nihongo-n2-goi",
+  "title": "第2週 3日目 仕事をしています②",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.0",
+          "word": "会議が長引く",
+          "reading": "かいぎがながびく",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.0.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.0.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.1",
+          "word": "会議の準備をする",
+          "reading": "かいぎのじゅんびをする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.1.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.1.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.2",
+          "word": "ミーティング",
+          "reading": "みーてぃんぐ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.2.meaning",
+          "contrasts": [
+            {
+              "word": "会議",
+              "glossId": "sogo-nihongo-n2-goi.2-3.word.2.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.2-3.word.2.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.3",
+          "word": "意見を述べる",
+          "reading": "いけんをのべる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.3.meaning",
+          "contrasts": [
+            {
+              "word": "言う",
+              "glossId": "sogo-nihongo-n2-goi.2-3.word.3.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.2-3.word.3.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.3.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.4",
+          "word": "意見をまとめる",
+          "reading": "いけんをまとめる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.4.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.4.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.5",
+          "word": "意見を求める",
+          "reading": "いけんをもとめる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.5.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.5.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.6",
+          "word": "具体的な案を出す",
+          "reading": "ぐたいてきなあんをだす",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.6.meaning",
+          "contrasts": [
+            {
+              "word": "アイデアを出す",
+              "glossId": "sogo-nihongo-n2-goi.2-3.word.7.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-3.word.6.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.7",
+          "word": "アイデアを出す",
+          "reading": "あいであをだす",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.7.meaning",
+          "contrasts": [
+            {
+              "word": "具体的な案を出す",
+              "glossId": "sogo-nihongo-n2-goi.2-3.word.6.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-3.word.7.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.8",
+          "word": "結論が出る",
+          "reading": "けつろんがでる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.8.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.8.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.9",
+          "word": "資料を配る",
+          "reading": "しりょうをくばる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.9.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.9.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.10",
+          "word": "プリント",
+          "reading": "ぷりんと",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.10.meaning",
+          "contrasts": [
+            {
+              "word": "資料",
+              "glossId": "sogo-nihongo-n2-goi.2-3.word.10.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.2-3.word.10.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.11",
+          "word": "メモを取る",
+          "reading": "めもをとる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.11.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.11.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.12",
+          "word": "張り切る",
+          "reading": "はりきる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.12.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.12.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.13",
+          "word": "仕事を引き受ける",
+          "reading": "しごとをひきうける",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.13.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.13.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.14",
+          "word": "仕事の打ち合わせをする",
+          "reading": "しごとのうちあわせをする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.14.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.14.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.15",
+          "word": "スケジュールを組む",
+          "reading": "すけじゅーるをくむ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.15.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.15.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.16",
+          "word": "仕事を順調にこなす",
+          "reading": "しごとをじゅんちょうにこなす",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.16.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.16.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.17",
+          "word": "抽象的",
+          "reading": "ちゅうしょうてき",
+          "pos": "na-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.17.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.17.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.18",
+          "word": "打ち合わせ",
+          "reading": "うちあわせ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.18.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> を する",
+              "usageId": "sogo-nihongo-n2-goi.2-3.word.18.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "会議",
+              "glossId": "sogo-nihongo-n2-goi.2-3.word.18.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.2-3.word.18.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.19",
+          "word": "電話を取り次ぐ",
+          "reading": "でんわをとりつぐ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.19.meaning",
+          "contrasts": [
+            {
+              "word": "転送する",
+              "glossId": "sogo-nihongo-n2-goi.2-3.word.20.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-3.word.19.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.20",
+          "word": "電話を転送する",
+          "reading": "でんわをてんそうする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.20.meaning",
+          "contrasts": [
+            {
+              "word": "取り次ぐ",
+              "glossId": "sogo-nihongo-n2-goi.2-3.word.19.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-3.word.20.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.21",
+          "word": "電話を保留する",
+          "reading": "でんわをほりゅうする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.21.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.21.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.22",
+          "word": "残業する",
+          "reading": "ざんぎょうする",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.22.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.22.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.23",
+          "word": "出張が多い",
+          "reading": "しゅっちょうがおおい",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.23.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.23.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.24",
+          "word": "出世する",
+          "reading": "しゅっせする",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.24.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "sogo-nihongo-n2-goi.2-3.word.24.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "昇進する",
+              "glossId": "sogo-nihongo-n2-goi.2-3.word.25.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-3.word.24.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.25",
+          "word": "昇進する",
+          "reading": "しょうしんする",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.25.meaning",
+          "contrasts": [
+            {
+              "word": "出世する",
+              "glossId": "sogo-nihongo-n2-goi.2-3.word.24.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-3.word.25.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.26",
+          "word": "本社に転勤になる",
+          "reading": "ほんしゃにてんきんになる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.26.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.26.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.27",
+          "word": "転職する",
+          "reading": "てんしょくする",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.27.meaning",
+          "contrasts": [
+            {
+              "word": "退職する",
+              "glossId": "sogo-nihongo-n2-goi.2-3.word.30.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-3.word.27.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.28",
+          "word": "会社を首になる",
+          "reading": "かいしゃをくびになる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.28.meaning",
+          "contrasts": [
+            {
+              "word": "リストラされる",
+              "glossId": "sogo-nihongo-n2-goi.2-3.word.29.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-3.word.28.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.28.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.29",
+          "word": "リストラされる",
+          "reading": "りすとらされる",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.29.meaning",
+          "contrasts": [
+            {
+              "word": "首になる",
+              "glossId": "sogo-nihongo-n2-goi.2-3.word.28.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-3.word.29.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.2-3.word.29.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.30",
+          "word": "退職する",
+          "reading": "たいしょくする",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.30.meaning",
+          "contrasts": [
+            {
+              "word": "転職する",
+              "glossId": "sogo-nihongo-n2-goi.2-3.word.27.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-3.word.30.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-3.word.31",
+          "word": "失業する",
+          "reading": "しつぎょうする",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-3.word.31.meaning",
+          "contrasts": [
+            {
+              "word": "リストラされる",
+              "glossId": "sogo-nihongo-n2-goi.2-3.word.29.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-3.word.31.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    }
+  }
+}

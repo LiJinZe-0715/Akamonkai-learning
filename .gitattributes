@@ -1,0 +1,13 @@
+# 仓库里一律存 LF，工作区一律 CRLF——写死在这里，不依赖各台机器的 core.autocrlf。
+* text=auto eol=crlf
+
+# 在 Linux / CI 上执行的脚本必须是 LF。
+gradlew text eol=lf
+*.sh text eol=lf
+
+# APK 随源码提交，由 GitHub Pages 的 public/downloads/ 分发。
+# 千万不要用 *.apk 忽略它：CI 直接读仓库里的包校验 version.json 与签名证书。
+*.apk binary
+*.jar binary
+*.png binary
+*.keystore binary

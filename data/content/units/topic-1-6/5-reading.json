@@ -1,0 +1,1296 @@
+{
+  "kind": "lesson",
+  "id": "topic-1-6.5-reading",
+  "bookId": "topic-1-6",
+  "title": "Topic 5 読解：オランウータン",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.0",
+          "word": "オランウータン",
+          "reading": "おらんうーたん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.0.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 木に 登る",
+              "usageId": "topic-1-6.5-reading.word.0.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "類人猿",
+              "glossId": "topic-1-6.5-reading.word.10.meaning",
+              "differenceId": "topic-1-6.5-reading.word.0.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.1",
+          "word": "リハビリ",
+          "reading": "りはびり",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.1.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を する",
+              "usageId": "topic-1-6.5-reading.word.1.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "訓練",
+              "glossId": "topic-1-6.5-reading.word.7.meaning",
+              "differenceId": "topic-1-6.5-reading.word.1.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.2",
+          "word": "センター",
+          "reading": "せんたー",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.2.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 通う",
+              "usageId": "topic-1-6.5-reading.word.2.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "施設",
+              "glossId": "topic-1-6.5-reading.word.2.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.2.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.3",
+          "word": "登る",
+          "reading": "のぼる",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.5-reading.word.3.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "topic-1-6.5-reading.word.3.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "上る",
+              "glossId": "topic-1-6.5-reading.word.3.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.3.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.4",
+          "word": "～方",
+          "reading": "~かた",
+          "pos": "suffix",
+          "meaningId": "topic-1-6.5-reading.word.4.meaning",
+          "contrasts": [
+            {
+              "word": "方法",
+              "glossId": "topic-1-6.5-reading.word.4.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.4.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.5",
+          "word": "森",
+          "reading": "もり",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.5.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 住む",
+              "usageId": "topic-1-6.5-reading.word.5.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "林",
+              "glossId": "topic-1-6.5-reading.word.5.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.5.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.6",
+          "word": "もどす",
+          "reading": "もどす",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.5-reading.word.6.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.5-reading.word.6.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "もどる",
+              "glossId": "topic-1-6.5-reading.word.41.meaning",
+              "differenceId": "topic-1-6.5-reading.word.6.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.7",
+          "word": "訓練",
+          "reading": "くんれん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.7.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 受ける",
+              "usageId": "topic-1-6.5-reading.word.7.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "練習",
+              "glossId": "topic-1-6.5-reading.word.7.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.7.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.8",
+          "word": "大型",
+          "reading": "おおがた",
+          "pos": "na-adjective",
+          "meaningId": "topic-1-6.5-reading.word.8.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 動物",
+              "usageId": "topic-1-6.5-reading.word.8.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "小型",
+              "glossId": "topic-1-6.5-reading.word.9.meaning",
+              "differenceId": "topic-1-6.5-reading.word.8.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.9",
+          "word": "小型",
+          "reading": "こがた",
+          "pos": "na-adjective",
+          "meaningId": "topic-1-6.5-reading.word.9.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 車",
+              "usageId": "topic-1-6.5-reading.word.9.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "大型",
+              "glossId": "topic-1-6.5-reading.word.8.meaning",
+              "differenceId": "topic-1-6.5-reading.word.9.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.10",
+          "word": "類人猿",
+          "reading": "るいじんえん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.10.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 一種",
+              "usageId": "topic-1-6.5-reading.word.10.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "猿",
+              "glossId": "topic-1-6.5-reading.word.10.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.10.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.11",
+          "word": "絶滅",
+          "reading": "ぜつめつ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.11.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>する",
+              "usageId": "topic-1-6.5-reading.word.11.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "減少",
+              "glossId": "topic-1-6.5-reading.word.11.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.11.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.12",
+          "word": "野生",
+          "reading": "やせい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.12.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 動物",
+              "usageId": "topic-1-6.5-reading.word.12.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "飼育",
+              "glossId": "topic-1-6.5-reading.word.12.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.12.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.13",
+          "word": "熱帯雨林",
+          "reading": "ねったいうりん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.13.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 減る",
+              "usageId": "topic-1-6.5-reading.word.13.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "森林",
+              "glossId": "topic-1-6.5-reading.word.13.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.13.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.14",
+          "word": "果物",
+          "reading": "くだもの",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.14.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 食べる",
+              "usageId": "topic-1-6.5-reading.word.14.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "フルーツ",
+              "glossId": "topic-1-6.5-reading.word.14.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.14.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.15",
+          "word": "木の葉",
+          "reading": "このは",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.15.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 食べる",
+              "usageId": "topic-1-6.5-reading.word.15.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "枝",
+              "glossId": "topic-1-6.5-reading.word.15.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.15.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.16",
+          "word": "昆虫",
+          "reading": "こんちゅう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.16.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 食べる",
+              "usageId": "topic-1-6.5-reading.word.16.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "虫",
+              "glossId": "topic-1-6.5-reading.word.16.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.16.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.17",
+          "word": "暮らす",
+          "reading": "くらす",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.5-reading.word.17.meaning",
+          "patterns": [
+            {
+              "pattern": "N で <w>",
+              "usageId": "topic-1-6.5-reading.word.17.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "生活する",
+              "glossId": "topic-1-6.5-reading.word.17.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.17.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.18",
+          "word": "知恵",
+          "reading": "ちえ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.18.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を つける",
+              "usageId": "topic-1-6.5-reading.word.18.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "知識",
+              "glossId": "topic-1-6.5-reading.word.18.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.18.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.19",
+          "word": "教える",
+          "reading": "おしえる",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.5-reading.word.19.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.5-reading.word.19.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "教わる",
+              "glossId": "topic-1-6.5-reading.word.20.meaning",
+              "differenceId": "topic-1-6.5-reading.word.19.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.20",
+          "word": "教わる",
+          "reading": "おそわる",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.5-reading.word.20.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "topic-1-6.5-reading.word.20.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "習う",
+              "glossId": "topic-1-6.5-reading.word.21.meaning",
+              "differenceId": "topic-1-6.5-reading.word.20.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.21",
+          "word": "習う",
+          "reading": "ならう",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.5-reading.word.21.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.5-reading.word.21.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "教わる",
+              "glossId": "topic-1-6.5-reading.word.20.meaning",
+              "differenceId": "topic-1-6.5-reading.word.21.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.22",
+          "word": "切り開く",
+          "reading": "きりひらく",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.5-reading.word.22.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.5-reading.word.22.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "開拓する",
+              "glossId": "topic-1-6.5-reading.word.22.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.22.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.23",
+          "word": "畑",
+          "reading": "はたけ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.23.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 耕す",
+              "usageId": "topic-1-6.5-reading.word.23.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "田んぼ",
+              "glossId": "topic-1-6.5-reading.word.23.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.23.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.24",
+          "word": "切りたおす",
+          "reading": "きりたおす",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.5-reading.word.24.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.5-reading.word.24.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "切る",
+              "glossId": "topic-1-6.5-reading.word.24.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.24.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.25",
+          "word": "環境",
+          "reading": "かんきょう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.25.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 守る",
+              "usageId": "topic-1-6.5-reading.word.25.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "自然",
+              "glossId": "topic-1-6.5-reading.word.25.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.25.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.26",
+          "word": "破壊する",
+          "reading": "はかいする",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.5-reading.word.26.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.5-reading.word.26.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "壊す",
+              "glossId": "topic-1-6.5-reading.word.26.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.26.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.27",
+          "word": "荒らす",
+          "reading": "あらす",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.5-reading.word.27.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.5-reading.word.27.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "荒れる",
+              "glossId": "topic-1-6.5-reading.word.42.meaning",
+              "differenceId": "topic-1-6.5-reading.word.27.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.28",
+          "word": "育てる",
+          "reading": "そだてる",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.5-reading.word.28.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.5-reading.word.28.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "育つ",
+              "glossId": "topic-1-6.5-reading.word.29.meaning",
+              "differenceId": "topic-1-6.5-reading.word.28.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.29",
+          "word": "育つ",
+          "reading": "そだつ",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.5-reading.word.29.meaning",
+          "patterns": [
+            {
+              "pattern": "N が <w>",
+              "usageId": "topic-1-6.5-reading.word.29.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "育てる",
+              "glossId": "topic-1-6.5-reading.word.28.meaning",
+              "differenceId": "topic-1-6.5-reading.word.29.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.30",
+          "word": "あきらめる",
+          "reading": "あきらめる",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.5-reading.word.30.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.5-reading.word.30.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "断念する",
+              "glossId": "topic-1-6.5-reading.word.30.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.30.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.31",
+          "word": "密猟者",
+          "reading": "みつりょうしゃ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.31.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 捕まえる",
+              "usageId": "topic-1-6.5-reading.word.31.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "猟師",
+              "glossId": "topic-1-6.5-reading.word.31.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.31.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.32",
+          "word": "殺す",
+          "reading": "ころす",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.5-reading.word.32.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.5-reading.word.32.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "傷つける",
+              "glossId": "topic-1-6.5-reading.word.32.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.32.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.33",
+          "word": "ペット",
+          "reading": "ぺっと",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.33.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>として 飼う",
+              "usageId": "topic-1-6.5-reading.word.33.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "家畜",
+              "glossId": "topic-1-6.5-reading.word.33.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.33.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.34",
+          "word": "捨てる",
+          "reading": "すてる",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.5-reading.word.34.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.5-reading.word.34.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "投げる",
+              "glossId": "topic-1-6.5-reading.word.34.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.34.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.35",
+          "word": "政府",
+          "reading": "せいふ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.35.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 決める",
+              "usageId": "topic-1-6.5-reading.word.35.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "自治体",
+              "glossId": "topic-1-6.5-reading.word.35.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.35.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.36",
+          "word": "特別",
+          "reading": "とくべつ",
+          "pos": "na-adjective",
+          "meaningId": "topic-1-6.5-reading.word.36.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>な 場所",
+              "usageId": "topic-1-6.5-reading.word.36.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "特殊",
+              "glossId": "topic-1-6.5-reading.word.36.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.36.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.37",
+          "word": "保護",
+          "reading": "ほご",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.37.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>する",
+              "usageId": "topic-1-6.5-reading.word.37.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "保全",
+              "glossId": "topic-1-6.5-reading.word.37.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.37.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.38",
+          "word": "～区",
+          "reading": "~く",
+          "pos": "suffix",
+          "meaningId": "topic-1-6.5-reading.word.38.meaning",
+          "contrasts": [
+            {
+              "word": "区域",
+              "glossId": "topic-1-6.5-reading.word.38.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.38.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.39",
+          "word": "建てる",
+          "reading": "たてる",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.5-reading.word.39.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.5-reading.word.39.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "建つ",
+              "glossId": "topic-1-6.5-reading.word.40.meaning",
+              "differenceId": "topic-1-6.5-reading.word.39.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.40",
+          "word": "建つ",
+          "reading": "たつ",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.5-reading.word.40.meaning",
+          "patterns": [
+            {
+              "pattern": "N が <w>",
+              "usageId": "topic-1-6.5-reading.word.40.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "建てる",
+              "glossId": "topic-1-6.5-reading.word.39.meaning",
+              "differenceId": "topic-1-6.5-reading.word.40.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.41",
+          "word": "もどる",
+          "reading": "もどる",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.5-reading.word.41.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "topic-1-6.5-reading.word.41.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "もどす",
+              "glossId": "topic-1-6.5-reading.word.6.meaning",
+              "differenceId": "topic-1-6.5-reading.word.41.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.42",
+          "word": "荒れる",
+          "reading": "あれる",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.5-reading.word.42.meaning",
+          "patterns": [
+            {
+              "pattern": "N が <w>",
+              "usageId": "topic-1-6.5-reading.word.42.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "荒らす",
+              "glossId": "topic-1-6.5-reading.word.27.meaning",
+              "differenceId": "topic-1-6.5-reading.word.42.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.43",
+          "word": "開発する",
+          "reading": "かいはつする",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.5-reading.word.43.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.5-reading.word.43.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "発展する",
+              "glossId": "topic-1-6.5-reading.word.43.contrast.0.gloss",
+              "differenceId": "topic-1-6.5-reading.word.43.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.44",
+          "word": "マレーシア",
+          "reading": "まれーしあ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.44.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の ボルネオ島",
+              "usageId": "topic-1-6.5-reading.word.44.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "インドネシア",
+              "glossId": "topic-1-6.5-reading.word.46.meaning",
+              "differenceId": "topic-1-6.5-reading.word.44.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.45",
+          "word": "セピロック",
+          "reading": "せぴろっく",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.45.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で 保護する",
+              "usageId": "topic-1-6.5-reading.word.45.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.5-reading.word.46",
+          "word": "インドネシア",
+          "reading": "いんどねしあ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.5-reading.word.46.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 島",
+              "usageId": "topic-1-6.5-reading.word.46.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "マレーシア",
+              "glossId": "topic-1-6.5-reading.word.44.meaning",
+              "differenceId": "topic-1-6.5-reading.word.46.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.5-reading.grammar.0",
+          "title": "語彙の使い方",
+          "examples": [],
+          "noteIds": [
+            "topic-1-6.5-reading.grammar.0.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-reading.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "マレーシアのセピロックには、オランウータンのリハビリテーションセンターがある。ここでは、母親と暮らせなくなった子どもたちが、木に登ることや食べ物を探すことを学ぶ。こうした訓練の目的は、森で生活する力を身につけることである。森林が失われると、オランウータンが暮らせる場所も少なくなるため、動物を助けるだけでなく、その環境を守ることも大切である。\n\n【補充読解】この文章の主な内容は何ですか。"
+                }
+              ],
+              "instructionId": "topic-1-6.5-reading.grammar.0.question.0.instruction",
+              "explanationId": "topic-1-6.5-reading.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "外国へ動物を売る方法。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "オランウータンの訓練と環境保護の大切さ。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "動物園の入場料。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "オランウータンをペットにする方法。"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.5-reading.grammar.1",
+          "title": "読解・内容のまとめ",
+          "examples": [],
+          "noteIds": [
+            "topic-1-6.5-reading.grammar.1.note.0",
+            "topic-1-6.5-reading.grammar.1.note.1",
+            "topic-1-6.5-reading.grammar.1.note.2",
+            "topic-1-6.5-reading.grammar.1.note.3"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-reading.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "マレーシアのセピロックには、オランウータンのリハビリテーションセンターがある。ここでは、母親と暮らせなくなった子どもたちが、木に登ることや食べ物を探すことを学ぶ。こうした訓練の目的は、森で生活する力を身につけることである。森林が失われると、オランウータンが暮らせる場所も少なくなるため、動物を助けるだけでなく、その環境を守ることも大切である。\n\n【補充読解】センターで子どもたちが学ぶことはどれですか。"
+                }
+              ],
+              "instructionId": "topic-1-6.5-reading.grammar.1.question.0.instruction",
+              "explanationId": "topic-1-6.5-reading.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "車を運転すること。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "木に登ったり、食べ物を探したりすること。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "人間の言葉を話すこと。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "外国で買い物をすること。"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.5-reading.grammar.2",
+          "title": "例文の解説",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "親のいないオランウータンの子どもたちに、木の登り方や食べ物の取り方などを教えて、森にもどす訓練をしています。",
+              "translationId": "topic-1-6.5-reading.grammar.2.example.0.translation",
+              "analysisId": "topic-1-6.5-reading.grammar.2.example.0.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "オランウータンは今ではマレーシアやインドネシアにしかいない大型類人猿で、絶滅が心配されている野生動物です。",
+              "translationId": "topic-1-6.5-reading.grammar.2.example.1.translation",
+              "analysisId": "topic-1-6.5-reading.grammar.2.example.1.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "その子どもは５歳ぐらいまで母親といっしょに暮らし、母親から森で生きていくための知恵を教えてもらうのです。",
+              "translationId": "topic-1-6.5-reading.grammar.2.example.2.translation",
+              "analysisId": "topic-1-6.5-reading.grammar.2.example.2.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "最近では熱帯雨林が切り開かれて畑になったり、たくさんの木が切りたおされたりして、オランウータンの住む環境は破壊されてきています。",
+              "translationId": "topic-1-6.5-reading.grammar.2.example.3.translation",
+              "analysisId": "topic-1-6.5-reading.grammar.2.example.3.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "このように森が荒らされると、母親のオランウータンは子どもを育てることをあきらめてしまいます。",
+              "translationId": "topic-1-6.5-reading.grammar.2.example.4.translation",
+              "analysisId": "topic-1-6.5-reading.grammar.2.example.4.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "子どものオランウータンをねらう密猟者に見つけられると、母親のオランウータンは殺され、子どもは外国へペットとして売られてしまうこともあります。",
+              "translationId": "topic-1-6.5-reading.grammar.2.example.5.translation",
+              "analysisId": "topic-1-6.5-reading.grammar.2.example.5.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "こうして親に捨てられたり、人間に育てられて野生の生活を忘れてしまったオランウータンを救うために、マレーシアの政府によって、熱帯雨林の中に特別保護区が作られ、リハビリ・センターが建てられたのです。",
+              "translationId": "topic-1-6.5-reading.grammar.2.example.6.translation",
+              "analysisId": "topic-1-6.5-reading.grammar.2.example.6.analysis"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-reading.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "マレーシアのセピロックには、オランウータンのリハビリテーションセンターがある。ここでは、母親と暮らせなくなった子どもたちが、木に登ることや食べ物を探すことを学ぶ。こうした訓練の目的は、森で生活する力を身につけることである。森林が失われると、オランウータンが暮らせる場所も少なくなるため、動物を助けるだけでなく、その環境を守ることも大切である。\n\n【補充読解】「その環境」は何を指していますか。"
+                }
+              ],
+              "instructionId": "topic-1-6.5-reading.grammar.2.question.0.instruction",
+              "explanationId": "topic-1-6.5-reading.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "オランウータンが暮らす森林などの環境。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "外国のペットショップ。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "人間の学校。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "センターの事務室だけ。"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.5-reading.grammar.3",
+          "title": "補充読解・練習（オリジナル）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "マレーシアのセピロックには、オランウータンのリハビリテーションセンターがある。ここでは、母親と暮らせなくなった子どもたちが、木に登ることや食べ物を探すことを学ぶ。こうした訓練の目的は、森で生活する力を身につけることである。森林が失われると、オランウータンが暮らせる場所も少なくなるため、動物を助けるだけでなく、その環境を守ることも大切である。",
+              "translationId": "topic-1-6.5-reading.grammar.3.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "topic-1-6.5-reading.grammar.3.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.5-reading.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "マレーシアのセピロックには、オランウータンのリハビリテーションセンターがある。ここでは、母親と暮らせなくなった子どもたちが、木に登ることや食べ物を探すことを学ぶ。こうした訓練の目的は、森で生活する力を身につけることである。森林が失われると、オランウータンが暮らせる場所も少なくなるため、動物を助けるだけでなく、その環境を守ることも大切である。\n\n【補充読解】環境を守ることも大切なのはなぜですか。"
+                }
+              ],
+              "instructionId": "topic-1-6.5-reading.grammar.3.question.0.instruction",
+              "explanationId": "topic-1-6.5-reading.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "森林が増えすぎているから。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "すべての動物が木に登るから。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "センターで買い物をするから。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "森林が失われると、暮らせる場所も少なくなるから。"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

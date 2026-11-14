@@ -1,0 +1,1358 @@
+{
+  "kind": "lesson",
+  "id": "minna-no-nihongo-shokyu.12",
+  "bookId": "minna-no-nihongo-shokyu",
+  "title": "第12課",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.0",
+          "word": "簡単［な］",
+          "reading": "かんたん",
+          "pos": "na-adjective",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.0.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 問題",
+              "usageId": "minna-no-nihongo-shokyu.12.word.0.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "難しい",
+              "glossId": "minna-no-nihongo-shokyu.12.word.0.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.0.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.1",
+          "word": "近い",
+          "reading": "ちかい",
+          "pos": "i-adjective",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.1.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 駅",
+              "usageId": "minna-no-nihongo-shokyu.12.word.1.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "遠い",
+              "glossId": "minna-no-nihongo-shokyu.12.word.2.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.1.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.2",
+          "word": "遠い",
+          "reading": "とおい",
+          "pos": "i-adjective",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.2.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 駅",
+              "usageId": "minna-no-nihongo-shokyu.12.word.2.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.3",
+          "word": "速い、早い",
+          "reading": "はやい",
+          "pos": "i-adjective",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.3.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 電車",
+              "usageId": "minna-no-nihongo-shokyu.12.word.3.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "遅い",
+              "glossId": "minna-no-nihongo-shokyu.12.word.4.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.3.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.4",
+          "word": "遅い",
+          "reading": "おそい",
+          "pos": "i-adjective",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.4.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 電車",
+              "usageId": "minna-no-nihongo-shokyu.12.word.4.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.5",
+          "word": "多い ［人が～］",
+          "reading": "おおい",
+          "pos": "i-adjective",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.5.meaning",
+          "contrasts": [
+            {
+              "word": "少ない ［人が～］",
+              "glossId": "minna-no-nihongo-shokyu.12.word.6.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.5.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.6",
+          "word": "少ない ［人が～］",
+          "reading": "すくない",
+          "pos": "i-adjective",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.6.meaning",
+          "contrasts": [
+            {
+              "word": "多い ［人が～］",
+              "glossId": "minna-no-nihongo-shokyu.12.word.5.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.6.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.7",
+          "word": "暖かい、温かい",
+          "reading": "あたたかい",
+          "pos": "i-adjective",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.7.meaning",
+          "patterns": [
+            {
+              "pattern": "N は <w>",
+              "usageId": "minna-no-nihongo-shokyu.12.word.7.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "涼しい",
+              "glossId": "minna-no-nihongo-shokyu.12.word.8.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.7.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.8",
+          "word": "涼しい",
+          "reading": "すずしい",
+          "pos": "i-adjective",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.8.meaning",
+          "patterns": [
+            {
+              "pattern": "N は <w>",
+              "usageId": "minna-no-nihongo-shokyu.12.word.8.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.9",
+          "word": "甘い",
+          "reading": "あまい",
+          "pos": "i-adjective",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.9.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> お菓子",
+              "usageId": "minna-no-nihongo-shokyu.12.word.9.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "辛い",
+              "glossId": "minna-no-nihongo-shokyu.12.word.10.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.9.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.10",
+          "word": "辛い",
+          "reading": "からい",
+          "pos": "i-adjective",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.10.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 料理",
+              "usageId": "minna-no-nihongo-shokyu.12.word.10.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.11",
+          "word": "重い",
+          "reading": "おもい",
+          "pos": "i-adjective",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.11.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 荷物",
+              "usageId": "minna-no-nihongo-shokyu.12.word.11.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "軽い",
+              "glossId": "minna-no-nihongo-shokyu.12.word.12.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.11.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.12",
+          "word": "軽い",
+          "reading": "かるい",
+          "pos": "i-adjective",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.12.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 荷物",
+              "usageId": "minna-no-nihongo-shokyu.12.word.12.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.13",
+          "word": "いい ［コーヒーが～］",
+          "reading": "いい",
+          "pos": "i-adjective",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.13.meaning",
+          "contrasts": [
+            {
+              "word": "欲しい",
+              "glossId": "minna-no-nihongo-shokyu.12.word.13.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.13.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.14",
+          "word": "季節",
+          "reading": "きせつ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.14.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 変わる",
+              "usageId": "minna-no-nihongo-shokyu.12.word.14.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "春",
+              "glossId": "minna-no-nihongo-shokyu.12.word.15.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.14.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.15",
+          "word": "春",
+          "reading": "はる",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.15.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 来る",
+              "usageId": "minna-no-nihongo-shokyu.12.word.15.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "夏",
+              "glossId": "minna-no-nihongo-shokyu.12.word.16.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.15.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.16",
+          "word": "夏",
+          "reading": "なつ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.16.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>は 暑い",
+              "usageId": "minna-no-nihongo-shokyu.12.word.16.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.17",
+          "word": "秋",
+          "reading": "あき",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.17.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>は 涼しい",
+              "usageId": "minna-no-nihongo-shokyu.12.word.17.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "紅葉",
+              "glossId": "minna-no-nihongo-shokyu.12.word.35.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.17.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.18",
+          "word": "冬",
+          "reading": "ふゆ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.18.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>は 寒い",
+              "usageId": "minna-no-nihongo-shokyu.12.word.18.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.19",
+          "word": "天気",
+          "reading": "てんき",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.19.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が いい",
+              "usageId": "minna-no-nihongo-shokyu.12.word.19.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "雨",
+              "glossId": "minna-no-nihongo-shokyu.12.word.20.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.19.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.20",
+          "word": "雨",
+          "reading": "あめ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.20.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 降る",
+              "usageId": "minna-no-nihongo-shokyu.12.word.20.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "雪",
+              "glossId": "minna-no-nihongo-shokyu.12.word.21.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.20.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.21",
+          "word": "雪",
+          "reading": "ゆき",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.21.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 降る",
+              "usageId": "minna-no-nihongo-shokyu.12.word.21.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.22",
+          "word": "曇り",
+          "reading": "くもり",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.22.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>です",
+              "usageId": "minna-no-nihongo-shokyu.12.word.22.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "雨",
+              "glossId": "minna-no-nihongo-shokyu.12.word.20.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.22.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.23",
+          "word": "ホテル",
+          "reading": "ほてる",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.23.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 泊まる",
+              "usageId": "minna-no-nihongo-shokyu.12.word.23.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "旅館",
+              "glossId": "minna-no-nihongo-shokyu.12.word.23.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.23.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.24",
+          "word": "空港",
+          "reading": "くうこう",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.24.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>へ 行く",
+              "usageId": "minna-no-nihongo-shokyu.12.word.24.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "駅",
+              "glossId": "minna-no-nihongo-shokyu.12.word.24.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.24.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.25",
+          "word": "海",
+          "reading": "うみ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.25.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で 泳ぐ",
+              "usageId": "minna-no-nihongo-shokyu.12.word.25.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "山",
+              "glossId": "minna-no-nihongo-shokyu.12.word.25.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.25.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.26",
+          "word": "世界",
+          "reading": "せかい",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.26.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>中で",
+              "usageId": "minna-no-nihongo-shokyu.12.word.26.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "国",
+              "glossId": "minna-no-nihongo-shokyu.12.word.26.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.26.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.27",
+          "word": "パーティー",
+          "reading": "ぱーてぃー",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.27.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を する",
+              "usageId": "minna-no-nihongo-shokyu.12.word.27.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "会議",
+              "glossId": "minna-no-nihongo-shokyu.12.word.27.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.27.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.28",
+          "word": "（お）祭り",
+          "reading": "まつり",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.28.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行く",
+              "usageId": "minna-no-nihongo-shokyu.12.word.28.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "パーティー",
+              "glossId": "minna-no-nihongo-shokyu.12.word.27.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.28.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.29",
+          "word": "試験",
+          "reading": "しけん",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.29.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 受ける",
+              "usageId": "minna-no-nihongo-shokyu.12.word.29.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "勉強",
+              "glossId": "minna-no-nihongo-shokyu.12.word.29.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.29.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.30",
+          "word": "すき焼き",
+          "reading": "すきやき",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.30.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 食べる",
+              "usageId": "minna-no-nihongo-shokyu.12.word.30.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "刺身",
+              "glossId": "minna-no-nihongo-shokyu.12.word.31.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.30.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.31",
+          "word": "刺身",
+          "reading": "さしみ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.31.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 食べる",
+              "usageId": "minna-no-nihongo-shokyu.12.word.31.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "てんぷら",
+              "glossId": "minna-no-nihongo-shokyu.12.word.33.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.31.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.32",
+          "word": "［お］すし",
+          "reading": "すし",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.32.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 食べる",
+              "usageId": "minna-no-nihongo-shokyu.12.word.32.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.33",
+          "word": "てんぷら",
+          "reading": "てんぷら",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.33.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 食べる",
+              "usageId": "minna-no-nihongo-shokyu.12.word.33.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.34",
+          "word": "生け花",
+          "reading": "いけばな",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.34.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 習う",
+              "usageId": "minna-no-nihongo-shokyu.12.word.34.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.35",
+          "word": "紅葉",
+          "reading": "もみじ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.35.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 見る",
+              "usageId": "minna-no-nihongo-shokyu.12.word.35.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "桜",
+              "glossId": "minna-no-nihongo-shokyu.12.word.35.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.35.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.36",
+          "word": "どちら",
+          "reading": "どちら",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.36.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 好きですか",
+              "usageId": "minna-no-nihongo-shokyu.12.word.36.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "どちらも",
+              "glossId": "minna-no-nihongo-shokyu.12.word.38.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.36.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.37",
+          "word": "初めて",
+          "reading": "はじめて",
+          "pos": "adverb",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.37.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 食べました",
+              "usageId": "minna-no-nihongo-shokyu.12.word.37.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "一度",
+              "glossId": "minna-no-nihongo-shokyu.12.word.37.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.37.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.38",
+          "word": "どちらも",
+          "reading": "どちらも",
+          "pos": "adverb",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.38.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 好きです",
+              "usageId": "minna-no-nihongo-shokyu.12.word.38.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.39",
+          "word": "ずっと",
+          "reading": "ずっと",
+          "pos": "adverb",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.39.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 大きい",
+              "usageId": "minna-no-nihongo-shokyu.12.word.39.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "少し",
+              "glossId": "minna-no-nihongo-shokyu.12.word.39.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.39.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.40",
+          "word": "ただいま。",
+          "reading": "ただいま。",
+          "pos": "expression",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.40.meaning",
+          "contrasts": [
+            {
+              "word": "お帰りなさい",
+              "glossId": "minna-no-nihongo-shokyu.12.word.41.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.40.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.41",
+          "word": "お帰りなさい",
+          "reading": "おかえりなさい",
+          "pos": "expression",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.41.meaning",
+          "contrasts": [
+            {
+              "word": "ただいま。",
+              "glossId": "minna-no-nihongo-shokyu.12.word.40.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.41.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.42",
+          "word": "すごいですね。",
+          "reading": "すごいですね。",
+          "pos": "expression",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.42.meaning",
+          "contrasts": [
+            {
+              "word": "いいですね",
+              "glossId": "minna-no-nihongo-shokyu.12.word.42.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.42.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.43",
+          "word": "でも",
+          "reading": "でも",
+          "pos": "conjunction",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.43.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>、大丈夫です",
+              "usageId": "minna-no-nihongo-shokyu.12.word.43.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "しかし",
+              "glossId": "minna-no-nihongo-shokyu.12.word.43.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.43.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.44",
+          "word": "疲れました。",
+          "reading": "つかれました",
+          "pos": "expression",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.44.meaning",
+          "contrasts": [
+            {
+              "word": "大変ですね",
+              "glossId": "minna-no-nihongo-shokyu.12.word.44.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.44.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.45",
+          "word": "香港",
+          "reading": "ほんこん",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.45.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>へ 行く",
+              "usageId": "minna-no-nihongo-shokyu.12.word.45.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "シンガポール",
+              "glossId": "minna-no-nihongo-shokyu.12.word.46.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.12.word.45.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.12.word.46",
+          "word": "シンガポール",
+          "reading": "しんがぽーる",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.12.word.46.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>へ 行く",
+              "usageId": "minna-no-nihongo-shokyu.12.word.46.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "minna-no-nihongo-shokyu.12.grammar.0",
+          "title": "N／な形容詞 でした／じゃありませんでした",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "昨日は雨でした。",
+              "translationId": "minna-no-nihongo-shokyu.12.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "先週の日曜日は暇でした。",
+              "translationId": "minna-no-nihongo-shokyu.12.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "教室は静かじゃありませんでした。",
+              "translationId": "minna-no-nihongo-shokyu.12.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.12.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "先週の月曜日は（　）。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.12.grammar.0.question.0.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.12.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "休みませんでした"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "休みくなかったです"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "休みじゃないでした"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "休みじゃありませんでした"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "minna-no-nihongo-shokyu.12.grammar.0.meaning",
+          "formationId": "minna-no-nihongo-shokyu.12.grammar.0.formation",
+          "usageId": "minna-no-nihongo-shokyu.12.grammar.0.usage",
+          "pitfallId": "minna-no-nihongo-shokyu.12.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "minna-no-nihongo-shokyu.12.grammar.1",
+          "title": "い形容詞 かったです／くなかったです",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "旅行は楽しかったです。",
+              "translationId": "minna-no-nihongo-shokyu.12.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "昨日は寒くなかったです。",
+              "translationId": "minna-no-nihongo-shokyu.12.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "先週は忙しくなかったです。",
+              "translationId": "minna-no-nihongo-shokyu.12.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.12.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "昨日は（　）。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.12.grammar.1.question.0.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.12.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "暇かったです"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "暇なでした"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "暇でした"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "暇だでした"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.12.grammar.1.question.1",
+              "prompt": [
+                {
+                  "japanese": "旅行は（　）。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.12.grammar.1.question.1.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.12.grammar.1.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "楽しいでした"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "楽しくでした"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "楽しかったです"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "楽しかったでした"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.12.grammar.1.question.2",
+              "prompt": [
+                {
+                  "japanese": "昨日の試験はあまり（　）。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.12.grammar.1.question.2.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.12.grammar.1.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "難しくないでした"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "難しかったです"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "難しくなかったです"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "難しいじゃなかったです"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.12.grammar.1.question.3",
+              "prompt": [
+                {
+                  "japanese": "天気は（　）。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.12.grammar.1.question.3.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.12.grammar.1.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "よかったです"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "いいでした"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "よくでした"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "いかったです"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "minna-no-nihongo-shokyu.12.grammar.1.meaning",
+          "formationId": "minna-no-nihongo-shokyu.12.grammar.1.formation",
+          "usageId": "minna-no-nihongo-shokyu.12.grammar.1.usage",
+          "pitfallId": "minna-no-nihongo-shokyu.12.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "minna-no-nihongo-shokyu.12.grammar.2",
+          "title": "N1 は N2 より Aです",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "電車はバスより速いです。",
+              "translationId": "minna-no-nihongo-shokyu.12.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "夏は冬より暑いです。",
+              "translationId": "minna-no-nihongo-shokyu.12.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "今日は昨日より寒いです。",
+              "translationId": "minna-no-nihongo-shokyu.12.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.12.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "新幹線はバス（　）速いです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.12.grammar.2.question.0.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.12.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "からに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "まで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ほどの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "より"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "minna-no-nihongo-shokyu.12.grammar.2.meaning",
+          "formationId": "minna-no-nihongo-shokyu.12.grammar.2.formation",
+          "usageId": "minna-no-nihongo-shokyu.12.grammar.2.usage",
+          "pitfallId": "minna-no-nihongo-shokyu.12.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "minna-no-nihongo-shokyu.12.grammar.3",
+          "title": "N1 と N2 と どちらが Aですか",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "犬と猫とどちらが好きですか。",
+              "translationId": "minna-no-nihongo-shokyu.12.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "コーヒーと紅茶とどちらが好きですか。",
+              "translationId": "minna-no-nihongo-shokyu.12.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "肉と魚とどちらが好きですか。",
+              "translationId": "minna-no-nihongo-shokyu.12.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.12.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "A：夏と冬とどちらが好きですか。 B：冬（　）好きです。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.12.grammar.3.question.0.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.12.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "よりが"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "のほうが"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "の中でが"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "とほうが"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "minna-no-nihongo-shokyu.12.grammar.3.meaning",
+          "formationId": "minna-no-nihongo-shokyu.12.grammar.3.formation",
+          "usageId": "minna-no-nihongo-shokyu.12.grammar.3.usage",
+          "pitfallId": "minna-no-nihongo-shokyu.12.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "minna-no-nihongo-shokyu.12.grammar.4",
+          "title": "N の中で 何／どこ／だれ が いちばん Aですか",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本料理の中で何がいちばん好きですか。",
+              "translationId": "minna-no-nihongo-shokyu.12.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "一年の中で八月がいちばん暑いです。",
+              "translationId": "minna-no-nihongo-shokyu.12.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "クラスの中で田中さんがいちばん若いです。",
+              "translationId": "minna-no-nihongo-shokyu.12.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.12.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "果物（　）、何がいちばん好きですか。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.12.grammar.4.question.0.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.12.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "より"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "の中で"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "とどちら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "のほうが"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "minna-no-nihongo-shokyu.12.grammar.4.meaning",
+          "formationId": "minna-no-nihongo-shokyu.12.grammar.4.formation",
+          "usageId": "minna-no-nihongo-shokyu.12.grammar.4.usage",
+          "pitfallId": "minna-no-nihongo-shokyu.12.grammar.4.pitfall"
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

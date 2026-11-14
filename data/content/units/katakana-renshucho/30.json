@@ -1,0 +1,106 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.30",
+  "bookId": "katakana-renshucho",
+  "title": "第30課 余暇",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.30.word.0",
+          "word": "サイクリング",
+          "reading": "さいくりんぐ",
+          "meaningId": "katakana-renshucho.30.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.30.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.30.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "サイクリング"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.30.word.1",
+          "word": "キャンプ",
+          "reading": "きゃんぷ",
+          "meaningId": "katakana-renshucho.30.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.30.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.30.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "キャンプ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.30.word.2",
+          "word": "ショッピング",
+          "reading": "しょっぴんぐ",
+          "meaningId": "katakana-renshucho.30.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.30.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.30.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ショッピング"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.30.word.3",
+          "word": "ドライブ",
+          "reading": "どらいぶ",
+          "meaningId": "katakana-renshucho.30.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.30.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.30.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ドライブ"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

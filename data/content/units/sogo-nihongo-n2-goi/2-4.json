@@ -1,0 +1,425 @@
+{
+  "kind": "lesson",
+  "id": "sogo-nihongo-n2-goi.2-4",
+  "bookId": "sogo-nihongo-n2-goi",
+  "title": "第2週 4日目 パソコンを使っています①",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.0",
+          "word": "プリンター",
+          "reading": "ぷりんたー",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.0.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> で 印刷する",
+              "usageId": "sogo-nihongo-n2-goi.2-4.word.0.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.1",
+          "word": "モニター",
+          "reading": "もにたー",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.1.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> に 表示される",
+              "usageId": "sogo-nihongo-n2-goi.2-4.word.1.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "ディスプレイ",
+              "glossId": "sogo-nihongo-n2-goi.2-4.word.2.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-4.word.1.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.2",
+          "word": "ディスプレイ",
+          "reading": "でぃすぷれい",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.2.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> に 表示される",
+              "usageId": "sogo-nihongo-n2-goi.2-4.word.2.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "モニター",
+              "glossId": "sogo-nihongo-n2-goi.2-4.word.1.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-4.word.2.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.3",
+          "word": "パソコン本体",
+          "reading": "ぱそこんほんたい",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.3.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.3.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.4",
+          "word": "ウィンドウ",
+          "reading": "うぃんどう",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.4.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.4.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.5",
+          "word": "キーボード",
+          "reading": "きーぼーど",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.5.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> で 入力する",
+              "usageId": "sogo-nihongo-n2-goi.2-4.word.5.pattern.0.usage"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.5.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.6",
+          "word": "マウス",
+          "reading": "まうす",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.6.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> で クリックする",
+              "usageId": "sogo-nihongo-n2-goi.2-4.word.6.pattern.0.usage"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.6.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.7",
+          "word": "ポインター",
+          "reading": "ぽいんたー",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.7.meaning",
+          "contrasts": [
+            {
+              "word": "カーソル",
+              "glossId": "sogo-nihongo-n2-goi.2-4.word.8.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-4.word.7.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.8",
+          "word": "カーソル",
+          "reading": "かーそる",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.8.meaning",
+          "contrasts": [
+            {
+              "word": "ポインター",
+              "glossId": "sogo-nihongo-n2-goi.2-4.word.7.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-4.word.8.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.8.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.9",
+          "word": "パソコンを操作する",
+          "reading": "ぱそこんをそうさする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.9.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.9.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.10",
+          "word": "基本をマスターする",
+          "reading": "きほんをますたーする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.10.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.10.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.11",
+          "word": "パソコンを起動する",
+          "reading": "ぱそこんをきどうする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.11.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.11.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.12",
+          "word": "パソコンを再起動する",
+          "reading": "ぱそこんをさいきどうする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.12.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.12.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.13",
+          "word": "次の画面を表示する",
+          "reading": "つぎのがめんをひょうじする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.13.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.13.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.14",
+          "word": "プロバイダーと契約する",
+          "reading": "ぷろばいだーとけいやくする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.14.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.14.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.15",
+          "word": "インターネットに接続する",
+          "reading": "いんたーねっとにせつぞくする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.15.meaning",
+          "contrasts": [
+            {
+              "word": "つなぐ",
+              "glossId": "sogo-nihongo-n2-goi.2-4.word.16.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-4.word.15.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.16",
+          "word": "インターネットにつなぐ",
+          "reading": "いんたーねっとにつなぐ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.16.meaning",
+          "contrasts": [
+            {
+              "word": "つながる",
+              "glossId": "sogo-nihongo-n2-goi.2-4.word.21.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-4.word.16.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.17",
+          "word": "ネットにアクセスする",
+          "reading": "ねっとにあくせすする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.17.meaning",
+          "contrasts": [
+            {
+              "word": "接続する",
+              "glossId": "sogo-nihongo-n2-goi.2-4.word.15.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-4.word.17.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.18",
+          "word": "インターネットで検索する",
+          "reading": "いんたーねっとでけんさくする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.18.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.18.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.19",
+          "word": "ホームページで情報を得る",
+          "reading": "ほーむぺーじでじょうほうをえる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.19.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.19.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.20",
+          "word": "終了する",
+          "reading": "しゅうりょうする",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.20.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "sogo-nihongo-n2-goi.2-4.word.20.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "閉じる",
+              "glossId": "sogo-nihongo-n2-goi.2-4.word.20.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.2-4.word.20.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.21",
+          "word": "つながる",
+          "reading": "つながる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.21.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "sogo-nihongo-n2-goi.2-4.word.21.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "つなぐ",
+              "glossId": "sogo-nihongo-n2-goi.2-4.word.16.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-4.word.21.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.22",
+          "word": "ダウンロードを開始する",
+          "reading": "だうんろーどをかいしする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.22.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.22.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.23",
+          "word": "ソフトをインストールする",
+          "reading": "そふとをいんすとーるする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.23.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.23.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.24",
+          "word": "スタートボタンをクリックする",
+          "reading": "すたーとぼたんをくりっくする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.24.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.24.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.25",
+          "word": "フリーズする",
+          "reading": "ふりーずする",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.25.meaning",
+          "patterns": [
+            {
+              "pattern": "N が <w>",
+              "usageId": "sogo-nihongo-n2-goi.2-4.word.25.pattern.0.usage"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.25.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.26",
+          "word": "パソコンのシステムを更新する",
+          "reading": "ぱそこんのしすてむをこうしんする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.26.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.26.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.27",
+          "word": "便利な機能",
+          "reading": "べんりなきのう",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.27.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.27.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.28",
+          "word": "メールのやり取りをする",
+          "reading": "めーるのやりとりをする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.28.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.28.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.29",
+          "word": "アドレスを入力する",
+          "reading": "あどれすをにゅうりょくする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.29.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.29.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-4.word.30",
+          "word": "アドレスを登録する",
+          "reading": "あどれすをとうろくする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-4.word.30.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-4.word.30.analysis",
+          "questions": []
+        }
+      ]
+    }
+  }
+}

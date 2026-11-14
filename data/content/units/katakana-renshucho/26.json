@@ -1,0 +1,106 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.26",
+  "bookId": "katakana-renshucho",
+  "title": "第26課 国名②",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.26.word.0",
+          "word": "フランス",
+          "reading": "ふらんす",
+          "meaningId": "katakana-renshucho.26.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.26.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.26.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "フランス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.26.word.1",
+          "word": "ドイツ",
+          "reading": "どいつ",
+          "meaningId": "katakana-renshucho.26.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.26.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.26.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ドイツ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.26.word.2",
+          "word": "イギリス",
+          "reading": "いぎりす",
+          "meaningId": "katakana-renshucho.26.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.26.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.26.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "イギリス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.26.word.3",
+          "word": "スペイン",
+          "reading": "すぺいん",
+          "meaningId": "katakana-renshucho.26.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.26.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.26.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "スペイン"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

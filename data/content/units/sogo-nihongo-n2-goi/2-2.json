@@ -1,0 +1,531 @@
+{
+  "kind": "lesson",
+  "id": "sogo-nihongo-n2-goi.2-2",
+  "bookId": "sogo-nihongo-n2-goi",
+  "title": "第2週 2日目 仕事をしています①",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.0",
+          "word": "上司",
+          "reading": "じょうし",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.0.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> に 相談する",
+              "usageId": "sogo-nihongo-n2-goi.2-2.word.0.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.1",
+          "word": "部下",
+          "reading": "ぶか",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.1.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> に 指示する",
+              "usageId": "sogo-nihongo-n2-goi.2-2.word.1.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.2",
+          "word": "部長",
+          "reading": "ぶちょう",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.2.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> に 報告する",
+              "usageId": "sogo-nihongo-n2-goi.2-2.word.2.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "課長",
+              "glossId": "sogo-nihongo-n2-goi.2-2.word.3.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-2.word.2.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.3",
+          "word": "課長",
+          "reading": "かちょう",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.3.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> に 報告する",
+              "usageId": "sogo-nihongo-n2-goi.2-2.word.3.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "部長",
+              "glossId": "sogo-nihongo-n2-goi.2-2.word.2.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-2.word.3.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.4",
+          "word": "先輩",
+          "reading": "せんぱい",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.4.meaning",
+          "contrasts": [
+            {
+              "word": "上司",
+              "glossId": "sogo-nihongo-n2-goi.2-2.word.0.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-2.word.4.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.5",
+          "word": "後輩",
+          "reading": "こうはい",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.5.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> を 指導する",
+              "usageId": "sogo-nihongo-n2-goi.2-2.word.5.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.6",
+          "word": "同僚",
+          "reading": "どうりょう",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.6.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> と 協力する",
+              "usageId": "sogo-nihongo-n2-goi.2-2.word.6.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "仕事仲間",
+              "glossId": "sogo-nihongo-n2-goi.2-2.word.7.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-2.word.6.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.7",
+          "word": "仕事仲間",
+          "reading": "しごとなかま",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.7.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> と 働く",
+              "usageId": "sogo-nihongo-n2-goi.2-2.word.7.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "同僚",
+              "glossId": "sogo-nihongo-n2-goi.2-2.word.6.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-2.word.7.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.8",
+          "word": "大企業に就職する",
+          "reading": "だいきぎょうにしゅうしょくする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.8.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.8.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.9",
+          "word": "4月に入社する",
+          "reading": "しがつににゅうしゃする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.9.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.9.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.10",
+          "word": "我が社の女子社員",
+          "reading": "わがしゃのじょししゃいん",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.10.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.10.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.11",
+          "word": "先輩に教わる",
+          "reading": "せんぱいにおそわる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.11.meaning",
+          "contrasts": [
+            {
+              "word": "教える",
+              "glossId": "sogo-nihongo-n2-goi.2-2.word.11.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.2-2.word.11.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.12",
+          "word": "先輩を見習う",
+          "reading": "せんぱいをみならう",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.12.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.12.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.13",
+          "word": "早退する",
+          "reading": "そうたいする",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.13.meaning",
+          "contrasts": [
+            {
+              "word": "遅刻する",
+              "glossId": "sogo-nihongo-n2-goi.2-2.word.24.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-2.word.13.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.14",
+          "word": "休憩する",
+          "reading": "きゅうけいする",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.14.meaning",
+          "contrasts": [
+            {
+              "word": "休暇",
+              "glossId": "sogo-nihongo-n2-goi.2-2.word.16.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-2.word.14.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.15",
+          "word": "休みを取る",
+          "reading": "やすみをとる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.15.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.15.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.16",
+          "word": "休暇",
+          "reading": "きゅうか",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.16.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> を 取る",
+              "usageId": "sogo-nihongo-n2-goi.2-2.word.16.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "休憩",
+              "glossId": "sogo-nihongo-n2-goi.2-2.word.16.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.2-2.word.16.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.17",
+          "word": "席を外す",
+          "reading": "せきをはずす",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.17.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.17.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.18",
+          "word": "やりがいのある仕事",
+          "reading": "やりがいのあるしごと",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.18.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.18.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.19",
+          "word": "休む間がない",
+          "reading": "やすむまがない",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.19.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.19.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.20",
+          "word": "体がもたない",
+          "reading": "からだがもたない",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.20.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.20.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.21",
+          "word": "やる気がない",
+          "reading": "やるきがない",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.21.meaning",
+          "contrasts": [
+            {
+              "word": "やる気が出ない",
+              "glossId": "sogo-nihongo-n2-goi.2-2.word.27.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-2.word.21.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.22",
+          "word": "具合が悪いふりをする",
+          "reading": "ぐあいがわるいふりをする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.22.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.22.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.23",
+          "word": "新入社員",
+          "reading": "しんにゅうしゃいん",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.23.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.23.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.24",
+          "word": "遅刻する",
+          "reading": "ちこくする",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.24.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "sogo-nihongo-n2-goi.2-2.word.24.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "早退する",
+              "glossId": "sogo-nihongo-n2-goi.2-2.word.13.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-2.word.24.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.25",
+          "word": "有給休暇",
+          "reading": "ゆうきゅうきゅうか",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.25.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.25.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.26",
+          "word": "仕事が生きがいだ",
+          "reading": "しごとがいきがいだ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.26.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.26.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.27",
+          "word": "やる気が出ない",
+          "reading": "やるきがでない",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.27.meaning",
+          "contrasts": [
+            {
+              "word": "やる気がない",
+              "glossId": "sogo-nihongo-n2-goi.2-2.word.21.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-2.word.27.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.28",
+          "word": "仕事を怠ける",
+          "reading": "しごとをなまける",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.28.meaning",
+          "contrasts": [
+            {
+              "word": "サボる",
+              "glossId": "sogo-nihongo-n2-goi.2-2.word.29.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-2.word.28.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.29",
+          "word": "仕事をサボる",
+          "reading": "しごとをさぼる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.29.meaning",
+          "contrasts": [
+            {
+              "word": "怠ける",
+              "glossId": "sogo-nihongo-n2-goi.2-2.word.28.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-2.word.29.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.30",
+          "word": "仕事でミスをする",
+          "reading": "しごとでみすをする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.30.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.30.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.31",
+          "word": "遅刻の言い訳をする",
+          "reading": "ちこくのいいわけをする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.31.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.31.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.32",
+          "word": "上司にゴマをする",
+          "reading": "じょうしにごまをする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.32.meaning",
+          "contrasts": [
+            {
+              "word": "おせじを言う",
+              "glossId": "sogo-nihongo-n2-goi.2-2.word.36.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-2.word.32.contrast.0.difference"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.32.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.33",
+          "word": "超忙しい",
+          "reading": "ちょういそがしい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.33.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.33.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.34",
+          "word": "怠け者",
+          "reading": "なまけもの",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.34.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.34.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.35",
+          "word": "働き者",
+          "reading": "はたらきもの",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.35.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-2.word.35.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-2.word.36",
+          "word": "おせじを言う",
+          "reading": "おせじをいう",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-2.word.36.meaning",
+          "contrasts": [
+            {
+              "word": "ゴマをする",
+              "glossId": "sogo-nihongo-n2-goi.2-2.word.32.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-2.word.36.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    }
+  }
+}

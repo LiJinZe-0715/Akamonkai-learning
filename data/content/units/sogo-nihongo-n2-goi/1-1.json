@@ -1,0 +1,591 @@
+{
+  "kind": "lesson",
+  "id": "sogo-nihongo-n2-goi.1-1",
+  "bookId": "sogo-nihongo-n2-goi",
+  "title": "第1週 1日目 アパートを探しています",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.0",
+          "word": "チラシ",
+          "reading": "ちらし",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.0.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.0.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "ビラ",
+              "glossId": "sogo-nihongo-n2-goi.1-1.word.0.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-1.word.0.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.1",
+          "word": "賃貸アパート",
+          "reading": "ちんたいあぱーと",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.1.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w> を 借りる",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.1.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.2",
+          "word": "家賃",
+          "reading": "やちん",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.2.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.2.pattern.0.usage"
+            },
+            {
+              "pattern": "<w> が 高い",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.2.pattern.1.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "管理費",
+              "glossId": "sogo-nihongo-n2-goi.1-1.word.3.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-1.word.2.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.3",
+          "word": "管理費",
+          "reading": "かんりひ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.3.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.3.pattern.0.usage"
+            },
+            {
+              "pattern": "<w> が かかる",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.3.pattern.1.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.4",
+          "word": "無料",
+          "reading": "むりょう",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.4.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> で N",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.4.pattern.0.usage"
+            },
+            {
+              "pattern": "<w> の N",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.4.pattern.1.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.5",
+          "word": "有料",
+          "reading": "ゆうりょう",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.5.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> で N",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.5.pattern.0.usage"
+            },
+            {
+              "pattern": "<w> の N",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.5.pattern.1.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.6",
+          "word": "マンション",
+          "reading": "まんしょん",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.6.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.6.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "アパート",
+              "glossId": "sogo-nihongo-n2-goi.1-1.word.6.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.1-1.word.6.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.7",
+          "word": "敷金",
+          "reading": "しききん",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.7.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.7.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "礼金",
+              "glossId": "sogo-nihongo-n2-goi.1-1.word.8.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-1.word.7.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.8",
+          "word": "礼金",
+          "reading": "れいきん",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.8.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.8.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "敷金",
+              "glossId": "sogo-nihongo-n2-goi.1-1.word.7.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-1.word.8.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.9",
+          "word": "徒歩5分",
+          "reading": "とほごふん",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.9.meaning",
+          "patterns": [
+            {
+              "pattern": "N から <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.9.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.10",
+          "word": "3階建て",
+          "reading": "さんかいだて",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.10.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> の N",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.10.pattern.0.usage"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-1.word.10.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.11",
+          "word": "南向き",
+          "reading": "みなみむき",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.11.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> の N",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.11.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.12",
+          "word": "築10年",
+          "reading": "ちくじゅうねん",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.12.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> の N",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.12.pattern.0.usage"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-1.word.12.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.13",
+          "word": "自転車置き場",
+          "reading": "じてんしゃおきば",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.13.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.13.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.14",
+          "word": "広々としている",
+          "reading": "ひろびろとしている",
+          "lemma": "広々とする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.14.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-1.word.14.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.15",
+          "word": "ながめがいい",
+          "reading": "ながめがいい",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.15.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-1.word.15.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.16",
+          "word": "日当たりがいい",
+          "reading": "ひあたりがいい",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.16.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-1.word.16.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.17",
+          "word": "人通りが多い",
+          "reading": "ひとどおりがおおい",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.17.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-1.word.17.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.18",
+          "word": "一軒家",
+          "reading": "いっけんや",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.18.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.18.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "戸建て",
+              "glossId": "sogo-nihongo-n2-goi.1-1.word.19.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-1.word.18.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.19",
+          "word": "戸建て",
+          "reading": "こだて",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.19.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.19.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "一軒家",
+              "glossId": "sogo-nihongo-n2-goi.1-1.word.18.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-1.word.19.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.20",
+          "word": "物干し",
+          "reading": "ものほし",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.20.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.20.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.21",
+          "word": "風呂場",
+          "reading": "ふろば",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.21.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.21.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.22",
+          "word": "洗面所",
+          "reading": "せんめんじょ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.22.meaning",
+          "patterns": [
+            {
+              "pattern": "N で <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.22.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.23",
+          "word": "一人暮らし",
+          "reading": "ひとりぐらし",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.23.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> を する",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.23.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.24",
+          "word": "近所付き合い",
+          "reading": "きんじょづきあい",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.24.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> を する",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.24.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.25",
+          "word": "彼と付き合う",
+          "reading": "かれとつきあう",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.25.meaning",
+          "patterns": [
+            {
+              "pattern": "N と <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.25.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.26",
+          "word": "友達に付き合う",
+          "reading": "ともだちにつきあう",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.26.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.26.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.27",
+          "word": "引っ越しの荷造りをする",
+          "reading": "ひっこしのにづくりをする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.27.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-1.word.27.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.28",
+          "word": "回覧板を回す",
+          "reading": "かんらんばんをまわす",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.28.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.1-1.word.28.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.29",
+          "word": "この辺り",
+          "reading": "このあたり",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.29.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> に ある",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.29.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "この付近",
+              "glossId": "sogo-nihongo-n2-goi.1-1.word.30.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-1.word.29.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.30",
+          "word": "この付近",
+          "reading": "このふきん",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.30.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> に ある",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.30.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "この辺り",
+              "glossId": "sogo-nihongo-n2-goi.1-1.word.29.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.1-1.word.30.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.31",
+          "word": "真ん前",
+          "reading": "まんまえ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.31.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.31.pattern.0.usage"
+            }
+          ],
+          "analysisId": "sogo-nihongo-n2-goi.1-1.word.31.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.32",
+          "word": "真後ろ",
+          "reading": "まうしろ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.32.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.32.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.33",
+          "word": "真ん中",
+          "reading": "まんなか",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.33.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.33.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.1-1.word.34",
+          "word": "斜め前",
+          "reading": "ななめまえ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.1-1.word.34.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "sogo-nihongo-n2-goi.1-1.word.34.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    }
+  }
+}

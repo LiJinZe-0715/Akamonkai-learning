@@ -1,0 +1,301 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-15",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第15課 もしそうなら・たとえそうでも",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-15.grammar.0",
+          "title": "～としたら・～とすれば・～とすると",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "もし宝くじが当たったとしたら、何をしますか。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼が来ないとすると、会議は延期だ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-15.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "もし宝くじが当たった（　）、何をしますか。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ながらも"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "といっても"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "としたら"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-15.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-15.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-15.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-15.grammar.1",
+          "title": "～ものなら",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "できるものなら、一日中寝ていたい。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "帰れるものなら、今すぐ帰りたい。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-15.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "できる（　）、一日中寝ていたい。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ものなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだ"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-15.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-15.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-15.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-15.grammar.2",
+          "title": "～（よ）うものなら",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼の前でその話をしようものなら、怒られるに決まっている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "少しでも遅れようものなら、部長に叱られる。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-15.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "実際に食べてみない（　）、おいしいかどうか分からない。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ものには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことには"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-15.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-15.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-15.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-15.grammar.3",
+          "title": "～ないことには",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "実際に食べてみないことには、おいしいかどうか分からない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "努力しないことには、成功できない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-15.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-15.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-15.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-15.grammar.4",
+          "title": "～を抜きにしては",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この計画は、彼の協力を抜きにしては成功しない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "音楽を抜きにしては、私の人生は語れない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-15.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-15.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-15.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-15.grammar.5",
+          "title": "～としても・～にしても",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "失敗したとしても、いい経験になる。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "たとえ雨にしても、試合は行う。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.5.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-15.grammar.5.question.0",
+              "prompt": [
+                {
+                  "japanese": "この計画は、彼の協力を（　）成功しない。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.5.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "抜きにして"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "めぐって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "もとにして"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "抜きにしては"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-15.grammar.5.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-15.grammar.5.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-15.grammar.5.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-15.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

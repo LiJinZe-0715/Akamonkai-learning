@@ -1,0 +1,1512 @@
+{
+  "kind": "lesson",
+  "id": "minna-no-nihongo-shokyu.37",
+  "bookId": "minna-no-nihongo-shokyu",
+  "title": "第37課",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.0",
+          "word": "褒めます",
+          "reading": "ほめます",
+          "lemma": "褒める",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.0.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.0.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "しかります",
+              "glossId": "minna-no-nihongo-shokyu.37.word.1.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.0.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.1",
+          "word": "しかります",
+          "reading": "しかります",
+          "lemma": "しかる",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.1.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.1.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.2",
+          "word": "誘います",
+          "reading": "さそいます",
+          "lemma": "誘う",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.2.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.2.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "招待します",
+              "glossId": "minna-no-nihongo-shokyu.37.word.4.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.2.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.3",
+          "word": "起こします",
+          "reading": "おこします",
+          "lemma": "起こす",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.3.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.3.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "起きます",
+              "glossId": "minna-no-nihongo-shokyu.37.word.3.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.3.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.4",
+          "word": "招待します",
+          "reading": "しょうたいします",
+          "lemma": "招待する",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.4.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.4.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.5",
+          "word": "頼みます",
+          "reading": "たのみます",
+          "lemma": "頼む",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.5.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.5.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "お願いします",
+              "glossId": "minna-no-nihongo-shokyu.37.word.5.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.5.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.6",
+          "word": "注意します",
+          "reading": "ちゅういします",
+          "lemma": "注意する",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.6.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.6.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "気を 付けます",
+              "glossId": "minna-no-nihongo-shokyu.37.word.6.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.6.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.7",
+          "word": "とります",
+          "reading": "とります",
+          "lemma": "とる",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.7.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.7.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "泥棒",
+              "glossId": "minna-no-nihongo-shokyu.37.word.23.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.7.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.8",
+          "word": "踏みます",
+          "reading": "ふみます",
+          "lemma": "踏む",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.8.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.8.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "歩きます",
+              "glossId": "minna-no-nihongo-shokyu.37.word.8.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.8.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.9",
+          "word": "壊します",
+          "reading": "こわします",
+          "lemma": "壊す",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.9.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.9.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "壊れます",
+              "glossId": "minna-no-nihongo-shokyu.37.word.9.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.9.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.10",
+          "word": "汚します",
+          "reading": "よごします",
+          "lemma": "汚す",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.10.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.10.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "汚れます",
+              "glossId": "minna-no-nihongo-shokyu.37.word.10.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.10.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.11",
+          "word": "行います",
+          "reading": "おこないます",
+          "lemma": "行う",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.11.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.11.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "あります",
+              "glossId": "minna-no-nihongo-shokyu.37.word.11.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.11.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.12",
+          "word": "輸出します",
+          "reading": "ゆしゅつします",
+          "lemma": "輸出する",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.12.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.12.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "輸入します",
+              "glossId": "minna-no-nihongo-shokyu.37.word.13.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.12.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.13",
+          "word": "輸入します",
+          "reading": "ゆにゅうします",
+          "lemma": "輸入する",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.13.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.13.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.14",
+          "word": "翻訳します",
+          "reading": "ほんやくします",
+          "lemma": "翻訳する",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.14.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.14.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "通訳します",
+              "glossId": "minna-no-nihongo-shokyu.37.word.14.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.14.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.15",
+          "word": "発明します",
+          "reading": "はつめいします",
+          "lemma": "発明する",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.15.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.15.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "発見します",
+              "glossId": "minna-no-nihongo-shokyu.37.word.16.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.15.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.16",
+          "word": "発見します",
+          "reading": "はっけんします",
+          "lemma": "発見する",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.16.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.16.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.17",
+          "word": "設計します",
+          "reading": "せっけいします",
+          "lemma": "設計する",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.17.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.17.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "建てます",
+              "glossId": "minna-no-nihongo-shokyu.37.word.17.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.17.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.18",
+          "word": "米",
+          "reading": "こめ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.18.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 炊く",
+              "usageId": "minna-no-nihongo-shokyu.37.word.18.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "麦",
+              "glossId": "minna-no-nihongo-shokyu.37.word.19.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.18.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.19",
+          "word": "麦",
+          "reading": "むぎ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.19.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 作る",
+              "usageId": "minna-no-nihongo-shokyu.37.word.19.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.20",
+          "word": "石油",
+          "reading": "せきゆ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.20.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 輸入する",
+              "usageId": "minna-no-nihongo-shokyu.37.word.20.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "原料",
+              "glossId": "minna-no-nihongo-shokyu.37.word.21.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.20.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.21",
+          "word": "原料",
+          "reading": "げんりょう",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.21.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 使う",
+              "usageId": "minna-no-nihongo-shokyu.37.word.21.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.22",
+          "word": "デート",
+          "reading": "でーと",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.22.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を する",
+              "usageId": "minna-no-nihongo-shokyu.37.word.22.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "恋人",
+              "glossId": "minna-no-nihongo-shokyu.37.word.22.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.22.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.23",
+          "word": "泥棒",
+          "reading": "どろぼう",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.23.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 入る",
+              "usageId": "minna-no-nihongo-shokyu.37.word.23.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "警察",
+              "glossId": "minna-no-nihongo-shokyu.37.word.23.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.23.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.24",
+          "word": "建築家",
+          "reading": "けんちくか",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.24.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 設計する",
+              "usageId": "minna-no-nihongo-shokyu.37.word.24.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "科学者",
+              "glossId": "minna-no-nihongo-shokyu.37.word.25.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.24.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.25",
+          "word": "科学者",
+          "reading": "かがくしゃ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.25.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 発見する",
+              "usageId": "minna-no-nihongo-shokyu.37.word.25.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.26",
+          "word": "漫画",
+          "reading": "まんが",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.26.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 読む",
+              "usageId": "minna-no-nihongo-shokyu.37.word.26.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "世界中",
+              "glossId": "minna-no-nihongo-shokyu.37.word.27.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.26.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.27",
+          "word": "世界中",
+          "reading": "せかいじゅう",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.27.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 広がる",
+              "usageId": "minna-no-nihongo-shokyu.37.word.27.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "～中",
+              "glossId": "minna-no-nihongo-shokyu.37.word.28.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.27.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.28",
+          "word": "～中",
+          "reading": "―じゅう",
+          "pos": "suffix",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.28.meaning",
+          "contrasts": [
+            {
+              "word": "～全体",
+              "glossId": "minna-no-nihongo-shokyu.37.word.28.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.28.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.29",
+          "word": "―によって",
+          "reading": "―によって",
+          "pos": "suffix",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.29.meaning",
+          "contrasts": [
+            {
+              "word": "～に よって",
+              "glossId": "minna-no-nihongo-shokyu.37.word.29.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.29.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.30",
+          "word": "よかったですね",
+          "reading": "よかったですね",
+          "pos": "expression",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.30.meaning",
+          "contrasts": [
+            {
+              "word": "おめでとう ございます",
+              "glossId": "minna-no-nihongo-shokyu.37.word.30.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.30.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.31",
+          "word": "埋め立てます",
+          "reading": "うめたてます",
+          "lemma": "埋め立てる",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.31.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.31.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "土地",
+              "glossId": "minna-no-nihongo-shokyu.37.word.33.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.31.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.32",
+          "word": "技術",
+          "reading": "ぎじゅつ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.32.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が ある",
+              "usageId": "minna-no-nihongo-shokyu.37.word.32.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "科学",
+              "glossId": "minna-no-nihongo-shokyu.37.word.32.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.32.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.33",
+          "word": "土地",
+          "reading": "とち",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.33.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 買う",
+              "usageId": "minna-no-nihongo-shokyu.37.word.33.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.34",
+          "word": "騒音",
+          "reading": "そうおん",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.34.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が うるさい",
+              "usageId": "minna-no-nihongo-shokyu.37.word.34.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "音",
+              "glossId": "minna-no-nihongo-shokyu.37.word.34.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.34.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.35",
+          "word": "利用します",
+          "reading": "りようします",
+          "lemma": "利用する",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.35.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.35.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "使います",
+              "glossId": "minna-no-nihongo-shokyu.37.word.35.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.35.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.36",
+          "word": "アクセス",
+          "reading": "あくせす",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.36.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が いい",
+              "usageId": "minna-no-nihongo-shokyu.37.word.36.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "交通",
+              "glossId": "minna-no-nihongo-shokyu.37.word.36.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.36.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.37",
+          "word": "ドミニカ",
+          "reading": "どみにか",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.37.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>へ 行く",
+              "usageId": "minna-no-nihongo-shokyu.37.word.37.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "国名",
+              "glossId": "minna-no-nihongo-shokyu.37.word.37.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.37.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.38",
+          "word": "ー世紀",
+          "reading": "ーせいき",
+          "pos": "counter",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.38.meaning",
+          "contrasts": [
+            {
+              "word": "～年間",
+              "glossId": "minna-no-nihongo-shokyu.37.word.38.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.38.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.39",
+          "word": "豪華（な）",
+          "reading": "ごうか",
+          "pos": "na-adjective",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.39.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>な ホテル",
+              "usageId": "minna-no-nihongo-shokyu.37.word.39.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "地味な",
+              "glossId": "minna-no-nihongo-shokyu.37.word.39.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.39.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.40",
+          "word": "彫刻",
+          "reading": "ちょうこく",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.40.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 見る",
+              "usageId": "minna-no-nihongo-shokyu.37.word.40.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "彫ります",
+              "glossId": "minna-no-nihongo-shokyu.37.word.42.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.40.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.41",
+          "word": "眠ります",
+          "reading": "ねむります",
+          "lemma": "眠る",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.41.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.41.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "寝ます",
+              "glossId": "minna-no-nihongo-shokyu.37.word.41.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.41.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.42",
+          "word": "彫ります",
+          "reading": "ほります",
+          "lemma": "彫る",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.42.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "minna-no-nihongo-shokyu.37.word.42.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.43",
+          "word": "仲間",
+          "reading": "なかま",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.43.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>と 働く",
+              "usageId": "minna-no-nihongo-shokyu.37.word.43.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "友人",
+              "glossId": "minna-no-nihongo-shokyu.37.word.43.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.43.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.44",
+          "word": "そのあと",
+          "reading": "そのあと",
+          "pos": "adverb",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.44.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 帰りました",
+              "usageId": "minna-no-nihongo-shokyu.37.word.44.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "その前に",
+              "glossId": "minna-no-nihongo-shokyu.37.word.44.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.44.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.45",
+          "word": "一生懸命",
+          "reading": "いっしょうけんめい",
+          "pos": "adverb",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.45.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 働きます",
+              "usageId": "minna-no-nihongo-shokyu.37.word.45.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "ゆっくり",
+              "glossId": "minna-no-nihongo-shokyu.37.word.45.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.45.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.46",
+          "word": "ねずみ",
+          "reading": "ねずみ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.46.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が います",
+              "usageId": "minna-no-nihongo-shokyu.37.word.46.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "一匹",
+              "glossId": "minna-no-nihongo-shokyu.37.word.46.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.46.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.37.word.47",
+          "word": "一匹も いません。",
+          "reading": "いっぴきもいません",
+          "pos": "expression",
+          "meaningId": "minna-no-nihongo-shokyu.37.word.47.meaning",
+          "contrasts": [
+            {
+              "word": "一匹も いません",
+              "glossId": "minna-no-nihongo-shokyu.37.word.47.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.37.word.47.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "minna-no-nihongo-shokyu.37.grammar.0",
+          "title": "人 は 人 に V受身形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "私は先生に褒められました。",
+              "translationId": "minna-no-nihongo-shokyu.37.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "私は友達に笑われました。",
+              "translationId": "minna-no-nihongo-shokyu.37.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "田中さんは先生に怒られました。",
+              "translationId": "minna-no-nihongo-shokyu.37.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.37.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "私は先生（　）褒められました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.37.grammar.0.question.0.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.37.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "が"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "で"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "minna-no-nihongo-shokyu.37.grammar.0.meaning",
+          "formationId": "minna-no-nihongo-shokyu.37.grammar.0.formation",
+          "usageId": "minna-no-nihongo-shokyu.37.grammar.0.usage",
+          "pitfallId": "minna-no-nihongo-shokyu.37.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "minna-no-nihongo-shokyu.37.grammar.1",
+          "title": "人 は 人 に N を V受身形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "私は電車で足を踏まれました。",
+              "translationId": "minna-no-nihongo-shokyu.37.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "私は弟にケーキを食べられました。",
+              "translationId": "minna-no-nihongo-shokyu.37.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "私は友達にカメラを壊されました。",
+              "translationId": "minna-no-nihongo-shokyu.37.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.37.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "私は電車で隣の人に足（　）踏まれました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.37.grammar.1.question.0.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.37.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "が"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "で"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "minna-no-nihongo-shokyu.37.grammar.1.meaning",
+          "formationId": "minna-no-nihongo-shokyu.37.grammar.1.formation",
+          "usageId": "minna-no-nihongo-shokyu.37.grammar.1.usage",
+          "pitfallId": "minna-no-nihongo-shokyu.37.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "minna-no-nihongo-shokyu.37.grammar.2",
+          "title": "N は／が V受身形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この寺は八百年前に建てられました。",
+              "translationId": "minna-no-nihongo-shokyu.37.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この本は多くの人に読まれています。",
+              "translationId": "minna-no-nihongo-shokyu.37.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この歌は若い人に愛されています。",
+              "translationId": "minna-no-nihongo-shokyu.37.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.37.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "この寺は八百年前に（　）。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.37.grammar.2.question.0.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.37.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "建ててあげました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "建てさせました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "建てられました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "建てました"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "minna-no-nihongo-shokyu.37.grammar.2.meaning",
+          "formationId": "minna-no-nihongo-shokyu.37.grammar.2.formation",
+          "usageId": "minna-no-nihongo-shokyu.37.grammar.2.usage",
+          "pitfallId": "minna-no-nihongo-shokyu.37.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "minna-no-nihongo-shokyu.37.grammar.3",
+          "title": "N は 人 によって V受身形",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この絵は田中さんによって描かれました。",
+              "translationId": "minna-no-nihongo-shokyu.37.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この小説は夏目漱石によって書かれました。",
+              "translationId": "minna-no-nihongo-shokyu.37.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この建物は有名な建築家によって設計されました。",
+              "translationId": "minna-no-nihongo-shokyu.37.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.37.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "この絵は有名な画家（　）描かれました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.37.grammar.3.question.0.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.37.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "によって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "のためで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にとって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を通って"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.37.grammar.3.question.1",
+              "prompt": [
+                {
+                  "japanese": "呼ぶ → 受身形"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.37.grammar.3.question.1.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.37.grammar.3.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "呼ばれる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "呼ぼう"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "呼べる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "呼ばせる"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.37.grammar.3.question.2",
+              "prompt": [
+                {
+                  "japanese": "買う → 受身形"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.37.grammar.3.question.2.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.37.grammar.3.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "買あれる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "買わせる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "買われる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "買える"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.37.grammar.3.question.3",
+              "prompt": [
+                {
+                  "japanese": "褒める → 受身形"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.37.grammar.3.question.3.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.37.grammar.3.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "褒められる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "褒めれる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "褒めろ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "褒めさせる"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.37.grammar.3.question.4",
+              "prompt": [
+                {
+                  "japanese": "する／来る → "
+                },
+                {
+                  "textId": "minna-no-nihongo-shokyu.37.grammar.3.question.4.prompt.1"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.37.grammar.3.question.4.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.37.grammar.3.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "させる／こさせる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "しられる／きられる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "される／こられる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "すれる／くられる"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.37.grammar.3.question.5",
+              "prompt": [
+                {
+                  "japanese": "私は弟にケーキを食べられました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.37.grammar.3.question.5.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.37.grammar.3.question.5.explanation",
+              "options": [
+                [
+                  {
+                    "textId": "minna-no-nihongo-shokyu.37.grammar.3.question.5.option.0"
+                  }
+                ],
+                [
+                  {
+                    "textId": "minna-no-nihongo-shokyu.37.grammar.3.question.5.option.1"
+                  }
+                ],
+                [
+                  {
+                    "textId": "minna-no-nihongo-shokyu.37.grammar.3.question.5.option.2"
+                  }
+                ],
+                [
+                  {
+                    "textId": "minna-no-nihongo-shokyu.37.grammar.3.question.5.option.3"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.37.grammar.3.question.6",
+              "prompt": [
+                {
+                  "japanese": "隣の人が私のかばんを壊しました。"
+                },
+                {
+                  "textId": "minna-no-nihongo-shokyu.37.grammar.3.question.6.prompt.1"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.37.grammar.3.question.6.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.37.grammar.3.question.6.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "私は隣の人をかばんに壊されました。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "私は隣の人にかばんを壊しました。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "私は隣の人にかばんを壊されました。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "私は隣の人にかばんを壊させました。"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "minna-no-nihongo-shokyu.37.grammar.3.meaning",
+          "formationId": "minna-no-nihongo-shokyu.37.grammar.3.formation",
+          "usageId": "minna-no-nihongo-shokyu.37.grammar.3.usage",
+          "pitfallId": "minna-no-nihongo-shokyu.37.grammar.3.pitfall"
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

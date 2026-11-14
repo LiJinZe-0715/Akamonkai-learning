@@ -1,0 +1,132 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.3-02",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第2課 比較",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-02.grammar.0",
+          "title": "～に比べて・～と比べると",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "去年に比べて、今年は雨が多い。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-02.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "兄に比べて、弟はおとなしい。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-02.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-02.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-02.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-02.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-02.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-02.grammar.1",
+          "title": "～ほど～ない・～ほどではない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この問題は思ったほど難しくない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-02.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "私の料理は母ほどではない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-02.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-02.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "去年（　）、今年は雨が多い。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-02.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ばかりか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に沿って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ほど"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に比べて"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-02.grammar.1.question.1",
+              "prompt": [
+                {
+                  "japanese": "この問題は思った（　）難しくない。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-02.grammar.1.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ほど"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "しか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くらい"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-02.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-02.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-02.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-02.grammar.1.pitfall"
+        }
+      ]
+    }
+  }
+}

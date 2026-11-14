@@ -1,0 +1,133 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.3-11",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第11課 省略・繰り返し・言い換え",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-11.grammar.0",
+          "title": "省略（繰り返しを避ける）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "私は毎朝ジョギングをしている。健康のためだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-11.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼は本を読んでいる。とても集中している。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-11.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-11.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "（　）、彼は来なかったということだ。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-11.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "一方"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "しかし"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところが"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "つまり"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-11.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-11.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-11.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-11.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-11.grammar.1",
+          "title": "言い換え（つまり・要するに）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "つまり、彼は来なかったということだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-11.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "要するに、準備不足だったのだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-11.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-11.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "（　）、準備不足だったのだ。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-11.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ところで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "そのため"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "たとえば"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "要するに"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-11.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-11.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-11.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-11.grammar.1.pitfall"
+        }
+      ]
+    }
+  }
+}

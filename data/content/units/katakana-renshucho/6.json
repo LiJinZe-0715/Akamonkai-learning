@@ -1,0 +1,129 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.6",
+  "bookId": "katakana-renshucho",
+  "title": "第06課 食べ物②",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.6.word.0",
+          "word": "ピザ",
+          "reading": "ぴざ",
+          "meaningId": "katakana-renshucho.6.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.6.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.6.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ピザ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.6.word.1",
+          "word": "カレーライス",
+          "reading": "かれーらいす",
+          "meaningId": "katakana-renshucho.6.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.6.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.6.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "カレーライス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.6.word.2",
+          "word": "トースト",
+          "reading": "とーすと",
+          "meaningId": "katakana-renshucho.6.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.6.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.6.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "トースト"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.6.word.3",
+          "word": "ハンバーグ",
+          "reading": "はんばーぐ",
+          "meaningId": "katakana-renshucho.6.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.6.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.6.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ハンバーグ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.6.word.4",
+          "word": "サラダ",
+          "reading": "さらだ",
+          "meaningId": "katakana-renshucho.6.word.4.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.6.word.4.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.6.word.4.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "サラダ"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

@@ -1,0 +1,251 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-05",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第5課 ～だけ",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-05.grammar.0",
+          "title": "～に限り",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "先着100名様に限り、送料無料になります。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-05.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "本日に限り、全品20パーセント引きです。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-05.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-05.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-05.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-05.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-05.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-05.grammar.1",
+          "title": "～限り（は）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "生きている限り、夢を追い続けたい。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-05.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "学生である限り、規則を守るべきだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-05.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-05.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "生きている（　）、夢を追い続けたい。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-05.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "上で"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "最中"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "次第"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-05.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-05.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-05.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-05.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-05.grammar.2",
+          "title": "～限りでは",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "私が見た限りでは、彼は元気そうだった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-05.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "調べた限りでは、問題は見つからなかった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-05.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-05.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "先着100名様（　）、送料無料になります。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-05.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "限りでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "限りは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限り"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-05.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "私が見た（　）、彼は元気そうだった。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-05.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "限りは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "限りでは"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-05.grammar.2.question.2",
+              "prompt": [
+                {
+                  "japanese": "急いでいる日に（　）、電車が遅れる。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-05.grammar.2.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "限って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "限りでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "限り"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-05.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-05.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-05.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-05.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-05.grammar.3",
+          "title": "～に限って",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "急いでいる日に限って、電車が遅れる。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-05.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼に限って、そんな失敗はしない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-05.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-05.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-05.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-05.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-05.grammar.3.pitfall"
+        }
+      ]
+    }
+  }
+}

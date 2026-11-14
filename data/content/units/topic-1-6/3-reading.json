@@ -1,0 +1,1570 @@
+{
+  "kind": "lesson",
+  "id": "topic-1-6.3-reading",
+  "bookId": "topic-1-6",
+  "title": "Topic 3 読解：地震",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.0",
+          "word": "地震",
+          "reading": "じしん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.0.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 起こる",
+              "usageId": "topic-1-6.3-reading.word.0.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "震災",
+              "glossId": "topic-1-6.3-reading.word.30.meaning",
+              "differenceId": "topic-1-6.3-reading.word.0.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.1",
+          "word": "起こる",
+          "reading": "おこる",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.3-reading.word.1.meaning",
+          "patterns": [
+            {
+              "pattern": "N が <w>",
+              "usageId": "topic-1-6.3-reading.word.1.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "起きる",
+              "glossId": "topic-1-6.3-reading.word.2.meaning",
+              "differenceId": "topic-1-6.3-reading.word.1.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.2",
+          "word": "起きる",
+          "reading": "おきる",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.3-reading.word.2.meaning",
+          "patterns": [
+            {
+              "pattern": "N が <w>",
+              "usageId": "topic-1-6.3-reading.word.2.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "起こる",
+              "glossId": "topic-1-6.3-reading.word.1.meaning",
+              "differenceId": "topic-1-6.3-reading.word.2.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.3",
+          "word": "起こす",
+          "reading": "おこす",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.3-reading.word.3.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.3-reading.word.3.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "起きる",
+              "glossId": "topic-1-6.3-reading.word.2.meaning",
+              "differenceId": "topic-1-6.3-reading.word.3.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.4",
+          "word": "火災",
+          "reading": "かさい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.4.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 出る",
+              "usageId": "topic-1-6.3-reading.word.4.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "火事",
+              "glossId": "topic-1-6.3-reading.word.4.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.4.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.5",
+          "word": "災害",
+          "reading": "さいがい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.5.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 受ける",
+              "usageId": "topic-1-6.3-reading.word.5.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "震災",
+              "glossId": "topic-1-6.3-reading.word.30.meaning",
+              "differenceId": "topic-1-6.3-reading.word.5.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.6",
+          "word": "悲劇",
+          "reading": "ひげき",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.6.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 招く",
+              "usageId": "topic-1-6.3-reading.word.6.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "喜劇",
+              "glossId": "topic-1-6.3-reading.word.37.meaning",
+              "differenceId": "topic-1-6.3-reading.word.6.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.7",
+          "word": "くり返す",
+          "reading": "くりかえす",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.3-reading.word.7.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.3-reading.word.7.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "再発する",
+              "glossId": "topic-1-6.3-reading.word.7.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.7.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.8",
+          "word": "防災",
+          "reading": "ぼうさい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.8.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 訓練",
+              "usageId": "topic-1-6.3-reading.word.8.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "防火",
+              "glossId": "topic-1-6.3-reading.word.34.meaning",
+              "differenceId": "topic-1-6.3-reading.word.8.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.9",
+          "word": "注意する",
+          "reading": "ちゅういする",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.3-reading.word.9.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "topic-1-6.3-reading.word.9.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "気をつける",
+              "glossId": "topic-1-6.3-reading.word.9.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.9.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.10",
+          "word": "呼びかける",
+          "reading": "よびかける",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.3-reading.word.10.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "topic-1-6.3-reading.word.10.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "訴える",
+              "glossId": "topic-1-6.3-reading.word.10.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.10.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.11",
+          "word": "情報",
+          "reading": "じょうほう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.11.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 集める",
+              "usageId": "topic-1-6.3-reading.word.11.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "データ",
+              "glossId": "topic-1-6.3-reading.word.11.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.11.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.12",
+          "word": "前もって",
+          "reading": "まえもって",
+          "pos": "adverb",
+          "meaningId": "topic-1-6.3-reading.word.12.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 知らせる",
+              "usageId": "topic-1-6.3-reading.word.12.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "あらかじめ",
+              "glossId": "topic-1-6.3-reading.word.12.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.12.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.13",
+          "word": "知らせる",
+          "reading": "しらせる",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.3-reading.word.13.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "topic-1-6.3-reading.word.13.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "伝える",
+              "glossId": "topic-1-6.3-reading.word.13.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.13.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.14",
+          "word": "将来",
+          "reading": "しょうらい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.14.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 夢",
+              "usageId": "topic-1-6.3-reading.word.14.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "未来",
+              "glossId": "topic-1-6.3-reading.word.14.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.14.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.15",
+          "word": "機関",
+          "reading": "きかん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.15.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 問い合わせる",
+              "usageId": "topic-1-6.3-reading.word.15.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "組織",
+              "glossId": "topic-1-6.3-reading.word.15.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.15.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.16",
+          "word": "協力する",
+          "reading": "きょうりょくする",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.3-reading.word.16.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "topic-1-6.3-reading.word.16.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "助ける",
+              "glossId": "topic-1-6.3-reading.word.16.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.16.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.17",
+          "word": "予知",
+          "reading": "よち",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.17.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>する",
+              "usageId": "topic-1-6.3-reading.word.17.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "予測",
+              "glossId": "topic-1-6.3-reading.word.17.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.17.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.18",
+          "word": "観測",
+          "reading": "かんそく",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.18.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 行う",
+              "usageId": "topic-1-6.3-reading.word.18.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "観察",
+              "glossId": "topic-1-6.3-reading.word.18.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.18.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.19",
+          "word": "行う",
+          "reading": "おこなう",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.3-reading.word.19.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.3-reading.word.19.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "する",
+              "glossId": "topic-1-6.3-reading.word.19.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.19.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.20",
+          "word": "地下水",
+          "reading": "ちかすい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.20.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 減る",
+              "usageId": "topic-1-6.3-reading.word.20.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "雨水",
+              "glossId": "topic-1-6.3-reading.word.20.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.20.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.21",
+          "word": "量",
+          "reading": "りょう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.21.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 増える",
+              "usageId": "topic-1-6.3-reading.word.21.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "数",
+              "glossId": "topic-1-6.3-reading.word.21.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.21.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.22",
+          "word": "異常な",
+          "reading": "いじょうな",
+          "pos": "na-adjective",
+          "meaningId": "topic-1-6.3-reading.word.22.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>な 現象",
+              "usageId": "topic-1-6.3-reading.word.22.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "正常な",
+              "glossId": "topic-1-6.3-reading.word.38.meaning",
+              "differenceId": "topic-1-6.3-reading.word.22.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.23",
+          "word": "行動",
+          "reading": "こうどう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.23.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を とる",
+              "usageId": "topic-1-6.3-reading.word.23.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "行為",
+              "glossId": "topic-1-6.3-reading.word.23.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.23.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.24",
+          "word": "結びつく",
+          "reading": "むすびつく",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.3-reading.word.24.meaning",
+          "patterns": [
+            {
+              "pattern": "N と <w>",
+              "usageId": "topic-1-6.3-reading.word.24.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "関係する",
+              "glossId": "topic-1-6.3-reading.word.24.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.24.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.25",
+          "word": "判断する",
+          "reading": "はんだんする",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.3-reading.word.25.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.3-reading.word.25.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "決める",
+              "glossId": "topic-1-6.3-reading.word.25.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.25.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.26",
+          "word": "～率",
+          "reading": "~りつ",
+          "pos": "suffix",
+          "meaningId": "topic-1-6.3-reading.word.26.meaning",
+          "contrasts": [
+            {
+              "word": "割合",
+              "glossId": "topic-1-6.3-reading.word.26.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.26.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.27",
+          "word": "予知率",
+          "reading": "よちりつ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.27.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 上がる",
+              "usageId": "topic-1-6.3-reading.word.27.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "成功率",
+              "glossId": "topic-1-6.3-reading.word.28.meaning",
+              "differenceId": "topic-1-6.3-reading.word.27.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.28",
+          "word": "成功率",
+          "reading": "せいこうりつ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.28.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 上げる",
+              "usageId": "topic-1-6.3-reading.word.28.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.29",
+          "word": "間違いない",
+          "reading": "まちがいない",
+          "pos": "expression",
+          "meaningId": "topic-1-6.3-reading.word.29.meaning",
+          "patterns": [
+            {
+              "pattern": "N は <w>",
+              "usageId": "topic-1-6.3-reading.word.29.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "確かだ",
+              "glossId": "topic-1-6.3-reading.word.29.contrast.0.gloss",
+              "differenceId": "topic-1-6.3-reading.word.29.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.30",
+          "word": "震災",
+          "reading": "しんさい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.30.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 被害",
+              "usageId": "topic-1-6.3-reading.word.30.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "災害",
+              "glossId": "topic-1-6.3-reading.word.5.meaning",
+              "differenceId": "topic-1-6.3-reading.word.30.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.31",
+          "word": "震源地",
+          "reading": "しんげんち",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.31.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 特定する",
+              "usageId": "topic-1-6.3-reading.word.31.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "震度",
+              "glossId": "topic-1-6.3-reading.word.36.meaning",
+              "differenceId": "topic-1-6.3-reading.word.31.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.32",
+          "word": "関東地方",
+          "reading": "かんとうちほう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.32.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 中心に 広がる",
+              "usageId": "topic-1-6.3-reading.word.32.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.33",
+          "word": "東海地方",
+          "reading": "とうかいちほう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.33.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で 地震が 起こる",
+              "usageId": "topic-1-6.3-reading.word.33.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.34",
+          "word": "防火",
+          "reading": "ぼうか",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.34.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の ため",
+              "usageId": "topic-1-6.3-reading.word.34.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "防水",
+              "glossId": "topic-1-6.3-reading.word.35.meaning",
+              "differenceId": "topic-1-6.3-reading.word.34.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.35",
+          "word": "防水",
+          "reading": "ぼうすい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.35.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 時計",
+              "usageId": "topic-1-6.3-reading.word.35.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "防火",
+              "glossId": "topic-1-6.3-reading.word.34.meaning",
+              "differenceId": "topic-1-6.3-reading.word.35.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.36",
+          "word": "震度",
+          "reading": "しんど",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.36.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 大きい",
+              "usageId": "topic-1-6.3-reading.word.36.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "震源地",
+              "glossId": "topic-1-6.3-reading.word.31.meaning",
+              "differenceId": "topic-1-6.3-reading.word.36.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.37",
+          "word": "喜劇",
+          "reading": "きげき",
+          "pos": "noun",
+          "meaningId": "topic-1-6.3-reading.word.37.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の ようだ",
+              "usageId": "topic-1-6.3-reading.word.37.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.3-reading.word.38",
+          "word": "正常な",
+          "reading": "せいじょうな",
+          "pos": "na-adjective",
+          "meaningId": "topic-1-6.3-reading.word.38.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 戻る",
+              "usageId": "topic-1-6.3-reading.word.38.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "異常な",
+              "glossId": "topic-1-6.3-reading.word.22.meaning",
+              "differenceId": "topic-1-6.3-reading.word.38.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-reading.grammar.0",
+          "title": "読解・内容のまとめ",
+          "examples": [],
+          "noteIds": [
+            "topic-1-6.3-reading.grammar.0.note.0",
+            "topic-1-6.3-reading.grammar.0.note.1",
+            "topic-1-6.3-reading.grammar.0.note.2",
+            "topic-1-6.3-reading.grammar.0.note.3"
+          ],
+          "children": [],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-reading.grammar.1",
+          "title": "～ように言う／頼む／注意する",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "先生に早く寝るように言われた。",
+              "translationId": "topic-1-6.3-reading.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "部長に資料を送るように頼まれた。",
+              "translationId": "topic-1-6.3-reading.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-reading.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "母に、うそを（つかない）＿＿ように注意されました。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-reading.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "つかない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "つかなく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "つきません"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "つかないで"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.3-reading.grammar.1.meaning",
+          "formationId": "topic-1-6.3-reading.grammar.1.formation",
+          "usageId": "topic-1-6.3-reading.grammar.1.usage",
+          "pitfallId": "topic-1-6.3-reading.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-reading.grammar.2",
+          "title": "～ため（に）【原因】",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "大雨のため、電車が止まった。",
+              "translationId": "topic-1-6.3-reading.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "不便なため、だれも住んでいない。",
+              "translationId": "topic-1-6.3-reading.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-reading.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "妻にケーキを買って＿＿ように頼まれました。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-reading.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "きて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "きたで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "きます"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-reading.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "工事中＿＿ため、この道は通れません。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-reading.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "な"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "の"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-reading.grammar.2.question.2",
+              "prompt": [
+                {
+                  "japanese": "交通が（不便だ）＿＿ため、車が必要です。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-reading.grammar.2.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "不便だ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "不便な"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "不便に"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "不便の"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-reading.grammar.2.question.3",
+              "prompt": [
+                {
+                  "japanese": "風が（強い）＿＿ため、船が出ません。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-reading.grammar.2.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "強いな"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "強いの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "強くだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "強い"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-reading.grammar.2.question.4",
+              "prompt": [
+                {
+                  "japanese": "新幹線が（止まる）＿＿ために、会議に間に合いませんでした。"
+                },
+                {
+                  "textId": "topic-1-6.3-reading.grammar.2.question.4.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.3-reading.grammar.2.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "止まっての"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "止まりました"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "止まっただ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "止まった"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-reading.grammar.2.question.5",
+              "prompt": [
+                {
+                  "japanese": "地震がいつ起こるかを正確に知るのは難しい。しかし、家具が倒れないようにしたり、避難する場所を確認したりすることはできる。こうした備えは、地震による被害を減らすために大切である。動物の様子がいつもと違っていても、それだけで地震が起こるとは言えない。\n\n【補充読解】この文章で最も伝えたいことは何ですか。"
+                }
+              ],
+              "instructionId": "topic-1-6.3-reading.grammar.2.question.5.instruction",
+              "explanationId": "topic-1-6.3-reading.grammar.2.question.5.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "家具を減らせば地震は起こらない。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "地震の予測が難しくても、被害を減らす備えはできる。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "避難する場所を確認する必要はない。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "動物を見れば地震の時刻が分かる。"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-reading.grammar.2.question.6",
+              "prompt": [
+                {
+                  "japanese": "地震がいつ起こるかを正確に知るのは難しい。しかし、家具が倒れないようにしたり、避難する場所を確認したりすることはできる。こうした備えは、地震による被害を減らすために大切である。動物の様子がいつもと違っていても、それだけで地震が起こるとは言えない。\n\n【補充読解】文章に書かれている備えはどれですか。"
+                }
+              ],
+              "instructionId": "topic-1-6.3-reading.grammar.2.question.6.instruction",
+              "explanationId": "topic-1-6.3-reading.grammar.2.question.6.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "地震の日を決める。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "家具が倒れないようにする。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "すべての家具を外に捨てる。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "毎日動物を数える。"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-reading.grammar.2.question.7",
+              "prompt": [
+                {
+                  "japanese": "地震がいつ起こるかを正確に知るのは難しい。しかし、家具が倒れないようにしたり、避難する場所を確認したりすることはできる。こうした備えは、地震による被害を減らすために大切である。動物の様子がいつもと違っていても、それだけで地震が起こるとは言えない。\n\n【補充読解】「こうした備え」は何を指していますか。"
+                }
+              ],
+              "instructionId": "topic-1-6.3-reading.grammar.2.question.7.instruction",
+              "explanationId": "topic-1-6.3-reading.grammar.2.question.7.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "動物の様子の変化だけ。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "家具を買うこと。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "地震が起こる時刻だけ。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "家具の転倒防止と避難場所の確認。"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-reading.grammar.2.question.8",
+              "prompt": [
+                {
+                  "japanese": "地震がいつ起こるかを正確に知るのは難しい。しかし、家具が倒れないようにしたり、避難する場所を確認したりすることはできる。こうした備えは、地震による被害を減らすために大切である。動物の様子がいつもと違っていても、それだけで地震が起こるとは言えない。\n\n【補充読解】動物の様子だけで地震を判断できないとする文はどれですか。"
+                }
+              ],
+              "instructionId": "topic-1-6.3-reading.grammar.2.question.8.instruction",
+              "explanationId": "topic-1-6.3-reading.grammar.2.question.8.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "被害を減らすために大切である。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "家具が倒れないようにする。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "それだけで地震が起こるとは言えない。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "避難する場所を確認する。"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.3-reading.grammar.2.meaning",
+          "formationId": "topic-1-6.3-reading.grammar.2.formation",
+          "usageId": "topic-1-6.3-reading.grammar.2.usage",
+          "pitfallId": "topic-1-6.3-reading.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-reading.grammar.3",
+          "title": "～を中心に（して）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "東京を中心に雨が降った。",
+              "translationId": "topic-1-6.3-reading.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼を中心にして、チームがまとまった。",
+              "translationId": "topic-1-6.3-reading.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-reading.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "先生に、レポートを（出す）＿＿ように言われました。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-reading.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "出す"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "出したで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "出します"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "出して"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-reading.grammar.3.question.1",
+              "prompt": [
+                {
+                  "japanese": "東京＿＿中心にして、関東地方で大雨が降るでしょう。"
+                }
+              ],
+              "explanationId": "topic-1-6.3-reading.grammar.3.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "が"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "の"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.3-reading.grammar.3.meaning",
+          "formationId": "topic-1-6.3-reading.grammar.3.formation",
+          "usageId": "topic-1-6.3-reading.grammar.3.usage",
+          "pitfallId": "topic-1-6.3-reading.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-reading.grammar.4",
+          "title": "～ことがある",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この電車は止まることがある。",
+              "translationId": "topic-1-6.3-reading.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "肉を食べないこともある。",
+              "translationId": "topic-1-6.3-reading.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "topic-1-6.3-reading.grammar.4.meaning",
+          "formationId": "topic-1-6.3-reading.grammar.4.formation",
+          "usageId": "topic-1-6.3-reading.grammar.4.usage",
+          "pitfallId": "topic-1-6.3-reading.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-reading.grammar.5",
+          "title": "例文の解説",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "中山先生にこのCDを木村先生に渡すように言われたんですが……。",
+              "translationId": "topic-1-6.3-reading.grammar.5.example.0.translation",
+              "analysisId": "topic-1-6.3-reading.grammar.5.example.0.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "妻にケーキを買ってくるように頼まれました。",
+              "translationId": "topic-1-6.3-reading.grammar.5.example.1.translation",
+              "analysisId": "topic-1-6.3-reading.grammar.5.example.1.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "子どもの頃、両親にうそをつかないように注意されました。",
+              "translationId": "topic-1-6.3-reading.grammar.5.example.2.translation",
+              "analysisId": "topic-1-6.3-reading.grammar.5.example.2.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "出席率が悪かったために、彼は学校をやめて、帰国しなければならなかった。",
+              "translationId": "topic-1-6.3-reading.grammar.5.example.3.translation",
+              "analysisId": "topic-1-6.3-reading.grammar.5.example.3.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "工事中のため、この道は通れません。",
+              "translationId": "topic-1-6.3-reading.grammar.5.example.4.translation",
+              "analysisId": "topic-1-6.3-reading.grammar.5.example.4.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "明日は東京を中心にして、関東地方で大雨が降るでしょう。",
+              "translationId": "topic-1-6.3-reading.grammar.5.example.5.translation",
+              "analysisId": "topic-1-6.3-reading.grammar.5.example.5.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "新幹線はあまり止まらないが、雪の日は止まることがある。",
+              "translationId": "topic-1-6.3-reading.grammar.5.example.6.translation",
+              "analysisId": "topic-1-6.3-reading.grammar.5.example.6.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "晩ご飯はたいてい家で食べるが、帰りが遅い日は食べないこともある。",
+              "translationId": "topic-1-6.3-reading.grammar.5.example.7.translation",
+              "analysisId": "topic-1-6.3-reading.grammar.5.example.7.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "このような悲劇をくり返さないように。",
+              "translationId": "topic-1-6.3-reading.grammar.5.example.8.translation",
+              "analysisId": "topic-1-6.3-reading.grammar.5.example.8.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "大地震が起こるかもしれない。",
+              "translationId": "topic-1-6.3-reading.grammar.5.example.9.translation",
+              "analysisId": "topic-1-6.3-reading.grammar.5.example.9.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "動物が異常な行動をしたりすることがある。",
+              "translationId": "topic-1-6.3-reading.grammar.5.example.10.translation",
+              "analysisId": "topic-1-6.3-reading.grammar.5.example.10.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "向上していくことは間違いない。",
+              "translationId": "topic-1-6.3-reading.grammar.5.example.11.translation",
+              "analysisId": "topic-1-6.3-reading.grammar.5.example.11.analysis"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": []
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.3-reading.grammar.6",
+          "title": "補充読解・練習（オリジナル）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "地震がいつ起こるかを正確に知るのは難しい。しかし、家具が倒れないようにしたり、避難する場所を確認したりすることはできる。こうした備えは、地震による被害を減らすために大切である。動物の様子がいつもと違っていても、それだけで地震が起こるとは言えない。",
+              "translationId": "topic-1-6.3-reading.grammar.6.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "topic-1-6.3-reading.grammar.6.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-reading.grammar.6.question.0",
+              "prompt": [
+                {
+                  "japanese": "雪の日は、新幹線が＿＿ことがあります。"
+                },
+                {
+                  "textId": "topic-1-6.3-reading.grammar.6.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.3-reading.grammar.6.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "止まった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "止まる"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "止まります"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "止まって"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.3-reading.grammar.6.question.1",
+              "prompt": [
+                {
+                  "japanese": "忙しい日は晩ご飯を＿＿こともあります。"
+                },
+                {
+                  "textId": "topic-1-6.3-reading.grammar.6.question.1.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.3-reading.grammar.6.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "食べないで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べなく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "食べません"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

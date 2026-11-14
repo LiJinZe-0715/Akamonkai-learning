@@ -1,0 +1,1455 @@
+{
+  "kind": "lesson",
+  "id": "minna-no-nihongo-shokyu.5",
+  "bookId": "minna-no-nihongo-shokyu",
+  "title": "第5課",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.0",
+          "word": "―番線",
+          "reading": "~ばんせん",
+          "pos": "counter",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.0.meaning",
+          "contrasts": [
+            {
+              "word": "駅",
+              "glossId": "minna-no-nihongo-shokyu.5.word.6.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.0.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.1",
+          "word": "行きます",
+          "reading": "いきます",
+          "lemma": "行く",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.1.meaning",
+          "patterns": [
+            {
+              "pattern": "学校へ <w>",
+              "usageId": "minna-no-nihongo-shokyu.5.word.1.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "来ます",
+              "glossId": "minna-no-nihongo-shokyu.5.word.2.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.1.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.2",
+          "word": "来ます",
+          "reading": "きます",
+          "lemma": "来る",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.2.meaning",
+          "patterns": [
+            {
+              "pattern": "友達が <w>",
+              "usageId": "minna-no-nihongo-shokyu.5.word.2.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "帰ります",
+              "glossId": "minna-no-nihongo-shokyu.5.word.3.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.2.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.3",
+          "word": "帰ります",
+          "reading": "かえります",
+          "lemma": "帰る",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.3.meaning",
+          "patterns": [
+            {
+              "pattern": "うちへ <w>",
+              "usageId": "minna-no-nihongo-shokyu.5.word.3.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "行きます",
+              "glossId": "minna-no-nihongo-shokyu.5.word.1.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.3.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.4",
+          "word": "学校",
+          "reading": "がっこう",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.4.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>へ 行く",
+              "usageId": "minna-no-nihongo-shokyu.5.word.4.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "会社",
+              "glossId": "minna-no-nihongo-shokyu.5.word.4.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.4.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.5",
+          "word": "スーパー",
+          "reading": "すーぱー",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.5.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で 買う",
+              "usageId": "minna-no-nihongo-shokyu.5.word.5.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.6",
+          "word": "駅",
+          "reading": "えき",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.6.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で 待つ",
+              "usageId": "minna-no-nihongo-shokyu.5.word.6.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "―番線",
+              "glossId": "minna-no-nihongo-shokyu.5.word.0.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.6.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.7",
+          "word": "飛行機",
+          "reading": "ひこうき",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.7.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で 行く",
+              "usageId": "minna-no-nihongo-shokyu.5.word.7.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "船",
+              "glossId": "minna-no-nihongo-shokyu.5.word.8.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.7.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.8",
+          "word": "船",
+          "reading": "ふね",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.8.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で 行く",
+              "usageId": "minna-no-nihongo-shokyu.5.word.8.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "飛行機",
+              "glossId": "minna-no-nihongo-shokyu.5.word.7.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.8.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.9",
+          "word": "電車",
+          "reading": "でんしゃ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.9.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 乗る",
+              "usageId": "minna-no-nihongo-shokyu.5.word.9.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "地下鉄",
+              "glossId": "minna-no-nihongo-shokyu.5.word.10.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.9.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.10",
+          "word": "地下鉄",
+          "reading": "ちかてつ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.10.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 乗る",
+              "usageId": "minna-no-nihongo-shokyu.5.word.10.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "電車",
+              "glossId": "minna-no-nihongo-shokyu.5.word.9.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.10.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.11",
+          "word": "新幹線",
+          "reading": "しんかんせん",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.11.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で 行く",
+              "usageId": "minna-no-nihongo-shokyu.5.word.11.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "電車",
+              "glossId": "minna-no-nihongo-shokyu.5.word.9.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.11.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.12",
+          "word": "バス",
+          "reading": "ばす",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.12.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 乗る",
+              "usageId": "minna-no-nihongo-shokyu.5.word.12.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "タクシー",
+              "glossId": "minna-no-nihongo-shokyu.5.word.13.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.12.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.13",
+          "word": "タクシー",
+          "reading": "たくしー",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.13.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で 行く",
+              "usageId": "minna-no-nihongo-shokyu.5.word.13.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "バス",
+              "glossId": "minna-no-nihongo-shokyu.5.word.12.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.13.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.14",
+          "word": "自転車",
+          "reading": "じてんしゃ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.14.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で 行く",
+              "usageId": "minna-no-nihongo-shokyu.5.word.14.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "歩いて",
+              "glossId": "minna-no-nihongo-shokyu.5.word.15.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.14.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.15",
+          "word": "歩いて",
+          "reading": "あるいて",
+          "pos": "adverb",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.15.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 行く",
+              "usageId": "minna-no-nihongo-shokyu.5.word.15.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "自転車",
+              "glossId": "minna-no-nihongo-shokyu.5.word.14.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.15.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.16",
+          "word": "人",
+          "reading": "ひと",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.16.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が います",
+              "usageId": "minna-no-nihongo-shokyu.5.word.16.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "家族",
+              "glossId": "minna-no-nihongo-shokyu.5.word.20.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.16.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.17",
+          "word": "友達",
+          "reading": "ともだち",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.17.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 会う",
+              "usageId": "minna-no-nihongo-shokyu.5.word.17.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "家族",
+              "glossId": "minna-no-nihongo-shokyu.5.word.20.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.17.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.18",
+          "word": "彼",
+          "reading": "かれ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.18.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>は 学生です",
+              "usageId": "minna-no-nihongo-shokyu.5.word.18.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "彼女",
+              "glossId": "minna-no-nihongo-shokyu.5.word.19.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.18.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.19",
+          "word": "彼女",
+          "reading": "かのじょ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.19.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>は 学生です",
+              "usageId": "minna-no-nihongo-shokyu.5.word.19.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "彼",
+              "glossId": "minna-no-nihongo-shokyu.5.word.18.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.19.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.20",
+          "word": "家族",
+          "reading": "かぞく",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.20.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>と 行く",
+              "usageId": "minna-no-nihongo-shokyu.5.word.20.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "友達",
+              "glossId": "minna-no-nihongo-shokyu.5.word.17.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.20.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.21",
+          "word": "先週",
+          "reading": "せんしゅう",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.21.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 来ました",
+              "usageId": "minna-no-nihongo-shokyu.5.word.21.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "来週",
+              "glossId": "minna-no-nihongo-shokyu.5.word.23.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.21.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.22",
+          "word": "今週",
+          "reading": "こんしゅう",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.22.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>は 忙しいです",
+              "usageId": "minna-no-nihongo-shokyu.5.word.22.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "先週",
+              "glossId": "minna-no-nihongo-shokyu.5.word.21.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.22.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.23",
+          "word": "来週",
+          "reading": "らいしゅう",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.23.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行きます",
+              "usageId": "minna-no-nihongo-shokyu.5.word.23.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "先週",
+              "glossId": "minna-no-nihongo-shokyu.5.word.21.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.23.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.24",
+          "word": "先月",
+          "reading": "せんげつ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.24.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 来ました",
+              "usageId": "minna-no-nihongo-shokyu.5.word.24.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "来月",
+              "glossId": "minna-no-nihongo-shokyu.5.word.26.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.24.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.25",
+          "word": "今月",
+          "reading": "こんげつ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.25.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>は 忙しいです",
+              "usageId": "minna-no-nihongo-shokyu.5.word.25.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "先月",
+              "glossId": "minna-no-nihongo-shokyu.5.word.24.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.25.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.26",
+          "word": "来月",
+          "reading": "らいげつ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.26.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行きます",
+              "usageId": "minna-no-nihongo-shokyu.5.word.26.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "先月",
+              "glossId": "minna-no-nihongo-shokyu.5.word.24.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.26.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.27",
+          "word": "去年",
+          "reading": "きょねん",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.27.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 来ました",
+              "usageId": "minna-no-nihongo-shokyu.5.word.27.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "来年",
+              "glossId": "minna-no-nihongo-shokyu.5.word.29.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.27.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.28",
+          "word": "ことし",
+          "reading": "ことし",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.28.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>は 忙しいです",
+              "usageId": "minna-no-nihongo-shokyu.5.word.28.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "去年",
+              "glossId": "minna-no-nihongo-shokyu.5.word.27.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.28.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.29",
+          "word": "来年",
+          "reading": "らいねん",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.29.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行きます",
+              "usageId": "minna-no-nihongo-shokyu.5.word.29.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "去年",
+              "glossId": "minna-no-nihongo-shokyu.5.word.27.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.29.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.30",
+          "word": "－月",
+          "reading": "―がつ",
+          "pos": "counter",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.30.meaning",
+          "contrasts": [
+            {
+              "word": "何月",
+              "glossId": "minna-no-nihongo-shokyu.5.word.31.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.30.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.31",
+          "word": "何月",
+          "reading": "なんがつ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.31.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>ですか",
+              "usageId": "minna-no-nihongo-shokyu.5.word.31.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.32",
+          "word": "１日",
+          "reading": "ついたち",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.32.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行きます",
+              "usageId": "minna-no-nihongo-shokyu.5.word.32.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "－日",
+              "glossId": "minna-no-nihongo-shokyu.5.word.45.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.32.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.33",
+          "word": "２日",
+          "reading": "ふつか",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.33.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行きます",
+              "usageId": "minna-no-nihongo-shokyu.5.word.33.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.34",
+          "word": "３日",
+          "reading": "みっか",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.34.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行きます",
+              "usageId": "minna-no-nihongo-shokyu.5.word.34.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.35",
+          "word": "４日",
+          "reading": "よっか",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.35.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行きます",
+              "usageId": "minna-no-nihongo-shokyu.5.word.35.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.36",
+          "word": "５日",
+          "reading": "いつか",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.36.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行きます",
+              "usageId": "minna-no-nihongo-shokyu.5.word.36.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.37",
+          "word": "６日",
+          "reading": "むいか",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.37.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行きます",
+              "usageId": "minna-no-nihongo-shokyu.5.word.37.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.38",
+          "word": "７日",
+          "reading": "なのか",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.38.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行きます",
+              "usageId": "minna-no-nihongo-shokyu.5.word.38.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.39",
+          "word": "８日",
+          "reading": "ようか",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.39.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行きます",
+              "usageId": "minna-no-nihongo-shokyu.5.word.39.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.40",
+          "word": "９日",
+          "reading": "ここのか",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.40.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行きます",
+              "usageId": "minna-no-nihongo-shokyu.5.word.40.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.41",
+          "word": "１０日",
+          "reading": "とおか",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.41.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行きます",
+              "usageId": "minna-no-nihongo-shokyu.5.word.41.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.42",
+          "word": "１４日",
+          "reading": "じゅうよっか",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.42.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行きます",
+              "usageId": "minna-no-nihongo-shokyu.5.word.42.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.43",
+          "word": "２０日",
+          "reading": "はつか",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.43.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行きます",
+              "usageId": "minna-no-nihongo-shokyu.5.word.43.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "２４日",
+              "glossId": "minna-no-nihongo-shokyu.5.word.44.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.43.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.44",
+          "word": "２４日",
+          "reading": "にじゅうよっか",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.44.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 行きます",
+              "usageId": "minna-no-nihongo-shokyu.5.word.44.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.45",
+          "word": "－日",
+          "reading": "―にち",
+          "pos": "counter",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.45.meaning",
+          "contrasts": [
+            {
+              "word": "何日",
+              "glossId": "minna-no-nihongo-shokyu.5.word.46.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.45.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.46",
+          "word": "何日",
+          "reading": "なんにち",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.46.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>ですか",
+              "usageId": "minna-no-nihongo-shokyu.5.word.46.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.47",
+          "word": "いつ",
+          "reading": "いつ",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.47.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 行きますか",
+              "usageId": "minna-no-nihongo-shokyu.5.word.47.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "何日",
+              "glossId": "minna-no-nihongo-shokyu.5.word.46.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.47.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.48",
+          "word": "誕生日",
+          "reading": "たんじょうび",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.48.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>は いつですか",
+              "usageId": "minna-no-nihongo-shokyu.5.word.48.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "いつ",
+              "glossId": "minna-no-nihongo-shokyu.5.word.47.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.48.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.49",
+          "word": "普通",
+          "reading": "ふつう",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.49.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で 行く",
+              "usageId": "minna-no-nihongo-shokyu.5.word.49.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "急行",
+              "glossId": "minna-no-nihongo-shokyu.5.word.50.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.49.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.50",
+          "word": "急行",
+          "reading": "きゅうこう",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.50.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で 行く",
+              "usageId": "minna-no-nihongo-shokyu.5.word.50.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "特急",
+              "glossId": "minna-no-nihongo-shokyu.5.word.51.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.50.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.51",
+          "word": "特急",
+          "reading": "とっきゅう",
+          "pos": "noun",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.51.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で 行く",
+              "usageId": "minna-no-nihongo-shokyu.5.word.51.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "普通",
+              "glossId": "minna-no-nihongo-shokyu.5.word.49.meaning",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.51.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.52",
+          "word": "次の",
+          "reading": "つぎの",
+          "pos": "adnominal",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.52.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 電車",
+              "usageId": "minna-no-nihongo-shokyu.5.word.52.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "前の",
+              "glossId": "minna-no-nihongo-shokyu.5.word.52.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.52.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "minna-no-nihongo-shokyu.5.word.53",
+          "word": "どういたしまして",
+          "reading": "どういたしまして",
+          "pos": "expression",
+          "meaningId": "minna-no-nihongo-shokyu.5.word.53.meaning",
+          "contrasts": [
+            {
+              "word": "ありがとう",
+              "glossId": "minna-no-nihongo-shokyu.5.word.53.contrast.0.gloss",
+              "differenceId": "minna-no-nihongo-shokyu.5.word.53.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "minna-no-nihongo-shokyu.5.grammar.0",
+          "title": "場所 へ 行きます／来ます／帰ります",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "来月、日本へ行きます。",
+              "translationId": "minna-no-nihongo-shokyu.5.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "明日、京都へ行きます。",
+              "translationId": "minna-no-nihongo-shokyu.5.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "七時に家へ帰ります。",
+              "translationId": "minna-no-nihongo-shokyu.5.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.5.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "来週、京都（　）行きます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.5.grammar.0.question.0.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.5.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "へ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "で"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "と"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.5.grammar.0.question.1",
+              "prompt": [
+                {
+                  "japanese": "バス（　）学校へ行きます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.5.grammar.0.question.1.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.5.grammar.0.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "へ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "で"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.5.grammar.0.question.2",
+              "prompt": [
+                {
+                  "japanese": "八時（　）家へ帰ります。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.5.grammar.0.question.2.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.5.grammar.0.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "で"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "と"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.5.grammar.0.question.3",
+              "prompt": [
+                {
+                  "japanese": "駅まで（　）行きます。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.5.grammar.0.question.3.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.5.grammar.0.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "歩いて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "歩くに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "歩くで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "歩きで"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "minna-no-nihongo-shokyu.5.grammar.0.meaning",
+          "formationId": "minna-no-nihongo-shokyu.5.grammar.0.formation",
+          "usageId": "minna-no-nihongo-shokyu.5.grammar.0.usage",
+          "pitfallId": "minna-no-nihongo-shokyu.5.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "minna-no-nihongo-shokyu.5.grammar.1",
+          "title": "乗り物 で 行きます",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "電車で会社へ行きます。",
+              "translationId": "minna-no-nihongo-shokyu.5.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "バスで学校へ行きます。",
+              "translationId": "minna-no-nihongo-shokyu.5.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "自転車で駅まで行きます。",
+              "translationId": "minna-no-nihongo-shokyu.5.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "minna-no-nihongo-shokyu.5.grammar.1.meaning",
+          "formationId": "minna-no-nihongo-shokyu.5.grammar.1.formation",
+          "usageId": "minna-no-nihongo-shokyu.5.grammar.1.usage",
+          "pitfallId": "minna-no-nihongo-shokyu.5.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "minna-no-nihongo-shokyu.5.grammar.2",
+          "title": "人 と 行きます",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "家族と京都へ行きます。",
+              "translationId": "minna-no-nihongo-shokyu.5.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "友達と映画を見に行きます。",
+              "translationId": "minna-no-nihongo-shokyu.5.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "母と買い物に行きます。",
+              "translationId": "minna-no-nihongo-shokyu.5.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.5.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "友達（　）大阪へ行きました。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.5.grammar.2.question.0.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.5.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "へ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "と"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "を"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "minna-no-nihongo-shokyu.5.grammar.2.meaning",
+          "formationId": "minna-no-nihongo-shokyu.5.grammar.2.formation",
+          "usageId": "minna-no-nihongo-shokyu.5.grammar.2.usage",
+          "pitfallId": "minna-no-nihongo-shokyu.5.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "minna-no-nihongo-shokyu.5.grammar.3",
+          "title": "時刻 に 行きます",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日曜日に大阪へ行きます。",
+              "translationId": "minna-no-nihongo-shokyu.5.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "三月に国へ帰ります。",
+              "translationId": "minna-no-nihongo-shokyu.5.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "土曜日に友達と会います。",
+              "translationId": "minna-no-nihongo-shokyu.5.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "minna-no-nihongo-shokyu.5.grammar.3.meaning",
+          "formationId": "minna-no-nihongo-shokyu.5.grammar.3.formation",
+          "usageId": "minna-no-nihongo-shokyu.5.grammar.3.usage",
+          "pitfallId": "minna-no-nihongo-shokyu.5.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "minna-no-nihongo-shokyu.5.grammar.4",
+          "title": "どこへも 行きません",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "今日はどこへも行きません。",
+              "translationId": "minna-no-nihongo-shokyu.5.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "昨日はどこへも行きませんでした。",
+              "translationId": "minna-no-nihongo-shokyu.5.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "夏休みはどこへも行きません。",
+              "translationId": "minna-no-nihongo-shokyu.5.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "minna-no-nihongo-shokyu.5.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "休みの日はどこへも（　）。"
+                }
+              ],
+              "instructionId": "minna-no-nihongo-shokyu.5.grammar.4.question.0.instruction",
+              "explanationId": "minna-no-nihongo-shokyu.5.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "行きましょう"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "行きたいです"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "行きます"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "行きません"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "minna-no-nihongo-shokyu.5.grammar.4.meaning",
+          "formationId": "minna-no-nihongo-shokyu.5.grammar.4.formation",
+          "usageId": "minna-no-nihongo-shokyu.5.grammar.4.usage",
+          "pitfallId": "minna-no-nihongo-shokyu.5.grammar.4.pitfall"
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

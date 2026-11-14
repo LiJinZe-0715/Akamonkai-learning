@@ -1,0 +1,1021 @@
+{
+  "kind": "lesson",
+  "id": "topic-1-6.1-1",
+  "bookId": "topic-1-6",
+  "title": "1-1 あのころ、そのころ",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "topic-1-6.1-1.word.0",
+          "word": "湖",
+          "reading": "みずうみ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.1-1.word.0.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の ほとり",
+              "usageId": "topic-1-6.1-1.word.0.pattern.0.usage"
+            },
+            {
+              "pattern": "<w>を 眺める",
+              "usageId": "topic-1-6.1-1.word.0.pattern.1.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "池",
+              "glossId": "topic-1-6.1-1.word.0.contrast.0.gloss",
+              "differenceId": "topic-1-6.1-1.word.0.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.1-1.word.1",
+          "word": "幼なじみ",
+          "reading": "おさななじみ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.1-1.word.1.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>と 再会する",
+              "usageId": "topic-1-6.1-1.word.1.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "旧友",
+              "glossId": "topic-1-6.1-1.word.1.contrast.0.gloss",
+              "differenceId": "topic-1-6.1-1.word.1.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.1-1.word.2",
+          "word": "いっぱい",
+          "reading": "いっぱい",
+          "pos": "adverb",
+          "meaningId": "topic-1-6.1-1.word.2.meaning",
+          "patterns": [
+            {
+              "pattern": "おなかが <w>",
+              "usageId": "topic-1-6.1-1.word.2.pattern.0.usage"
+            },
+            {
+              "pattern": "<w> 遊ぶ",
+              "usageId": "topic-1-6.1-1.word.2.pattern.1.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "たくさん",
+              "glossId": "topic-1-6.1-1.word.2.contrast.0.gloss",
+              "differenceId": "topic-1-6.1-1.word.2.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.1-1.word.3",
+          "word": "ホタル",
+          "reading": "ほたる",
+          "pos": "noun",
+          "meaningId": "topic-1-6.1-1.word.3.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 飛ぶ",
+              "usageId": "topic-1-6.1-1.word.3.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.1-1.word.4",
+          "word": "トンボ",
+          "reading": "とんぼ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.1-1.word.4.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>が 枝に 止まる",
+              "usageId": "topic-1-6.1-1.word.4.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.1-1.word.5",
+          "word": "カブトムシ",
+          "reading": "かぶとむし",
+          "pos": "noun",
+          "meaningId": "topic-1-6.1-1.word.5.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 捕まえる",
+              "usageId": "topic-1-6.1-1.word.5.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "クワガタ",
+              "glossId": "topic-1-6.1-1.word.5.contrast.0.gloss",
+              "differenceId": "topic-1-6.1-1.word.5.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.1-1.word.6",
+          "word": "なつかしい",
+          "reading": "なつかしい",
+          "pos": "i-adjective",
+          "meaningId": "topic-1-6.1-1.word.6.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 思い出",
+              "usageId": "topic-1-6.1-1.word.6.pattern.0.usage"
+            },
+            {
+              "pattern": "<w> 気持ちになる",
+              "usageId": "topic-1-6.1-1.word.6.pattern.1.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "恋しい",
+              "glossId": "topic-1-6.1-1.word.6.contrast.0.gloss",
+              "differenceId": "topic-1-6.1-1.word.6.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.1-1.word.7",
+          "word": "虫",
+          "reading": "むし",
+          "pos": "noun",
+          "meaningId": "topic-1-6.1-1.word.7.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 刺される",
+              "usageId": "topic-1-6.1-1.word.7.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "昆虫",
+              "glossId": "topic-1-6.1-1.word.7.contrast.0.gloss",
+              "differenceId": "topic-1-6.1-1.word.7.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.1-1.word.8",
+          "word": "あいつ",
+          "reading": "あいつ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.1-1.word.8.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>と 遊ぶ",
+              "usageId": "topic-1-6.1-1.word.8.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "彼",
+              "glossId": "topic-1-6.1-1.word.8.contrast.0.gloss",
+              "differenceId": "topic-1-6.1-1.word.8.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.1-1.word.9",
+          "word": "すっかり",
+          "reading": "すっかり",
+          "pos": "adverb",
+          "meaningId": "topic-1-6.1-1.word.9.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 忘れる",
+              "usageId": "topic-1-6.1-1.word.9.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "まったく",
+              "glossId": "topic-1-6.1-1.word.9.contrast.0.gloss",
+              "differenceId": "topic-1-6.1-1.word.9.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.1-1.word.10",
+          "word": "戻る",
+          "reading": "もどる",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.1-1.word.10.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "topic-1-6.1-1.word.10.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "帰る",
+              "glossId": "topic-1-6.1-1.word.10.contrast.0.gloss",
+              "differenceId": "topic-1-6.1-1.word.10.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.1-1.word.11",
+          "word": "戻す",
+          "reading": "もどす",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.1-1.word.11.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.1-1.word.11.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "返す",
+              "glossId": "topic-1-6.1-1.word.11.contrast.0.gloss",
+              "differenceId": "topic-1-6.1-1.word.11.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.1-1.word.12",
+          "word": "実家",
+          "reading": "じっか",
+          "pos": "noun",
+          "meaningId": "topic-1-6.1-1.word.12.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 帰る",
+              "usageId": "topic-1-6.1-1.word.12.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "自宅",
+              "glossId": "topic-1-6.1-1.word.12.contrast.0.gloss",
+              "differenceId": "topic-1-6.1-1.word.12.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.1-1.word.13",
+          "word": "やったあ",
+          "reading": "やったあ",
+          "pos": "interjection",
+          "meaningId": "topic-1-6.1-1.word.13.meaning",
+          "contrasts": [
+            {
+              "word": "やった",
+              "glossId": "topic-1-6.1-1.word.13.contrast.0.gloss",
+              "differenceId": "topic-1-6.1-1.word.13.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.1-1.word.14",
+          "word": "決まり",
+          "reading": "きまり",
+          "pos": "noun",
+          "meaningId": "topic-1-6.1-1.word.14.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 守る",
+              "usageId": "topic-1-6.1-1.word.14.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "規則",
+              "glossId": "topic-1-6.1-1.word.14.contrast.0.gloss",
+              "differenceId": "topic-1-6.1-1.word.14.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.1-1.grammar.0",
+          "title": "① こ・そ・あ：前の文の指示",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "その人、さっきからずっとこっちを見ているよ。",
+              "translationId": "topic-1-6.1-1.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "あの店、また行きたいね。",
+              "translationId": "topic-1-6.1-1.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "topic-1-6.1-1.grammar.0.meaning",
+          "formationId": "topic-1-6.1-1.grammar.0.formation",
+          "usageId": "topic-1-6.1-1.grammar.0.usage",
+          "pitfallId": "topic-1-6.1-1.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.1-1.grammar.1",
+          "title": "② ～という：名称",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "村上春樹という作家を知っていますか。",
+              "translationId": "topic-1-6.1-1.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "これは「たこ焼き」という食べ物です。",
+              "translationId": "topic-1-6.1-1.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.1-1.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "村上春樹（　）作家を知っていますか。"
+                }
+              ],
+              "explanationId": "topic-1-6.1-1.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "というの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "という"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "というだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "といって"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.1-1.grammar.1.question.1",
+              "prompt": [
+                {
+                  "japanese": "「幼なじみ」（　）言葉を知っていますか。"
+                }
+              ],
+              "explanationId": "topic-1-6.1-1.grammar.1.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "と言いて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "というだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "といっての"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "という"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.1-1.grammar.1.question.2",
+              "prompt": [
+                {
+                  "japanese": "来月、同窓会を（　）手紙をもらいました。"
+                }
+              ],
+              "explanationId": "topic-1-6.1-1.grammar.1.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "開くという"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "開きという"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "開いてという"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "開くだという"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.1-1.grammar.1.question.3",
+              "prompt": [
+                {
+                  "japanese": "普通形で内容を伝えます：先生から、来週テストが（　）連絡が来ました。"
+                }
+              ],
+              "explanationId": "topic-1-6.1-1.grammar.1.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ありという"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "あるだという"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "あってという"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "あるという"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.1-1.grammar.1.question.4",
+              "prompt": [
+                {
+                  "japanese": "無駄なコピーはやめたほうが（　）意見が出ました。"
+                }
+              ],
+              "explanationId": "topic-1-6.1-1.grammar.1.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "いいだという"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "いいでという"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "いいという"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "よくという"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.1-1.grammar.1.meaning",
+          "formationId": "topic-1-6.1-1.grammar.1.formation",
+          "usageId": "topic-1-6.1-1.grammar.1.usage",
+          "pitfallId": "topic-1-6.1-1.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.1-1.grammar.2",
+          "title": "③ ～という：内容",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "同窓会を開くという手紙が届いた。",
+              "translationId": "topic-1-6.1-1.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "参加が必要だという意見が多かった。",
+              "translationId": "topic-1-6.1-1.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "topic-1-6.1-1.grammar.2.meaning",
+          "formationId": "topic-1-6.1-1.grammar.2.formation",
+          "usageId": "topic-1-6.1-1.grammar.2.usage",
+          "pitfallId": "topic-1-6.1-1.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.1-1.grammar.3",
+          "title": "④ ～っけ：回想・再確認",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "テストは明日だったっけ。",
+              "translationId": "topic-1-6.1-1.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "あの人、名前は何だっけ。",
+              "translationId": "topic-1-6.1-1.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.1-1.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "今度の文法テスト、いつ（　）？"
+                }
+              ],
+              "explanationId": "topic-1-6.1-1.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だったっけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だったっけだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だたっけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だったけ"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.1-1.grammar.3.question.1",
+              "prompt": [
+                {
+                  "japanese": "昨日、何時に家へ（　）？"
+                }
+              ],
+              "explanationId": "topic-1-6.1-1.grammar.3.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "帰ってっけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "帰ったっけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "帰るだったっけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "帰りだったっけ"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.1-1.grammar.3.question.2",
+              "prompt": [
+                {
+                  "japanese": "この店、前もこんなに（　）？"
+                }
+              ],
+              "explanationId": "topic-1-6.1-1.grammar.3.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "高いだったっけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "高くだったっけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "高いったっけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "高かったっけ"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.1-1.grammar.3.question.3",
+              "prompt": [
+                {
+                  "japanese": "田中さんって、学生のころこんなに（　）？"
+                }
+              ],
+              "explanationId": "topic-1-6.1-1.grammar.3.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "元気だったっけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "元気だたっけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "元気なだったっけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "元気かったっけ"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.1-1.grammar.3.question.4",
+              "prompt": [
+                {
+                  "japanese": "鈴木さん、大学の先生（　）？"
+                }
+              ],
+              "explanationId": "topic-1-6.1-1.grammar.3.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "かったっけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だったっけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "でっけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "したっけ"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.1-1.grammar.3.meaning",
+          "formationId": "topic-1-6.1-1.grammar.3.formation",
+          "usageId": "topic-1-6.1-1.grammar.3.usage",
+          "pitfallId": "topic-1-6.1-1.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.1-1.grammar.4",
+          "title": "⑤ ～って言っていた：発言の伝達",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "来週テストがあるって言ってたよ。",
+              "translationId": "topic-1-6.1-1.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "明日は休みだって言ってた。",
+              "translationId": "topic-1-6.1-1.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.1-1.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "先生は来週テストがある（　）よ。"
+                }
+              ],
+              "explanationId": "topic-1-6.1-1.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "って言っていた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "って言いたいた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "という言っていた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "って言ったいた"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.1-1.grammar.4.meaning",
+          "formationId": "topic-1-6.1-1.grammar.4.formation",
+          "usageId": "topic-1-6.1-1.grammar.4.usage",
+          "pitfallId": "topic-1-6.1-1.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.1-1.grammar.5",
+          "title": "例文の解説",
+          "examples": [
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.1-1.grammar.5.example.0",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.1-1.grammar.5.example.0.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "きのう鈴木さんといっしょにカラオケに行ったんですよ。"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.1-1.grammar.5.example.0.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "えっ、鈴木さん？"
+                    },
+                    {
+                      "kind": "sentence",
+                      "text": "その人、私の知っている人ですか？"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.1-1.grammar.5.example.0.analysis"
+            },
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.1-1.grammar.5.example.1",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.1-1.grammar.5.example.1.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "駅の近くに新しいレストランができましたね。"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.1-1.grammar.5.example.1.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "ええ、あの店は安くておいしいそうですよ。"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.1-1.grammar.5.example.1.analysis"
+            },
+            {
+              "kind": "dialogue",
+              "id": "topic-1-6.1-1.grammar.5.example.2",
+              "lines": [
+                {
+                  "role": "A",
+                  "translationId": "topic-1-6.1-1.grammar.5.example.2.line.0.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "20年ぐらい前に家族みんなで行った旅行、覚えている？"
+                    }
+                  ]
+                },
+                {
+                  "role": "B",
+                  "translationId": "topic-1-6.1-1.grammar.5.example.2.line.1.translation",
+                  "sentences": [
+                    {
+                      "kind": "sentence",
+                      "text": "ああ、あの時は子どもたちがまだ小さくて大変だったね。"
+                    }
+                  ]
+                }
+              ],
+              "questions": [],
+              "analysisId": "topic-1-6.1-1.grammar.5.example.2.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "村上春樹という作家を知っていますか。\n「幼なじみ」という言葉を知っていますか。",
+              "translationId": "topic-1-6.1-1.grammar.5.example.3.translation",
+              "analysisId": "topic-1-6.1-1.grammar.5.example.3.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "来月、同窓会を開くという手紙をもらいました。",
+              "translationId": "topic-1-6.1-1.grammar.5.example.4.translation",
+              "analysisId": "topic-1-6.1-1.grammar.5.example.4.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "無駄なコピーはやめたほうがいいという意見が出ました。",
+              "translationId": "topic-1-6.1-1.grammar.5.example.5.translation",
+              "analysisId": "topic-1-6.1-1.grammar.5.example.5.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "今度の文法テスト、いつだったっけ？\nテストは何ページからだったっけ？",
+              "translationId": "topic-1-6.1-1.grammar.5.example.6.translation",
+              "analysisId": "topic-1-6.1-1.grammar.5.example.6.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "漢字のテストもあるって言っていたよ。",
+              "translationId": "topic-1-6.1-1.grammar.5.example.7.translation",
+              "analysisId": "topic-1-6.1-1.grammar.5.example.7.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "パソコンが元の状態に戻った。\n設定を元に戻した。",
+              "translationId": "topic-1-6.1-1.grammar.5.example.8.translation",
+              "analysisId": "topic-1-6.1-1.grammar.5.example.8.analysis"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.1-1.grammar.5.question.0",
+              "prompt": [
+                {
+                  "japanese": "田中さんは「明日は会社に行かない」（　）。"
+                }
+              ],
+              "explanationId": "topic-1-6.1-1.grammar.5.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "って言いた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "って言ってた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "って言ったた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "って言いてた"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

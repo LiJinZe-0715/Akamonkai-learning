@@ -1,0 +1,634 @@
+{
+  "kind": "lesson",
+  "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru",
+  "bookId": "nihongo-noryoku-shiken-n2-bunpo",
+  "title": "限るの表現",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.0",
+          "title": "～に限る",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "疲れたときは、早く寝るに限る。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "夏の暑い日は、冷たいビールに限る。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "迷ったら、最初の案に限るよ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.0.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.0.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.0.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.1",
+          "title": "～に限り",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "本日に限り、全商品が半額です。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "会員に限り、このサービスをご利用いただけます。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "先着百名様に限り、記念品を差し上げます。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.1.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.1.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.1.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2",
+          "title": "～に限って",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "急いでいる日に限って、電車が遅れる。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "傘を持たない日に限って、雨が降る。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "うちの子に限って、そんなことをするはずがない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "寒い夜は、温かい鍋料理（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限る"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限らず"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "大切な会議がある日（　）、目覚まし時計が鳴らなかった。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に限る"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限らず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限り"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.2",
+              "prompt": [
+                {
+                  "japanese": "傘を持っていない日（　）、急に雨が降り出す。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "限りでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限る"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.3",
+              "prompt": [
+                {
+                  "japanese": "この問題は日本（　）、多くの国で議論されている。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に限る"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限らず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限って"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.4",
+              "prompt": [
+                {
+                  "japanese": "このアプリは学生（　）、社会人にも広く使われている。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.4.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限らず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "限りでは"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.5",
+              "prompt": [
+                {
+                  "japanese": "この仕事を引き受けている（　）、最後まで責任を持って取り組みたい。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.5.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.5.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "限りでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限り"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.6",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.6.prompt.0"
+                },
+                {
+                  "japanese": "私が確認した（　）、申込書に記入漏れはありません。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.6.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.6.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "限りが"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限らず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "限りでは"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.7",
+              "prompt": [
+                {
+                  "japanese": "ニュースで報道されている（　）、けが人はいないようだ。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.7.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.question.7.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "限りでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限る"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限って"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.3",
+          "title": "～に限らず",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この店は若者に限らず、家族連れにも人気がある。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "日本語に限らず、外国語の学習には毎日の積み重ねが必要だ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この問題は東京に限らず、全国で起きている。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "気分が落ち込んだときは、信頼できる友人に話す（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.3.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に限る"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限らず"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "限りでは"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.3.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.3.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.3.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.4",
+          "title": "～限り",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "体が元気な限り、仕事を続けたい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "私が生きている限り、この店は守っていくつもりだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "学生である限り、規則は守らなければならない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.4.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.4.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.4.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5",
+          "title": "～限りでは",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "私が調べた限りでは、大きな問題はない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この資料を見る限りでは、計画は順調に進んでいるようだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "私が知っている限りでは、彼はまだ結婚していない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.question.0.prompt.0"
+                },
+                {
+                  "japanese": "会員の方（　）、このラウンジをご利用いただけます。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限る"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "限りに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "限りでは"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.question.1",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.question.1.prompt.0"
+                },
+                {
+                  "japanese": "今月中にお申し込みの方（　）、入会金は無料です。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "限りに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限る"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "限りでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限り"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.question.2",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.question.2.prompt.0"
+                },
+                {
+                  "japanese": "この町に住んでいる（　）、車がなくても困らない。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に限る"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "限りでは"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限り"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "限り"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.3-kagiru.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

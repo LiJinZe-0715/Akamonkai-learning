@@ -1,0 +1,631 @@
+{
+  "kind": "lesson",
+  "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency",
+  "bookId": "nihongo-noryoku-shiken-n2-bunpo",
+  "title": "傾向",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.0",
+          "title": "～がち",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "忙しいと、朝ごはんを抜きがちだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "冬は運動不足になりがちだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼は遠慮しがちで、自分の意見を言わない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.0.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.0.question.0.prompt.0"
+                },
+                {
+                  "japanese": "一人で働いていると、食事が不規則になり（　）だ。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.0.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "がち"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にすぎない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "一方"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかり"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.0.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.0.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.0.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.1",
+          "title": "～気味",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "最近、少し疲れ気味だ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "風邪気味なので、今日は早く帰ります。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "このごろ、太り気味で困っている。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.1.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.1.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.1.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.2",
+          "title": "～っぽい",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼は忘れっぽいから、何でもメモする。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "その言い方は子供っぽいよ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "このスープはちょっと水っぽい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.2.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.2.question.0.prompt.0"
+                },
+                {
+                  "japanese": "忙しい日が続いて、最近は少し疲れ（　）だ。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.2.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "っぽい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかり"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "気味"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "がち"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "大人なのに、そんな子供（　）言い方はやめてください。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.2.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "っぽい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "一方の"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "がちな"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "気味な"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.2.question.2",
+              "prompt": [
+                {
+                  "japanese": "修理しないままでは、この建物は古くなる（　）だ。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.2.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.2.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ばかり"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "がち"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "気味"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "っぽい"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.2.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.2.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.2.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.3",
+          "title": "～一方だ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この町の人口は減る一方だ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "円安で、輸入品の値段は上がる一方だ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "技術の進歩で、仕事のやり方は変わる一方だ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.3.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.3.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.3.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.4",
+          "title": "～ばかりだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "物価は上がるばかりで、生活は楽にならない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "病状は悪くなるばかりだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "待っても待っても、状況は悪くなるばかりだった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.4.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.4.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.4.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5",
+          "title": "～っぱなし",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "電気をつけっぱなしで寝てしまった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "一日中立ちっぱなしで、足が痛い。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "水道を出しっぱなしにしないでください。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.0",
+              "prompt": [
+                {
+                  "textId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.0.prompt.0"
+                },
+                {
+                  "japanese": "最近は雨の日が多く、外出せずに家にこもり（　）だ。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "っぽい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "気味"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "っぱなし"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "がち"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.1",
+              "prompt": [
+                {
+                  "japanese": "少し風邪（　）で、のどが痛い。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "気味"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "っぽい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "一方"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "っぱなし"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.2",
+              "prompt": [
+                {
+                  "japanese": "彼は忘れ（　）から、約束はメッセージで確認したほうがいい。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "っぽい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "気味"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "がち"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "っぱなし"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.3",
+              "prompt": [
+                {
+                  "japanese": "この国では、若者の失業率が上がる（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "っぽい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "っぱなしだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "気味だ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "一方だ"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.4",
+              "prompt": [
+                {
+                  "japanese": "練習を続けているので、彼の演奏は上達する（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.4.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "っぱなしだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "がちだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "気味だ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "一方だ"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.5",
+              "prompt": [
+                {
+                  "japanese": "何も対策をしなければ、状況は悪くなる（　）だ。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.5.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.5.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ばかり"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "気味"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "っぱなし"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "っぽい"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.6",
+              "prompt": [
+                {
+                  "japanese": "ドアを開け（　）で出かけてしまった。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.6.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.6.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "がち"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "気味"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "一方"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "っぱなし"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.7",
+              "prompt": [
+                {
+                  "japanese": "申請書類を机の上に置き（　）にしていた。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.7.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.question.7.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "っぱなし"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "っぽい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "気味"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかり"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.13-tendency.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

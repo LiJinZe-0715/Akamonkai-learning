@@ -1,0 +1,463 @@
+/* 卡通风设计变量：奶油色纸底、深紫墨线、朱红强调色，外加几支糖果色。
+   这里只放颜色、字体和形状变量；圆角、描边、贴纸阴影和动画都在 cartoon.css。 */
+
+:root {
+    color-scheme: light;
+    --paper: #fff7e6;
+    --surface: #ffffff;
+    --surface-2: #fff0cc;
+    --ink: #2a2140;
+    --ink-2: #574c73;
+    --ink-3: #74698f;
+    --rule: #eadfc8;
+    --rule-strong: #2a2140;
+    --accent: #e23b2e;
+    --accent-soft: #ffe3de;
+    --on-accent: #ffffff;
+
+    /* 答题状态。不放在强调色阶里，朱红就只表示「可交互」。 */
+    --ok: #0b7a3b;
+    --bad: #d81f1f;
+
+    /* 糖果色：只做填充，上面的字一律用 --on-pop（深浅主题都是深色）。 */
+    --sun: #ffcf3f;
+    --sky: #74d2ff;
+    --mint: #74e3b3;
+    --pink: #ffa3c7;
+    --lilac: #c5adff;
+    --on-pop: #2a2140;
+    --on-pop-2: #5a4f73;
+
+    /* 卡通描边与「贴纸」阴影：硬边、不模糊，按下去时阴影收回。 */
+    --line: #2a2140;
+    --dot: #f4e6c3;
+    --bw: 2px;
+    --radius: 18px;
+    --radius-sm: 12px;
+    --radius-pill: 999px;
+    --pop-sm: 2.5px 2.5px 0 var(--line);
+    --pop: 4px 4px 0 var(--line);
+    --pop-lg: 6px 7px 0 var(--line);
+    --bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+    --glide: cubic-bezier(0.22, 0.61, 0.36, 1);
+
+    /* 拉丁字母优先用系统的圆体；汉字用哪套字体按语言分开，见下方 :lang 规则。 */
+    --font-latin: ui-rounded, "SF Pro Rounded", "Nunito", "Arial Rounded MT Bold", "Helvetica Neue", Helvetica, Arial, "Segoe UI";
+    --font-cjk-zh: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", "Noto Sans CJK SC", "Source Han Sans SC";
+    --font-cjk-ja: "Hiragino Maru Gothic ProN", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", "Noto Sans CJK JP";
+    --font-sans: var(--font-latin), var(--font-cjk-ja), var(--font-cjk-zh), sans-serif;
+    --font-display: var(--font-sans);
+    --font-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+
+    /* 页面框架跟着窗口走：宽屏上不再把内容挤成中间一条。
+       正文同样铺满，不再单独限制行宽（--measure 保留为变量，取 none）。 */
+    --width-shell: 100%;
+    --measure: none;
+
+    /* 页头高度。页签、翻页条的吸顶位置和锚点偏移都跟着它走，
+       窄屏只在 shell.css 里改这一个值，不再各处重写 58px / 88px。 */
+    --header-h: 66px;
+
+    /* 横向内边距。原来桌面一套（24px）、手机一套（18px）写在断点里，
+       现在一条 clamp 同时给出两端：390px 处 18px，900px 起 24px，中间连续过渡。
+       宽卡片（首页两张）另有 --pad-inline-wide：手机 22px、桌面 30px。 */
+    --pad-inline: clamp(18px, 1.2vw + 13px, 24px);
+    --pad-inline-wide: clamp(22px, 1.6vw + 16px, 30px);
+
+    /* 文字倍率。每个字号都乘上它，滑杆上的一个数字就能缩放整站，
+       间距和分隔线都不用动。各屏幕的基准字号相同，只有这个倍率不同；
+       读者一旦拖过滑杆，就永久以他的取值为准。 */
+    --font-scale: 1;
+}
+
+/* 汉字按语言选字体。中日共用的字体顺序会让中文先落到日文字体（游ゴシック）上：
+   字形是日本写法，日文字体里没有的简体字（练、习、们……）又逐字退回雅黑，一句话里混着两种字体。
+   界面语言写在 <html lang>，日文内容各自带 lang="ja"。 */
+:lang(zh) {
+    --font-sans: var(--font-latin), var(--font-cjk-zh), sans-serif;
+    --font-display: var(--font-latin), var(--font-cjk-zh), sans-serif;
+}
+
+:lang(ja) {
+    --font-sans: var(--font-latin), var(--font-cjk-ja), var(--font-cjk-zh), sans-serif;
+    --font-display: var(--font-latin), var(--font-cjk-ja), var(--font-cjk-zh), sans-serif;
+}
+
+/* font-family 继承的是父元素已经算好的字体名，换了语言的元素要自己重新取一次。
+   :where 不加权重，各处 class 里写的字体照样生效。 */
+:where([lang|="zh"], [lang|="ja"]) {
+    font-family: var(--font-sans);
+}
+
+/* 显示器比手机远，同样的字号看着更小，所以桌面默认给到 150%。 */
+@media (min-width: 900px) {
+    :root {
+        --font-scale: 1.5;
+    }
+}
+
+[data-theme="dark"] {
+    color-scheme: dark;
+    --paper: #1c1730;
+    --surface: #2a2346;
+    --surface-2: #372e5c;
+    --ink: #fff4dc;
+    --ink-2: #d3c9ec;
+    --ink-3: #a59ac6;
+    --rule: #3f3566;
+    --rule-strong: #7a6eb0;
+    --accent: #ff8171;
+    --accent-soft: #4b2542;
+    --on-accent: #1c1730;
+
+    --ok: #5fe39b;
+    --bad: #ff7b7b;
+
+    /* 夜间：描边和阴影压成近黑，卡片靠比纸底亮一档的底色浮出来。 */
+    --line: #0c0918;
+    --dot: #262042;
+}
+
+@layer base {
+    /* 整份文档一次重置：统一 border-box，去掉继承的外边距和列表标记，
+       表单控件沿用页面字体。 */
+    *,
+    ::before,
+    ::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0 solid;
+    }
+
+    html {
+        -webkit-text-size-adjust: 100%;
+        scroll-behavior: smooth;
+        scroll-padding-top: calc(var(--header-h) + 22px);
+        scroll-padding-bottom: 90px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        html {
+            scroll-behavior: auto;
+        }
+    }
+
+    body {
+        background: var(--paper);
+        color: var(--ink);
+        font-family: var(--font-sans);
+        font-size: calc(12px * var(--font-scale));
+        line-height: 1.65;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    h1, h2, h3, h4 {
+        font-family: var(--font-display);
+        font-size: inherit;
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: -0.03em;
+        text-wrap: balance;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    ul, ol {
+        list-style: none;
+    }
+
+    button {
+        font: inherit;
+        color: inherit;
+        background: none;
+        cursor: pointer;
+    }
+
+    input, select, textarea {
+        font: inherit;
+        letter-spacing: inherit;
+        color: inherit;
+        border-radius: 0;
+        background-color: transparent;
+    }
+
+    img, svg, video, canvas {
+        display: block;
+        vertical-align: middle;
+        max-width: 100%;
+    }
+
+    summary {
+        cursor: pointer;
+    }
+
+    ::selection {
+        background: var(--ink);
+        color: var(--paper);
+    }
+
+    :focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+    }
+
+    ruby > rt {
+        font-family: var(--font-sans);
+        font-size: 0.5em;
+        font-weight: 400;
+        color: var(--ink-3);
+        letter-spacing: 0.02em;
+    }
+
+    ruby > rp {
+        color: var(--ink-3);
+    }
+}
+
+/* 通用基础样式 */
+
+.ui-icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    flex: none;
+    vertical-align: -0.18em;
+}
+
+.eyebrow {
+    font-family: var(--font-sans);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+.section-kicker {
+    display: block;
+    font-family: var(--font-sans);
+    font-size: calc(8px * var(--font-scale));
+    font-weight: 700;
+    letter-spacing: 0.26em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+}
+
+.muted {
+    color: var(--ink-3);
+    font-size: calc(10px * var(--font-scale));
+}
+
+.empty-state {
+    padding: 56px 0;
+    text-align: center;
+    color: var(--ink-3);
+    font-size: calc(10px * var(--font-scale));
+}
+
+.empty-state h1 {
+    margin-bottom: 12px;
+    font-size: calc(18px * var(--font-scale));
+    color: var(--ink);
+}
+
+.empty-state button {
+    margin-top: 16px;
+    padding: 10px 22px;
+    border: 1px solid var(--ink);
+    border-radius: 0;
+    background: var(--ink);
+    color: var(--paper);
+    font-size: calc(10px * var(--font-scale));
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.empty-state button:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--on-accent);
+}
+
+/* 按钮 */
+
+.button-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.button-row > button,
+.file-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 14px;
+    border: 1px solid var(--rule-strong);
+    border-radius: 0;
+    background: transparent;
+    font-size: calc(10px * var(--font-scale));
+    font-weight: 500;
+    line-height: 1.4;
+    cursor: pointer;
+    transition: background 120ms ease, color 120ms ease, border-color 120ms ease;
+}
+
+.button-row > button:hover,
+.file-button:hover {
+    background: var(--ink);
+    color: var(--paper);
+}
+
+.button-row > button[aria-pressed="true"] {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--paper);
+}
+
+.button-row > button:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+
+.file-button input {
+    display: none;
+}
+
+.primary-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-width: 160px;
+    padding: 12px 26px;
+    border: 1px solid var(--ink);
+    border-radius: 0;
+    background: var(--ink);
+    color: var(--paper);
+    font-size: calc(10px * var(--font-scale));
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    transition: background 120ms ease, border-color 120ms ease;
+}
+
+.primary-button:hover:not(:disabled) {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--on-accent);
+}
+
+.primary-button:disabled {
+    border-color: var(--rule);
+    background: transparent;
+    color: var(--ink-3);
+    cursor: not-allowed;
+}
+
+.icon-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    min-width: 30px;
+    height: 30px;
+    padding: 0 7px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    background: transparent;
+    color: var(--ink-2);
+    font-size: calc(10px * var(--font-scale));
+    cursor: pointer;
+    transition: color 120ms ease, border-color 120ms ease, background 120ms ease;
+}
+
+.icon-button:hover {
+    border-color: var(--ink);
+    background: var(--ink);
+    color: var(--paper);
+}
+
+.icon-button[aria-pressed="true"] {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+/* 表单控件 */
+
+input[type="search"],
+input[type="text"],
+select,
+.answer-input {
+    font-family: var(--font-sans);
+    font-size: calc(10px * var(--font-scale));
+    color: var(--ink);
+    background: transparent;
+}
+
+select {
+    padding: 7px 28px 7px 10px;
+    border: 1px solid var(--ink);
+    border-radius: 0;
+    background-color: var(--paper);
+    background-image: linear-gradient(45deg, transparent 50%, currentColor 50%),
+    linear-gradient(135deg, currentColor 50%, transparent 50%);
+    background-position: calc(100% - 15px) calc(50% - 1px), calc(100% - 10px) calc(50% - 1px);
+    background-size: 5px 5px, 5px 5px;
+    background-repeat: no-repeat;
+    appearance: none;
+    cursor: pointer;
+}
+
+select:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+label {
+    font-size: calc(10px * var(--font-scale));
+}
+
+/* 反馈区域 */
+
+.notice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 28px;
+    padding: 12px 16px;
+    border: 1px solid var(--ink);
+    border-left: 4px solid var(--accent);
+    background: var(--paper);
+    font-size: calc(10px * var(--font-scale));
+    color: var(--ink-2);
+}
+
+.notice button {
+    border: 0;
+    background: transparent;
+    color: var(--ink-3);
+    font-size: calc(14px * var(--font-scale));
+    line-height: 1;
+    cursor: pointer;
+}
+
+.notice button:hover {
+    color: var(--accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.001ms !important;
+        transition-duration: 0.001ms !important;
+    }
+}

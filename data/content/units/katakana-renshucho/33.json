@@ -1,0 +1,130 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.33",
+  "bookId": "katakana-renshucho",
+  "title": "第33課 部屋①",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.33.word.0",
+          "word": "ポスター",
+          "reading": "ぽすたー",
+          "meaningId": "katakana-renshucho.33.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.33.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.33.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ポスター"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.33.word.1",
+          "word": "スイッチ",
+          "reading": "すいっち",
+          "meaningId": "katakana-renshucho.33.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.33.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.33.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "スイッチ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.33.word.2",
+          "word": "ソファー",
+          "reading": "そふぁー",
+          "meaningId": "katakana-renshucho.33.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.33.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.33.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ソファー",
+                "ソファ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.33.word.3",
+          "word": "クッション",
+          "reading": "くっしょん",
+          "meaningId": "katakana-renshucho.33.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.33.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.33.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "クッション"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.33.word.4",
+          "word": "カーテン",
+          "reading": "かーてん",
+          "meaningId": "katakana-renshucho.33.word.4.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.33.word.4.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.33.word.4.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "カーテン"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

@@ -1,0 +1,133 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.3-03",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第3課 条件を表す文",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-03.grammar.0",
+          "title": "～さえ～ば",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "お金さえあれば、何でも買える。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-03.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "薬を飲みさえすれば、治る。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-03.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-03.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "お金（　）あれば、何でも買える。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-03.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "しか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ほど"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "さえ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "まで"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-03.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-03.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-03.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-03.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-03.grammar.1",
+          "title": "～ないことには・～てからでないと",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "実際に見てみないことには、判断できない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-03.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "上司に相談してからでないと、決められない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-03.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-03.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "実際に見てみない（　）、判断できない。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-03.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ものには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ほどには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけには"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-03.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-03.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-03.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-03.grammar.1.pitfall"
+        }
+      ]
+    }
+  }
+}

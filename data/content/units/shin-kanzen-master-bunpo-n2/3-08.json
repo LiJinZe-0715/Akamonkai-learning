@@ -1,0 +1,133 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.3-08",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第8課 指示表現「こ・そ・あ」の使い分け",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-08.grammar.0",
+          "title": "こ系（現場指示）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "これは私の教科書です。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-08.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "ここに名前を書いてください。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-08.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-08.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "（　）は私の教科書です。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-08.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "どれ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "これ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "あれ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "それ"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-08.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-08.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-08.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-08.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-08.grammar.1",
+          "title": "そ系・あ系（文脈指示）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "その話はもう聞きました。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-08.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "あの日のことは今でも覚えている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-08.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-08.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "昨日の話ですが、（　）件はもう解決しました。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-08.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "これ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "その"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "それ"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-08.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-08.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-08.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-08.grammar.1.pitfall"
+        }
+      ]
+    }
+  }
+}

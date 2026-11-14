@@ -1,0 +1,450 @@
+{
+  "kind": "lesson",
+  "id": "sogo-nihongo-n2-goi.2-5",
+  "bookId": "sogo-nihongo-n2-goi",
+  "title": "第2週 5日目 パソコンを使っています②",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.0",
+          "word": "書類を作成する",
+          "reading": "しょるいをさくせいする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.0.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-5.word.0.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.1",
+          "word": "かなを漢字に変換する",
+          "reading": "かなをかんじにへんかんする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.1.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-5.word.1.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.2",
+          "word": "漢字を確定する",
+          "reading": "かんじをかくていする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.2.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-5.word.2.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.3",
+          "word": "文字を削除する",
+          "reading": "もじをさくじょする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.3.meaning",
+          "contrasts": [
+            {
+              "word": "切り取る",
+              "glossId": "sogo-nihongo-n2-goi.2-5.word.22.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-5.word.3.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.4",
+          "word": "改行する",
+          "reading": "かいぎょうする",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.4.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-5.word.4.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.5",
+          "word": "文字のサイズを設定する",
+          "reading": "もじのさいずをせっていする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.5.meaning",
+          "contrasts": [
+            {
+              "word": "変更する",
+              "glossId": "sogo-nihongo-n2-goi.2-5.word.6.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-5.word.5.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.6",
+          "word": "フォントを変更する",
+          "reading": "ふぉんとをへんこうする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.6.meaning",
+          "contrasts": [
+            {
+              "word": "設定する",
+              "glossId": "sogo-nihongo-n2-goi.2-5.word.5.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-5.word.6.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.7",
+          "word": "カーソルを移動する",
+          "reading": "かーそるをいどうする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.7.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-5.word.7.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.8",
+          "word": "範囲を選択する",
+          "reading": "はんいをせんたくする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.8.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-5.word.8.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.9",
+          "word": "目的の位置に合わせる",
+          "reading": "もくてきのいちにあわせる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.9.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-5.word.9.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.10",
+          "word": "文字を中央にそろえる",
+          "reading": "もじをちゅうおうにそろえる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.10.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-5.word.10.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.11",
+          "word": "右に寄せる",
+          "reading": "みぎによせる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.11.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-5.word.11.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.12",
+          "word": "下線をつける",
+          "reading": "かせんをつける",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.12.meaning",
+          "contrasts": [
+            {
+              "word": "アンダーライン",
+              "glossId": "sogo-nihongo-n2-goi.2-5.word.13.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-5.word.12.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.13",
+          "word": "アンダーライン",
+          "reading": "あんだーらいん",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.13.meaning",
+          "contrasts": [
+            {
+              "word": "下線",
+              "glossId": "sogo-nihongo-n2-goi.2-5.word.12.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-5.word.13.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.14",
+          "word": "記号を入れる",
+          "reading": "きごうをいれる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.14.meaning",
+          "contrasts": [
+            {
+              "word": "挿入する",
+              "glossId": "sogo-nihongo-n2-goi.2-5.word.15.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-5.word.14.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.15",
+          "word": "図を挿入する",
+          "reading": "ずをそうにゅうする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.15.meaning",
+          "contrasts": [
+            {
+              "word": "入れる",
+              "glossId": "sogo-nihongo-n2-goi.2-5.word.14.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-5.word.15.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.16",
+          "word": "図を拡大する",
+          "reading": "ずをかくだいする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.16.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-5.word.16.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.17",
+          "word": "縮小する",
+          "reading": "しゅくしょうする",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.17.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "sogo-nihongo-n2-goi.2-5.word.17.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.18",
+          "word": "内容を修正する",
+          "reading": "ないようをしゅうせいする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.18.meaning",
+          "contrasts": [
+            {
+              "word": "編集する",
+              "glossId": "sogo-nihongo-n2-goi.2-5.word.19.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-5.word.18.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.19",
+          "word": "文書を編集する",
+          "reading": "ぶんしょをへんしゅうする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.19.meaning",
+          "contrasts": [
+            {
+              "word": "修正する",
+              "glossId": "sogo-nihongo-n2-goi.2-5.word.18.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-5.word.19.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.20",
+          "word": "元にもどす",
+          "reading": "もとにもどす",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.20.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-5.word.20.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.21",
+          "word": "図形をコピーする",
+          "reading": "ずけいをこぴーする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.21.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-5.word.21.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.22",
+          "word": "切り取る",
+          "reading": "きりとる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.22.meaning",
+          "contrasts": [
+            {
+              "word": "カットする",
+              "glossId": "sogo-nihongo-n2-goi.2-5.word.23.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-5.word.22.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.23",
+          "word": "カットする",
+          "reading": "かっとする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.23.meaning",
+          "contrasts": [
+            {
+              "word": "切り取る",
+              "glossId": "sogo-nihongo-n2-goi.2-5.word.22.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-5.word.23.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.24",
+          "word": "貼り付ける",
+          "reading": "はりつける",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.24.meaning",
+          "contrasts": [
+            {
+              "word": "ペーストする",
+              "glossId": "sogo-nihongo-n2-goi.2-5.word.25.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-5.word.24.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.25",
+          "word": "ペーストする",
+          "reading": "ぺーすとする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.25.meaning",
+          "contrasts": [
+            {
+              "word": "貼り付ける",
+              "glossId": "sogo-nihongo-n2-goi.2-5.word.24.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-5.word.25.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.26",
+          "word": "画像を取り込む",
+          "reading": "がぞうをとりこむ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.26.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-5.word.26.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.27",
+          "word": "文書を保存する",
+          "reading": "ぶんしょをほぞんする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.27.meaning",
+          "contrasts": [
+            {
+              "word": "上書き保存する",
+              "glossId": "sogo-nihongo-n2-goi.2-5.word.32.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-5.word.27.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.28",
+          "word": "ファイルを添付する",
+          "reading": "ふぁいるをてんぷする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.28.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-5.word.28.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.29",
+          "word": "やり直す",
+          "reading": "やりなおす",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.29.meaning",
+          "analysisId": "sogo-nihongo-n2-goi.2-5.word.29.analysis",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.30",
+          "word": "切り取り",
+          "reading": "きりとり",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.30.meaning",
+          "contrasts": [
+            {
+              "word": "コピー",
+              "glossId": "sogo-nihongo-n2-goi.2-5.word.30.contrast.0.gloss",
+              "differenceId": "sogo-nihongo-n2-goi.2-5.word.30.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.31",
+          "word": "貼り付け",
+          "reading": "はりつけ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.31.meaning",
+          "contrasts": [
+            {
+              "word": "ペースト",
+              "glossId": "sogo-nihongo-n2-goi.2-5.word.25.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-5.word.31.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.2-5.word.32",
+          "word": "上書き保存する",
+          "reading": "うわがきほぞんする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.2-5.word.32.meaning",
+          "contrasts": [
+            {
+              "word": "保存する",
+              "glossId": "sogo-nihongo-n2-goi.2-5.word.27.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.2-5.word.32.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    }
+  }
+}

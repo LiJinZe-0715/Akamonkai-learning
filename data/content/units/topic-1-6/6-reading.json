@@ -1,0 +1,1573 @@
+{
+  "kind": "lesson",
+  "id": "topic-1-6.6-reading",
+  "bookId": "topic-1-6",
+  "title": "Topic 6 読解：宮沢賢治",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.0",
+          "word": "詩",
+          "reading": "し",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.0.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 書く",
+              "usageId": "topic-1-6.6-reading.word.0.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "歌",
+              "glossId": "topic-1-6.6-reading.word.0.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.0.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.1",
+          "word": "～人",
+          "reading": "~じん",
+          "pos": "suffix",
+          "meaningId": "topic-1-6.6-reading.word.1.meaning",
+          "contrasts": [
+            {
+              "word": "～者",
+              "glossId": "topic-1-6.6-reading.word.1.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.1.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.2",
+          "word": "歌人",
+          "reading": "かじん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.2.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に なる",
+              "usageId": "topic-1-6.6-reading.word.2.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "詩人",
+              "glossId": "topic-1-6.6-reading.word.2.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.2.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.3",
+          "word": "～集",
+          "reading": "~しゅう",
+          "pos": "suffix",
+          "meaningId": "topic-1-6.6-reading.word.3.meaning",
+          "contrasts": [
+            {
+              "word": "全集",
+              "glossId": "topic-1-6.6-reading.word.3.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.3.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.4",
+          "word": "歌集",
+          "reading": "かしゅう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.4.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 出版する",
+              "usageId": "topic-1-6.6-reading.word.4.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "詩集",
+              "glossId": "topic-1-6.6-reading.word.4.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.4.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.5",
+          "word": "童話",
+          "reading": "どうわ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.5.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 書く",
+              "usageId": "topic-1-6.6-reading.word.5.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "昔話",
+              "glossId": "topic-1-6.6-reading.word.5.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.5.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.6",
+          "word": "作家",
+          "reading": "さっか",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.6.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に なる",
+              "usageId": "topic-1-6.6-reading.word.6.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "作者",
+              "glossId": "topic-1-6.6-reading.word.6.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.6.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.7",
+          "word": "卒業する",
+          "reading": "そつぎょうする",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.6-reading.word.7.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.6-reading.word.7.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "中退する",
+              "glossId": "topic-1-6.6-reading.word.7.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.7.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.8",
+          "word": "進学する",
+          "reading": "しんがくする",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.6-reading.word.8.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "topic-1-6.6-reading.word.8.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "入学する",
+              "glossId": "topic-1-6.6-reading.word.8.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.8.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.9",
+          "word": "祖父",
+          "reading": "そふ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.9.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 家",
+              "usageId": "topic-1-6.6-reading.word.9.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "おじいさん",
+              "glossId": "topic-1-6.6-reading.word.9.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.9.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.10",
+          "word": "祖母",
+          "reading": "そぼ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.10.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 育てられる",
+              "usageId": "topic-1-6.6-reading.word.10.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "おばあさん",
+              "glossId": "topic-1-6.6-reading.word.10.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.10.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.11",
+          "word": "反対",
+          "reading": "はんたい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.11.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>する",
+              "usageId": "topic-1-6.6-reading.word.11.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "賛成",
+              "glossId": "topic-1-6.6-reading.word.12.meaning",
+              "differenceId": "topic-1-6.6-reading.word.11.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.12",
+          "word": "賛成",
+          "reading": "さんせい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.12.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>する",
+              "usageId": "topic-1-6.6-reading.word.12.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "反対",
+              "glossId": "topic-1-6.6-reading.word.11.meaning",
+              "differenceId": "topic-1-6.6-reading.word.12.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.13",
+          "word": "翌年",
+          "reading": "よくとし",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.13.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 上京する",
+              "usageId": "topic-1-6.6-reading.word.13.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "前年",
+              "glossId": "topic-1-6.6-reading.word.13.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.13.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.14",
+          "word": "やっと",
+          "reading": "やっと",
+          "pos": "adverb",
+          "meaningId": "topic-1-6.6-reading.word.14.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 合格した",
+              "usageId": "topic-1-6.6-reading.word.14.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "ようやく",
+              "glossId": "topic-1-6.6-reading.word.14.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.14.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.15",
+          "word": "その後",
+          "reading": "そのご",
+          "pos": "conjunction",
+          "meaningId": "topic-1-6.6-reading.word.15.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>、…",
+              "usageId": "topic-1-6.6-reading.word.15.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "それから",
+              "glossId": "topic-1-6.6-reading.word.15.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.15.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.16",
+          "word": "教師",
+          "reading": "きょうし",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.16.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に なる",
+              "usageId": "topic-1-6.6-reading.word.16.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "先生",
+              "glossId": "topic-1-6.6-reading.word.16.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.16.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.17",
+          "word": "化学",
+          "reading": "かがく",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.17.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 学ぶ",
+              "usageId": "topic-1-6.6-reading.word.17.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "科学",
+              "glossId": "topic-1-6.6-reading.word.18.meaning",
+              "differenceId": "topic-1-6.6-reading.word.17.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.18",
+          "word": "科学",
+          "reading": "かがく",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.18.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 発展",
+              "usageId": "topic-1-6.6-reading.word.18.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "化学",
+              "glossId": "topic-1-6.6-reading.word.17.meaning",
+              "differenceId": "topic-1-6.6-reading.word.18.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.19",
+          "word": "地学",
+          "reading": "ちがく",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.19.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 興味を もつ",
+              "usageId": "topic-1-6.6-reading.word.19.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "地理",
+              "glossId": "topic-1-6.6-reading.word.19.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.19.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.20",
+          "word": "劇",
+          "reading": "げき",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.20.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 見る",
+              "usageId": "topic-1-6.6-reading.word.20.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "演劇",
+              "glossId": "topic-1-6.6-reading.word.20.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.20.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.21",
+          "word": "誤解",
+          "reading": "ごかい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.21.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 招く",
+              "usageId": "topic-1-6.6-reading.word.21.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "勘違い",
+              "glossId": "topic-1-6.6-reading.word.21.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.21.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.22",
+          "word": "受ける",
+          "reading": "うける",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.6-reading.word.22.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.6-reading.word.22.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "受け取る",
+              "glossId": "topic-1-6.6-reading.word.22.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.22.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.23",
+          "word": "～冊",
+          "reading": "~さつ",
+          "pos": "counter",
+          "meaningId": "topic-1-6.6-reading.word.23.meaning",
+          "contrasts": [
+            {
+              "word": "～部",
+              "glossId": "topic-1-6.6-reading.word.23.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.23.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.24",
+          "word": "田舎",
+          "reading": "いなか",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.24.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で 育つ",
+              "usageId": "topic-1-6.6-reading.word.24.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "都会",
+              "glossId": "topic-1-6.6-reading.word.48.meaning",
+              "differenceId": "topic-1-6.6-reading.word.24.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.25",
+          "word": "無名",
+          "reading": "むめい",
+          "pos": "na-adjective",
+          "meaningId": "topic-1-6.6-reading.word.25.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 作家",
+              "usageId": "topic-1-6.6-reading.word.25.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "有名",
+              "glossId": "topic-1-6.6-reading.word.26.meaning",
+              "differenceId": "topic-1-6.6-reading.word.25.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.26",
+          "word": "有名",
+          "reading": "ゆうめい",
+          "pos": "na-adjective",
+          "meaningId": "topic-1-6.6-reading.word.26.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>な 作品",
+              "usageId": "topic-1-6.6-reading.word.26.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "無名",
+              "glossId": "topic-1-6.6-reading.word.25.meaning",
+              "differenceId": "topic-1-6.6-reading.word.26.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.27",
+          "word": "文学",
+          "reading": "ぶんがく",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.27.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 研究する",
+              "usageId": "topic-1-6.6-reading.word.27.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "文芸",
+              "glossId": "topic-1-6.6-reading.word.27.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.27.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.28",
+          "word": "～界",
+          "reading": "~かい",
+          "pos": "suffix",
+          "meaningId": "topic-1-6.6-reading.word.28.meaning",
+          "contrasts": [
+            {
+              "word": "～業界",
+              "glossId": "topic-1-6.6-reading.word.28.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.28.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.29",
+          "word": "驚く",
+          "reading": "おどろく",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.6-reading.word.29.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "topic-1-6.6-reading.word.29.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "びっくりする",
+              "glossId": "topic-1-6.6-reading.word.29.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.29.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.30",
+          "word": "売れる",
+          "reading": "うれる",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.6-reading.word.30.meaning",
+          "patterns": [
+            {
+              "pattern": "N が <w>",
+              "usageId": "topic-1-6.6-reading.word.30.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "売る",
+              "glossId": "topic-1-6.6-reading.word.31.meaning",
+              "differenceId": "topic-1-6.6-reading.word.30.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.31",
+          "word": "売る",
+          "reading": "うる",
+          "pos": "verb",
+          "transitivity": "transitive",
+          "meaningId": "topic-1-6.6-reading.word.31.meaning",
+          "patterns": [
+            {
+              "pattern": "N を <w>",
+              "usageId": "topic-1-6.6-reading.word.31.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "売れる",
+              "glossId": "topic-1-6.6-reading.word.30.meaning",
+              "differenceId": "topic-1-6.6-reading.word.31.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.32",
+          "word": "ともに",
+          "reading": "ともに",
+          "pos": "adverb",
+          "meaningId": "topic-1-6.6-reading.word.32.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> 歩む",
+              "usageId": "topic-1-6.6-reading.word.32.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "一緒に",
+              "glossId": "topic-1-6.6-reading.word.32.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.32.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.33",
+          "word": "農民",
+          "reading": "のうみん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.33.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 生活",
+              "usageId": "topic-1-6.6-reading.word.33.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "農家",
+              "glossId": "topic-1-6.6-reading.word.33.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.33.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.34",
+          "word": "若さ",
+          "reading": "わかさ",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.34.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の ゆえ",
+              "usageId": "topic-1-6.6-reading.word.34.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "若い",
+              "glossId": "topic-1-6.6-reading.word.35.meaning",
+              "differenceId": "topic-1-6.6-reading.word.34.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.35",
+          "word": "若い",
+          "reading": "わかい",
+          "pos": "i-adjective",
+          "meaningId": "topic-1-6.6-reading.word.35.meaning",
+          "patterns": [
+            {
+              "pattern": "<w> ころ",
+              "usageId": "topic-1-6.6-reading.word.35.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "若さ",
+              "glossId": "topic-1-6.6-reading.word.34.meaning",
+              "differenceId": "topic-1-6.6-reading.word.35.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.36",
+          "word": "独創的",
+          "reading": "どくそうてき",
+          "pos": "na-adjective",
+          "meaningId": "topic-1-6.6-reading.word.36.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>な 作品",
+              "usageId": "topic-1-6.6-reading.word.36.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "個性的",
+              "glossId": "topic-1-6.6-reading.word.36.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.36.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.37",
+          "word": "幻想的",
+          "reading": "げんそうてき",
+          "pos": "na-adjective",
+          "meaningId": "topic-1-6.6-reading.word.37.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>な 世界",
+              "usageId": "topic-1-6.6-reading.word.37.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "現実的",
+              "glossId": "topic-1-6.6-reading.word.37.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.37.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.38",
+          "word": "作品",
+          "reading": "さくひん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.38.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>を 発表する",
+              "usageId": "topic-1-6.6-reading.word.38.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "著作",
+              "glossId": "topic-1-6.6-reading.word.38.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.38.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.39",
+          "word": "死後",
+          "reading": "しご",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.39.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 有名に なる",
+              "usageId": "topic-1-6.6-reading.word.39.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "生前",
+              "glossId": "topic-1-6.6-reading.word.40.meaning",
+              "differenceId": "topic-1-6.6-reading.word.39.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.40",
+          "word": "生前",
+          "reading": "せいぜん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.40.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 会う",
+              "usageId": "topic-1-6.6-reading.word.40.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "死後",
+              "glossId": "topic-1-6.6-reading.word.39.meaning",
+              "differenceId": "topic-1-6.6-reading.word.40.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.41",
+          "word": "感動する",
+          "reading": "かんどうする",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.6-reading.word.41.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "topic-1-6.6-reading.word.41.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "感激する",
+              "glossId": "topic-1-6.6-reading.word.41.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.41.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.42",
+          "word": "岩手県",
+          "reading": "いわてけん",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.42.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>の 花巻",
+              "usageId": "topic-1-6.6-reading.word.42.pattern.0.usage"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.43",
+          "word": "花巻町",
+          "reading": "はなまきちょう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.43.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で 生まれる",
+              "usageId": "topic-1-6.6-reading.word.43.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "盛岡市",
+              "glossId": "topic-1-6.6-reading.word.44.meaning",
+              "differenceId": "topic-1-6.6-reading.word.43.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.44",
+          "word": "盛岡市",
+          "reading": "もりおかし",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.44.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 住む",
+              "usageId": "topic-1-6.6-reading.word.44.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "花巻町",
+              "glossId": "topic-1-6.6-reading.word.43.meaning",
+              "differenceId": "topic-1-6.6-reading.word.44.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.45",
+          "word": "盛岡中学",
+          "reading": "もりおかちゅうがく",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.45.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 入学する",
+              "usageId": "topic-1-6.6-reading.word.45.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "盛岡高等農林学校",
+              "glossId": "topic-1-6.6-reading.word.46.meaning",
+              "differenceId": "topic-1-6.6-reading.word.45.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.46",
+          "word": "盛岡高等農林学校",
+          "reading": "もりおかこうとうのうりんがっこう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.46.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 進学する",
+              "usageId": "topic-1-6.6-reading.word.46.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "盛岡中学",
+              "glossId": "topic-1-6.6-reading.word.45.meaning",
+              "differenceId": "topic-1-6.6-reading.word.46.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.47",
+          "word": "花巻農学校",
+          "reading": "はなまきのうがっこう",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.47.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>で 教える",
+              "usageId": "topic-1-6.6-reading.word.47.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "盛岡高等農林学校",
+              "glossId": "topic-1-6.6-reading.word.46.meaning",
+              "differenceId": "topic-1-6.6-reading.word.47.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.48",
+          "word": "都会",
+          "reading": "とかい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.48.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に あこがれる",
+              "usageId": "topic-1-6.6-reading.word.48.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "田舎",
+              "glossId": "topic-1-6.6-reading.word.24.meaning",
+              "differenceId": "topic-1-6.6-reading.word.48.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.49",
+          "word": "政界",
+          "reading": "せいかい",
+          "pos": "noun",
+          "meaningId": "topic-1-6.6-reading.word.49.meaning",
+          "patterns": [
+            {
+              "pattern": "<w>に 進む",
+              "usageId": "topic-1-6.6-reading.word.49.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "財界",
+              "glossId": "topic-1-6.6-reading.word.49.contrast.0.gloss",
+              "differenceId": "topic-1-6.6-reading.word.49.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "topic-1-6.6-reading.word.50",
+          "word": "びっくりする",
+          "reading": "びっくりする",
+          "pos": "verb",
+          "transitivity": "intransitive",
+          "meaningId": "topic-1-6.6-reading.word.50.meaning",
+          "patterns": [
+            {
+              "pattern": "N に <w>",
+              "usageId": "topic-1-6.6-reading.word.50.pattern.0.usage"
+            }
+          ],
+          "contrasts": [
+            {
+              "word": "驚く",
+              "glossId": "topic-1-6.6-reading.word.29.meaning",
+              "differenceId": "topic-1-6.6-reading.word.50.contrast.0.difference"
+            }
+          ],
+          "questions": []
+        }
+      ]
+    },
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-reading.grammar.0",
+          "title": "語彙の使い方",
+          "examples": [],
+          "noteIds": [
+            "topic-1-6.6-reading.grammar.0.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-reading.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "今日は暖かくて、（　　）らしい日ですね。"
+                },
+                {
+                  "textId": "topic-1-6.6-reading.grammar.0.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-reading.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "春な"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "春で"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "春"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "春の"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-reading.grammar.1",
+          "title": "読解・内容のまとめ",
+          "examples": [],
+          "noteIds": [
+            "topic-1-6.6-reading.grammar.1.note.0",
+            "topic-1-6.6-reading.grammar.1.note.1",
+            "topic-1-6.6-reading.grammar.1.note.2",
+            "topic-1-6.6-reading.grammar.1.note.3"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-reading.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "ここは山や川があって、田舎（　　）景色だ。"
+                },
+                {
+                  "textId": "topic-1-6.6-reading.grammar.1.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-reading.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "らしいの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "らしい"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "らしいな"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "らしく"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-reading.grammar.2",
+          "title": "～らしい【典型性】",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "今日は春らしい天気だ。",
+              "translationId": "topic-1-6.6-reading.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼は学生らしい服を着ている。",
+              "translationId": "topic-1-6.6-reading.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-reading.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "あまり先生（　　）先生でした。"
+                },
+                {
+                  "textId": "topic-1-6.6-reading.grammar.2.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-reading.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "らしくなく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "らしいない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "らしいではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "らしくない"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "topic-1-6.6-reading.grammar.2.meaning",
+          "formationId": "topic-1-6.6-reading.grammar.2.formation",
+          "usageId": "topic-1-6.6-reading.grammar.2.usage",
+          "pitfallId": "topic-1-6.6-reading.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-reading.grammar.3",
+          "title": "例文の解説",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "「上の学校に進学させてください。」と頼みましたが、祖父の強い反対で家の仕事をすることになりました。",
+              "translationId": "topic-1-6.6-reading.grammar.3.example.0.translation",
+              "analysisId": "topic-1-6.6-reading.grammar.3.example.0.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "しかし、元気をなくした賢治のことを心配した母親の力で、翌年やっと盛岡高等農林学校に進むことができました。",
+              "translationId": "topic-1-6.6-reading.grammar.3.example.1.translation",
+              "analysisId": "topic-1-6.6-reading.grammar.3.example.1.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "学校では化学や地学を教えながら、学生たちに自分の作った劇を練習させたり、自分の詩や童話を聞かせたりすることもありました。",
+              "translationId": "topic-1-6.6-reading.grammar.3.example.2.translation",
+              "analysisId": "topic-1-6.6-reading.grammar.3.example.2.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "あまり先生らしくない先生で、誤解を受けたこともありましたが、家庭ではいつもおもしろい話をして、母親や妹を笑わせました。",
+              "translationId": "topic-1-6.6-reading.grammar.3.example.3.translation",
+              "analysisId": "topic-1-6.6-reading.grammar.3.example.3.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "賢治は大正13年（1924）に詩集と童話集を１冊ずつ出しました。",
+              "translationId": "topic-1-6.6-reading.grammar.3.example.4.translation",
+              "analysisId": "topic-1-6.6-reading.grammar.3.example.4.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "田舎の無名の詩人の出したこの本は文学界の人々を驚かせましたが、ほとんど売れませんでした。",
+              "translationId": "topic-1-6.6-reading.grammar.3.example.5.translation",
+              "analysisId": "topic-1-6.6-reading.grammar.3.example.5.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "大正15年（1926）には教師をやめ、農民とともに生きようとしました。しかし、彼は農民にもあまり理解してもらえませんでした。",
+              "translationId": "topic-1-6.6-reading.grammar.3.example.6.translation",
+              "analysisId": "topic-1-6.6-reading.grammar.3.example.6.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "賢治は昭和８年（1933）に37歳の若さで亡くなりましたが、独創的で幻想的な彼の作品は彼の死後、多くの人々を感動させ、映画にもなりました。",
+              "translationId": "topic-1-6.6-reading.grammar.3.example.7.translation",
+              "analysisId": "topic-1-6.6-reading.grammar.3.example.7.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "ジョンさんはとても男らしい人で、女の子に人気がある。",
+              "translationId": "topic-1-6.6-reading.grammar.3.example.8.translation",
+              "analysisId": "topic-1-6.6-reading.grammar.3.example.8.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "ここは山や川があって、田舎らしい景色だ。",
+              "translationId": "topic-1-6.6-reading.grammar.3.example.9.translation",
+              "analysisId": "topic-1-6.6-reading.grammar.3.example.9.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "今日は暖かくて、春らしい日だね。",
+              "translationId": "topic-1-6.6-reading.grammar.3.example.10.translation",
+              "analysisId": "topic-1-6.6-reading.grammar.3.example.10.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "友子ちゃん、ズボンばかりはかないで、もっと女の子らしい服を着たらどう？",
+              "translationId": "topic-1-6.6-reading.grammar.3.example.11.translation",
+              "analysisId": "topic-1-6.6-reading.grammar.3.example.11.analysis"
+            },
+            {
+              "kind": "sentence",
+              "text": "スーツがなかったら買わなくてもいいけど、大学の入学式には学生らしい服を着て行ったほうがいいよ。",
+              "translationId": "topic-1-6.6-reading.grammar.3.example.12.translation",
+              "analysisId": "topic-1-6.6-reading.grammar.3.example.12.analysis"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-reading.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "学生（　　）服を着ている。"
+                },
+                {
+                  "textId": "topic-1-6.6-reading.grammar.3.question.0.prompt.1"
+                }
+              ],
+              "explanationId": "topic-1-6.6-reading.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "みたいな"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "みたいに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "みたいの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "みたい"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "grammar",
+          "id": "topic-1-6.6-reading.grammar.4",
+          "title": "補充読解・練習（オリジナル）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "宮沢賢治は、詩や童話を書いた作家である。教師として働いていた時期には、学生に自分の作品を聞かせることもあった。その作品は生前あまり売れなかったが、死後、多くの人に読まれるようになった。この文章では、生前の評価と死後の広がりが対照的に描かれている。",
+              "translationId": "topic-1-6.6-reading.grammar.4.example.0.translation"
+            }
+          ],
+          "noteIds": [
+            "topic-1-6.6-reading.grammar.4.note.0"
+          ],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-reading.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "宮沢賢治は、詩や童話を書いた作家である。教師として働いていた時期には、学生に自分の作品を聞かせることもあった。その作品は生前あまり売れなかったが、死後、多くの人に読まれるようになった。この文章では、生前の評価と死後の広がりが対照的に描かれている。\n\n【補充読解】この文章で対照的に描かれていることは何ですか。"
+                }
+              ],
+              "instructionId": "topic-1-6.6-reading.grammar.4.question.0.instruction",
+              "explanationId": "topic-1-6.6-reading.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "詩と童話の長さ。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "生前の評価と死後の作品の広がり。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "学生と教師の給料。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "日本と外国の天気。"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-reading.grammar.4.question.1",
+              "prompt": [
+                {
+                  "japanese": "宮沢賢治は、詩や童話を書いた作家である。教師として働いていた時期には、学生に自分の作品を聞かせることもあった。その作品は生前あまり売れなかったが、死後、多くの人に読まれるようになった。この文章では、生前の評価と死後の広がりが対照的に描かれている。\n\n【補充読解】教師として働いていた時期にしたことはどれですか。"
+                }
+              ],
+              "instructionId": "topic-1-6.6-reading.grammar.4.question.1.instruction",
+              "explanationId": "topic-1-6.6-reading.grammar.4.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "作品を読むことを禁止した。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "童話を書くのをやめた。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "自分の作品を学生に聞かせた。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "作品をすべて捨てた。"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-reading.grammar.4.question.2",
+              "prompt": [
+                {
+                  "japanese": "宮沢賢治は、詩や童話を書いた作家である。教師として働いていた時期には、学生に自分の作品を聞かせることもあった。その作品は生前あまり売れなかったが、死後、多くの人に読まれるようになった。この文章では、生前の評価と死後の広がりが対照的に描かれている。\n\n【補充読解】「その作品」は誰の作品ですか。"
+                }
+              ],
+              "instructionId": "topic-1-6.6-reading.grammar.4.question.2.instruction",
+              "explanationId": "topic-1-6.6-reading.grammar.4.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "別の教師の作品。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "学生全員の作品。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "宮沢賢治の作品。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "文章の読者の作品。"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "topic-1-6.6-reading.grammar.4.question.3",
+              "prompt": [
+                {
+                  "japanese": "宮沢賢治は、詩や童話を書いた作家である。教師として働いていた時期には、学生に自分の作品を聞かせることもあった。その作品は生前あまり売れなかったが、死後、多くの人に読まれるようになった。この文章では、生前の評価と死後の広がりが対照的に描かれている。\n\n【補充読解】作品が多くの人に読まれるようになったのは、いつですか。"
+                }
+              ],
+              "instructionId": "topic-1-6.6-reading.grammar.4.question.3.instruction",
+              "explanationId": "topic-1-6.6-reading.grammar.4.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "死後。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "生まれる前。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "教師になる前だけ。"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "学生の時だけ。"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

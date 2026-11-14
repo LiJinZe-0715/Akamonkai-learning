@@ -1,0 +1,42 @@
+# 只忽略「本机生成、别人不需要」的东西。
+# data/、public/media/、public/downloads/ 里的 APK 都是内容，正常入库——
+# 音频与 APK 为什么随源码提交，见 .gitattributes 和 .github/workflows/deploy-pages.yml。
+
+# 依赖
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# 构建产物
+/dist/
+# scripts/build-content.mjs 从 data/ 编译出来，可再生
+/public/content/
+
+# 构建日志与 e2e 截图（scripts/build-log.mjs 自建，只留最近 20 份）
+/logs/
+
+# 音频瘦身的中间产物（scripts/compress-audio.mjs 输出到 work/audio/）。
+# 下面三个是它的默认输入目录：原始录音放进来别提交，转好的单声道在 public/media/。
+# 必须锚定根目录——写成 manabo/ 会把 public/media/manabo/ 里已入库的音频一起吞掉。
+/work/
+/生中继音频1/
+/生中继音频2/
+/manabo/
+
+# 本地配置与密钥
+.env*
+!.env.example
+# 安卓的构建中间产物和签名钥匙由 android/.gitignore 管（.gradle/、**/build/、
+# app/src/main/assets/public/、local.properties、.signing/），这里不重复。
+
+# 编辑器与系统残留
+/.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# AI 工具的本地状态与工作记忆
+/.workbuddy/
+/.workbuddy-ai/
+/.claude/

@@ -1,0 +1,106 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.4",
+  "bookId": "katakana-renshucho",
+  "title": "第04課 お酒",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.4.word.0",
+          "word": "ビール",
+          "reading": "びーる",
+          "meaningId": "katakana-renshucho.4.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.4.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.4.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ビール"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.4.word.1",
+          "word": "ワイン",
+          "reading": "わいん",
+          "meaningId": "katakana-renshucho.4.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.4.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.4.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ワイン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.4.word.2",
+          "word": "サワー",
+          "reading": "さわー",
+          "meaningId": "katakana-renshucho.4.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.4.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.4.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "サワー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.4.word.3",
+          "word": "カクテル",
+          "reading": "かくてる",
+          "meaningId": "katakana-renshucho.4.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.4.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.4.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "カクテル"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}
