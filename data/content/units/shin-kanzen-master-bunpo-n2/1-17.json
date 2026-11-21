@@ -1,0 +1,274 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-17",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第17課 ～だから（理由）-2",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-17.grammar.0",
+          "title": "～ことだし",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "天気もいいことだし、散歩に行きませんか。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "みんな来ていることだし、始めましょう。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-17.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "天気もいい（　）、散歩に行きませんか。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ことだし"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "からには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-17.grammar.0.question.1",
+              "prompt": [
+                {
+                  "japanese": "彼の（　）、きっと間に合うだろう。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.0.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだし"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだから"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-17.grammar.0.question.2",
+              "prompt": [
+                {
+                  "japanese": "期待していた（　）、がっかりした。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.0.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "だけに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "からには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだし"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-17.grammar.0.question.3",
+              "prompt": [
+                {
+                  "japanese": "約束した（　）、守らなければならない。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.0.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "あまり"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだし"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "からには"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-17.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-17.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-17.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-17.grammar.1",
+          "title": "～のことだから",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼のことだから、きっと間に合うだろう。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "真面目な山田さんのことだから、忘れはしないよ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-17.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-17.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-17.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-17.grammar.2",
+          "title": "～だけに",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "有名なだけに、値段も高い。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "期待していただけに、がっかりした。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-17.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-17.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-17.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-17.grammar.3",
+          "title": "～ばかりに",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "一言多いばかりに、彼に嫌われてしまった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "お金がないばかりに、留学をあきらめた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-17.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-17.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-17.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-17.grammar.4",
+          "title": "～からには・～以上（は）・～上は",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "約束したからには、守らなければならない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "引き受けた以上は、責任を持ってやります。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-17.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-17.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-17.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-17.grammar.4.pitfall"
+        }
+      ]
+    }
+  }
+}

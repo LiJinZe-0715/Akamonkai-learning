@@ -1,0 +1,7 @@
+.gradle/
+**/build/
+app/src/main/assets/public/
+local.properties
+
+# signing/debug.keystore 故意不忽略：它同时是发版证书，丢了就再也签不出能覆盖安装的
+# 包（删仓库、从云上重新拉的那次就踩过）。让钥匙跟着源码走，别再加回这个忽略项。

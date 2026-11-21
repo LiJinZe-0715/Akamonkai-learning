@@ -1,0 +1,622 @@
+{
+  "kind": "lesson",
+  "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro",
+  "bookId": "nihongo-noryoku-shiken-n2-bunpo",
+  "title": "ところの表現",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.0",
+          "title": "Vるところだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "今から出かけるところです。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "ちょうど今、昼ご飯を食べるところだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "会議はこれから始まるところです。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.0.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.0.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.0.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.1",
+          "title": "Vているところだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "今、原因を調べているところです。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "今、資料を作っているところだから、もう少し待って。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "電話したとき、彼はちょうど昼ご飯を食べているところだった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "これから会議を始める（　）なので、あとで電話します。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.1.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ところ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところだった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところへ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "たところ"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.1.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.1.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.1.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.2",
+          "title": "Vたところだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "今、会社に着いたところです。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "さっき昼ご飯を食べたところだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "今、先生から連絡があったところです。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.2.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.2.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.2.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.3",
+          "title": "Vたところ、B",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "病院で調べてもらったところ、問題はなかった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "電話してみたところ、その店はもう閉店していた。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "交渉したところ、先方は応じてくれなかった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "すみません、今お客様と話している（　）なので、少々お待ちください。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.3.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "たところ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところだった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところへ"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.3.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.3.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.3.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.4",
+          "title": "Vるところだった",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "危うく財布を忘れるところだった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "もう少しで電車に乗り遅れるところだった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "危うく事故になるところだった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.4.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.4.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.4.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5",
+          "title": "～ところに／へ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "出かけようとしていたところに、雨が降ってきた。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "食事をしているところへ、友達が訪ねてきた。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "駅に着いたところに、ちょうどバスが来た。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.0",
+              "prompt": [
+                {
+                  "japanese": "今から昼ご飯を食べる（　）です。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ところ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "たところ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところだった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところに"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.1",
+              "prompt": [
+                {
+                  "japanese": "ただ今、担当者が原因を確認している（　）です。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ところだった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "たところ"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.2",
+              "prompt": [
+                {
+                  "japanese": "さっき駅に着いた（　）です。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ところ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところだった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "たところ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところに"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.3",
+              "prompt": [
+                {
+                  "japanese": "今、資料をメールで送った（　）です。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ところに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところだった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "たところ"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.4",
+              "prompt": [
+                {
+                  "japanese": "先生に聞いてみた（　）、すぐに詳しく説明してくれた。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.4.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ところだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところだった"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.5",
+              "prompt": [
+                {
+                  "japanese": "店へ行ってみた（　）、もう閉まっていた。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.5.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.5.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ところだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところだった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところ"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.6",
+              "prompt": [
+                {
+                  "japanese": "階段で足を滑らせて、もう少しで転ぶ（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.6.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.6.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ところに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところだった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "たところ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところだ"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.7",
+              "prompt": [
+                {
+                  "japanese": "急ブレーキをかけなければ、前の車にぶつかる（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.7.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.7.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ところだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところだった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "たところ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところへ"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.8",
+              "prompt": [
+                {
+                  "japanese": "家を出ようとしていた（　）、宅配便が来た。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.8.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.8.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "たところだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところだった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところに"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.9",
+              "prompt": [
+                {
+                  "japanese": "みんなで夕食を食べている（　）、遅れていた友達がやって来た。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.9.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.question.9.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "たところ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところだった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところへ"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.6-tokoro.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

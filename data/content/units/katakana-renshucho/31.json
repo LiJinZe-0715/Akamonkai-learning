@@ -1,0 +1,129 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.31",
+  "bookId": "katakana-renshucho",
+  "title": "第31課 野菜",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.31.word.0",
+          "word": "ピーマン",
+          "reading": "ぴーまん",
+          "meaningId": "katakana-renshucho.31.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.31.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.31.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ピーマン"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.31.word.1",
+          "word": "キャベツ",
+          "reading": "きゃべつ",
+          "meaningId": "katakana-renshucho.31.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.31.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.31.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "キャベツ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.31.word.2",
+          "word": "レタス",
+          "reading": "れたす",
+          "meaningId": "katakana-renshucho.31.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.31.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.31.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "レタス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.31.word.3",
+          "word": "ブロッコリー",
+          "reading": "ぶろっこりー",
+          "meaningId": "katakana-renshucho.31.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.31.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.31.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ブロッコリー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.31.word.4",
+          "word": "トマト",
+          "reading": "とまと",
+          "meaningId": "katakana-renshucho.31.word.4.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.31.word.4.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.31.word.4.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "トマト"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

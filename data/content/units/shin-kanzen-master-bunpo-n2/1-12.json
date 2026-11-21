@@ -1,0 +1,275 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-12",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第12課 強く否定する・強く否定しない",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-12.grammar.0",
+          "title": "～わけがない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "こんな難しい問題、子供に分かるわけがない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼が犯人なわけがない。あの日、彼は海外にいたのだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-12.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "こんな難しい問題、子供に分かる（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ものか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どころか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけがない"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-12.grammar.0.question.1",
+              "prompt": [
+                {
+                  "japanese": "宿題が多くて、遊ぶ（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.0.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "どころではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけがない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どころか"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-12.grammar.0.question.2",
+              "prompt": [
+                {
+                  "japanese": "値段が高ければいい（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.0.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わけがない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どころではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "というものではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にすぎない"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-12.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-12.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-12.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-12.grammar.1",
+          "title": "～どころではない・～どころか",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "宿題が多くて、遊ぶどころではない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼は漢字どころか、ひらがなも書けない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-12.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-12.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-12.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-12.grammar.2",
+          "title": "～ものか",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "あんな店、二度と行くものか。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "そんな話、誰が信じるものか。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-12.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-12.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-12.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-12.grammar.3",
+          "title": "～わけではない・～というわけではない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "お金があれば幸せというわけではない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "嫌いなわけではないが、あまり食べない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-12.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "お金があれば幸せ（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に違いない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "というものだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "というわけではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけがない"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-12.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-12.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-12.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-12.grammar.4",
+          "title": "～というものではない・～というものでもない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "値段が高ければいいというものではない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "一度失敗したからといって、だめというものでもない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-12.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-12.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-12.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-12.grammar.4.pitfall"
+        }
+      ]
+    }
+  }
+}

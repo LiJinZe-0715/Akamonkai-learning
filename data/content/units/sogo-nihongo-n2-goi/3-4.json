@@ -1,0 +1,392 @@
+{
+  "kind": "lesson",
+  "id": "sogo-nihongo-n2-goi.3-4",
+  "bookId": "sogo-nihongo-n2-goi",
+  "title": "第3週 4日目 どんな気持ち・態度ですか？①",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.0",
+          "word": "くやしい",
+          "reading": "くやしい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.0.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.1",
+          "word": "くやむ",
+          "reading": "くやむ",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.1.meaning",
+          "questions": [],
+          "contrasts": [
+            {
+              "word": "くやしい",
+              "glossId": "sogo-nihongo-n2-goi.3-4.word.0.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.3-4.word.1.contrast.0.difference"
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.2",
+          "word": "つらい",
+          "reading": "つらい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.2.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.3",
+          "word": "情けない",
+          "reading": "なさけない",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.3.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.4",
+          "word": "申し訳ない",
+          "reading": "もうしわけない",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.4.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.5",
+          "word": "残念だ",
+          "reading": "ざんねんだ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.5.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.6",
+          "word": "仕方がない",
+          "reading": "しかたがない",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.6.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.7",
+          "word": "しょうがない",
+          "reading": "しょうがない",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.7.meaning",
+          "questions": [],
+          "contrasts": [
+            {
+              "word": "仕方がない",
+              "glossId": "sogo-nihongo-n2-goi.3-4.word.6.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.3-4.word.7.contrast.0.difference"
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.8",
+          "word": "やむを得ない",
+          "reading": "やむをえない",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.8.meaning",
+          "questions": [],
+          "analysisId": "sogo-nihongo-n2-goi.3-4.word.8.analysis"
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.9",
+          "word": "疑問に思う",
+          "reading": "ぎもんにおもう",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.9.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.10",
+          "word": "不思議だ",
+          "reading": "ふしぎだ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.10.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.11",
+          "word": "納得がいかない",
+          "reading": "なっとくがいかない",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.11.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.12",
+          "word": "納得がいく",
+          "reading": "なっとくがいく",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.12.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.13",
+          "word": "飽きる",
+          "reading": "あきる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.13.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.14",
+          "word": "呆れる",
+          "reading": "あきれる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.14.meaning",
+          "questions": [],
+          "analysisId": "sogo-nihongo-n2-goi.3-4.word.14.analysis"
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.15",
+          "word": "諦める",
+          "reading": "あきらめる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.15.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.16",
+          "word": "慌てる",
+          "reading": "あわてる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.16.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.17",
+          "word": "焦る",
+          "reading": "あせる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.17.meaning",
+          "questions": [],
+          "contrasts": [
+            {
+              "word": "慌てる",
+              "glossId": "sogo-nihongo-n2-goi.3-4.word.16.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.3-4.word.17.contrast.0.difference"
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.18",
+          "word": "ためらう",
+          "reading": "ためらう",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.18.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.19",
+          "word": "憧れる",
+          "reading": "あこがれる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.19.meaning",
+          "questions": [],
+          "patterns": [
+            {
+              "pattern": "<w> に 憧れる",
+              "usageId": "sogo-nihongo-n2-goi.3-4.word.19.pattern.0.usage"
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.20",
+          "word": "落ち込む",
+          "reading": "おちこむ",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.20.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.21",
+          "word": "恋しい",
+          "reading": "こいしい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.21.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.22",
+          "word": "懐かしい",
+          "reading": "なつかしい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.22.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.23",
+          "word": "ありがたい",
+          "reading": "ありがたい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.23.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.24",
+          "word": "みっともない",
+          "reading": "みっともない",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.24.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.25",
+          "word": "馬鹿らしい",
+          "reading": "ばからしい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.25.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.26",
+          "word": "惜しい",
+          "reading": "おしい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.26.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.27",
+          "word": "憎い",
+          "reading": "にくい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.27.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.28",
+          "word": "憎らしい",
+          "reading": "にくらしい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.28.meaning",
+          "questions": [],
+          "contrasts": [
+            {
+              "word": "憎い",
+              "glossId": "sogo-nihongo-n2-goi.3-4.word.27.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.3-4.word.28.contrast.0.difference"
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.29",
+          "word": "面倒くさい",
+          "reading": "めんどうくさい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.29.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.30",
+          "word": "面倒な仕事",
+          "reading": "めんどうなしごと",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.30.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.31",
+          "word": "夢中になる",
+          "reading": "むちゅうになる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.31.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.32",
+          "word": "退屈する",
+          "reading": "たいくつする",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.32.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.33",
+          "word": "悩む",
+          "reading": "なやむ",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.33.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.34",
+          "word": "悩み",
+          "reading": "なやみ",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.34.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.35",
+          "word": "神に祈る",
+          "reading": "かみにいのる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.35.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.36",
+          "word": "神にちかう",
+          "reading": "かみにちかう",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.36.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-4.word.37",
+          "word": "仏をおがむ",
+          "reading": "ほとけをおがむ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-4.word.37.meaning",
+          "questions": []
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

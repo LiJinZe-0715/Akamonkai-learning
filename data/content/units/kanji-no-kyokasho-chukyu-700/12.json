@@ -1,0 +1,1761 @@
+{
+  "kind": "lesson",
+  "id": "kanji-no-kyokasho-chukyu-700.12",
+  "bookId": "kanji-no-kyokasho-chukyu-700",
+  "title": "521~540",
+  "modules": {
+    "kanji": {
+      "kind": "kanji-module",
+      "items": [
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.521",
+          "character": "編",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.521.meaning",
+          "onReadings": [
+            "ヘン"
+          ],
+          "kunReadings": [
+            "あ.む"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.521.word.0",
+              "word": "編集する",
+              "reading": "へんしゅうする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.521.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.521.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "編集する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "へんしゅうする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.521.word.1",
+              "word": "編む",
+              "reading": "あむ",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.521.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.521.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "編む"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "あむ"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.521.word.2",
+              "word": "～編",
+              "reading": "~へん",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.521.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.521.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "～編"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "～へん",
+                    "へん"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "雑誌の特集を[編集する:へんしゅうする]仕事をしている。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.521.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.522",
+          "character": "示",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.522.meaning",
+          "onReadings": [
+            "ジ"
+          ],
+          "kunReadings": [
+            "しめ.す"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.522.word.0",
+              "word": "指示する",
+              "reading": "しじする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.522.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.522.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "指示する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "しじする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.522.word.1",
+              "word": "表示する",
+              "reading": "ひょうじする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.522.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.522.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "表示する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ひょうじする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.522.word.2",
+              "word": "示す",
+              "reading": "しめす",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.522.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.522.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "示す"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "しめす"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "地図で行き方を[示す:しめす]。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.522.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.523",
+          "character": "成",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.523.meaning",
+          "onReadings": [
+            "セイ"
+          ],
+          "kunReadings": [
+            "な.る"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.523.word.0",
+              "word": "成長する",
+              "reading": "せいちょうする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.523.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.523.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "成長する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "せいちょうする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.523.word.1",
+              "word": "成人",
+              "reading": "せいじん",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.523.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.523.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "成人"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "せいじん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.523.word.2",
+              "word": "作成する",
+              "reading": "さくせいする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.523.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.523.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "作成する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "さくせいする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.523.word.3",
+              "word": "成田国際空港",
+              "reading": "なりたこくさいくうこう",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.523.word.3.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.523.word.3.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "成田国際空港"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "なりたこくさいくうこう"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "子どもは一年で大きく[成長する:せいちょうする]。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.523.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.524",
+          "character": "存",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.524.meaning",
+          "onReadings": [
+            "ソン"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.524.word.0",
+              "word": "存在する",
+              "reading": "そんざいする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.524.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.524.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "存在する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "そんざいする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.524.word.1",
+              "word": "存じる",
+              "reading": "ぞんじる",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.524.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.524.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "存じる"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ぞんじる"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "地球上に水が[存在する:そんざいする]のは不思議だ。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.524.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.525",
+          "character": "保",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.525.meaning",
+          "onReadings": [
+            "ホ"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.525.word.0",
+              "word": "保存する",
+              "reading": "ほぞんする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.525.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.525.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "保存する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ほぞんする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.525.word.1",
+              "word": "保証する",
+              "reading": "ほしょうする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.525.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.525.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "保証する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ほしょうする"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "データをこまめに[保存する:ほぞんする]。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.525.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.526",
+          "character": "設",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.526.meaning",
+          "onReadings": [
+            "セツ"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.526.word.0",
+              "word": "設計する",
+              "reading": "せっけいする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.526.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.526.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "設計する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "せっけいする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.526.word.1",
+              "word": "設定する",
+              "reading": "せっていする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.526.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.526.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "設定する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "せっていする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.526.word.2",
+              "word": "建設する",
+              "reading": "けんせつする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.526.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.526.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "建設する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "けんせつする"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "新しい家を[設計する:せっけいする]のを頼まれた。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.526.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.527",
+          "character": "印",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.527.meaning",
+          "onReadings": [
+            "イン"
+          ],
+          "kunReadings": [
+            "しるし"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.527.word.0",
+              "word": "印象",
+              "reading": "いんしょう",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.527.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.527.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "印象"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "いんしょう"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.527.word.1",
+              "word": "印",
+              "reading": "しるし",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.527.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.527.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "印"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "しるし"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.527.word.2",
+              "word": "目印",
+              "reading": "めじるし",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.527.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.527.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "目印"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "めじるし"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "駅の前の時計台を[目印:めじるし]に待ち合わせた。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.527.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.528",
+          "character": "刷",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.528.meaning",
+          "onReadings": [
+            "サツ"
+          ],
+          "kunReadings": [
+            "す.る"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.528.word.0",
+              "word": "印刷する",
+              "reading": "いんさつする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.528.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.528.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "印刷する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "いんさつする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.528.word.1",
+              "word": "刷る",
+              "reading": "する",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.528.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.528.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "刷る"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "する"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "資料を百部[印刷する:いんさつする]。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.528.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.529",
+          "character": "信",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.529.meaning",
+          "onReadings": [
+            "シン"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.529.word.0",
+              "word": "通信",
+              "reading": "つうしん",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.529.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.529.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "通信"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "つうしん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.529.word.1",
+              "word": "自信",
+              "reading": "じしん",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.529.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.529.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "自信"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "じしん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.529.word.2",
+              "word": "信じる",
+              "reading": "しんじる",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.529.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.529.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "信じる"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "しんじる"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.529.word.3",
+              "word": "信号",
+              "reading": "しんごう",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.529.word.3.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.529.word.3.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "信号"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "しんごう"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.529.word.4",
+              "word": "送信する",
+              "reading": "そうしんする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.529.word.4.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.529.word.4.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "送信する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "そうしんする"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼の話を[信じる:しんじる]ことにした。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.529.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.530",
+          "character": "了",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.530.meaning",
+          "onReadings": [
+            "リョウ"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.530.word.0",
+              "word": "終了する",
+              "reading": "しゅうりょうする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.530.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.530.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "終了する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "しゅうりょうする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.530.word.1",
+              "word": "完了する",
+              "reading": "かんりょうする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.530.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.530.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "完了する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "かんりょうする"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "会議は十時に[終了する:しゅうりょうする]。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.530.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.531",
+          "character": "列",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.531.meaning",
+          "onReadings": [
+            "レツ"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.531.word.0",
+              "word": "列",
+              "reading": "れつ",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.531.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.531.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "列"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "れつ"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.531.word.1",
+              "word": "列車",
+              "reading": "れっしゃ",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.531.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.531.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "列車"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "れっしゃ"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.531.word.2",
+              "word": "列島",
+              "reading": "れっとう",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.531.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.531.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "列島"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "れっとう"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.531.word.3",
+              "word": "行列",
+              "reading": "ぎょうれつ",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.531.word.3.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.531.word.3.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "行列"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ぎょうれつ"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "店の前に長い[行列:ぎょうれつ]ができている。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.531.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.532",
+          "character": "戻",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.532.meaning",
+          "onReadings": [
+            "レイ"
+          ],
+          "kunReadings": [
+            "もど.る",
+            "もど.す"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.532.word.0",
+              "word": "戻る",
+              "reading": "もどる",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.532.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.532.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "戻る"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "もどる"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.532.word.1",
+              "word": "戻す",
+              "reading": "もどす",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.532.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.532.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "戻す"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "もどす"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "忘れ物をして家に[戻る:もどる]。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.532.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.533",
+          "character": "更",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.533.meaning",
+          "onReadings": [
+            "コウ"
+          ],
+          "kunReadings": [
+            "さら",
+            "ふ.ける"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.533.word.0",
+              "word": "変更する",
+              "reading": "へんこうする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.533.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.533.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "変更する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "へんこうする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.533.word.1",
+              "word": "更新する",
+              "reading": "こうしんする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.533.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.533.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "更新する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "こうしんする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.533.word.2",
+              "word": "更に",
+              "reading": "さらに",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.533.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.533.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "更に"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "さらに"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "予約の時間を[変更する:へんこうする]。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.533.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.534",
+          "character": "移",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.534.meaning",
+          "onReadings": [
+            "イ"
+          ],
+          "kunReadings": [
+            "うつ.る",
+            "うつ.す"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.534.word.0",
+              "word": "移動する",
+              "reading": "いどうする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.534.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.534.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "移動する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "いどうする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.534.word.1",
+              "word": "移転する",
+              "reading": "いてんする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.534.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.534.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "移転する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "いてんする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.534.word.2",
+              "word": "移る",
+              "reading": "うつる",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.534.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.534.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "移る"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "うつる"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.534.word.3",
+              "word": "移す",
+              "reading": "うつす",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.534.word.3.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.534.word.3.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "移す"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "うつす"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "来月、事務所が[移転する:いてんする]。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.534.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.535",
+          "character": "除",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.535.meaning",
+          "onReadings": [
+            "ジョ",
+            "ジ"
+          ],
+          "kunReadings": [
+            "のぞ.く"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.535.word.0",
+              "word": "削除する",
+              "reading": "さくじょする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.535.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.535.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "削除する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "さくじょする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.535.word.1",
+              "word": "掃除する",
+              "reading": "そうじする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.535.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.535.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "掃除する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "そうじする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.535.word.2",
+              "word": "除く",
+              "reading": "のぞく",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.535.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.535.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "除く"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "のぞく"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "週末に部屋を[掃除する:そうじする]。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.535.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.536",
+          "character": "能",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.536.meaning",
+          "onReadings": [
+            "ノウ"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.536.word.0",
+              "word": "能力",
+              "reading": "のうりょく",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.536.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.536.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "能力"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "のうりょく"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.536.word.1",
+              "word": "性能",
+              "reading": "せいのう",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.536.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.536.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "性能"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "せいのう"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.536.word.2",
+              "word": "機能",
+              "reading": "きのう",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.536.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.536.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "機能"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "きのう"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.536.word.3",
+              "word": "有能な",
+              "reading": "ゆうのうな",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.536.word.3.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.536.word.3.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "有能な"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ゆうのうな"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "このカメラは[性能:せいのう]がいい。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.536.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.537",
+          "character": "接",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.537.meaning",
+          "onReadings": [
+            "セツ"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.537.word.0",
+              "word": "面接",
+              "reading": "めんせつ",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.537.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.537.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "面接"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "めんせつ"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.537.word.1",
+              "word": "直接の",
+              "reading": "ちょくせつの",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.537.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.537.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "直接の"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ちょくせつの"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.537.word.2",
+              "word": "接続する",
+              "reading": "せつぞくする",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.537.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.537.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "接続する"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "せつぞくする"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.537.word.3",
+              "word": "間接の",
+              "reading": "かんせつの",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.537.word.3.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.537.word.3.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "間接の"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "かんせつの"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "明日、会社の[面接:めんせつ]に行く。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.537.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.538",
+          "character": "候",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.538.meaning",
+          "onReadings": [
+            "コウ"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.538.word.0",
+              "word": "気候",
+              "reading": "きこう",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.538.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.538.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "気候"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "きこう"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.538.word.1",
+              "word": "天候",
+              "reading": "てんこう",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.538.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.538.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "天候"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "てんこう"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この島は[気候:きこう]が温暖だ。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.538.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.539",
+          "character": "補",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.539.meaning",
+          "onReadings": [
+            "ホ"
+          ],
+          "kunReadings": [
+            "おぎな.う"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.539.word.0",
+              "word": "候補",
+              "reading": "こうほ",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.539.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.539.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "候補"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "こうほ"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.539.word.1",
+              "word": "補う",
+              "reading": "おぎなう",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.539.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.539.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "補う"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "おぎなう"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "足りない栄養を[補う:おぎなう]。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.539.example.0.translation"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "kanji-no-kyokasho-chukyu-700.12.kanji.540",
+          "character": "囲",
+          "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.540.meaning",
+          "onReadings": [
+            "イ"
+          ],
+          "kunReadings": [
+            "かこ.む"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.540.word.0",
+              "word": "周囲",
+              "reading": "しゅうい",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.540.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.540.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "周囲"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "しゅうい"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.540.word.1",
+              "word": "範囲",
+              "reading": "はんい",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.540.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.540.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "範囲"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "はんい"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "kanji-no-kyokasho-chukyu-700.12.kanji.540.word.2",
+              "word": "囲む",
+              "reading": "かこむ",
+              "meaningId": "kanji-no-kyokasho-chukyu-700.12.kanji.540.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "kanji-no-kyokasho-chukyu-700.12.kanji.540.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "囲む"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "かこむ"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "家の[周囲:しゅうい]には田んぼが多い。",
+              "translationId": "kanji-no-kyokasho-chukyu-700.12.kanji.540.example.0.translation"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

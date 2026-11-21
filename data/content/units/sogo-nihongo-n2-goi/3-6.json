@@ -1,0 +1,382 @@
+{
+  "kind": "lesson",
+  "id": "sogo-nihongo-n2-goi.3-6",
+  "bookId": "sogo-nihongo-n2-goi",
+  "title": "第3週 6日目 体の具合はどうですか？",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.0",
+          "word": "医師の診察を受ける",
+          "reading": "いしのしんさつをうける",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.0.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.1",
+          "word": "早めに医者にかかる",
+          "reading": "はやめにいしゃにかかる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.1.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.2",
+          "word": "健康診断を受ける",
+          "reading": "けんこうしんだんをうける",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.2.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.3",
+          "word": "血圧が高い",
+          "reading": "けつあつがたかい",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.3.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.4",
+          "word": "血圧が低い",
+          "reading": "けつあつがひくい",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.4.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.5",
+          "word": "病気の症状",
+          "reading": "びょうきのしょうじょう",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.5.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.6",
+          "word": "症状が治まる",
+          "reading": "しょうじょうがおさまる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.6.meaning",
+          "questions": [],
+          "analysisId": "sogo-nihongo-n2-goi.3-6.word.6.analysis"
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.7",
+          "word": "顔色が悪い",
+          "reading": "かおいろがわるい",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.7.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.8",
+          "word": "顔が真っ青だ",
+          "reading": "かおがまっさおだ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.8.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.9",
+          "word": "体の具合が悪い",
+          "reading": "からだのぐあいがわるい",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.9.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.10",
+          "word": "吐き気がする",
+          "reading": "はきけがする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.10.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.11",
+          "word": "吐く",
+          "reading": "はく",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.11.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.12",
+          "word": "頭がぼうっとする",
+          "reading": "あたまがぼうっとする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.12.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.13",
+          "word": "熱中症",
+          "reading": "ねっちゅうしょう",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.13.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.14",
+          "word": "体に熱がこもる",
+          "reading": "からだにねつがこもる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.14.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.15",
+          "word": "体がだるい",
+          "reading": "からだがだるい",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.15.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.16",
+          "word": "家にこもる",
+          "reading": "いえにこもる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.16.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.17",
+          "word": "肩がこる",
+          "reading": "かたがこる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.17.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.18",
+          "word": "肩をもむ",
+          "reading": "かたをもむ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.18.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.19",
+          "word": "ストレスがたまる",
+          "reading": "すとれすがたまる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.19.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.20",
+          "word": "痛みをこらえる",
+          "reading": "いたみをこらえる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.20.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.21",
+          "word": "痛みをがまんする",
+          "reading": "いたみをがまんする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.21.meaning",
+          "questions": [],
+          "contrasts": [
+            {
+              "word": "痛みをこらえる",
+              "glossId": "sogo-nihongo-n2-goi.3-6.word.20.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.3-6.word.21.contrast.0.difference"
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.22",
+          "word": "悲しみをこらえる",
+          "reading": "かなしみをこらえる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.22.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.23",
+          "word": "痛みに耐える",
+          "reading": "いたみにたえる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.23.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.24",
+          "word": "悲しみに耐える",
+          "reading": "かなしみにたえる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.24.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.25",
+          "word": "肌が荒れる",
+          "reading": "はだがあれる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.25.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.26",
+          "word": "肌のつやがいい",
+          "reading": "はだのつやがいい",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.26.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.27",
+          "word": "体がかゆい",
+          "reading": "からだがかゆい",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.27.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.28",
+          "word": "かく",
+          "reading": "かく",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.28.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.29",
+          "word": "湿疹ができる",
+          "reading": "しっしんができる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.29.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.30",
+          "word": "アレルギーがある",
+          "reading": "あれるぎーがある",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.30.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.31",
+          "word": "花粉症で鼻がつまる",
+          "reading": "かふんしょうではながつまる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.31.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.32",
+          "word": "虫歯になる",
+          "reading": "むしばになる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.32.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.33",
+          "word": "真っ白な歯",
+          "reading": "まっしろなは",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.33.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.34",
+          "word": "リハビリをする",
+          "reading": "りはびりをする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.34.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.35",
+          "word": "リハビリを受ける",
+          "reading": "りはびりをうける",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.35.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.36",
+          "word": "傷口がふさがる",
+          "reading": "きずぐちがふさがる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.36.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.37",
+          "word": "レントゲンを撮る",
+          "reading": "れんとげんをとる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.37.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.38",
+          "word": "手術の傷あとが痛む",
+          "reading": "しゅじゅつのきずあとがいたむ",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.38.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-6.word.39",
+          "word": "がんで死亡する",
+          "reading": "がんでしぼうする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-6.word.39.meaning",
+          "questions": []
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

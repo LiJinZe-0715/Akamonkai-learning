@@ -1,0 +1,277 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-08",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第8課 ～を基準にして",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-08.grammar.0",
+          "title": "～をもとに（して）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この小説は実際の事件をもとにしている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "アンケートの結果をもとに、計画を立てた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-08.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "この小説は実際の事件（　）いる。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に向いている"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にわたっている"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "をもとにしている"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に沿っている"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-08.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-08.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-08.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-08.grammar.1",
+          "title": "～に基づいて",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "事実に基づいて、報告書を書いた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "法律に基づく手続きが必要だ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-08.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "事実（　）、報告書を書いた。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にかけて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "をもとに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に基づいて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に向けて"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-08.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-08.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-08.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-08.grammar.2",
+          "title": "～に沿って",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "川に沿って歩くと、駅に出る。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "計画に沿って、工事を進めている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-08.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "計画（　）、工事を進めている。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に沿って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に対して"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にわたって"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-08.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-08.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-08.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-08.grammar.3",
+          "title": "～のもとで・～のもとに",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "多くの人々の協力のもとで、この事業は成功した。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "教育の機会均等という理念のもとに、制度が作られた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-08.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "この本は初心者（　）書かれている。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "がちに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "向きに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "っぽく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "向けに"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-08.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-08.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-08.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-08.grammar.4",
+          "title": "～向けだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この本は初心者向けだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "子ども向けの番組を作っている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-08.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-08.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-08.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-08.grammar.4.pitfall"
+        }
+      ]
+    }
+  }
+}

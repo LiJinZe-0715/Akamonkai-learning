@@ -1,0 +1,652 @@
+{
+  "kind": "lesson",
+  "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree",
+  "bookId": "nihongo-noryoku-shiken-n2-bunpo",
+  "title": "程度",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.0",
+          "title": "～どころか",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本語が上手になるどころか、前より話せなくなった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "薬を飲んだが、よくなるどころか、もっと痛くなった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "彼は謝るどころか、こっちが悪いと言い出した。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "この問題は考えれ（　）、分からなくなる。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.0.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "るほど"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "てまで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どころか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ば考えるほど"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.0.question.1",
+              "prompt": [
+                {
+                  "japanese": "荷物は少なけれ（　）、移動が楽になる。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.0.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.0.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ほど"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ば少ないほど"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どころか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "てまで"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.0.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.0.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.0.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1",
+          "title": "～どころではない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "忙しくて、旅行どころではない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "けがをして、仕事どころではなかった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "お金がなくて、遊ぶどころじゃないよ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "彼は日本語（　）、英語も中国語も話せる。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "てまで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どころではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くらいなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どころか"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.question.1",
+              "prompt": [
+                {
+                  "japanese": "明日の試験の準備が終わっていなくて、映画（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "どころか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ほどではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "までして"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どころではない"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.question.2",
+              "prompt": [
+                {
+                  "japanese": "会社が倒産しそうなのに、ボーナス（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "くらいなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どころではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ほど"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どころか"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.question.3",
+              "prompt": [
+                {
+                  "japanese": "好きでもない人と結婚する（　）、一人でいるほうがいい。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "どころではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くらいなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ほど"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "までして"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.question.4",
+              "prompt": [
+                {
+                  "japanese": "会場は声が聞こえない（　）にぎやかだった。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.question.4.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ほど"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どころではない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "てまで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くらいなら"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.2",
+          "title": "～くらいなら",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "嫌いな仕事を続けるくらいなら、辞めたほうがいい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "毎日残業するくらいなら、給料が少なくてもいい。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "うそをつくくらいなら、黙っていたほうがましだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "旅行は楽しかった（　）、雨ばかりで外にも出られなかった。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.2.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ほど"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どころではなく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どころか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くらいなら"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "毎日文句を言われながらここで働く（　）、辞めたほうがましだ。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.2.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "てまで"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ほど"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どころか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "くらいなら"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.2.question.2",
+              "prompt": [
+                {
+                  "japanese": "健康を壊して（　）、お金を稼ぐ必要はない。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.2.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.2.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "くらいなら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どころか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ほど"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "まで"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.2.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.2.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.2.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.3",
+          "title": "～ほど",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "声が出ないほど緊張した。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "涙が出るほど笑った。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "歩けないほど疲れたわけではない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "立っていられない（　）疲れていた。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.3.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "までして"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ほど"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ば～ほど"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どころか"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.3.question.1",
+              "prompt": [
+                {
+                  "japanese": "借金（　）、高級車を買う気持ちは理解できない。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.3.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.3.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ば～ほど"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ほど"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "までして"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どころではなく"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.3.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.3.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.3.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.4",
+          "title": "～ば～ほど",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本語は勉強すればするほど、面白くなる。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "考えれば考えるほど、分からなくなる。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "値段が安ければ安いほどいいというわけではない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.4.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.4.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.4.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.5",
+          "title": "～てまで",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "借金してまで、その車を買いたくない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "家族を犠牲にしてまで、出世したいとは思わない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.5.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "うそをついてまで、彼を守る必要はない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.5.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.5.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.5.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.5.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.5.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.6",
+          "title": "～までして",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "借金までして、その車を買う必要があるのだろうか。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.6.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "徹夜までして、ボランティアの準備をした。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.6.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "そこまでして、なぜ彼を助けたのか。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.6.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.6.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.6.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.6.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.12-degree.grammar.6.pitfall"
+        }
+      ]
+    }
+  }
+}

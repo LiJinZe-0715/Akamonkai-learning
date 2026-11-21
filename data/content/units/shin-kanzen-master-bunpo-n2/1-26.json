@@ -1,0 +1,300 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-26",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第26課 願う・感動する",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-26.grammar.0",
+          "title": "～たいものだ・～てほしいものだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "一度は富士山に登ってみたいものだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "子どもたちには、いつまでも元気でいてほしいものだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-26.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-26.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-26.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-26.grammar.1",
+          "title": "～ものだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "よく一人でこんな大仕事をやったものだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "子どもはこんなに早く大きくなるものですね。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-26.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "一度は富士山に登ってみ（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "たいことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "たいものだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "たものだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "るものか"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-26.grammar.1.question.1",
+              "prompt": [
+                {
+                  "japanese": "よく一人でこんな大仕事をやった（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.1.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わけだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "はずだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだ"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-26.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-26.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-26.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-26.grammar.2",
+          "title": "～ないもの（だろう）か",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "誰か助けてくれないものだろうか。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "もう少し安くならないものか。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-26.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "誰か助けてくれ（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ないことだろうか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "るものだろうか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないわけだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ないものだろうか"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-26.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-26.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-26.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-26.grammar.3",
+          "title": "～ものがある",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼の演奏には、人の心を打つものがある。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この作品には、どこか懐かしさを感じさせるものがある。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-26.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-26.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-26.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-26.grammar.4",
+          "title": "～ことだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "なんとまあ、立派なことだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "こんなに早く治るとは、うれしいことだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-26.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "合格の知らせを聞いたとき、どんなにうれしかった（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "わけか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-26.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-26.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-26.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-26.grammar.5",
+          "title": "～ことだろう・～ことか",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "合格の知らせを聞いたとき、どんなにうれしかったことか。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "一人で育てるのは、どれほど大変だったことだろう。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.5.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-26.grammar.5.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-26.grammar.5.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-26.grammar.5.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-26.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

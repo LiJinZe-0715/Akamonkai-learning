@@ -1,0 +1,622 @@
+{
+  "kind": "lesson",
+  "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto",
+  "bookId": "nihongo-noryoku-shiken-n2-bunpo",
+  "title": "ことの表現",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.0",
+          "title": "～ことだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "日本語が上手になりたいなら、毎日話すことだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "風邪のときは、無理をしないことだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.0.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "迷ったときは、人に相談することだ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.0.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.0.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.0.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.0.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1",
+          "title": "～ことはない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "まだ時間があるから、急ぐことはない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "そんなに謝ることはないよ。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "心配することはない。私がついている。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "会話が上手になりたいなら、間違いを恐れず話してみる（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ことに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことはない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.1",
+              "prompt": [
+                {
+                  "japanese": "一度失敗したくらいで、そんなに落ち込む（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ことはない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことなく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.2",
+              "prompt": [
+                {
+                  "japanese": "まだ締め切りまで一週間ある。今すぐ徹夜する（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ことはない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことに"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.3",
+              "prompt": [
+                {
+                  "japanese": "時間に正確な佐藤さんの（　）、もう駅に着いているはずだ。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ことか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことはない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.4",
+              "prompt": [
+                {
+                  "japanese": "選手たちは一度も諦める（　）、最後まで走り続けた。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.4.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.4.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ことに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことはない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことなく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだから"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.5",
+              "prompt": [
+                {
+                  "japanese": "（　）、この小さな店には百年の歴史がある。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.5.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.5.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "驚いたことに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "驚くことはない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "驚くことなく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "驚くことだから"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.6",
+              "prompt": [
+                {
+                  "japanese": "この日をどれほど待った（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.6.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.question.6.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ことなく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことはない"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2",
+          "title": "～ことだから",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "真面目な田中さんのことだから、もう準備しているだろう。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "いつも慌てている山田さんのことだから、今日も遅れてくるに違いない。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "時間に厳しい部長のことだから、一分遅れても怒るだろう。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "体調を早く戻したいなら、今夜は十分に休む（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ことか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことなく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだから"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "責任感の強い彼の（　）、最後までやり切るだろう。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.question.1.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ことだから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことなく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことに"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.question.2",
+              "prompt": [
+                {
+                  "japanese": "（　）、けが人は一人もいなかった。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.question.2.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.question.2.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "幸いのことだから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "幸いことなく"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "幸いなことに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "幸いなことか"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.question.3",
+              "prompt": [
+                {
+                  "japanese": "初めて一人で海外へ行ったとき、どんなに不安だった（　）。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.question.3.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.question.3.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだから"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことか"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.3",
+          "title": "～ことなく",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼は何も言うことなく、部屋を出ていった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "一度も休むことなく、十年間働き続けた。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.3.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "誰にも気づかれることなく、計画は進められた。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.3.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "彼は理由を説明する（　）、会議室を出ていった。"
+                }
+              ],
+              "instructionId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.3.question.0.instruction",
+              "explanationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ことか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことなく"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.3.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.3.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.3.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.4",
+          "title": "～ことに",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "驚いたことに、彼は一人で全部完成させた。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "残念なことに、その店は先月閉店した。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.4.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "幸いなことに、けが人は一人もいなかった。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.4.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.4.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.4.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.4.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.5",
+          "title": "～ことか",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "合格したとき、どんなに嬉しかったことか。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "一人で海外で暮らすのが、どれほど大変だったことか。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.5.example.1.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この日を何度待ち望んだことか。",
+              "translationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.5.example.2.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.5.meaning",
+          "usageId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.5.usage",
+          "formationId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.5.formation",
+          "pitfallId": "nihongo-noryoku-shiken-n2-bunpo.5-koto.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

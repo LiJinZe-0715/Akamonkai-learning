@@ -1,0 +1,299 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-20",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第20課 結果はどうなったか",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-20.grammar.0",
+          "title": "～たところ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "警察に問い合わせたところ、その事件はもう解決していた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "薬を飲んだところ、すぐに痛みが取れた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-20.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-20.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-20.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-20.grammar.1",
+          "title": "～きり",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼とは去年会ったきりだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "出かけたきり、帰ってこない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-20.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-20.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-20.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-20.grammar.2",
+          "title": "～あげく",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "さんざん迷ったあげく、何も買わなかった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "口論のあげく、二人は別れてしまった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-20.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "警察に問い合わせた（　）、事件はもう解決していた。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "きり"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "あげく"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-20.grammar.2.question.1",
+              "prompt": [
+                {
+                  "japanese": "さんざん迷った（　）、何も買わなかった。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.2.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "末に"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "きり"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "あげく"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-20.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-20.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-20.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-20.grammar.3",
+          "title": "～末（に）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "よく考えた末に、留学を決めた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "激しい議論の末、計画は中止になった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-20.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-20.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-20.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-20.grammar.4",
+          "title": "～ところだった",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "もう少しで電車に乗り遅れるところだった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "危うく転ぶところだった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-20.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "もう少しで電車に乗り遅れる（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ところだった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "きりだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところだ"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-20.grammar.4.question.1",
+              "prompt": [
+                {
+                  "japanese": "忙しくて、彼には会え（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.4.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "あげくだった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ところだった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "きりだった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ずじまいだった"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-20.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-20.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-20.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-20.grammar.5",
+          "title": "～ずじまいだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "忙しくて、彼には会えずじまいだった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "本当のことを聞けずじまいで、今も気になっている。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.5.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-20.grammar.5.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-20.grammar.5.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-20.grammar.5.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-20.grammar.5.pitfall"
+        }
+      ]
+    }
+  }
+}

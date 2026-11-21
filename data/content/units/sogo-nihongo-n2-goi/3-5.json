@@ -1,0 +1,406 @@
+{
+  "kind": "lesson",
+  "id": "sogo-nihongo-n2-goi.3-5",
+  "bookId": "sogo-nihongo-n2-goi",
+  "title": "第3週 5日目 どんな気持ち・態度ですか？②",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.0",
+          "word": "尊敬する",
+          "reading": "そんけいする",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.0.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.1",
+          "word": "えらいと思う",
+          "reading": "えらいとおもう",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.1.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.2",
+          "word": "信用する",
+          "reading": "しんようする",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.2.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.3",
+          "word": "疑う",
+          "reading": "うたがう",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.3.meaning",
+          "questions": [],
+          "patterns": [
+            {
+              "pattern": "<w> を 疑う",
+              "usageId": "sogo-nihongo-n2-goi.3-5.word.3.pattern.0.usage"
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.4",
+          "word": "いじめる",
+          "reading": "いじめる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.4.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.5",
+          "word": "やっつける",
+          "reading": "やっつける",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.5.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.6",
+          "word": "からかう",
+          "reading": "からかう",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.6.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.7",
+          "word": "バカにする",
+          "reading": "ばかにする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.7.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.8",
+          "word": "けなす",
+          "reading": "けなす",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.8.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.9",
+          "word": "責める",
+          "reading": "せめる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.9.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.10",
+          "word": "おどかす",
+          "reading": "おどかす",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.10.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.11",
+          "word": "頼る",
+          "reading": "たよる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.11.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.12",
+          "word": "頼りにする",
+          "reading": "たよりにする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.12.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.13",
+          "word": "なくさめる",
+          "reading": "なくさめる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.13.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.14",
+          "word": "許す",
+          "reading": "ゆるす",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.14.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.15",
+          "word": "裏切る",
+          "reading": "うらぎる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.15.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.16",
+          "word": "だます",
+          "reading": "だます",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.16.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.17",
+          "word": "傷つける",
+          "reading": "きずつける",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.17.meaning",
+          "questions": [],
+          "analysisId": "sogo-nihongo-n2-goi.3-5.word.17.analysis"
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.18",
+          "word": "避ける",
+          "reading": "さける",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.18.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.19",
+          "word": "放っておく",
+          "reading": "ほうっておく",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.19.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.20",
+          "word": "仕事を任せる",
+          "reading": "しごとをまかせる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.20.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.21",
+          "word": "ほほえむ",
+          "reading": "ほほえむ",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.21.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.22",
+          "word": "従う",
+          "reading": "したがう",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.22.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.23",
+          "word": "逆らう",
+          "reading": "さからう",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.23.meaning",
+          "questions": [],
+          "contrasts": [
+            {
+              "word": "従う",
+              "glossId": "sogo-nihongo-n2-goi.3-5.word.22.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.3-5.word.23.contrast.0.difference"
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.24",
+          "word": "わびる",
+          "reading": "わびる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.24.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.25",
+          "word": "感謝する",
+          "reading": "かんしゃする",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.25.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.26",
+          "word": "冗談を言う",
+          "reading": "じょうだんをいう",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.26.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.27",
+          "word": "いやみを言う",
+          "reading": "いやみをいう",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.27.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.28",
+          "word": "文句を言う",
+          "reading": "もんくをいう",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.28.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.29",
+          "word": "うそをつく",
+          "reading": "うそをつく",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.29.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.30",
+          "word": "うそつき",
+          "reading": "うそつき",
+          "pos": "noun",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.30.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.31",
+          "word": "だまる",
+          "reading": "だまる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.31.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.32",
+          "word": "自慢する",
+          "reading": "じまんする",
+          "pos": "verbal-noun",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.32.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.33",
+          "word": "いばる",
+          "reading": "いばる",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.33.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.34",
+          "word": "ふざける",
+          "reading": "ふざける",
+          "pos": "verb",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.34.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.35",
+          "word": "まねをする",
+          "reading": "まねをする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.35.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.36",
+          "word": "悪口を言う",
+          "reading": "わるくちをいう",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.36.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.37",
+          "word": "友達に恵まれる",
+          "reading": "ともだちにめぐまれる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.37.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.38",
+          "word": "友達ともめる",
+          "reading": "ともだちともめる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.38.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.39",
+          "word": "いやな態度を取る",
+          "reading": "いやなたいどをとる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.39.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.40",
+          "word": "態度を改める",
+          "reading": "たいどをあらためる",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.40.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-5.word.41",
+          "word": "失敗を人のせいにする",
+          "reading": "しっぱいをひとのせいにする",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-5.word.41.meaning",
+          "questions": []
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

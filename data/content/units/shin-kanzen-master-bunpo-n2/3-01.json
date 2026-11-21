@@ -1,0 +1,133 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.3-01",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第1課 始めと終わりが正しく対応した文",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-01.grammar.0",
+          "title": "～からには・～以上は＋義務・決意",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "引き受けた以上は、最後まで責任を持つべきだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-01.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "約束したからには、守らなければならない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-01.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-01.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "引き受けた（　）、最後まで責任を持つべきだ。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-01.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "どころか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "以上は"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりに"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-01.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-01.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-01.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-01.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-01.grammar.1",
+          "title": "～どころか＋も／さえ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼は漢字どころか、ひらがなさえ書けない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-01.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "涼しいどころか、真夏のように暑い。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-01.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-01.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "彼は漢字（　）、ひらがなしか書けない。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-01.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ながら"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "どころか"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものの"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ばかりか"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-01.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-01.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-01.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-01.grammar.1.pitfall"
+        }
+      ]
+    }
+  }
+}

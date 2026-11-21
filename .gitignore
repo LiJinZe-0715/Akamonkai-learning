@@ -1,0 +1,48 @@
+# 只忽略「本机生成、别人不需要」的东西。
+# data/、public/downloads/ 里的 APK 都是内容，正常入库；
+# public/media/ 的资源不入库，存在 GitHub 发布页 resource（见「构建产物」一节）。
+# APK 为什么随源码提交，见 .gitattributes 和 .github/workflows/deploy-pages.yml。
+
+# 依赖
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# 构建产物
+/dist/
+# scripts/build-content.mjs 从 data/ 编译出来，可再生
+/public/content/
+# 资源存在 GitHub 发布页 resource，由 data/media/manifest.json 记录，pnpm media:pull 拉回
+/public/media/
+
+# 构建日志与 e2e 截图（scripts/build-log.mjs 自建，只留最近 20 份）
+/logs/
+
+# 音频瘦身的中间产物（scripts/compress-audio.mjs 输出到 work/audio/）。
+# 下面是它的默认输入目录与本地扫描素材：原始录音/书页照片放进来别提交，
+# 转好的单声道在 public/media/，加入后用 pnpm media:publish 上传。
+# 全部锚定根目录——写成 manabo/ 会把 public/media/manabo/ 里的音频一起吞掉。
+/work/
+/生中继音频1/
+/生中继音频2/
+/manabo/
+/JLPT/
+/扫描图/
+
+# 本地配置与密钥
+.env*
+!.env.example
+# 安卓的构建中间产物由 android/.gitignore 管（.gradle/、**/build/、
+# app/src/main/assets/public/、local.properties）。签名钥匙不忽略：它要跟源码走。
+
+# 编辑器与系统残留
+/.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# AI 工具的本地状态与工作记忆
+/.workbuddy/
+/.workbuddy-ai/
+/.claude/

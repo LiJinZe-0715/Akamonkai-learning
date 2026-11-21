@@ -1,0 +1,255 @@
+{
+  "kind": "lesson",
+  "id": "sogo-nihongo-n2-goi.3-2",
+  "bookId": "sogo-nihongo-n2-goi",
+  "title": "第3週 2日目 どんな様子ですか？",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.0",
+          "word": "豊か",
+          "reading": "ゆたか",
+          "pos": "na-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.0.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.1",
+          "word": "貧しい",
+          "reading": "まずしい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.1.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.2",
+          "word": "快適",
+          "reading": "かいてき",
+          "pos": "na-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.2.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.3",
+          "word": "楽",
+          "reading": "らく",
+          "pos": "na-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.3.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.4",
+          "word": "派手",
+          "reading": "はで",
+          "pos": "na-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.4.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.5",
+          "word": "地味",
+          "reading": "じみ",
+          "pos": "na-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.5.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.6",
+          "word": "粗末",
+          "reading": "そまつ",
+          "pos": "na-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.6.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.7",
+          "word": "みじめ",
+          "reading": "みじめ",
+          "pos": "na-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.7.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.8",
+          "word": "やっかい",
+          "reading": "やっかい",
+          "pos": "na-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.8.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.9",
+          "word": "あいまい",
+          "reading": "あいまい",
+          "pos": "na-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.9.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.10",
+          "word": "ありふれた",
+          "reading": "ありふれた",
+          "pos": "expression",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.10.meaning",
+          "questions": [],
+          "analysisId": "sogo-nihongo-n2-goi.3-2.word.10.analysis"
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.11",
+          "word": "珍しい",
+          "reading": "めずらしい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.11.meaning",
+          "questions": [],
+          "contrasts": [
+            {
+              "word": "ありふれた",
+              "glossId": "sogo-nihongo-n2-goi.3-2.word.10.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.3-2.word.11.contrast.0.difference"
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.12",
+          "word": "あわただしい",
+          "reading": "あわただしい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.12.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.13",
+          "word": "さわがしい",
+          "reading": "さわがしい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.13.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.14",
+          "word": "そうぞうしい",
+          "reading": "そうぞうしい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.14.meaning",
+          "questions": [],
+          "contrasts": [
+            {
+              "word": "さわがしい",
+              "glossId": "sogo-nihongo-n2-goi.3-2.word.13.meaning",
+              "differenceId": "sogo-nihongo-n2-goi.3-2.word.14.contrast.0.difference"
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.15",
+          "word": "やかましい",
+          "reading": "やかましい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.15.meaning",
+          "questions": [],
+          "analysisId": "sogo-nihongo-n2-goi.3-2.word.15.analysis"
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.16",
+          "word": "めでたい",
+          "reading": "めでたい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.16.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.17",
+          "word": "等しい",
+          "reading": "ひとしい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.17.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.18",
+          "word": "みにくい",
+          "reading": "みにくい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.18.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.19",
+          "word": "荒っぽい",
+          "reading": "あらっぽい",
+          "pos": "i-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.19.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.20",
+          "word": "空っぽ",
+          "reading": "からっぽ",
+          "pos": "na-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.20.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.21",
+          "word": "真っ黒",
+          "reading": "まっくろ",
+          "pos": "na-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.21.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.22",
+          "word": "真っ青",
+          "reading": "まっさお",
+          "pos": "na-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.22.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.23",
+          "word": "真っ赤",
+          "reading": "まっか",
+          "pos": "na-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.23.meaning",
+          "questions": []
+        },
+        {
+          "kind": "word",
+          "id": "sogo-nihongo-n2-goi.3-2.word.24",
+          "word": "真っ白",
+          "reading": "まっしろ",
+          "pos": "na-adjective",
+          "meaningId": "sogo-nihongo-n2-goi.3-2.word.24.meaning",
+          "questions": []
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

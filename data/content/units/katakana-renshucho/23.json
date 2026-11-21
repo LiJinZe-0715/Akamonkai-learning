@@ -1,0 +1,129 @@
+{
+  "kind": "lesson",
+  "id": "katakana-renshucho.23",
+  "bookId": "katakana-renshucho",
+  "title": "第23課 洋服・他①",
+  "modules": {
+    "words": {
+      "kind": "word-module",
+      "items": [
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.23.word.0",
+          "word": "パジャマ",
+          "reading": "ぱじゃま",
+          "meaningId": "katakana-renshucho.23.word.0.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.23.word.0.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.23.word.0.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "パジャマ"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.23.word.1",
+          "word": "ネックレス",
+          "reading": "ねっくれす",
+          "meaningId": "katakana-renshucho.23.word.1.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.23.word.1.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.23.word.1.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "ネックレス"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.23.word.2",
+          "word": "マフラー",
+          "reading": "まふらー",
+          "meaningId": "katakana-renshucho.23.word.2.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.23.word.2.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.23.word.2.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "マフラー"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.23.word.3",
+          "word": "セーター",
+          "reading": "せーたー",
+          "meaningId": "katakana-renshucho.23.word.3.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.23.word.3.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.23.word.3.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "セーター"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "word",
+          "id": "katakana-renshucho.23.word.4",
+          "word": "コート",
+          "reading": "こーと",
+          "meaningId": "katakana-renshucho.23.word.4.meaning",
+          "questions": [
+            {
+              "kind": "fill-in",
+              "id": "katakana-renshucho.23.word.4.question.0",
+              "prompt": [
+                {
+                  "textId": "katakana-renshucho.23.word.4.question.0.prompt.0"
+                }
+              ],
+              "instructionId": "katakana-renshucho.instruction",
+              "requiredScript": "katakana",
+              "answer": [
+                "コート"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

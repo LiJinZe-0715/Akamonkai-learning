@@ -1,0 +1,133 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.3-07",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第7課 視点を動かさない手段-4 ～てあげる・～てもらう・～てくれる",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-07.grammar.0",
+          "title": "～てあげる／～てくれる",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "弟に日本語を教えてあげた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-07.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "友達が駅まで送ってくれた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-07.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-07.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "友達が駅まで送っ（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-07.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ていただいた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "てあげた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "てもらった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "てくれた"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-07.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-07.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-07.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-07.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-07.grammar.1",
+          "title": "～てもらう／～ていただく",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "先生に作文を直してもらった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-07.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "先生に作文を直していただいた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-07.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-07.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "先生に作文を直し（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-07.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "てくれた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "てもらった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "てしまった"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "てあげた"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-07.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-07.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-07.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-07.grammar.1.pitfall"
+        }
+      ]
+    }
+  }
+}

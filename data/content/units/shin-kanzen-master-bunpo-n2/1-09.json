@@ -1,0 +1,276 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-09",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第9課 ～に関連して・～に対応して",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-09.grammar.0",
+          "title": "～につれて・～にしたがって",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "年を取るにつれて、体力が落ちてきた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "経済の発展にしたがって、生活も豊かになった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-09.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-09.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-09.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-09.grammar.1",
+          "title": "～に伴って・～とともに",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "人口の増加に伴って、住宅が不足してきた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "技術の進歩とともに、生活は便利になった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-09.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "人口の増加（　）、住宅が不足してきた。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に対して"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "をめぐって"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に沿って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に伴って"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-09.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-09.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-09.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-09.grammar.2",
+          "title": "～次第だ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "成功するかどうかは、あなたの努力次第だ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "天候次第では、中止になることもある。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-09.grammar.2.question.0",
+              "prompt": [
+                {
+                  "japanese": "成功するかどうかは、あなたの努力（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.2.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ばかりだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "次第だ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "一方だ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "最中だ"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-09.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-09.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-09.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-09.grammar.3",
+          "title": "～に応じて",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "収入に応じて、税金の額が変わる。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "お客様のご希望に応じて、料理を作ります。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-09.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "年を取る（　）、体力が落ちてきた。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "次第で"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "につけ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に応じて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "につれて"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            },
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-09.grammar.3.question.1",
+              "prompt": [
+                {
+                  "japanese": "収入（　）、税金の額が変わる。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.3.question.1.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に応えて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に限って"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に応じて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にかけて"
+                  }
+                ]
+              ],
+              "answer": [
+                2
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-09.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-09.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-09.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-09.grammar.4",
+          "title": "～につけて",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "この写真を見るにつけ、学生時代を思い出す。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "何かにつけて、彼は文句を言う。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-09.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-09.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-09.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-09.grammar.4.pitfall"
+        }
+      ]
+    }
+  }
+}

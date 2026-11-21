@@ -1,0 +1,2135 @@
+{
+  "kind": "lesson",
+  "id": "ichinichi-jugofun-no-kanji-renshu.1",
+  "bookId": "ichinichi-jugofun-no-kanji-renshu",
+  "title": "1~30",
+  "modules": {
+    "kanji": {
+      "kind": "kanji-module",
+      "items": [
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.1",
+          "character": "一",
+          "strokeCount": 1,
+          "onReadings": [
+            "イチ",
+            "イツ"
+          ],
+          "kunReadings": [
+            "ひと",
+            "ひと.つ"
+          ],
+          "specialReadings": [
+            {
+              "word": "一人",
+              "reading": "ひとり"
+            }
+          ],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.1.word.0",
+              "word": "一",
+              "reading": "いち",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.1.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.1.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "一"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "いち"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": []
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.2",
+          "character": "二",
+          "strokeCount": 2,
+          "onReadings": [
+            "ニ"
+          ],
+          "kunReadings": [
+            "ふた",
+            "ふた.つ"
+          ],
+          "specialReadings": [
+            {
+              "word": "二人",
+              "reading": "ふたり"
+            }
+          ],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.2.word.0",
+              "word": "二",
+              "reading": "に",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.2.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.2.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "二"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "に"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": []
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.3",
+          "character": "三",
+          "strokeCount": 3,
+          "onReadings": [
+            "サン"
+          ],
+          "kunReadings": [
+            "み",
+            "みっ.つ"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.3.word.0",
+              "word": "三",
+              "reading": "さん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.3.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.3.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "三"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "さん"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": []
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.4",
+          "character": "四",
+          "strokeCount": 5,
+          "onReadings": [
+            "シ"
+          ],
+          "kunReadings": [
+            "よ",
+            "よっ.つ",
+            "よん"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.4.word.0",
+              "word": "四",
+              "reading": "よん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.4.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.4.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "四"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "よん",
+                    "し"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": []
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.5",
+          "character": "五",
+          "strokeCount": 4,
+          "onReadings": [
+            "ゴ"
+          ],
+          "kunReadings": [
+            "いつ",
+            "いつ.つ"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.5.word.0",
+              "word": "五",
+              "reading": "ご",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.5.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.5.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "五"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ご"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": []
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.6",
+          "character": "六",
+          "strokeCount": 4,
+          "onReadings": [
+            "ロク"
+          ],
+          "kunReadings": [
+            "む",
+            "むっ.つ",
+            "むい"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.6.word.0",
+              "word": "六",
+              "reading": "ろく",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.6.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.6.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "六"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ろく"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": []
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.7",
+          "character": "七",
+          "strokeCount": 2,
+          "onReadings": [
+            "シチ"
+          ],
+          "kunReadings": [
+            "なな",
+            "なな.つ",
+            "なの"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.7.word.0",
+              "word": "七",
+              "reading": "なな",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.7.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.7.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "七"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "なな",
+                    "しち"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": []
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.8",
+          "character": "八",
+          "strokeCount": 2,
+          "onReadings": [
+            "ハチ"
+          ],
+          "kunReadings": [
+            "や",
+            "やっ.つ",
+            "よう"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.8.word.0",
+              "word": "八",
+              "reading": "はち",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.8.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.8.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "八"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "はち"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": []
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.9",
+          "character": "九",
+          "strokeCount": 2,
+          "onReadings": [
+            "キュウ",
+            "ク"
+          ],
+          "kunReadings": [
+            "ここの.つ"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.9.word.0",
+              "word": "九",
+              "reading": "きゅう",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.9.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.9.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "九"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "きゅう",
+                    "く"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": []
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.10",
+          "character": "十",
+          "strokeCount": 2,
+          "onReadings": [
+            "ジュウ",
+            "ジッ"
+          ],
+          "kunReadings": [
+            "とお"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.10.word.0",
+              "word": "十",
+              "reading": "じゅう",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.10.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.10.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "十"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "じゅう",
+                    "とお"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": []
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.11",
+          "character": "百",
+          "strokeCount": 6,
+          "onReadings": [
+            "ヒャク"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.11.word.0",
+              "word": "百",
+              "reading": "ひゃく",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.11.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.11.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "百"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ひゃく"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": []
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.12",
+          "character": "千",
+          "strokeCount": 3,
+          "onReadings": [
+            "セン"
+          ],
+          "kunReadings": [
+            "ち"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.12.word.0",
+              "word": "千",
+              "reading": "せん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.12.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.12.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "千"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "せん"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": []
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.13",
+          "character": "日",
+          "strokeCount": 4,
+          "onReadings": [
+            "ニチ",
+            "ジツ"
+          ],
+          "kunReadings": [
+            "ひ",
+            "か"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.13.word.0",
+              "word": "日本人",
+              "reading": "にほんじん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.13.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.13.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "日本人"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "にほんじん",
+                    "にっぽんじん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.13.word.1",
+              "word": "日曜日",
+              "reading": "にちようび",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.13.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.13.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "日曜日"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "にちようび"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.13.word.2",
+              "word": "母の日",
+              "reading": "ははのひ",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.13.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.13.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "母の日"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ははのひ"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "わたしは[日本人:にほんじん]です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "きょうは[日曜日:にちようび]です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "ことしの[母の日:ははのひ]は5月7日です。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.14",
+          "character": "本",
+          "strokeCount": 5,
+          "onReadings": [
+            "ホン"
+          ],
+          "kunReadings": [
+            "もと"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.14.word.0",
+              "word": "本",
+              "reading": "ほん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.14.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.14.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "本"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ほん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.14.word.1",
+              "word": "～本",
+              "reading": "ほん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.14.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.14.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "～本"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ほん"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "これは[本:ほん]です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "えんぴつが[2本:にほん]（[3本:さんぼん]・[8本:はっぽん]）あります。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.15",
+          "character": "人",
+          "strokeCount": 2,
+          "onReadings": [
+            "ジン",
+            "ニン"
+          ],
+          "kunReadings": [
+            "ひと"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.15.word.0",
+              "word": "人",
+              "reading": "ひと",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.15.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.15.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "人"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ひと"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.15.word.1",
+              "word": "中国人",
+              "reading": "ちゅうごくじん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.15.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.15.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "中国人"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ちゅうごくじん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.15.word.2",
+              "word": "～人",
+              "reading": "にん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.15.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.15.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "～人"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "にん"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "あの[人:ひと]は日本[人:ひと]ですか。"
+            },
+            {
+              "kind": "sentence",
+              "text": "いいえ、[中国人:ちゅうごくじん]です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "田中さんは子どもが[3人:さんにん]います。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.16",
+          "character": "中",
+          "strokeCount": 4,
+          "onReadings": [
+            "チュウ"
+          ],
+          "kunReadings": [
+            "なか"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.16.word.0",
+              "word": "中国人",
+              "reading": "ちゅうごくじん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.16.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.16.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "中国人"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ちゅうごくじん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.16.word.1",
+              "word": "中",
+              "reading": "なか",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.16.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.16.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "中"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "なか"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.16.word.2",
+              "word": "一日中",
+              "reading": "いちにちじゅう",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.16.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.16.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "一日中"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "いちにちじゅう"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "ヤンさんは[中国人:ちゅうごくじん]です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "つくえの[中:なか]に何がありますか。"
+            },
+            {
+              "kind": "sentence",
+              "text": "きのうは[一日中:いちにちじゅう]勉強しました。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.17",
+          "character": "国",
+          "strokeCount": 8,
+          "onReadings": [
+            "コク"
+          ],
+          "kunReadings": [
+            "くに"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.17.word.0",
+              "word": "中国",
+              "reading": "ちゅうごく",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.17.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.17.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "中国"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ちゅうごく"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.17.word.1",
+              "word": "国",
+              "reading": "くに",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.17.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.17.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "国"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "くに"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.17.word.2",
+              "word": "韓国",
+              "reading": "かんこく",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.17.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.17.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "韓国"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "かんこく"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "[中国:ちゅうごく]は大きい国です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "アメリカも大きい[国:くに]です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "リーさんは[韓国:かんこく]から来ました。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.18",
+          "character": "田",
+          "strokeCount": 5,
+          "onReadings": [
+            "デン"
+          ],
+          "kunReadings": [
+            "た"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.18.word.0",
+              "word": "田中",
+              "reading": "たなか",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.18.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.18.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "田中"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "たなか"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.18.word.1",
+              "word": "山田さん",
+              "reading": "やまださん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.18.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.18.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "山田さん"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "やまださん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.18.word.2",
+              "word": "田",
+              "reading": "た",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.18.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.18.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "田"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "た"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "わたしは[田中:たなか]です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "あの人は[山田さん:やまださん]ですか。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[田:た]で米を作ります。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.19",
+          "character": "何",
+          "strokeCount": 7,
+          "onReadings": [
+            "カ"
+          ],
+          "kunReadings": [
+            "なに",
+            "なん"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.19.word.0",
+              "word": "何歳",
+              "reading": "なんさい",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.19.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.19.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "何歳"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "なんさい"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.19.word.1",
+              "word": "何",
+              "reading": "なん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.19.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.19.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "あれは「何」ですか。"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "なん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.19.word.2",
+              "word": "何",
+              "reading": "なに",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.19.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.19.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "あしたは「何」をしますか。"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "なに"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "ジョンさんは[何歳:なんさい]ですか。"
+            },
+            {
+              "kind": "sentence",
+              "text": "あれは[何:なん]ですか。"
+            },
+            {
+              "kind": "sentence",
+              "text": "あしたは[何:なに]をしますか。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.20",
+          "character": "先",
+          "strokeCount": 6,
+          "onReadings": [
+            "セン"
+          ],
+          "kunReadings": [
+            "さき"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.20.word.0",
+              "word": "先生",
+              "reading": "せんせい",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.20.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.20.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "先生"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "せんせい"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.20.word.1",
+              "word": "先に",
+              "reading": "さきに",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.20.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.20.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "先に"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "さきに"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "メアリーさんは[先生:せんせい]です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "「どうぞお[先に:さきに]。」"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.21",
+          "character": "生",
+          "strokeCount": 5,
+          "onReadings": [
+            "セイ",
+            "ショウ"
+          ],
+          "kunReadings": [
+            "い.きます",
+            "う.まれます",
+            "なま"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.21.word.0",
+              "word": "学生",
+              "reading": "がくせい",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.21.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.21.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "学生"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "がくせい"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.21.word.1",
+              "word": "誕生日",
+              "reading": "たんじょうび",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.21.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.21.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "誕生日"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "たんじょうび"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.21.word.2",
+              "word": "生きます",
+              "reading": "いきます",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.21.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.21.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "生きます"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "いきます"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.21.word.3",
+              "word": "生まれます",
+              "reading": "うまれます",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.21.word.3.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.21.word.3.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "生まれます"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "うまれます"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "わたしは[学生:がくせい]です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[誕生日:たんじょうび]は3月19日です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "わたしは100歳まで[生:い]きたいです。"
+            },
+            {
+              "kind": "sentence",
+              "text": "わたしはパリで[生:う]まれました。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.22",
+          "character": "学",
+          "strokeCount": 8,
+          "onReadings": [
+            "ガク"
+          ],
+          "kunReadings": [
+            "まな.びます"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.22.word.0",
+              "word": "学生",
+              "reading": "がくせい",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.22.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.22.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "学生"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "がくせい"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.22.word.1",
+              "word": "学校",
+              "reading": "がっこう",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.22.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.22.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "学校"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "がっこう"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.22.word.2",
+              "word": "小学校",
+              "reading": "しょうがっこう",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.22.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.22.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "小学校"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "しょうがっこう"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "パクさんも[学生:がくせい]です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "あれは[学校:がっこう]です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "リンダさんは[小学校:しょうがっこう]の先生です。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.23",
+          "character": "校",
+          "strokeCount": 10,
+          "onReadings": [
+            "コウ"
+          ],
+          "kunReadings": [],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.23.word.0",
+              "word": "学校",
+              "reading": "がっこう",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.23.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.23.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "学校"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "がっこう"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.23.word.1",
+              "word": "中学校",
+              "reading": "ちゅうがっこう",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.23.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.23.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "中学校"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ちゅうがっこう"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.23.word.2",
+              "word": "高校生",
+              "reading": "こうこうせい",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.23.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.23.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "高校生"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "こうこうせい"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "あの人は[学校:がっこう]の先生ですか。"
+            },
+            {
+              "kind": "sentence",
+              "text": "あれは[中学校:ちゅうがっこう]ですか。いいえ高校です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "弟は[高校生:こうこうせい]です。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.24",
+          "character": "門",
+          "strokeCount": 8,
+          "onReadings": [
+            "モン"
+          ],
+          "kunReadings": [
+            "かど"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.24.word.0",
+              "word": "専門",
+              "reading": "せんもん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.24.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.24.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "専門"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "せんもん"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.24.word.1",
+              "word": "門",
+              "reading": "もん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.24.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.24.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "門"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "もん"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "わたしの[専門:せんもん]はコンピューターです。"
+            },
+            {
+              "kind": "sentence",
+              "text": "あれは東京大学の[門:もん]です。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.25",
+          "character": "時",
+          "strokeCount": 10,
+          "onReadings": [
+            "ジ"
+          ],
+          "kunReadings": [
+            "とき"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.25.word.0",
+              "word": "時計",
+              "reading": "とけい",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.25.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.25.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "時計"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "とけい"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.25.word.1",
+              "word": "何時",
+              "reading": "なんじ",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.25.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.25.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "何時"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "なんじ"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.25.word.2",
+              "word": "時々",
+              "reading": "ときどき",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.25.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.25.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "時々"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ときどき"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "これはだれの[時計:とけい]ですか。"
+            },
+            {
+              "kind": "sentence",
+              "text": "毎朝[何時:なんじ]に起きますか。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[時々:ときどき]、映画を見ます。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.26",
+          "character": "計",
+          "strokeCount": 9,
+          "onReadings": [
+            "ケイ"
+          ],
+          "kunReadings": [
+            "はか.ります"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.26.word.0",
+              "word": "計ります",
+              "reading": "はかります",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.26.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.26.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "計ります"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "はかります"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.26.word.1",
+              "word": "計算します",
+              "reading": "けいさんします",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.26.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.26.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "計算します"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "けいさんします"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.26.word.2",
+              "word": "計画します",
+              "reading": "けいかくします",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.26.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.26.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "計画します"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "けいかくします"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "時間を[計ります:はかります]。"
+            },
+            {
+              "kind": "sentence",
+              "text": "今、[計算します:けいさんします]。"
+            },
+            {
+              "kind": "sentence",
+              "text": "旅行を[計画します:けいかくします]。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.27",
+          "character": "辞",
+          "strokeCount": 13,
+          "onReadings": [
+            "ジ"
+          ],
+          "kunReadings": [
+            "や.めます"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.27.word.0",
+              "word": "辞書",
+              "reading": "じしょ",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.27.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.27.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "辞書"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "じしょ"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.27.word.1",
+              "word": "辞めます",
+              "reading": "やめます",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.27.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.27.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "辞めます"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "やめます"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "これはわたしの[辞書:じしょ]です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "去年会社を[辞:や]めました。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.28",
+          "character": "書",
+          "strokeCount": 10,
+          "onReadings": [
+            "ショ"
+          ],
+          "kunReadings": [
+            "か.きます"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.28.word.0",
+              "word": "書きます",
+              "reading": "かきます",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.28.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.28.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "書きます"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "かきます"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.28.word.1",
+              "word": "書類",
+              "reading": "しょるい",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.28.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.28.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "書類"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "しょるい"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.28.word.2",
+              "word": "図書館",
+              "reading": "としょかん",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.28.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.28.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "図書館"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "としょかん"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "手紙を[書きます:かきます]。"
+            },
+            {
+              "kind": "sentence",
+              "text": "これは会社の[書類:しょるい]です。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[図書館:としょかん]はどこですか。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.29",
+          "character": "手",
+          "strokeCount": 4,
+          "onReadings": [
+            "シュ"
+          ],
+          "kunReadings": [
+            "て"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.29.word.0",
+              "word": "切手",
+              "reading": "きって",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.29.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.29.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "切手"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "きって"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.29.word.1",
+              "word": "手",
+              "reading": "て",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.29.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.29.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "手"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "て"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.29.word.2",
+              "word": "運転手",
+              "reading": "うんてんしゅ",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.29.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.29.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "運転手"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "うんてんしゅ"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "50円の[切手:きって]を2枚ください。"
+            },
+            {
+              "kind": "sentence",
+              "text": "[手:て]を洗います。"
+            },
+            {
+              "kind": "sentence",
+              "text": "わたしはタクシーの[運転手:うんてんしゅ]です。"
+            }
+          ]
+        },
+        {
+          "kind": "kanji",
+          "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.30",
+          "character": "紙",
+          "strokeCount": 10,
+          "onReadings": [
+            "シ"
+          ],
+          "kunReadings": [
+            "かみ"
+          ],
+          "specialReadings": [],
+          "words": [
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.30.word.0",
+              "word": "紙",
+              "reading": "かみ",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.30.word.0.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.30.word.0.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "紙"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "かみ"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.30.word.1",
+              "word": "手紙",
+              "reading": "てがみ",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.30.word.1.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.30.word.1.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "手紙"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "てがみ"
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "word",
+              "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.30.word.2",
+              "word": "用紙",
+              "reading": "ようし",
+              "meaningId": "ichinichi-jugofun-no-kanji-renshu.1.kanji.30.word.2.meaning",
+              "questions": [
+                {
+                  "kind": "fill-in",
+                  "id": "ichinichi-jugofun-no-kanji-renshu.1.kanji.30.word.2.question.0",
+                  "prompt": [
+                    {
+                      "japanese": "用紙"
+                    }
+                  ],
+                  "requiredScript": "any-kana",
+                  "answer": [
+                    "ようし"
+                  ]
+                }
+              ]
+            }
+          ],
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "これは[紙:かみ]ですか。"
+            },
+            {
+              "kind": "sentence",
+              "text": "それはあなたの[手紙:てがみ]ですか。"
+            },
+            {
+              "kind": "sentence",
+              "text": "これは[原稿用紙:げんこうようし]です。"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wordQuiz": true
+}

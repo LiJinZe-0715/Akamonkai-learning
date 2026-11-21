@@ -1,0 +1,325 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.1-23",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第23課 感想を言う・主張する",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-23.grammar.0",
+          "title": "～ものだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "時間がたつのは早いものだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "人の心は分からないものだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-23.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "時間がたつのは早い（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "ものだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "はずだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "わけだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-23.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-23.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-23.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-23.grammar.1",
+          "title": "～というものだ",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "困っている人を助けるのが、友達というものだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "あいさつもできないなんて、失礼というものだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-23.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "困っている人を助けるのが、友達（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にすぎない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ことだ"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "というものだ"
+                  }
+                ]
+              ],
+              "answer": [
+                3
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-23.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-23.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-23.grammar.1.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-23.grammar.2",
+          "title": "～にすぎない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "それはただの噂にすぎない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.2.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "私はまだ新入社員にすぎません。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.2.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-23.grammar.2.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.2.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-23.grammar.2.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-23.grammar.2.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-23.grammar.3",
+          "title": "～にほかならない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "彼が成功したのは、努力の結果にほかならない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.3.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "この問題は、認識不足にほかならない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.3.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-23.grammar.3.question.0",
+              "prompt": [
+                {
+                  "japanese": "彼が成功したのは、努力の結果（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.3.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "にほかならない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "に違いない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にすぎない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "ものだ"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-23.grammar.3.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.3.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-23.grammar.3.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-23.grammar.3.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-23.grammar.4",
+          "title": "～に越したことはない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "準備は早いに越したことはない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.4.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "健康に越したことはない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.4.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.1-23.grammar.4.question.0",
+              "prompt": [
+                {
+                  "japanese": "それはただの噂（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.4.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "に越したことはない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にすぎない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "にほかならない"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "というものだ"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-23.grammar.4.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.4.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-23.grammar.4.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-23.grammar.4.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-23.grammar.5",
+          "title": "～しかない・～よりほかない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "バスがないので、歩くしかない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.5.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "今は待つよりほかない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.5.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-23.grammar.5.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.5.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-23.grammar.5.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-23.grammar.5.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.1-23.grammar.6",
+          "title": "～べきだ／～べきではない",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "約束は守るべきだ。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.6.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "人の悪口を言うべきではない。",
+              "translationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.6.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [],
+          "meaningId": "shin-kanzen-master-bunpo-n2.1-23.grammar.6.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.1-23.grammar.6.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.1-23.grammar.6.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.1-23.grammar.6.pitfall"
+        }
+      ]
+    }
+  }
+}

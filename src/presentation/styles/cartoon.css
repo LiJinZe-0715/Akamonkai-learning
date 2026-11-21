@@ -1,0 +1,1364 @@
+/* 卡通皮肤：圆角、粗描边、硬边「贴纸」阴影、糖果色填充，外加弹跳动画。
+   版式（网格、间距、字号）仍在各自的文件里，这里只管长相和动效。
+   选择器尽量和原处写法一致，靠本文件排在最后生效。
+   动画一律尊重 prefers-reduced-motion（theme.css 结尾统一压掉时长）。 */
+
+/* ── 关键帧 ─────────────────────────────────────────────── */
+
+@keyframes toon-rise {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+}
+
+@keyframes toon-pop {
+    from {
+        opacity: 0;
+        transform: translateY(12px) scale(0.94);
+    }
+}
+
+@keyframes toon-stamp {
+    0% {
+        opacity: 0;
+        transform: scale(0.4) rotate(-14deg);
+    }
+    70% {
+        opacity: 1;
+        transform: scale(1.08) rotate(3deg);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes toon-wobble {
+    0%, 100% {
+        transform: rotate(-6deg);
+    }
+    20% {
+        transform: rotate(10deg) scale(1.08);
+    }
+    45% {
+        transform: rotate(-12deg) scale(1.08);
+    }
+    70% {
+        transform: rotate(4deg);
+    }
+}
+
+@keyframes toon-bob {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-4px);
+    }
+}
+
+@keyframes toon-float {
+    0%, 100% {
+        transform: translateY(0) rotate(-12deg);
+    }
+    50% {
+        transform: translateY(-10px) rotate(-4deg);
+    }
+}
+
+@keyframes toon-squish {
+    0% {
+        transform: scale(0.96, 1.04);
+    }
+    55% {
+        transform: scale(1.03, 0.97);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes toon-shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    20%, 60% {
+        transform: translateX(-5px);
+    }
+    40%, 80% {
+        transform: translateX(5px);
+    }
+}
+
+@keyframes toon-drop {
+    from {
+        opacity: 0;
+        transform: translateY(-14px);
+    }
+}
+
+@keyframes toon-candy {
+    to {
+        background-position: 24px 0;
+    }
+}
+
+@keyframes toon-pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.45;
+    }
+}
+
+/* ── 底色与标题 ─────────────────────────────────────────── */
+
+body {
+    background-color: var(--paper);
+    background-image: radial-gradient(var(--dot) 1.6px, transparent 1.8px);
+    background-size: 22px 22px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 800;
+}
+
+:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 6px;
+}
+
+/* ── 入场：页面各块依次升起，列表前十二项挨个弹出 ───────── */
+
+.app-main > * {
+    animation: toon-rise 460ms var(--glide) backwards;
+}
+
+.app-main > :nth-child(2) {
+    animation-delay: 70ms;
+}
+
+.app-main > :nth-child(3) {
+    animation-delay: 140ms;
+}
+
+.app-main > :nth-child(n+4) {
+    animation-delay: 210ms;
+}
+
+.dashboard-overview > *,
+:is(.textbook, .recent-item, .unit-entry, .word-row, .search-result, .setting-row):nth-child(-n+12) {
+    animation: toon-pop 420ms var(--bounce) backwards;
+}
+
+:is(.dashboard-overview > *, .textbook, .recent-item, .unit-entry, .word-row, .search-result, .setting-row):nth-child(2) {
+    animation-delay: 60ms;
+}
+
+:is(.textbook, .recent-item, .unit-entry, .word-row, .search-result, .setting-row):nth-child(3) {
+    animation-delay: 110ms;
+}
+
+:is(.textbook, .recent-item, .unit-entry, .word-row, .search-result, .setting-row):nth-child(4) {
+    animation-delay: 160ms;
+}
+
+:is(.textbook, .recent-item, .unit-entry, .word-row, .search-result, .setting-row):nth-child(5) {
+    animation-delay: 210ms;
+}
+
+:is(.textbook, .recent-item, .unit-entry, .word-row, .search-result, .setting-row):nth-child(6) {
+    animation-delay: 260ms;
+}
+
+:is(.textbook, .recent-item, .unit-entry, .word-row, .search-result, .setting-row):nth-child(7) {
+    animation-delay: 300ms;
+}
+
+:is(.textbook, .recent-item, .unit-entry, .word-row, .search-result, .setting-row):nth-child(8) {
+    animation-delay: 340ms;
+}
+
+:is(.textbook, .recent-item, .unit-entry, .word-row, .search-result, .setting-row):nth-child(n+9):nth-child(-n+12) {
+    animation-delay: 380ms;
+}
+
+/* ── 按钮：药丸形、描边、贴纸阴影；悬停抬起，按下压扁 ───── */
+
+:is(
+    .button-row > button,
+    .file-button,
+    .primary-button,
+    .setting-link-button,
+    .engine-download-get,
+    .guide-action,
+    .question-actions button,
+    .paged-step,
+    .paged-index-toggle,
+    .paged-jump-unanswered,
+    .empty-state button,
+    .continue-button,
+    .lesson-navigation a,
+    .library-filters button,
+    .filter-buttons button
+) {
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-pill);
+    background: var(--surface);
+    color: var(--ink);
+    box-shadow: var(--pop-sm);
+    transition: transform 180ms var(--bounce), box-shadow 160ms ease, background 160ms ease, color 160ms ease;
+}
+
+:is(
+    .button-row > button,
+    .file-button,
+    .primary-button,
+    .setting-link-button,
+    .engine-download-get,
+    .guide-action,
+    .question-actions button,
+    .paged-step,
+    .paged-index-toggle,
+    .paged-jump-unanswered,
+    .empty-state button,
+    .continue-button,
+    .lesson-navigation a,
+    .library-filters button,
+    .filter-buttons button
+):is(:hover, :focus-visible, [aria-pressed="true"], [aria-expanded="true"]):not(:disabled) {
+    border-color: var(--line);
+    background: var(--sun);
+    color: var(--on-pop);
+}
+
+@media (hover: hover) {
+    :is(
+        .button-row > button,
+        .file-button,
+        .primary-button,
+        .setting-link-button,
+        .engine-download-get,
+        .guide-action,
+        .question-actions button,
+        .paged-step,
+        .paged-index-toggle,
+        .paged-jump-unanswered,
+        .empty-state button,
+        .continue-button,
+        .lesson-navigation a,
+        .library-filters button,
+        .filter-buttons button
+    ):hover:not(:disabled) {
+        transform: translate(-1px, -3px);
+        box-shadow: var(--pop);
+    }
+}
+
+:is(
+    .button-row > button,
+    .file-button,
+    .primary-button,
+    .setting-link-button,
+    .engine-download-get,
+    .guide-action,
+    .question-actions button,
+    .paged-step,
+    .paged-index-toggle,
+    .paged-jump-unanswered,
+    .empty-state button,
+    .continue-button,
+    .lesson-navigation a,
+    .library-filters button,
+    .filter-buttons button
+):active:not(:disabled) {
+    transform: translate(2px, 2px);
+    box-shadow: 0 0 0 var(--line);
+}
+
+:is(
+    .button-row > button,
+    .question-actions button,
+    .paged-step
+):disabled {
+    box-shadow: none;
+}
+
+/* 主按钮和「继续学习」是页面上最想让人点的，直接用朱红。 */
+.primary-button.primary-button,
+.continue-button.continue-button {
+    background: var(--accent);
+    color: var(--on-accent);
+}
+
+.primary-button.primary-button:is(:hover, :focus-visible):not(:disabled),
+.continue-button.continue-button:is(:hover, :focus-visible) {
+    background: var(--accent);
+    color: var(--on-accent);
+    filter: brightness(1.08);
+}
+
+.primary-button.primary-button:disabled {
+    border-color: var(--rule-strong);
+    background: var(--surface-2);
+    color: var(--ink-3);
+    box-shadow: none;
+}
+
+.continue-button .ui-icon,
+.records-empty a .ui-icon {
+    transition: transform 200ms var(--bounce);
+}
+
+.continue-button:hover .ui-icon,
+.records-empty a:hover .ui-icon {
+    transform: translateX(5px);
+}
+
+.button-row > button.danger {
+    border-color: var(--bad);
+    color: var(--bad);
+    box-shadow: 2.5px 2.5px 0 var(--bad);
+}
+
+.button-row > button.danger:is(:hover, :focus-visible):not(:disabled) {
+    border-color: var(--bad);
+    background: var(--bad);
+    color: var(--paper);
+}
+
+/* 图标按钮：悬停时歪头，收藏 / 朗读点亮时弹一下。 */
+.icon-button {
+    border: var(--bw) solid transparent;
+    border-radius: var(--radius-pill);
+    transition: transform 200ms var(--bounce), background 140ms ease, color 140ms ease, border-color 140ms ease;
+}
+
+.icon-button:hover,
+.word-actions .icon-button:hover {
+    border-color: var(--line);
+    background: var(--sun);
+    color: var(--on-pop);
+}
+
+@media (hover: hover) {
+    .icon-button:hover {
+        transform: rotate(-10deg) scale(1.12);
+    }
+}
+
+.icon-button:active {
+    transform: scale(0.88);
+}
+
+.icon-button[aria-pressed="true"],
+.word-actions .icon-button[aria-pressed="true"] {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+    color: var(--accent);
+    animation: toon-stamp 380ms var(--bounce);
+}
+
+/* ── 表单控件 ───────────────────────────────────────────── */
+
+select {
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-sm);
+    background-color: var(--surface);
+}
+
+.paged-select {
+    padding: 4px 30px 4px 12px;
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-pill);
+    background-color: var(--surface);
+}
+
+.paged-select:focus-visible {
+    border-color: var(--accent);
+}
+
+input[type="range"] {
+    accent-color: var(--accent);
+}
+
+.library-search,
+.vocabulary-toolbar input[type="search"] {
+    padding: 10px 18px;
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-pill);
+    background: var(--surface);
+    box-shadow: var(--pop-sm);
+    transition: box-shadow 160ms ease, transform 180ms var(--bounce);
+}
+
+.library-search:focus-within,
+.vocabulary-toolbar input[type="search"]:focus {
+    border-color: var(--line);
+    box-shadow: 4px 4px 0 var(--accent);
+    transform: translate(-1px, -1px);
+}
+
+.library-search .ui-icon {
+    color: var(--accent);
+}
+
+.answer-input {
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-sm);
+    background: var(--surface);
+}
+
+.answer-input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 4px var(--accent-soft);
+}
+
+/* 分类筛选：一排各自独立的小药丸，换行也不会断成半截框。 */
+.library-filters,
+.filter-buttons {
+    gap: 8px;
+    border: 0;
+    /* 给贴纸阴影留位置。 */
+    padding: 0 3px 3px 0;
+}
+
+.library-filters button:last-child,
+.filter-buttons button:last-child {
+    border-right: var(--bw) solid var(--line);
+}
+
+/* ── 外壳 ───────────────────────────────────────────────── */
+
+.site-header {
+    border-bottom: var(--bw) solid var(--line);
+    box-shadow: 0 4px 0 var(--dot);
+}
+
+.skip-link {
+    border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+}
+
+.seal {
+    border: var(--bw) solid var(--line);
+    border-radius: 11px;
+    box-shadow: var(--pop-sm);
+    transform: rotate(-6deg);
+    animation: toon-wobble 900ms ease-in-out 300ms backwards;
+}
+
+.brand:hover .seal {
+    animation: toon-wobble 700ms ease-in-out infinite;
+}
+
+.desktop-nav {
+    align-items: center;
+    align-self: center;
+    gap: 6px;
+}
+
+.desktop-nav a {
+    padding: 8px 14px;
+    border: var(--bw) solid transparent;
+    border-radius: var(--radius-pill);
+    transition: color 140ms ease, background 140ms ease, transform 200ms var(--bounce);
+}
+
+.desktop-nav a .ui-icon {
+    opacity: 1;
+    transition: transform 240ms var(--bounce);
+}
+
+.desktop-nav a:hover {
+    background: var(--surface-2);
+}
+
+.desktop-nav a:hover .ui-icon {
+    transform: translateY(-3px) rotate(-12deg);
+}
+
+.desktop-nav a[aria-current="page"] {
+    border-color: var(--line);
+    background: var(--sun);
+    color: var(--on-pop);
+    box-shadow: var(--pop-sm);
+}
+
+.desktop-nav a[aria-current="page"]::after {
+    content: none;
+}
+
+.language-switch {
+    overflow: hidden;
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-pill);
+    background: var(--surface);
+    box-shadow: var(--pop-sm);
+}
+
+.language-switch button + button {
+    border-left: var(--bw) solid var(--line);
+}
+
+.language-switch button[aria-pressed="true"] {
+    background: var(--sun);
+    color: var(--on-pop);
+}
+
+.settings-link {
+    border: var(--bw) solid var(--line);
+    border-radius: 50%;
+    background: var(--surface);
+    box-shadow: var(--pop-sm);
+}
+
+.settings-link .ui-icon {
+    transition: transform 500ms var(--bounce);
+}
+
+.settings-link:hover,
+.settings-link[aria-current="page"] {
+    border-color: var(--line);
+    background: var(--sun);
+    color: var(--on-pop);
+}
+
+.settings-link:hover .ui-icon {
+    transform: rotate(120deg);
+}
+
+.mobile-nav {
+    border-top: var(--bw) solid var(--line);
+}
+
+.mobile-nav a {
+    position: relative;
+    isolation: isolate;
+    border-top: 0;
+    padding-top: 11px;
+}
+
+.mobile-nav a .ui-icon {
+    transition: transform 240ms var(--bounce);
+}
+
+/* 当前页：图标背后垫一颗黄色药丸，图标跳一下。 */
+.mobile-nav a[aria-current="page"]::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    z-index: -1;
+    width: 46px;
+    height: 28px;
+    margin-left: -23px;
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-pill);
+    background: var(--sun);
+    animation: toon-stamp 420ms var(--bounce);
+}
+
+.mobile-nav a[aria-current="page"] .ui-icon {
+    color: var(--on-pop);
+    animation: toon-bob 520ms var(--bounce);
+}
+
+.mobile-nav a:active .ui-icon {
+    transform: scale(0.82);
+}
+
+.notice {
+    border: var(--bw) solid var(--line);
+    border-left: 10px solid var(--accent);
+    border-radius: var(--radius-sm);
+    background: var(--surface);
+    box-shadow: var(--pop-sm);
+    animation: toon-drop 360ms var(--bounce);
+}
+
+.empty-state [role="status"] {
+    animation: toon-pulse 1.4s ease-in-out infinite;
+}
+
+/* 找不到页面、加载失败时的出口链接，长成按钮才像个出口。 */
+.empty-state a {
+    display: inline-block;
+    margin: 16px 6px 0;
+    padding: 8px 20px;
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-pill);
+    background: var(--sun);
+    color: var(--on-pop);
+    font-weight: 600;
+    box-shadow: var(--pop-sm);
+    transition: transform 180ms var(--bounce), box-shadow 160ms ease;
+}
+
+@media (hover: hover) {
+    .empty-state a:hover {
+        transform: translate(-1px, -3px);
+        box-shadow: var(--pop);
+    }
+}
+
+.empty-state a:active {
+    transform: translate(2px, 2px);
+    box-shadow: 0 0 0 var(--line);
+}
+
+/* ── 卡片 ───────────────────────────────────────────────── */
+
+.continue-card,
+.learning-snapshot,
+.grammar-panel,
+.passage-panel,
+.result-panel,
+.search-result,
+.speech-diagnostics,
+.engine-download,
+.records-empty {
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+    box-shadow: var(--pop);
+}
+
+/* 黄色卡片上的字在深浅主题下都得是深色：就地改写墨色变量，里面的规则不用逐条重写。 */
+.continue-card,
+.result-panel {
+    --ink: var(--on-pop);
+    --ink-2: var(--on-pop-2);
+    --ink-3: var(--on-pop-2);
+    --rule-strong: var(--on-pop);
+    position: relative;
+    overflow: hidden;
+    background: var(--sun);
+    color: var(--ink);
+}
+
+/* 右下角飘着一个大大的「あ」。 */
+.continue-card::after {
+    content: "あ";
+    position: absolute;
+    right: 14px;
+    bottom: -18px;
+    font-size: calc(72px * var(--font-scale));
+    font-weight: 800;
+    line-height: 1;
+    color: var(--on-pop);
+    opacity: 0.1;
+    pointer-events: none;
+    animation: toon-float 5s ease-in-out infinite;
+}
+
+.continue-card > * {
+    position: relative;
+    z-index: 1;
+}
+
+.continue-tag {
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-pill);
+    background: #ffffff;
+    color: var(--on-pop);
+}
+
+.continue-label .ui-icon {
+    animation: toon-bob 1.6s ease-in-out infinite;
+}
+
+/* 三个数字各占一颗糖果色气泡。 */
+.snapshot-grid {
+    gap: 10px;
+    border-top: 0;
+    padding-top: 6px;
+}
+
+.snapshot-grid > div,
+.snapshot-grid > div + div {
+    --ink-3: var(--on-pop-2);
+    padding: 12px 12px 10px;
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-sm);
+    background: var(--mint);
+    color: var(--on-pop);
+    animation: toon-stamp 520ms var(--bounce) 260ms backwards;
+}
+
+.snapshot-grid > div:nth-child(2) {
+    background: var(--sky);
+    animation-delay: 360ms;
+}
+
+.snapshot-grid > div:nth-child(3) {
+    background: var(--pink);
+    animation-delay: 460ms;
+}
+
+@media (hover: hover) {
+    .snapshot-grid > div {
+        transition: transform 220ms var(--bounce);
+    }
+
+    .snapshot-grid > div:hover {
+        transform: translateY(-4px) rotate(-2deg);
+    }
+}
+
+/* 区块标题：实线换成虚线，标题前面蹲一颗会跳的红点。 */
+.dashboard-section-heading {
+    border-bottom: 3px dashed var(--rule-strong);
+}
+
+.dashboard-section-heading :is(h1, h2) {
+    display: flex;
+    align-items: center;
+    gap: 0.45em;
+}
+
+.dashboard-section-heading :is(h1, h2)::before {
+    content: "";
+    flex: none;
+    width: 0.62em;
+    height: 0.62em;
+    border: var(--bw) solid var(--line);
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: var(--pop-sm);
+    animation: toon-bob 2.2s ease-in-out infinite;
+}
+
+.library-level h3 {
+    border-bottom: 0;
+}
+
+/* 教材：一本一张卡片，左边一条彩色书脊。 */
+.textbook-list {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, calc(210px * var(--font-scale))), 1fr));
+    gap: 16px;
+    margin-top: 6px;
+    padding-right: 4px;
+}
+
+.textbook {
+    position: relative;
+    overflow: hidden;
+    padding: 18px 16px 18px 26px;
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+    box-shadow: var(--pop-sm);
+    transition: transform 220ms var(--bounce), box-shadow 180ms ease;
+}
+
+.textbook::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 10px;
+    border-right: var(--bw) solid var(--line);
+    background: var(--sun);
+}
+
+.textbook:nth-child(4n+2)::before {
+    background: var(--sky);
+}
+
+.textbook:nth-child(4n+3)::before {
+    background: var(--mint);
+}
+
+.textbook:nth-child(4n+4)::before {
+    background: var(--pink);
+}
+
+.textbook:hover {
+    border-color: var(--line);
+    background: var(--surface);
+}
+
+.textbook > .ui-icon {
+    box-sizing: content-box;
+    padding: 6px;
+    border: var(--bw) solid var(--line);
+    border-radius: 50%;
+    background: var(--sun);
+    color: var(--on-pop);
+    transition: transform 220ms var(--bounce);
+}
+
+.textbook:hover > .ui-icon {
+    color: var(--on-pop);
+}
+
+/* 行式卡片：最近练习、课次目录、单词。 */
+.recent-list,
+.unit-list,
+.vocabulary-list,
+.search-results {
+    gap: 12px;
+    margin-top: 16px;
+    padding-right: 4px;
+}
+
+.recent-item,
+.unit-entry,
+.word-row {
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-sm);
+    background: var(--surface);
+    box-shadow: var(--pop-sm);
+    transition: transform 220ms var(--bounce), box-shadow 180ms ease, background 140ms ease;
+}
+
+.recent-item,
+.unit-entry {
+    padding-inline: 18px 14px;
+}
+
+.recent-item:hover,
+.unit-entry:hover,
+.word-row:hover {
+    border-color: var(--line);
+    background: var(--surface);
+}
+
+.unit-entry[aria-current="location"] {
+    border-color: var(--line);
+    background: var(--accent-soft);
+}
+
+.search-result {
+    border-radius: var(--radius-sm);
+    box-shadow: var(--pop-sm);
+    transition: transform 220ms var(--bounce), box-shadow 180ms ease;
+}
+
+.search-result:hover,
+.search-result:focus-visible {
+    border-color: var(--line);
+}
+
+@media (hover: hover) {
+    .textbook:hover {
+        transform: translate(-2px, -4px) rotate(-0.8deg);
+        box-shadow: var(--pop-lg);
+    }
+
+    :is(.recent-item, .unit-entry, .search-result):hover {
+        transform: translate(-2px, -3px);
+        box-shadow: var(--pop);
+    }
+
+    .word-row:hover {
+        box-shadow: var(--pop);
+    }
+}
+
+:is(.textbook, .recent-item, .unit-entry, .search-result):active {
+    transform: translate(2px, 2px);
+    box-shadow: 0 0 0 var(--line);
+}
+
+.row-number {
+    display: grid;
+    place-items: center;
+    align-self: start;
+    min-height: calc(18px * var(--font-scale));
+    padding-top: 0;
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-pill);
+    background: var(--surface-2);
+    color: var(--ink-2);
+}
+
+.recent-score {
+    color: var(--accent);
+}
+
+.records-empty {
+    padding: 26px var(--pad-inline) 28px;
+    border: var(--bw) dashed var(--line);
+    box-shadow: none;
+}
+
+.records-empty-icon {
+    border: var(--bw) solid var(--line);
+    border-radius: 50%;
+    background: var(--mint);
+    color: var(--on-pop);
+    box-shadow: var(--pop-sm);
+    animation: toon-bob 2s ease-in-out infinite;
+}
+
+.records-empty a {
+    border-bottom: 3px solid var(--accent);
+}
+
+/* ── 课次页 ─────────────────────────────────────────────── */
+
+.lesson-controls {
+    border-bottom: 0;
+}
+
+.lesson-heading {
+    border-bottom: 3px dashed var(--rule-strong);
+}
+
+.lesson-modes {
+    gap: 6px;
+    padding: 8px 4px 10px 0;
+    border-top: 0;
+    border-bottom: 3px dashed var(--rule);
+}
+
+.lesson-modes a {
+    border: var(--bw) solid transparent;
+    border-radius: var(--radius-pill);
+    transition: color 140ms ease, background 140ms ease, transform 200ms var(--bounce);
+}
+
+.lesson-modes a:hover {
+    background: var(--surface-2);
+}
+
+.lesson-modes a[aria-current="page"] {
+    border-color: var(--line);
+    background: var(--sun);
+    color: var(--on-pop);
+    box-shadow: var(--pop-sm);
+    animation: toon-squish 360ms var(--bounce);
+}
+
+.lesson-navigation {
+    border-top: 3px dashed var(--rule-strong);
+}
+
+.lesson-navigation a {
+    border-radius: var(--radius);
+}
+
+.article-image,
+.question-image {
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-sm);
+}
+
+/* ── 翻页条 ─────────────────────────────────────────────── */
+
+.paged-bar {
+    border-top: 0;
+    border-bottom: 3px dashed var(--rule);
+}
+
+.paged-row {
+    padding: 8px 4px 9px 0;
+}
+
+.paged-modules button {
+    border-bottom-width: 4px;
+    border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+}
+
+.paged-modules button[aria-current="true"] {
+    background: var(--surface-2);
+}
+
+.paged-contents button {
+    padding-inline: 8px;
+    border-radius: 8px;
+}
+
+.paged-progress {
+    height: 8px;
+    overflow: hidden;
+    border-radius: var(--radius-pill);
+}
+
+/* 进度条：流动的糖果条纹。 */
+.paged-progress > span {
+    border-radius: var(--radius-pill);
+    background-image: repeating-linear-gradient(-45deg, transparent 0 6px, rgb(255 255 255 / 0.35) 6px 12px);
+    background-color: var(--accent);
+    background-size: 24px 100%;
+    animation: toon-candy 900ms linear infinite;
+    transition: width 420ms var(--bounce);
+}
+
+.paged[data-direction="1"] .paged-page[data-active="true"] {
+    animation: toon-flip-next 320ms var(--bounce) both;
+}
+
+.paged[data-direction="-1"] .paged-page[data-active="true"] {
+    animation: toon-flip-previous 320ms var(--bounce) both;
+}
+
+@keyframes toon-flip-next {
+    from {
+        opacity: 0;
+        transform: translateX(34px) rotate(1.2deg);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes toon-flip-previous {
+    from {
+        opacity: 0;
+        transform: translateX(-34px) rotate(-1.2deg);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.assessment > progress,
+.exam-paper > progress {
+    height: 10px;
+    overflow: hidden;
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-pill);
+    background: var(--surface);
+}
+
+.assessment > progress::-webkit-progress-bar,
+.exam-paper > progress::-webkit-progress-bar {
+    background: var(--surface);
+}
+
+.assessment > progress::-webkit-progress-value,
+.exam-paper > progress::-webkit-progress-value {
+    border-radius: var(--radius-pill);
+    transition: width 420ms var(--bounce);
+}
+
+/* ── 汉字 ───────────────────────────────────────────────── */
+
+.kanji-grid {
+    gap: 8px;
+    padding: 0 4px 4px 0;
+    border: 0;
+}
+
+.kanji-cell {
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-sm);
+    background: var(--surface);
+    box-shadow: 2px 2px 0 var(--line);
+    transition: transform 220ms var(--bounce), background 140ms ease, color 140ms ease;
+}
+
+.kanji-cell:hover,
+.kanji-cell[aria-current="true"] {
+    background: var(--sun);
+    color: var(--on-pop);
+}
+
+.kanji-cell:hover .kanji-index,
+.kanji-cell[aria-current="true"] .kanji-index {
+    color: var(--on-pop);
+    opacity: 0.7;
+}
+
+@media (hover: hover) {
+    .kanji-cell:hover {
+        transform: translateY(-4px) rotate(-5deg) scale(1.06);
+    }
+}
+
+.kanji-cell:active {
+    transform: scale(0.92);
+}
+
+/* 字形放进一张田字格贴纸里。 */
+.kanji-glyph {
+    display: grid;
+    place-items: center;
+    width: min(100%, calc(118px * var(--font-scale)));
+    aspect-ratio: 1;
+    margin-inline: auto;
+    border: var(--bw) solid var(--line);
+    border-radius: 22px;
+    background: repeating-linear-gradient(90deg, var(--rule) 0 6px, transparent 6px 12px) center / 100% 2px no-repeat,
+    repeating-linear-gradient(0deg, var(--rule) 0 6px, transparent 6px 12px) center / 2px 100% no-repeat,
+    var(--surface);
+    box-shadow: var(--pop);
+    transform: rotate(-2deg);
+    animation: toon-stamp 520ms var(--bounce) backwards;
+}
+
+.kanji-profile {
+    border-bottom: 3px dashed var(--rule);
+}
+
+/* ── 文法与课文 ─────────────────────────────────────────── */
+
+.grammar-head,
+.passage-head,
+.passage-caption,
+.assessment-heading,
+.exam-section-head {
+    border-bottom: 3px dashed var(--rule-strong);
+}
+
+.grammar-no {
+    padding: 2px 9px;
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-pill);
+    background: var(--accent);
+    color: var(--on-accent);
+}
+
+.grammar-panel,
+.passage-panel {
+    overflow: hidden;
+}
+
+.panel-label::before {
+    width: 9px;
+    height: 9px;
+    border: var(--bw) solid var(--line);
+    border-radius: 50%;
+}
+
+.tone-pattern .explain-body {
+    border: var(--bw) dashed var(--line);
+    border-radius: var(--radius-sm);
+}
+
+.passage-section {
+    border: var(--bw) solid var(--line);
+    border-left-width: 8px;
+    border-radius: var(--radius-sm);
+}
+
+.passage-role,
+.exam-section-module {
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-pill);
+    background: var(--sky);
+    color: var(--on-pop);
+}
+
+.grammar-rule {
+    border-left: 3px dashed var(--rule-strong);
+}
+
+/* 逐句精读：句子之间用虚线隔开，句号和例句号变成小圆牌。 */
+.sentence,
+.example {
+    border-color: var(--rule);
+    border-style: dashed;
+    border-width: 0;
+}
+
+.sentence {
+    border-bottom-width: 2px;
+}
+
+.example {
+    border-top-width: 2px;
+}
+
+.sentence-no,
+.example-no {
+    display: inline-grid;
+    place-items: center;
+    justify-self: start;
+    align-self: start;
+    width: fit-content;
+    min-width: calc(18px * var(--font-scale));
+    margin-top: 4px;
+    padding: 1px 6px;
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-pill);
+    background: var(--surface-2);
+    color: var(--ink-2);
+    letter-spacing: 0.02em;
+}
+
+/* 「译」是蓝牌，「拆解」是黄牌，一眼分得开。标签带了描边，标签列跟着放宽一点。 */
+:root {
+    --line-tag-width: calc(34px * var(--font-scale));
+}
+
+:lang(en) {
+    --line-tag-width: calc(70px * var(--font-scale));
+}
+
+.jline-tag,
+.jline-note.is-note .jline-tag {
+    justify-self: start;
+    align-self: start;
+    margin-top: 3px;
+    padding: 0 5px;
+    border: 1.5px solid var(--line);
+    border-radius: var(--radius-pill);
+    background: var(--sky);
+    color: var(--on-pop);
+    letter-spacing: 0.02em;
+}
+
+.jline-note.is-note .jline-tag {
+    background: var(--sun);
+}
+
+.speech-diagnostics,
+.engine-download {
+    border-radius: var(--radius-sm);
+    box-shadow: var(--pop-sm);
+}
+
+.engine-download {
+    border-left: 10px solid var(--accent);
+}
+
+.speech-voice-tag {
+    border-radius: var(--radius-pill);
+}
+
+/* ── 测验 ───────────────────────────────────────────────── */
+
+.question {
+    border-bottom: 3px dashed var(--rule);
+}
+
+.question-number {
+    padding: 2px 9px;
+    border: var(--bw) solid var(--line);
+    border-radius: var(--radius-pill);
+    background: var(--surface);
+    color: var(--ink);
+}
+
+.question.correct .question-number {
+    background: var(--mint);
+    color: var(--on-pop);
+    animation: toon-stamp 420ms var(--bounce);
+}
+
+.question.incorrect .question-number {
+    background: var(--pink);
+    color: var(--on-pop);
+    animation: toon-stamp 420ms var(--bounce);
+}
+
+.options {
+    gap: 10px;
+    padding-right: 4px;
+    border-top: 0;
+}
+
+.options label {
+    border: var(--bw) solid var(--line);
+    border-radius: 14px;
+    background: var(--surface);
+    transition: transform 200ms var(--bounce), background 140ms ease, box-shadow 160ms ease;
+}
+
+@media (hover: hover) {
+    .options label:hover {
+        transform: translateX(5px);
+    }
+}
+
+.options label:active {
+    transform: scale(0.985);
+}
+
+.options label.selected {
+    --ink-3: var(--on-pop-2);
+    background: var(--sun);
+    color: var(--on-pop);
+    box-shadow: var(--pop-sm);
+    animation: toon-squish 340ms var(--bounce);
+}
+
+.options label.answer-key,
+.options label.selected.answer-key {
+    --ink-3: var(--on-pop-2);
+    border-color: var(--line);
+    background: var(--mint);
+    color: var(--on-pop);
+    box-shadow: var(--pop-sm);
+}
+
+/* 判完分：选错的那一项变粉、晃两下。 */
+.question.incorrect .options label.selected:not(.answer-key) {
+    background: var(--pink);
+    animation: toon-shake 420ms ease-in-out;
+}
+
+.options input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    border: var(--bw) solid var(--line);
+    background: var(--surface);
+}
+
+.options input[type="radio"]:checked {
+    border-color: var(--line);
+    background: var(--accent);
+    box-shadow: inset 0 0 0 3px #ffffff;
+}
+
+.feedback {
+    border: var(--bw) solid var(--line);
+    border-left: 10px solid var(--accent);
+    border-radius: var(--radius-sm);
+    animation: toon-pop 360ms var(--bounce);
+}
+
+.submit-area {
+    border-top: 3px dashed var(--rule-strong);
+}
+
+/* 成绩单：一张歪着贴上去的黄贴纸，分数自己蹦出来。 */
+.result-panel {
+    border-width: var(--bw);
+    animation: toon-stamp 560ms var(--bounce);
+}
+
+.result-panel > strong {
+    display: inline-block;
+    animation: toon-stamp 640ms var(--bounce) 220ms backwards;
+}
+
+/* ── 设置与指南 ─────────────────────────────────────────── */
+
+.setting-row {
+    border-bottom: 2px dashed var(--rule);
+}
+
+.text-scale-reset {
+    border-bottom-width: 2px;
+}
+
+.guide-header {
+    border-bottom: 3px dashed var(--rule-strong);
+}
+
+.guide-steps li {
+    border-top: 2px dashed var(--rule);
+}
+
+.guide-steps li::before {
+    display: grid;
+    place-items: center;
+    align-self: flex-start;
+    flex-basis: auto;
+    min-width: calc(22px * var(--font-scale));
+    height: calc(22px * var(--font-scale));
+    padding: 0 6px;
+    border: var(--bw) solid var(--line);
+    border-radius: 50%;
+    background: var(--sun);
+    color: var(--on-pop);
+    font-weight: 700;
+    box-shadow: var(--pop-sm);
+}

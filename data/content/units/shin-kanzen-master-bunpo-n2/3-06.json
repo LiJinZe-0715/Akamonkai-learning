@@ -1,0 +1,133 @@
+{
+  "kind": "lesson",
+  "id": "shin-kanzen-master-bunpo-n2.3-06",
+  "bookId": "shin-kanzen-master-bunpo-n2",
+  "title": "第6課 視点を動かさない手段-3 受身・使役・使役受身",
+  "modules": {
+    "grammar": {
+      "kind": "grammar-module",
+      "items": [
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-06.grammar.0",
+          "title": "受身（迷惑の受身）",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "友達に来られて、勉強できなかった。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-06.grammar.0.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "電車で足を踏まれた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-06.grammar.0.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-06.grammar.0.question.0",
+              "prompt": [
+                {
+                  "japanese": "友達に（　）、勉強できなかった。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-06.grammar.0.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "来させられて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "来られて"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "来て"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "来させて"
+                  }
+                ]
+              ],
+              "answer": [
+                1
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-06.grammar.0.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-06.grammar.0.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-06.grammar.0.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-06.grammar.0.pitfall"
+        },
+        {
+          "kind": "grammar",
+          "id": "shin-kanzen-master-bunpo-n2.3-06.grammar.1",
+          "title": "使役・使役受身",
+          "examples": [
+            {
+              "kind": "sentence",
+              "text": "母は子供に部屋を掃除させた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-06.grammar.1.example.0.translation"
+            },
+            {
+              "kind": "sentence",
+              "text": "子供のころ、毎日ピアノを練習させられた。",
+              "translationId": "shin-kanzen-master-bunpo-n2.3-06.grammar.1.example.1.translation"
+            }
+          ],
+          "noteIds": [],
+          "children": [],
+          "questions": [
+            {
+              "kind": "choice",
+              "id": "shin-kanzen-master-bunpo-n2.3-06.grammar.1.question.0",
+              "prompt": [
+                {
+                  "japanese": "子供のころ、毎日ピアノを練習（　）。"
+                }
+              ],
+              "explanationId": "shin-kanzen-master-bunpo-n2.3-06.grammar.1.question.0.explanation",
+              "options": [
+                [
+                  {
+                    "japanese": "させられた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "された"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "させた"
+                  }
+                ],
+                [
+                  {
+                    "japanese": "してもらった"
+                  }
+                ]
+              ],
+              "answer": [
+                0
+              ]
+            }
+          ],
+          "meaningId": "shin-kanzen-master-bunpo-n2.3-06.grammar.1.meaning",
+          "formationId": "shin-kanzen-master-bunpo-n2.3-06.grammar.1.formation",
+          "usageId": "shin-kanzen-master-bunpo-n2.3-06.grammar.1.usage",
+          "pitfallId": "shin-kanzen-master-bunpo-n2.3-06.grammar.1.pitfall"
+        }
+      ]
+    }
+  }
+}
